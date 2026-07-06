@@ -1,0 +1,22 @@
+{% for slide in data.slides %}
+
+{% if slide.get("exercise") == "unscramble" %}
+{{ unscramble_pair(slide.scrambled, slide.correct, duration=slide.get("duration", 3), easing=slide.get("easing", "ease-in-out"), title=slide.title, notes=slide.notes) }}
+
+{% else %}
+{% set is_auto = slide.get("auto_animate") %}
+<section {{ slide_bg(color="#fafafa") }} {% if is_auto %}{{ html_attrs(auto_animate=True, auto_animate_duration=2, auto_animate_unmatched="fade") }}{% else %}{{ slide_transition(slide.transition) }}{% endif %}>
+  <div {{ html_attrs(background_color=slide.stage) }}>
+    <small>{{ slide.stage }}</small>
+  </div>
+  <h2 {% if is_auto %}{{ auto_animate_attrs(data_id="title") }}{% endif %}>{{ slide.title }}</h2>
+
+  {% if slide.body %}
+  <p>{{ slide.body | replace("\n", "<br>") }}</p>
+  {% endif %}
+
+  {{ slide.notes | notes }}
+</section>
+{% endif %}
+
+{% endfor %}

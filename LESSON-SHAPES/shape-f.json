@@ -1,0 +1,28 @@
+{
+  "name": "Shape F - Productive Skills (Traditional)",
+  "description": "Traditional productive skills lesson with preparation stages followed by speaking or writing output.",
+  "pedagogical_justification": "Here the focus is on helping learners practice their speaking or writing skills. The overall lesson aim here will usually be something like: By the end of the lesson, learners will be better able to give their opinions on the topic of holiday destinations. By the end of the lesson, the learners will be better able to write a personal email on their everyday routines. The lesson can usually be divided into preparation for speaking/writing and speaking/writing task stages.\n",
+  "main_aim_format": "By the end of the lesson, learners will be better able to [speak/write] about [topic] / By the end of the lesson, learners will have [written/spoken] [output type] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have written a paragraph on a type of technology and why it's useful using topic and supporting sentences and connecting words (firstly, for example, furthermore, in other words, on the other hand, however and as a result).<br><b>Teacher:</b><br>[Teacher Name]<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>34 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Writing)<br><b>Materials:</b><br>Writing worksheet, scissors for display work preparation<br><b>Assessment:</b><br>Writing CA (paragraph with topic sentence, supporting sentences, and connecting words)<br><b>Skills:</b><br>Writing\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To lead-in",
+        "procedure": "- Elicit from Ss what they learned yesterday (connecting words, topic and supporting sentences).\n- Tell Ss that today we will follow-up on this topic.\n- Ss work in teams. 1 mini WB per student. Tell them that yesterday they studied 7 connecting words.\n- They have 1 minute to come up with as many connecting words as possible. 1 min.\n- Feedback. \n",
+        "time": 4,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Writing task (process writing) – CA – Display Work",
+        "stage_number": 2,
+        "stage_aim": "To writing task (process writing) – ca – display work",
+        "procedure": "**First draft**\n- Ss choose one type of technology on PP or any other type they'd like and write a paragraph on why it's useful.\n- Emphasize that they have to use connecting words, 1 main argument (topic sentence) and at least 3 supporting ideas.\n- Their paragraph must have at least 50 words.\n- Ss carry out the writing task. 15 min.\n- Peer editing (criteria on PP). 3 min.\n\n**Final draft**\n- Ss incorporate their partners' feedback and prepare the final version for display work.\n- Hand out the writing worksheet. 10 min. Collect the worksheet.\n- Then, Ss get the scissors and cut up their speech bubble for display work. 3 min.\n",
+        "time": 30,
+        "interaction": "S"
+      }
+    ]
+  },
+  "note": "For middle schoolers interested in SCR approach to productive skills, see Shape J instead.\n"
+}

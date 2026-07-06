@@ -1,0 +1,36 @@
+{
+  "name": "Shape E - Receptive Skills (Traditional)",
+  "description": "Traditional receptive skills lesson focusing on practicing listening or reading sub-skills.",
+  "pedagogical_justification": "Here the focus is not on language but on practicing receptive skills and helping learners process written and audio text. The overall aims might be: By the end of the lesson, learners will have practiced and developed the sub-skills of listening for gist and detailed comprehension. You should also include the context as part of the aim, e.g. … in the context of a radio programme on fashion.\n",
+  "main_aim_format": "By the end of the lesson, learners will have practiced and developed the sub-skills of [reading/listening] for [gist/detail/specific information] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have practiced and developed the sub-skills of reading for detail and specific information and to identify facts and opinions in the context of an article about saving languages.<br><b>Teacher:</b><br>[Teacher Name]<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>30 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>E (Receptive Skills - Reading)<br><b>Materials:</b><br>Student Book pages 110-111, worksheet for true/false reading task<br><b>Assessment:</b><br>Reading comprehension CA<br><b>Skills:</b><br>Reading\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To lead-in",
+        "procedure": "- Part 1 – Mini WB. 1 per student. Ss work in teams to answer the question \"How many languages are spoken in the world?\" (approximately 7,000). Tell Ss that the team that gets the closest answer wins. 1 min. Feedback.\n- Part 2 – Display the following sentence on PP. \"By the end of the century, 3,500 will have disappeared\". In pairs, Ss decide if the sentence is true or false and why (it's true). 1 min. Feedback. In new pairs, Ss tell each other 3 reasons why this is a bad thing. 2 min. Feedback.\n- Part 3 – Display a picture/painting of native Americans and Europeans on PP. In new pairs, Ss tell each other what they know about what happened when the Europeans came to America, especially relate to language. 1 min. Feedback.\n",
+        "time": 6,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Reading for detail and specific information",
+        "stage_number": 2,
+        "stage_aim": "To reading for detail and specific information",
+        "procedure": "- Jigsaw reading – 4 paragraphs. Each table is assigned 1 paragraph. Ss read write what their paragraph says in 2 sentences. 3 min. Then, rearrange the tables so that each team has 1 of the 4 paragraphs. Ss work together to get the summarized info of the other paragraphs. 8 min.\n- Reading for detail + CA – tell ss to open their books to page 111. Hand out the worksheet. Tell Ss to read the text again to decide if the sentences are true or false and to correct the false ones. Tell Ss that this will be a CA. Elicit rules. 8 min. Then, Ss swap worksheets and check each other's score. Collect scores.\n",
+        "time": 22,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Post-reading speaking task",
+        "stage_number": 3,
+        "stage_aim": "To post-reading speaking task",
+        "procedure": "- In pairs, Ss tell each other if they agree that the languages of Native American Tribes should be saved and passed on to the next generation and why. 2 min. Content + language feedback.\n",
+        "time": 2,
+        "interaction": "Ss-Ss"
+      }
+    ]
+  },
+  "note": "For middle schoolers interested in SCR approach to receptive skills, see Shape H instead.\n"
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Have You Ever? — Present Perfect",
+  "author": "Lesson Plan Writer 4",
+  "theme": "white",
+  "slides": [
+    {
+      "layout": "content",
+      "id": "warm-up",
+      "step": 1,
+      "title": "Have you ever...?",
+      "body": "Think of something amazing you did!",
+      "notes": "Show the picture. Elicit: 'Have you ever eaten something strange?' (2 min). ICQ: Are you thinking or writing?"
+    },
+    {
+      "layout": "content",
+      "id": "pres-form",
+      "step": 1,
+      "title": "Present Perfect — Form",
+      "body": "**have / has** + past participle",
+      "notes": "Write on board: I have visited. She has eaten. They have seen. Drill pronunciation of participles. (3 min)"
+    },
+    {
+      "layout": "content",
+      "id": "pres-ever-never",
+      "step": 1,
+      "title": "Ever and Never",
+      "body": "Ever = in your life?\nNever = not in my life",
+      "notes": "Example: 'Have you ever been to the beach?' 'I have never been to the beach.' Elicit more examples. (3 min)"
+    },
+    {
+      "layout": "auto_animate_pair",
+      "id": "pres-tense-forms",
+      "step": 1,
+      "title": "Affirmative",
+      "body": "I **have** seen that movie.",
+      "notes": "Show affirmative. Point out: have + past participle 'seen'. (1 min)"
+    },
+    {
+      "layout": "auto_animate_pair",
+      "id": "pres-tense-forms",
+      "step": 2,
+      "title": "Negative",
+      "body": "I have **not** seen that movie.",
+      "notes": "Point out: NOT goes between have and past participle. (1 min)"
+    },
+    {
+      "layout": "auto_animate_pair",
+      "id": "pres-tense-forms",
+      "step": 3,
+      "title": "Question",
+      "body": "**Have** I seen that movie?",
+      "notes": "Point out: HAVE moves to the start. (1 min)"
+    },
+    {
+      "layout": "content",
+      "id": "controlled-choose",
+      "step": 1,
+      "title": "Choose the correct form",
+      "body": "She ___ (**has** / have)\nvisited London.",
+      "notes": "Show fragment first (blank), next click reveals answer 'has'. Wait 5 seconds between clicks. (2 min). ICQ: Are you writing or just looking?"
+    },
+    {
+      "layout": "raw",
+      "id": "unscramble",
+      "step": 1,
+      "body": "<section data-auto-animate><h2>Unscramble the sentence</h2><p data-id=\"row\"><span data-id=\"you\">you</span> <span data-id=\"ever\">ever</span> <span data-id=\"have\">have</span> <span data-id=\"eaten\">eaten</span> <span data-id=\"sushi?\">sushi?</span></p></section>\n<section data-auto-animate><h2>Unscramble the sentence</h2><p data-id=\"row\"><span data-id=\"have\">Have</span> <span data-id=\"you\">you</span> <span data-id=\"ever\">ever</span> <span data-id=\"eaten\">eaten</span> <span data-id=\"sushi?\">sushi?</span></p></section>",
+      "notes": "Students write the correct order. Then the words fly into place. (2 min)"
+    },
+    {
+      "layout": "content",
+      "id": "freer-ask",
+      "step": 1,
+      "title": "Ask your partner!",
+      "body": "Have you ever eaten Thai food?\nHave you ever gone to the beach?\nHave you ever seen a ghost?",
+      "notes": "Pair work. Student A asks, Student B answers 'Yes, I have / No, I haven't.' (4 min). Monitor and take notes for error correction."
+    },
+    {
+      "layout": "content",
+      "id": "freer-report",
+      "step": 1,
+      "title": "Report your partner",
+      "body": "She has eaten Thai food.\nHe has never gone to the beach.",
+      "notes": "Students report to class: 'She has eaten Thai food.' 'He has never gone to the beach.' (3 min). Expected: have/has + past participle."
+    },
+    {
+      "layout": "content",
+      "id": "production-truths",
+      "step": 1,
+      "title": "Two Truths, One Lie",
+      "body": "Write three things you have done.\nOne is not true.\nYour partner guesses the lie!",
+      "notes": "Example: 'I have climbed a mountain. I have eaten snake. I have flown a plane.' Partners guess the lie. (5 min)"
+    },
+    {
+      "layout": "content",
+      "id": "closing",
+      "step": 1,
+      "title": "Great job today!",
+      "body": "Now I can talk about my experiences!",
+      "notes": "Exit ticket: 'What is one thing you have done that you are proud of?' (2 min). Next class: Present Perfect with 'just, already, yet'."
+    }
+  ]
+}

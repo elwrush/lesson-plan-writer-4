@@ -1,0 +1,43 @@
+{
+  "name": "Shape B - Language Practice",
+  "description": "Follow-on practice lesson from Shape A or C, with varied practice stages moving from controlled to freer.",
+  "pedagogical_justification": "This is connected to/follows on from lesson shape A or C. This lesson may follow a previous one where the teacher would have clarified the target language but decided that the students need more practice. It will involve different practice stages, e.g. controlled written practice, controlled oral practice, less controlled written/speaking practice and freer written/oral practice. The overall lesson aim might be: By the end of the lesson, learners will have had an opportunity to practice using going to and will be better able to talk about their plans for the weekend. Remember to try to have a variety of task types and focuses, moving from more controlled to freer. Remember that this lesson is the second part of the previous lesson, so if you use a lead-in, keep the same context, if possible. This type of lesson may need some student preparation, e.g. pre-teaching vocab, group discussion, role preparation. Feedback stages are also important.\n",
+  "main_aim_format": "By the end of the lesson, learners will have had an opportunity to practice using [target language] and will be better able to [function] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have had further form-focused and freer practice in using reported speech in the context of giving advice in a range of different situations.<br><b>Teacher:</b><br>[Teacher Name]<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>30 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>B (Language Practice)<br><b>Materials:</b><br>Prepared picture prompts and slips of paper for note-taking<br><b>Assessment:</b><br>n/a<br><b>Systems:</b><br>Grammar\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To lead-in",
+        "procedure": "- Tell your partner everything you remember about reported speech. Why we use it, how do we make it (form)? Examples? 2 min.\n- Feedback.\n",
+        "time": 3,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Controlled oral practice",
+        "stage_number": 2,
+        "stage_aim": "To controlled oral practice",
+        "procedure": "- Prepare slips of paper that Ss can use as notes.\n- Ss write a short note (prompts on PP) to someone on their team and give to someone else.\n- That person reports what's in the note using reported speech. Repeat 3x (note writing, reporting). 7 min.\n- Language feedback if necessary.\n",
+        "time": 8,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Semi-controlled oral practice",
+        "stage_number": 3,
+        "stage_aim": "To semi-controlled oral practice",
+        "procedure": "- Divide Ss into A-B. A looks at the TV, B looks at the picture and make a sentence (This person said/told me...). A has to guess the situation.\n- 4 sets of pictures for each student. How many can B guess correctly?\n- 3 min. Swap. 3 min.\n- Language feedback if necessary.\n",
+        "time": 8,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Freer oral practice",
+        "stage_number": 4,
+        "stage_aim": "To freer oral practice",
+        "procedure": "- In pairs, Ss tell each other 2 reasons why each of the people in the slides argue/fight. 2 min. Feedback.\n- Gallery walk – Pair Ss up. A-B. Ss visit each picture. A reports 5 things said during the argument and asks for advice. B gives advice. Swap for the next picture and so on.\n- Demo. 1.30 min in each picture.\n- Content and language feedback.\n",
+        "time": 12,
+        "interaction": "Ss-Ss"
+      }
+    ]
+  }
+}

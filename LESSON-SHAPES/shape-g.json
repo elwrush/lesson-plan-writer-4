@@ -1,0 +1,59 @@
+{
+  "name": "Shape G - Task-Based Learning/Teaching (TBL/TBT)",
+  "description": "Task-first methodology where learners complete a communicative task, report on it, analyze language, then practice/repeat with new language.",
+  "pedagogical_justification": "In TBL, the idea is that the learners first carry out a task in pairs or small groups, focusing on communication and completing the task, not worrying about using pre-selected language or grammatical accuracy. They then report how this was accomplished to the class, before going on to analyze relevant language or features of a text. Finally, they practice this new language through some controlled practice activities or, ideally, repeating a similar task and incorporating that language into it. The overall main lesson aim might be: By the end of the lesson, the learners will have completed a speaking/writing task about and be better able to talk/write about films they've seen recently. They will also be better able to use functional language used for recommending.\n",
+  "main_aim_format": "Main aim: By the end of the lesson, learners will have completed a task about and will be better able to [function] in the context of [topic]. \nSubsidiary aim: Learners will also have practiced [sub-skill/language].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>Main aim: By the end of the lesson, learners will have completed a task about and will be better able to talk about things they'd hate to be without. Subsidiary aim: Learners will also have practiced and developed the sub-skills of listening for specific information and detail in the context of a recording about things people would hate to be without.<br><b>Teacher:</b><br>[Teacher Name]<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>36 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>G (Task-Based Learning)<br><b>Materials:</b><br>Audio recording of 5 people talking about things they'd hate to be without, worksheet for listening task<br><b>Assessment:</b><br>n/a<br><b>Skills:</b><br>Speaking and Listening\n",
+    "stages": [
+      {
+        "stage": "Pre-task (lead-in)",
+        "stage_number": 1,
+        "stage_aim": "To pre-task (lead-in)",
+        "procedure": "- Tell Ss that today we'll talk about things we can't live without.\n- Display pictures of things and objects on PP. In pairs, Ss tell each other how important are those things in their life. 3 min.\n- Feedback.\n",
+        "time": 4,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Pre-task (listening for specific information and detail)",
+        "stage_number": 2,
+        "stage_aim": "To pre-task (listening for specific information and detail)",
+        "procedure": "- Teacher tells ss that they will listen to 5 people talking about things they would hate to be without and that they have to complete their worksheet with the following information: the object and how the person describes it.\n- Hand out the worksheet.\n- Play the recording pausing so that Ss can write their answers. 3:40 seconds.\n- Pair check. Play it again if necessary. Whole-class feedback on PP.\n",
+        "time": 8,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Task Cycle",
+        "stage_number": 3,
+        "stage_aim": "To task cycle",
+        "procedure": "- Making the list: teacher tells students that now they are going to make their own list of 5 things they'd hate to be without. Display some suggestions on PP. 3 min.\n- Preparing arguments: Teacher tells students to think about and make notes on how they can describe all things on their lists and why they are important to them. Display prompts on PP. 5 min.\n- Reporting: In pairs, Ss tell each other what their objects are and why they are important to them. 5 min.\n",
+        "time": 13,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Planning",
+        "stage_number": 4,
+        "stage_aim": "To planning",
+        "procedure": "- Now, Ss work in teams to find out the most common object chosen and decide which was the most unusual object and why. 3 min.\n",
+        "time": 3,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Report",
+        "stage_number": 5,
+        "stage_aim": "To report",
+        "procedure": "- Rearrange the teams so that there is a student from each team sitting together (assign numbers).\n- In the new teams, Ss tell each other what their team decided (most common and most unusual object) 4 min.\n",
+        "time": 4,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Analysis",
+        "stage_number": 6,
+        "stage_aim": "To analysis",
+        "procedure": "- T praises good language use and then highlights mistakes and emphasizes the language that students could have used in the task, especially language used to: introduce objects, describe objects and say why it's important.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      }
+    ]
+  }
+}

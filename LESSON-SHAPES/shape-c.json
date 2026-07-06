@@ -1,0 +1,51 @@
+{
+  "name": "Shape C - Test-Teach-Test Presentation of Language",
+  "description": "Learners are tested on language first, teacher clarifies problematic items, then further practice follows.",
+  "pedagogical_justification": "Learners are tested on their knowledge of the language before moving on to clarification. The teacher monitors the task to see what problems the students have and clarifies (meaning, form, pronunciation) only problematic items. This is followed by further practice.\n\n**CRITICAL: THEMATIC CONSISTENCY**. To avoid \"pedagogical whiplash,\" the Diagnostic (Initial Test) stage MUST be thematically linked to the \"Situation\" established in the Lead-in. Do not use generic examples (e.g., weather) if the lesson context is specific (e.g., art).\n",
+  "main_aim_format": "By the end of the lesson, learners will be better able to use [target language] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to use collocations with 'do' and 'make' + nouns in a range of everyday contexts.<br><b>Teacher:</b><br>[Teacher Name]<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>21 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>C (Test-Teach-Test)<br><b>Materials:</b><br>Student Book page 86, IWB, mini whiteboards<br><b>Assessment:</b><br>n/a<br><b>Systems:</b><br>Vocabulary\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To lead-in",
+        "procedure": "- Pairs students up and set them to tell each other 3 things they remember about yesterday's test. 2 min. Feedback.\n- Change pairs. Tell Ss to imagine that they prefer the city and tell an interesting thing about being a modern cowboy ie. 2 min.\n- Then, tell Ss to work in teams and decide on an answer. 2 min. Feedback.\n",
+        "time": 7,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Isolating TL",
+        "stage_number": 2,
+        "stage_aim": "To isolating tl",
+        "procedure": "- Tell Ss that now we're going to study some language from the text: collocations with 'do' and 'make'.\n- Display the following marker sentence on PP: \"It's difficult to define a twenty-first century cowboy. Surely it can't be the big cattle owners who do business with a seventy-billion dollar beef industry.\"\n- Erase 'do'. Elicit from Ss which verb they would use, 'do' or 'make'.\n",
+        "time": 2,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Test 1 – diagnostic",
+        "stage_number": 3,
+        "stage_aim": "To test 1 – diagnostic",
+        "procedure": "- Tell Ss to open their book to page 86 and draw their attention to exercise 6.\n- Pairs students up and set them to match the verbs with make or do.  Then find and highlight the verb + noun combination in the article to check.\n- Demo with the first one. 2 min.\n- Pair check. Whole-class feedback on IWB.\n",
+        "time": 4,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Test 2 – diagnostic",
+        "stage_number": 4,
+        "stage_aim": "To test 2 – diagnostic",
+        "procedure": "- Tell Ss to close their books. Draw students' attention to exercise 7 using the IWB.\n- Elicit what they have to do (complete the phrases with make or do).\n- Tell Ss to write the answers down on their WB's. Let them to seat on the floor behind their desks and do the task. 2 min.\n- Pair check (swap chairs). Whole-class feedback on IWB.\n",
+        "time": 4,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Teach – clarifying",
+        "stage_number": 5,
+        "stage_aim": "To teach – clarifying",
+        "procedure": "- Meaning/Usage: elicit from Ss when we should use do/make + noun. Get some ideas and then display the following guideline on power point:\n- We use 'do' when someone performs an action and the words that come from 'do the shopping/most type of work (do homework).\n- We use 'make' to talk about constructing and creating.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      }
+    ]
+  }
+}

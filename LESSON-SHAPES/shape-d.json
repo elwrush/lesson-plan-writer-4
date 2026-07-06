@@ -1,0 +1,51 @@
+{
+  "name": "Shape D - Situational Presentation (PPP)",
+  "description": "Present-Practice-Produce format with contextual introduction, explicit teaching of meaning/form/pronunciation, controlled practice, then freer production.",
+  "pedagogical_justification": "Here the idea is that the teacher introduces a context in which new language is to be taught. Having done this, the teacher then presents the target language (checking meaning, form and pronunciation) before providing controlled practice. When presenting pronunciation, specific features of the form should be modeled, and phonemic script should be included to highlight difficulties, especially for students from specific linguistic backgrounds (e.g., Thai students). In this stage, the teacher monitors the task very carefully to see what problems the students are having, correct errors and ensure correct use of the TL. Finally, there is a freer practice (production) in which the learners use the TL productively and with a communicative end, with more fluent use of the TL encouraged.\n",
+  "main_aim_format": "By the end of the lesson, learners will be better able to [use/identify/say] [target language] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>Ss will be better able to identify and say animal vocabulary in the context of being at a zoo.<br><b>Teacher:</b><br>[Teacher Name]<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>[X] minutes<br><b>CEFR Level:</b><br>A1<br><b>Lesson Shape:</b><br>D (Situational Presentation - PPP)<br><b>Materials:</b><br>Animal sound recordings, flashcards, finger slap game A3 sheets, worksheets, crossword puzzle<br><b>Assessment:</b><br>Crossword completion<br><b>Systems:</b><br>Vocabulary\n",
+    "stages": [
+      {
+        "stage": "Lead In",
+        "stage_number": 1,
+        "stage_aim": "To lead in",
+        "procedure": "- Ss come and sit at the board in their teams.\n- Set Ss to close their eyes and listen. Say they will listen and guess what animal is making the sound.\n- Elicit responses from the Ss and write them down on a mini whiteboard.\n- Feedback the animals they heard and see how many they guessed correctly.\n",
+        "time": 0,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Presentation of Vocab (Meaning & Pron)",
+        "stage_number": 2,
+        "stage_aim": "To presentation of vocab (meaning & pron)",
+        "procedure": "- Use the PPT to present new vocabulary using the required format: word /phonemic/: Context sentence. Thai translation.\n- lizard /ˈlɪz.əd/: The green lizard is on the wall. กิ้งก่าสีเขียวอยู่บนผนัง.\n- cockroach /ˈkɒk.rəʊtʃ/: I saw a cockroach in the kitchen. ฉันเห็นแมลงสาบในครัว.\n- mosquito /məˈskiː.təʊ/: Mosquitos bite at night. ยุงกัดตอนกลางคืน.\n- Drill and enunciate clearly.\n",
+        "time": 0,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Speaking Practice (Pron)",
+        "stage_number": 3,
+        "stage_aim": "To speaking practice (pron)",
+        "procedure": "- Press the chicken buzzer to get Ss to sit in circles.\n- Hand out the A3 finger slaps game.\n- Elicit the animals from each group.\n- Ss have to say the animal name, the other Ss race to touch with their finger.\n- The first student to touch the animal will get a point and become the teacher.\n- Monitor and assist.\n- Feedback on output from the Ss.\n",
+        "time": 0,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Picture Dictionary (Form)",
+        "stage_number": 4,
+        "stage_aim": "To picture dictionary (form)",
+        "procedure": "- Hand out the worksheets.\n- Tell Ss they are in a zoo.\n- They have to guess what the animal names. The animal names are hidden behind paper cages.\n- Ss will go around the classroom filling in their worksheets.\n- Fast finishers can work on their spelling 'finger-cover, spelling'.\n- Feedback answers. Ss check their own work in pairs with a colour pen.\n- Ss stick their worksheet in their green picture dictionaries.\n",
+        "time": 0,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Look and Identify and Write (Assess if lesson aims have been met)",
+        "stage_number": 5,
+        "stage_aim": "To look and identify and write (assess if lesson aims have been met)",
+        "procedure": "- Ss will come to the board.\n- Use the PPT to present a crossword. Use the PPT to explain how to complete a crossword.\n- If they can't spell the word, they can't complete the crossword.\n- Monitor and assist.\n- Feedback answers on the IWB.\n",
+        "time": 0,
+        "interaction": "T-Ss"
+      }
+    ]
+  }
+}
