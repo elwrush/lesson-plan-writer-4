@@ -1,0 +1,185 @@
+{% macro _slide_bg_str(slide) %}{{ slide_bg(color=slide.background_color, image=slide.background_image or slide.image_url, size="cover") }}{% endmacro %}
+
+
+
+{% macro _slide_content(slide) %}
+  {# Title slide MUST have logo + shield + background_image #}
+  {% if slide.logo %}
+  <div style="text-align:center;margin:10px 0 0 0"><img src="{{ slide.logo }}" alt="" width="120"></div>
+  {% endif %}
+  {% if slide.background_image and slide.shield %}
+  <h1></h1>
+  {% endif %}
+  {% if slide.title %}
+    {% if slide.shield %}
+    <div class="shield" style="display:flex;align-items:center;width:fit-content;margin:0.6em auto;padding:0.1em 0.4em;background:rgba(0,0,0,0.55);border-radius:4px;text-shadow:none;line-height:1.3"><span class="cta-text">{{ slide.title | markdown_to_html | strip_p }}</span></div>
+    {% else %}
+    <h2>{{ slide.title | markdown_to_html | strip_p }}</h2>
+    {% endif %}
+  {% endif %}
+  {% if slide.body %}
+    {% if slide.shield %}
+    <div class="shield" style="display:flex;align-items:center;width:fit-content;margin:0.6em auto;padding:0.1em 0.4em;background:rgba(0,0,0,0.55);border-radius:4px;text-shadow:none;line-height:1.3"><span class="cta-text">{{ slide.body | markdown_to_html | strip_p }}</span></div>
+    {% else %}
+    <div>{{ slide.body | markdown_to_html }}</div>
+    {% endif %}
+  {% endif %}
+  {% if slide.cta %}
+    <div class="cta-box">{{ slide.cta | markdown_to_html }}</div>
+  {% endif %}
+  {% if slide.fragments %}
+    {% for frag in slide.fragments %}
+    <div class="fragment">{{ frag | markdown_to_html }}</div>
+    {% endfor %}
+  {% endif %}
+  {% if slide.notes %}
+    <aside class="notes">{{ slide.notes | markdown_to_html }}</aside>
+  {% endif %}
+{% endmacro %}
+
+
+{% macro render_content_slide(slide) %}
+<section
+  {% if slide.auto_animate %}data-auto-animate{% endif %}
+  data-id="{{ slide.data_id }}"
+  data-fragment-index="{{ slide.fragment_index }}"
+  {{ _slide_bg_str(slide) }}
+  style="justify-content:flex-start!important"
+>
+  {{ _slide_content(slide) }}
+</section>
+{% endmacro %}
+
+
+{% macro render_two_column_slide(slide) %}
+<section
+  data-id="{{ slide.data_id }}"
+  data-fragment-index="{{ slide.fragment_index }}"
+  {{ _slide_bg_str(slide) }}
+>
+  {% if slide.logo %}
+  <div style="text-align:center;margin:10px 0 0 0"><img src="{{ slide.logo }}" alt="" width="120"></div>
+  {% endif %}
+  <div class="r-stretch" style="display:flex;gap:1em;">
+    {% set cols = slide.body.split("|||") %}
+    <div class="col" style="flex:1;">{{ cols[0].strip() | markdown_to_html }}</div>
+    {% if cols | length > 1 %}
+      <div class="col" style="flex:1;">{{ cols[1].strip() | markdown_to_html }}</div>
+    {% endif %}
+  </div>
+  {% if slide.fragments %}
+    {% for frag in slide.fragments %}
+    <div class="fragment">{{ frag | markdown_to_html }}</div>
+    {% endfor %}
+  {% endif %}
+  {% if slide.cta %}
+    <div class="cta-box">{{ slide.cta | markdown_to_html }}</div>
+  {% endif %}
+  {% if slide.notes %}
+    <aside class="notes">{{ slide.notes | markdown_to_html }}</aside>
+  {% endif %}
+</section>
+{% endmacro %}
+
+
+{% macro render_auto_animate_pair(group) %}
+{% for s in group %}
+<section
+  {% if loop.first %}data-auto-animate data-auto-animate-restart{% else %}data-auto-animate{% endif %}
+  data-id="{{ s.data_id }}"
+  data-fragment-index="{{ s.fragment_index }}"
+  {{ _slide_bg_str(s) }}
+>
+  {% if s.logo %}
+  <div class="title-logo-wrap"><img class="title-logo" src="{{ s.logo }}" alt="logo" width="120"></div>
+  {% endif %}
+  {% if s.title %}
+    <h2 data-id="{{ s.element_ids.get('title', '') }}">{{ s.title | markdown_to_html | strip_p }}</h2>
+  {% endif %}
+  {% if s.body %}
+    <div data-id="{{ s.element_ids.get('body', '') }}">{{ s.body | markdown_to_html }}</div>
+  {% endif %}
+  {% if s.fragments %}
+    {% for frag in s.fragments %}
+    <div class="fragment">{{ frag | markdown_to_html }}</div>
+    {% endfor %}
+  {% endif %}
+  {% if s.cta %}
+    <div class="cta-box">{{ s.cta | markdown_to_html }}</div>
+  {% endif %}
+  {% if s.notes %}
+    <aside class="notes">{{ s.notes | markdown_to_html }}</aside>
+  {% endif %}
+</section>
+{% endfor %}
+{% endmacro %}
+
+
+{% macro render_code_slide(slide) %}
+<section
+  data-id="{{ slide.data_id }}"
+  data-fragment-index="{{ slide.fragment_index }}"
+  {{ _slide_bg_str(slide) }}
+>
+  {% if slide.logo %}
+  <div style="text-align:center;margin:10px 0 0 0"><img src="{{ slide.logo }}" alt="" width="120"></div>
+  {% endif %}
+  {% if slide.title %}
+    <h2>{{ slide.title | markdown_to_html | strip_p }}</h2>
+  {% endif %}
+  {{ code_block(slide.code, language=slide.language) }}
+  {% if slide.fragments %}
+    {% for frag in slide.fragments %}
+    <div class="fragment">{{ frag | markdown_to_html }}</div>
+    {% endfor %}
+  {% endif %}
+  {% if slide.cta %}
+    <div class="cta-box">{{ slide.cta | markdown_to_html }}</div>
+  {% endif %}
+  {% if slide.notes %}
+    <aside class="notes">{{ slide.notes | markdown_to_html }}</aside>
+  {% endif %}
+</section>
+{% endmacro %}
+
+
+{% macro render_image_slide(slide) %}
+<section
+  data-id="{{ slide.data_id }}"
+  data-fragment-index="{{ slide.fragment_index }}"
+  {{ slide_bg(image=slide.image_url or slide.background_image, color=slide.background_color) }}
+  style="justify-content:flex-start!important"
+>
+  {% if slide.logo %}
+  <div style="text-align:center;margin:10px 0 0 0"><img src="{{ slide.logo }}" alt="" width="120"></div>
+  {% endif %}
+  {% if slide.title %}
+    <h2 class="r-fit-text">{{ slide.title | markdown_to_html | strip_p }}</h2>
+  {% endif %}
+  {% if slide.body %}
+    <div>{{ slide.body | markdown_to_html }}</div>
+  {% endif %}
+  {% if slide.fragments %}
+    {% for frag in slide.fragments %}
+    <div class="fragment">{{ frag | markdown_to_html }}</div>
+    {% endfor %}
+  {% endif %}
+  {% if slide.cta %}
+    <div class="cta-box">{{ slide.cta | markdown_to_html }}</div>
+  {% endif %}
+  {% if slide.notes %}
+    <aside class="notes">{{ slide.notes | markdown_to_html }}</aside>
+  {% endif %}
+</section>
+{% endmacro %}
+
+
+{% macro render_raw_slide(slide) %}
+<section
+  data-id="{{ slide.data_id }}"
+  data-fragment-index="{{ slide.fragment_index }}"
+  {{ _slide_bg_str(slide) }}
+>
+{{ slide.body | safe }}
+</section>
+{% endmacro %}
