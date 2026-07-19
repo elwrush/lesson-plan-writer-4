@@ -7,6 +7,8 @@ Red phase (no command file yet, should FAIL):
 Green phase (should PASS):
     - Contains "git clone --depth 1"
     - Contains "git -C $worktreeDir"
+    - Contains "diff -rq" (drift check) in code blocks
+    - Contains "md5sum" (push verification) in code blocks
     - Contains NO "git checkout gh-pages" in code blocks
     - Contains NO "git rm -rf" in code blocks
     - Contains NO "git clean -fd" in code blocks
@@ -80,6 +82,24 @@ def test_no_git_clean_fd():
     code = extract_code_blocks(load_command_file())
     assert "git clean -fd" not in code, (
         "Found 'git clean -fd' in a code block. Destructive pattern."
+    )
+
+
+def test_drift_check_present():
+    """Must use 'diff -rq' for drift detection before deploy."""
+    code = extract_code_blocks(load_command_file())
+    assert "diff -rq" in code, (
+        "Missing drift check. Add 'diff -rq' in a code block to compare "
+        "staging vs deployed slides before committing."
+    )
+
+
+def test_push_verification_present():
+    """Must use 'md5sum' after push to verify remote matches local."""
+    code = extract_code_blocks(load_command_file())
+    assert "md5sum" in code, (
+        "Missing push verification. Add 'md5sum' in a code block to verify "
+        "the pushed file matches the local source, preventing hallucinated deploys."
     )
 
 

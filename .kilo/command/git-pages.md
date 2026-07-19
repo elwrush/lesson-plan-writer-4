@@ -8,6 +8,9 @@ description: Deploy or update a single slideshow on gh-pages. Detects whether th
 
 If `name` is omitted, you will be prompted for one. If `source-dir` is omitted, defaults to `slides/`.
 
+**IMPORTANT: If source-dir contains spaces, you MUST quote it:**
+`/git-pages "My Name" "path/with spaces/slides"`
+
 **New deploy** = the subfolder does NOT exist on gh-pages yet. Creates the gh-pages branch if needed.
 
 **Update** = the subfolder ALREADY exists on gh-pages. Overwrites files, regenerates landing page, pushes.
@@ -21,11 +24,15 @@ If `name` is omitted, you will be prompted for one. If `source-dir` is omitted, 
 4. Runs fast lint (ruff)
 5. Copies slides to a temp staging directory
 6. Shallow clones `gh-pages` branch to an isolated temp directory
-7. Copies the slideshow into its own subfolder
-8. Regenerates the root `index.html` (card grid)
-9. Commits and pushes from the worktree
-10. Removes the worktree — main branch is never touched
-11. Prints the URL
+7. Drift check — compares staging vs deployed; skips if identical
+8. Copies the slideshow into its own subfolder
+9. Regenerates the root `index.html` (card grid)
+10. Commits from worktree (aborts if nothing changed)
+11. Pushes to remote and **verifies by fetching back + MD5 checksum**
+12. Removes the worktree — main branch is never touched
+13. Prints the URL
+
+**Critical: Step 11 (push verification) is mandatory. Do NOT skip it. The AI must confirm the remote file matches the local source — otherwise the push was hallucinated.**
 
 ## Safety
 **This command NEVER switches branches in the main working tree.** All gh-pages operations happen inside a `git clone --depth 1` — a separate directory that acts as an independent checkout. If anything fails, the main project directory is completely untouched.
@@ -49,12 +56,16 @@ Run: `python -m pytest tests/test_git_pages_safety.py -v`
 
 ### Step 0: Detect the target and determine deploy vs update
 ```bash
-name="${1:-}"
-source_dir="${2:-slides}"
+name="$1"
+shift
+source_dir="${*:-slides}"
 
 if [ -z "$name" ]; then
   read -r -p "Enter the subfolder to deploy (e.g. TEST): " name
 fi
+
+# Resolve to absolute path so relative paths with spaces work
+source_dir="$(realpath -q "$source_dir" 2>/dev/null || echo "$source_dir")"
 
 slides_html="$source_dir/index.html"
 if [ ! -f "$slides_html" ]; then
@@ -63,14 +74,19 @@ if [ ! -f "$slides_html" ]; then
   exit 1
 fi
 
+# Pre-flight summary
+echo "=== Deploy Pre-flight ==="
+echo "  Subfolder: $name"
+echo "  Source:    $slides_html"
+
 presentations=("$name")
 
 # Detect new deploy vs update
 git fetch origin gh-pages 2>/dev/null || true
 if git ls-tree --name-only origin/gh-pages 2>/dev/null | grep -q "^${name}$"; then
-  echo "UPDATE: $name (already exists on gh-pages)"
+  echo "  Action:    UPDATE (existing on gh-pages)"
 else
-  echo "NEW DEPLOY: $name (first time on gh-pages)"
+  echo "  Action:    NEW DEPLOY (first time on gh-pages)"
 fi
 ```
 
@@ -120,6 +136,22 @@ else
   mkdir -p "$worktreeDir"
   git -C "$worktreeDir" init
   git -C "$worktreeDir" checkout --orphan gh-pages
+fi
+```
+
+### Step 5a: Drift check — skip deploy if unchanged
+```bash
+deployed="$worktreeDir/$name"
+if [ -d "$deployed" ]; then
+  if diff -rq "$staging/$name" "$deployed" >/dev/null 2>&1; then
+    echo "  No changes detected — slides are identical to gh-pages. Nothing to deploy."
+    rm -rf "$staging" "$worktreeDir"
+    exit 0
+  else
+    echo "  Changes detected — proceeding with deploy."
+  fi
+else
+  echo "  New subfolder — no drift check needed."
 fi
 ```
 
@@ -191,12 +223,42 @@ print(f'Landing page generated — {len(slide_dirs)} presentations')
 "
 ```
 
-### Step 8: Commit and push from worktree
+### Step 8: Commit from worktree
 ```bash
 date_str=$(date +%d%m%y)
 git -C "$worktreeDir" add -A
-git -C "$worktreeDir" commit -m "Deploy $name ($date_str)"
-git -C "$worktreeDir" push origin HEAD:gh-pages
+if ! git -C "$worktreeDir" diff --cached --quiet; then
+  commit_hash=$(git -C "$worktreeDir" commit -m "Deploy $name ($date_str)" | grep -oP '[0-9a-f]{7,}' | head -1)
+  echo "  Committed: $commit_hash"
+else
+  echo "  Nothing to commit — deploy cancelled."
+  rm -rf "$staging" "$worktreeDir"
+  exit 0
+fi
+```
+
+### Step 8a: Push and verify
+```bash
+echo "  Pushing to gh-pages..."
+if ! git -C "$worktreeDir" push origin HEAD:gh-pages 2>&1; then
+  echo "ERROR: Push failed. Worktree left at $worktreeDir for recovery."
+  exit 1
+fi
+echo "  Push accepted."
+
+# Verify by fetching the deployed file back and comparing checksum
+git fetch origin gh-pages 2>/dev/null || true
+deployed_content=$(git show origin/gh-pages:"$name/index.html" 2>/dev/null | md5sum | cut -d' ' -f1)
+local_content=$(md5sum "$source_dir/index.html" | cut -d' ' -f1)
+if [ "$deployed_content" = "$local_content" ]; then
+  echo "  VERIFIED: remote file matches local source (MD5: $local_content)"
+else
+  echo "ERROR: Remote file does NOT match local source!"
+  echo "  Local:  $local_content"
+  echo "  Remote: $deployed_content"
+  echo "  Worktree left at $worktreeDir for investigation."
+  exit 1
+fi
 ```
 
 ### Step 9: Clean up worktree
@@ -218,6 +280,7 @@ echo "Landing page: https://$owner.github.io/$repo/"
 - **No argument**: prompts interactively for the subfolder name
 - **Not found**: lists error and exits
 - **New deploy vs update**: detected automatically in Step 0
+- **No changes detected**: drift check (step 5a) compares local slides vs gh-pages; skips commit/push if identical
 - **First deploy (gh-pages branch doesn't exist)**: uses `git init --orphan` in isolated temp directory
 - **gh not authenticated**: aborts with instruction to run `gh auth login`
 - **Push fails**: worktree is left on disk for manual recovery; prints error
