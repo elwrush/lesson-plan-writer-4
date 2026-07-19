@@ -1,0 +1,237 @@
+{
+  "title": "M2-A Midterm Review",
+  "author": "C·E·L Mathayom / ACT",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How did you go in your exams?",
+      "body": "Let's find out.",
+      "notes": "Ask students: Why do people study English? What level do you need?"
+    },
+    {
+      "layout": "content",
+      "id": "hook",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "Getting B2 or higher on standardised English exams opens doors.",
+      "cta": "<span class=\"box-word\">Write</span> 3 reasons why in your book.",
+      "notes": "Give students 3 min to write. Then elicit answers and show next slide."
+    },
+    {
+      "layout": "content",
+      "id": "b2-university",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "University entry needs B2",
+      "body": "<span style=\"color:#ffdd00\">Research: Students below B2 lack the language skills to master their studies — regardless of subject.</span>",
+      "notes": "Source: The Adequacy of the B2 Level as University Entrance Requirement, ResearchGate 2018"
+    },
+    {
+      "layout": "content",
+      "id": "b2-jobs",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "B2 means better jobs &amp; pay",
+      "body": "<span style=\"color:#ffdd00\">International companies pay <strong>20–50% more</strong> for roles needing B2 English. Same job at an MNC = <strong>฿15,000–35,000 extra</strong> per month.</span>",
+      "notes": "Source: ALA Language School — international company roles pay 20-50% more for B2. Michael Page 2026 Salary Guide — English premium 10-15%."
+    },
+    {
+      "layout": "content",
+      "id": "b2-global",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "B2 opens global doors",
+      "body": "<span style=\"color:#ffdd00\">International companies require B2 for meetings, emails, and team collaboration across countries.</span>",
+      "notes": "Source: International English Test, 2025"
+    },
+    {
+      "layout": "content",
+      "id": "b2-demand",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "B2 demand is growing fast",
+      "body": "<span style=\"color:#ffdd00\">Jobs requiring B2 English have increased <strong>25%</strong> in the past decade — and the trend continues.</span>",
+      "notes": "Source: Global English Test, 2025"
+    },
+    {
+      "layout": "content",
+      "id": "transition-results",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Your Midterm Results"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "grade-3a",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "M2-4A",
+      "body": "<div style=\"padding:10px 30px\"><div data-id=\"axis\" style=\"display:flex;justify-content:space-between;color:#ccc;font-size:32px;border-bottom:2px solid #555;padding:0 0 5px 0;margin-bottom:8px\"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div><div style=\"position:relative;height:50px;background:rgba(255,255,255,0.05);border-radius:4px\"><div data-id=\"b1\" style=\"position:absolute;left:65%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #ffdd00;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#ffdd00;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B1</span></div><div data-id=\"b2\" style=\"position:absolute;left:80%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #2ecc71;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#2ecc71;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B2</span></div><div data-id=\"bar\" style=\"width:0%;height:100%;background:#3498db;border-radius:4px;display:flex;align-items:center;padding-left:15px;color:#fff;font-size:34px;font-weight:700;transition:all 0.6s ease\"></div></div></div>",
+      "notes": "Ask: What do you think M2-4A scored? Click to reveal."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "grade-3a",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "M2-4A &mdash; 59%",
+      "body": "<div style=\"padding:10px 30px\"><div data-id=\"axis\" style=\"display:flex;justify-content:space-between;color:#ccc;font-size:32px;border-bottom:2px solid #555;padding:0 0 5px 0;margin-bottom:8px\"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div><div style=\"position:relative;height:50px;background:rgba(255,255,255,0.05);border-radius:4px\"><div data-id=\"b1\" style=\"position:absolute;left:65%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #ffdd00;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#ffdd00;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B1</span></div><div data-id=\"b2\" style=\"position:absolute;left:80%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #2ecc71;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#2ecc71;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B2</span></div><div data-id=\"bar\" style=\"width:67%;height:100%;background:#3498db;border-radius:4px;display:flex;align-items:center;padding-left:15px;color:#fff;font-size:34px;font-weight:700;transition:all 0.6s ease\">67%</div></div></div>",
+      "notes": "M2-4A scored 59% overall."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "grade-5a",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "M2-5A",
+      "body": "<div style=\"padding:10px 30px\"><div data-id=\"axis\" style=\"display:flex;justify-content:space-between;color:#ccc;font-size:32px;border-bottom:2px solid #555;padding:0 0 5px 0;margin-bottom:8px\"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div><div style=\"position:relative;height:50px;background:rgba(255,255,255,0.05);border-radius:4px\"><div data-id=\"b1\" style=\"position:absolute;left:65%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #ffdd00;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#ffdd00;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B1</span></div><div data-id=\"b2\" style=\"position:absolute;left:80%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #2ecc71;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#2ecc71;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B2</span></div><div data-id=\"bar\" style=\"width:0%;height:100%;background:#e67e22;border-radius:4px;display:flex;align-items:center;padding-left:15px;color:#fff;font-size:34px;font-weight:700;transition:all 0.6s ease\"></div></div></div>",
+      "notes": "Ask: And M2-5A? Click to reveal."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "grade-5a",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "M2-5A &mdash; 58%",
+      "body": "<div style=\"padding:10px 30px\"><div data-id=\"axis\" style=\"display:flex;justify-content:space-between;color:#ccc;font-size:32px;border-bottom:2px solid #555;padding:0 0 5px 0;margin-bottom:8px\"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div><div style=\"position:relative;height:50px;background:rgba(255,255,255,0.05);border-radius:4px\"><div data-id=\"b1\" style=\"position:absolute;left:65%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #ffdd00;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#ffdd00;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B1</span></div><div data-id=\"b2\" style=\"position:absolute;left:80%;top:-5px;height:calc(100% + 10px);border-left:4px dashed #2ecc71;z-index:2\"><span style=\"position:absolute;top:-40px;left:-20px;color:#2ecc71;font-size:32px;font-weight:900;text-shadow:0 0 10px #000,0 0 10px #000\">B2</span></div><div data-id=\"bar\" style=\"width:58%;height:100%;background:#e67e22;border-radius:4px;display:flex;align-items:center;padding-left:15px;color:#fff;font-size:34px;font-weight:700;transition:all 0.6s ease\">58%</div></div></div>",
+      "notes": "M2-5A scored 58% overall."
+    },
+    {
+      "layout": "raw",
+      "id": "cefr-3a",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.cefr-bar{display:flex;height:110px;border-radius:8px;overflow:hidden;width:100%;margin:30px 0}.cefr-bar .seg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:32px;font-weight:700;flex-direction:column;line-height:1.3;transition:all 0.5s ease}.cefr-bar .seg strong{font-size:40px}.seg-a1u{background:#e74c3c}.seg-a2l{background:#95a5a6}.seg-a2u{background:#f39c12}.seg-b1l{background:#3498db}.seg-b1u{background:#2ecc71}.c-label{color:#fff;text-align:center;font-size:52px;margin-bottom:5px;font-weight:700}.c-sub{color:#ccc;text-align:center;font-size:38px;margin-bottom:25px}</style><h4 class=\"c-label\">M2-4A (19 students)</h4><p class=\"c-sub\">How many achieved <strong>B1</strong> or <strong>B2</strong>?</p><div class=\"cefr-bar\"><div class=\"fragment seg seg-a1u\" style=\"width:5%\">A1+<br><strong>1</strong></div><div class=\"fragment seg seg-a2l\" style=\"width:32%\">A2<br><strong>6</strong></div><div class=\"fragment seg seg-a2u\" style=\"width:26%\">A2+<br><strong>5</strong></div><div class=\"fragment seg seg-b1l\" style=\"width:37%\">B1<br><strong>7</strong></div></div>",
+      "notes": "M2-4A: 7 students at B1."
+    },
+    {
+      "layout": "raw",
+      "id": "cefr-5a",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.cefr-bar{display:flex;height:110px;border-radius:8px;overflow:hidden;width:100%;margin:30px 0}.cefr-bar .seg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:32px;font-weight:700;flex-direction:column;line-height:1.3;transition:all 0.5s ease}.cefr-bar .seg strong{font-size:40px}.seg-a1u{background:#e74c3c}.seg-a2l{background:#95a5a6}.seg-a2u{background:#f39c12}.seg-b1l{background:#3498db}.seg-b1u{background:#2ecc71}.seg-b2l{background:#e67e22}.c-label{color:#fff;text-align:center;font-size:52px;margin-bottom:5px;font-weight:700}.c-sub{color:#ccc;text-align:center;font-size:38px;margin-bottom:25px}</style><h4 class=\"c-label\">M2-5A (20 students)</h4><p class=\"c-sub\">How many achieved <strong>B1</strong> or <strong>B2</strong>?</p><div class=\"cefr-bar\"><div class=\"fragment seg seg-a1u\" style=\"width:15%\">A1+<br><strong>3</strong></div><div class=\"fragment seg seg-a2l\" style=\"width:10%\">A2<br><strong>2</strong></div><div class=\"fragment seg seg-a2u\" style=\"width:40%\">A2+<br><strong>8</strong></div><div class=\"fragment seg seg-b1l\" style=\"width:30%\">B1<br><strong>6</strong></div><div class=\"fragment seg seg-b1u\" style=\"width:5%\">B1+<br><strong>1</strong></div></div>",
+      "notes": "M2-5A: 7 students at B1 or above."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "skill-3a",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "M2-4A — How did we go?",
+      "body": "<style>.s-title{color:#fff;text-align:center;font-size:48px;margin-bottom:10px;font-weight:700}.s-bar-wrap{margin:25px 0}.s-label{color:#ccc;font-size:34px;margin-bottom:8px}.s-bar-cont{height:50px;background:rgba(255,255,255,0.08);border-radius:6px;overflow:hidden;width:100%}.s-bar-fill{height:100%;border-radius:6px;display:flex;align-items:center;padding-left:20px;color:#fff;font-size:34px;font-weight:700}.sl{background:#3498db}.sr{background:#e74c3c}.sw{background:#2ecc71}</style><div class=\"s-bar-wrap\"><div data-id=\"ll\" class=\"s-label\">Listening</div><div data-id=\"lc\" class=\"s-bar-cont\"><div data-id=\"bl\" class=\"s-bar-fill sl\" style=\"width:0%\"></div></div></div><div class=\"s-bar-wrap\"><div data-id=\"rl\" class=\"s-label\">Reading</div><div data-id=\"rc\" class=\"s-bar-cont\"><div data-id=\"br\" class=\"s-bar-fill sr\" style=\"width:0%\"></div></div></div><div class=\"s-bar-wrap\"><div data-id=\"wl\" class=\"s-label\">Writing</div><div data-id=\"wc\" class=\"s-bar-cont\"><div data-id=\"bw\" class=\"s-bar-fill sw\" style=\"width:0%\"></div></div></div>",
+      "notes": "Ask: Which skill was strongest for M2-4A? Click to reveal all three."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "skill-3a",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "M2-4A",
+      "body": "<div class=\"s-bar-wrap\"><div data-id=\"ll\" class=\"s-label\">Listening</div><div data-id=\"lc\" class=\"s-bar-cont\"><div data-id=\"bl\" class=\"s-bar-fill sl\" style=\"width:62%\">62%</div></div></div><div class=\"s-bar-wrap\"><div data-id=\"rl\" class=\"s-label\">Reading</div><div data-id=\"rc\" class=\"s-bar-cont\"><div data-id=\"br\" class=\"s-bar-fill sr\" style=\"width:55%\">55%</div></div></div><div class=\"s-bar-wrap\"><div data-id=\"wl\" class=\"s-label\">Writing</div><div data-id=\"wc\" class=\"s-bar-cont\"><div data-id=\"bw\" class=\"s-bar-fill sw\" style=\"width:60%\">60%</div></div></div>",
+      "notes": "M2-4A: Listening 62%, Reading 55%, Writing 60%."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "skill-5a",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "M2-5A — How did we go?",
+      "body": "<div class=\"s-bar-wrap\"><div data-id=\"ll\" class=\"s-label\">Listening</div><div data-id=\"lc\" class=\"s-bar-cont\"><div data-id=\"bl\" class=\"s-bar-fill sl\" style=\"width:0%\"></div></div></div><div class=\"s-bar-wrap\"><div data-id=\"rl\" class=\"s-label\">Reading</div><div data-id=\"rc\" class=\"s-bar-cont\"><div data-id=\"br\" class=\"s-bar-fill sr\" style=\"width:0%\"></div></div></div><div class=\"s-bar-wrap\"><div data-id=\"wl\" class=\"s-label\">Writing</div><div data-id=\"wc\" class=\"s-bar-cont\"><div data-id=\"bw\" class=\"s-bar-fill sw\" style=\"width:0%\"></div></div></div>",
+      "notes": "Ask: And M2-5A? Click to reveal."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "skill-5a",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "M2-5A",
+      "body": "<div class=\"s-bar-wrap\"><div data-id=\"ll\" class=\"s-label\">Listening</div><div data-id=\"lc\" class=\"s-bar-cont\"><div data-id=\"bl\" class=\"s-bar-fill sl\" style=\"width:60%\">60%</div></div></div><div class=\"s-bar-wrap\"><div data-id=\"rl\" class=\"s-label\">Reading</div><div data-id=\"rc\" class=\"s-bar-cont\"><div data-id=\"br\" class=\"s-bar-fill sr\" style=\"width:47%\">47%</div></div></div><div class=\"s-bar-wrap\"><div data-id=\"wl\" class=\"s-label\">Writing</div><div data-id=\"wc\" class=\"s-bar-cont\"><div data-id=\"bw\" class=\"s-bar-fill sw\" style=\"width:68%\">68%</div></div></div>",
+      "notes": "M2-5A: Listening 60%, Reading 47%, Writing 68%."
+    },
+    {
+      "layout": "content",
+      "id": "reflection",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<span class=\"box-word\">Write</span> your answers in your notebook.\n\nWhich skill do we need to improve the **most**?\n\nHow can **we** do it?",
+      "notes": "Give 3 min. Then ask a few students to share. Encourage specific strategies."
+    },
+    {
+      "layout": "content",
+      "id": "improve-tips",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Ideas to improve",
+      "body": "**Reading** — Read one short article a day. Summarise it in 2 sentences.\n\n**Listening** — Watch short videos with English subtitles. Pause and repeat.\n\n**Writing** — Write 3 sentences every day. Use new vocabulary.\n\n**Vocabulary** — Use a vocab notebook. Review 5 words each day.",
+      "notes": "Ask students: Which strategy will you try this week?"
+    },
+    {
+      "layout": "content",
+      "id": "score-sheets",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "Now I'll return your Listening and Reading score sheets.\n\n<span class=\"box-word\">Check</span> your answers. See how you scored.\n\nIndividual Writing grades will be returned **later this week**.\n\nYou can **check with me** at the end of the lesson.",
+      "notes": "Hand out score sheets. Give 3 min for students to review. Walk around."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Vocabulary, Grammar & Spelling"
+    },
+    {
+      "layout": "content",
+      "id": "why-vocab",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "Strong vocab, grammar, and spelling help you in ALL skills.\n\n**Reading** — You understand more words = you read faster.\n\n**Writing** — Correct spelling and grammar = clearer ideas.\n\n**Listening** — You recognise words faster = you follow better.\n\n**Your finals** will test all of this at the end of the year.",
+      "notes": "Emphasise: these are foundational skills that support everything else."
+    },
+    {
+      "layout": "raw",
+      "id": "baseline-test",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\">Let's see where you are now.</p><p style=\"color:#fff;text-align:center;font-size:32px;margin-bottom:15px\"><strong>Baseline Test</strong> — Vocabulary &amp; Spelling</p><p style=\"color:#fff;text-align:center;font-size:32px;margin:15px 0\"><span class=\"box-word\">Write</span> your answers clearly.</p>",
+      "notes": "Countdown timer starts automatically when this slide is shown."
+    },
+    {
+      "layout": "raw",
+      "id": "answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.a-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;width:95%;margin:0 auto}.a-item{display:flex;align-items:baseline;gap:8px;color:#fff;font-size:34px;line-height:1.5}.a-num{color:#888;font-size:28px;min-width:36px}.a-word{color:#fff}.a-ans{color:#ffdd00;font-weight:700}</style><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:15px;font-weight:700\">Answers — Set 1</p><div class=\"a-grid\"><div class=\"a-item\"><span class=\"a-num\">1.</span><span class=\"a-word\">rather</span><span class=\"a-ans\">&rarr; B. quite</span></div><div class=\"a-item\"><span class=\"a-num\">2.</span><span class=\"a-word\">camp</span><span class=\"a-ans\">&rarr; A. outdoor holiday</span></div><div class=\"a-item\"><span class=\"a-num\">3.</span><span class=\"a-word\">alone</span><span class=\"a-ans\">&rarr; D. by herself</span></div><div class=\"a-item\"><span class=\"a-num\">4.</span><span class=\"a-word\">ski</span><span class=\"a-ans\">&rarr; C. slide on snow</span></div><div class=\"a-item\"><span class=\"a-num\">5.</span><span class=\"a-word\">essay</span><span class=\"a-ans\">&rarr; B. written work</span></div><div class=\"a-item\"><span class=\"a-num\">6.</span><span class=\"a-word\">element</span><span class=\"a-ans\">&rarr; A. component</span></div><div class=\"a-item\"><span class=\"a-num\">7.</span><span class=\"a-word\">doubt</span><span class=\"a-ans\">&rarr; B. uncertainty</span></div><div class=\"a-item\"><span class=\"a-num\">8.</span><span class=\"a-word\">collection</span><span class=\"a-ans\">&rarr; D. set</span></div><div class=\"a-item\"><span class=\"a-num\">9.</span><span class=\"a-word\">stranger</span><span class=\"a-ans\">&rarr; C. unknown person</span></div><div class=\"a-item\"><span class=\"a-num\">10.</span><span class=\"a-word\">cap</span><span class=\"a-ans\">&rarr; A. soft hat</span></div></div>",
+      "notes": "Items 1-10. Read aloud, pause for marking."
+    },
+    {
+      "layout": "raw",
+      "id": "answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.a-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;width:95%;margin:0 auto}.a-item{display:flex;align-items:baseline;gap:8px;color:#fff;font-size:34px;line-height:1.5}.a-num{color:#888;font-size:28px;min-width:36px}.a-word{color:#fff}.a-ans{color:#ffdd00;font-weight:700}</style><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:15px;font-weight:700\">Answers — Set 2</p><div class=\"a-grid\"><div class=\"a-item\"><span class=\"a-num\">11.</span><span class=\"a-word\">security</span><span class=\"a-ans\">&rarr; B. measures</span></div><div class=\"a-item\"><span class=\"a-num\">12.</span><span class=\"a-word\">studio</span><span class=\"a-ans\">&rarr; D. rehearsal room</span></div><div class=\"a-item\"><span class=\"a-num\">13.</span><span class=\"a-word\">pleasure</span><span class=\"a-ans\">&rarr; C. enjoyment</span></div><div class=\"a-item\"><span class=\"a-num\">14.</span><span class=\"a-word\">brave</span><span class=\"a-ans\">&rarr; B. courageous</span></div><div class=\"a-item\"><span class=\"a-num\">15.</span><span class=\"a-word\">proper</span><span class=\"a-ans\">&rarr; A. suitable</span></div><div class=\"a-item\"><span class=\"a-num\">16.</span><span class=\"a-word\">kiss</span><span class=\"a-ans\">&rarr; D. touch with lips</span></div><div class=\"a-item\"><span class=\"a-num\">17.</span><span class=\"a-word\">announce</span><span class=\"a-ans\">&rarr; B. declare</span></div><div class=\"a-item\"><span class=\"a-num\">18.</span><span class=\"a-word\">analyse</span><span class=\"a-ans\">&rarr; C. examine</span></div><div class=\"a-item\"><span class=\"a-num\">19.</span><span class=\"a-word\">bury</span><span class=\"a-ans\">&rarr; B. put underground</span></div><div class=\"a-item\"><span class=\"a-num\">20.</span><span class=\"a-word\">dislike</span><span class=\"a-ans\">&rarr; C. hate</span></div></div>",
+      "notes": "Items 11-20. Read aloud, pause for marking."
+    },
+    {
+      "layout": "raw",
+      "id": "answers-3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.a-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;width:95%;margin:0 auto}.a-item{display:flex;align-items:baseline;gap:8px;color:#fff;font-size:34px;line-height:1.5}.a-num{color:#888;font-size:28px;min-width:36px}.a-word{color:#fff}.a-ans{color:#ffdd00;font-weight:700}</style><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:15px;font-weight:700\">Answers — Set 3</p><div class=\"a-grid\"><div class=\"a-item\"><span class=\"a-num\">21.</span><span class=\"a-word\">risk</span><span class=\"a-ans\">&rarr; C. chance</span></div><div class=\"a-item\"><span class=\"a-num\">22.</span><span class=\"a-word\">note</span><span class=\"a-ans\">&rarr; D. notice</span></div><div class=\"a-item\"><span class=\"a-num\">23.</span><span class=\"a-word\">scare</span><span class=\"a-ans\">&rarr; C. fright</span></div><div class=\"a-item\"><span class=\"a-num\">24.</span><span class=\"a-word\">ancestor</span><span class=\"a-ans\">&rarr; A. forebear</span></div><div class=\"a-item\"><span class=\"a-num\">25.</span><span class=\"a-word\">reduction</span><span class=\"a-ans\">&rarr; A. decrease</span></div><div class=\"a-item\"><span class=\"a-num\">26.</span><span class=\"a-word\">disability</span><span class=\"a-ans\">&rarr; D. impairment</span></div><div class=\"a-item\"><span class=\"a-num\">27.</span><span class=\"a-word\">tropical</span><span class=\"a-ans\">&rarr; A. hot and humid</span></div><div class=\"a-item\"><span class=\"a-num\">28.</span><span class=\"a-word\">spokesperson</span><span class=\"a-ans\">&rarr; C. representative</span></div><div class=\"a-item\"><span class=\"a-num\">29.</span><span class=\"a-word\">thus</span><span class=\"a-ans\">&rarr; A. therefore</span></div><div class=\"a-item\"><span class=\"a-num\">30.</span><span class=\"a-word\">puzzle</span><span class=\"a-ans\">&rarr; D. brainteaser</span></div></div>",
+      "notes": "Items 21-30. Read aloud, pause for marking. Collect scores."
+    }
+  ]
+}

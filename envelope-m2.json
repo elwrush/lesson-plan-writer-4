@@ -1,0 +1,109 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Written Reflection)",
+    "description": "Midterm review and reflection lesson: students analyse exam results, reflect on strengths/weaknesses, and complete a baseline vocab/spelling test.",
+    "pedagogical_justification": "Feedback and reflection after assessment helps students identify gaps and set goals (Hattie & Timperley, 2007). Combining data-driven review (exam results) with a baseline diagnostic test gives students a clear picture of where they are and what to prioritise.",
+    "main_aim_format": "By the end of the lesson, learners will have reflected on their midterm performance, identified areas for improvement, and completed a baseline vocabulary and spelling diagnostic.",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have reflected on their midterm performance, identified individual skill gaps, and completed a baseline vocabulary and spelling diagnostic.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>19 July, 2026<br><b>Duration:</b><br>50 minutes<br><b>CEFR Level:</b><br>A1-B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Written Reflection)<br><b>Materials:</b><br>Slideshow (https://elwrush.github.io/lesson-plan-writer/m2a-midterm-review/), Listening & Reading score sheets, Baseline Vocab & Spelling Test handout, Exercise books",
+      "stages": [
+        {
+          "stage": "Lead-in \u2014 Why B2 matters",
+          "stage_number": 1,
+          "stage_aim": "To hook students with the real-world value of B2 English and activate prior knowledge",
+          "procedure": [
+            "Ask Ss to rule a fresh page in their exercise books.",
+            "Display title slide: 'How did you go in your exams? Let's find out.'",
+            "Elicit: Why is B2 or above important for standardised English exams?",
+            "Ss write 3 reasons in their books (3 min).",
+            "Check together using the B2 data slides (university, jobs, global communication, demand)."
+          ],
+          "time": 7,
+          "interaction": "T-Ss, S"
+        },
+        {
+          "stage": "Midterm Results Review",
+          "stage_number": 2,
+          "stage_aim": "To show overall grade averages, CEFR distribution, and skill breakdowns per class with anticipation",
+          "procedure": [
+            "Transition slide: 'Your Midterm Results.'",
+            "Show grade overview for M2-4A: auto-animate bar chart (empty bar -> 59%). Repeat for M2-5A (58%). Draw attention to B1 (65%) and B2 (80%) threshold lines.",
+            "Show CEFR distribution per class (click reveals each band segment). Ask: 'How many achieved B1 or B2?'",
+            "Show skill breakdown (L/R/W bars) per class.",
+            "Highlight that Reading is the weakest skill across both classes."
+          ],
+          "time": 12,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Reflection & Score Sheets",
+          "stage_number": 3,
+          "stage_aim": "To guide individual reflection on skill gaps and return graded papers",
+          "procedure": [
+            "Display reflection slide: 'Write your answers in your notebook. Which skill do we need to improve the most? How can we do it?'",
+            "Ss write their reflection (3 min).",
+            "Return Listening and Reading score sheets.",
+            "Ss check their answers (3 min).",
+            "Inform Ss that individual Writing grades will be returned later this week, but they can check with the teacher at the end of the lesson."
+          ],
+          "time": 8,
+          "interaction": "S, T-Ss"
+        },
+        {
+          "stage": "Vocab/Grammar/Spelling Importance",
+          "stage_number": 4,
+          "stage_aim": "To explain why vocabulary, grammar, and spelling are foundational for all skills",
+          "procedure": [
+            "Transition to 'Vocabulary, Grammar & Spelling.'",
+            "Explain: strong vocab/grammar/spelling helps in Reading (understand more = read faster), Writing (clearer ideas), and Listening (recognise words faster).",
+            "Inform Ss that the end-of-year finals will test all of this."
+          ],
+          "time": 3,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Baseline Vocab & Spelling Test",
+          "stage_number": 5,
+          "stage_aim": "To diagnose current vocabulary and spelling levels before end-of-year preparation",
+          "procedure": [
+            "Display the baseline test slide with timer (15:00).",
+            "Hand out the Baseline Vocab & Spelling Test.",
+            "Instruct Ss to write their answers clearly.",
+            "Start the timer. Ss complete the test individually.",
+            "Monitor and assist as needed."
+          ],
+          "time": 15,
+          "interaction": "S"
+        },
+        {
+          "stage": "Mark Answers Together",
+          "stage_number": 6,
+          "stage_aim": "To provide immediate feedback and allow self-correction",
+          "procedure": [
+            "Display answer slides (3 sets of 10, no clickthroughs).",
+            "Ss swap books with a partner.",
+            "Read each answer aloud. Pause.",
+            "Ss tick correct answers and correct wrong ones in a different colour.",
+            "Ss count their score.",
+            "Collect scores for teacher records."
+          ],
+          "time": 5,
+          "interaction": "T-Ss, Ss-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "19 July, 2026",
+    "class_name": "M2-4A / M2-5A",
+    "duration_minutes": 50,
+    "cefr_level": "A1-B1",
+    "lesson_shape": "Shape F \u2014 Productive Skills (Written Reflection)",
+    "topic": "Midterm Review & Baseline Vocab/Spelling Test",
+    "materials": ["Slideshow: Midterm Review (M2)", "Listening & Reading score sheets", "Baseline Vocab & Spelling Test handout (M2)", "Exercise books", "Timer (15:00)"],
+    "main_aim": "By the end of the lesson, learners will have reflected on their midterm performance, identified individual skill gaps, and completed a baseline vocabulary and spelling diagnostic.",
+    "subsidiary_aim": "Learners will have connected real-world B2 English requirements to their own learning goals.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/m2a-midterm-review/"
+  }
+}
