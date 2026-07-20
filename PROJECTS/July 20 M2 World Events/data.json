@@ -1,0 +1,249 @@
+{
+  "title": "M2 World Events",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/hindenburg1.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/hindenburg2.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How much world events language do you have?",
+      "body": "Let's find out.",
+      "notes": "Greet students. Ask: What world events have you heard about recently? What big changes have happened in the world?"
+    },
+    {
+      "layout": "raw",
+      "id": "entry-ticket",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Entry Ticket</h2><p style=\"color:#fff;text-align:center;font-size:34px\">Spelling Test</p><p style=\"color:#fff;text-align:center;font-size:34px;max-width:600px;margin:0 auto\">Write down the words you hear</p><div style=\"text-align:center;margin-top:20px\"><audio controls data-src=\"assets/spelling-test.mp3\" style=\"width:320px\"></audio></div>",
+      "notes": "Play the spelling test audio. Students write the 10 words."
+    },
+    {
+      "layout": "raw",
+      "id": "entry-ticket-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.spell-table{border-collapse:collapse;margin:10px auto;max-width:700px;width:100%}.spell-table td{padding:8px 12px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.spell-table .num{color:#ffdd00;min-width:28px}.spell-table .lvl{color:#3498db;font-size:28px;padding-left:8px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Spelling Test — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"spell-table\"><tr><td class=\"num\">1</td><td>pants</td><td class=\"lvl\">A2</td></tr><tr><td class=\"num\">2</td><td>thinking</td><td class=\"lvl\">A2</td></tr><tr><td class=\"num\">3</td><td>whole</td><td class=\"lvl\">A2</td></tr><tr><td class=\"num\">4</td><td>qualified</td><td class=\"lvl\">B1</td></tr><tr><td class=\"num\">5</td><td>profession</td><td class=\"lvl\">B1</td></tr></table>",
+      "notes": "Answers 1-5. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "entry-ticket-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.spell-table{border-collapse:collapse;margin:10px auto;max-width:700px;width:100%}.spell-table td{padding:8px 12px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.spell-table .num{color:#ffdd00;min-width:28px}.spell-table .lvl{color:#3498db;font-size:28px;padding-left:8px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Spelling Test — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Continue</span> marking.</p><table class=\"spell-table\"><tr><td class=\"num\">6</td><td>commercial</td><td class=\"lvl\">B1</td></tr><tr><td class=\"num\">7</td><td>admire</td><td class=\"lvl\">B1</td></tr><tr><td class=\"num\">8</td><td>kick</td><td class=\"lvl\">B1</td></tr><tr><td class=\"num\">9</td><td>rapidly</td><td class=\"lvl\">B2</td></tr><tr><td class=\"num\">10</td><td>choir</td><td class=\"lvl\">B2</td></tr></table>",
+      "notes": "Answers 6-10. Continue marking."
+    },
+    {
+      "layout": "raw",
+      "id": "hindenburg-clip",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">The Hindenburg Disaster — 1937</p><p style=\"color:#fff;text-align:center;font-size:34px\">Watch the clip. What do you notice?</p><div class=\"video-box\"><iframe data-src=\"https://www.youtube.com/embed/fURATK5Yt30?start=149&end=211&enablejsapi=1\" data-autoplay allowfullscreen></iframe></div>",
+      "notes": "Play the Hindenburg clip (2:29–3:31). Ask: What happened? How did it make you feel? What do you know about the Hindenburg? Introduce the topic of historical events."
+    },
+    {
+      "layout": "content",
+      "id": "hindenburg-discuss",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "What just happened?",
+      "body": "What did you see?\n\nWhy do you think the Hindenburg is still remembered today?\n\nWhat other historical events do you know about?",
+      "notes": "Elicit reactions. Guide: The Hindenburg was a German airship that exploded in 1937. It was filmed and shown in newsreels around the world — one of the first media disasters."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Historical Events Vocabulary",
+      "notes": "Transition: Now we'll learn words to talk about historical events and world changes. Open your books to page 114. Play audio track 1.24."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-listen",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.vocab-table{border-collapse:collapse;margin:15px auto;max-width:650px;width:100%}.vocab-table td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}.vocab-table tr:last-child td{border-bottom:none}</style><h2 style=\"color:#fff;text-align:center;font-size:46px\">Listen and repeat</h2><table class=\"vocab-table\"><tr><td>construction</td><td>discovery</td></tr><tr><td>development</td><td>exploration</td></tr><tr><td>founding</td><td>invention</td></tr><tr><td>peace</td><td>spread</td></tr><tr><td>trade</td><td>war</td></tr></table><div style=\"text-align:center;margin-top:20px\"><audio controls data-src=\"assets/ODF2_SB_1.24.mp3\" style=\"width:300px\"></audio></div>",
+      "notes": "Play the audio track 1.24. Define each word as a class. Do NOT write definitions on screen. Elicit meaning from students."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">Exercise 1</p><p style=\"color:#fff;text-align:center;font-size:34px\">Open your books to <strong>page 114</strong>.<br>Complete the sentences with the correct words.</p>",
+      "notes": "Students complete Ex 1 independently. Timer: 6 minutes (360 seconds). They choose the correct word from the word bank."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex1-table{border-collapse:collapse;margin:10px auto;max-width:800px;width:100%;font-size:36px}.ex1-table td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left}.ex1-table .num{color:#ffdd00;font-weight:700;width:40px}.ex1-table .wrong{color:#fff}.ex1-table .correct{color:#fff}.ex1-table .correct.fragment.visible{color:#ffdd00;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px;font-weight:700}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex1-table\"><tr><td class=\"num\">1</td><td>The Taj Mahal's <span class=\"correct fragment\">construction</span> took 16 years.</td></tr><tr><td class=\"num\">2</td><td>Purkinje made the important <span class=\"correct fragment\">discovery</span> that fingerprints are different.</td></tr><tr><td class=\"num\">3</td><td>In the Middle Ages, the Italians had a <span class=\"correct fragment\">trade</span> exchange with Egypt.</td></tr><tr><td class=\"num\">4</td><td>What will the future of space <span class=\"correct fragment\">exploration</span> be?</td></tr><tr><td class=\"num\">5</td><td>The disease <span class=\"correct fragment\">spread</span> very fast in 1918.</td></tr></table>",
+      "notes": "Rows 1-5 visible. Clicking reveals the correct answer in each row sequentially. Ask CCQs: What's the difference between discovery and invention? What does spread mean?"
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex1-table{border-collapse:collapse;margin:10px auto;max-width:800px;width:100%;font-size:36px}.ex1-table td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left}.ex1-table .num{color:#ffdd00;font-weight:700;width:40px}.ex1-table .wrong{color:#fff}.ex1-table .correct{color:#fff}.ex1-table .correct.fragment.visible{color:#ffdd00;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px;font-weight:700}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Continue</span> checking.</p><table class=\"ex1-table\"><tr><td class=\"num\">6</td><td>Before the <span class=\"correct fragment\">development</span> of roads, people walked.</td></tr><tr><td class=\"num\">7</td><td>Countries go to <span class=\"correct fragment\">war</span> over land and resources.</td></tr><tr><td class=\"num\">8</td><td>Since its <span class=\"correct fragment\">founding</span> in 1946, Unicef has helped millions.</td></tr><tr><td class=\"num\">9</td><td>Robert Noyce's most famous <span class=\"correct fragment\">invention</span> was the microchip.</td></tr><tr><td class=\"num\">10</td><td>Some people believe world <span class=\"correct fragment\">peace</span> is possible.</td></tr></table>",
+      "notes": "Rows 6-10. Continue checking. Ask: Do any of these facts surprise you? Which world event discussed here is most interesting?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-adverbs",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Adverbs of Manner",
+      "notes": "Transition: Now let's learn how to describe HOW something happens. Adverbs of manner. Play audio track 1.25."
+    },
+    {
+      "layout": "raw",
+      "id": "adverb-listen",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.vocab-table{border-collapse:collapse;margin:15px auto;max-width:650px;width:100%}.vocab-table td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}.vocab-table tr:last-child td{border-bottom:none}</style><h2 style=\"color:#fff;text-align:center;font-size:46px\">Listen and repeat</h2><table class=\"vocab-table\"><tr><td>badly</td><td>beautifully</td></tr><tr><td>bravely</td><td>carefully</td></tr><tr><td>greedily</td><td>heavily</td></tr><tr><td>quickly</td><td>slowly</td></tr></table><div style=\"text-align:center;margin-top:20px\"><audio controls data-src=\"assets/ODF2_SB_1.25.mp3\" style=\"width:300px\"></audio></div>",
+      "notes": "Play the audio track 1.25. Define each word as a class. Elicit the base adjective for each adverb (slow → slowly, careful → carefully)."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "adverb-example",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Adjective → Adverb",
+      "body": "<div style=\"display:flex;justify-content:center;align-items:center;gap:80px;margin-top:40px\"><span data-id=\"word-adj\" style=\"font-size:72px;font-weight:300;font-style:italic;color:#ffdd00;font-family:'Roboto Serif',Georgia,serif;background:rgba(255,255,255,0.06);padding:12px 24px;border-radius:10px\">slow</span><span style=\"font-size:40px;color:#fff\">→</span><span data-id=\"word-adv\" style=\"font-size:72px;font-weight:900;color:#3498db;font-family:Roboto,'Arial Black',sans-serif;background:rgba(255,255,255,0.06);padding:12px 24px;border-radius:10px;text-transform:uppercase\">slowly</span></div>",
+      "notes": "Step 1: Show 'slow' (light italic serif) and 'slowly' (bold uppercase sans-serif) with an arrow. Ask: What's the difference? (adjective vs adverb)"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "adverb-example",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "slow + -ly = slowly",
+      "body": "<div style=\"display:flex;flex-direction:column;align-items:center;margin-top:10px\"><span data-id=\"word-adj\" style=\"font-size:72px;font-weight:900;color:#ffdd00;padding:10px 30px;background:rgba(255,255,255,0.15);border-radius:8px;border:3px solid #ffdd00;font-family:Roboto,'Arial Black',sans-serif\">slowly</span><div style=\"margin-top:20px;text-align:center\"><img src=\"assets/snail1.jpg\" style=\"max-width:85%;max-height:320px;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.5)\"></div><p style=\"color:#fff;text-align:center;font-size:34px;margin-top:12px\">The snail moved <strong style=\"color:#ffdd00\">slowly</strong> across the path.</p><div style=\"margin-top:10px;font-size:34px;color:#fff;max-width:650px;text-align:center\">Adjective: <strong style=\"color:#ffdd00\">slow</strong> (describes a noun)<br>Adverb: <strong style=\"color:#ffdd00\">slowly</strong> (describes a verb — <em>how</em> something happens)</div></div>",
+      "notes": "Step 2: 'slow' and 'slowly' merge as 'slowly' in gold with the snail image. Explain: slow (adj) describes a noun. Slowly (adv) describes a verb — how something happens. Add -ly to most adjectives to make adverbs."
+    },
+    {
+      "layout": "raw",
+      "id": "ex3-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">Exercise 3</p><p style=\"color:#fff;text-align:center;font-size:34px\">Complete each pair with the correct<br>adjective or adverb.</p>",
+      "notes": "Students complete Exercise 3 independently. Timer pill: 5 minutes (300 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex3-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex3-table{border-collapse:collapse;margin:10px auto;max-width:800px;width:100%;font-size:34px}.ex3-table td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:36px}.ex3-table .num{color:#ffdd00;font-weight:700;width:40px;vertical-align:top}.ex3-table .boxed{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 6px;font-size:34px}.ex3-table .ctx{font-size:34px;color:rgba(255,255,255,0.7)}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 3 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex3-table\"><tr class=\"fragment\"><td class=\"num\">1a</td><td>It was a lovely old bus but it was very <span class=\"boxed\">slow</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">1b</td><td>Hurry up! Why are you walking so <span class=\"boxed\">slowly</span>?</td></tr><tr class=\"fragment\"><td class=\"num\">2a</td><td>Have a great trip! Drive <span class=\"boxed\">carefully</span>!</td></tr><tr class=\"fragment\"><td class=\"num\">2b</td><td>Be <span class=\"boxed\">careful</span>! You might break it!</td></tr><tr class=\"fragment\"><td class=\"num\">3a</td><td>He's very <span class=\"boxed\">greedy</span> and selfish.</td></tr><tr class=\"fragment\"><td class=\"num\">3b</td><td>He ate the candy <span class=\"boxed\">greedily</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">4a</td><td>I can't carry this bag. It's really <span class=\"boxed\">heavy</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">4b</td><td>He fell <span class=\"boxed\">heavily</span> onto the sidewalk.</td></tr></table>",
+      "notes": "Rows 1a-4b visible. Each click reveals the next row. Ask: Which is the adjective and which is the adverb?"
+    },
+    {
+      "layout": "raw",
+      "id": "ex3-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex3-table{border-collapse:collapse;margin:10px auto;max-width:800px;width:100%;font-size:34px}.ex3-table td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:36px}.ex3-table .num{color:#ffdd00;font-weight:700;width:40px;vertical-align:top}.ex3-table .boxed{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 6px;font-size:34px}.ex3-table .ctx{font-size:34px;color:rgba(255,255,255,0.7)}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 3 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Continue</span> checking.</p><table class=\"ex3-table\"><tr class=\"fragment\"><td class=\"num\">5a</td><td>That was very <span class=\"boxed\">brave</span> of you.</td></tr><tr class=\"fragment\"><td class=\"num\">5b</td><td>The men defended themselves <span class=\"boxed\">bravely</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">6a</td><td>She left the room <span class=\"boxed\">quickly</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">6b</td><td>Can we have a <span class=\"boxed\">quick</span> chat?</td></tr><tr class=\"fragment\"><td class=\"num\">7a</td><td>I speak French very <span class=\"boxed\">badly</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">7b</td><td>I think it's a really <span class=\"boxed\">bad</span> idea!</td></tr><tr class=\"fragment\"><td class=\"num\">8a</td><td>They wrapped the gift <span class=\"boxed\">beautifully</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">8b</td><td>There was a <span class=\"boxed\">beautiful</span> sunset today.</td></tr></table>",
+      "notes": "Rows 5a-8b. Continue checking. Ask: Can you make a sentence with one of these pairs?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-info",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Information Sources",
+      "notes": "Transition: Now let's talk about how we find information about history. Play audio track 1.26."
+    },
+    {
+      "layout": "raw",
+      "id": "info-listen",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.vocab-table{border-collapse:collapse;margin:15px auto;max-width:650px;width:100%}.vocab-table td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}.vocab-table tr:last-child td{border-bottom:none}</style><h2 style=\"color:#fff;text-align:center;font-size:46px\">Listen and repeat</h2><table class=\"vocab-table\"><tr><td>augmented reality app</td><td>biography</td></tr><tr><td>brochure</td><td>census</td></tr><tr><td>guide</td><td>interview</td></tr><tr><td>monument</td><td>plaque</td></tr><tr><td>statistics</td><td>statue</td></tr><tr><td>tour</td><td></td></tr></table><div style=\"text-align:center;margin-top:20px\"><audio controls data-src=\"assets/ODF2_SB_1.26.mp3\" style=\"width:300px\"></audio></div>",
+      "notes": "Play the audio track 1.26. Define each word as a class. Elicit: Which of these have you used? What information can each source give us?"
+    },
+    {
+      "layout": "raw",
+      "id": "ex4-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">Exercise 4</p><p style=\"color:#fff;text-align:center;font-size:34px\">Match the sentence halves 1–7 with a–g.</p>",
+      "notes": "Students complete Exercise 4. Timer pill: 4 minutes (240 seconds)."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ex4-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Exercise 4 — Answers",
+      "body": "<style>.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin:5px 0;width:100%;font-size:34px}.match-grid .stem{color:#fff;padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center}.match-grid .stem .num{color:#ffdd00;min-width:24px;margin-right:4px}.match-grid .opt{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;text-align:left}.match-grid .opt .ltr{color:#e67e22;margin-right:6px}</style><div class=\"match-grid\" data-id=\"grid\"><div class=\"stem\" data-id=\"s1\"><span class=\"num\">1</span>There are a lot of plaques</div><div class=\"opt\" data-id=\"o7\"><span class=\"ltr\">e</span> tourist offices, but I don't always read them.</div><div class=\"stem\" data-id=\"s2\"><span class=\"num\">2</span>Augmented reality apps</div><div class=\"opt\" data-id=\"o5\"><span class=\"ltr\">b</span> than studying censuses and statistics.</div><div class=\"stem\" data-id=\"s3\"><span class=\"num\">3</span>There are a lot of statues</div><div class=\"opt\" data-id=\"o2\"><span class=\"ltr\">d</span> famous people.</div><div class=\"stem\" data-id=\"s4\"><span class=\"num\">4</span>I prefer a real guide to an online guide</div><div class=\"opt\" data-id=\"o6\"><span class=\"ltr\">f</span> are fun, but I've never used one for learning history.</div><div class=\"stem\" data-id=\"s5\"><span class=\"num\">5</span>I enjoy reading biographies</div><div class=\"opt\" data-id=\"o1\"><span class=\"ltr\">c</span> the walls of buildings in my city.</div><div class=\"stem\" data-id=\"s6\"><span class=\"num\">6</span>Asking local people about history is more exciting</div><div class=\"opt\" data-id=\"o3\"><span class=\"ltr\">a</span> when I'm on a city or museum tour.</div><div class=\"stem\" data-id=\"s7\"><span class=\"num\">7</span>I sometimes pick up brochures in</div><div class=\"opt\" data-id=\"o4\"><span class=\"ltr\">g</span> and monuments on the streets of our capital city.</div></div>",
+      "notes": "Step 1: Stems on left, options scrambled on right. Ask students to match them. On click, options animate to correct positions."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ex4-answers",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Exercise 4 — Answers",
+      "body": "<style>.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin:5px 0;width:100%;font-size:34px}.match-grid .stem{color:#fff;padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center}.match-grid .stem .num{color:#ffdd00;min-width:24px;margin-right:4px}.match-grid .opt{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;text-align:left}.match-grid .opt .ltr{color:#2ecc71;margin-right:6px}</style><div class=\"match-grid\" data-id=\"grid\"><div class=\"stem\" data-id=\"s1\"><span class=\"num\">1</span>There are a lot of plaques</div><div class=\"opt\" data-id=\"o1\"><span class=\"ltr\">c</span> the walls of buildings in my city.</div><div class=\"stem\" data-id=\"s2\"><span class=\"num\">2</span>Augmented reality apps</div><div class=\"opt\" data-id=\"o2\"><span class=\"ltr\">f</span> are fun, but I've never used one for learning history.</div><div class=\"stem\" data-id=\"s3\"><span class=\"num\">3</span>There are a lot of statues</div><div class=\"opt\" data-id=\"o3\"><span class=\"ltr\">g</span> and monuments on the streets of our capital city.</div><div class=\"stem\" data-id=\"s4\"><span class=\"num\">4</span>I prefer a real guide to an online guide</div><div class=\"opt\" data-id=\"o4\"><span class=\"ltr\">a</span> when I'm on a city or museum tour.</div><div class=\"stem\" data-id=\"s5\"><span class=\"num\">5</span>I enjoy reading biographies</div><div class=\"opt\" data-id=\"o5\"><span class=\"ltr\">d</span> famous people.</div><div class=\"stem\" data-id=\"s6\"><span class=\"num\">6</span>Asking local people about history is more exciting</div><div class=\"opt\" data-id=\"o6\"><span class=\"ltr\">b</span> than studying censuses and statistics.</div><div class=\"stem\" data-id=\"s7\"><span class=\"num\">7</span>I sometimes pick up brochures in</div><div class=\"opt\" data-id=\"o7\"><span class=\"ltr\">e</span> tourist offices, but I don't always read them.</div></div>",
+      "notes": "Step 2: Options animated to correct positions (1→c, 2→f, 3→g, 4→a, 5→d, 6→b, 7→e) with green letter highlight."
+    },
+    {
+      "layout": "raw",
+      "id": "ex5-discuss",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.info-table{border-collapse:collapse;margin:10px auto;max-width:800px;width:100%}.info-table td{padding:12px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:36px;vertical-align:top}.info-table .num{color:#ffdd00;font-weight:700;min-width:30px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 5</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\">Which information sources could you use to find out about ... ?</p><table class=\"info-table\"><tr><td class=\"num\">1</td><td>your family history</td></tr><tr><td class=\"num\">2</td><td>the building you live in</td></tr><tr><td class=\"num\">3</td><td>the history of your local neighbourhood</td></tr><tr><td class=\"num\">4</td><td>the history of your capital city</td></tr><tr><td class=\"num\">5</td><td>the history of famous people from your country</td></tr></table>",
+      "notes": "Students discuss in pairs. Suggested answers: 1 census, statistics, interview; 2 plaque, interview; 3 monuments, statues, interview, tour; 4 monuments, statues, tour, guide; 5 biographies, statues, monuments."
+    },
+    {
+      "layout": "content",
+      "id": "conclusion-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Structured Discourse",
+      "body": "**1. Opinion** — What do you think?\n\n**2. Reason** — Why do you think that?\n\n**3. Story** — Who? What? Where? When? Why? How?",
+      "notes": "Explain: When you speak for a minute, follow this structure. Opinion → Reason → Story/Example. Let's practice by listening to a model."
+    },
+    {
+      "layout": "content",
+      "id": "model-example",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Model — The Hindenburg Disaster",
+      "body": "<div style=\"font-size:32px;color:#fff;line-height:1.35;max-width:90%;margin:0 auto;text-align:left;overflow-y:auto\"><p>I think one of the most dramatic historical events was the Hindenburg disaster of 1937. Why? Because it was one of the first times a major disaster was captured on film and shown in newsreels all over the world. For example, thousands of people watched the newsreel in movie theaters. They saw the giant airship burst into flames in just 34 seconds. Another reason is that it changed the future of travel forever. Before the Hindenburg, people believed airships were the future of long-distance travel. After the disaster, the age of airships ended completely. So this event shows us how technology can change in an instant, and how one moment can change history. When you speak, try to follow this structure: give your opinion, explain your reason, and share an example.</p></div><div style=\"text-align:center;margin-top:12px\"><audio controls data-src=\"assets/monolog-model.mp3\" style=\"width:300px\"></audio></div>",
+      "notes": "Play the audio model. Point out the natural structure: Opinion (most dramatic event) → Reason (captured on film) → Example (newsreels, 34 seconds) → Another reason (changed travel forever) → Conclusion. Ask students to prepare a similar 1-minute talk about a historical event."
+    },
+    {
+      "layout": "raw",
+      "id": "ex2-discuss",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.agree-table{border-collapse:collapse;margin:10px auto;max-width:800px;width:100%}.agree-table td{padding:12px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:36px;vertical-align:top}.agree-table .num{color:#ffdd00;font-weight:700;min-width:30px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 2</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\">Agree (A) or disagree (D)? Discuss why.</p><table class=\"agree-table\"><tr><td class=\"num\">1</td><td>Stopping the spread of disease is more important than space exploration.</td></tr><tr><td class=\"num\">2</td><td>There will always be wars.</td></tr><tr><td class=\"num\">3</td><td>The development of flight changed the world forever.</td></tr><tr><td class=\"num\">4</td><td>All inventions and discoveries are good.</td></tr></table>",
+      "notes": "Students discuss in pairs or groups. Walk around and monitor. After 5 minutes, elicit some opinions. Use opinion language: I think... / In my opinion... / I agree because..."
+    },
+    {
+      "layout": "content",
+      "id": "questions",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Questions?",
+      "body": "Any questions about what we've learned today?",
+      "notes": "Wrap up. Ask: What new words can you use to talk about world events? What's the difference between an adjective and an adverb? Which information source do you find most useful for learning history?"
+    }
+  ]
+}

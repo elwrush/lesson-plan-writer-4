@@ -54,6 +54,8 @@ Run: `python -m pytest tests/test_git_pages_safety.py -v`
 - A source directory containing `index.html`
 - Remote `origin` is a GitHub repo
 
+**Pages remote override:** Slides always deploy to `old-origin` (`elwrush/lesson-plan-writer`), NOT `origin`. If `old-origin` doesn't exist, fall back to `origin`.
+
 ## Workflow
 
 ### Step 0: Detect the target and determine deploy vs update
@@ -61,6 +63,13 @@ Run: `python -m pytest tests/test_git_pages_safety.py -v`
 name="$1"
 shift
 source_dir="${*:-slides}"
+
+# Pages remote: use old-origin (canonical slides host), fall back to origin
+if git remote get-url old-origin 2>/dev/null; then
+  pages_remote="old-origin"
+else
+  pages_remote="origin"
+fi
 
 if [ -z "$name" ]; then
   read -r -p "Enter the subfolder to deploy (e.g. TEST): " name
@@ -87,8 +96,8 @@ echo "  Source:    $slides_html"
 presentations=("$name")
 
 # Detect new deploy vs update
-git fetch origin gh-pages 2>/dev/null || true
-if git ls-tree --name-only origin/gh-pages 2>/dev/null | grep -q "^${name}$"; then
+git fetch "$pages_remote" gh-pages 2>/dev/null || true
+if git ls-tree --name-only "$pages_remote"/gh-pages 2>/dev/null | grep -q "^${name}$"; then
   echo "  Action:    UPDATE (existing on gh-pages)"
 else
   echo "  Action:    NEW DEPLOY (first time on gh-pages)"
@@ -105,14 +114,15 @@ fi
 
 ### Step 2: Detect remote
 ```bash
-remote_url=$(git remote get-url origin)
+remote_url=$(git remote get-url "$pages_remote")
 if [[ $remote_url =~ github\.com[:\/](.+)/(.+)\.git ]]; then
-  owner="${BASH_REMATCH[1]}"
-  repo="${BASH_REMATCH[2]}"
+  owner="${match[1]}"
+  repo="${match[2]}"
 else
-  echo "ERROR: Remote origin is not a GitHub repo"
+  echo "ERROR: Remote $pages_remote is not a GitHub repo"
   exit 1
 fi
+echo "  Pages host: $pages_remote ($owner/$repo)"
 ```
 
 ### Step 3: Fast lint
@@ -252,8 +262,8 @@ fi
 echo "  Push accepted."
 
 # Verify by fetching the deployed file back and comparing checksum
-git fetch origin gh-pages 2>/dev/null || true
-deployed_content=$(git show origin/gh-pages:"$name/index.html" 2>/dev/null | md5sum | cut -d' ' -f1)
+git fetch "$pages_remote" gh-pages 2>/dev/null || true
+deployed_content=$(git show "$pages_remote"/gh-pages:"$name/index.html" 2>/dev/null | md5sum | cut -d' ' -f1)
 local_content=$(md5sum "$source_dir/index.html" | cut -d' ' -f1)
 if [ "$deployed_content" = "$local_content" ]; then
   echo "  VERIFIED: remote file matches local source (MD5: $local_content)"

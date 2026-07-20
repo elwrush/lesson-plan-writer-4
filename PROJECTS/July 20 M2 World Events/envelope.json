@@ -1,0 +1,108 @@
+{
+  "shape": {
+    "name": "Shape B — Language Practice",
+    "description": "Follow-on practice lesson with varied practice stages moving from controlled to freer.",
+    "pedagogical_justification": "This lesson is the first encounter with Unit 2 (World Events) vocabulary for M2 students at CEFR A2/B1. The lesson moves from vocabulary presentation through controlled practice (gap-fill, matching) to freer productive use (structured discourse). The Hindenburg disaster video provides engaging real-world context for historical events. The adverb concept is introduced via auto-animated morphological breakdown (slow + -ly → slowly). Information sources vocabulary gives students tools for discussing how we learn about history. The final stage models structured discourse (Opinion → Reason → Example) as preparation for speaking.",
+    "main_aim_format": "By the end of the lesson, learners will have had an opportunity to practice using historical events vocabulary and adverbs of manner and will be better able to discuss world events and explain how we learn about history.",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have had further form-focused and freer practice using world events vocabulary and adverbs of manner in the context of discussing historical events and information sources.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>20 July, 2026<br><b>Duration:</b><br>45 minutes<br><b>CEFR Level:</b><br>A2/B1<br><b>Lesson Shape:</b><br>B (Language Practice)<br><b>Materials:</b><br>ODF2 Student's Book p.114, slideshow, audio tracks 1.24-1.26, timer, Hindenburg disaster video clip<br><b>Assessment:</b><br>Ex 1, 3, 4 answers, teacher monitoring<br><b>Systems:</b><br>Vocabulary, Adverbs of Manner",
+      "stages": [
+        {
+          "stage": "Lead-in & Entry Ticket",
+          "stage_number": 1,
+          "stage_aim": "To activate schemata and assess prior vocabulary knowledge",
+          "procedure": [
+            "Spelling test (entry ticket) — Ss write 10 words as audio plays.",
+            "Ss swap books and check answers. Answer key displayed on screen (split across 2 slides: 1-5, 6-10).",
+            "Play Hindenburg disaster clip (YouTube, 2:29-3:31). Ask: What happened? How did it make you feel?"
+          ],
+          "time": 8,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Vocabulary Presentation (Historical Events)",
+          "stage_number": 2,
+          "stage_aim": "To present and practice 10 historical events vocabulary items",
+          "procedure": [
+            "Ss open ODF2 p.114. Display 10 vocab words in a 2-column table: construction, development, discovery, exploration, founding, invention, peace, spread, trade, war.",
+            "Play audio track 1.24. Ss listen and repeat. Elicit definitions as a class — do NOT write definitions on screen.",
+            "Ss complete Ex 1 (Complete the sentences with the correct words). Timer: 6 min.",
+            "Display answers in a numbered table. Each click highlights the correct answer. Ask CCQs (What's the difference between discovery and invention?).",
+            "Ex 2 discussion: 4 agree/disagree statements. Ss discuss in pairs. Elicit opinions."
+          ],
+          "time": 10,
+          "interaction": "T-Ss / Ind / Ss-Ss"
+        },
+        {
+          "stage": "Adverbs of Manner",
+          "stage_number": 3,
+          "stage_aim": "To introduce and practice adverbs of manner with adjective/adverb pairs",
+          "procedure": [
+            "Transition: 'Adverbs of Manner'. Display 8 adverbs in a 2-column table: badly, beautifully, bravely, carefully, greedily, heavily, quickly, slowly.",
+            "Play audio track 1.25. Ss listen and repeat. Elicit base adjectives for each adverb.",
+            "Introduce 'slow → slowly' using auto-animate: 'slow' (italic serif) and 'slowly' (bold sans) with arrow. Step 2: merge into 'slowly' with snail image for context.",
+            "Explain: Adjective describes a noun; adverb (add -ly) describes a verb — how something happens.",
+            "Ss complete Ex 3 (Complete each pair with adjective or adverb). Timer: 5 min.",
+            "Display answers in a numbered table. Each click reveals the next row. Ask: Which is the adjective and which is the adverb?"
+          ],
+          "time": 10,
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Information Sources",
+          "stage_number": 4,
+          "stage_aim": "To present and practice information sources vocabulary and matching skills",
+          "procedure": [
+            "Transition: 'Information Sources'. Display 11 vocab items in a 2-column table: augmented reality app, biography, brochure, census, guide, interview, monument, plaque, statistics, statue, tour.",
+            "Play audio track 1.26. Ss listen and repeat. Ask: Which of these have you used?",
+            "Ss complete Ex 4 (Match sentence halves 1-7 with a-g). Timer: 4 min.",
+            "Display answers as auto-animate matching exercise: stems on left, options on right. Options slide to correct positions on click.",
+            "Ex 5 discussion: Which information sources could you use for different topics? Ss discuss in pairs."
+          ],
+          "time": 11,
+          "interaction": "T-Ss / Ind / Ss-Ss"
+        },
+        {
+          "stage": "Structured Discourse & Wrap-up",
+          "stage_number": 5,
+          "stage_aim": "To model and prepare for structured spoken discourse about historical events",
+          "procedure": [
+            "Present structured discourse framework: Opinion → Reason → Story/Example (Who? What? Where? When? Why? How?).",
+            "Display model answer about the Hindenburg disaster (~150 words) as a continuous paragraph demonstrating the framework.",
+            "Play audio model (US female teen voice, ~1 min). Ss listen and identify the structure.",
+            "Wrap-up: Q&A. Ask: What new words can you use to talk about world events? What's the difference between an adjective and an adverb?"
+          ],
+          "time": 6,
+          "interaction": "T-Ss / Ind"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "20 July, 2026",
+    "class_name": "M2",
+    "duration_minutes": 45,
+    "cefr_level": "A2/B1",
+    "lesson_shape": "Shape B — Language Practice",
+    "topic": "World Events Vocabulary",
+    "materials": [
+      "ODF2 Student's Book p.114",
+      "Slideshow (reveal.js)",
+      "Audio tracks 1.24, 1.25, 1.26",
+      "Timer plugin",
+      "Hindenburg disaster video clip",
+      "Monolog audio model (US female teen)"
+    ],
+    "main_aim": "By the end of the lesson, learners will have practiced using historical events vocabulary and adverbs of manner and will be better able to discuss world events and explain how we learn about history.",
+    "subsidiary_aim": "To increase awareness of information sources for learning history and how adjectives become adverbs (-ly suffix).",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M2-World-Events/",
+    "video_url": "https://www.youtube.com/watch?v=fURATK5Yt30",
+    "transcript": null,
+    "answer_key": [
+      "Ex 1: 1 construction, 2 discovery, 3 trade, 4 exploration, 5 spread, 6 development, 7 war, 8 founding, 9 invention, 10 peace",
+      "Ex 3: 1a slow, 1b slowly, 2a carefully, 2b careful, 3a greedy, 3b greedily, 4a heavy, 4b heavily, 5a brave, 5b bravely, 6a quickly, 6b quick, 7a badly, 7b bad, 8a beautifully, 8b beautiful",
+      "Ex 4: 1c, 2f, 3g, 4a, 5d, 6b, 7e"
+    ]
+  }
+}
