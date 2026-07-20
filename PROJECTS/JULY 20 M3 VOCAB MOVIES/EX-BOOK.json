@@ -1,0 +1,157 @@
+```json
+{
+  "book_title": "Oxford Discover Futures 3 Student's Book",
+  "page_number": 122,
+  "unit": "Unit 6",
+  "section": "Discover vocabulary",
+  "lessons": [
+    {
+      "topic": "Movies",
+      "audio_track": "1.32",
+      "vocabulary_words": [
+        "blockbuster",
+        "cast",
+        "performance",
+        "plot",
+        "scene",
+        "screenplay",
+        "set",
+        "soundtrack",
+        "special effects",
+        "trailer"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "instruction": "Choose the correct answers to complete the movie review.",
+          "content": {
+            "title": "The Shape of Water (2018)",
+            "text": "Director: Guillermo Del Toro\n¹Scene / Screenplay: Guillermo Del Toro & Vanessa Taylor\nGuillermo del Toro's The Shape of Water was the fantasy ²blockbuster / trailer of 2018.\nSet in the U.S. in 1962, the movie tells the story of Elisa, a voiceless cleaning lady who works at a secret government laboratory and falls in love with a strange, fish-like creature that's kept there. It's a simple ³plot / set that has echoes of Beauty and the Beast.\nSally Hawkins' ⁴performance / cast as the silent Elisa is particularly powerful. The ⁵cast / plot also includes Doug Jones (fish man) and Michael Shannon (Elisa's boss).\nDel Toro used a combination of CGI and ⁶special effects / trailers to create the fish man character and the underwater ⁷soundtracks / scenes in Elisa's apartment. Alexandre Desplat's ⁸screenplay / soundtrack adds magical music to the strange events that take place.\nRomance, thriller, and fairy tale all in one, The Shape of Water is not to be missed."
+          },
+          "answer_key": [
+            "1 Screenplay",
+            "2 blockbuster",
+            "3 plot",
+            "4 performance",
+            "5 cast",
+            "6 special effects",
+            "7 scenes",
+            "8 soundtrack"
+          ]
+        },
+        {
+          "exercise_number": 2,
+          "instruction": "Answer the questions. Explain your answers.",
+          "questions": [
+            "1 What's more important to you in a movie – a good screenplay or a good soundtrack? Why?",
+            "2 Do you enjoy watching trailers for new movies? Why? / Why not?",
+            "3 What was the last blockbuster you watched?",
+            "4 What movies have you watched recently with good special effects?"
+          ],
+          "answer_key": "students' own answers"
+        }
+      ]
+    },
+    {
+      "topic": "Compound adjectives",
+      "audio_track": "1.33",
+      "vocabulary_words": [
+        "action-packed",
+        "breathtaking",
+        "fast-paced",
+        "groundbreaking",
+        "hard-hitting",
+        "highly respected",
+        "neverending",
+        "old-fashioned",
+        "short-lived",
+        "thought-provoking",
+        "well-known"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 3,
+          "instruction": "Complete the sentences with compound adjectives from the box.",
+          "questions": [
+            "1 I don't like modern movie theaters. I prefer __________ ones.",
+            "2 Despite its initial popularity, the movie only had __________ success.",
+            "3 The action in this drama is __________ – it just keeps coming!",
+            "4 Monster's Ball (2001) is a powerful, __________ movie about racism.",
+            "5 Alejandro Amenabar and Lynne Ramsay are two __________ movie directors.",
+            "6 The 2018 thriller Unsane was __________ because it was filmed entirely on iPhone."
+          ],
+          "answer_key": [
+            "1 old-fashioned",
+            "2 short-lived",
+            "3 neverending",
+            "4 hard-hitting",
+            "5 highly respected",
+            "6 groundbreaking"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Documentaries",
+      "audio_track": "1.34",
+      "vocabulary_words": [
+        "educational",
+        "entertain",
+        "entertaining",
+        "fictional",
+        "on location",
+        "real-life issues",
+        "script",
+        "shoot (v)",
+        "voice-over"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 4,
+          "instruction": "Match the sentence halves.",
+          "left_column": [
+            "1 I thought the movie I just watched was a documentary, _____",
+            "2 The movie deals with real-life issues _____",
+            "3 This documentary was shot _____",
+            "4 The movie is supposed to be informative, _____",
+            "5 The person doing the voice-over _____",
+            "6 This program is very entertaining _____"
+          ],
+          "right_column": [
+            "a on location in Hawaii.",
+            "b It isn't supposed to entertain.",
+            "c but actually it was completely fictional.",
+            "d and it's also very educational.",
+            "e has a really annoying accent.",
+            "f like homelessness and unemployment."
+          ],
+          "answer_key": [
+            "1 c",
+            "2 f",
+            "3 a",
+            "4 b",
+            "5 e",
+            "6 d"
+          ]
+        },
+        {
+          "exercise_number": 5,
+          "instruction": "Complete the comments with words from above. Use the correct form. Do you share the opinions?",
+          "content": {
+            "title": "Documentaries: What do you think?",
+            "text": "The last documentary I watched was ¹____________________ in Africa.\nI've learned a lot from watching ²____________________ programs about the natural world.\nI'm interested in documentaries that deal with ³____________________ like crime.\nI'd love to do the ⁴____________________ for a documentary!\nI know documentaries are important, but I just don't find them very ⁵____________________."
+          },
+          "answer_key": [
+            "1 shot",
+            "2 educational",
+            "3 real-life issues",
+            "4 voice-over",
+            "5 entertaining"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

@@ -1,0 +1,118 @@
+{
+  "shape": {
+    "name": "Shape B — Language Practice",
+    "description": "Follow-on practice lesson with varied practice stages moving from controlled to freer.",
+    "pedagogical_justification": "This lesson is the first encounter with Unit 6 (Movies) vocabulary for M3 students at CEFR B1. The lesson moves from vocabulary presentation through controlled practice (gap-fill, matching) to freer productive use (structured discourse). The compound adjective concept is introduced via auto-animated morphological breakdown (breath + taking → breathtaking). Documentary content provides context for real-world language application. The final stage models structured discourse (Opinion → Reason → Example) as preparation for speaking.",
+    "main_aim_format": "By the end of the lesson, learners will have had an opportunity to practice using movie vocabulary and compound adjectives and will be better able to discuss movies and express opinions in the context of storytelling.",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have had further form-focused and freer practice using movie vocabulary and compound adjectives in the context of discussing films and documentaries.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>20 July, 2026<br><b>Duration:</b><br>45 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>B (Language Practice)<br><b>Materials:</b><br>ODF3 Student's Book p.122, slideshow, audio tracks 1.32-1.34, timer<br><b>Assessment:</b><br>Ex 1-5 answers, teacher monitoring<br><b>Systems:</b><br>Vocabulary, Compound Adjectives",
+      "stages": [
+        {
+          "stage": "Lead-in & Entry Ticket",
+          "stage_number": 1,
+          "stage_aim": "To activate schemata and assess prior vocabulary knowledge",
+          "procedure": [
+            "Spelling test (entry ticket) — Ss write 8 movie-related words as teacher reads them aloud.",
+            "Ss swap books and check answers. Answer key displayed on screen.",
+            "Genre warm-up: 3 images (sci-fi / action / drama). Elicit genre names and feelings about each."
+          ],
+          "time": 7,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Vocabulary Presentation (Movies)",
+          "stage_number": 2,
+          "stage_aim": "To present and practice 10 movie vocabulary items",
+          "procedure": [
+            "Ss open ODF3 p.122. Display 10 vocab words in a 2-column table: blockbuster, cast, performance, plot, scene, screenplay, set, soundtrack, special effects, trailer.",
+            "Play audio track 1.32. Ss listen and repeat. Elicit definitions as a class — do NOT write definitions on screen.",
+            "Ss complete Ex 1 (Choose the correct answers to complete the movie review).",
+            "Display answers in a numbered table. Each click boxes the correct word. Ask CCQs (What's a blockbuster? Difference between scene and screenplay?)."
+          ],
+          "time": 9,
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Compound Adjectives",
+          "stage_number": 3,
+          "stage_aim": "To introduce the concept of compound adjectives via morphological breakdown",
+          "procedure": [
+            "Introduce 'breathtaking' using auto-animate: 'breath' (italic serif) + 'taking' (bold sans) slide together into 'breathtaking'.",
+            "Show Grand Canyon image to elicit meaning: so beautiful it takes your breath away.",
+            "Ss complete Ex 3 (Complete sentences with compound adjectives). Timer: 5 min.",
+            "Display answers in a numbered table. Each click reveals the next row. Ask CCQs (What makes a movie groundbreaking? What does hard-hitting mean?)."
+          ],
+          "time": 9,
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Documentaries",
+          "stage_number": 4,
+          "stage_aim": "To develop awareness of documentary genre features and practice matching skills",
+          "procedure": [
+            "Transition slide: 'Documentaries'. Ask what Ss know about documentaries.",
+            "Play short clip from Thailand ageing crisis documentary (0:00-1:36, YouTube embed). Elicit reactions.",
+            "Display documentary features table: Genre, Purpose, Production. Labels visible; definitions hidden until clicked.",
+            "Ss complete Ex 4 (Match sentence halves). Timer: 4 min.",
+            "Display answers as auto-animate matching exercise: stems on left, options on right. Options slide to correct positions on click."
+          ],
+          "time": 11,
+          "interaction": "T-Ss / Ind / Ss-Ss"
+        },
+        {
+          "stage": "Word Forms & Practice",
+          "stage_number": 5,
+          "stage_aim": "To practice using documentary vocabulary and understanding word form changes",
+          "procedure": [
+            "Introduce word forms: 'thrill' (noun/verb) → 'thrilling' (adjective). Auto-animate shows transformation. Show Kirsten Dunst photo (Spider-Man) for context.",
+            "Explain: When a verb describes a noun, add -ing to make an adjective.",
+            "Ss complete Ex 5 (Complete comments with correct form). Timer: 4 min.",
+            "Display answers in a numbered table. Each click reveals the next row. Ask: Do you share these opinions?"
+          ],
+          "time": 8,
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Structured Discourse & Wrap-up",
+          "stage_number": 6,
+          "stage_aim": "To model and prepare for structured spoken discourse",
+          "procedure": [
+            "Present structured discourse framework: Opinion → Reason → Story/Example (Who? What? Where? When? Why? How?).",
+            "Display model answer for Ex 2 Q1 (~200 words) as a continuous paragraph demonstrating the framework.",
+            "Play audio model (US female teen voice, ~1 min). Ss listen and identify the structure.",
+            "Wrap-up: Q&A. Ask: What new words can you use to talk about movies?"
+          ],
+          "time": 5,
+          "interaction": "T-Ss / Ind"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "20 July, 2026",
+    "class_name": "M3",
+    "duration_minutes": 45,
+    "cefr_level": "B1/B1+",
+    "lesson_shape": "Shape B — Language Practice",
+    "topic": "Movies & Storytelling Vocabulary",
+    "materials": [
+      "ODF3 Student's Book p.122",
+      "Slideshow (reveal.js)",
+      "Audio tracks 1.32, 1.33, 1.34",
+      "Timer plugin",
+      "Monolog audio model (US female teen)"
+    ],
+    "main_aim": "By the end of the lesson, learners will have practiced using movie vocabulary and compound adjectives and will be better able to discuss films and express opinions in structured discourse.",
+    "subsidiary_aim": "To increase awareness of documentary genre features and how word forms change (verb → -ing adjective).",
+    "slideshow_url": null,
+    "video_url": "https://www.youtube.com/watch?v=dzUqwweXwY0",
+    "transcript": null,
+    "answer_key": [
+      "Ex 1: 1 Screenplay, 2 blockbuster, 3 plot, 4 performance, 5 cast, 6 special effects, 7 scenes, 8 soundtrack",
+      "Ex 3: 1 old-fashioned, 2 short-lived, 3 neverending, 4 hard-hitting, 5 highly respected, 6 groundbreaking",
+      "Ex 4: 1c, 2f, 3a, 4b, 5e, 6d",
+      "Ex 5: 1 shot, 2 educational, 3 real-life issues, 4 voice-over, 5 entertaining"
+    ]
+  }
+}
