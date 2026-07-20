@@ -16,6 +16,10 @@ metadata:
 **Resolver handles:** Auto-animate `data-id` continuity, fragment index sequencing, element matching.  
 **Macros handle:** HTML generation per layout type via `slideshow_lib`.
 
+## Purpose
+
+Generate classroom-ready reveal.js slideshows from structured JSON data using a Pydantic-validated pipeline with auto-animate resolution and Jinja2 macro rendering. The agent writes only structured data — the pipeline handles all HTML, CSS, and reveal.js configuration.
+
 ## ⚠️ NON-NEGOTIABLE RULES — Splash & Title Slides
 
 ### Splash slide (id: "splash") — image ONLY
@@ -264,9 +268,21 @@ open('slides/index.html','w').write(h)
 "
 ```
 
-### Step 8 — Deploy
-Use `/git-pages {name}` to push to GitHub Pages.
-Use `/git-pages {name}` to push to GitHub Pages.
+### Step 8 — Preview locally (audio scrubber note)
+To preview slides locally, use **`http-server`** (Node) — Python's `http.server` does not support `Accept-Ranges: bytes`, which breaks the audio scrubber (seek bar) on `<audio>` elements.
+
+```bash
+# ✅ Works — audio scrubber functional
+npx http-server -p 8080 --cors -g PROJECTS/{project_folder}/slides
+
+# ❌ Broken — audio scrubber won't seek
+python3 -m http.server 8080
+```
+
+If `npx http-server` is unavailable, install globally: `npm install -g http-server`.
+
+### Step 9 — Deploy
+Use `/git-pages {name}` to push to GitHub Pages from the project subfolder's `slides/` directory.
 
 ## Layout Types
 
@@ -415,4 +431,17 @@ To add a new feature (e.g. a new layout type or a new field):
 
 **Action:** Ask user for splash image. Read ESL voice + best-practices prompts. Copy school logo from LPW-3 archive to `slides/assets/logo.png`. Fetch grade data from Google Sheet via service account. Plan 30-slide sequence with separate slides per class for each chart type. Use auto-animate pairs for bar charts (step 1 empty, step 2 full), raw layout for CEFR segments with fragments, content layout for exposition (no fragments). Write `data.json`. Run render.py. Deploy via `/git-pages`.
 
-**Output:** `slides/index.html` → `https://elwrush.github.io/lesson-plan-writer/{name}/`
+**Output:** `PROJECTS/{project_folder}/slides/index.html` → `https://elwrush.github.io/lesson-plan-writer/{name}/`
+
+## Error Handling
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| Render outputs 0 slides | No `slides` array in `data.json` | Check JSON structure |
+| Splash slide missing | No `image` layout slide at position 0 | Add `{"layout": "image", "id": "splash", "image_url": "assets/..."}` |
+| Title slide missing logo | `logo` field omitted | Add `"logo": "assets/logo.png"` |
+| Timer pill visible everywhere | CSS class collision: slide body uses `.timer-pill` (same as plugin class) | Rename slide body class to `.task-timer` |
+| Auto-animate not working | `data-id` values don't match between steps | Ensure consistent `data-id` on paired elements |
+| Fragments all numbered "1." | Markdown auto-numbering in separate fragment divs | Use raw HTML `<table>` instead of content layout fragments |
+| Gray text invisible on projector | Color values like `#888`, `#ccc`, `#aaa` | Use only `#fff` or `#ffdd00` on dark backgrounds |
+| Font too small for projection | `font-size` below 28px | Run `validate_slide_fonts.py` before deploying |

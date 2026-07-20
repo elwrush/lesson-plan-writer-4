@@ -17,6 +17,8 @@ If `name` is omitted, you will be prompted for one. If `source-dir` is omitted, 
 
 **Do NOT ask the user whether to deploy or update — detect it automatically.**
 
+**Sanitization:** Folder names are sanitized before deploy — spaces replaced with underscores (`"July 20"` → `July_20`).
+
 ## What it does
 1. Scans `{source-dir}/index.html` for the requested slideshow
 2. Warns if not found and stops
@@ -63,6 +65,9 @@ source_dir="${*:-slides}"
 if [ -z "$name" ]; then
   read -r -p "Enter the subfolder to deploy (e.g. TEST): " name
 fi
+
+# Sanitize: replace spaces with underscores for gh-pages URL safety
+name="${name// /_}"
 
 # Resolve to absolute path so relative paths with spaces work
 source_dir="$(realpath -q "$source_dir" 2>/dev/null || echo "$source_dir")"

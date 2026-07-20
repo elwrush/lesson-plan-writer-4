@@ -10,6 +10,10 @@ license: MIT
 
 Stage all safe changes, generate a descriptive commit message, commit to main, push to origin, then verify the backup succeeded. Code-only — no slides, no binaries, no generated PDFs.
 
+## When to Use
+
+Use this skill when backing up code changes before committing. Do NOT use for slides (use `/git-pages` instead) or binary assets.
+
 ## Rules
 
 - **No force push** (`--force`, `--force-with-lease`) without explicit user approval.
@@ -18,7 +22,7 @@ Stage all safe changes, generate a descriptive commit message, commit to main, p
 - **Secrets**: Always exclude `.env`, `.env.*`, `*.key`, `*.pem`, `credentials*`.
 - **Commit message** follows Conventional Commits: `<type>(<scope>): <description>` then blank line then bullet list.
 
-## Agent workflow
+## Workflow
 
 ### Step 1 — Health check
 ```bash
@@ -65,3 +69,12 @@ git status --short
 ```
 
 Report: commit hash, branch, files changed, remote status.
+
+## Error Handling
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| Clean working tree | No changes to commit | Inform user and stop |
+| No remote configured | Git remote missing | `git remote add origin <url>` |
+| Push rejected (non-fast-forward) | Remote has diverged | `git pull --rebase` then retry |
+| Binary files staged | .gitignore missing patterns | Add to `.gitignore` and unstage |

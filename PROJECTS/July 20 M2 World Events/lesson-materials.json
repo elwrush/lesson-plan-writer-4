@@ -1,0 +1,290 @@
+json
+{
+  "unit": "Unit 2",
+  "page": 114,
+  "title": "Discover vocabulary",
+  "sections": [
+    {
+      "section_title": "Historical events",
+      "audio_track": "1.24",
+      "word_bank": [
+        "construction",
+        "development",
+        "discovery",
+        "exploration",
+        "founding",
+        "invention",
+        "peace",
+        "spread",
+        "trade",
+        "war"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "instructions": "Complete the sentences with the correct words.",
+          "items": [
+            {
+              "number": 1,
+              "text": "The Taj Mahal is a beautiful white building in India. Its ________ took 16 years.",
+              "answer": "construction"
+            },
+            {
+              "number": 2,
+              "text": "Jan Evangelista Purkinje made the important ________ that everybody's fingerprints are different in 1823.",
+              "answer": "discovery"
+            },
+            {
+              "number": 3,
+              "text": "In the Middle Ages, the Italians had a ________ exchange of metal and oil for paper from Egypt.",
+              "answer": "trade"
+            },
+            {
+              "number": 4,
+              "text": "The first moon landing was in 1969. What will the future of space ________ be?",
+              "answer": "exploration"
+            },
+            {
+              "number": 5,
+              "text": "Millions of people died of the flu in 1918. The disease ________ very fast.",
+              "answer": "spread"
+            },
+            {
+              "number": 6,
+              "text": "Before the ________ of more complex forms of wheeled transportation and roads, people used to walk and ride horses on paths.",
+              "answer": "development"
+            },
+            {
+              "number": 7,
+              "text": "Countries sometimes go to ________ when they fight over land, religion, and resources like oil and water.",
+              "answer": "war"
+            },
+            {
+              "number": 8,
+              "text": "Since its ________ in 1946, Unicef has helped millions of children worldwide.",
+              "answer": "founding"
+            },
+            {
+              "number": 9,
+              "text": "Robert Noyce was an electrical engineer whose most famous ________ was the microchip.",
+              "answer": "invention"
+            },
+            {
+              "number": 10,
+              "text": "There is fighting among many countries, but some people believe world ________ is possible.",
+              "answer": "peace"
+            }
+          ]
+        },
+        {
+          "exercise_number": 2,
+          "instructions": "Do you agree (A) or disagree (D) with each statement. Why?",
+          "items": [
+            {
+              "number": 1,
+              "statement": "Stopping the spread of disease is more important than space exploration.",
+              "options": ["A", "D"],
+              "answer": "students' own answers"
+            },
+            {
+              "number": 2,
+              "statement": "There will always be wars.",
+              "options": ["A", "D"],
+              "answer": "students' own answers"
+            },
+            {
+              "number": 3,
+              "statement": "The development of flight (planes, helicopters, etc.) changed the world forever.",
+              "options": ["A", "D"],
+              "answer": "students' own answers"
+            },
+            {
+              "number": 4,
+              "statement": "All inventions and discoveries are good.",
+              "options": ["A", "D"],
+              "answer": "students' own answers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Adverbs of manner",
+      "audio_track": "1.25",
+      "word_bank": [
+        "badly",
+        "beautifully",
+        "bravely",
+        "carefully",
+        "greedily",
+        "heavily",
+        "quickly",
+        "slowly"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 3,
+          "instructions": "Complete the sentence in each pair with the correct adjective or adverb.",
+          "items": [
+            {
+              "number": 1,
+              "a": "It was a lovely old bus but it was very ________.",
+              "b": "Hurry up! Why are you walking so ________?",
+              "answers": {
+                "a": "slow",
+                "b": "slowly"
+              }
+            },
+            {
+              "number": 2,
+              "a": "Have a great trip! Drive ________!",
+              "b": "Be ________! You might break it!",
+              "answers": {
+                "a": "carefully",
+                "b": "careful"
+              }
+            },
+            {
+              "number": 3,
+              "a": "He's very ________ and selfish.",
+              "b": "He ate the candy ________.",
+              "answers": {
+                "a": "greedy",
+                "b": "greedily"
+              }
+            },
+            {
+              "number": 4,
+              "a": "I can't carry this bag. It's really ________.",
+              "b": "He fell ________ onto the sidewalk.",
+              "answers": {
+                "a": "heavy",
+                "b": "heavily"
+              }
+            },
+            {
+              "number": 5,
+              "a": "That was very ________ of you.",
+              "b": "The men defended themselves ________.",
+              "answers": {
+                "a": "brave",
+                "b": "bravely"
+              }
+            },
+            {
+              "number": 6,
+              "a": "She left the room ________.",
+              "b": "Can we have a ________ chat?",
+              "answers": {
+                "a": "quickly",
+                "b": "quick"
+              }
+            },
+            {
+              "number": 7,
+              "a": "I speak French very ________.",
+              "b": "I think it's a really ________ idea!",
+              "answers": {
+                "a": "badly",
+                "b": "bad"
+              }
+            },
+            {
+              "number": 8,
+              "a": "They wrapped the gift ________.",
+              "b": "There was a ________ sunset today.",
+              "answers": {
+                "a": "beautifully",
+                "b": "beautiful"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Information sources",
+      "audio_track": "1.26",
+      "word_bank": [
+        "augmented reality app",
+        "biography",
+        "brochure",
+        "census",
+        "guide",
+        "interview",
+        "monument",
+        "plaque",
+        "statistics",
+        "statue",
+        "tour"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 4,
+          "instructions": "Match the sentence halves 1–7 with a–g. Which sentences are true for you?",
+          "left_halves": [
+            {"number": 1, "text": "There are a lot of plaques on"},
+            {"number": 2, "text": "Augmented reality apps"},
+            {"number": 3, "text": "There are a lot of statues and"},
+            {"number": 4, "text": "I prefer a real guide to an online guide"},
+            {"number": 5, "text": "I enjoy reading biographies of"},
+            {"number": 6, "text": "Asking local people about history is more exciting"},
+            {"number": 7, "text": "I sometimes pick up brochures in"}
+          ],
+          "right_halves": [
+            {"letter": "a", "text": "when I'm on a city or museum tour."},
+            {"letter": "b", "text": "than studying censuses and statistics."},
+            {"letter": "c", "text": "the walls of buildings in my city."},
+            {"letter": "d", "text": "famous people."},
+            {"letter": "e", "text": "tourist offices, but I don't always read them."},
+            {"letter": "f", "text": "are fun, but I've never used one for learning history."},
+            {"letter": "g", "text": "monuments on the streets of our capital city."}
+          ],
+          "answers": {
+            "1": "c",
+            "2": "f",
+            "3": "g",
+            "4": "a",
+            "5": "d",
+            "6": "b",
+            "7": "e"
+          }
+        },
+        {
+          "exercise_number": 5,
+          "instructions": "Answer the questions with your own ideas.",
+          "prompt_question": "Which information sources could you use to find out about ... ?",
+          "items": [
+            {
+              "number": 1,
+              "prompt": "your family history",
+              "suggested_answers": ["census", "statistics", "interview"]
+            },
+            {
+              "number": 2,
+              "prompt": "the building you live in",
+              "suggested_answers": ["plaque", "interview"]
+            },
+            {
+              "number": 3,
+              "prompt": "the history of your local neighborhood",
+              "suggested_answers": ["monuments", "statues", "interview", "tour"]
+            },
+            {
+              "number": 4,
+              "prompt": "the history of your capital city",
+              "suggested_answers": ["monuments", "statues", "tour", "guide"]
+            },
+            {
+              "number": 5,
+              "prompt": "the history of famous people from your country",
+              "suggested_answers": ["biographies", "statues", "monuments"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```
