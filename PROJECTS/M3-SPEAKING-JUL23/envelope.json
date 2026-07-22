@@ -1,0 +1,104 @@
+{
+  "shape": {
+    "name": "Shape A — Text-based Presentation of Language",
+    "description": "Language is contextualized through a listening text, then highlighted and clarified (meaning, form, pronunciation) before further practice.",
+    "pedagogical_justification": "Following a text-based approach, this lesson first contextualises target vocabulary through a B1-level radio interview about the documentary Human. The five target items (fascinating, emphasize, despite, similar, exploring) are highlighted from the listening text and clarified for meaning, form, and pronunciation. Learners then practise receptive skills (gist and detail listening) before producing extended discussion through speed-dating style pair work, where they use the target language to discuss ethical questions about humanity.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to discuss an ethical issue with a partner for two minutes, using discussion strategies (predict, listen for gist/detail, agree/disagree, follow-up questions) to reach a resolution.",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to discuss an ethical issue with a partner for two minutes, using discussion strategies to reach a resolution.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>22 July, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>A (Text-based presentation of language)<br><b>Materials:</b><br>Slideshow, cue cards, audio track 1.15<br><b>Assessment:</b><br>Observation of speed-dating discussions<br><b>Systems:</b><br>Speaking",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To activate learners' interest in the topic of documentaries and the concept of engaging an audience",
+          "procedure": [
+            "Display the splash slide (refugee image). Ask: \u201cWhat do you see? Who are these people? What might this lesson be about?\u201d Let students speculate.",
+            "Advance to the title slide. Confirm: \u201cToday we are going to discuss refugees\u2019 stories and how to talk about ethical issues for two minutes.\u201d",
+            "Display \u201cWhy is this lesson important?\u201d: the CA exam requires discussing an ethical issue with a partner.",
+            "Recall activity: \u201cWhat is a documentary?\u201d \u2014 pairs brainstorm 5 facts, then share with class. Nominate 2\u20133 pairs."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Clarifying target language \u2013 Vocabulary",
+          "stage_number": 2,
+          "stage_aim": "To clarify meaning, form, and pronunciation of 5 key vocabulary items from the listening text",
+          "procedure": [
+            "Red transition slide: \u201cLet\u2019s check your word knowledge.\u201d",
+            "Present each word (fascinating, emphasize, despite, similar, exploring) using 3-click reveal: phonemic script \u2192 word in box \u2192 context sentence from transcript.",
+            "CCQ each word: e.g. \u201cDoes fascinating mean boring or very interesting?\u201d (very interesting); \u201cDoes despite mean because of or even though?\u201d (even though).",
+            "Drill pronunciation chorally and individually for each item."
+          ],
+          "time": "10 min",
+          "interaction": "T-Ss, S"
+        },
+        {
+          "stage": "Listening strategies & comprehension",
+          "stage_number": 3,
+          "stage_aim": "To practise predicting and underlining strategies while listening for gist and detail",
+          "procedure": [
+            "Present Predict strategy using Do/Why/How table. Demo with auto-animate pair: which predictions make sense?",
+            "Present Underline strategy. Demo with auto-animate pair: which words to underline?",
+            "Gist listening: Play audio track 1.15. Students answer: What is Human about? How does it engage you?",
+            "Feedback with answer slides 3a and 3b (four-row tables: Question/Answer/Explanation/Transcript).",
+            "Detail listening: Students read 6 questions, predict answers and underline key words.",
+            "Play track 1.15 again. Students answer 6 questions individually.",
+            "Peer check in pairs. Whole-class feedback with answer slides Q1\u2013Q6."
+          ],
+          "time": "14 min",
+          "interaction": "T-Ss, S, Ss-Ss"
+        },
+        {
+          "stage": "Freer practice \u2013 Interview questions & Speed Dating",
+          "stage_number": 4,
+          "stage_aim": "To produce extended discussion using target vocabulary and discussion strategies in a speed-dating format",
+          "procedure": [
+            "\u201cYour interview questions\u201d slide: students have 5 given questions, add 5 more, then choose best 5.",
+            "Red transition: \u201cNow: Let\u2019s discuss.\u201d Explain we are adapting the textbook \u2014 instead of filming, we will discuss.",
+            "Present discussion language slide (follow-up questions, agree/disagree).",
+            "Present starter phrases (\u201cWe have an interesting question today\u2026\u201d, \u201cLet\u2019s talk about\u2026\u201d).",
+            "Practice in pairs: choose one question, use starters and discussion language.",
+            "Speed Dating! Show video example. Show sample cue card. Explain rotation: 5 rounds \u00d7 2 min each. Outer circle right, inner circle left.",
+            "Start 10-min timer. Ring bell every 2 min for rotation. Teacher monitors and notes common errors.",
+            "Content feedback: nominate pairs to share interesting resolutions. Delayed error correction on board."
+          ],
+          "time": "17 min",
+          "interaction": "S-Ss, Ss-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "22 July, 2026",
+    "class_name": "M3-A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape A \u2014 Text-based Presentation of Language",
+    "topic": "Discussing ethical issues: How do we discuss for 2 minutes?",
+    "materials": [
+      "Oxford Discover Futures 3, Unit 6 \u201cWhy are we fascinated by movies?\u201d, pp. 64\u201365",
+      "Slideshow with embedded audio (ODF3 1.15)",
+      "Cue cards (10 ethical discussion topics)",
+      "Worksheet \u2014 interview questions template"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to discuss an ethical issue with a partner for two minutes, using discussion strategies (agree/disagree, follow-up questions, reaching a resolution) in a speed-dating format.",
+    "subsidiary_aim": "Learners will also have practised listening for gist and detail from a B1-level radio interview and applied predicting and underlining strategies to improve comprehension.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M3-SPEAKING-JUL23/index.html",
+    "video_url": "https://www.youtube.com/embed/7iCGZHzHnko",
+    "transcript": "PROJECTS/M3-SPEAKING-JUL23/transcript.json",
+    "answer_key": [
+      "<strong>Exercise 3 \u2014 Gist questions</strong>",
+      "3a. The documentary is about interviews with 2,000 people from 60 different countries. They talk about their hopes, fears, and dreams for the future.",
+      "3b. The documentary engages you by showing that people everywhere give the same answers to life\u2019s biggest questions. This is surprising and moving \u2014 it shows we are all human.",
+      "<strong>Exercise 4 \u2014 Detail questions</strong>",
+      "1. The director got the idea for the movie from a conversation with a local farmer in Mali. The farmer told him about his life \u2014 his hopes, his fears, and his dreams.",
+      "2. The interviewees answer 40 big questions like \u201cWhat makes you happy?\u201d, \u201cWhat are you afraid of?\u201d, and \u201cWhat do you love?\u201d Students give their own answers.",
+      "3. Whether it is surprising that everyone gave similar answers is for students to decide. The film critic found it surprising that strangers from different countries said almost the same things.",
+      "4. The interviews were filmed close up to the camera with a dark gray background and no name or country shown. This was done to focus on what people have in common, not their differences.",
+      "5. All the interviewees are similar because they love their families, worry about work or money, and want to love and be loved. Our everyday concerns are the same everywhere.",
+      "6. The director wants to show that people are basically the same all over the world. He wants us to think about our responsibilities to each other."
+    ]
+  }
+}

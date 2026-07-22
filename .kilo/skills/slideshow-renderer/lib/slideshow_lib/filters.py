@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import html as html_mod
-import markdown
 from typing import Optional
 
 
@@ -33,6 +32,3 @@ def fragment(
 def notes(text: str) -> str:
     return f"<aside class=\"notes\">{html_mod.escape(text)}</aside>"
 
-
-def markdown_to_html(text: str) -> str:
-    return markdown.markdown(text, extensions=["extra"])

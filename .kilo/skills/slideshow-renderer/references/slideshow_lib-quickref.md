@@ -85,4 +85,3 @@ Supports: `color`, `gradient`, `image`, `size`, `position`, `repeat`, `opacity`,
 |--------|-------|--------|
 | `fragment("text", style="highlight-red")` | content + optional style/index | `<span class="fragment highlight-red">text</span>` |
 | `notes("text")` | string | `<aside class="notes">text</aside>` |
-| `markdown_to_html("**bold**")` | markdown string | HTML with markdown rendered (extra extensions enabled) |

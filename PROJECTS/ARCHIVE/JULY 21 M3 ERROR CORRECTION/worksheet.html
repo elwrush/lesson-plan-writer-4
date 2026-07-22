@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@page { size: A4; margin: 1.6cm 1.8cm 1.8cm 1.8cm; }
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead {
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  align-items: center;
+  margin-bottom: 0.3em;
+}
+.masthead-left { text-align: left; }
+.masthead-left img { height: 1.8cm; }
+.masthead-center { text-align: center; font-size: 16pt; font-weight: bold; letter-spacing: 0.5pt; }
+.masthead-right { text-align: right; }
+.masthead-right img { height: 1.2cm; }
+.masthead-sep { border: none; border-top: 1.5pt solid #000; margin: 0 0 0.5em 0; }
+
+h1 {
+  font-size: 20pt;
+  text-align: center;
+  margin: 0.2em 0 0.1em 0;
+}
+h2 {
+  font-size: 14pt;
+  margin: 0.8em 0 0.3em 0;
+  padding: 0.15em 0.5em;
+  background: #222;
+  color: #fff;
+}
+h3 {
+  font-size: 14pt;
+  margin: 0.6em 0 0.2em 0;
+  color: #222;
+}
+
+.cefr-tag {
+  text-align: center;
+  font-size: 14pt;
+  color: #555;
+  margin: 0 0 0.5em 0;
+}
+
+.instructions {
+  font-size: 14pt;
+  color: #444;
+  margin: 0.3em 0 0.6em 0;
+  padding: 0.4em 0.6em;
+  background: #f0f0f0;
+  border-left: 3pt solid #222;
+}
+
+.task1-sentence {
+  page-break-inside: avoid;
+  margin: 1.2em 0 0 0;
+  padding: 0.2em 0 0 0;
+  text-align: left;
+}
+.task1-sentence .s-row {
+  text-align: left;
+}
+.task1-sentence .s-num {
+  font-weight: bold;
+  margin-right: 0.3em;
+}
+.task1-sentence .s-text {
+  font-size: 14pt;
+  line-height: 1.6;
+}
+.task1-sentence .error-count {
+  font-size: 14pt;
+  color: #444;
+  font-style: italic;
+  margin-left: 0.3em;
+}
+.task1-sentence .write-lines {
+  margin: 0.4em 0 0 0;
+}
+.task1-sentence .write-lines .wl {
+  border-bottom: 1pt solid #999;
+  height: 2em;
+}
+
+.boxed {
+  display: inline-block;
+  border: 1.5pt solid #222;
+  background: #e8e8e8;
+  padding: 0.08em 0.25em;
+  font-weight: bold;
+  color: #222;
+}
+
+.example-row {
+  margin: 0.6em 0 0 0;
+  padding: 0.2em 0;
+}
+.example-row .s-text {
+  font-size: 14pt;
+}
+.example-row .correction {
+  font-weight: bold;
+  color: #444;
+}
+
+.task2-item {
+  page-break-inside: avoid;
+  margin: 0.6em 0 0 0;
+  border-bottom: 1pt solid #ddd;
+  padding-bottom: 0.3em;
+}
+.task2-item:last-child {
+  border-bottom: none;
+}
+
+.writing-prompt {
+  font-size: 14pt;
+  color: #444;
+  margin: 0.4em 0 0.6em 0;
+  padding: 0.5em 0.6em;
+  background: #f0f0f0;
+  border: 1pt solid #999;
+}
+
+.page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<!-- ===== MASTHEAD ===== -->
+<div class="masthead">
+  <div class="masthead-left"><img src="assets/cambridge.png" alt="Cambridge"></div>
+  <div class="masthead-center">C·E·L Mathayom</div>
+  <div class="masthead-right"><img src="assets/ACT.png" alt="ACT"></div>
+</div>
+<hr class="masthead-sep">
+
+<h1>Punctuation &amp; Capitalisation Workshop</h1>
+<div class="cefr-tag">CEFR B2 &mdash; Error Correction</div>
+
+<!-- ============================================================ -->
+<!-- TASK 1: RECOGNISE -->
+<!-- ============================================================ -->
+<h2>Task 1 &mdash; Recognise</h2>
+<div class="instructions">
+<strong>Instructions:</strong> Each sentence below contains errors in punctuation or capitalisation.
+<strong>Circle</strong> each error and <strong>write the correction</strong> above it.
+Sentences 1&ndash;2 have the errors <strong>boxed</strong> for you. For sentences 3&ndash;10,
+find the errors yourself &mdash; the number of errors is shown in brackets.
+</div>
+
+<h3>Example</h3>
+<div class="example-row">
+  <span class="s-text">
+    <span class="boxed">i</span> went to the beach yesterday.
+    &rarr;
+    <span class="correction">I</span>
+  </span>
+</div>
+
+<h3>Now try these:</h3>
+
+<!-- SENTENCE 1 — boxed -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">1.</span><span class="s-text">
+    <span class="boxed">i</span> think that learning
+    <span class="boxed">english</span> will help me get a better job.
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 2 — boxed -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">2.</span><span class="s-text">
+    The company hired a new <span class="boxed">Manager</span> yesterday.
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 3 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">3.</span><span class="s-text">
+    She was born in Chiang Mai , Thailand.
+    <span class="error-count">(1 error)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 4 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">4.</span><span class="s-text">
+    Even though the exam was difficult Most students passed.
+    <span class="error-count">(2 errors)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 5 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">5.</span><span class="s-text">
+    My grandfather who is 68 years old still works as a Teacher.
+    <span class="error-count">(3 errors)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 6 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">6.</span><span class="s-text">
+    In my opinion The city council should improve public transport.
+    <span class="error-count">(2 errors)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 7 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">7.</span><span class="s-text">
+    The famous author Stephen King has written over 60 novels.
+    <span class="error-count">(2 errors)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 8 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">8.</span><span class="s-text">
+    The students were tired but they continued working.
+    <span class="error-count">(1 error)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 9 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">9.</span><span class="s-text">
+    She wanted to attend the conference however she couldn't get time off.
+    <span class="error-count">(2 errors)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- SENTENCE 10 — find errors -->
+<div class="task1-sentence">
+  <div class="s-row"><span class="s-num">10.</span><span class="s-text">
+    Many Students find English grammar challenging at first.
+    <span class="error-count">(1 error)</span>
+  </span></div>
+  <div class="write-lines">
+    <div class="wl"></div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- TASK 2: RECALL -->
+<!-- ============================================================ -->
+
+<h2>Task 2 &mdash; Recall</h2>
+<div class="instructions">
+<strong>Instructions:</strong> Each box below contains an error from Task 1. <strong>Explain the rule</strong> that was broken. Write a complete sentence explaining when and why this error occurs.
+</div>
+
+<div class="task2-item">
+  <div><span class="boxed">i</span> (from sentence 1)</div>
+  <div><span style="font-weight:bold;">The pronoun &ldquo;I&rdquo; must always be capitalised.</span></div>
+</div>
+
+<div class="task2-item">
+  <div><strong>1.</strong> <span class="boxed">Manager</span> (from sentence 2)</div>
+  <div style="display:flex;align-items:baseline;"><span>Your rule:</span><span style="flex:1;border-bottom:1.5pt solid #222;height:1.3em;margin-left:0.3em;"></span></div>
+</div>
+
+<div class="task2-item">
+  <div><strong>2.</strong> <span class="boxed"> ,</span> (from sentence 3)</div>
+  <div style="display:flex;align-items:baseline;"><span>Your rule:</span><span style="flex:1;border-bottom:1.5pt solid #222;height:1.3em;margin-left:0.3em;"></span></div>
+</div>
+
+<div class="task2-item">
+  <div><strong>3.</strong> <span class="boxed">The</span> (from sentence 6)</div>
+  <div style="display:flex;align-items:baseline;"><span>Your rule:</span><span style="flex:1;border-bottom:1.5pt solid #222;height:1.3em;margin-left:0.3em;"></span></div>
+</div>
+
+<div class="task2-item">
+  <div><strong>4.</strong> <span class="boxed">however</span> (from sentence 9)</div>
+  <div style="display:flex;align-items:baseline;"><span>Your rule:</span><span style="flex:1;border-bottom:1.5pt solid #222;height:1.3em;margin-left:0.3em;"></span></div>
+</div>
+
+<!-- ============================================================ -->
+<!-- TASK 3: USE -->
+<!-- ============================================================ -->
+
+<h2>Task 3 &mdash; Use</h2>
+<div class="instructions">
+<strong>Instructions:</strong> Write a paragraph of about <strong>70 words</strong> describing a difficult decision you had to make. Focus on using correct punctuation and capitalisation.
+</div>
+
+<div class="writing-prompt">
+<strong>Include all of the following in your paragraph:</strong>
+<ul style="margin:0.3em 0 0 0;padding-left:1.2em;">
+  <li>a complex sentence beginning with a subordinate conjunction (e.g., <em>although, because, while</em>)</li>
+  <li>a sentence with an appositive (e.g., <em>my best friend, Sarah, ...</em>)</li>
+  <li>correct use of a comma before a coordinating conjunction (e.g., <em>, and</em> or <em>, but</em>)</li>
+  <li>the word <strong>however</strong> used correctly to connect two ideas</li>
+</ul>
+</div>
+
+</body>
+</html>

@@ -1,115 +1,108 @@
 {
   "shape": {
-    "name": "Shape F - Productive Skills (Written Reflection)",
-    "description": "Midterm review and reflection lesson: students analyse exam results, reflect on strengths/weaknesses, and complete a baseline vocab/spelling test.",
-    "pedagogical_justification": "Feedback and reflection after assessment helps students identify gaps and set goals (Hattie & Timperley, 2007). Combining data-driven review (exam results) with a baseline diagnostic test gives students a clear picture of where they are and what to prioritise.",
-    "main_aim_format": "By the end of the lesson, learners will have reflected on their midterm performance, identified areas for improvement, and completed a baseline vocabulary and spelling diagnostic.",
+    "name": "Shape C — Test-Teach-Test",
+    "description": "Students are tested on error recognition first, teacher clarifies rules for problematic items, then freer production follows.",
+    "pedagogical_justification": "Students already have implicit knowledge of capitalisation and punctuation rules from prior exposure. The diagnostic test (Task 1) reveals which specific rules they struggle with. The teacher then clarifies only the problematic patterns (Task 2), followed by a freer writing task (Task 3) where students apply the rules in a paragraph.",
+    "main_aim_format": "By the end of the lesson, students will be better able to identify and correct common punctuation and capitalisation errors in their own writing.",
     "example_lesson_plan": {
-      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have reflected on their midterm performance, identified individual skill gaps, and completed a baseline vocabulary and spelling diagnostic.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>19 July, 2026<br><b>Duration:</b><br>50 minutes<br><b>CEFR Level:</b><br>A2-B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Written Reflection)<br><b>Materials:</b><br>Slideshow (https://elwrush.github.io/lesson-plan-writer/m3a-midterm-review/), Listening & Reading score sheets, Baseline Vocab & Spelling Test handout, Exercise books",
+      "header": "<b>Objective:</b><br>By the end of the lesson, students will be better able to identify and correct common punctuation and capitalisation errors in their own writing.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>21 July, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B2<br><b>Lesson Shape:</b><br>C (Test-Teach-Test)<br><b>Materials:</b><br>Punctuation & Capitalisation Workshop worksheet, slideshow<br><b>Assessment:</b><br>Error correction answer key (Task 1), rule explanations (Task 2), written paragraph (Task 3)<br><b>Systems:</b><br>Punctuation, Capitalisation",
       "stages": [
         {
-          "stage": "Lead-in — Why B2 matters",
+          "stage": "Lead-in",
           "stage_number": 1,
-          "stage_aim": "To hook students with the real-world value of B2 English and activate prior knowledge",
+          "stage_aim": "To activate students' awareness of their own writing errors and frame the lesson value.",
           "procedure": [
-            "- Ask Ss to rule a fresh page in their exercise books.",
-            "- Display title slide: 'How did you go in your exams? Let's find out.'",
-            "- Elicit: Why is B2 or above important for standardised English exams?",
-            "- Ss write 3 reasons in their books (3 min).",
-            "- Check together using the B2 data slides (university, jobs, global communication, demand)."
+            "Display the title slide: 'How can I make my writing less messy?' — elicit responses from students.",
+            "Show the 'Why is this lesson important?' slide. Read the bullet points aloud. Ask: 'Do you make these mistakes in your writing?'",
+            "State the objective: today we will fix punctuation and capitalisation errors."
           ],
-          "time": 7,
-          "interaction": "T-Ss, S"
-        },
-        {
-          "stage": "Midterm Results Review",
-          "stage_number": 2,
-          "stage_aim": "To show overall grade averages, CEFR distribution, and skill breakdowns per class with anticipation",
-          "procedure": [
-            "- Transition slide: 'Your Midterm Results.'",
-            "- Show grade overview for M3-3A: auto-animate bar chart (empty bar -> 77%). Repeat for M3-4A (70%) and M3-5A (68%). Draw attention to B1 (65%) and B2 (80%) threshold lines.",
-            "- Show CEFR distribution per class (click reveals each band segment). Ask: 'How many achieved B1 or B2?'",
-            "- Show skill breakdown (L/R/W bars) per class.",
-            "- Highlight that Reading is the weakest skill across all classes."
-          ],
-          "time": 12,
+          "time": 5,
           "interaction": "T-Ss"
         },
         {
-          "stage": "Reflection & Score Sheets",
-          "stage_number": 3,
-          "stage_aim": "To guide individual reflection on skill gaps and return graded papers",
+          "stage": "Isolating TL",
+          "stage_number": 2,
+          "stage_aim": "To focus students on the target language (capitalisation of 'I') through a concrete example.",
           "procedure": [
-            "- Display reflection slide: 'Write your answers in your notebook. Which skill do we need to improve the most? How can we do it?'",
-            "- Ss write their reflection (3 min).",
-            "- Return Listening and Reading score sheets.",
-            "- Ss check their answers (3 min).",
-            "- Inform Ss that individual Writing grades will be returned later this week, but they can check with the teacher at the end of the lesson."
-          ],
-          "time": 8,
-          "interaction": "S, T-Ss"
-        },
-        {
-          "stage": "Vocab/Grammar/Spelling Importance",
-          "stage_number": 4,
-          "stage_aim": "To explain why vocabulary, grammar, and spelling are foundational for all skills",
-          "procedure": [
-            "- Transition to 'Vocabulary, Grammar & Spelling.'",
-            "- Explain: strong vocab/grammar/spelling helps in Reading (understand more = read faster), Writing (clearer ideas), and Listening (recognise words faster).",
-            "- Inform Ss that the end-of-year finals will test all of this."
+            "Show the Example slide (auto-animate: i → I).",
+            "Ask: 'What is wrong here?' Elicit that 'i' should be capitalised.",
+            "Press right arrow to show the corrected version with yellow highlight on 'I'.",
+            "CCQ: 'Why is i wrong? What should it be?' (Answer: The pronoun I is always capitalised.)"
           ],
           "time": 3,
           "interaction": "T-Ss"
         },
         {
-          "stage": "Baseline Vocab & Spelling Test",
-          "stage_number": 5,
-          "stage_aim": "To diagnose current vocabulary and spelling levels before end-of-year preparation",
+          "stage": "Test 1 — Diagnostic (Recognise)",
+          "stage_number": 3,
+          "stage_aim": "To diagnostically assess which punctuation and capitalisation errors students can identify independently.",
           "procedure": [
-            "- Display the baseline test slide with timer (15:00).",
-            "- Hand out the Baseline Vocab & Spelling Test.",
-            "- Instruct Ss to write their answers clearly.",
-            "- Start the timer. Ss complete the test individually.",
-            "- Monitor and assist as needed."
+            "Show the 'Task 1 — Recognise' transition slide (red).",
+            "Review instructions: Circle each error, write the correction above.",
+            "Point out that Question 1 has 2 errors — demonstrate the process.",
+            "Start the 8-minute timer. Students work individually on the worksheet, finding errors in all 10 sentences.",
+            "After the timer ends, go through each sentence one at a time using the auto-animate answer slides. For each: show the error, then click to reveal the corrected version with yellow highlighting.",
+            "Students mark their own work in a different colour."
           ],
           "time": 15,
-          "interaction": "S"
+          "interaction": "Individual"
         },
         {
-          "stage": "Mark Answers Together",
-          "stage_number": 6,
-          "stage_aim": "To provide immediate feedback and allow self-correction",
+          "stage": "Teach — Clarify (Recall)",
+          "stage_number": 4,
+          "stage_aim": "To clarify the rules behind the most common error patterns so students understand why each correction is needed.",
           "procedure": [
-            "- Display answer slides (3 sets of 8, no clickthroughs).",
-            "- Ss swap books with a partner.",
-            "- Read each answer aloud. Pause.",
-            "- Ss tick correct answers and correct wrong ones in a different colour.",
-            "- Ss count their score.",
-            "- Collect scores for teacher records."
+            "Show the 'Task 2 — Recall' slide (red). Review instructions: explain each rule in one complete sentence.",
+            "Start the 5-minute timer. Students write rule explanations for the 4 items (Manager, comma spacing, The, however).",
+            "After the timer, review each rule slide. For each: read the rule, ask CCQs to check understanding.",
+            "Key rules to cover: (1) The pronoun I is always capitalised, (2) Common nouns are not capitalised, (3) No space before a comma, (4) Use comma after introductory phrases, (5) Use commas around extra information, (6) Use semicolon before 'however'."
           ],
-          "time": 5,
-          "interaction": "T-Ss, Ss-Ss"
+          "time": 12,
+          "interaction": "T-Ss, Individual"
+        },
+        {
+          "stage": "Production — Use",
+          "stage_number": 5,
+          "stage_aim": "To give students freer written practice applying all punctuation and capitalisation rules in their own writing.",
+          "procedure": [
+            "Show the 'Task 3 — Use' slide (red). Explain the task: write a ~70-word paragraph about a difficult decision.",
+            "Review the checklist items: subordinate conjunction, appositive in commas, comma before and/but, correct use of 'however'.",
+            "Start the 8-minute timer. Students write individually. Circulate and provide support.",
+            "Collect paragraphs for assessment. Focus feedback on punctuation and capitalisation."
+          ],
+          "time": 11,
+          "interaction": "Individual"
         }
       ]
     }
   },
   "metadata": {
     "teacher": "Ed Rush",
-    "date": "19 July, 2026",
-    "class_name": "M3-3A / M3-4A / M3-5A",
-    "duration_minutes": 50,
-    "cefr_level": "A2-B1",
-    "lesson_shape": "Shape F — Productive Skills (Written Reflection)",
-    "topic": "Midterm Review & Baseline Vocab/Spelling Test",
-    "materials": [
-      "Slideshow: Midterm Review",
-      "Listening & Reading score sheets",
-      "Baseline Vocab & Spelling Test handout",
-      "Exercise books",
-      "Timer (15:00)"
-    ],
-    "main_aim": "By the end of the lesson, learners will have reflected on their midterm performance, identified individual skill gaps, and completed a baseline vocabulary and spelling diagnostic.",
-    "subsidiary_aim": "Learners will have connected real-world B2 English requirements to their own learning goals.",
-    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/m3a-midterm-review/"
+    "date": "21 July, 2026",
+    "class_name": "M3-A",
+    "duration_minutes": 46,
+    "cefr_level": "B2",
+    "lesson_shape": "Shape C — Test-Teach-Test",
+    "topic": "Punctuation & Capitalisation Workshop",
+    "materials": ["Punctuation & Capitalisation Workshop worksheet", "Slideshow"],
+    "main_aim": "By the end of the lesson, students will be better able to identify and correct common punctuation and capitalisation errors in their own writing.",
+    "subsidiary_aim": "Students will review the rules for capitalisation of proper nouns, comma usage (introductory phrases, appositives, compound sentences), and semicolon use with 'however'.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/JULY_21_M3_ERROR_CORRECTION/index.html",
+    "answer_key": [
+      "Q1: i→I, english→English",
+      "Q2: Manager→manager",
+      "Q3: Remove space before comma",
+      "Q4: Add comma after 'difficult' + lowercase 'm'",
+      "Q5: Add commas around 'who is 68 years old' + Teacher→teacher",
+      "Q6: Add comma after 'In my opinion' + lowercase 't'",
+      "Q7: Add commas around 'Stephen King'",
+      "Q8: Add comma before 'but'",
+      "Q9: Add semicolon before 'however' + comma after",
+      "Q10: Students→students",
+      "R1: Common nouns (manager) are not capitalised — only proper nouns.",
+      "R2: No space before a comma; space after.",
+      "R3: After an introductory clause, comma + lowercase letter.",
+      "R4: Semicolon before 'however', comma after."
+    ]
   }
 }

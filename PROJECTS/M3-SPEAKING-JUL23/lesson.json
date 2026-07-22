@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "book_title": "Oxford Discover Futures 3",
+    "unit_number": 6,
+    "unit_title": "Why are we fascinated by movies?",
+    "lesson_heading": "Life skills: How do you engage an audience?",
+    "page_numbers": {
+      "student_book": [64, 65],
+      "teacher_guide": 65
+    },
+    "sub_headings": [
+      "Life skills strategy: Creating interesting content",
+      "Discover vocabulary Documentaries",
+      "Speaking strategy: Speaking with an audience",
+      "Discover more"
+    ]
+  },
+  "exercises": [
+    {
+      "exercise_number": 3,
+      "audio_track": "1.15",
+      "instruction": "Listen to a radio show about a documentary called Human. What is it about? How does it engage its audience?",
+      "content": null,
+      "answer_key": "It is about interviews with 2,000 people in 60 different countries. It engages its audience by showing us what different people around the world think and how they feel about similar topics. The people are filmed close up to the camera, with no background information."
+    },
+    {
+      "exercise_number": 4,
+      "audio_track": "1.15",
+      "instruction": "Listen again and answer the questions.",
+      "questions": [
+        "1 What gave the director the idea for the movie?",
+        "2 What kind of questions do the interviewees answer? How would you answer them?",
+        "3 The film critic says it was surprising that people said similar things. Do you agree that it's surprising?",
+        "4 How were the interviews filmed? Why were they filmed in that way?",
+        "5 In which way are all the interviewees similar?",
+        "6 What does the director want to achieve with the documentary?"
+      ],
+      "answer_key": [
+        "1 a conversation with a local farmer",
+        "2 \"big\" questions about life; students' own answers",
+        "3 students' own answers",
+        "4 They were filmed with people close to the camera, looking directly at it, without the name of the person or country, to focus on what we have in common.",
+        "5 They have similar answers to the questions about life and love.",
+        "6 He wants to show that people are basically similar all over the world."
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "instruction": "Work in pairs. You are going to create a short interview for Human. Read the list of questions to ask people about their lives. Think of five more questions to add to the list.",
+      "content": {
+        "title": "Being human",
+        "given_questions": [
+          "1 What makes you happy?",
+          "2 What are you afraid of?",
+          "3 Who in your life is most important to you?",
+          "4 How are you similar to your friends and family?",
+          "5 How are you different from them?"
+        ],
+        "open_slots": [6, 7, 8, 9, 10]
+      },
+      "answer_key": "Students work in pairs to add five more interview questions to the list. Monitor and help while they are working, and provide vocabulary as necessary."
+    },
+    {
+      "exercise_number": 6,
+      "instruction": "Now choose five questions from your list for your own interview. Remember to think about your audience. What might they find interesting? Use the key phrases.",
+      "key_phrases": {
+        "heading": "Key phrases Choosing the right questions",
+        "phrases": [
+          "I think people will be able to relate to ....",
+          "Why don't we add a question about ... ?",
+          "I could talk for a long time about ....",
+          "This question has the potential to be really interesting.",
+          "I'm sorry, but I'm not comfortable talking about ....",
+          "I don't think people will be interested in ...."
+        ]
+      },
+      "answer_key": "Read aloud the key phrases with the class and elicit a few examples of how they are used in context, e.g., Why don't we add a question about schools? I think people will be able to relate to the problems of living in a big city."
+    },
+    {
+      "exercise_number": 7,
+      "instruction": "Study the speaking strategy, then practice your questions and answers in pairs. When you are ready, film your interview or act it out in front of the class.",
+      "speaking_strategy": {
+        "title": "Speaking with an audience",
+        "description": "Speaking clearly helps your audience to understand you. There are some easy ways to ensure that you are speaking as clearly as possible.",
+        "points": [
+          "Practice before you speak until you feel comfortable.",
+          "Take your time. If you speak slowly, people will understand you better and you will be able to focus on correct pronunciation.",
+          "Watch how people react when you speak. If they appear confused, express your ideas more clearly."
+        ]
+      },
+      "answer_key": "Ask students to read the speaking strategy. Ask: What advice does the strategy give to people who are going to speak in front of an audience? Elicit a few ideas. Encourage students to think about what they can do when giving a presentation to make sure it engages their audience, e.g., speak clearly and not too fast, be aware of their body language, make eye contact with members of the audience, remember who they are speaking to, and perhaps asking rhetorical questions so the audience listens to hear the answer. Students practice their questions and answers in pairs or in small groups... Students record or act out their interviews."
+    },
+    {
+      "exercise_number": 8,
+      "instruction": "Watch your classmates' interviews. Then vote for the one that you found most engaging. Which interview got the most votes?",
+      "content": null,
+      "answer_key": "Students watch the interviews and then vote. Ask students to say why they voted for the interview they chose."
+    },
+    {
+      "exercise_number": 9,
+      "instruction": "REFLECT Do you think your interview was a success? What could you do differently next time you create content for an audience?",
+      "content": null,
+      "answer_key": "Put students in small groups. Ask them to decide what they could do differently in the future. Ask them to make a list and keep it in their notebooks so they can refer to it the next time they speak in front of an audience."
+    }
+  ]
+}

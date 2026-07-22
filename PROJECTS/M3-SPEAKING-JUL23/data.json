@@ -1,0 +1,306 @@
+{
+  "title": "M3 Speaking: How do you engage an audience?",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How do we discuss for 2 minutes?",
+      "body": "Let’s find out — by discussing refugees’ stories."
+    },
+    {
+      "layout": "raw",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Why is this lesson important?</h2><table class=\"tb\"><tr><td class=\"lbl\">Why this matters</td><td>Your CA: discuss an ethical issue with a partner for two minutes.</td></tr><tr><td class=\"lbl\"></td><td>Think on your feet in English — in class, in exams, in life.</td></tr></table>"
+    },
+    {
+      "layout": "raw",
+      "id": "recall-docs",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "What is a documentary?",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">What is a documentary?</h2><table class=\"tb\"><tr><td class=\"lbl\">Task</td><td>Talk to your partner. Try to come up with 5 facts about documentaries.</td></tr><tr><td class=\"lbl\">Tip</td><td>Try to use advanced vocabulary.</td></tr></table>",
+      "notes": "Circulate. Listen for interesting vocabulary. After timer, nominate 2–3 pairs to share best facts."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let’s check your word knowledge"
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "id": "vocab-fascinating",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%}.vt td{padding:12px 16px;font-size:35px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.12);vertical-align:top}.vt tr:last-child td{border-bottom:none}.vt .phn{font-size:47px;padding-bottom:18px}.vt .ctx{font-size:35px;line-height:1.5}</style><table class=\"vt\"><tr><td class=\"phn\">/ˈfæsɪneɪtɪŋ/</td></tr><tr class=\"fragment\"><td><span class=\"box-word\">fascinating</span></td></tr><tr class=\"fragment\"><td class=\"ctx\">It was a <span class=\"box-word\">fascinating</span> conversation. I was so interested by everything she said.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context from transcript. CCQ: Does fascinating mean boring or very interesting? (very interesting)"
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "id": "vocab-emphasize",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%}.vt td{padding:12px 16px;font-size:35px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.12);vertical-align:top}.vt tr:last-child td{border-bottom:none}.vt .phn{font-size:47px;padding-bottom:18px}.vt .ctx{font-size:35px;line-height:1.5}</style><table class=\"vt\"><tr><td class=\"phn\">/ˈemfəsaɪz/</td></tr><tr class=\"fragment\"><td><span class=\"box-word\">emphasize</span></td></tr><tr class=\"fragment\"><td class=\"ctx\">He wanted to <span class=\"box-word\">emphasize</span> our sameness. He said it again and again so we would not forget.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context from transcript. CCQ: If I emphasize something, do I make it less important or more important? (more important)"
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "id": "vocab-despite",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%}.vt td{padding:12px 16px;font-size:35px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.12);vertical-align:top}.vt tr:last-child td{border-bottom:none}.vt .phn{font-size:47px;padding-bottom:18px}.vt .ctx{font-size:35px;line-height:1.5}</style><table class=\"vt\"><tr><td class=\"phn\">/dɪˈspaɪt/</td></tr><tr class=\"fragment\"><td><span class=\"box-word\">despite</span></td></tr><tr class=\"fragment\"><td class=\"ctx\"><span class=\"box-word\">Despite</span> our differences, we are all people. We look different but we feel the same things.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context from transcript. CCQ: Does 'despite' mean 'because of' or 'even though'? (even though)"
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "id": "vocab-similar",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%}.vt td{padding:12px 16px;font-size:35px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.12);vertical-align:top}.vt tr:last-child td{border-bottom:none}.vt .phn{font-size:47px;padding-bottom:18px}.vt .ctx{font-size:35px;line-height:1.5}</style><table class=\"vt\"><tr><td class=\"phn\">/ˈsɪmɪlər/</td></tr><tr class=\"fragment\"><td><span class=\"box-word\">similar</span></td></tr><tr class=\"fragment\"><td class=\"ctx\">The answers were often <span class=\"box-word\">similar</span>. People from 60 countries said almost the same things.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context from transcript. CCQ: Does similar mean the same or almost the same? (almost the same)"
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "id": "vocab-exploring",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%}.vt td{padding:12px 16px;font-size:35px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.12);vertical-align:top}.vt tr:last-child td{border-bottom:none}.vt .phn{font-size:47px;padding-bottom:18px}.vt .ctx{font-size:35px;line-height:1.5}</style><table class=\"vt\"><tr><td class=\"phn\">/ɪkˈsplɔːrɪŋ/</td></tr><tr class=\"fragment\"><td><span class=\"box-word\">exploring</span></td></tr><tr class=\"fragment\"><td class=\"ctx\">The director is <span class=\"box-word\">exploring</span> what it means to be human. He is looking deeply into how people live and feel.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context from transcript. CCQ: Does exploring mean quickly looking or looking deeply? (looking deeply)"
+    },
+    {
+      "layout": "raw",
+      "id": "strategy-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Predict",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Strategy: Predict</h2><table class=\"tb\"><tr><td class=\"lbl\">Do</td><td>Predict answers before you listen.</td></tr><tr><td class=\"lbl\">Why</td><td>It helps your brain focus.</td></tr><tr><td class=\"lbl\">How</td><td>Read the question. Think first.</td></tr></table>",
+      "notes": "Model: look at Q1 on the worksheet. What could the answer be?"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Predict",
+      "body": "<style>.tb{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;font-size:35px;vertical-align:top}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:36px}.chk{display:inline-block;width:24px;text-align:center}h2{text-align:center}</style><table class=\"tb\"><tr><td colspan=\"2\">A director became famous. What inspired him?</td></tr><tr><td colspan=\"2\" style=\"color:#ffdd00\">Which predictions make sense?</td></tr><tr><td class=\"lbl\"><span class=\"chk\">&nbsp;</span></td><td>A camera from his parents.</td></tr><tr><td class=\"lbl\"><span class=\"chk\">&nbsp;</span></td><td>A basketball match.</td></tr><tr><td class=\"lbl\"><span class=\"chk\">&nbsp;</span></td><td>He met a famous actor.</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Predict",
+      "body": "<style>.tb{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;font-size:35px;vertical-align:top}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:36px}.chk{display:inline-block;width:24px;text-align:center}h2{text-align:center}</style><table class=\"tb\"><tr><td colspan=\"2\">A director became famous. What inspired him?</td></tr><tr><td colspan=\"2\" style=\"color:#ffdd00\">Which predictions make sense?</td></tr><tr><td class=\"lbl\"><span class=\"chk\" style=\"color:#2ecc71;font-weight:900\">✓</span></td><td>A camera from his parents.</td></tr><tr><td class=\"lbl\"><span class=\"chk\">&nbsp;</span></td><td>A basketball match.</td></tr><tr><td class=\"lbl\"><span class=\"chk\" style=\"color:#2ecc71;font-weight:900\">✓</span></td><td>He met a famous actor.</td></tr></table>",
+      "notes": "Click to reveal. Auto-animate adds ✓ to options 1 and 3 only — table text remains static."
+    },
+    {
+      "layout": "raw",
+      "id": "strategy-underline",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Underline",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Strategy: Underline</h2><table class=\"tb\"><tr><td class=\"lbl\">Do</td><td>Read each question. Underline key words.</td></tr><tr><td class=\"lbl\">Why</td><td>You know what to listen for.</td></tr><tr><td class=\"lbl\">How</td><td>Scan the question. Find the main idea.</td></tr></table>",
+      "notes": "Model on the board: underline 'idea', 'questions', 'surprising', 'filmed', 'similar'."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-underline",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Underline",
+      "body": "<style>.tb{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;font-size:35px;vertical-align:top}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:36px}.chk{display:inline-block;width:24px;text-align:center}h2{text-align:center}</style><table class=\"tb\"><tr><td colspan=\"2\">Read this question.</td></tr><tr><td colspan=\"2\"><span style=\"text-decoration:none\">What</span> gave the <span style=\"text-decoration:none\">director</span> the <span style=\"text-decoration:none\">idea</span> for this movie?</td></tr><tr><td colspan=\"2\" style=\"color:#ffdd00\">Which words would you underline?</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-underline",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Underline",
+      "body": "<style>.tb{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;font-size:35px;vertical-align:top}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:36px}.chk{display:inline-block;width:24px;text-align:center}h2{text-align:center}</style><table class=\"tb\"><tr><td colspan=\"2\">Read this question.</td></tr><tr><td colspan=\"2\"><span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">What</span> gave the <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">director</span> the <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">idea</span> for this movie?</td></tr><tr><td colspan=\"2\" style=\"color:#ffdd00\">Key words tell you what to listen for.</td></tr></table>",
+      "notes": "Click to reveal. Key words highlighted in yellow — they tell the listener what information to focus on."
+    },
+    {
+      "layout": "raw",
+      "id": "gist-listen",
+      "step": 1,
+      "background_color": "#c0392b",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Listen: Gist</h2><table class=\"tb\"><tr><td class=\"lbl\">Task</td><td>Listen to a radio show about a documentary called <em>Human</em>.</td></tr><tr><td class=\"lbl\">Question 1</td><td>What is it about?</td></tr><tr><td class=\"lbl\">Question 2</td><td>How does it engage you?</td></tr></table><div style=\"text-align:center;margin-top:20px\"><audio controls src=\"assets/ODF3_SB_1.15.mp3\" style=\"width:360px\"></audio></div>",
+      "notes": "Play audio track 1.15 without pausing."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-3a",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Gist</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>What is <em>Human</em> about?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">Interviews with 2,000 people around the world about their hopes, fears, and dreams.</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>The film asks people from 60 countries the same 40 questions about their lives.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“…a documentary… based on interviews with 2,000 people in 60 different countries.”</em></td></tr></table>",
+      "notes": "Transcript lines 1-9."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-3b",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Gist</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>How does it engage you?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">People everywhere give the same answers. It shows we are all human.</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>Strangers around the world feel the same things about life — this is surprising and moving.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“surprisingly, the answers were often similar… He wanted to emphasize our sameness.”</em></td></tr></table>",
+      "notes": "Transcript lines 36-45."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-listen",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Listen: Details",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Listen: Details</h2><table class=\"tb\"><tr><td class=\"lbl\">Task</td><td>Listen again. Answer the 6 questions.</td></tr><tr><td class=\"lbl\">Before listening</td><td><span class=\"box-word\">Predict</span> first. <span class=\"box-word\">Underline</span> key words.</td></tr></table><div style=\"text-align:center;margin-top:20px\"><audio controls src=\"assets/ODF3_SB_1.15.mp3\" style=\"width:360px\"></audio></div>",
+      "notes": "Give 1 min to read questions and predict before playing audio."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-q1",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Detail</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>What gave the director the idea?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">A conversation with a local farmer in Mali.</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>The farmer told him about his life. The director realized it would make a great movie.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“He was talking with a local farmer and the farmer told him about his life.”</em></td></tr></table>",
+      "notes": "Transcript lines 20-21."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-q2",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Detail</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>What questions do they answer?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">40 questions: “What makes you happy? What are you afraid of? What do you love?”</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>Each person answers the same questions. Students give their own answers.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“Each person was given a list of 40 questions… ‘What makes you happy?’”</em></td></tr></table>",
+      "notes": "Transcript lines 28-29."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-q3",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Detail</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>Is it surprising that answers were similar?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">Students’ own answers.</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>The film critic was surprised. Strangers sharing the same feelings is unexpected.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“surprisingly, the answers were often similar.”</em></td></tr></table>",
+      "notes": "Transcript line 37."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-q4",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Detail</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>How were the interviews filmed? Why?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">Close up, looking at the camera. Dark gray background. No name or country.</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>The director removed anything that makes people look different to focus on what we share.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“close up to the camera… dark gray background… no name or country.”</em></td></tr></table>",
+      "notes": "Transcript lines 40-45."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-q5",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Detail</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>How are the interviewees similar?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">They love their families, worry about work, and want to be loved.</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>Despite different cultures, they share the same everyday concerns and emotions.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“They all love their families, they all worry about work… They all want to love and be loved.”</em></td></tr></table>",
+      "notes": "Transcript lines 53-54."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "answer-q6",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Answers: Detail</h2><table class=\"tb\"><tr><td class=\"lbl\">Question</td><td>What does the director want to achieve?</td></tr><tr><td class=\"lbl\">Answer</td><td><span style=\"color:#ffdd00;font-weight:700\">He wants to show that people are basically the same everywhere.</span></td></tr><tr><td class=\"lbl\">Explanation</td><td>The documentary explores what it means to be human and emphasizes our shared humanity.</td></tr><tr><td class=\"lbl\">Transcript</td><td><em>“He wants to show us how we are all similar.”</em></td></tr></table>",
+      "notes": "Transcript lines 58-61."
+    },
+    {
+      "layout": "raw",
+      "id": "pair-work",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your interview questions",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Your interview questions</h2><table class=\"tb\"><tr><td class=\"lbl\">Step 1</td><td>You have 5 questions about being human.</td></tr><tr><td class=\"lbl\">Step 2</td><td><span class=\"box-word\">Add</span> 5 more questions.</td></tr><tr><td class=\"lbl\">Step 3</td><td>Choose your best 5 for the interview.</td></tr></table>",
+      "notes": "Monitor. Feed vocabulary as needed. Elicit some examples to the board."
+    },
+    {
+      "layout": "content",
+      "id": "transition-discuss",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Now: Let’s discuss",
+      "body": "No filming today.\n\nInstead: have a discussion.\n\nUse your questions.\n\nTalk together.",
+      "notes": "Explain: We are adapting the textbook. Instead of filming, we will discuss these big questions in pairs."
+    },
+    {
+      "layout": "raw",
+      "id": "discussion-lang-2",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Language for discussion",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Language for discussion</h2><table class=\"tb\"><tr><td class=\"lbl\">Follow up</td><td>Why do you think that? / Can you explain?</td></tr><tr><td class=\"lbl\">Reach a resolution</td><td>Agree. / Partly agree. / Disagree.</td></tr></table>",
+      "notes": "Model: Ask a student a question. Use follow-up. Show agreement."
+    },
+    {
+      "layout": "raw",
+      "id": "resolution-starters",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "How to start",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">How to start</h2><table class=\"tb\"><tr><td class=\"lbl\">Starter 1</td><td>“We have an interesting question today.”</td></tr><tr><td class=\"lbl\">Starter 2</td><td>“Our question is… What do you think?”</td></tr><tr><td class=\"lbl\">Starter 3</td><td>“Let’s talk about…”</td></tr></table>",
+      "notes": "Students choose one starter and practice with a partner. Nominate 2 pairs to demonstrate."
+    },
+    {
+      "layout": "raw",
+      "id": "practice-pairs",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Practice in pairs",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Practice in pairs</h2><table class=\"tb\"><tr><td class=\"lbl\"><span class=\"box-word\">Choose</span></td><td>One question from your list.</td></tr><tr><td class=\"lbl\"><span class=\"box-word\">Start</span></td><td>With a good opening.</td></tr><tr><td class=\"lbl\"><span class=\"box-word\">Use</span></td><td>Agree / disagree / follow-up language.</td></tr><tr><td class=\"lbl\"><span class=\"box-word\">Reach</span></td><td>A resolution.</td></tr></table>",
+      "notes": "Walk around. Note common errors. Give delayed feedback after activity."
+    },
+    {
+      "layout": "content",
+      "id": "speeddating-transition",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Speed Dating!"
+    },
+    {
+      "layout": "raw",
+      "id": "speeddating-video",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<div style=\"text-align:center;margin-top:40px\"><iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/7iCGZHzHnko\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen style=\"max-width:100%\"></iframe></div>",
+      "notes": "Play the video. Ask: What do you notice about how they are talking?"
+    },
+    {
+      "layout": "raw",
+      "id": "speeddating-card",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.card{border:2px solid #ffdd00;border-radius:6px;padding:20px 24px;margin:15px auto;max-width:750px;text-align:left;color:#fff;font-size:32px;line-height:1.5}.card h3{color:#ffdd00;font-size:38px;margin:0 0 10px 0}.card ul{padding-left:20px}.card li{margin-bottom:6px}</style><div class=\"card\"><h3>M3 Speaking Cue Card #1<br>Should we eat meat?</h3><p>Some people say eating animals is wrong. Other people say humans need meat to be healthy.</p><p><strong>Structure your discussion:</strong></p><ul><li>Open: \"We have an interesting question today...\"</li><li>Your view: \"I think...\" / \"In my opinion...\"</li><li>Respond: \"I agree because...\" / \"I see it differently.\"</li><li>Resolution: Agree / Partly agree / Disagree</li></ul></div>",
+      "notes": "Walk through the card structure. This is what each card on the desk looks like."
+    },
+    {
+      "layout": "raw",
+      "id": "speeddating-instru",
+      "step": 1,
+      "background_color": "#9b59b6",
+      "title": "Speed dating",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Speed dating</h2><table class=\"tb\"><tr><td class=\"lbl\">Setup</td><td>10 cue cards on the islands.</td></tr><tr><td class=\"lbl\">Rounds</td><td>5 rounds of 2 minutes.</td></tr><tr><td class=\"lbl\">Rotation</td><td>Outer circle right. Inner circle left.</td></tr><tr><td class=\"lbl\">Goal</td><td>Read the card. Discuss. Try to agree.</td></tr></table>",
+      "notes": "Teacher: ring bell every 2 minutes. Ss rotate. Remind them to use discussion language and reach a resolution."
+    },
+    {
+      "layout": "raw",
+      "id": "speeddating-go",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Speed dating — GO!",
+      "body": "<style>body{color:#fff}.tb{border-collapse:collapse;margin:15px auto;max-width:800px;width:100%%}.tb td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left;vertical-align:top;font-size:35px}.tb tr:last-child td{border-bottom:none}.lbl{color:#ffdd00;font-weight:700;white-space:nowrap;width:120px}</style><h2 style=\"color:#fff;text-align:center;font-size:46px;margin-bottom:10px\">Speed dating — GO!</h2><table class=\"tb\"><tr><td class=\"lbl\">Round 1</td><td>Use the card on your desk.</td></tr><tr><td class=\"lbl\"><span class=\"box-word\">Discuss</span></td><td>Agree. Disagree. Ask follow-ups.</td></tr><tr><td class=\"lbl\">Reach a resolution</td><td>Agree. Partly agree. Disagree.</td></tr><tr><td class=\"lbl\">Bell</td><td>Rotate to the next card.</td></tr></table>",
+      "notes": "Teacher: start 10-min timer. Ring bell every 2 min."
+    }
+  ]
+}

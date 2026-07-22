@@ -1,0 +1,306 @@
+{
+  "title": "Punctuation & Capitalisation Workshop",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How can I make my writing less messy?",
+      "body": "Let's find out.",
+      "notes": "Ask: What makes writing look messy? Why do small mistakes matter?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Most of your writing errors come from punctuation and capitalisation.</li><li>Fixing these will make your writing clearer and more professional.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-task1",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Task 1 — Recognise"
+    },
+    {
+      "layout": "content",
+      "id": "task1-instructions",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Instructions",
+      "body": "Each sentence has errors in punctuation or capitalisation.\n\n<span class=\"box-word\">Circle</span> each error.\n\n<span class=\"box-word\">Write</span> the correction above it.",
+      "notes": "Demo on the board. Show worksheet task 1."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "example",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Example",
+      "body": "<strong>i</strong> like to read books.",
+      "notes": "CCQ: Why is 'i' wrong? (Answer: I is always capitalised.)"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "example",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Example",
+      "body": "<strong style=\"color:#ffdd00\">I</strong> like to read books.\n\nThe pronoun <strong>I</strong> is always capitalised."
+    },
+    {
+      "layout": "content",
+      "id": "task1-work",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Task 1",
+      "body": "Now fix all the errors in questions 1-10.\n\nQuestion 1 has 2 errors.",
+      "notes": "Give 8 min. Students work from the worksheet."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 1 — Spot the error",
+      "body": "**i** like to learn **english**."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-1",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 1 — Corrected",
+      "body": "<strong style=\"color:#ffdd00\">I</strong> like to learn <strong style=\"color:#ffdd00\">E</strong>nglish."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 2 — Spot the error",
+      "body": "My uncle works as a **Manager**."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-2",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 2 — Corrected",
+      "body": "My uncle works as a <strong style=\"color:#ffdd00\">m</strong>anager."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 3 — Spot the error",
+      "body": "She was born in Chiang Mai , Thailand."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-3",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 3 — Corrected",
+      "body": "She was born in Chiang Mai<strong style=\"color:#ffdd00\">,</strong> Thailand."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 4 — Spot the error",
+      "body": "Even though it was raining **W**e went outside."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-4",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 4 — Corrected",
+      "body": "Even though it was raining<strong style=\"color:#ffdd00\">, w</strong>e went outside."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-5",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 5 — Spot the error",
+      "body": "My best friend who lives next door works as a **Teacher**."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-5",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 5 — Corrected",
+      "body": "My best friend<strong style=\"color:#ffdd00\">,</strong> who lives next door<strong style=\"color:#ffdd00\">,</strong> works as a <strong style=\"color:#ffdd00\">t</strong>eacher."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-6",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 6 — Spot the error",
+      "body": "In my opinion **T**he school needs a new library."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-6",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 6 — Corrected",
+      "body": "In my opinion<strong style=\"color:#ffdd00\">, t</strong>he school needs a new library."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-7",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 7 — Spot the error",
+      "body": "My friend Anna likes to play football."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-7",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 7 — Corrected",
+      "body": "My friend<strong style=\"color:#ffdd00\">,</strong> Anna<strong style=\"color:#ffdd00\">,</strong> likes to play football."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-8",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 8 — Spot the error",
+      "body": "I was tired but I kept studying."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-8",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 8 — Corrected",
+      "body": "I was tired<strong style=\"color:#ffdd00\">,</strong> but I kept studying."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-9",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 9 — Spot the error",
+      "body": "I wanted to go to the party however I was sick."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-9",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 9 — Corrected",
+      "body": "I wanted to go to the party<strong style=\"color:#ffdd00\">; however,</strong> I was sick."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-10",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 10 — Spot the error",
+      "body": "Many **Students** like to play games at break time."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "answer-10",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Question 10 — Corrected",
+      "body": "Many <strong style=\"color:#ffdd00\">s</strong>tudents like to play games at break time."
+    },
+    {
+      "layout": "content",
+      "id": "task2",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Task 2 — Recall",
+      "body": "Each box shows an error from Task 1.\n\n<span class=\"box-word\">Explain</span> the rule that was broken.\n\nWrite **one complete sentence**.",
+      "notes": "Give 5 min. Demo: 'i' → 'The pronoun I must always be capitalised.'"
+    },
+    {
+      "layout": "content",
+      "id": "rule-common-nouns",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Rule — Common nouns",
+      "body": "Don't capitalise common nouns.\n\nOnly proper nouns (names, places) need capitals.\n\n<strong style=\"color:#ffdd00\">teacher</strong>, <strong style=\"color:#ffdd00\">manager</strong>, <strong style=\"color:#ffdd00\">students</strong> → lowercase.",
+      "notes": "CCQ: Is 'English' a common or proper noun? (Proper — language name.)"
+    },
+    {
+      "layout": "content",
+      "id": "rule-comma-space",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Rule 1 — Comma spacing",
+      "body": "Never put a space **before** a comma.\n\nAlways put a space **after** a comma.\n\nChiang Mai<strong style=\"color:#ffdd00\">,</strong> Thailand ✓",
+      "notes": "CCQ: Which is correct: 'word , word' or 'word, word'?"
+    },
+    {
+      "layout": "content",
+      "id": "rule-appositives",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Rule 2 — Extra information",
+      "body": "Use **commas** around extra information about a person.\n\nMy friend<strong style=\"color:#ffdd00\">,</strong> Anna<strong style=\"color:#ffdd00\">,</strong> likes football.",
+      "notes": "CCQ: If we remove 'Anna', is the sentence still complete? (Yes.)"
+    },
+    {
+      "layout": "content",
+      "id": "rule-comma-intro",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Rule 3 — After an introduction",
+      "body": "After an introductory phrase, use a **comma**.\n\nThen use a **lowercase** letter.\n\nIn my opinion<strong style=\"color:#ffdd00\">, t</strong>he school ✓",
+      "notes": "CCQ: What comes after the comma? A lowercase letter."
+    },
+    {
+      "layout": "content",
+      "id": "rule-however",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Rule 4 — Connecting with **However**",
+      "body": "Use a **semicolon** before **however**.\n\nUse a **comma** after it.\n\n...the party <strong style=\"color:#ffdd00\">; however,</strong> I was sick.",
+      "notes": "CCQ: What goes BEFORE 'however'? A semicolon. What goes AFTER? A comma."
+    },
+    {
+      "layout": "content",
+      "id": "task3-prompt",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Task 3 — Use",
+      "body": "Write a paragraph about **a fun day** with your family or friends.\n\nFocus on correct punctuation and capitalisation.\n\nUp to 70 words.",
+      "notes": "Give 8 min. Circulate and help."
+    },
+    {
+      "layout": "content",
+      "id": "task3-checklist",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Checklist",
+      "body": "<ul><li>A sentence starting with <em>while</em> or <em>even though</em></li><li>A sentence with extra information in commas</li><li>Correct comma before <em>and</em> or <em>but</em></li><li>The word <strong>however</strong> used correctly</li></ul>",
+      "notes": "Review each item. Ask for example sentences."
+    }
+  ]
+}

@@ -22,7 +22,7 @@ from .globals import (
     frame,
     html_attrs,
 )
-from .filters import fragment, notes, markdown_to_html
+from .filters import fragment, notes
 
 
 def setup_jinja(env):
@@ -63,5 +63,4 @@ def _filters():
     return {
         "fragment": fragment,
         "notes": notes,
-        "markdown_to_html": markdown_to_html,
     }

@@ -1,75 +1,187 @@
 # LESSON-PLAN-WRITER-4
 
-Data-only repo: lesson shape templates + project slideshows. No build system, no Makefile, no lint/typecheck. **Skip** `uv run make validate` — it will fail.
+Data-only repo: lesson shape templates + per-project slide decks, cue cards, and worksheets.  
+No Makefile, no build system. Venv has pytest only.
 
 ## Remotes
 
-All slides deploy to `old-origin` (`elwrush/lesson-plan-writer`, the canonical slides host). `origin` is `elwrush/lesson-plan-writer-4` (source repo). Never push to `origin`'s gh-pages.
+| Remote | URL | Purpose |
+|--------|-----|---------|
+| `old-origin` | `elwrush/lesson-plan-writer` | gh-pages host. All `/git-pages` go here. |
+| `origin` | `elwrush/lesson-plan-writer-4` | Source repo. Never push gh-pages here. |
 
-## Layout
+`/git-pages` deploys to `old-origin`; falls back to `origin`.
 
-- `LESSON-SHAPES/shape-{a..g}.json` — 7 pedagogical models consumed by write-lesson-plan skill
-- `PROJECTS/{name}/` — per-lesson material directory:
-  - `data.json` — 25-40 slide records for slideshow-renderer
-  - `envelope.json` — lesson plan metadata for write-lesson-plan
-  - `slides/` — rendered reveal.js output (gitignored)
-- `ASSETS/` — logo (`logo.png`, md5: `6b3a32e5`), copied into each project's `slides/assets/`
-- `PDF/` — generated lesson plan PDFs (gitignored)
-- `scripts/render-pdf.js` — Playwright bridge (used by write-lesson-plan)
-- `tests/test_git_pages_safety.py` — safety regressions for git-pages command
+## Project layout
 
-## Commands (`.kilo/command/`)
+```
+PROJECTS/{name}/              # Per-lesson directory (15-40 files)
+  data.json                   # Slide deck. Load slideshow-renderer skill first.
+  lesson.json                 # Source textbook lesson metadata + exercises
+  transcript.json             # Audio transcript for listening tasks
+  generate_cue_cards.py       # Speed-dating cue cards (self-contained Playwright)
+  post-process.py             # Timer + plugin injection (re-run after every render)
+  classroom-layout.svg        # Classroom layout diagram for rotation models
+  slides/assets/              # splash.jpg, logo.png, blip/BELL.mp3
+```
 
-| Command | Use |
-|---------|-----|
-| `/git-pages [name] [source-dir]` | Deploy/update slides on gh-pages. Always uses `old-origin`. Never switches branches. |
+Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical references), `tests/test_git_pages_safety.py`.
 
-Other commands (`explore`, `propose`, `implement`, `verify`, `project-go`) are generic spec-kit and can be ignored — this repo uses no spec kit.
+## Classes
 
-## Workflow: New slideshow
+`M3-A`, `M2-4A`, `M2-5A` — three classes. Never invent others.
 
-1. Create `PROJECTS/{name}/slides/assets/`, copy logo from `ASSETS/logo.png`
-2. Download images (Wikimedia Commons for historical/public domain, Pixabay for generic) into `slides/assets/`
-3. Generate spelling test audio and monolog audio via Inworld TTS-2 (build-a-monolog skill, system voices for speed)
-4. Write `data.json` with 25-40 slides (load slideshow-renderer skill for full schema)
-5. Run `python3 ~/.kilo/skills/slideshow-renderer/scripts/render.py --data "PROJECTS/{name}/data.json" --output "PROJECTS/{name}/slides/index.html"`
-6. Post-process: add `timer-plugin.css`/`.js` links, `TimerPlugin` to plugins array, `data-timer="N"` to task slides (360/300/240s)
-7. Validate: `python3 ~/.kilo/skills/slideshow-renderer/scripts/validate_slide_fonts.py "PROJECTS/{name}/data.json"` — catches gray fonts and undersized text
-8. Deploy: `/git-pages {name} "PROJECTS/{name}/slides"`
+## HTTP server
 
-## Workflow: Lesson plan PDF
+- Python `http.server` or `npx http-server -p 8080 --cors -g` on port 8080.
+- Re-rendering overwrites `index.html` in-place; **do NOT stop the server**.
+- Don't ask about it.
 
-1. Write `PROJECTS/{name}/envelope.json` with `shape` (must reference existing shape in LESSON-SHAPES/), `metadata` (teacher/date/class/aims/stages/answer key), and `slideshow_url`
-2. Run `python3 ~/.kilo/skills/write-lesson-plan/scripts/render.py --template lesson-plan --data "PROJECTS/{name}/envelope.json" -o "PDF/lesson-plan-{date}-{topic}.pdf"`
-3. Verify with `pdfinfo` (A4: 595x842 pts), `pdffonts` (fonts embedded)
+## Slideshow workflow
 
-## Hard-earned slide rules
+### Before writing data.json
 
-- **No gray text** on dark backgrounds: only `#fff` or `#ffdd00`. Never `#888`, `#ccc`, `#aaa`, `#ddd`.
-- **Min fonts**: headings 44px, body 34px, tables 36px, absolute minimum 28px.
-- **Lists must be HTML `<table>`** — markdown fragments produce broken "1." numbering.
-- **Timer pill via `data-timer`** on task slides (360s/300s/240s). Added during post-processing, not in data.json body.
-- **Model text is a continuous paragraph** — no "Opinion: / Reason:" structural labels in student-facing content.
-- **Matching exercises**: `auto-animate-pair` with stable `data-id="o1"`–`oN` on options, `s1`–`sN` on stems.
-- **Transcript must match audio verbatim** — every sentence in the TTS prompt must appear on the slide.
-- **Audio preview**: use `npx http-server -p 8080 --cors -g` (Python's http.server lacks `Accept-Ranges: bytes`, breaking audio scrubber).
+1. Ask user for splash image. Download/crop to 1920×1080, save to `slides/assets/splash.jpg`.
+2. Copy `ASSETS/logo.png` (verify md5: `6b3a32e5`) to `slides/assets/logo.png`.
+3. Copy `ASSETS/blip.mp3` + `BELL.mp3` to `slides/assets/`.
+4. **Batch all styling decisions**: timer durations, auto-start, yellow highlights, worksheet structure (question count, rule slide count matching Task 2 items). Single question, not iterative.
+5. **Read source materials for meaning** (skill Step 1.5). State the narrative in one sentence before writing any JSON. Every slide must trace back to it.
+6. **Write a slide blueprint** (see skill Step 3.6): ordered list of slide IDs with one-line descriptions and which existing Design Pattern each slide uses. Tick off each slide as it's written.
+7. **Follow the pedagogical arc** (see skill Activity selection table). Stage order is fixed: Recall → Vocab → Strategy → Listening → Controlled → Freer. Don't reorder.
 
-## Testing
+### Writing data.json
 
-- `python3 -m pytest tests/test_git_pages_safety.py -v` — checks git-pages command for forbidden patterns
-- `python3 -m pytest ~/.kilo/skills/slideshow-renderer/scripts/tests/ -v` — slideshow skill tests
-- `python3 -m pytest ~/.kilo/skills/write-lesson-plan/tests/ -v` — lesson plan skill tests
+- Load the `slideshow-renderer` skill first (defines layout enum, resolver, macros).
+- **Max 25 body words per content slide** (Mayer's Coherence Principle).
+- **Sentences**: 8–12 words for B1, one idea per sentence, no compounds, no embedded clauses.
+- **Voice**: conversational "you"/"we", short imperatives, active voice.
+- **Page/task numbers**: every task slide references the textbook page and task number (e.g. "Page 155, Task 1").
 
-## Gitignore
+**Splash**: `layout: "image"` with `image_url` only — no `title`, no `body`.
 
-`**/slides/`, `PDF/`, `ASSETS/`, `node_modules/`, `.venv/`, `audit-*.md`, `.env` — all output artifacts.
+**Title**: `logo: "assets/logo.png"` + `shield: true` + `background_image` — all three required.
 
-## Shape cross-references
+**Importance**: immediately after title, `background_color: "#1a1a2e"`, `<ul>` of real-world outcomes.
 
-- B depends on A/C
-- E → H (receptive skills → new shape H)
-- F → J (productive skills → new shape J)
+**Vocabulary** — 3-click reveal per word:
+- Slide entry: phonemic script only, no syllable dots (e.g. `/ˌdɒkjʊˈmentəri/`)
+- Click 1: English word in `<span class="box-word">`
+- Click 2: context sentence eliciting meaning (no dictionary definitions)
+- No `title` field on vocab slides. Precede section with red transition `"Let's check your word knowledge"`.
+- Background: `#1a1a2e`.
+
+**Strategy exposition** — MUST use a `Do` / `Why` / `How` HTML table, not box-word spans:
+```json
+{"layout": "content", "id": "strategy-predict", "step": 1,
+ "background_color": "#1a1a2e", "title": "Strategy: Predict",
+ "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Predict answers before you listen.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It helps your brain focus.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the question. Think first.</td></tr></table>"}
+```
+
+**Strategy demo** — each strategy MUST be followed by an `auto-animate-pair` table with a concrete example (not from the actual transcript):
+
+| Demo type | Step 1 | Step 2 | What animates |
+|-----------|--------|--------|---------------|
+| Predict | options with `&nbsp;` in span | green `✓` on plausible options | span content |
+| Underline | `<strong style="text-decoration:none">` | `<strong style="text-decoration:underline;...">` on key words | text-decoration |
+
+**Auto-animate rules when editing data.json directly**:
+- DOM structure must be IDENTICAL between steps. Every `<tr>`, `<td>`, `<span>`, `<strong>` in step 2 must also exist in step 1.
+- All `<td>` cells in the table must have identical `border-bottom:1px solid #444` (no partial borders — they create visible artifacts at cell junctions, even with `border-collapse:collapse`). Including the last row is harmless.
+- Empty inline-block spans collapse to zero height — always put `&nbsp;` inside them.
+- **Edit JSON with `json.load()` → modify → `json.dump()`**, never raw string matching. Body strings contain JSON-escaped HTML with `\"` sequences that break string replacement.
+
+**Answer slides**: one question per slide, four-row table (Question / Answer / Explanation / Transcript), green `#052e0d`. No fragments, no word limit. See skill Design Patterns.
+
+**Speed dating sequence**: red transition "Speed Dating!" → video → sample cue card slide → instructions → timed GO slide. The sample card shows the cue card format before students handle them.
+
+**Timers**: write a `post-process.py` per deck. The resolver adds `slide-{id}-1` prefixes to data-ids. Timer auto-start via `data-timer-autostart="true"`. Re-run post-processing after every render.
+
+## Hard-earned gotchas
+
+**Browser cache.** Timer-plugin.css changes won't appear without a cache buster. Add `?v=N` to the CSS link in post-process.py and bump N after every CSS edit. Hard refresh (Ctrl+Shift+R).
+
+**Timer pill.** Don't customize — copy verbatim from `PROJECTS/ARCHIVE/JULY 20 M3 VOCAB MOVIES/slides/timer-plugin.*`. Only legitimate additions: `clearInterval` guard in `onStart()` and auto-start support in `loadSlideTimer()`.
+
+**Slide layout.** Use `raw` layout with CSS `<style>` blocks and centered tables (`margin:auto`, `max-width`). Don't use `content` layout for anything with HTML. Copy the CSS pattern from the working archive project, not from memory.
+
+**Reveal.js config.** Never inject `margin`, `center`, or `disableLayout` overrides via post-processing. The default config (`width:1280, height:720`) works. Every override tried made the slides worse.
+
+**Gist answers.** "How does it engage?" questions need concept answers (the *idea* that makes it compelling), not technique (close-ups, no names). Split across multiple slides when 25-word limit forces fragmented bullets.
+
+**Vocab context sentences.** Must include a clarifying second clause. "It was a fascinating conversation" is useless. "It was a fascinating conversation. I was so interested by everything she said" allows inference.
+
+**Strategy demos.** Use `<span>` not `<strong>` for invisible text-decoration placeholders in step 1 — `<strong>` has default bold that gives the answer away.
+
+**Answer lists.** Use `<p>` tags with hardcoded numbers — NOT Markdown `1.` / `2.` which renders as `<ol>` with gray list markers.
+
+**Font minimums.** No text below 31px. Body 35px, headings 47px, phonemic script 47px.
+
+**Pattern reference.** Before writing any slide, study `PROJECTS/ARCHIVE/JULY 20 M3 VOCAB MOVIES/` for the proven table CSS pattern and reveal.js config.
+
+### Render
+
+```bash
+python ~/.kilo/skills/slideshow-renderer/scripts/render.py \
+  --data "PROJECTS/{name}/data.json" \
+  --output "PROJECTS/{name}/slides/index.html"
+python3 "PROJECTS/{name}/post-process.py"
+```
+
+Never stop the HTTP server. Python's `http.server` picks up changed files on each request.
+
+### Validate
+
+```bash
+python3 ~/.kilo/skills/slideshow-renderer/scripts/validate_slide_fonts.py "PROJECTS/{name}/data.json"
+# Manual: check slide order (1,2,3,4 not 1,3,2,4)
+# Manual: source fidelity against worksheets (no truncated stems, no spelling drift)
+python3 -m pytest tests/ -v
+```
+
+## Worksheet PDF workflow
+
+1. Ask user which class. Look up roster via Supabase (`classlists` table; requires `.env` with `SUPABASE_URL` + `SUPABASE_ESL_KEY`).
+2. Write `PROJECTS/{name}/generate_worksheet.py`. Model on an existing one.
+3. Run: `python3 "PROJECTS/{name}/generate_worksheet.py" --class {CLASS} --output-dir "PROJECTS/{name}"`
+4. Verify: `pdfinfo` confirms A4, page count = students × (content pages + padding).
+5. Padding rule: `PADDING_MAP = {1:0, 2:0, 3:1, 4:0, 5:3}`.
+
+PDFs are gitignored (`PROJECTS/**/*.pdf`).
+
+## Cue cards
+
+Write a `generate_cue_cards.py` per project. Self-contained Playwright script:
+- Generates HTML with embedded CSS, renders via Playwright to A4 PDF.
+- One card per discussion topic, 4 per A4 page.
+- Each card includes: numbered header, context/question, 4-step discussion structure (Open → Your view → Respond → Resolution), dot-pointed language hints (Agree / Disagree / Follow-up).
+- Fonts: Roboto (installed via TinyTeX), embedded in PDF.
+
+## Lesson plan PDF workflow
+
+Generate lesson plan PDFs via `write-lesson-plan` skill. Always follow these rules:
+
+1. **Load lesson.json** — extract book name, unit number/title, page numbers for the materials list.
+2. **Read lesson.json exercises** — the answer key numbering must follow the textbook exercise numbers (e.g. Exercise 3 → 3a, 3b; Exercise 4 → 1–6).
+3. **Load transcript.json** — set `metadata.transcript` to the path. The renderer auto-converts JSON to `<strong>Speaker:</strong> text` format with boldfaced speaker names.
+4. **Main aim = speaking/product, not vocabulary.** The main aim must reflect the lesson's real productive focus (discuss, present, debate). Vocabulary is supporting content for a stage, not the main objective.
+5. **Lead-in uses splash → title sequence.** Procedure step 1: show splash, let students speculate ("What do you see? Who are these people?"). Step 2: advance to title, confirm the theme.
+6. **Materials list:** first item = full textbook details ("Oxford Discover Futures 3, Unit 6 ..., pp. 64–65"). Then slideshow, cue cards, audio, worksheet.
+7. **Answer keys:** sectioned by exercise (`<strong>Exercise 3 — Gist questions</strong>`), numbered by textbook, full sentences.
+8. **Transcript included** for any lesson with a listening text.
+9. **No images in the lesson plan** — contextual images go in the slideshow.
+
+```bash
+python ~/.kilo/skills/write-lesson-plan/scripts/render.py \
+  --template lesson-plan \
+  --data PROJECTS/{name}/envelope.json
+```
+
+Verify: `pdfinfo` confirms A4 (594.96 × 841.92 pts), `pdffonts` confirms embedded fonts.
 
 ## Before declaring done
 
-Verify source content against slides. Common hallucinations: truncated exercise stems/options, missing "the history of" / "like" / "a lot" type modifiers, wrong CEFR levels on spelling words, US vs UK spelling drift.
+1. Re-run post-processing (render wipes timer injections).
+2. Verify slide order matches JSON array.
+3. Check source fidelity against worksheets/transcripts.
+4. Run `python3 -m pytest tests/ -v`.
+5. Deploy is GATED — do NOT push gh-pages without explicit user OK.
