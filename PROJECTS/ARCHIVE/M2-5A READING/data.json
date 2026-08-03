@@ -1,0 +1,235 @@
+{
+  "title": "M2-5A Reading — Why People Stopped Having Kids",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Thailand is having a problem with its birth rate.",
+      "body": "Let's read to find out what the issue is.",
+      "notes": "Greet students. Ask: What do you know about birth rates in Thailand? Do you know anyone with just one child or no children?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>It is about a serious social issue for Thailand.</li><li>It will help you to answer very difficult questions.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "body": ""
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-fertility",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/fɜːˈtɪləti/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">fertility</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The doctor said her <span class=\"box-word\">fertility</span> was excellent. She could become a mother if she wanted to.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If a country has high fertility, do women have many children or few children? (many)"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-crisis",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈkraɪsɪs/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">crisis</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">When the factory closed, the town faced a <span class=\"box-word\">crisis</span>. Many people lost their jobs and did not know what to do.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is a crisis a small problem or a big problem? (big)"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-isolated",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈaɪsəleɪtɪd/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">isolated</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">After moving to a new city, she felt <span class=\"box-word\">isolated</span>. She had no friends and spent most evenings alone.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If you feel isolated, do you spend time with friends or are you alone? (alone)"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-pension",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈpenʃən/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">pension</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">My grandfather receives a <span class=\"box-word\">pension</span> every month. The government sends him money because he is retired.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Who gets a pension — young workers or old people? (old people)"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Predict the main idea before you read.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It prepares your brain to understand the text.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the title. Look at the picture. Ask: What is this about?</td></tr></table>",
+      "notes": "Explain the strategy. Examples: title 'Why People Stopped Having Kids' + picture of maternity ward → prediction about birth rates."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The title is: <strong>Why People Stopped Having Kids</strong></td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which predictions make sense?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A book about how to raise babies.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A problem with Thailand's population.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A story about a family on holiday.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reasons why people don't have children.</td></tr></table>",
+      "notes": "Ask students: Which predictions are probably correct? Click to reveal checkmarks."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Predict — Check",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The title is: <strong>Why People Stopped Having Kids</strong></td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which predictions make sense?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A book about how to raise babies.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A problem with Thailand's population.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A story about a family on holiday.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reasons why people don't have children.</td></tr></table>",
+      "notes": "Step 2: checkmarks appear on correct predictions. Options 2 and 4 are plausible."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-underline",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Underline key words",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Underline the instruction words in the question.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">They tell you what type of answer to look for.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Find words like <strong>purpose</strong>, <strong>probably</strong>, <strong>suggest</strong>, <strong>mean</strong>. Each has a different answer type.</td></tr></table>",
+      "notes": "Explain: purpose = main idea of whole text. probably = inference, not directly stated. mean = vocabulary in context. suggest = author's implied opinion."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-underline",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Underline",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Read each question. Which words tell you what to look for?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;width:36px\">1.</td><td style=\"padding:10px 0;border-bottom:1px solid #444\">What is the <span style=\"text-decoration:none\">main purpose</span> of this passage?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;width:36px\">2.</td><td style=\"padding:10px 0;border-bottom:1px solid #444\">What is <span style=\"text-decoration:none\">probably true</span> about the relationship?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;width:36px\">3.</td><td style=\"padding:10px 0;border-bottom:1px solid #444\">What does the phrase \"<span style=\"text-decoration:none\">social isolation</span>\" <span style=\"text-decoration:none\">mean</span>?</td></tr></table>",
+      "notes": "Step 1: Students identify key words. Click to reveal which words to underline."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-underline",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Try it: Underline — Check",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Read each question. Which words tell you what to look for?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;width:36px\">1.</td><td style=\"padding:10px 0;border-bottom:1px solid #444\">What is the <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">main purpose</span> of this passage?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;width:36px\">2.</td><td style=\"padding:10px 0;border-bottom:1px solid #444\">What is <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">probably true</span> about the relationship?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;width:36px\">3.</td><td style=\"padding:10px 0;border-bottom:1px solid #444\">What does the phrase \"<span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">social isolation</span>\" <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">mean</span>?</td></tr></table>",
+      "notes": "Step 2: Key words underlined. Q1: main purpose = look for overall aim. Q2: probably true = inference. Q3: mean = vocabulary in context."
+    },
+    {
+      "layout": "content",
+      "id": "read-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Read the article",
+      "body": "<p>Read the article and answer all 8 questions.</p><p>You have 10 minutes.</p><p style=\"margin-top:20px\"><audio controls data-src=\"assets/reading-passage.mp3\" style=\"width:320px\"></audio></p>",
+      "notes": "Timer: 10 minutes (600 seconds). Students read the article and answer multiple-choice questions on their worksheet. Walk around and monitor."
+    },
+    {
+      "layout": "content",
+      "id": "transition-answers",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Check your answers",
+      "body": "<p>Let's check how you did.</p><p><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p>",
+      "notes": "Students swap worksheets. Go through each answer with explanation."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 1 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1. What does the passage say about the number of children Thai women have?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>D</strong> — They have fewer than one child on average.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The average is 0.8 children — that is less than one. Option A says \"the lowest\" but the text says \"one of the lowest.\"</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"The average woman there has just 0.8 children in her lifetime — one of the lowest in the world.\"</td></tr></table>",
+      "notes": "Point out: 'one of the lowest' ≠ 'the lowest'. Make sure students understand the difference."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 2 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2. What is different about today's drop in birth rates compared to the past?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>A</strong> — People are choosing to have fewer children on purpose.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">In the past, drops were caused by war, disease, or famine. This time, people are making a choice.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"The number of people has gone down before, but always because of war, disease, or famine. This time, it is happening by choice. That is new.\"</td></tr></table>",
+      "notes": "Key distinction: past drops were forced by external events. This one is voluntary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 3 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">3. What is the main purpose of the passage?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>C</strong> — To explain the causes and consequences of falling birth rates.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The article starts with the situation, then explains causes (paras 5-6) and consequences (para 4). This is a classic explainer structure.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"Why does this matter? Fewer people can mean slower economic growth...\" (cause) / \"So why are people having fewer children?\" (consequence)</td></tr></table>",
+      "notes": "Main purpose questions test the overall structure. Point out how the article is organized: situation → causes → consequences."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 4 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">4. What is the main point of paragraph 4?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>D</strong> — Falling birth rates affect both the economy and people's happiness.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The paragraph gives two types of effects: economic (slower growth, pension problems) and human (loneliness, isolation).</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"Fewer people can mean slower economic growth. It can also make it harder to pay for healthcare and pensions... But the human cost may be even worse.\"</td></tr></table>",
+      "notes": "Main point of a paragraph = the topic sentence + what it says. Point out 'But' signals a second effect."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q5",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 5 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">5. What does the phrase 'social isolation' mean?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>C</strong> — Being separated from other people in daily life.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The paragraph explains that phones let you stay in your room alone. This leads to less time with others — being separated from people.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"Your phone offers unlimited content in your own room. This means less time with others and fewer chances to meet a partner.\"</td></tr></table>",
+      "notes": "Vocabulary-in-context question. Students need to infer the meaning from surrounding text, not just from the word itself."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q6",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 6 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">6. What is probably true about marriage and birth rates?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>B</strong> — Fewer marriages are likely to lead to fewer births.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The article says most people have children after marriage. So if fewer people marry, fewer children will be born.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"When people struggle to find love, they marry later — or not at all. And most people still have children after marriage.\"</td></tr></table>",
+      "notes": "Inference question. The text doesn't say it directly — students need to connect: marriage → children, so fewer marriages → fewer children."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q7",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 7 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">7. What does the author suggest about government payments?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>A</strong> — Paying parents is not the full answer by itself.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The author says payments encourage more births, but adds that community support is also needed. Money alone is not enough.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"Paying parents larger sums does seem to encourage more births, but no government policy has replaced what community provides.\"</td></tr></table>",
+      "notes": "Author's opinion question. The word 'but' signals contrast — payments aren't the complete solution."
+    },
+    {
+      "layout": "content",
+      "id": "answer-q8",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Question 8 / 8",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">8. Fernández-Villaverde finishes the article by saying: \"This is really the only thing that matters.\" What does he mean?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong>B</strong> — Thailand's falling birth rate.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why?</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The expert says Thailand's situation is \"the only thing that matters.\" The whole article is about the falling birth rate.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Text</td><td style=\"padding:8px 0\">\"What Thailand is facing is a warning for the whole world. As Fernández-Villaverde says... 'This is really the only thing that matters.'\"</td></tr></table>",
+      "notes": "Reference question — 'What does this/these/he refer to?' Students must look back at the preceding sentences."
+    },
+    {
+      "layout": "content",
+      "id": "discussion",
+      "step": 1,
+      "background_color": "#9b59b6",
+      "title": "Discuss with your partner",
+      "body": "<p>Why do fewer people in Thailand want to have children?</p><p>What could the government do?</p><p>You have 7 minutes.</p>",
+      "notes": "Timer: 7 minutes. Walk around and monitor. Encourage use of ideas from the text. Elicit some opinions afterward."
+    },
+    {
+      "layout": "content",
+      "id": "questions",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Questions?",
+      "body": "Any questions about what we read today?",
+      "notes": "Wrap up. Ask: What new words did you learn? What was the most surprising fact from the article?"
+    }
+  ]
+}

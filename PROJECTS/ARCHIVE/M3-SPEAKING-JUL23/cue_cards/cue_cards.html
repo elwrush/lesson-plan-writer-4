@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    width: 100%;
+  }
+  .page {
+    page-break-after: always;
+    height: 267mm;
+  }
+  .page:last-child {
+    page-break-after: auto;
+  }
+  .card {
+    border: 1.5px solid #333;
+    border-radius: 4px;
+    padding: 6mm 8mm;
+  }
+  .card-header {
+    font-size: 18pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-bottom: 2px solid #1a1a2e;
+    padding-bottom: 3mm;
+    margin-bottom: 3mm;
+    line-height: 1.3;
+  }
+  .card-header .num-badge {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #fff;
+    width: 8mm;
+    height: 8mm;
+    text-align: center;
+    line-height: 8mm;
+    font-size: 14pt;
+    border-radius: 2px;
+    margin-right: 3mm;
+  }
+  .card-subtitle {
+    font-size: 14pt;
+    color: #555;
+    font-weight: 400;
+    margin-top: 1mm;
+  }
+  .section-label {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-top: 3mm;
+    margin-bottom: 1mm;
+  }
+  .section-label:first-of-type {
+    margin-top: 0;
+  }
+  .context-text {
+    font-size: 14pt;
+    line-height: 1.5;
+    color: #222;
+  }
+  .structure {
+    font-size: 14pt;
+    line-height: 1.5;
+    color: #333;
+    padding-left: 3mm;
+    border-left: 2px solid #9b59b6;
+    margin-top: 1mm;
+    list-style: none;
+  }
+  .structure li {
+    margin-bottom: 1mm;
+  }
+  .structure li::before {
+    content: "\25B8 ";
+    color: #9b59b6;
+    font-weight: 700;
+  }
+  .structure .res-options {
+    margin-top: 1mm;
+    padding-left: 4mm;
+    list-style: none;
+  }
+  .structure .res-options li {
+    line-height: 1.4;
+    margin-bottom: 0.5mm;
+    color: #444;
+  }
+  .structure .res-options li::before {
+    content: "\2022 ";
+    color: #8e44ad;
+    font-weight: 700;
+  }
+  .lang-hint {
+    font-size: 14pt;
+    line-height: 1.45;
+    color: #1a1a2e;
+    background: #eef2f7;
+    border-radius: 3px;
+    padding: 2mm 3mm;
+    margin-top: 3mm;
+  }
+  .lang-hint ul {
+    margin: 1mm 0 0 0;
+    padding-left: 4mm;
+    list-style: none;
+  }
+  .lang-hint ul li {
+    font-size: 14pt;
+    line-height: 1.45;
+    margin-bottom: 0.5mm;
+  }
+  .lang-hint ul li::before {
+    content: "\2022 ";
+    color: #1a1a2e;
+    font-weight: 700;
+  }
+  .lang-hint ul li strong {
+    color: #1a1a2e;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">1</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#1: Should we eat meat?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Some people say eating animals is wrong. Other people say humans need meat to be healthy.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Let's start with a question about food: Should we eat meat?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Great, so we both think eating less meat is a good idea!</li>
+        <li>Hmm, we kind of agree but not completely on this one.</li>
+        <li>Yikes, we really see this totally differently!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">2</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#2: Should there be super-rich people?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">A few people have billions of dollars. Many people have very little money. Is it fair?</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;I want to discuss money today: Should there be super-rich people?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Perfect — so we agree the gap is way too big.</li>
+        <li>Yeah, I think we partly agree but not on everything.</li>
+        <li>Oh man, we are on completely different pages here!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">3</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#3: Should students wear school uniforms?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Some schools make students wear uniforms. Other schools let students wear their own clothes.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Here's a question about school life: Should students wear school uniforms?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Nice, so we both see some good things about uniforms.</li>
+        <li>Mmm, we are kind of in the middle on this one.</li>
+        <li>Gosh, we really disagree — that is interesting!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">4</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#4: Is it OK to keep animals in zoos?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Zoos help protect animals. But animals in zoos cannot live freely.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Let's talk about animals today: Is it OK to keep animals in zoos?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Sweet — we both think zoos need to do more for animals.</li>
+        <li>Alright, it sounds like we agree a bit but not fully.</li>
+        <li>Whoa, we have completely opposite views on this!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">5</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#5: Should social media be banned for teens?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Social media can be fun and useful. But it can also be bad for mental health.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Here's something to think about: Should social media be banned for teens?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Brilliant — so we all think some rules make sense.</li>
+        <li>Fair enough, we agree on the problem but not the solution.</li>
+        <li>Oh dear, we really cannot find common ground here!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">6</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#6: City life or countryside life?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Cities have more jobs and things to do. The countryside is quieter and cleaner.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Let's compare two lifestyles: City life or countryside life — which is better?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Cool, so we both think each place has good sides.</li>
+        <li>Okay, I guess we just like different things — and that is fine.</li>
+        <li>Wow, we really cannot agree on this at all!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">7</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#7: Should everyone learn English?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">English helps people communicate worldwide. But maybe other languages matter more?</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;I have a question about languages: Should everyone learn English?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Love it — so we agree English is super useful.</li>
+        <li>Kinda, we see this the same way but not quite.</li>
+        <li>Oh boy, we have really different ideas about this one!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">8</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#8: Is university the only path to success?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Many successful people did not go to university. But some jobs need a degree.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Let's discuss education and careers: Is university the only path to success?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Amazing — we both agree there are many paths.</li>
+        <li>Sort of, I think we are close but not on the same page.</li>
+        <li>Phew, we look at success in completely different ways!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">9</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#9: How much homework is enough?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Homework helps you practice. But too much homework is stressful.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Here's a question about studying: How much homework is enough?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Exactly, so we all agree homework should not be too much.</li>
+        <li>You know, we cannot quite agree on the right amount.</li>
+        <li>Hmm, we are really far apart on this issue!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="page">
+<div class="card">
+  <div class="card-header">
+    <span class="num-badge">10</span>M3 Speaking Cue Card
+    <div class="card-subtitle">#10: Is technology helping or hurting us?</div>
+  </div>
+  <div class="section-label">The question</div>
+  <div class="context-text">Technology makes many things easier. But people spend too much time on screens.</div>
+  <div class="section-label">Structure your discussion</div>
+  <ol class="structure">
+    <li><strong>Open:</strong> &ldquo;Let's think about modern life: Is technology helping or hurting us?&rdquo;</li>
+    <li><strong>Your view:</strong> State your position. Use <em>I think&hellip; / In my opinion&hellip;</em></li>
+    <li><strong>Listen &amp; respond:</strong> <em>I agree because&hellip; / I see it differently. / Why do you think that?</em></li>
+    <li><strong>Resolution:</strong> Try to summarise your discussion.
+      <ul class="res-options">
+        <li>Right on — so we see both the good and the bad sides.</li>
+        <li>I mean, we agree on some things but not others.</li>
+        <li>Goodness, our opinions could not be more different!</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="lang-hint">
+    <strong>Language hints</strong>
+    <ul>
+      <li><strong>Agree:</strong> Absolutely. / I think so too. / That&rsquo;s a good point.</li>
+      <li><strong>Disagree:</strong> I&rsquo;m not sure. / I see it differently. / Yes, but&hellip;</li>
+      <li><strong>Follow-up:</strong> Can you explain? / What makes you say that?</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

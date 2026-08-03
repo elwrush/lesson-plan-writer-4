@@ -1,0 +1,107 @@
+{
+  "shape": {
+    "name": "Receptive Skills — Reading",
+    "description": "A reading lesson built around a true story about Ebola, with a listening main task and a structured discussion finale.",
+    "pedagogical_justification": "Reading is taught through explicit question-type strategies before the task, then applied to a listening read-along of the same text. A differentiated B2 challenge text extends fast finishers. The lesson closes with an opinion-reason-evidence discussion on a topical vaccine question, so reading feeds directly into speaking.",
+    "main_aim_format": "By the end, students will [read + discuss with evidence].",
+    "example_lesson_plan": {
+      "header": "Receptive Skills — Reading<br>Why should we be so scared of Ebola?",
+      "stages": [
+        {
+          "stage": "Lead-in: What do we know about Ebola?",
+          "stage_number": 1,
+          "stage_aim": "Activate prior knowledge and generate interest in the topic.",
+          "procedure": [
+            "Show the splash slide (Ebola virus micrograph). Ask: \"What do you see? What might this lesson be about?\" Let students speculate freely.",
+            "Advance to the title slide: \"Why should we be so scared of Ebola?\" Confirm the theme.",
+            "Show the death image (safe-burial workers with a coffin). Open-class discussion: \"What is Ebola? How deadly is it? What are the workers doing?\" Accept all answers; do not correct yet."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Vocabulary pre-teach",
+          "stage_number": 2,
+          "stage_aim": "Pre-teach four words that block comprehension of the text.",
+          "procedure": [
+            "Show the red transition \"Let's check your word knowledge\".",
+            "Present each word with the 3-click reveal: phonemic script, then the word, then a context sentence.",
+            "Words: outbreak, veterinarian, strain, decontamination. Context sentences are neutral everyday examples — they must not reveal the reading's story. Do NOT teach \"raw\" — it is tested in Question 5."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Reading strategies: question types",
+          "stage_number": 3,
+          "stage_aim": "Introduce the question types in the reading and how to answer them.",
+          "procedure": [
+            "Detail questions (Q1, Q2, Q3, Q6): find the exact fact; scan for key words.",
+            "Main idea and purpose (Q4): ask what the passage shows overall.",
+            "Vocabulary in context (Q5): guess the meaning from the surrounding clues.",
+            "Inference and attitude (Q7, Q8): read between the lines; judge the writer's tone.",
+            "After each strategy, complete the \"Try it\" demo table on the slideshow."
+          ],
+          "time": "10 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Main task: listen, read and check",
+          "stage_number": 4,
+          "stage_aim": "Listen to the narrated text while following along, then self-check answers.",
+          "procedure": [
+            "Play the monolog audio: the narrator (a Benedict Cumberbatch voice clone) reads the B1 text aloud.",
+            "Students follow along on the worksheet and complete or confirm their answers.",
+            "Gallery walk: students walk around and check their answers against the pre-printed answer posters on the walls.",
+            "Fast finishers: grab a B2 text from the back of the room and complete it with 10 minutes to go."
+          ],
+          "time": "14 min",
+          "interaction": "Ss / pairs"
+        },
+        {
+          "stage": "Discussion: opinion, reason, evidence",
+          "stage_number": 5,
+          "stage_aim": "Give a structured opinion using evidence from the text.",
+          "procedure": [
+            "Show the O-R-E structure: Opinion, Reason, Evidence (yellow label under the opening question).",
+            "Drill the interaction language: I agree with you because... / I see your point, but... / So we both think...",
+            "Topic: \"There is a lot of criticism about vaccines these days. Should we be suspicious of them?\" Students give an opinion, a reason, and evidence.",
+            "Run the 8-minute timer."
+          ],
+          "time": "12 min",
+          "interaction": "pairs / groups"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "3 August, 2026",
+    "class_name": "M3",
+    "duration_minutes": 46,
+    "cefr_level": "B1 (with B2 challenge)",
+    "lesson_shape": "Receptive Skills — Reading",
+    "topic": "Why should we be so scared of Ebola?",
+    "materials": [
+      "B1 reading: \"The Scientist Who Caught Ebola on Her Glove\" (adapted from The Hot Zone by Richard Preston, 1989 Reston outbreak) — article + 8 multiple-choice questions",
+      "B2 challenge reading (extension for fast finishers)",
+      "Slideshow: Why should we be so scared of Ebola? (28 slides)",
+      "Monolog audio: B1 text narrated (b1-monolog.mp3)",
+      "Worksheet: B1 questions (and B2 challenge questions)",
+      "Pre-printed B1 answer posters for the gallery walk"
+    ],
+    "main_aim": "By the end of the lesson, students will be able to read and understand an article about the Ebola virus, identify common reading question types, and give a structured opinion using evidence from the text.",
+    "subsidiary_aim": "Students will practise listening while reading and use language of agreement and disagreement in discussion.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/READING_M3_3_AUGUST/",
+    "answer_key": [
+      "1. D — No one got very sick. The virus in Reston was a special strain, and it never made anyone seriously ill.",
+      "2. A — Any error might be fatal. Jaax worked with deadly monkey blood in a protective suit, and one small mistake could cost her life.",
+      "3. C — The writer gives details about her safety equipment. He lists the protective suit, thick rubber gloves, and mask to make the danger concrete.",
+      "4. D — The writer shows how a scientist almost became infected. The whole passage tells the near-miss: a hole in her glove and blood on an open cut.",
+      "5. C — \"Raw\" means new and painful, not protected by skin. The cut on her palm was still raw and unhealed.",
+      "6. B — She filled the glove with water to test its condition. If the water leaked out, the glove had a hole.",
+      "7. A — Jaax felt frightened and unsure. She could not tell if the blood under her glove was the monkey's or her own.",
+      "8. B — The tone is dramatic and admiring. The writer tells the near-disaster with suspense and respect for Jaax."
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "title": "READING M2 3 AUGUST — Are EV cars the wave of the future?",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Are EV cars the wave of the future?",
+      "body": "Let's read to find out."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Electric cars are one of the biggest news stories in the world today.</li><li>The reading skills you practise today appear in your exams.</li></ul>",
+      "notes": "Frame the lesson value. This topic is in the news every week; the question types are exam formats."
+    },
+    {
+      "layout": "content",
+      "id": "lead-in",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "What do you know about electric cars?",
+      "body": "<p>Why do people buy them?</p><p>Are they cheaper to run?</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Open-class discussion. Elicit freely, no right or wrong answers. The yellow O-R-E label under the opening question anchors how students will structure their final answers."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "body": ""
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-wasteful",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈweɪstfl/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">wasteful</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Throwing away good food is <span class=\"box-word\">wasteful</span>. We should only buy what we can eat.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Is it wasteful to throw away food, or to save it?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-junkyard",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈdʒʌŋkjɑːd/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">junkyard</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The old machine sat in the <span class=\"box-word\">junkyard</span> for years. It was too broken to fix.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Does a junkyard keep machines or take them apart?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-outlive",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˌaʊtˈlɪv/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">outlive</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">A healthy tree can <span class=\"box-word\">outlive</span> us. It may still grow in a hundred years.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: If a tree outlives us, which one stops first?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-pluggedin",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˌplʌɡd ˈɪn/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">plugged in</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">My phone is <span class=\"box-word\">plugged in</span>. The charger is connected to the wall.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Is a plugged-in phone connected to electricity or to fuel?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-strategy",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Reading Question Types",
+      "body": "",
+      "notes": "Introduce the four question types in this reading: detail, main idea, vocab in context, inference/attitude."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-detail",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Detail",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Find the exact fact in the text.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The answer is written there.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Find the key words. Scan for them.</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-detail",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Detail",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Lily lives in Chiang Mai. It rains most in August.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which month is wettest?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">May</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">August</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">December</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-detail",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Detail",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Lily lives in Chiang Mai. It rains most in August.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which month is wettest?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">May</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">August</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">December</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-mainidea",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Main Idea",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Ask: What is this about?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It shows the big picture.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the first sentence of each paragraph.</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-mainidea",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Main Idea",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Read this short text.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\"><span style=\"text-decoration:none\">Chiang Mai</span> has <span style=\"text-decoration:none\">three seasons</span>. The cool season brings many tourists. The hot season is very dry.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the main idea?</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-mainidea",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Main Idea",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Read this short text.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\"><span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">Chiang Mai</span> has <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">three seasons</span>. The cool season brings many tourists. The hot season is very dry.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the main idea?</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-vocab",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Vocabulary in Context",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Guess the meaning of the word.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The sentence gives clues.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Look at the words before and after.</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-vocab",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Vocabulary in Context",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The market was <span style=\"text-decoration:none\">crowded</span>. There were <span style=\"text-decoration:none\">too many people</span> to walk.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">What does <span style=\"text-decoration:none\">crowded</span> mean?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the answer?</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-vocab",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Vocabulary in Context",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The market was <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">crowded</span>. There were <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">too many people</span> to walk.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">What does <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">crowded</span> mean?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the answer?</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-inference",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Inference &amp; Attitude",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Read between the lines.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Some answers are not written directly.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Think: What does this really mean?</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-inference",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Inference",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Many students ride bikes to school. There are only a few parking spaces for cars.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">What does the writer suggest?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The school is very far from home.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Bikes are faster than cars.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Most students do not drive.</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-inference",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Inference",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Many students ride bikes to school. There are only a few parking spaces for cars.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">What does the writer suggest?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The school is very far from home.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Bikes are faster than cars.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Most students do not drive.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-reading",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's Read",
+      "body": "",
+      "notes": "Teacher reads the B1 text aloud with the class, or students read in pairs. The text is on the worksheet."
+    },
+    {
+      "layout": "raw",
+      "id": "pre-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">Read &amp; Answer</p><p style=\"color:#fff;text-align:center;font-size:35px\">Read the text on your worksheet.<br>Answer the questions.</p><p style=\"color:#ffdd00;text-align:center;font-size:35px;margin-top:20px\">Grab a B2 text from the back of the room and see if you can complete with 10 minutes to go.</p>",
+      "notes": "Class reads the B1 text together, then students answer the 8 questions. Fast finishers grab the B2 text (challenge)."
+    },
+    {
+      "layout": "raw",
+      "id": "main-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">Listen &amp; Read</p><p style=\"color:#fff;text-align:center;font-size:35px\">Listen to the text.<br>Follow along on your worksheet.<br>Answer the questions.</p><div style=\"text-align:center;margin-top:24px\"><audio controls data-src=\"assets/b1-monolog.mp3\" style=\"width:420px\"></audio></div><p style=\"color:#ffdd00;text-align:center;font-size:35px;margin-top:20px\">Check your answers at the gallery walk.</p>",
+      "notes": "Play the monolog (narrator reads the B1 text). Students listen and follow along, then answer. Remind them: answers are on the walls."
+    },
+    {
+      "layout": "content",
+      "id": "gallery-check",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Gallery Walk",
+      "body": "<p>Did you listen again?</p><p>Now check your answers on the walls.</p>",
+      "notes": "Gallery walk check after the listening task. Students self-correct."
+    },
+    {
+      "layout": "content",
+      "id": "transition-discussion",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's Discuss",
+      "body": ""
+    },
+    {
+      "layout": "content",
+      "id": "discussion-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Give Your Opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think electric cars are better.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is they cost less to run.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, the text says batteries are cheaper.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Drill the Opinion-Reason-Evidence frame with the example. The yellow O-R-E label is required on every discussion-structure slide."
+    },
+    {
+      "layout": "content",
+      "id": "discussion-language",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Agree, Disagree, Resolve",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Agree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I agree with you because…</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Disagree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I see your point, but…</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Resolution</td><td style=\"padding:8px 0\">So we both think… Let’s agree on that.</td></tr></table>",
+      "notes": "Interaction language: agree, disagree politely, then resolve."
+    },
+    {
+      "layout": "raw",
+      "id": "discussion-task",
+      "step": 1,
+      "background_color": "#9b59b6",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">Should everyone switch to electric cars?</p><p style=\"color:#fff;text-align:center;font-size:35px\">Give your <strong style=\"color:#ffdd00\">opinion</strong>. Add a <strong style=\"color:#ffdd00\">reason</strong>. Use <strong style=\"color:#ffdd00\">evidence</strong> from the text.</p>",
+      "notes": "Pairs or small groups discuss EVs vs petrol cars using O-R-E + agreement/disagreement/resolution. Timer: 8 minutes (480s, autostart). The timer plugin creates the pill UI automatically."
+    }
+  ]
+}

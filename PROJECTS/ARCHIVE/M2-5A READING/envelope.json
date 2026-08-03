@@ -1,0 +1,134 @@
+{
+  "shape": {
+    "name": "Shape E — Receptive Skills (Reading)",
+    "description": "Traditional receptive skills lesson focusing on practicing reading sub-skills.",
+    "pedagogical_justification": "This lesson practices reading sub-skills (predicting content, identifying instruction words in questions, reading for detail) using a B1-level news article about Thailand's falling birth rate. Students pre-teach key vocabulary, apply prediction and keyword-underlining strategies, then read and answer 8 multiple-choice comprehension questions. The article provides authentic input on a relevant social issue, and the post-reading discussion stage encourages students to connect the content to their own views. The lesson follows the traditional receptive skills structure: lead-in → pre-reading (vocab + strategies) → while-reading → post-reading (answers + discussion).",
+    "main_aim_format": "By the end of the lesson, learners will have practiced and developed the sub-skills of reading for detail and specific information in the context of an article about Thailand's falling birth rate.",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have practiced and developed the sub-skills of reading for detail and specific information in the context of an article about Thailand's falling birth rate.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>24 July, 2026<br><b>Duration:</b><br>45 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>E (Receptive Skills — Reading)<br><b>Materials:</b><br>Reading test paper (Why People Stopped Having Kids), slideshow (reveal.js), audio recording of article (male US voice), timer plugin<br><b>Assessment:</b><br>Reading comprehension CA (8 multiple-choice questions)<br><b>Skills:</b><br>Reading",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To activate schemata about family size in Thailand and introduce the topic",
+          "procedure": [
+            "Show splash slide: image of mother holding child (silhouette at sunset). Ask: What do you see? What might this lesson be about?",
+            "Advance to title slide: 'Thailand is having a problem with its birth rate.' Confirm the topic.",
+            "Show importance slide: why this topic matters (social issue, difficult exam questions).",
+            "Pair discussion: In your experience, how many children do Thai families usually have? Is this changing? Why? 2 min. Elicit a few ideas."
+          ],
+          "time": 5,
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Pre-reading: Vocabulary",
+          "stage_number": 2,
+          "stage_aim": "To pre-teach four key vocabulary items from the text",
+          "procedure": [
+            "Transition slide: 'Let's check your word knowledge' (red background).",
+            "Present 4 key words using 3-click reveal: phonemic script → word in box → context sentence.",
+            "Words: fertility (/fɜːˈtɪləti/), crisis (/ˈkraɪsɪs/), isolated (/ˈaɪsəleɪtɪd/), pension (/ˈpenʃən/).",
+            "For each word: show phonemic script first, click to reveal English word, click again for context sentence with clarifying second clause.",
+            "Ask CCQs for each word: High fertility = many babies or few? Is a crisis a big problem or small problem? etc."
+          ],
+          "time": 6,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Pre-reading: Strategies",
+          "stage_number": 3,
+          "stage_aim": "To teach and practice predicting content and identifying instruction words in questions",
+          "procedure": [
+            "Strategy 1 — Predict: Do/Why/How table. 'Predict the main idea before you read. It prepares your brain. Read the title and look at the picture.'",
+            "Auto-animate demo: Show 4 predictions based on the title. Students predict which make sense. Click to reveal checkmarks on plausible options.",
+            "Strategy 2 — Underline key words: Do/Why/How table. 'Underline instruction words. They tell you what type of answer to look for.'",
+            "Auto-animate demo: 3 example questions with key words (main purpose, probably true, mean) in plain spans. Click to reveal underlined key words.",
+            "Explain: purpose = look for overall aim. probably = inference, not directly stated. mean = vocabulary in context."
+          ],
+          "time": 5,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "While-reading: Comprehension",
+          "stage_number": 4,
+          "stage_aim": "To read for detail and answer multiple-choice comprehension questions",
+          "procedure": [
+            "Transition slide: 'Read the article.' (red background). Hand out test paper.",
+            "Students can listen to the audio recording (male US voice reading the article) using the audio player on the slide, or read silently.",
+            "Students read the article and answer 8 multiple-choice questions.",
+            "Timer: 10 minutes (auto-starts). Teacher walks around and monitors.",
+            "After 10 min, transition to answer checking."
+          ],
+          "time": 12,
+          "interaction": "Ind"
+        },
+        {
+          "stage": "Post-reading: Answer check",
+          "stage_number": 5,
+          "stage_aim": "To check comprehension answers with explanations and text evidence",
+          "procedure": [
+            "Transition: 'Check your answers.' (red background). Students swap worksheets.",
+            "Go through each question one by one (green background slides).",
+            "Each answer slide shows: Question text → Correct answer (letter + full sentence) → Explanation (why this answer is correct, with text evidence) → Text excerpt.",
+            "Q1: D — 0.8 children (fewer than one). Key: 'one of the lowest' not 'the lowest.'",
+            "Q2: A — Choice, not war/disease/famine. Key: 'This time, it is happening by choice. That is new.'",
+            "Q3: C — Main purpose = explain causes and consequences. Article structure: situation → causes → effects.",
+            "Q4: D — Economic (growth, pensions) + human (loneliness). Key: 'But the human cost may be even worse.'",
+            "Q5: C — Social isolation = being separated from others. Key: 'less time with others.'",
+            "Q6: B — Fewer marriages lead to fewer births. Key: 'most people still have children after marriage.'",
+            "Q7: A — Payments help but aren't enough. Key: 'but no government policy has replaced what community provides.'",
+            "Q8: B — Thailand's falling birth rate. Key: 'What Thailand is facing is a warning.'",
+            "Collect scores."
+          ],
+          "time": 10,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Post-reading: Discussion",
+          "stage_number": 6,
+          "stage_aim": "To discuss personal opinions about the article's topic",
+          "procedure": [
+            "Transition: purple background slide with discussion prompts.",
+            "In pairs, students discuss: Why do fewer people in Thailand want to have children? What could the government do?",
+            "Timer: 7 minutes.",
+            "Teacher walks around and monitors, notes good language and errors.",
+            "Elicit a few opinions from different pairs. Content + language feedback."
+          ],
+          "time": 7,
+          "interaction": "Ss-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "24 July, 2026",
+    "class_name": "M2-5A",
+    "duration_minutes": 45,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape E — Receptive Skills (Reading)",
+    "topic": "Why People Stopped Having Kids",
+    "materials": [
+      "Reading test paper: Why People Stopped Having Kids (adapted from The Washington Post)",
+      "Slideshow (reveal.js)",
+      "Audio recording of reading passage (Alex, US male voice)",
+      "Timer plugin"
+    ],
+    "main_aim": "By the end of the lesson, learners will have practiced and developed the sub-skills of reading for detail and specific information in the context of an article about Thailand's falling birth rate.",
+    "subsidiary_aim": "To develop prediction and keyword-identification strategies for reading comprehension questions.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M2-5A_READING/",
+    "video_url": null,
+    "transcript": null,
+    "answer_key": [
+      "<strong>Reading Comprehension</strong>",
+      "Q1: D — They have fewer than one child on average. The first paragraph states the average is 0.8 children — less than one. Option A says 'the lowest' but the text says 'one of the lowest.'",
+      "Q2: A — People are choosing to have fewer children on purpose. Paragraph 3 explains past drops were due to war, disease, or famine, but 'this time, it is happening by choice. That is new.'",
+      "Q3: C — To explain the causes and consequences of falling birth rates. The article follows a classic explainer structure: situation (paras 1-2), causes (paras 5-6), consequences (para 4).",
+      "Q4: D — Falling birth rates affect both the economy and people's happiness. Paragraph 4 gives economic effects (slower growth, pensions) and human effects (loneliness, isolation).",
+      "Q5: C — Being separated from other people in daily life. The paragraph explains that phones keep people in their rooms, leading to 'less time with others.'",
+      "Q6: B — Fewer marriages are likely to lead to fewer births. The text says 'most people still have children after marriage,' so fewer marriages means fewer children.",
+      "Q7: A — Paying parents is not the full answer by itself. The author says payments encourage births 'but no government policy has replaced what community provides.'",
+      "Q8: B — Thailand's falling birth rate. Fernández-Villaverde says Thailand's situation is 'the only thing that matters.' The whole article is about the birth rate crisis."
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Segoe UI', Roboto, Arial, sans-serif">
+  <title>M3 Speaking — Classroom Layout for Speed Dating</title>
+
+  <!-- Walls -->
+  <rect x="10" y="10" width="780" height="580" fill="#f5f5f0" stroke="#333" stroke-width="3" rx="4"/>
+
+  <!-- Door -->
+  <rect x="740" y="460" width="40" height="80" fill="#c8a96e" stroke="#333" stroke-width="2" rx="2"/>
+  <text x="760" y="515" font-size="10" text-anchor="middle" fill="#333">DOOR</text>
+  <!-- Door arc -->
+  <path d="M 740 460 A 80 80 0 0 1 660 460" fill="none" stroke="#c8a96e" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- TV on stand -->
+  <rect x="680" y="250" width="12" height="60" fill="#555" rx="2"/>
+  <rect x="668" y="220" width="36" height="30" fill="#222" rx="3" stroke="#666" stroke-width="1"/>
+  <text x="686" y="240" font-size="9" text-anchor="middle" fill="#0f0">TV</text>
+
+  <!-- Teacher's desk -->
+  <rect x="440" y="40" width="160" height="70" fill="#d4a574" stroke="#8b6914" stroke-width="2" rx="4"/>
+  <text x="520" y="82" font-size="13" font-weight="bold" text-anchor="middle" fill="#333">Teacher's Desk</text>
+
+  <!-- === DESK ISLANDS === -->
+
+  <!-- Left side — Island 1 (front, left of teacher) -->
+  <rect x="60" y="180" width="130" height="90" fill="#e8f4f8" stroke="#3498db" stroke-width="2" rx="6"/>
+  <text x="125" y="210" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a2e">Island 1</text>
+  <text x="125" y="228" font-size="9" text-anchor="middle" fill="#555">Outer circle (facing in)</text>
+  <text x="125" y="244" font-size="9" text-anchor="middle" fill="#555">Inner circle (facing out)</text>
+  <!-- Arrow: outer clockwise -->
+  <path d="M 65 230 C 55 230 55 210 65 210" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="48" y="224" font-size="8" fill="#e74c3c" font-weight="bold">CW</text>
+  <!-- Arrow: inner anti-clockwise -->
+  <path d="M 185 195 C 195 195 195 215 185 215" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <text x="192" y="208" font-size="8" fill="#2980b9" font-weight="bold">ACW</text>
+
+  <!-- Left side — Island 2 (behind island 1) -->
+  <rect x="60" y="320" width="130" height="90" fill="#e8f4f8" stroke="#3498db" stroke-width="2" rx="6"/>
+  <text x="125" y="350" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a2e">Island 2</text>
+  <text x="125" y="368" font-size="9" text-anchor="middle" fill="#555">Outer circle (facing in)</text>
+  <text x="125" y="384" font-size="9" text-anchor="middle" fill="#555">Inner circle (facing out)</text>
+  <path d="M 65 370 C 55 370 55 350 65 350" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="48" y="364" font-size="8" fill="#e74c3c" font-weight="bold">CW</text>
+  <path d="M 185 335 C 195 335 195 355 185 355" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <text x="192" y="348" font-size="8" fill="#2980b9" font-weight="bold">ACW</text>
+
+  <!-- Right side — Island 3 (front right) -->
+  <rect x="270" y="140" width="130" height="90" fill="#f0e6f6" stroke="#9b59b6" stroke-width="2" rx="6"/>
+  <text x="335" y="170" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a2e">Island 3</text>
+  <text x="335" y="188" font-size="9" text-anchor="middle" fill="#555">Outer circle (facing in)</text>
+  <text x="335" y="204" font-size="9" text-anchor="middle" fill="#555">Inner circle (facing out)</text>
+  <path d="M 275 190 C 265 190 265 170 275 170" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="258" y="184" font-size="8" fill="#e74c3c" font-weight="bold">CW</text>
+  <path d="M 395 155 C 405 155 405 175 395 175" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <text x="402" y="168" font-size="8" fill="#2980b9" font-weight="bold">ACW</text>
+
+  <!-- Right side — Island 4 (middle) -->
+  <rect x="270" y="280" width="130" height="90" fill="#f0e6f6" stroke="#9b59b6" stroke-width="2" rx="6"/>
+  <text x="335" y="310" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a2e">Island 4</text>
+  <text x="335" y="328" font-size="9" text-anchor="middle" fill="#555">Outer circle (facing in)</text>
+  <text x="335" y="344" font-size="9" text-anchor="middle" fill="#555">Inner circle (facing out)</text>
+  <path d="M 275 330 C 265 330 265 310 275 310" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="258" y="324" font-size="8" fill="#e74c3c" font-weight="bold">CW</text>
+  <path d="M 395 295 C 405 295 405 315 395 315" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <text x="402" y="308" font-size="8" fill="#2980b9" font-weight="bold">ACW</text>
+
+  <!-- Right side — Island 5 (back) -->
+  <rect x="270" y="420" width="130" height="90" fill="#f0e6f6" stroke="#9b59b6" stroke-width="2" rx="6"/>
+  <text x="335" y="450" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a2e">Island 5</text>
+  <text x="335" y="468" font-size="9" text-anchor="middle" fill="#555">Outer circle (facing in)</text>
+  <text x="335" y="484" font-size="9" text-anchor="middle" fill="#555">Inner circle (facing out)</text>
+  <path d="M 275 470 C 265 470 265 450 275 450" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="258" y="464" font-size="8" fill="#e74c3c" font-weight="bold">CW</text>
+  <path d="M 395 435 C 405 435 405 455 395 455" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <text x="402" y="448" font-size="8" fill="#2980b9" font-weight="bold">ACW</text>
+
+  <!-- Legend -->
+  <rect x="450" y="160" width="320" height="200" fill="#fff" stroke="#ccc" stroke-width="1" rx="6"/>
+  <text x="610" y="185" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a2e">Rotation Model</text>
+
+  <!-- Outer circle CW -->
+  <path d="M 470 210 Q 490 200 510 210" fill="none" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="530" y="214" font-size="11" fill="#333">Outer circle = CW</text>
+
+  <!-- Inner circle ACW -->
+  <path d="M 470 235 Q 490 225 510 235" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <text x="530" y="239" font-size="11" fill="#333">Inner circle = ACW</text>
+
+  <!-- Cue cards -->
+  <text x="490" y="268" font-size="11" fill="#333">&#8226; Cue cards stay on each island</text>
+  <text x="490" y="288" font-size="11" fill="#333">&#8226; 5 islands, 2 cards each = 10 total</text>
+  <text x="490" y="308" font-size="11" fill="#333">&#8226; 2 min per round, bell = rotate</text>
+  <text x="490" y="328" font-size="11" fill="#333">&#8226; 5 rounds = all students meet all cards</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrow-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2980b9"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="560" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Classroom Layout — M3 Speaking Speed Dating</text>
+  <text x="400" y="580" font-size="10" text-anchor="middle" fill="#888">Front of room (teacher at top). Double rotation: outer clockwise, inner anti-clockwise.</text>
+</svg>

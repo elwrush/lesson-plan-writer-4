@@ -1,0 +1,241 @@
+{
+  "title": "READING M3 3 AUGUST — Why should we be so scared of Ebola?",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Why should we be so scared of Ebola?",
+      "body": "Let's read and find out."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Ebola is one of the most dangerous viruses in the world.</li><li>The reading question types you practise today appear in your exam.</li></ul>",
+      "notes": "Frame the lesson value: the Ebola threat is a real, current news topic; the question types are exam formats."
+    },
+    {
+      "layout": "raw",
+      "id": "lead-in",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<div style=\"display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%\"><p style=\"font-size:47px;font-weight:700;color:#fff;margin-bottom:12px\">What do we know about Ebola?</p><table style=\"width:92%;border-collapse:collapse\"><tr><td style=\"width:50%;text-align:center;vertical-align:middle\"><p style=\"font-size:38px;margin:10px 0\">What is Ebola?</p><p style=\"font-size:38px;margin:10px 0\">How deadly is it?</p><p style=\"font-size:38px;margin:10px 0\">What are the workers doing?</p><p style=\"color:#ffdd00;font-size:38px;font-weight:700;margin-top:28px\">Opinion &mdash; Reason &mdash; Evidence</p></td><td style=\"width:50%;text-align:center;vertical-align:middle\"><img src=\"assets/ebola_death.jpg\" style=\"max-width:96%;max-height:470px;border-radius:10px;border:2px solid #555\"></td></tr></table></div>",
+      "notes": "Show the death image first: safe-burial workers with a coffin. Ask: What is happening? What is Ebola? How deadly is it? Open-class discussion, accept all answers. The yellow O-R-E label anchors the final discussion."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "body": ""
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-outbreak",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈaʊtbreɪk/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">outbreak</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The <span class=\"box-word\">outbreak</span> spread through the village. Soon hundreds of people were sick.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Does an outbreak make many people sick, or just one?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-veterinarian",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˌvetərɪˈneəriən/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">veterinarian</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The <span class=\"box-word\">veterinarian</span> cares for sick animals. She gives them medicine every day.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Does a veterinarian treat animals or cars?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-strain",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/streɪn/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">strain</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Doctors study each new <span class=\"box-word\">strain</span> of the virus. It is a different type of the same disease.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Is a strain a type of virus, or a medicine?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-decontamination",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˌdiːkənˌtæmɪˈneɪʃn/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">decontamination</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The hospital has a <span class=\"box-word\">decontamination</span> shower. It cleans dangerous germs off people.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Does a decontamination shower clean the virus or spread it?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-strategy",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Reading Question Types",
+      "body": "",
+      "notes": "Introduce the four question types in this reading: detail, main idea, vocab in context, inference/attitude."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-detail",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Detail",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Find the exact fact in the text.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The answer is written there.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Find the key words. Scan for them.</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-detail",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Detail",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Nina works at a city hospital. She starts at seven in the morning.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Where does Nina work?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">At a hospital</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">At a school</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">At a bank</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-detail",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Detail",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Nina works at a city hospital. She starts at seven in the morning.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Where does Nina work?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">At a hospital</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">At a school</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">At a bank</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-mainidea",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Main Idea",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Ask: What is this about?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It shows the big picture.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the first sentence of each paragraph.</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-mainidea",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Main Idea",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Read this short text.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">My school has <span style=\"text-decoration:none\">many clubs</span>. The music club meets on Fridays. The sports club plays after class.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the main idea?</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-mainidea",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Main Idea",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">Read this short text.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">My school has <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">many clubs</span>. The music club meets on Fridays. The sports club plays after class.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the main idea?</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-vocab",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Vocabulary in Context",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Guess the meaning of the word.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The sentence gives clues.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Look at the words before and after.</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-vocab",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Vocabulary in Context",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The puppy was <span style=\"text-decoration:none\">playful</span>. It <span style=\"text-decoration:none\">jumped and ran all day</span>.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">What does <span style=\"text-decoration:none\">playful</span> mean?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the answer?</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-vocab",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Vocabulary in Context",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The puppy was <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">playful</span>. It <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">jumped and ran all day</span>.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">What does <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:2px;text-underline-offset:4px\">playful</span> mean?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which words give the answer?</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-inference",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Question Type: Inference &amp; Attitude",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Read between the lines.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Some answers are not written directly.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Think: What does this really mean?</td></tr></table>",
+      "notes": "Explain the question type. Give a PET-style example orally if needed."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-inference",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Inference",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The library closes early on Fridays. Most students leave by four o'clock.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">What does the writer suggest?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Students stay very late</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Most students do not stay late</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The library is open all night</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-inference",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Inference",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">The library closes early on Fridays. Most students leave by four o'clock.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">What does the writer suggest?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Students stay very late</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Most students do not stay late</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The library is open all night</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-reading",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's Read",
+      "body": "",
+      "notes": "Teacher reads the B1 text aloud with the class, or students read in pairs. The text is on the worksheet."
+    },
+    {
+      "layout": "raw",
+      "id": "main-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">Listen &amp; Read</p><p style=\"color:#fff;text-align:center;font-size:35px\">Listen to the text.<br>Follow along on your worksheet.<br>Answer the questions.</p><div style=\"text-align:center;margin-top:24px\"><audio controls data-src=\"assets/b1-monolog.mp3\" style=\"width:420px\"></audio></div><p style=\"color:#ffdd00;text-align:center;font-size:35px;margin-top:20px\">Check your answers at the gallery walk.</p>",
+      "notes": "Play the monolog (narrated by a Benedict Cumberbatch clone). Students listen and follow along, then answer. Remind them: answers are on the walls."
+    },
+    {
+      "layout": "content",
+      "id": "transition-discussion",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's Discuss",
+      "body": ""
+    },
+    {
+      "layout": "content",
+      "id": "discussion-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Give Your Opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think vaccines are safe.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is they are tested carefully.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, millions have them.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Drill the Opinion-Reason-Evidence frame with the example. The yellow O-R-E label is required on every discussion-structure slide."
+    },
+    {
+      "layout": "content",
+      "id": "discussion-language",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Agree, Disagree, Resolve",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Agree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I agree with you because…</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Disagree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I see your point, but…</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Resolution</td><td style=\"padding:8px 0\">So we both think… Let’s agree on that.</td></tr></table>",
+      "notes": "Interaction language: agree, disagree politely, then resolve."
+    },
+    {
+      "layout": "raw",
+      "id": "discussion-task",
+      "step": 1,
+      "background_color": "#9b59b6",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700\">There is a lot of criticism about vaccines these days. Should we be suspicious of them?</p><p style=\"color:#fff;text-align:center;font-size:35px\">Give your <strong style=\"color:#ffdd00\">opinion</strong>. Add a <strong style=\"color:#ffdd00\">reason</strong>. Use <strong style=\"color:#ffdd00\">evidence</strong> from the text.</p>",
+      "notes": "Pairs or small groups discuss the vaccine question using O-R-E + agreement/disagreement/resolution. Timer: 8 minutes (480s, autostart). The timer plugin creates the pill UI automatically."
+    }
+  ]
+}

@@ -29,7 +29,7 @@ Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical refer
 
 ## Classes
 
-`M3-A`, `M2-4A`, `M2-5A` — three classes. Never invent others.
+`M2`, `M3-A`, `M2-4A`, `M2-5A` — never invent others.
 
 ## HTTP server
 
@@ -41,7 +41,7 @@ Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical refer
 
 ### Before writing data.json
 
-1. Ask user for splash image. Download/crop to 1920×1080, save to `slides/assets/splash.jpg`.
+1. Ask user for splash image. Download/crop to 16:9 for the reveal canvas (1280×720; a 1920×1080 master is fine), save to `slides/assets/splash.jpg`.
 2. Copy `ASSETS/logo.png` (verify md5: `6b3a32e5`) to `slides/assets/logo.png`.
 3. Copy `ASSETS/blip.mp3` + `BELL.mp3` to `slides/assets/`.
 4. **Batch all styling decisions**: timer durations, auto-start, yellow highlights, worksheet structure (question count, rule slide count matching Task 2 items). Single question, not iterative.
@@ -98,9 +98,9 @@ Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical refer
 
 ## Hard-earned gotchas
 
-**Browser cache.** Timer-plugin.css changes won't appear without a cache buster. Add `?v=N` to the CSS link in post-process.py and bump N after every CSS edit. Hard refresh (Ctrl+Shift+R).
+**Browser cache.** Do NOT version the timer-plugin.css link (`?v=N`) — reference it plainly and overwrite the file in place. The deck page carries `Cache-Control: no-store` meta tags (injected by post-processing), so the browser always re-fetches the document and its linked CSS. If a change still looks stale, hard refresh (Ctrl+Shift+R).
 
-**Timer pill.** Don't customize — copy verbatim from `PROJECTS/ARCHIVE/JULY 20 M3 VOCAB MOVIES/slides/timer-plugin.*`. Only legitimate additions: `clearInterval` guard in `onStart()` and auto-start support in `loadSlideTimer()`.
+**Timer pill.** The canonical plugin is in the slideshow-renderer skill at `references/timer-plugin.md` (the archive copy under `PROJECTS/ARCHIVE/JULY 20 M3 VOCAB MOVIES/slides/` is OLD — it lacks the `clearInterval` guard in `onStart()` and auto-start support in `loadSlideTimer()`). **NEVER put a static `<div class="timer-pill">` or an inline `.timer-pill{...}` `<style>` rule in a slide body** — the plugin owns that class; an inline style overrides the plugin's `display:none` and forces the pill (▶ start / ↴ reset buttons) to render on every slide. The plugin creates the pill UI automatically; the body must NOT contain a pill. Post-processing must be idempotent (guard every `data-timer` / CSS / script / plugin-array injection) so re-runs after re-renders never duplicate attributes or script tags.
 
 **Slide layout.** Use `raw` layout with CSS `<style>` blocks and centered tables (`margin:auto`, `max-width`). Don't use `content` layout for anything with HTML. Copy the CSS pattern from the working archive project, not from memory.
 
@@ -108,7 +108,7 @@ Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical refer
 
 **Gist answers.** "How does it engage?" questions need concept answers (the *idea* that makes it compelling), not technique (close-ups, no names). Split across multiple slides when 25-word limit forces fragmented bullets.
 
-**Vocab context sentences.** Must include a clarifying second clause. "It was a fascinating conversation" is useless. "It was a fascinating conversation. I was so interested by everything she said" allows inference.
+**Vocab context sentences.** Must include a clarifying second clause. "It was a fascinating conversation" is useless. "It was a fascinating conversation. I was so interested by everything she said" allows inference. **Context sentences must be NEUTRAL — never reuse the reading/listening story** (characters, setting, key events). The word comes from the text; the example sentence must NOT ("She ran to the decontamination shower" is a story line, not an example — use "The hospital has a decontamination shower. It cleans dangerous germs off people.").
 
 **Strategy demos.** Use `<span>` not `<strong>` for invisible text-decoration placeholders in step 1 — `<strong>` has default bold that gives the answer away.
 
@@ -116,7 +116,11 @@ Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical refer
 
 **Font minimums.** No text below 31px. Body 35px, headings 47px, phonemic script 47px.
 
+**Text alignment.** Never add `h2{text-align:left!important}` style blocks or `<div style="text-align:left">` wrappers to slide body content. These override reveal.js's built-in text alignment and break F11 fullscreen scaling — the canvas miscalculates its height and the layout collapses. Let reveal.js handle alignment. Only use `text-align:left` on individual `<td>` cells where needed.
+
 **Pattern reference.** Before writing any slide, study `PROJECTS/ARCHIVE/JULY 20 M3 VOCAB MOVIES/` for the proven table CSS pattern and reveal.js config.
+
+**Slide text is authored verbatim.** Never compose displayed sentences programmatically in a builder script (f-string assembly, joins of clauses) — every string students see must be written out literally by the agent. Grammar errors in a deck are the signature of script-composed text. Demo ("Try it") slides use the teal `#116466` background (distinct from navy strategy slides), and correct-answer positions in demo checkmark tables must vary across demos — never always the first row.
 
 ### Render
 
@@ -156,25 +160,34 @@ Write a `generate_cue_cards.py` per project. Self-contained Playwright script:
 - Each card includes: numbered header, context/question, 4-step discussion structure (Open → Your view → Respond → Resolution), dot-pointed language hints (Agree / Disagree / Follow-up).
 - Fonts: Roboto (installed via TinyTeX), embedded in PDF.
 
+## Audio / monologs
+
+- Fish Audio TTS. `FISH_API_KEY` is in the environment. `s2.1-pro-free` runs the **same model** as paid `s2.1-pro` — only TTFA/DPA guarantees differ, so the free tier is not a degraded engine.
+- Cloned voices are logged in `cloned-voices/readme.md` with reusable voice IDs (e.g. `Patrick_Stewart` `134fbc5b…`, `Benedict_Cumberbatch` `2d3546b7…`, `narrator` `f190f246…`). Reuse existing IDs; log every new clone.
+- **Clone from REAL human audio** (15 s min, 45–60 s ideal) via `POST /api.fish.audio/model` fast mode. Voices cloned from synthetic design audio sound robotic (community-verified) — prefer clean real narration clips (e.g. audiobook excerpts).
+- **NEVER apply fades (`afade`)** to generated audio: a fade-out starts before the last phoneme and cuts the final words. Trim trailing silence instead.
+- Natural prosody for read-along texts: `[long-break]`/`[break]` pause markers between paragraphs, `[emphasis]` on key terms, `temperature=0.8`, `prosody.speed≈0.93`, `chunk_length=300`. Embed the result in the slide body as `<audio controls data-src="assets/{file}.mp3">`.
+
 ## Lesson plan PDF workflow
 
 Generate lesson plan PDFs via `write-lesson-plan` skill. Always follow these rules:
 
-1. **Load lesson.json** — extract book name, unit number/title, page numbers for the materials list.
-2. **Read lesson.json exercises** — the answer key numbering must follow the textbook exercise numbers (e.g. Exercise 3 → 3a, 3b; Exercise 4 → 1–6).
-3. **Load transcript.json** — set `metadata.transcript` to the path. The renderer auto-converts JSON to `<strong>Speaker:</strong> text` format with boldfaced speaker names.
-4. **Main aim = speaking/product, not vocabulary.** The main aim must reflect the lesson's real productive focus (discuss, present, debate). Vocabulary is supporting content for a stage, not the main objective.
+1. **Teacher is always "Ed Rush"; class time is always 46 minutes.** Both are built into the `write-lesson-plan` renderer defaults — never guess another teacher or duration, and stage times must sum to 46.
+2. **Load lesson.json** — extract book name, unit number/title, page numbers for the materials list.
+3. **Load transcript.json ONLY for listening lessons** — set `metadata.transcript` to the path. The renderer auto-converts JSON to `<strong>Speaker:</strong> text` format with boldfaced speaker names. Reading lessons (even with an audio read-along main task) must NOT include a transcript.
+4. **Main aim = speaking/product, not vocabulary.** The main aim must reflect the lesson's real productive focus (discuss, present, debate, read, listen). Vocabulary is supporting content for a stage, not the main objective.
 5. **Lead-in uses splash → title sequence.** Procedure step 1: show splash, let students speculate ("What do you see? Who are these people?"). Step 2: advance to title, confirm the theme.
-6. **Materials list:** first item = full textbook details ("Oxford Discover Futures 3, Unit 6 ..., pp. 64–65"). Then slideshow, cue cards, audio, worksheet.
+6. **Materials list:** first item = full textbook details ("Oxford Discover Futures 3, Unit 6 ..., pp. 64–65") or the source article (publication + author) when there is no textbook. Then slideshow, cue cards, audio, worksheet.
 7. **Answer keys:** sectioned by exercise (`<strong>Exercise 3 — Gist questions</strong>`), numbered by textbook, full sentences.
-8. **Transcript included** for any lesson with a listening text.
-9. **No images in the lesson plan** — contextual images go in the slideshow.
+8. **No images in the lesson plan** — contextual images go in the slideshow.
 
 ```bash
 python ~/.kilo/skills/write-lesson-plan/scripts/render.py \
   --template lesson-plan \
   --data PROJECTS/{name}/envelope.json
 ```
+
+**Output location:** lesson plan PDFs go to the repo-root `PDF/` directory (the renderer's default) — never inside `PROJECTS/{name}/`. Do not pass `-o` into a project folder.
 
 Verify: `pdfinfo` confirms A4 (594.96 × 841.92 pts), `pdffonts` confirms embedded fonts.
 

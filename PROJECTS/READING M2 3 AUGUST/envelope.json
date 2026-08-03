@@ -1,0 +1,118 @@
+{
+  "shape": {
+    "name": "Receptive Skills — Reading",
+    "description": "A reading lesson built around a current-affairs article on electric vehicles, with a listening main task and a structured discussion finale.",
+    "pedagogical_justification": "Reading is taught through explicit question-type strategies before the task, then applied first to a shared reading and then to a listening read-along. A differentiated B2 challenge text allows fast finishers to extend. The lesson closes with an opinion-reason-evidence discussion so reading feeds directly into speaking.",
+    "main_aim_format": "By the end, students will [read + discuss with evidence].",
+    "example_lesson_plan": {
+      "header": "Receptive Skills — Reading<br>Are EV cars the wave of the future?",
+      "stages": [
+        {
+          "stage": "Lead-in: What do you know about electric cars?",
+          "stage_number": 1,
+          "stage_aim": "Activate prior knowledge about electric cars.",
+          "procedure": [
+            "Show the splash slide (EV cars charging). Ask: \"What do you see? What might this lesson be about?\" Let students speculate freely.",
+            "Advance to the title slide: \"Are EV cars the wave of the future?\" Confirm the theme.",
+            "Open-class discussion: \"Why do people buy electric cars? Are they cheaper to run?\" Accept all answers; do not correct yet."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Vocabulary pre-teach",
+          "stage_number": 2,
+          "stage_aim": "Pre-teach four words that block comprehension of the text.",
+          "procedure": [
+            "Show the red transition \"Let's check your word knowledge\".",
+            "Present each word with the 3-click reveal: phonemic script, then the word, then a context sentence.",
+            "Words: wasteful, junkyard, outlive, plugged in. Do NOT teach \"convinces\" — it is tested in Question 5."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Reading strategies: question types",
+          "stage_number": 3,
+          "stage_aim": "Introduce the question types in the reading and how to answer them.",
+          "procedure": [
+            "Detail questions (Q1, Q2, Q7): find the exact fact; scan for key words.",
+            "Main idea and author's purpose (Q3, Q4): read the first sentence of each paragraph.",
+            "Vocabulary in context (Q5): guess the meaning from the surrounding clues.",
+            "Inference and attitude (Q6, Q8): read between the lines.",
+            "After each strategy, complete the \"Try it\" demo table on the slideshow."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Pre-task: read together and answer",
+          "stage_number": 4,
+          "stage_aim": "Read the B1 text together and answer the eight questions.",
+          "procedure": [
+            "Read the B1 article aloud together, paragraph by paragraph (text is on the worksheet).",
+            "Students answer the eight multiple-choice questions.",
+            "Challenge for fast finishers: \"Grab a B2 text from the back of the room and see if you can complete it with 10 minutes to go.\""
+          ],
+          "time": "10 min",
+          "interaction": "Ss / pairs"
+        },
+        {
+          "stage": "Main task: listen and check",
+          "stage_number": 5,
+          "stage_aim": "Listen to the narrated text while following along, then self-check answers.",
+          "procedure": [
+            "Play the monolog audio: the narrator reads the B1 text aloud.",
+            "Students follow along on the worksheet and complete or confirm their answers.",
+            "Gallery walk: students walk around and check their answers against the pre-printed answer posters on the walls."
+          ],
+          "time": "10 min",
+          "interaction": "Ss / pairs"
+        },
+        {
+          "stage": "Discussion: opinion, reason, evidence",
+          "stage_number": 6,
+          "stage_aim": "Give a structured opinion using evidence from the text.",
+          "procedure": [
+            "Show the O-R-E structure: Opinion, Reason, Evidence (yellow label under the opening question).",
+            "Drill the interaction language: I agree with you because... / I see your point, but... / So we both think...",
+            "Topic: \"Should everyone switch to electric cars?\" Students give an opinion, a reason, and evidence from the text.",
+            "Run the 8-minute timer."
+          ],
+          "time": "8 min",
+          "interaction": "pairs / groups"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "3 August, 2026",
+    "class_name": "M2",
+    "duration_minutes": 46,
+    "cefr_level": "B1 (with B2 challenge)",
+    "lesson_shape": "Receptive Skills — Reading",
+    "topic": "Are EV cars the wave of the future?",
+    "materials": [
+      "B1 reading: \"Why your opinion of used electric vehicles is probably wrong\" (adapted from New Scientist, 22 April 2026) — article + 8 multiple-choice questions",
+      "B2 challenge reading: \"The Quiet Revolution: One in Five New Cars Is Now Electric\" (adapted from IEA Global EV Outlook 2025)",
+      "Slideshow: Are EV cars the wave of the future? (30 slides)",
+      "Monolog audio: B1 text narrated (b1-monolog.mp3)",
+      "Worksheet: B1 questions (and B2 challenge questions)",
+      "Pre-printed B1 and B2 answer posters for the gallery walk"
+    ],
+    "main_aim": "By the end of the lesson, students will be able to read and understand an article about electric cars, identify common reading question types, and give a structured opinion using evidence from the text.",
+    "subsidiary_aim": "Students will practise listening while reading and use language of agreement and disagreement in discussion.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/READING_M2_3_AUGUST/",
+    "answer_key": [
+      "1. D — Car parts should wear out with the car. Henry Ford thought it was wasteful for any part to last longer than the car itself.",
+      "2. A — Buyers think the battery will give out early. This fear makes used electric cars lose value faster than petrol or diesel cars.",
+      "3. C — The author wants to correct a wrong idea about used EVs. He shows that batteries can last longer than the cars, so used EVs are a better deal than most people think.",
+      "4. D — Battery life makes used electric cars a good buy. Well-looked-after batteries can last longer than the cars themselves.",
+      "5. C — \"Convinces\" means makes people decide to do something. Money, not the climate, is what finally convinces people to go electric.",
+      "6. B — Slower sales are probably not the end of EV success. The writer ends on a hopeful note: the future for electric cars seems more certain.",
+      "7. A — Making money from battery storage may attract more buyers. Owners can get paid for storing electricity for the national energy system.",
+      "8. B — The writer is confident that EVs will succeed. Cheaper batteries, cheaper charging, and battery income all point to a more certain future."
+    ]
+  }
+}
