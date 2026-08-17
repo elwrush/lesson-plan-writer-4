@@ -1,0 +1,363 @@
+{
+  "title": "M2 Education Vocabulary",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How do you talk about school?",
+      "body": "Let's find out.",
+      "notes": "Greet students. Ask: What do you like about your school? What subjects do you study?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>School words help you talk about your daily life.</li><li>You use them with teachers, parents, and friends.</li><li>They help you understand conversations about school.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "entry-ticket-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Entry Ticket &mdash; Vocabulary Test",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the test on your paper.</p><p style=\"font-size:38px;color:#fff;margin:0\">Answer all 20 questions. You have 5 minutes.</p>",
+      "notes": "Students complete the 20-question Vocabulary Levels Test handout. Timer pill: 5 minutes (300 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "entry-ticket-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.et{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.et td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.et .num{color:#ffdd00;font-weight:700;min-width:30px}.et .ltr{color:#2ecc71;font-weight:900;min-width:34px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Entry Ticket &mdash; Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"et\"><tr><td class=\"num\">1</td><td class=\"ltr\">D</td><td>single movement</td></tr><tr><td class=\"num\">2</td><td class=\"ltr\">B</td><td>being unwell</td></tr><tr><td class=\"num\">3</td><td class=\"ltr\">A</td><td>tall narrow building</td></tr><tr><td class=\"num\">4</td><td class=\"ltr\">A</td><td>higher land</td></tr><tr><td class=\"num\">5</td><td class=\"ltr\">B</td><td>travel by air</td></tr><tr><td class=\"num\">6</td><td class=\"ltr\">C</td><td>moved her hand</td></tr><tr><td class=\"num\">7</td><td class=\"ltr\">A</td><td>value</td></tr><tr><td class=\"num\">8</td><td class=\"ltr\">C</td><td>eyesight</td></tr><tr><td class=\"num\">9</td><td class=\"ltr\">C</td><td>not able</td></tr><tr><td class=\"num\">10</td><td class=\"ltr\">C</td><td>unhappy</td></tr></table>",
+      "notes": "Answers 1-10. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "entry-ticket-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.et{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.et td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.et .num{color:#ffdd00;font-weight:700;min-width:30px}.et .ltr{color:#2ecc71;font-weight:900;min-width:34px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Entry Ticket &mdash; Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Continue</span> marking.</p><table class=\"et\"><tr><td class=\"num\">11</td><td class=\"ltr\">D</td><td>helpful</td></tr><tr><td class=\"num\">12</td><td class=\"ltr\">B</td><td>flat</td></tr><tr><td class=\"num\">13</td><td class=\"ltr\">B</td><td>nice</td></tr><tr><td class=\"num\">14</td><td class=\"ltr\">D</td><td>written words</td></tr><tr><td class=\"num\">15</td><td class=\"ltr\">C</td><td>non-stop</td></tr><tr><td class=\"num\">16</td><td class=\"ltr\">D</td><td>sends out</td></tr><tr><td class=\"num\">17</td><td class=\"ltr\">A</td><td>soothed</td></tr><tr><td class=\"num\">18</td><td class=\"ltr\">A</td><td>order</td></tr><tr><td class=\"num\">19</td><td class=\"ltr\">D</td><td>music writer</td></tr><tr><td class=\"num\">20</td><td class=\"ltr\">B</td><td>very thorough</td></tr></table>",
+      "notes": "Answers 11-20. Continue marking."
+    },
+    {
+      "layout": "content",
+      "id": "recall-schools",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Think about school",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Think about your school.</p><p style=\"font-size:38px;color:#fff;margin:0 0 22px 0\">What makes a good school? Talk to your partner.</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss for 2 minutes. Use Opinion-Reason-Evidence structure. Elicit a few ideas: good teachers, fair rules, fun activities."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "notes": "Transition to vocabulary presentation. Say: These are words about school. We will learn ten of them."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-allow",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/əˈlaʊ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">allow</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Our school allows us to wear casual clothes on Fridays. The teachers say it is OK.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If the teacher allows phones, can you use them?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-assessment",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/əˈsesmənt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">assessment</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Her grade came from continuous assessment. The teacher watched her work all year.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is an assessment a test of your work?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-assignments",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/əˈsaɪnmənts/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">assignments</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Our assignments are due on Friday. We must hand them to the teacher.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: What do you do with an assignment?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-ban",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/bæn/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">ban</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Our school banned food in the library. Now nobody can eat there.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If the school bans phones, can you use them?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-behavior",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/bɪˈheɪvjə/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">behavior</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">His behavior in class is very good. He listens and works quietly.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is talking during a lesson good behavior?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-bullying",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈbʊliɪŋ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">bullying</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Nobody should face bullying at school. Every student deserves to feel safe.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is bullying kind or unkind behavior?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-required",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/rɪˈkwaɪəd/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">required</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Science is a required subject here. Every student must study it.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is a required subject optional?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-educate",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈedʒukeɪt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">educate</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Some parents educate their children at home. They teach them outside school.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Who educates you at school?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-grades",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ɡreɪdz/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">grades</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">She got good grades in math last year. Her teacher was very happy.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Are good grades a sign of good work?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-work-experience",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/wɜːk ɪkˈspɪəriəns/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">work experience</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">My sister did work experience at a hospital. She helped the nurses for a month.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Where do you do work experience? A school or a job?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-listen",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "School Open Evening",
+      "notes": "Transition to listening. Say: We will listen to a parent and a teacher talking at a school open evening."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Predict what the parent will ask.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It helps your brain focus.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the title. Think of topics.</td></tr></table>",
+      "notes": "Say: The title is School Open Evening. A parent visits. What might he ask about? Predict first, then listen."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A student tells a friend about her new school.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which topics might she mention?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her favorite food.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The school uniform.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her new teachers.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A movie she watched.</td></tr></table>",
+      "notes": "Ask students to predict which topics a student might mention. Click to reveal the checkmarks."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A student tells a friend about her new school.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which topics might she mention?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her favorite food.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The school uniform.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her new teachers.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A movie she watched.</td></tr></table>",
+      "notes": "Revealed: uniform and teachers make sense. Food and movies are less likely for a school talk."
+    },
+    {
+      "layout": "raw",
+      "id": "gist-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen &mdash; Gist</h2><p style=\"color:#fff;text-align:center;font-size:38px;max-width:700px;margin:0 auto\">What is Mr. Harris choosing?</p><div style=\"text-align:center;margin-top:24px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog once. Students listen for the gist only: What is the parent choosing? Answer: a school for his son."
+    },
+    {
+      "layout": "content",
+      "id": "gist-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Gist — Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">What is Mr. Harris choosing?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">He is choosing a school for his son.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">He asks about classes, grades, phones, and bullying.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“We're choosing a school for my son.”</td></tr></table>",
+      "notes": "Confirm the gist. The parent wants to find the right school for his son."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen again</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:16px\">Answer the questions.</p><div style=\"max-width:820px;margin:0 auto\"><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">1. How does the school teach students?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">2. How does a student get a grade?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">3. When can students use phones?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">4. What happens in the final year?</p></div><div style=\"text-align:center;margin-top:16px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog again. Students answer the four detail questions. Then go through the answer slides."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (1/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1. How does the school teach students?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">With small classes and plenty of discussion.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Ms. Clark describes the teaching method first.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“We use small classes and plenty of discussion.”</td></tr></table>",
+      "notes": "Check the answer. Elicit: small classes and discussion."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (2/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2. How does a student get a grade?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Through continuous assessment, from work all year.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Grades come from assignments written every month, not one exam.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“We use continuous assessment. A student's grade comes from their work all year.”</td></tr></table>",
+      "notes": "Check the answer. Point out the word assessment from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (3/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">3. When can students use phones?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">At break time. They are banned during lessons.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Phones are allowed only between classes.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“We allow phones at break time. We ban them during lessons.”</td></tr></table>",
+      "notes": "Check the answer. Point out allow and ban from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (4/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">4. What happens in the final year?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Students do work experience, three weeks in a real workplace.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The school sends students to a real job before they finish.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“In the final year. They spend three weeks in a real workplace.”</td></tr></table>",
+      "notes": "Check the answer. Point out work experience from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "ex1-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 1 &mdash; Page 122",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the conversation with the correct words.</p><p style=\"font-size:38px;color:#fff;margin:0\">Use the ten school words.</p>",
+      "notes": "Students complete Exercise 1 independently. Timer pill: 6 minutes (360 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex1-table{border-collapse:collapse;margin:8px auto;max-width:820px;width:100%}.ex1-table td{padding:9px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.ex1-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex1-table .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex1-table\"><tr class=\"fragment\"><td class=\"num\">1</td><td>My parents wanted to <span class=\"ans\">educate</span> me at home.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>I don't get very good <span class=\"ans\">grades</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>I was a victim of <span class=\"ans\">bullying</span> for a while.</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>Their <span class=\"ans\">behavior</span> changed completely.</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>It's a <span class=\"ans\">required</span> subject.</td></tr></table>",
+      "notes": "Answers 1-5. Each click reveals the next row."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex1-table{border-collapse:collapse;margin:8px auto;max-width:820px;width:100%}.ex1-table td{padding:9px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.ex1-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex1-table .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Continue</span> checking.</p><table class=\"ex1-table\"><tr class=\"fragment\"><td class=\"num\">6</td><td>We also have continuous <span class=\"ans\">assessment</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td>We have to complete two <span class=\"ans\">assignments</span> every week.</td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td>The teachers sometimes <span class=\"ans\">allow</span> us to use them.</td></tr><tr class=\"fragment\"><td class=\"num\">9</td><td>Some schools <span class=\"ans\">ban</span> them completely.</td></tr><tr class=\"fragment\"><td class=\"num\">10</td><td>We do six weeks' <span class=\"ans\">work experience</span>.</td></tr></table>",
+      "notes": "Answers 6-10. Continue checking."
+    },
+    {
+      "layout": "content",
+      "id": "ex2-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 2 &mdash; Page 122",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Are the sentences true or false for you?</p><p style=\"font-size:38px;color:#fff;margin:0\">Talk to your partner.</p>",
+      "notes": "Students complete Exercise 2. Timer pill: 3 minutes (180 seconds). Answers are personal."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-adjprep",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:700px;width:100%}.vt td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:12px\">Adjective + preposition</h2><table class=\"vt\"><tr><td>covered in</td><td>full of</td></tr><tr><td>good at</td><td>impressed with</td></tr><tr><td>nervous about</td><td>upset about</td></tr><tr><td>scared of</td><td>worried about</td></tr></table>",
+      "notes": "New vocabulary before Exercise 3. Elicit each combination's meaning; do not write definitions on screen. Quick examples: I'm good at math. I'm scared of snakes."
+    },
+    {
+      "layout": "content",
+      "id": "ex3-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 3 &mdash; Page 122",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the second sentence.</p><p style=\"font-size:38px;color:#fff;margin:0\">Use adjective + preposition combinations.</p>",
+      "notes": "Students complete Exercise 3 (adj + preposition: covered in, full of, good at, etc.). Timer pill: 5 minutes (300 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex3-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex3-table{border-collapse:collapse;margin:8px auto;max-width:860px;width:100%}.ex3-table td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:32px;vertical-align:top}.ex3-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex3-table .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 3 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex3-table\"><tr class=\"fragment\"><td class=\"num\">1</td><td>Allie was <span class=\"ans\">covered in</span> paint.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>I used to be <span class=\"ans\">scared of</span> flying. (or: nervous about)</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>Joe's very <span class=\"ans\">good at</span> dancing.</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>I'm <span class=\"ans\">worried about</span> falling over. (or: nervous about)</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>The room was <span class=\"ans\">full of</span> people.</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>I'm <span class=\"ans\">scared of</span> snakes!</td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td>I was <span class=\"ans\">impressed with</span> the way you answered her question.</td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td>Were you <span class=\"ans\">upset about</span> losing your phone?</td></tr></table>",
+      "notes": "Each click reveals the next row. Accept both alternatives for 2 and 4."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-ways",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:720px;width:100%}.vt td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:12px\">Ways to learn</h2><table class=\"vt\"><tr><td>aloud</td><td>memorize</td></tr><tr><td>concentrate</td><td>prioritize</td></tr><tr><td>experiment</td><td>repeat</td></tr><tr><td>get together</td><td>tip</td></tr><tr><td>trial and error</td><td>video tutorial</td></tr><tr><td>figure out</td><td></td></tr></table>",
+      "notes": "New vocabulary before Exercise 4. Elicit meaning: get together (meet), figure out (understand), trial and error (keep trying until it works), video tutorial (online lesson)."
+    },
+    {
+      "layout": "content",
+      "id": "ex4-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 4 &mdash; Page 122",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Match the sentence halves 1&ndash;5 with a&ndash;e.</p><p style=\"font-size:38px;color:#fff;margin:0\">Ways to learn.</p>",
+      "notes": "Students complete Exercise 4 (ways to learn: figure out, memorize, trial and error, etc.). Timer pill: 4 minutes (240 seconds)."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ex4-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Exercise 4 — Answers",
+      "body": "<style>.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin:5px 0;width:100%;font-size:32px}.match-grid .stem{color:#fff;padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;text-align:left;white-space:nowrap}.match-grid .stem .num{color:#ffdd00;min-width:24px;margin-right:4px}.match-grid .opt{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;text-align:left;white-space:nowrap}.match-grid .opt .ltr{margin-right:6px}.match-grid .opt .ltr{color:#e67e22;min-width:18px}</style><div class=\"match-grid\" data-id=\"grid\"><div class=\"stem\" data-id=\"s1\"><span class=\"num\">1</span>I figured out how to fix my bike</div><div class=\"opt\" data-id=\"o_a\"><span class=\"ltr\">a</span>by repeating it aloud several times</div><div class=\"stem\" data-id=\"s2\"><span class=\"num\">2</span>I experimented with different approaches,</div><div class=\"opt\" data-id=\"o_b\"><span class=\"ltr\">b</span>by watching a video tutorial</div><div class=\"stem\" data-id=\"s3\"><span class=\"num\">3</span>I got together with some friends</div><div class=\"opt\" data-id=\"o_c\"><span class=\"ltr\">c</span>and we shared tips about study skills</div><div class=\"stem\" data-id=\"s4\"><span class=\"num\">4</span>I prioritized the information I needed to know</div><div class=\"opt\" data-id=\"o_d\"><span class=\"ltr\">d</span>and this process of trial and error was very helpful</div><div class=\"stem\" data-id=\"s5\"><span class=\"num\">5</span>I memorized the new vocabulary</div><div class=\"opt\" data-id=\"o_e\"><span class=\"ltr\">e</span>and concentrated on learning it</div></div>",
+      "notes": "Step 1: stems on left, options scrambled on right. Ask students to match. On click, options animate to correct positions."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ex4-answers",
+      "step": 2,
+      "background_color": "#052e0d",
+      "title": "Exercise 4 — Answers",
+      "body": "<style>.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin:5px 0;width:100%;font-size:32px}.match-grid .stem{color:#fff;padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;text-align:left;white-space:nowrap}.match-grid .stem .num{color:#ffdd00;min-width:24px;margin-right:4px}.match-grid .opt{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;text-align:left;white-space:nowrap}.match-grid .opt .ltr{margin-right:6px}.match-grid .opt .ltr{color:#2ecc71;min-width:18px}</style><div class=\"match-grid\" data-id=\"grid\"><div class=\"stem\" data-id=\"s1\"><span class=\"num\">1</span>I figured out how to fix my bike</div><div class=\"opt\" data-id=\"o_b\"><span class=\"ltr\">b</span>by watching a video tutorial</div><div class=\"stem\" data-id=\"s2\"><span class=\"num\">2</span>I experimented with different approaches,</div><div class=\"opt\" data-id=\"o_d\"><span class=\"ltr\">d</span>and this process of trial and error was very helpful</div><div class=\"stem\" data-id=\"s3\"><span class=\"num\">3</span>I got together with some friends</div><div class=\"opt\" data-id=\"o_c\"><span class=\"ltr\">c</span>and we shared tips about study skills</div><div class=\"stem\" data-id=\"s4\"><span class=\"num\">4</span>I prioritized the information I needed to know</div><div class=\"opt\" data-id=\"o_e\"><span class=\"ltr\">e</span>and concentrated on learning it</div><div class=\"stem\" data-id=\"s5\"><span class=\"num\">5</span>I memorized the new vocabulary</div><div class=\"opt\" data-id=\"o_a\"><span class=\"ltr\">a</span>by repeating it aloud several times</div></div>",
+      "notes": "Step 2: options animated to correct positions (1-b, 2-d, 3-c, 4-e, 5-a) with green letter highlight."
+    },
+    {
+      "layout": "content",
+      "id": "freer-discussion",
+      "step": 1,
+      "background_color": "#4a235a",
+      "title": "Talk with your partner",
+      "body": "<p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">What makes a good school?</p><p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">Should schools ban phones during lessons?</p><p style=\"font-size:36px;color:#fff;margin:0 0 16px 0\">What is the best way to learn English?</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think schools should ban phones.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is students concentrate better.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, the dialog says phones are banned in lessons.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Timer pill: 5 minutes (300 seconds). Students discuss using the school vocabulary. Use Opinion-Reason-Evidence."
+    },
+    {
+      "layout": "content",
+      "id": "conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Questions?",
+      "body": "Any questions about what we've learned today?",
+      "notes": "Wrap up. Ask: What ten school words can you use now? What did the parent ask about?"
+    }
+  ]
+}

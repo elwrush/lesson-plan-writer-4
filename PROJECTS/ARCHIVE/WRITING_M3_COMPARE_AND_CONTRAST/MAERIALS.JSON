@@ -1,0 +1,408 @@
+Here is the linted and validated JSON transcription. All syntax errors, missing escape characters, key-value mappings, and quote nestings have been verified for valid JSON formatting:
+
+```json
+{
+  "unit_title": "Writing workshop",
+  "topic": "A compare and contrast essay",
+  "pages": [
+    {
+      "page_number": 132,
+      "footer": {
+        "page_number": 132,
+        "section": "Writing workshop",
+        "topic": "A compare and contrast essay"
+      },
+      "sections": [
+        {
+          "type": "writing_task",
+          "sidebar_label": "Writing task",
+          "sub_header": "Think and plan",
+          "title": "A compare and contrast essay",
+          "instructions": "Your school magazine is running an essay-writing competition about some of the choices that we have in life. Choose one of the following essay titles.",
+          "options": [
+            "Is life better in a city or a village? Why?",
+            "What type of food has more value: food that tastes good, or food that doesn't harm the environment?",
+            "What is a better choice when you leave school: starting to work, or continuing your studies?"
+          ]
+        },
+        {
+          "type": "exercise",
+          "number": 1,
+          "instruction": "Study the writing task. Then look at the essay on page 133 and answer the questions.",
+          "questions": [
+            "How many paragraphs are there?",
+            "What is the function of each paragraph?",
+            "What is the writer's overall opinion?",
+            "What are the two meanings of \"there is no 'I' in team\"?"
+          ]
+        },
+        {
+          "type": "writing_strategy",
+          "sidebar_label": "Writing strategy",
+          "title": "Comparing and contrasting",
+          "text": "In a compare and contrast essay, we present and discuss two ideas on a related topic; e.g., whether team sports or individual sports are better. We argue in favor of each idea in turn by comparing and contrasting different aspects of both ideas. We conclude by saying which idea we prefer, and why."
+        },
+        {
+          "type": "exercise",
+          "number": 2,
+          "instruction": "Study the strategy and read the essay again. Complete the notes comparing and contrasting team and individual sports.",
+          "notes_template": [
+            "1 can do individual sports whenever you want / team sports have to be ..................................................................... with others",
+            "2 share success with teammates / individual success more .....................................................................",
+            "3 competing alone teaches independence / learning to ..................................................................... with others is more valuable",
+            "4 being part of a team can lead to ..................................................................... / performing alone far more stressful"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 133,
+      "header": {
+        "badge": "Writing"
+      },
+      "footer": {
+        "section": "Writing workshop",
+        "topic": "A compare and contrast essay",
+        "page_number": 133
+      },
+      "sections": [
+        {
+          "type": "model_essay",
+          "content": {
+            "title_label": "Essay title",
+            "title": "Which offers more for young people – individual sports or team sports?",
+            "paragraphs": [
+              {
+                "label": "Introduction",
+                "text": "Playing sports has both physical and psychological advantages for young people. But which type of sports are best: team or individual? How do they compare?"
+              },
+              {
+                "label": "[Paragraph 2 - in favor of individual sports]",
+                "text": "Let's begin with the benefits of individual sports. First of all, they're much easier to play whenever you want, whereas team sports have to be organized with others. Another point is that while team players encourage each other, you learn self-motivation if you play an individual sport, which is an important skill for life. Also, although team spirit is a great feeling, young people often worry about being blamed by other team members for a defeat. Last but not least, sharing success as a team can feel wonderful. However, the feeling that success is all due to your own efforts can be far more satisfying."
+              },
+              {
+                "label": "[Paragraph 3 - in favor of team sports]",
+                "text": "On the other hand, there are many ways in which team sports benefit people more. While competing on your own teaches independence, I believe that's nowhere near as valuable as learning how to cooperate with others. Furthermore, although individual athletes work hard to improve, studies show that competing on a team can help you improve even more. Being part of a competitive team sometimes leads to arguments. Nevertheless, this is generally much less stressful than performing alone."
+              },
+              {
+                "label": "Conclusion",
+                "text": "In conclusion, despite the positives of individual sports, such as discipline and motivation, I think young people learn more from playing on a team. Above all, team sports teach us one of the most important lessons in life – \"there is no 'I' in team\"!"
+              }
+            ]
+          }
+        },
+        {
+          "type": "writing_strategy",
+          "sidebar_label": "Writing strategy",
+          "title": "Deciding on a topic",
+          "text": "To help you decide which topic to choose, think of ideas that you can compare and contrast for each. Notice which of the topics it was easiest to think of ideas for – if this topic interests you, it will be a good choice for your essay."
+        },
+        {
+          "type": "exercise",
+          "number": 3,
+          "instruction": "Study the strategy. Then look again at the essay titles in the writing task. Spend five minutes thinking about ideas to compare and contrast for each topic. Then decide which title you'd like to write about."
+        }
+      ]
+    },
+    {
+      "page_number": 134,
+      "footer": {
+        "page_number": 134,
+        "section": "Writing workshop",
+        "topic": "A compare and contrast essay"
+      },
+      "sections": [
+        {
+          "type": "writing_tip",
+          "title": "Writing tip",
+          "text": "Working in pairs can help you generate more ideas than if you work alone. Say your ideas out loud and write them all down, no matter how silly or unrealistic."
+        },
+        {
+          "type": "exercise",
+          "number": 4,
+          "instruction": "Study the tip. Find a partner who has chosen the same essay title as you. Generate ideas for as many different positive and negative aspects of the topic as possible.",
+          "table_template": {
+            "header": [
+              "Essay title: ....................................................................................................................................................................",
+              "Positives 😊",
+              "Negatives ☹️"
+            ],
+            "rows": [
+              [
+                "Aspect 1 (i.e., life in a city)",
+                "",
+                ""
+              ],
+              [
+                "Aspect 2 (i.e., life in a village)",
+                "",
+                ""
+              ]
+            ]
+          }
+        },
+        {
+          "type": "writing_tip",
+          "title": "Writing tip",
+          "text": "Try to match related ideas into \"pairs\" that you can compare and contrast, separating them with a slash (/) like in exercise 1."
+        },
+        {
+          "type": "writing_strategy",
+          "sidebar_label": "Writing strategy",
+          "title": "Selecting and ordering notes",
+          "text": "There won't be space for more than three or four comparisons and contrasts in each of the main paragraphs. Choose the best ones from your notes – the ones that you think make the best arguments, and the ones that will be easiest to express clearly."
+        },
+        {
+          "type": "exercise",
+          "number": 5,
+          "instruction": "Study the tip and strategy. Then look at the ideas that you generated in exercise 4. Choose the best ideas to include in each paragraph. Use these as notes for your essay."
+        },
+        {
+          "type": "writing_tip",
+          "title": "Writing tip",
+          "text": "When you list your ideas one by one, use different expressions to introduce them. There are many expressions you can use, depending on the order of your ideas."
+        },
+        {
+          "type": "exercise",
+          "number": 6,
+          "instruction": "Study the tip. Which expressions in the model essay mean the same as the ones below? Look at your notes and add expressions to introduce your ideas.",
+          "items": [
+            "1 Let's start by looking at .....................................................................",
+            "2 Then there's the fact that .....................................................................",
+            "3 In addition, .....................................................................",
+            "4 What's more, .....................................................................",
+            "5 Finally, .....................................................................",
+            "6 To conclude, ....................................................................."
+          ]
+        },
+        {
+          "type": "exercise",
+          "number": 7,
+          "instruction": "Decide on the order that you want to present your ideas. Write some full sentences to present them using the expressions from exercise 6."
+        }
+      ]
+    },
+    {
+      "page_number": 135,
+      "header": {
+        "badge": "Writing"
+      },
+      "footer": {
+        "section": "Writing workshop",
+        "topic": "A compare and contrast essay",
+        "page_number": 135
+      },
+      "sections": [
+        {
+          "type": "section_header",
+          "title": "Drafting"
+        },
+        {
+          "type": "writing_tip",
+          "title": "Writing tip",
+          "text": "Introductions often include a question, which the essay will answer. It helps to get the reader interested in the topic."
+        },
+        {
+          "type": "exercise",
+          "number": 1,
+          "instruction": "Study the tip. What questions are in the model essay on page 133? Make notes on what you will say in your introduction."
+        },
+        {
+          "type": "exercise",
+          "number": 2,
+          "instruction": "Write your introduction to your essay.",
+          "writing_lines": 4
+        },
+        {
+          "type": "exercise",
+          "number": 3,
+          "instruction": "Write sentences including the linking words in parentheses. Use the key phrases to help you. Decide if you need to write one sentence or two.",
+          "items": [
+            "1 easy to feel lonely in a city / the thousands of people who live there (despite)",
+            "2 students don't have much money / may be able to get a higher-earning job later (nevertheless)",
+            "3 exotic fruit is delicious / it often has a high carbon footprint (however)",
+            "4 housing is cheaper in a village / commuting can cost a lot (on the other hand)"
+          ]
+        },
+        {
+          "type": "key_phrases",
+          "title": "Key phrases Contrasting",
+          "categories": [
+            {
+              "heading": "Linking in one sentence",
+              "phrases": [
+                "Although ... .",
+                "Despite ... .",
+                "Whereas ... .",
+                "While ...."
+              ]
+            },
+            {
+              "heading": "Linking in two sentences",
+              "phrases": [
+                ".... However, ....",
+                ".... Nevertheless, ....",
+                ".... Even so, ....",
+                ".... On the other hand, ...."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "number": 4,
+          "instruction": "Look at your notes again and decide which linking words in the key phrases above you can use to contrast each of your ideas."
+        }
+      ]
+    },
+    {
+      "page_number": 136,
+      "footer": {
+        "page_number": 136,
+        "section": "Writing workshop",
+        "topic": "A compare and contrast essay"
+      },
+      "sections": [
+        {
+          "type": "exercise",
+          "number": 5,
+          "instruction": "Look at the key phrases. Then look at your notes again. Can you add any expressions to make your comparisons stronger?",
+          "key_phrases": {
+            "title": "Key phrases Strengthening comparisons",
+            "phrases": [
+              "much (easier) (than)",
+              "far more / less (satisfying) (than)",
+              "much more / less (stressful) (than)",
+              "nowhere near as (valuable) (as)"
+            ]
+          }
+        },
+        {
+          "type": "exercise",
+          "number": 6,
+          "instruction": "Write your second and third paragraphs below. Try to use linking words and comparisons correctly.",
+          "writing_lines": 8
+        },
+        {
+          "type": "writing_tip",
+          "title": "Writing tip",
+          "text": "Conclusions are where you give your opinion. You can summarize the positive points of both options before giving your opinion. Or, if you feel very strongly, you can summarize the negative points of the option you disagree with, as well as the positive points of your preferred option."
+        },
+        {
+          "type": "exercise",
+          "number": 7,
+          "instruction": "Study the tip. Decide on your final opinion and how strongly you feel. Make some notes on what you will say in your conclusion."
+        },
+        {
+          "type": "exercise",
+          "number": 8,
+          "instruction": "Complete the key phrases from a conclusion with the words below.",
+          "word_bank": [
+            "clear",
+            "opinion",
+            "say",
+            "strongly",
+            "way"
+          ],
+          "key_phrases": {
+            "title": "Key phrases Giving your opinion",
+            "items": [
+              "I'd ¹ ..................................................................... that ....",
+              "It's my ² ..................................................................... that ....",
+              "I ³ ..................................................................... believe that ....",
+              "It's ⁴ ..................................................................... that ....",
+              "The ⁵ ..................................................................... I see it, ...."
+            ]
+          }
+        },
+        {
+          "type": "exercise",
+          "number": 9,
+          "instruction": "Write your conclusion below.",
+          "writing_lines": 4
+        }
+      ]
+    },
+    {
+      "page_number": 137,
+      "header": {
+        "badge": "Writing"
+      },
+      "footer": {
+        "section": "Writing workshop",
+        "topic": "A compare and contrast essay",
+        "page_number": 137
+      },
+      "sections": [
+        {
+          "type": "section_header",
+          "title": "Review and edit"
+        },
+        {
+          "type": "exercise",
+          "number": 1,
+          "instruction": "Read through your first draft and check that your ideas are in the correct paragraph. Make sure that you haven't repeated any ideas."
+        },
+        {
+          "type": "writing_tip",
+          "title": "Writing tip",
+          "text": "When comparing and contrasting, it's easy to keep repeating the same words, for example, X is important, but Y is far more important.\nUse synonyms instead to make your writing richer. You can find synonyms for words by typing them into an online thesaurus. Look for words in the list of synonyms that you know how to use."
+        },
+        {
+          "type": "exercise",
+          "number": 2,
+          "instruction": "Study the tip. Which synonyms are used in the model essay on page 133 to avoid repeating the following words?",
+          "items": [
+            "1 advantages .....................................................................",
+            "2 important .....................................................................",
+            "3 great ....................................................................."
+          ]
+        },
+        {
+          "type": "exercise",
+          "number": 3,
+          "instruction": "Look through your essay and try to replace repeated words with synonyms."
+        },
+        {
+          "type": "writing_strategy",
+          "sidebar_label": "Writing strategy",
+          "title": "Making cuts",
+          "text": "Do a word count and check that your essay isn't too long. It's often necessary to make cuts. Look for sentences or parts of sentences that you can cut without losing anything important for your argument. If you can't find anything to cut, are there ways you can find to say the same thing in fewer words?"
+        },
+        {
+          "type": "writing_tip",
+          "title": "Writing tip",
+          "text": "It really helps to read your essay aloud when you are doing a final check. Imagine that you are using your essay to give a talk. Stand up as you read it aloud. Do all the arguments in it sound clear? Reading aloud also helps you to see if a word is missing."
+        },
+        {
+          "type": "exercise",
+          "number": 4,
+          "instruction": "Study the strategy and tip. Make as many cuts as necessary, then read your essay aloud to check that it still makes sense."
+        },
+        {
+          "type": "writing_strategy",
+          "sidebar_label": "Writing strategy",
+          "title": "Getting the register right",
+          "text": "Essays don't always need to be very formal, but it's best to avoid being too informal. Look through and check whether this has happened. Choose neutral words rather than informal or slang expressions, for example, children instead of kids, a lot instead of lots or loads, spend time with instead of hang out with."
+        },
+        {
+          "type": "exercise",
+          "number": 5,
+          "instruction": "Study the strategy. After checking for register, look through your essay carefully once more to proofread it. Check it for the points on the list below.",
+          "checklist": [
+            "Does every new sentence begin with a capital letter?",
+            "Does each sentence end with a period, question mark, or exclamation mark?",
+            "Look for spelling mistakes, checking in a dictionary or using a spellchecker if necessary."
+          ]
+        },
+        {
+          "type": "exercise",
+          "number": 6,
+          "instruction": "Now write your corrected essay in your notebook or on your computer."
+        }
+      ]
+    }
+  ]
+}
+
+```

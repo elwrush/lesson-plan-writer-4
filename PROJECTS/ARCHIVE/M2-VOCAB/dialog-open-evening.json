@@ -1,0 +1,83 @@
+{
+  "title": "School Open Evening",
+  "setting": "",
+  "characters": [
+    {
+      "name": "Ms. Clark",
+      "voice_notes": "Warm, welcoming teacher. Friendly and confident, with a calm measured delivery.",
+      "key_line": "\"We allow phones at break time. We ban them during lessons.\""
+    },
+    {
+      "name": "Mr. Harris",
+      "voice_notes": "Polite, careful parent. Curious and thoughtful, a little formal.",
+      "key_line": "\"My son had problems with bullying at his old school. How do you handle that?\""
+    }
+  ],
+  "turns": [
+    {
+      "character": "Ms. Clark",
+      "stage_direction": "happy",
+      "line": "Good evening! Welcome to Westfield High. Can I help you?"
+    },
+    {
+      "character": "Mr. Harris",
+      "stage_direction": null,
+      "line": "Yes, I'm Mr. Harris. We're choosing a school for my son. How do you educate your students?"
+    },
+    {
+      "character": "Ms. Clark",
+      "stage_direction": "confident",
+      "line": "We use small classes and plenty of discussion. Every student studies the required subjects first."
+    },
+    {
+      "character": "Mr. Harris",
+      "stage_direction": "doubtful",
+      "line": "How do you give grades? Do you have many exams?"
+    },
+    {
+      "character": "Ms. Clark",
+      "stage_direction": null,
+      "line": "We use continuous assessment. A student's grade comes from their work all year. They write two assignments every month."
+    },
+    {
+      "character": "Mr. Harris",
+      "stage_direction": null,
+      "line": "What about phones? Do you allow them in class?"
+    },
+    {
+      "character": "Ms. Clark",
+      "stage_direction": "chuckling",
+      "line": "We allow phones at break time. We ban them during lessons."
+    },
+    {
+      "character": "Mr. Harris",
+      "stage_direction": null,
+      "line": "My son had problems with bullying at his old school. How do you handle that?"
+    },
+    {
+      "character": "Ms. Clark",
+      "stage_direction": "calm",
+      "line": "We take bullying seriously. Students report it to us. We talk to everyone. We expect good behavior from all students."
+    },
+    {
+      "character": "Mr. Harris",
+      "stage_direction": null,
+      "line": "Does every student do work experience?"
+    },
+    {
+      "character": "Ms. Clark",
+      "stage_direction": "happy",
+      "line": "Yes, in the final year. They spend three weeks in a real workplace."
+    },
+    {
+      "character": "Mr. Harris",
+      "stage_direction": "happy",
+      "line": "That sounds good. When does the school year start?"
+    },
+    {
+      "character": "Ms. Clark",
+      "stage_direction": "happy",
+      "line": "In September. Bring your son to visit us. We'd love to meet him."
+    }
+  ]
+}

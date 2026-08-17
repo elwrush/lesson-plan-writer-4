@@ -1,0 +1,309 @@
+{
+  "title": "PSYCH READING M3 — What's tech doing to your brain?",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "What's tech doing to your brain?",
+      "body": "Let's read and find out."
+    },
+    {
+      "layout": "content",
+      "id": "entry-ticket",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Grammar Entry Ticket",
+      "body": "<p style=\"font-size:36px\">Answer the 15 questions on your paper.</p><p style=\"font-size:36px\">You have 4 minutes.</p>",
+      "notes": "4-minute timer autostarts. Students complete the entry ticket silently. Then go through the answers one section at a time."
+    },
+    {
+      "layout": "content",
+      "id": "answers-part-a",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Entry Ticket Answers — Part A",
+      "body": "<table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">1. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">2. <strong style=\"color:#ffdd00\">C</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">3. <strong style=\"color:#ffdd00\">C</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">4. <strong style=\"color:#ffdd00\">D</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">5. <strong style=\"color:#ffdd00\">C</strong></td></tr></table>",
+      "notes": "Q1 A — modal perfect (must have stayed up). Q2 C — third conditional (had left). Q3 C — reported speech backshift (would travel). Q4 D — future perfect (will have finished). Q5 C — non-defining relative clause (which)."
+    },
+    {
+      "layout": "content",
+      "id": "answers-part-b",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Entry Ticket Answers — Part B",
+      "body": "<table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">6. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">7. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">8. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">9. <strong style=\"color:#ffdd00\">D</strong></td></tr><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">10. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">11. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">12. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">13. <strong style=\"color:#ffdd00\">D</strong></td></tr></table>",
+      "notes": "Q6 A — subject-verb agreement, indefinite pronoun (have→has). Q7 A — comma splice. Q8 B — plural uncountable noun (informations→information). Q9 D — spelling (acomodation→accommodation). Q10 B — subject-verb agreement, head noun (have→has). Q11 B — uncountable noun (equipments→equipment). Q12 B — apostrophe (its→it's). Q13 D — spelling (goverment→government)."
+    },
+    {
+      "layout": "content",
+      "id": "answers-part-c",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Entry Ticket Answers — Part C",
+      "body": "<table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">14. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">15. <strong style=\"color:#ffdd00\">C</strong></td></tr></table>",
+      "notes": "Q14 A — inversion after negative adverbial (No sooner had the bell rung). Q15 C — mixed conditional (would be playing)."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Your phone is part of your daily life. This topic affects you.</li><li>The evidence comes from real research.</li><li>By the end, you will have your own opinion to write and share.</li></ul>",
+      "notes": "Frame the lesson value: technology touches every part of teens' lives, the evidence is real research, and the lesson ends with students forming and writing their own opinion."
+    },
+    {
+      "layout": "content",
+      "id": "lead-in",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "How do you use your phone?",
+      "body": "<p>How much time do you spend on it every day?</p><p>What do you do first when you wake up?</p><p>Do you ever scroll without thinking?</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Open-class discussion, no right or wrong answers. Elicit freely. The yellow O-R-E label anchors the structure students will use for the final writing task."
+    },
+    {
+      "layout": "content",
+      "id": "transition-choose",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Choose Your Text",
+      "body": "<p style=\"font-size:36px\">Today you choose what you read.</p>",
+      "notes": "Introduce the choice: three texts at three levels. Preview the excerpts, then students choose."
+    },
+    {
+      "layout": "raw",
+      "id": "choose-levels",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.lvl{display:flex;gap:24px;width:100%;margin-top:18px}.lvl .card{flex:1;background:rgba(255,255,255,0.06);border-radius:12px;padding:20px 18px;border-top:6px solid #3498db;text-align:left}.lvl .card-b1{border-top-color:#2ecc71}.lvl .card-c1{border-top-color:#9b59b6}.lvl .badge{display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#3498db}.lvl .badge-b1{background:#2ecc71}.lvl .badge-c1{background:#9b59b6}.lvl h3{font-size:34px;margin:14px 0 10px 0;color:#fff}.lvl p{font-size:32px;color:#e5e5e5;margin:0;line-height:1.5}.lvl .who{color:#ffdd00}</style><p style=\"color:#fff;text-align:center;font-size:40px;font-weight:700;margin-bottom:8px\">Which text will you read?</p><p style=\"color:#e5e5e5;text-align:center;font-size:32px;margin:0\">Preview each text, then choose your level.</p><div class=\"lvl\"><div class=\"card\"><span class=\"badge\">B2</span><h3>The hidden dangers of doomscrolling</h3><p><span class=\"who\">Main group with the teacher.</span><br>20 copies available.</p></div><div class=\"card card-b1\"><span class=\"badge badge-b1\">B1</span><h3>Roblox: A child-friendly game with a dark side</h3><p><span class=\"who\">Work together with a partner.</span><br>You mark your own answers.</p></div><div class=\"card card-c1\"><span class=\"badge badge-c1\">C1</span><h3>The truth about brain rot</h3><p><span class=\"who\">Work together with a partner.</span><br>You mark your own answers.</p></div></div>",
+      "notes": "Students choose their level. The main group stays on B2 (20 copies). B1 and C1 readers work in their own groups outside the main group and will self-mark with the printed answer guides."
+    },
+    {
+      "layout": "raw",
+      "id": "excerpt-b2",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"text-align:center;margin:0 0 6px 0\"><span style=\"display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#3498db\">B2</span></p><p style=\"text-align:center;color:#ffdd00;font-size:34px;font-weight:700;margin:0 0 16px 0\">The hidden dangers of doomscrolling</p><div style=\"background:rgba(255,255,255,0.06);border-left:6px solid #3498db;border-radius:8px;padding:20px 28px;margin:0 auto;max-width:1060px\"><p style=\"font-size:36px;line-height:1.7;color:#fff;margin:0\">&ldquo;When you wake up and reach for your phone, what do you do first? For many people, the answer is the same: they open a news app and start scrolling. Headline after headline brings bad news, yet the hand keeps moving.&rdquo;</p></div>",
+      "notes": "A taste of the B2 text. Ask: does this sound interesting to you?"
+    },
+    {
+      "layout": "raw",
+      "id": "excerpt-b1",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"text-align:center;margin:0 0 6px 0\"><span style=\"display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#2ecc71\">B1</span></p><p style=\"text-align:center;color:#ffdd00;font-size:34px;font-weight:700;margin:0 0 16px 0\">Roblox: A child-friendly game with a dark side</p><div style=\"background:rgba(255,255,255,0.06);border-left:6px solid #2ecc71;border-radius:8px;padding:20px 28px;margin:0 auto;max-width:1060px\"><p style=\"font-size:36px;line-height:1.7;color:#fff;margin:0\">&ldquo;When you open Roblox, it looks like a harmless game for children. The colourful blocks, the cute characters &mdash; everything seems friendly and safe. However, new research tells a very different story.&rdquo;</p></div>",
+      "notes": "A taste of the B1 text. Ask: does this sound interesting to you?"
+    },
+    {
+      "layout": "raw",
+      "id": "excerpt-c1",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"text-align:center;margin:0 0 6px 0\"><span style=\"display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#9b59b6\">C1</span></p><p style=\"text-align:center;color:#ffdd00;font-size:34px;font-weight:700;margin:0 0 16px 0\">The truth about brain rot</p><div style=\"background:rgba(255,255,255,0.06);border-left:6px solid #9b59b6;border-radius:8px;padding:20px 28px;margin:0 auto;max-width:1060px\"><p style=\"font-size:36px;line-height:1.7;color:#fff;margin:0\">&ldquo;Most of us know the feeling of mindlessly scrolling through low-quality content. We call this sensation &lsquo;brain rot.&rsquo; The term can also refer to the content itself: the absurdist, AI-generated characters and recycled memes that flood young people&rsquo;s feeds.&rdquo;</p></div>",
+      "notes": "A taste of the C1 text. Ask: does this sound interesting to you?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "body": "",
+      "notes": "Pre-teach five key words from the B2 text. Each word uses the 3-click reveal: phonemic script, then word, then context sentence."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-doomscrolling",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈduːmˌskrəʊlɪŋ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">doomscrolling</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">My brother spends hours <span class=\"box-word\">doomscrolling</span> in bed. He reads bad news until he feels tired and sad.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: When you doomscroll, do you feel happier or worse afterwards?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-onslaught",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈɒnslɔːt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">onslaught</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The shop had an <span class=\"box-word\">onslaught</span> of customers on sale day. Too many people came at the same time.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Is an onslaught a small amount or a huge rush of something?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-sedentary",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈsedəntri/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">sedentary</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">He has a <span class=\"box-word\">sedentary</span> job. He sits at a desk all day and never moves much.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: If your job is sedentary, do you move around a lot or sit still?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-trigger",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈtrɪɡə/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">trigger</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Loud noises <span class=\"box-word\">trigger</span> my dog's fear. It starts shaking every time.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: If something triggers a feeling, does it cause it or stop it?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-hypervigilant",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˌhaɪpəˈvɪdʒɪlənt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">hypervigilant</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">My cat is <span class=\"box-word\">hypervigilant</span>. It watches everything and never relaxes.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: If you are hypervigilant, do you relax easily or stay very alert?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-reading",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's Read",
+      "body": "<p style=\"font-size:36px\">B2 readers: stay with the class.</p><p style=\"font-size:36px\">B1 and C1 readers: work in your groups.</p>",
+      "notes": "Direct students to their groups. B2 group works with the teacher. B1/C1 groups move together and work independently."
+    },
+    {
+      "layout": "raw",
+      "id": "listen-read",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700;margin:0\">Listen &amp; Read</p><p style=\"color:#fff;text-align:center;font-size:35px;margin-top:12px\">Listen to the B2 text.<br>Follow along on your worksheet.</p><div style=\"text-align:center;margin-top:26px\"><audio controls data-src=\"assets/b2-text.mp3\" style=\"width:420px\"></audio></div><p style=\"color:#ffdd00;text-align:center;font-size:35px;margin-top:24px\">Then answer the 10 questions.</p>",
+      "notes": "Play the B2 audio once (about 4 minutes). Students follow the text on the worksheet, then answer the questions. B1 and C1 groups read their own texts silently and answer their own questions."
+    },
+    {
+      "layout": "content",
+      "id": "transition-answers",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Check Your Answers",
+      "body": "<p style=\"font-size:36px\">B2: we check together.</p><p style=\"font-size:36px\">B1 and C1: mark your own answers.</p>",
+      "notes": "B2 answers are shown in the lesson. B1 and C1 students mark themselves with their answer guides."
+    },
+    {
+      "layout": "raw",
+      "id": "self-check",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700;margin:0\">B2 &mdash; Mark Your Answers</p><p style=\"color:#ffdd00;text-align:center;font-size:33px;margin:12px 0 18px 0\">Check your own work. 60 seconds.</p><table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 26px;font-size:38px;color:#fff\">1. <strong style=\"color:#ffdd00\">D</strong></td><td style=\"padding:10px 26px;font-size:38px;color:#fff\">2. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 26px;font-size:38px;color:#fff\">3. <strong style=\"color:#ffdd00\">D</strong></td><td style=\"padding:10px 26px;font-size:38px;color:#fff\">4. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 26px;font-size:38px;color:#fff\">5. <strong style=\"color:#ffdd00\">C</strong></td></tr><tr><td style=\"padding:10px 26px;font-size:38px;color:#fff\">6. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 26px;font-size:38px;color:#fff\">7. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 26px;font-size:38px;color:#fff\">8. <strong style=\"color:#ffdd00\">C</strong></td><td style=\"padding:10px 26px;font-size:38px;color:#fff\">9. <strong style=\"color:#ffdd00\">A</strong></td></tr></table><p style=\"color:#fff;text-align:center;font-size:32px;margin-top:20px\">B1 and C1 readers: mark your own answers with your answer guide.</p>",
+      "notes": "60-second timer autostarts. Students mark their own sheets. B1/C1 groups self-mark with the printed answer guides. Then go through each question for explanations."
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (1/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1. What does the passage suggest about the health effects of doomscrolling?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">D.</strong> Mood and fulfilment tend to drop the more people scroll.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The research review found that people who doomscroll feel less well and less satisfied with their lives. The other options mix up different ideas, like the effect on work.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;Doomscrolling is linked to worse mental well-being and lower life satisfaction.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (2/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2. What does the passage suggest about the August 2024 study of 800 adults?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">A.</strong> It found that constant scrolling deepens fears about life itself.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The study found that doomscrolling raises existential anxiety, which the passage describes as dread about the limits of our existence. The other options mix up the three studies.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;The habit raises existential anxiety &mdash; the dread or panic that surfaces when we confront the limits of our existence.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (3/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">3. What is the main idea of paragraph 6?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">D.</strong> Research keeps finding that doomscrolling harms mental health.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Paragraph 6 is about the research on doomscrolling and what it shows. The other options mention details from the paragraph, but not its central claim.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;The research picture is clear.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (4/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">4. Why does the writer quote the doctors?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">B.</strong> To explain why people feel pushed to keep scrolling.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The doctors' words explain the reasons behind the habit, such as stress and the urge to keep scrolling. The statistics only show that doomscrolling and poor well-being are linked.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;Stress stokes our primary urge to scroll.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-5",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (5/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">5. In paragraph 7, what does the word &ldquo;abstinence&rdquo; mean?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">C.</strong> Giving something up completely.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The passage says cutting back is not about abstinence but about decreasing reliance. That contrast shows that abstinence means giving something up completely.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;Cutting back is not about abstinence; it's about decreasing reliance.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-6",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (6/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">6. What does the passage suggest about people who have lived through violence?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">B.</strong> They often keep reading bad news even as it harms them.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">They scroll because they want to feel safe, but the passage says the constant exposure acts as a trigger and makes their anxiety worse. So they keep reading even though it harms them.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;People who have lived through violence doomscroll out of fear; they want to feel safe, so they try to follow everything that is happening.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-7",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (7/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">7. What does the passage suggest about the relationship between the news and the habit of doomscrolling?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">A.</strong> The steady flow of distressing stories feeds the habit.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The media leads with bad news, and the more people scroll, the more they feel they need to. Together these ideas show that bad news keeps feeding the habit.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;The more you scroll, the more you feel you need to.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-8",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (8/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">8. Which statement would the writer most likely agree with?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">C.</strong> People can follow world events while protecting their peace of mind.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The writer supports the doctors' advice that people should stay informed but protect their mental health. The passage also says stopping completely is neither realistic nor necessary.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;We need to stay informed, but not at the expense of our mental health.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-9",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (9/10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">9. The chart shows how many adults took part in two recent studies of doomscrolling. According to the chart, which statement is correct?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">A.</strong> The 2023 review drew on more adults than the 2024 study.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The chart shows two bars: the 2023 review drew on 1,200 adults, while the August 2024 study drew on 800. So the review involved more adults.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;A review published in April 2023 analysed three separate studies involving about 1,200 adults in total. An August 2024 study involved 800 adults.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b2-10",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B2 Answers (10/10) — Summary",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">10. In no more than 50 words, summarise the writer's advice on how to reduce doomscrolling. Give one specific strategy from the passage to support your summary.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">2 points</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Restates the advice (cut back rather than stop completely; build digital and social boundaries) AND names one specific strategy from the passage.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">1 point</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Correct advice but no specific strategy.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">0 points</td><td style=\"padding:8px 0\">Wrong claim or no passage reference.</td></tr></table>",
+      "notes": "Specific strategies students may name: keep the phone away from the bed, put it in a drawer at work, switch the screen to grayscale, turn off notifications, choose local news."
+    },
+    {
+      "layout": "content",
+      "id": "transition-writing",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Time to Write",
+      "body": "<p style=\"font-size:36px\">All students write their own answer.</p>",
+      "notes": "Everyone returns to their own work. All students write a 70-word response, whatever text they read."
+    },
+    {
+      "layout": "content",
+      "id": "writing-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Structure Your Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think technology changes the way I think.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is that I spend hours on my phone every day.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, the text shows how screens affect young people.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Model the structure with the example. Students use their own opinion, reason, and evidence from their own text (B2, B1, or C1)."
+    },
+    {
+      "layout": "raw",
+      "id": "writing-task",
+      "step": 1,
+      "background_color": "#9b59b6",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:46px;font-weight:700;margin:0\">Time to Write</p><p style=\"color:#fff;text-align:center;font-size:40px;margin-top:18px\">Do you think technology is affecting your brain?</p><p style=\"color:#ffdd00;text-align:center;font-size:35px;margin-top:24px\">Write a 70-word response.</p><p style=\"color:#fff;text-align:center;font-size:33px;margin-top:12px\">Opinion. Reason. Evidence from your text.</p>",
+      "notes": "All students write a 70-word response. Use the O-R-E structure from the previous slide. Collect at the end of the lesson."
+    }
+  ]
+}

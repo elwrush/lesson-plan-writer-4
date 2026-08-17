@@ -1,0 +1,138 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Traditional)",
+    "description": "Traditional productive skills lesson with preparation stages followed by speaking or writing output.",
+    "pedagogical_justification": "Here the focus is on helping learners practice their speaking or writing skills. The lesson can usually be divided into preparation for speaking/writing and speaking/writing task stages.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to [speak/write] about [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to understand a for-and-against writing task and state a clear position on a technology topic with a reason and an example.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>06-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Writing)<br><b>Materials:</b><br>Slideshow, essay topic cards<br><b>Assessment:</b><br>Written response (position, reason, example)<br><b>Skills:</b><br>Writing, Speaking",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To activate students' prior knowledge of technology and opinions, and to introduce the Opinion-Reason-Evidence frame",
+          "procedure": [
+            "Show the splash slide. Ask: \"What do you see? An angel and a devil. What might this lesson be about?\" Let students guess.",
+            "Advance to the title slide: \"How can I express what I think about an issue?\" Confirm the theme: today we start writing a for/against essay.",
+            "Show the \"Why is this lesson important?\" slide and read the bullets aloud.",
+            "Students work in pairs. Ask: \"What technology do you use every day? What is good and bad about it?\" Each student gives one reason. 2 minutes (timer).",
+            "Elicit two or three opinions. Point to the Opinion-Reason-Evidence line at the bottom of the slide."
+          ],
+          "time": 4,
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Understanding the task",
+          "stage_number": 2,
+          "stage_aim": "To teach students to read a for-and-against writing task and identify its three parts",
+          "procedure": [
+            "Show the red transition slide: \"The writing task.\"",
+            "Project the task on page 132. Read it aloud twice.",
+            "Teach the strategy table: read the task twice; every task has three parts.",
+            "Ask Exercise 1 on page 132: \"What do you have to do in the essay?\" Students answer from the task.",
+            "Reveal the answer slide row by row: both sides, then your opinion."
+          ],
+          "time": 8,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "The model essay",
+          "stage_number": 3,
+          "stage_aim": "To analyse the four-paragraph structure of the model essay and answer Exercises 2 and 3",
+          "procedure": [
+            "Show the red transition slide: \"The model essay.\"",
+            "Display the structure map: introduction, advantages, disadvantages, conclusion. Point at each paragraph on page 132.",
+            "Read the model essay together.",
+            "Work through Exercise 2 on page 132: the topic of the essay, and whether the writer is for or against, revealing each answer on click.",
+            "Work through Exercise 3 on page 132, one question at a time: number of paragraphs, paragraph openings, number of advantages, number of disadvantages, and the conclusion's contents."
+          ],
+          "time": 12,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Taking a position",
+          "stage_number": 4,
+          "stage_aim": "To show students that a good essay needs one clear opinion, and to model choosing a side",
+          "procedure": [
+            "Show the red transition slide: \"Take a position.\"",
+            "Teach the strategy table: choose one side; your essay ends with your opinion; think about your own experience.",
+            "Show the teacher's example on the demo slide (weekend homework). Ask: \"Which side would the teacher choose?\"",
+            "Click to reveal the green check mark. Emphasise that no side is wrong, but students must choose one."
+          ],
+          "time": 6,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Your turn: read your topic card",
+          "stage_number": 5,
+          "stage_aim": "For students to apply the strategy to their own randomly assigned topic card",
+          "procedure": [
+            "Show the red transition slide: \"Your turn.\"",
+            "Distribute one essay topic card to each student at random. Students cannot choose their topic.",
+            "Project the task slide. Students read their question twice, find the technology, think of advantages and disadvantages, and choose their side.",
+            "Monitor and help students who cannot see both sides of their topic."
+          ],
+          "time": 7,
+          "interaction": "S"
+        },
+        {
+          "stage": "Writing the response",
+          "stage_number": 6,
+          "stage_aim": "For students to write a three-sentence response: position, reason, and example",
+          "procedure": [
+            "Show the scaffold slide with the sentence frames: I am for/against ... , One reason is ... , For example, ...",
+            "Project the red task slide: \"Write your response.\"",
+            "Students write three sentences: their position, one reason, and one example about their own topic card. 5 minutes (timer).",
+            "Collect the responses at the end of the stage."
+          ],
+          "time": 6,
+          "interaction": "S"
+        },
+        {
+          "stage": "Sharing opinions",
+          "stage_number": 7,
+          "stage_aim": "For students to share their position orally using the Opinion-Reason-Evidence frame",
+          "procedure": [
+            "Show the discussion-structure slide with the Opinion-Reason-Evidence table and the weekend-homework example.",
+            "Students share their responses with a partner, using the frames: position, reason, example.",
+            "Elicit two or three strong examples for the whole class.",
+            "Show the wrap-up slide: \"Your essay starts here.\" Preview lesson 2: planning the essay on pages 133-134."
+          ],
+          "time": 3,
+          "interaction": "Ss-Ss"
+        }
+      ]
+    },
+    "note": "For middle schoolers interested in SCR approach to productive skills, see Shape J instead."
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "6 August, 2026",
+    "class_name": "M2",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape F — Productive Skills (Writing)",
+    "topic": "For and against essays: understand the task, take a position",
+    "materials": [
+      "Oxford Discover Futures 2, Unit \"Writing workshop: A for and against essay\", p. 132",
+      "Slideshow — Lesson 1: Understand the Task, Take a Position",
+      "Essay topic cards — 10 for-and-against topics, randomly distributed"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to understand a for-and-against writing task and state a clear position on a technology topic with a reason and an example.",
+    "subsidiary_aim": "Learners will also be better able to identify the four-paragraph structure of a for/against essay and the function of each paragraph.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/writing_M2_for_and_against_lesson_1/index.html",
+    "answer_key": [
+      "<strong>Exercise 1 — Understand the task</strong>",
+      "In the essay you give the advantages and disadvantages of a technology. You end with your own opinion and say whether you are for or against it.",
+      "<strong>Exercise 2 — The model essay (p. 132)</strong>",
+      "1 The essay is about streaming music.",
+      "2 The writer is against streaming. The writer prefers downloads because it is much better to own the music you love.",
+      "<strong>Exercise 3 — The model essay (p. 132)</strong>",
+      "1 There are four paragraphs: an introduction, two main paragraphs, and a conclusion.",
+      "2 Paragraph 2 begins with \"Let's start with the advantages.\" Paragraph 3 begins with \"Turning to the disadvantages, ...\"",
+      "3 There are four advantages: you can listen anywhere on any device without using memory; you can create and share playlists; the choice is absolutely enormous; and it is possible to stream music for free.",
+      "4 There are four disadvantages: you need good Wi-Fi and a fairly big data allowance; the service can be expensive or the free service has annoying ads; the audio quality can be poor; and when you stream music, you don't own it at all.",
+      "5 The conclusion contains one advantage (the convenience of streaming) and the writer's opinion (it is much better to own the music you love; the writer still prefers downloads)."
+    ]
+  }
+}

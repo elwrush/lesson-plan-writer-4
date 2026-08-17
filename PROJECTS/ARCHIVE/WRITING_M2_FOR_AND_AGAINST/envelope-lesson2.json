@@ -1,0 +1,149 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Traditional)",
+    "description": "Traditional productive skills lesson with preparation stages followed by speaking or writing output.",
+    "pedagogical_justification": "Here the focus is on helping learners practice their speaking or writing skills. The lesson can usually be divided into preparation for speaking/writing and speaking/writing task stages.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to [speak/write] about [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to plan a for-and-against essay by organizing ideas into advantages and disadvantages, reducing their notes, and ordering their strongest points.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>09-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Writing)<br><b>Materials:</b><br>Textbook writing workshop pp. 133-134, slideshow, essay topic cards, planning worksheet<br><b>Assessment:</b><br>Completed essay plan (for/against notes, ordered)<br><b>Skills:</b><br>Writing",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To reactivate lesson 1 and set the theme: today we plan the essay from both sides of our topic",
+          "procedure": [
+            "Show the splash slide. Ask: \"What do you see? Sticky notes and a whiteboard. What might this lesson be about?\" Let students guess.",
+            "Advance to the title slide: \"Plan your ideas.\" Confirm the theme: today we plan the for/against essay.",
+            "Show the \"Why is this lesson important?\" slide and read the bullets aloud.",
+            "Pairs recap lesson 1: \"Which side did you choose? Tell your partner.\" Students restate their card and their position.",
+            "Point to the Opinion-Reason-Evidence line at the bottom of the slide."
+          ],
+          "time": 4,
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Organize for and against",
+          "stage_number": 2,
+          "stage_aim": "To teach the organizing strategy: one paragraph for advantages, one for disadvantages",
+          "procedure": [
+            "Show the red transition slide: \"Organize your ideas.\"",
+            "Teach the strategy table: put the advantages in one paragraph, then the disadvantages in another.",
+            "Check understanding: Which paragraph shows the good points? Which shows the bad points?"
+          ],
+          "time": 5,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Generate ideas",
+          "stage_number": 3,
+          "stage_aim": "To generate many points for each side and match notes to topics (Exercise 2)",
+          "procedure": [
+            "Show the red transition slide: \"Generate ideas.\"",
+            "Teach the strategy table: think of many points for each side; think of people you know.",
+            "Exercise 2 on page 133: students match the four notes (a-d) to the essay topics and say if each is for or against.",
+            "Reveal the answers row by row: a, b and d are advantages; c is a disadvantage."
+          ],
+          "time": 8,
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Take short notes",
+          "stage_number": 4,
+          "stage_aim": "To teach note reduction and apply it (Exercise 3)",
+          "procedure": [
+            "Show the red transition slide: \"Take short notes.\"",
+            "Teach the strategy table: cut words, keep only the key information.",
+            "Run the demo: cut \"it helps you practice speaking English at home\" to \"helps practice English\".",
+            "Exercise 3 on page 133: students reduce the notes to the word counts, then check the answers row by row."
+          ],
+          "time": 7,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Plan the essay",
+          "stage_number": 5,
+          "stage_aim": "For students to write their arguments in the For/Against table and add counter-arguments (Exercise 4)",
+          "procedure": [
+            "Show the red transition slide: \"Plan your essay.\"",
+            "Project the Exercise 4 task slide on page 134.",
+            "Students write their arguments in the For (Advantages) and Against (Disadvantages) columns, then add what another person might say in answer. 5 minutes (timer).",
+            "Monitor: both columns must have ideas."
+          ],
+          "time": 8,
+          "interaction": "S"
+        },
+        {
+          "stage": "Select and order",
+          "stage_number": 6,
+          "stage_aim": "To teach selecting and ordering the strongest ideas, using the model essay (Exercise 6)",
+          "procedure": [
+            "Teach the strategy table: choose the strongest ideas; you have space for only two or three.",
+            "Reveal the Exercise 6 answers: which arguments are joined in one sentence, which paragraph begins with the strongest argument, and which ends with the strongest point.",
+            "Ask: should you start or finish each paragraph with your strongest point?"
+          ],
+          "time": 7,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Counter-arguments and order",
+          "stage_number": 7,
+          "stage_aim": "For pairs to test their arguments and for students to select and order their own notes",
+          "procedure": [
+            "Exercise 5 on page 134: students read one column of their arguments to a partner.",
+            "The partner makes an opposite argument for each point.",
+            "Exercise 6 question 4: students select their strongest ideas and order them for each paragraph. 6 minutes (timer).",
+            "Collect the plans at the end of the stage."
+          ],
+          "time": 6,
+          "interaction": "Ss-Ss / S"
+        },
+        {
+          "stage": "Wrap-up",
+          "stage_number": 8,
+          "stage_aim": "To consolidate the plan and preview lesson 3: drafting",
+          "procedure": [
+            "Show the wrap-up slide: \"Your plan is ready.\"",
+            "Preview lesson 3: writing the introduction, body paragraphs, and conclusion from the plan."
+          ],
+          "time": 1,
+          "interaction": "T-Ss"
+        }
+      ]
+    },
+    "note": "For middle schoolers interested in SCR approach to productive skills, see Shape J instead."
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "9 August, 2026",
+    "class_name": "M2",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape F — Productive Skills (Writing)",
+    "topic": "For and against essays: think and plan",
+    "materials": [
+      "Oxford Discover Futures 2, Unit \"Writing workshop: A for and against essay\", pp. 133–134",
+      "Slideshow — Lesson 2: Think and Plan",
+      "Essay topic cards — each student's assigned topic from Lesson 1",
+      "Essay planning worksheet — For (Advantages) / Against (Disadvantages) table (Exercise 4)"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to plan a for-and-against essay by organizing ideas into advantages and disadvantages, reducing their notes, and ordering their strongest points.",
+    "subsidiary_aim": "Learners will also be better able to match notes to essay topics and identify whether a point is for or against a technology.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/writing_M2_for_and_against_lesson_2/index.html",
+    "answer_key": [
+      "<strong>Exercise 2 — Match the notes (p. 133)</strong>",
+      "a It saves the cutting down of trees — reading books on digital devices (for).",
+      "b It encourages people to have social interaction — social media (for).",
+      "c There's a lack of feedback from a teacher — studying online (against).",
+      "d You can meet and play with new people — online gaming (for).",
+      "<strong>Exercise 3 — Reduce the notes (p. 133)</strong>",
+      "1 saves cutting down trees, or saves trees.",
+      "2 encourages social interaction.",
+      "3 no feedback from teacher.",
+      "4 meet/play new people.",
+      "<strong>Exercise 6 — Select and order (p. 134)</strong>",
+      "1 Paragraph 2 joins two ideas in one sentence: \"Second, you can create your own playlists, and what's more, share them with friends easily.\" Paragraph 3 does the same: \"There's also the fact that some artists don't appear on streaming services, and another argument against them is that they don't pay artists much.\"",
+      "2 Paragraph 2 begins with the strongest argument: \"First, and most importantly, streaming means you can listen to your favorite songs anywhere, on any device, without using up memory on it.\"",
+      "3 Paragraph 3 ends with the strongest disadvantage: \"Last but not least, when you stream music, unfortunately you don't own it at all.\""
+    ]
+  }
+}

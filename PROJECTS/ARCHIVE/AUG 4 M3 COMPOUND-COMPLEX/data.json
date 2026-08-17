@@ -1,0 +1,324 @@
+{
+  "title": "Writing Compound & Complex Sentences",
+  "author": "Ed Rush",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Chain your ideas",
+      "body": "Compound &amp; Complex Sentences",
+      "notes": "The chain links are a metaphor: linking words connect short ideas into one strong sentence. Ask: What happens when we link two ideas together?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Longer, connected sentences make your writing flow.</li><li>Examiners reward paragraphs that link ideas clearly.</li><li>These three patterns will level up every essay you write.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Two short sentences",
+      "body": "<p>The film was long. The story was rich.</p><p>How can we join them?</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Elicit: and, but, so, because, a semicolon. The O-R-E line anchors the final writing task. CCQ: What changes when we join the ideas?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-adv",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Adverb Clauses"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "adv-meaning",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Two short sentences",
+      "body": "<span>The rain stopped. We went for a walk.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "adv-meaning",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "One sentence. One meaning.",
+      "body": "<span><strong style=\"color:#ffdd00\">When</strong> the rain stopped, we went for a walk.</span>",
+      "notes": "The adverb clause 'when the rain stopped' adds TIME. CCQ: Which idea is the main idea? Which idea is extra?"
+    },
+    {
+      "layout": "content",
+      "id": "adv-meanings",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Adverb Clauses: What do they mean?",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">because</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">reason</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">although</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">contrast</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">when / while</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">time</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">unless</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">if not</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">if</td><td style=\"padding:8px 0\">condition</td></tr></table>",
+      "notes": "No clickthroughs. Read each word aloud, then give one spoken example per word. The Use task needs because, although, while, unless, when."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "adv-form",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Form: two sentences",
+      "body": "<span>The rain stopped. We went for a walk.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "adv-form",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Form: clause first",
+      "body": "<span><strong style=\"color:#ffdd00\">When</strong> the rain stopped<strong style=\"color:#ffdd00\">,</strong> we went for a walk.</span>",
+      "notes": "Clause first: adverb clause + comma + main clause."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "adv-form",
+      "step": 3,
+      "background_color": "#1a1a2e",
+      "title": "Form: clause last",
+      "body": "<span>We went for a walk <strong style=\"color:#ffdd00\">when</strong> the rain stopped.</span>",
+      "notes": "Clause last: main clause + adverb clause, no comma."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-adv",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Join with although",
+      "body": "<span>The weather was cold. We went swimming.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-adv",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: although",
+      "body": "<span><strong style=\"color:#ffdd00\">Although</strong> the weather was cold, we went swimming.</span>",
+      "notes": "Demo uses isolated content, not the worksheet. CCQ: Why do we need a comma here?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-semi",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Semicolons"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "semi-meaning",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Two short sentences",
+      "body": "<span>The film was long. The story was rich.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "semi-meaning",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "One sentence. No connector.",
+      "body": "<span>The film was long<strong style=\"color:#ffdd00\">;</strong> the story was rich.</span>",
+      "notes": "The semicolon joins two complete ideas with NO connector. Both sides could stand alone. CCQ: Could we use a full stop instead?"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "semi-form",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Form: two ideas",
+      "body": "<span>Complete idea. Complete idea.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "semi-form",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Form: idea ; idea",
+      "body": "<span>Complete idea<strong style=\"color:#ffdd00\">;</strong> complete idea.</span>",
+      "notes": "Both sides must be complete sentences. The semicolon replaces the full stop."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-semi",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Join with a semicolon",
+      "body": "<span>The pool was closed. We swam in the sea.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-semi",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: semicolon",
+      "body": "<span>The pool was closed<strong style=\"color:#ffdd00\">;</strong> we swam in the sea.</span>",
+      "notes": "Demo uses isolated content, not the worksheet."
+    },
+    {
+      "layout": "content",
+      "id": "transition-ca",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Conjunctive Adverbs"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ca-meaning",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Two short sentences",
+      "body": "<span>The shop was closed. We went home.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ca-meaning",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "One sentence. Result.",
+      "body": "<span>The shop was closed<strong style=\"color:#ffdd00\">; therefore,</strong> we went home.</span>",
+      "notes": "therefore = result. The adverb shows HOW the ideas connect. CCQ: What word tells us the result?"
+    },
+    {
+      "layout": "content",
+      "id": "ca-meanings",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Conjunctive Adverbs: What do they mean?",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">however</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">contrast</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">therefore</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">result</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">moreover</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">addition</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">otherwise</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">alternative</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">meanwhile</td><td style=\"padding:8px 0\">at the same time</td></tr></table>",
+      "notes": "No clickthroughs. Read each word aloud with one spoken example. These are the six Part A words."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ca-form",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Form: two ideas",
+      "body": "<span>Complete idea. Complete idea.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "ca-form",
+      "step": 2,
+      "background_color": "#1a1a2e",
+      "title": "Form: ; adverb ,",
+      "body": "<span>Complete idea<strong style=\"color:#ffdd00\">;</strong> adverb<strong style=\"color:#ffdd00\">,</strong> complete idea.</span>",
+      "notes": "KEY RULE: semicolon BEFORE the adverb, comma AFTER it. No capital letter after the semicolon."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-ca",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Join with however",
+      "body": "<span>The restaurant was full. We found a table.</span>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-ca",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: however",
+      "body": "<span>The restaurant was full<strong style=\"color:#ffdd00\">; however,</strong> we found a table.</span>",
+      "notes": "Demo uses isolated content, not the worksheet."
+    },
+    {
+      "layout": "content",
+      "id": "transition-parta",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Worksheet, Part A"
+    },
+    {
+      "layout": "content",
+      "id": "task-parta",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Choose the connector",
+      "body": "<span class=\"box-word\">Choose</span> the best word for each gap.<br>Use each word <strong>once</strong>.",
+      "notes": "Students work on paper. The word bank: however, therefore, moreover, otherwise, meanwhile, although. Remind: adverbs come after ; and before ,; although takes a comma, not a semicolon."
+    },
+    {
+      "layout": "content",
+      "id": "answers-a",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part A",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">1</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">He missed the deadline<strong style=\"color:#ffdd00\">; therefore,</strong> he lost the contract.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">2</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I will start the dinner<strong style=\"color:#ffdd00\">; meanwhile,</strong> you can set the table.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">3</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">You must book early<strong style=\"color:#ffdd00\">; otherwise,</strong> all the rooms will be taken.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">4</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">Although</strong> the economy improved, unemployment stayed high.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">5</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The hotel was full<strong style=\"color:#ffdd00\">; however,</strong> we found another place to stay.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">6</td><td style=\"padding:8px 0\">She is a great writer<strong style=\"color:#ffdd00\">; moreover,</strong> her novel won a prize.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-partb",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Worksheet, Part B"
+    },
+    {
+      "layout": "content",
+      "id": "task-partb",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Rewrite the pairs",
+      "body": "Rewrite each pair as <strong>one sentence</strong>.<br>Use the joining method in brackets.",
+      "notes": "Students work on paper. 10 items. Point to the pattern slides if they get stuck."
+    },
+    {
+      "layout": "content",
+      "id": "answers-b1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part B (1-5)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">1</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The plan was risky<strong style=\"color:#ffdd00\">; however,</strong> it worked well.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">2</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The first half of the film was slow<strong style=\"color:#ffdd00\">;</strong> the second half was thrilling.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">3</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">Although</strong> the team trained hard, they lost the final.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">4</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">Unless</strong> you arrive early, you will not get a seat.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">5</td><td style=\"padding:8px 0\">The evidence was clear<strong style=\"color:#ffdd00\">; therefore,</strong> the jury agreed quickly.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answers-b2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part B (6-10)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">6</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I prepared the questions<strong style=\"color:#ffdd00\">; meanwhile,</strong> my colleague booked the room.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">7</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">We must leave now<strong style=\"color:#ffdd00\">; otherwise,</strong> we will miss the last train.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">8</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">While</strong> I cooked dinner, my brother set the table.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">9</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">When</strong> the storm ended, everyone came out of their houses.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">10</td><td style=\"padding:8px 0\">The cafe was packed<strong style=\"color:#ffdd00\">;</strong> every table was taken.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-use",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Write a paragraph"
+    },
+    {
+      "layout": "content",
+      "id": "task-use",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Write a paragraph",
+      "body": "<p>90&ndash;120 words. Give your opinion.</p><p>Use 2 compound and 2 complex sentences.</p><p>One sentence needs <strong>; adverb ,</strong>.</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "10-minute timed writing. Topics: schools should require uniforms, or students choose their own clothes. Requirements: 2 compound sentences (one with a semicolon or conjunctive adverb), 2 complex sentences with adverb clauses, a comma before and, but, so, or."
+    },
+    {
+      "layout": "content",
+      "id": "recap",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Chain your ideas",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Adverb clause</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">When the rain stopped, we went for a walk.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Semicolon</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The film was long; the story was rich.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">; adverb ,</td><td style=\"padding:8px 0\">The shop was closed; therefore, we went home.</td></tr></table>",
+      "notes": "Read the three patterns aloud. These are the same sentences the class saw in the demos."
+    }
+  ]
+}

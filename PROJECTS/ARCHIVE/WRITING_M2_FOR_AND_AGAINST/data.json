@@ -1,0 +1,233 @@
+{
+  "title": "M2 For and Against — Lesson 1",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How can I express what I think about an issue?",
+      "body": "Let's learn how to write a for/against essay.",
+      "notes": "Ask: What do you think this lesson is about? Point at the angel and devil on the splash."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Every day, people argue for and against things.</li><li>A clear opinion makes your writing powerful.</li><li>Essays and exams ask for your opinion.</li></ul>",
+      "notes": "Frame: phones, apps, and school rules all have two sides. Both sides matter."
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Pair Talk",
+      "body": "What technology do you use every day?<br><br>What is good about it? What is bad about it?<br><br>Tell your partner. Give one reason.<br><br><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss for two minutes. Timer starts automatically. Elicit: an opinion needs a reason."
+    },
+    {
+      "layout": "content",
+      "id": "transition-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "The writing task"
+    },
+    {
+      "layout": "content",
+      "id": "task-understand",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "The writing task",
+      "body": "Page 132<br><br>Write an essay about a kind of technology.<br><br>Give the advantages and disadvantages.<br><br>End with your opinion.<br><br>Say if you are for or against it.",
+      "notes": "Read the task aloud. Ask: What are the three parts?"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Understand the task",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Read the task twice.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Every task has three parts.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Find the topic. See both sides. Plan your opinion.</td></tr></table>",
+      "notes": "Model reading the task aloud twice. Point at each part."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-task",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>What do you have to do in the essay?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Give the advantages and the disadvantages. End with your opinion.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The task needs both sides, then your opinion.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"state if you are for or against using this kind of technology\"</td></tr></table>",
+      "notes": "Click each row. Stress: both sides, then your opinion."
+    },
+    {
+      "layout": "content",
+      "id": "transition-model",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "The model essay"
+    },
+    {
+      "layout": "content",
+      "id": "structure-map",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "The model essay has four parts",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Introduction</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Asks the question.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Paragraph 2</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The advantages.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Paragraph 3</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The disadvantages.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Conclusion</td><td style=\"padding:8px 0\">Your opinion. For or against.</td></tr></table>",
+      "notes": "Point at each paragraph on page 132. Read the model essay together."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-model-topic",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 2</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which topic is the essay about?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Streaming music.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The model compares streaming music with downloads.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"How do you listen to music?\"</td></tr></table>",
+      "notes": "The essay answers the question in the first line."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-model-position",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 2</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Is the writer for or against the topic? Why?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Against. The writer prefers downloads.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>They think it is better to own the music you love.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"That's why overall, I still prefer downloads.\"</td></tr></table>",
+      "notes": "The writer shows both sides, then chooses one in the conclusion."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-paragraphs",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>How many paragraphs are there?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Four.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>An introduction, two main paragraphs, and a conclusion.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"So what are the advantages and disadvantages of doing this?\"</td></tr></table>",
+      "notes": "Point at the four paragraphs in the book."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-beginnings",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>How does the writer begin paragraphs 2 and 3?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Paragraph 2: \"Let's start with the advantages.\" Paragraph 3: \"Turning to the disadvantages, ...\"</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>Clear openings tell the reader what comes next.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"Turning to the disadvantages, ...\"</td></tr></table>",
+      "notes": "These openings will become key phrases in lesson 3."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-advantages",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>How many advantages are described in paragraph 2?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Four advantages.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>Listen anywhere. Make playlists. Find new music. Stream for free.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"Finally, it's possible to stream music for free, which is great for young people.\"</td></tr></table>",
+      "notes": "Students find the four advantages in the book first."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-disadvantages",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>How many disadvantages are described in paragraph 3?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Four disadvantages.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>You need good Wi-Fi. The service can cost money. Audio quality can be poor. You do not own the music.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"when you stream music, unfortunately you don't own it at all\"</td></tr></table>",
+      "notes": "Students find the four disadvantages in the book first."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-conclusion",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which points does the conclusion contain?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>One advantage, and the writer's opinion.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>It repeats the convenience of streaming, then gives the opinion.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"even though I like the convenience of streaming, ... I still prefer downloads.\"</td></tr></table>",
+      "notes": "The conclusion does not add new ideas. It repeats and decides."
+    },
+    {
+      "layout": "content",
+      "id": "transition-position",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Take a position"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-position",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Take a position",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Choose one side.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Your essay ends with your opinion.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Think about your own experience.</td></tr></table>",
+      "notes": "Emphasize: no side is wrong, but you must choose one."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-position",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Choose a side",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Teacher example: Weekend homework</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">The teacher must choose a side.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Homework helps you remember the lesson.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Weekends are for rest and family.</td></tr></table>",
+      "notes": "Ask: which side would the teacher choose? Then click."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-position",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Choose a side",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Teacher example: Weekend homework</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">The teacher must choose a side.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Homework helps you remember the lesson.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Weekends are for rest and family.</td></tr></table>",
+      "notes": "The teacher chose the second side. Everyone can choose differently."
+    },
+    {
+      "layout": "content",
+      "id": "transition-yourturn",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Your turn"
+    },
+    {
+      "layout": "content",
+      "id": "task-card",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Your topic card",
+      "body": "<span class=\"box-word\">Read</span> your question twice.<br><br><span class=\"box-word\">Find</span> the technology.<br><br><span class=\"box-word\">Think</span> of advantages and disadvantages.<br><br><span class=\"box-word\">Choose</span> your side.",
+      "notes": "Distribute the topic cards now. Students work alone. Monitor."
+    },
+    {
+      "layout": "content",
+      "id": "scaffold-position",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "State your position",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">I am for &#8230;<br>I am against &#8230;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">One reason is &#8230;</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0\">For example, &#8230;</td></tr></table>",
+      "notes": "These frames start every good response."
+    },
+    {
+      "layout": "content",
+      "id": "task-write",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Write your response",
+      "body": "<span class=\"box-word\">Write</span> your opinion. Add one reason. Add one example.<br><br>Use your topic card. Three sentences.",
+      "notes": "Three sentences minimum. Timer: five minutes. Collect the responses."
+    },
+    {
+      "layout": "content",
+      "id": "discussion-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Give Your Opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I am against weekend homework.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is weekends are for rest.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, students need time with family.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs share their responses using the frames."
+    },
+    {
+      "layout": "content",
+      "id": "wrap-up",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your essay starts here",
+      "body": "You read the task. You chose your side.<br><br>Next lesson: we plan the essay.",
+      "notes": "Collect the responses. Preview lesson 2: planning on pages 133–134."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "For and Against Essay Topics",
+  "class": "M2",
+  "prompt_style": "Context statement, advantages and disadvantages, final question",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Reading books on digital devices is now very common. Many Thai students read their school books on tablets. A tablet can hold thousands of books. You can carry a whole library in your bag. But many people say paper books are easier on the eyes and nicer to hold. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 2,
+      "topic": "Social media is a big part of life for most Thai teenagers. It helps you stay in touch with friends and share your life. But it can distract you from your studies. It can also make you compare yourself to others. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 3,
+      "topic": "Many Thai students studied online during the pandemic. Some schools still have online lessons today. You can learn at your own speed and save travel time. But it is easy to get distracted. You also miss time with your classmates. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 4,
+      "topic": "Most Thai teenagers listen to music on their phones. Streaming lets you hear almost any song in seconds. It is often free. You can create playlists and find new bands. But you need a good internet connection. And you never really own the music. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 5,
+      "topic": "Online gaming is very popular in Thailand. It is a fun way to play with friends and relax. But too much gaming can take time away from homework and sleep. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 6,
+      "topic": "Voice recognition lets you control your phone or computer just by speaking. Now many phones can understand Thai. It is fast and useful, especially when your hands are busy. But it can make mistakes. Some people also worry about their privacy. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 7,
+      "topic": "Paying with your phone is now very common in Thailand. QR codes are everywhere, even at street food stalls. You do not need to carry cash. It is fast and easy. But some people worry about spending too much money. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 8,
+      "topic": "Many Thai students bring smartphones to school. They use them to look up information. They also take photos of the board. But phones can distract students during lessons. Some teachers say students do not listen carefully. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 9,
+      "topic": "Electric cars and motorbikes are becoming popular in Thailand. They do not make pollution. They are also quieter than petrol cars. But they are expensive to buy. And you need a place to charge them. Are you for or against using this kind of technology?"
+    },
+    {
+      "id": 10,
+      "topic": "Many Thai students learn English by watching videos online. Videos can make learning fun. You can watch them again and again. You can also choose topics you like. But too many videos can waste your time. Are you for or against using this kind of technology?"
+    }
+  ]
+}

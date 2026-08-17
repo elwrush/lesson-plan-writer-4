@@ -1,0 +1,164 @@
+{
+  "title": "M3 Compare and Contrast — Lesson 2",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Learn the shape. Plan your essay.",
+      "body": "The model shows us how.",
+      "notes": "Ask: what do you think this lesson is about? A blueprint is a plan for a building. An essay needs a plan too."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Every good essay follows the same shape.</li><li>A clear plan makes writing faster and easier.</li><li>Examiners reward organised essays.</li></ul>",
+      "notes": "Frame: structure is the roadmap for the whole essay."
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Pair Talk",
+      "body": "What are the four parts of a question?<br><br>Which side did you choose? Tell your partner.<br><br><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Recap lesson 1: Context, Opinion A, Opinion B, Your choice. Students restate their card position in one sentence."
+    },
+    {
+      "layout": "content",
+      "id": "transition-model",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "The model essay"
+    },
+    {
+      "layout": "content",
+      "id": "structure-map",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "The model essay has four parts",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Introduction</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Asks the question. Hooks the reader.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Paragraph 2</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Argues for individual sports.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Paragraph 3</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Argues for team sports.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Conclusion</td><td style=\"padding:8px 0\">Gives the writer's opinion.</td></tr></table>",
+      "notes": "Page 133. Point at each paragraph of the model essay on the projector."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-paras",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Page 132, Exercise 1",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>How many paragraphs are there?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>There are four paragraphs.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>One introduction, two body paragraphs, and one conclusion.</td></tr></table>",
+      "notes": "Read the model essay on page 133 first, then reveal the answer."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-functions",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Page 132, Exercise 1",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>What is the function of each paragraph?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>The introduction asks the question. Paragraph 2 argues for individual sports. Paragraph 3 argues for team sports. The conclusion gives the writer's opinion.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>Each paragraph has one job. The essay argues both sides before it chooses.</td></tr></table>",
+      "notes": "Elicit the function of each paragraph before revealing."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-opinion",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Page 132, Exercise 1",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>What is the writer's overall opinion?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Team sports are better for young people.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The conclusion says young people learn more from playing on a team.</td></tr></table>",
+      "notes": "The opinion comes at the end. It answers the question from the introduction."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-idiom",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Page 132, Exercise 1",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>What are the two meanings of \"there is no 'I' in team\"?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Literal: the word team has no letter i. Real meaning: the team matters more than any one player.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The writer uses it to say teamwork is more valuable than individual success.</td></tr></table>",
+      "notes": "CCQ: is the writer talking about spelling, or about teamwork? Both."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-compare",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Compare and contrast",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Present two ideas. Argue each in turn.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The reader sees both sides fairly.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">End with your preference and why.</td></tr></table>",
+      "notes": "Page 132, Writing strategy. The model argues individual first, then team, then chooses."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-notes",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Page 132, Exercise 2 — Notes",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 132, Exercise 2 — Notes</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Complete the notes about team and individual sports.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1</td><td>Team sports have to be <strong>organized with others</strong>.</td></tr><tr class=\"fragment\"><td class=\"lbl\">2</td><td>Individual success is more <strong>satisfying</strong>.</td></tr><tr class=\"fragment\"><td class=\"lbl\">3</td><td>Learning to <strong>cooperate</strong> with others is more valuable.</td></tr><tr class=\"fragment\"><td class=\"lbl\">4</td><td>Being part of a team can lead to <strong>arguments</strong>.</td></tr></table>",
+      "notes": "Read the essay again first. Reveal the completed notes row by row."
+    },
+    {
+      "layout": "content",
+      "id": "transition-plan",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Plan your essay"
+    },
+    {
+      "layout": "content",
+      "id": "task-ideas",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 134, Exercise 4",
+      "body": "<span class=\"box-word\">Think</span> of positives and negatives for both sides of your topic.<br><br>Write them in the table on your worksheet.",
+      "notes": "Pairs work together. Monitor: both aspects must have ideas in both columns."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-order",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Select and order",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Choose the best ideas.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">You have space for only three or four.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Pick the strongest. Pick the clearest.</td></tr></table>",
+      "notes": "Page 134, Writing strategy. Students keep the best arguments, not all of them."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-expressions",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Page 134, Exercise 6 — Expressions",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 134, Exercise 6 — Expressions</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Match the expressions.</td></tr><tr class=\"fragment\"><td class=\"lbl\" style=\"width:60px;text-align:center\">1</td><td>Let's start by looking at &#8230;</td><td>= Let's begin with &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\" style=\"width:60px;text-align:center\">2</td><td>Then there's the fact that &#8230;</td><td>= Another point is that &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\" style=\"width:60px;text-align:center\">3</td><td>In addition, &#8230;</td><td>= Also, &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\" style=\"width:60px;text-align:center\">4</td><td>What's more, &#8230;</td><td>= Furthermore, &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\" style=\"width:60px;text-align:center\">5</td><td>Finally, &#8230;</td><td>= Last but not least, &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\" style=\"width:60px;text-align:center\">6</td><td>To conclude, &#8230;</td><td>= In conclusion, &#8230;</td></tr></table>",
+      "notes": "The left column is from the textbook list. The right column is the model's version. Students use these to introduce their own ideas."
+    },
+    {
+      "layout": "content",
+      "id": "task-plan",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 134, Exercises 5 and 7",
+      "body": "<span class=\"box-word\">Choose</span> your three best ideas.<br><br><span class=\"box-word\">Write</span> sentences with the expressions from Exercise 6.",
+      "notes": "This planning output feeds lesson 3: drafting the essay."
+    },
+    {
+      "layout": "content",
+      "id": "wrap-up",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your plan is ready",
+      "body": "You know the shape. You have a plan. Next lesson: we write the essay.",
+      "notes": "Collect the plans. Preview lesson 3: drafting introduction, body, and conclusion."
+    }
+  ]
+}

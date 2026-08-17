@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 277mm;
+    height: 190mm;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 6mm;
+    page-break-after: always;
+  }
+  .page:last-child {
+    page-break-after: auto;
+  }
+  .card {
+    border: 1px solid #d5dbe3;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(26, 26, 46, 0.10);
+  }
+  .card-header {
+    color: #fff;
+    padding: 4.5mm 5mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-title {
+    display: flex;
+    align-items: center;
+  }
+  .num-badge {
+    background: #ffdd00;
+    color: #1a1a2e;
+    font-weight: 900;
+    font-size: 17pt;
+    width: 10mm;
+    height: 10mm;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4mm;
+    flex-shrink: 0;
+  }
+  .card-kicker {
+    font-size: 12.5pt;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.92;
+  }
+  .icon {
+    position: relative;
+    width: 9mm;
+    height: 9mm;
+    flex-shrink: 0;
+  }
+  .icon-bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 1.6mm;
+    bottom: 1.6mm;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12.5pt;
+    font-weight: 900;
+  }
+  .icon-tail {
+    position: absolute;
+    bottom: 0;
+    left: 1.6mm;
+    width: 0;
+    height: 0;
+    border-left: 2.4mm solid transparent;
+    border-bottom: 2.4mm solid #ffffff;
+  }
+  .card-body {
+    flex: 1;
+    padding: 5mm 5.5mm 3mm 5.5mm;
+    display: flex;
+    flex-direction: column;
+  }
+  .context-text {
+    font-size: 16pt;
+    line-height: 1.5;
+    color: #222;
+  }
+  .question-box {
+    margin-top: auto;
+    border-radius: 0 6px 6px 0;
+    padding: 3mm 4mm;
+    margin-bottom: 3mm;
+  }
+  .question-box .question-text {
+    font-size: 16.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+  .card-footer {
+    border-top: 1px solid #e3e8ef;
+    padding: 2.5mm 5.5mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fa-hint {
+    font-size: 11.5pt;
+    font-weight: 700;
+    color: #8a93a3;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+  .fa-hint .sep {
+    font-weight: 900;
+  }
+  .card-page {
+    font-size: 11.5pt;
+    color: #aab2bf;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">1</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#1a1a2e">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Reading books on digital devices is now very common. Many Thai students read their school books on tablets. A tablet can hold thousands of books. You can carry a whole library in your bag. But many people say paper books are easier on the eyes and nicer to hold.</div>
+    <div class="question-box" style="background:rgba(26, 26, 46, 0.1);border-left:3px solid #1a1a2e">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#1a1a2e">&mdash;</span> Against <span class="sep" style="color:#1a1a2e">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 1 / 10</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">2</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#116466">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Social media is a big part of life for most Thai teenagers. It helps you stay in touch with friends and share your life. But it can distract you from your studies. It can also make you compare yourself to others.</div>
+    <div class="question-box" style="background:rgba(17, 100, 102, 0.1);border-left:3px solid #116466">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#116466">&mdash;</span> Against <span class="sep" style="color:#116466">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 2 / 10</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2e7d32">
+    <div class="card-title">
+      <span class="num-badge">3</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#2e7d32">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Many Thai students studied online during the pandemic. Some schools still have online lessons today. You can learn at your own speed and save travel time. But it is easy to get distracted. You also miss time with your classmates.</div>
+    <div class="question-box" style="background:rgba(46, 125, 50, 0.1);border-left:3px solid #2e7d32">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#2e7d32">&mdash;</span> Against <span class="sep" style="color:#2e7d32">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 3 / 10</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#c0392b">
+    <div class="card-title">
+      <span class="num-badge">4</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#c0392b">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Most Thai teenagers listen to music on their phones. Streaming lets you hear almost any song in seconds. It is often free. You can create playlists and find new bands. But you need a good internet connection. And you never really own the music.</div>
+    <div class="question-box" style="background:rgba(192, 57, 43, 0.1);border-left:3px solid #c0392b">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#c0392b">&mdash;</span> Against <span class="sep" style="color:#c0392b">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 4 / 10</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#e67e22">
+    <div class="card-title">
+      <span class="num-badge">5</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#e67e22">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Online gaming is very popular in Thailand. It is a fun way to play with friends and relax. But too much gaming can take time away from homework and sleep.</div>
+    <div class="question-box" style="background:rgba(230, 126, 34, 0.1);border-left:3px solid #e67e22">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#e67e22">&mdash;</span> Against <span class="sep" style="color:#e67e22">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 5 / 10</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#6c3483">
+    <div class="card-title">
+      <span class="num-badge">6</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#6c3483">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Voice recognition lets you control your phone or computer just by speaking. Now many phones can understand Thai. It is fast and useful, especially when your hands are busy. But it can make mistakes. Some people also worry about their privacy.</div>
+    <div class="question-box" style="background:rgba(108, 52, 131, 0.1);border-left:3px solid #6c3483">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#6c3483">&mdash;</span> Against <span class="sep" style="color:#6c3483">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 6 / 10</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2874a6">
+    <div class="card-title">
+      <span class="num-badge">7</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#2874a6">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Paying with your phone is now very common in Thailand. QR codes are everywhere, even at street food stalls. You do not need to carry cash. It is fast and easy. But some people worry about spending too much money.</div>
+    <div class="question-box" style="background:rgba(40, 116, 166, 0.1);border-left:3px solid #2874a6">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#2874a6">&mdash;</span> Against <span class="sep" style="color:#2874a6">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 7 / 10</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#7b241c">
+    <div class="card-title">
+      <span class="num-badge">8</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#7b241c">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Many Thai students bring smartphones to school. They use them to look up information. They also take photos of the board. But phones can distract students during lessons. Some teachers say students do not listen carefully.</div>
+    <div class="question-box" style="background:rgba(123, 36, 28, 0.1);border-left:3px solid #7b241c">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#7b241c">&mdash;</span> Against <span class="sep" style="color:#7b241c">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 8 / 10</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">9</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#1a1a2e">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Electric cars and motorbikes are becoming popular in Thailand. They do not make pollution. They are also quieter than petrol cars. But they are expensive to buy. And you need a place to charge them.</div>
+    <div class="question-box" style="background:rgba(26, 26, 46, 0.1);border-left:3px solid #1a1a2e">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#1a1a2e">&mdash;</span> Against <span class="sep" style="color:#1a1a2e">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 9 / 10</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">10</span>
+      <span class="card-kicker">Essay Topic</span>
+    </div>
+    <span class="icon">
+      <span class="icon-tail"></span>
+      <span class="icon-bubble" style="color:#116466">?</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="context-text">Many Thai students learn English by watching videos online. Videos can make learning fun. You can watch them again and again. You can also choose topics you like. But too many videos can waste your time.</div>
+    <div class="question-box" style="background:rgba(17, 100, 102, 0.1);border-left:3px solid #116466">
+      <div class="question-text">Are you for or against using this kind of technology?</div>
+    </div>
+  </div>
+  <div class="card-footer">
+    <span class="fa-hint">For <span class="sep" style="color:#116466">&mdash;</span> Against <span class="sep" style="color:#116466">&mdash;</span> Opinion</span>
+    <span class="card-page">Card 10 / 10</span>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

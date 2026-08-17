@@ -1,0 +1,200 @@
+{
+  "title": "M2 For and Against — Lesson 2",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Plan your ideas.",
+      "body": "Both sides. Then you decide.",
+      "notes": "Ask: what do you think this lesson is about? Today we plan the essay from both sides of the topic card."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Good writers plan before they write.</li><li>Both sides make your opinion stronger.</li><li>A clear plan makes writing faster.</li></ul>",
+      "notes": "Frame: a plan is the map for the essay."
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Pair Talk",
+      "body": "What did you learn in lesson 1?<br><br>Which side did you choose?<br><br>Tell your partner.<br><br><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Recap lesson 1: the task needs both sides, then your opinion. Students restate their position."
+    },
+    {
+      "layout": "content",
+      "id": "transition-organize",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Organize your ideas"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-organize",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Organize for and against",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Put the advantages in one paragraph.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The reader sees each side clearly.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Do the same for the disadvantages.</td></tr></table>",
+      "notes": "Page 133, Writing strategy. One paragraph for each side."
+    },
+    {
+      "layout": "content",
+      "id": "transition-ideas",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Generate ideas"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-ideas",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Generate ideas",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Think of many points for each side.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">More ideas mean stronger choices.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Think of people you know. What would they say?</td></tr></table>",
+      "notes": "Page 133, Writing strategy. Online research can add more ideas."
+    },
+    {
+      "layout": "content",
+      "id": "task-match",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 133, Exercise 2",
+      "body": "<span class=\"box-word\">Match</span> each note to a topic.<br><br><span class=\"box-word\">Say</span> if it is for or against.",
+      "notes": "Notes a-d on page 133. Students match in pairs, then check the answers."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-match",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 133, Exercise 2</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Match the notes to the topics.</td></tr><tr class=\"fragment\"><td class=\"lbl\">a</td><td>saves the cutting down of trees = reading books on digital devices <strong>(for)</strong></td></tr><tr class=\"fragment\"><td class=\"lbl\">b</td><td>encourages social interaction = social media <strong>(for)</strong></td></tr><tr class=\"fragment\"><td class=\"lbl\">c</td><td>lack of feedback from a teacher = studying online <strong>(against)</strong></td></tr><tr class=\"fragment\"><td class=\"lbl\">d</td><td>meet and play with new people = online gaming <strong>(for)</strong></td></tr></table>",
+      "notes": "Reveal row by row. Check: a, b and d are advantages; c is a disadvantage."
+    },
+    {
+      "layout": "content",
+      "id": "transition-notes",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Take short notes"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-notes",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Cut your notes",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Cut words from your notes.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Short notes are easy to use.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Keep only the key information.</td></tr></table>",
+      "notes": "Page 133, Writing tip. Short notes become a good habit."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-notes",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Cut the notes",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Cut the notes</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">Original: it helps you practice speaking English at home</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#ffdd00\">Which note keeps the key idea?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">practices speaking English at home</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">helps practice English</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">it helps you practice speaking English at home</td></tr></table>",
+      "notes": "Ask: which note is short and keeps the key idea? Then click."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-notes",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Cut the notes",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Cut the notes</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">Original: it helps you practice speaking English at home</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#ffdd00\">Which note keeps the key idea?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">practices speaking English at home</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">helps practice English</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">it helps you practice speaking English at home</td></tr></table>",
+      "notes": "The middle note keeps the key idea in three words. Short notes save time."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-notes",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 133, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Reduce the notes.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1</td><td>saves cutting down trees <strong>→ saves trees</strong></td></tr><tr class=\"fragment\"><td class=\"lbl\">2</td><td>encourages social interaction</td></tr><tr class=\"fragment\"><td class=\"lbl\">3</td><td>no feedback from teacher</td></tr><tr class=\"fragment\"><td class=\"lbl\">4</td><td>meet/play new people</td></tr></table>",
+      "notes": "Reveal row by row. Notes keep only the key words."
+    },
+    {
+      "layout": "content",
+      "id": "transition-plan",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Plan your essay"
+    },
+    {
+      "layout": "content",
+      "id": "task-plan-table",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 134, Exercise 4",
+      "body": "<span class=\"box-word\">Write</span> your arguments in the For or Against columns.<br><br><span class=\"box-word\">Add</span> what another person might say.",
+      "notes": "Five minutes. Timer starts automatically. Monitor: ideas in both columns."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-order",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Select and order",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Choose the strongest ideas.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">You have space for only two or three.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Decide the order. Join ideas in one sentence.</td></tr></table>",
+      "notes": "Page 134, Writing strategy. Start or finish with the strongest point."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-joined",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 134, Exercise 6 (1)</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which arguments are joined in one sentence?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Paragraph 2: \"Second, you can create your own playlists, and what's more, share them with friends easily.\" Paragraph 3: \"There's also the fact that some artists don't appear on streaming services, and another argument against them is that they don't pay artists much.\"</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>Linking phrases join two ideas in one sentence.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"what's more\" and \"another argument against them is\"</td></tr></table>",
+      "notes": "Page 132 model. These linking phrases will become key phrases in lesson 3."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-strongest-start",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 134, Exercise 6 (2)</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which paragraph begins with the strongest argument?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Paragraph 2.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>It starts with \"First, and most importantly, ...\"</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"First, and most importantly, streaming means you can listen to your favorite songs anywhere, on any device, without using up memory on it.\"</td></tr></table>",
+      "notes": "The writer puts the strongest advantage first."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-strongest-end",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 134, Exercise 6 (3)</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which paragraph has one of the strongest points at the end?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Paragraph 3.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>It ends with the strongest disadvantage.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"Last but not least, when you stream music, unfortunately you don't own it at all.\"</td></tr></table>",
+      "notes": "The writer finishes the paragraph with its strongest point."
+    },
+    {
+      "layout": "content",
+      "id": "task-order",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 134, Exercises 5 and 6",
+      "body": "<span class=\"box-word\">Read</span> one column to your partner.<br><br>Partner: make the opposite argument.<br><br><span class=\"box-word\">Select</span> and order your notes.",
+      "notes": "Six minutes. Timer starts automatically. Exercise 5 pair work, then Exercise 6 question 4: select and order notes. Collect the plans."
+    },
+    {
+      "layout": "content",
+      "id": "wrap-up",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your plan is ready",
+      "body": "You know your topic. You planned both sides.<br><br>Next lesson: we write the essay.",
+      "notes": "Collect the plans. Preview lesson 3: drafting the essay."
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "title": "PSYCH READING — What's tech doing to your brain?",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "What's tech doing to your brain?",
+      "body": "Let's read and find out."
+    },
+    {
+      "layout": "content",
+      "id": "entry-ticket",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Grammar Entry Ticket",
+      "body": "<p style=\"font-size:36px\">Answer the 15 questions on your paper.</p><p style=\"font-size:36px\">You have 4 minutes.</p>",
+      "notes": "4-minute timer autostarts. Students complete the entry ticket silently. Then go through the answers one section at a time."
+    },
+    {
+      "layout": "content",
+      "id": "answers-part-a",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Entry Ticket Answers — Part A",
+      "body": "<table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">1. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">2. <strong style=\"color:#ffdd00\">C</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">3. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">4. <strong style=\"color:#ffdd00\">D</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">5. <strong style=\"color:#ffdd00\">A</strong></td></tr></table>",
+      "notes": "Q1 A — present perfect vs past simple. Q2 C — past continuous. Q3 B — first conditional. Q4 D — modal deduction (must). Q5 A — comparative with modifier (far bigger)."
+    },
+    {
+      "layout": "content",
+      "id": "answers-part-b",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Entry Ticket Answers — Part B",
+      "body": "<table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">6. <strong style=\"color:#ffdd00\">C</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">7. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">8. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">9. <strong style=\"color:#ffdd00\">D</strong></td></tr><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">10. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">11. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">12. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">13. <strong style=\"color:#ffdd00\">D</strong></td></tr></table>",
+      "notes": "Q6 C — subject-verb agreement (sit→sits). Q7 B — plural marking (park→parks). Q8 A — comma splice. Q9 D — spelling (tomorow→tomorrow). Q10 A — there is/are (is→are). Q11 B — uncountable noun (advices→advice). Q12 B — apostrophe (its→it's). Q13 D — spelling (seperate→separate)."
+    },
+    {
+      "layout": "content",
+      "id": "answers-part-c",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Entry Ticket Answers — Part C",
+      "body": "<table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">14. <strong style=\"color:#ffdd00\">C</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">15. <strong style=\"color:#ffdd00\">C</strong></td></tr></table>",
+      "notes": "Q14 C — modal perfect (leave→have left). Q15 C — third conditional (had avoided)."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Your phone is part of your daily life. This topic affects you.</li><li>The evidence comes from real research on young people.</li><li>By the end, you will have your own opinion to write and share.</li></ul>",
+      "notes": "Frame the lesson value: technology touches every part of teens' lives, the evidence is real research, and the lesson ends with students forming and writing their own opinion."
+    },
+    {
+      "layout": "content",
+      "id": "lead-in",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "How do you use your phone?",
+      "body": "<p>How much time do you spend on it every day?</p><p>What do you do first when you wake up?</p><p>Do you ever scroll without thinking?</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Open-class discussion, no right or wrong answers. Elicit freely. The yellow O-R-E label anchors the structure students will use for the final writing task."
+    },
+    {
+      "layout": "content",
+      "id": "transition-choose",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Choose Your Text",
+      "body": "<p style=\"font-size:36px\">Today you choose what you read.</p>",
+      "notes": "Introduce the choice: three texts at three levels. Preview the excerpts, then students choose."
+    },
+    {
+      "layout": "raw",
+      "id": "choose-levels",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.lvl{display:flex;gap:24px;width:100%;margin-top:18px}.lvl .card{flex:1;background:rgba(255,255,255,0.06);border-radius:12px;padding:20px 18px;border-top:6px solid #2ecc71;text-align:left}.lvl .card-b2{border-top-color:#3498db}.lvl .card-c1{border-top-color:#9b59b6}.lvl .badge{display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#2ecc71}.lvl .badge-b2{background:#3498db}.lvl .badge-c1{background:#9b59b6}.lvl h3{font-size:34px;margin:14px 0 10px 0;color:#fff}.lvl p{font-size:32px;color:#e5e5e5;margin:0;line-height:1.5}.lvl .who{color:#ffdd00}</style><p style=\"color:#fff;text-align:center;font-size:40px;font-weight:700;margin-bottom:8px\">Which text will you read?</p><p style=\"color:#e5e5e5;text-align:center;font-size:32px;margin:0\">Preview each text, then choose your level.</p><div class=\"lvl\"><div class=\"card\"><span class=\"badge\">B1</span><h3>Roblox: A child-friendly game with a dark side</h3><p><span class=\"who\">Main group with the teacher.</span><br>20 copies available.</p></div><div class=\"card card-b2\"><span class=\"badge badge-b2\">B2</span><h3>The hidden dangers of doomscrolling</h3><p><span class=\"who\">Work together with a partner.</span><br>You mark your own answers.</p></div><div class=\"card card-c1\"><span class=\"badge badge-c1\">C1</span><h3>The truth about brain rot</h3><p><span class=\"who\">Work together with a partner.</span><br>You mark your own answers.</p></div></div>",
+      "notes": "Students choose their level. The main group stays on B1 (20 copies). B2 and C1 readers work in their own groups outside the main group and will self-mark with the printed answer guides."
+    },
+    {
+      "layout": "raw",
+      "id": "excerpt-b1",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"text-align:center;margin:0 0 6px 0\"><span style=\"display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#2ecc71\">B1</span></p><p style=\"text-align:center;color:#ffdd00;font-size:34px;font-weight:700;margin:0 0 16px 0\">Roblox: A child-friendly game with a dark side</p><div style=\"background:rgba(255,255,255,0.06);border-left:6px solid #2ecc71;border-radius:8px;padding:20px 28px;margin:0 auto;max-width:1060px\"><p style=\"font-size:36px;line-height:1.7;color:#fff;margin:0\">&ldquo;When you open Roblox, it looks like a harmless game for children. The colourful blocks, the cute characters &mdash; everything seems friendly and safe. However, new research tells a very different story.&rdquo;</p></div>",
+      "notes": "A taste of the B1 text. Ask: does this sound interesting to you?"
+    },
+    {
+      "layout": "raw",
+      "id": "excerpt-b2",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"text-align:center;margin:0 0 6px 0\"><span style=\"display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#3498db\">B2</span></p><p style=\"text-align:center;color:#ffdd00;font-size:34px;font-weight:700;margin:0 0 16px 0\">The hidden dangers of doomscrolling</p><div style=\"background:rgba(255,255,255,0.06);border-left:6px solid #3498db;border-radius:8px;padding:20px 28px;margin:0 auto;max-width:1060px\"><p style=\"font-size:36px;line-height:1.7;color:#fff;margin:0\">&ldquo;When you wake up and reach for your phone, what do you do first? For many people, the answer is the same: they open a news app and start scrolling. Headline after headline brings bad news, yet the hand keeps moving.&rdquo;</p></div>",
+      "notes": "A taste of the B2 text. Ask: does this sound interesting to you?"
+    },
+    {
+      "layout": "raw",
+      "id": "excerpt-c1",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"text-align:center;margin:0 0 6px 0\"><span style=\"display:inline-block;padding:3px 16px;border-radius:20px;font-weight:900;font-size:32px;color:#fff;background:#9b59b6\">C1</span></p><p style=\"text-align:center;color:#ffdd00;font-size:34px;font-weight:700;margin:0 0 16px 0\">The truth about brain rot</p><div style=\"background:rgba(255,255,255,0.06);border-left:6px solid #9b59b6;border-radius:8px;padding:20px 28px;margin:0 auto;max-width:1060px\"><p style=\"font-size:36px;line-height:1.7;color:#fff;margin:0\">&ldquo;Most of us know the feeling of mindlessly scrolling through low-quality content. We call this sensation &lsquo;brain rot.&rsquo; The term can also refer to the content itself: the absurdist, AI-generated characters and recycled memes that flood young people&rsquo;s feeds.&rdquo;</p></div>",
+      "notes": "A taste of the C1 text. Ask: does this sound interesting to you?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "body": "",
+      "notes": "Pre-teach five key words from the B1 text. Each word uses the 3-click reveal: phonemic script, then word, then context sentence."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-harmless",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈhɑːmləs/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">harmless</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The spider looks scary, but it is <span class=\"box-word\">harmless</span>. It cannot hurt you at all.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Is a harmless animal dangerous or safe?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-disturbing",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/dɪˈstɜːbɪŋ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">disturbing</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">That movie was <span class=\"box-word\">disturbing</span>. It made me feel upset for days.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: Does something disturbing make you feel calm or upset?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-fictional",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈfɪkʃənl/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">fictional</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The characters in this book are <span class=\"box-word\">fictional</span>. They are made up and never really existed.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: If a person is fictional, are they real or made up?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-suitable",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/ˈsuːtəbl/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">suitable</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">This movie is not <span class=\"box-word\">suitable</span> for children. It is too violent for young kids.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: If a game is not suitable for children, should they play it?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-addicted",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:56px\">/əˈdɪktɪd/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">addicted</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">He is <span class=\"box-word\">addicted</span> to his phone. He cannot stop checking it.</td></tr></table>",
+      "notes": "Click 1: word. Click 2: context. CCQ: If you are addicted to something, can you easily stop doing it?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-reading",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's Read",
+      "body": "<p style=\"font-size:36px\">B1 readers: stay with the class.</p><p style=\"font-size:36px\">B2 and C1 readers: work in your groups.</p>",
+      "notes": "Direct students to their groups. B1 group works with the teacher. B2/C1 groups move together and work independently."
+    },
+    {
+      "layout": "raw",
+      "id": "listen-read",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700;margin:0\">Listen &amp; Read</p><p style=\"color:#fff;text-align:center;font-size:35px;margin-top:12px\">Listen to the B1 text.<br>Follow along on your worksheet.</p><div style=\"text-align:center;margin-top:26px\"><audio controls data-src=\"assets/b1-text.mp3\" style=\"width:420px\"></audio></div><p style=\"color:#ffdd00;text-align:center;font-size:35px;margin-top:24px\">Then answer the 8 questions.</p>",
+      "notes": "Play the B1 audio once (about 3 minutes). Students follow the text on the worksheet, then answer the 8 questions. B2 and C1 groups read their own texts silently and answer their own questions."
+    },
+    {
+      "layout": "content",
+      "id": "transition-answers",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Check Your Answers",
+      "body": "<p style=\"font-size:36px\">B1: we check together.</p><p style=\"font-size:36px\">B2 and C1: mark your own answers.</p>",
+      "notes": "B1 answers are shown in the lesson. B2 and C1 students mark themselves with their answer guides."
+    },
+    {
+      "layout": "raw",
+      "id": "self-check",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:44px;font-weight:700;margin:0\">B1 &mdash; Mark Your Answers</p><p style=\"color:#ffdd00;text-align:center;font-size:33px;margin:12px 0 18px 0\">Check your own work. 60 seconds.</p><table style=\"margin:0 auto;border-collapse:collapse\"><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">1. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">2. <strong style=\"color:#ffdd00\">C</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">3. <strong style=\"color:#ffdd00\">D</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">4. <strong style=\"color:#ffdd00\">C</strong></td></tr><tr><td style=\"padding:10px 28px;font-size:38px;color:#fff\">5. <strong style=\"color:#ffdd00\">A</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">6. <strong style=\"color:#ffdd00\">D</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">7. <strong style=\"color:#ffdd00\">B</strong></td><td style=\"padding:10px 28px;font-size:38px;color:#fff\">8. <strong style=\"color:#ffdd00\">A</strong></td></tr></table><p style=\"color:#fff;text-align:center;font-size:32px;margin-top:20px\">B2 and C1 readers: mark your own answers with your answer guide.</p>",
+      "notes": "60-second timer autostarts. Students mark their own sheets. B2/C1 groups self-mark with the printed answer guides. Then go through each question for explanations."
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (1/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1. According to the company, how many people played Roblox in 2024?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">B.</strong> Over 85 million people used it daily.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The company reports that more than 85 million people played every day. The other options mix up the numbers, like the 40% who were under 13.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;In 2024, more than 85 million people played it every day, and about 40% of them were under 13.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (2/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2. What did the researchers discover about the accounts of young children?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">C.</strong> Adults could message even the youngest accounts.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The researchers made fake accounts for pretend children. Even the five-year-old account could chat with adults. The platform could not tell how old anyone was.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;Children as young as five could chat with adults while playing.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (3/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">3. What is the writer's purpose in writing this passage?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">D.</strong> To show how easily children meet danger there.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The middle of the text describes the experiment and what the fake accounts could access. The writer uses these details to show that real dangers hide behind the friendly look.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;The ten-year-old's account could enter rooms that were clearly not suitable for children.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (4/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">4. What is the main idea of paragraph 7?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">C.</strong> The fixes still leave children exposed to strangers.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The paragraph says the new safety features do not go far enough. Children can still talk to strangers who are not on their friends list.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;Children can still talk to strangers who are not on their friends list.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-5",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (5/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">5. In paragraph 4, what does the word &ldquo;verification&rdquo; mean?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">A.</strong> Checking that information is true and correct.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Age verification means proving that information, such as a player's age, is true. The text says no real verification existed, so nobody could check how old players were.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;It was impossible to know how old any player really was.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-6",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (6/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">6. What does the passage suggest about Roblox's voice chat protection?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">D.</strong> Players can get around it without much difficulty.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The report says the AI checks are easy to avoid. The researchers found that the filters did not catch the adult's request.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;The report says such measures are easy to avoid.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-7",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (7/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">7. Many players are children, but the age checks fail. What does the writer suggest?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">B.</strong> An adult can easily pretend to be a child.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Because there is no real way to check age, nobody can tell which players are adults and which are children. An adult can simply create an account and look like a young player.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;An adult account asked a five-year-old's account for personal details.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b1-8",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "B1 Answers (8/8)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:110px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">8. How does the writer feel about Roblox in the final paragraphs?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\"><strong style=\"color:#ffdd00\">A.</strong> Critical of the company's efforts so far.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The writer ends by saying the company must do far more. That is a critical tone: the writer believes the efforts so far are not enough.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">&ldquo;It is time for the company to do far more, or for parents to think twice.&rdquo;</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-writing",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Time to Write",
+      "body": "<p style=\"font-size:36px\">All students write their own answer.</p>",
+      "notes": "Everyone returns to their own work. All students write a 70-word response, whatever text they read."
+    },
+    {
+      "layout": "content",
+      "id": "writing-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Structure Your Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think technology changes the way I think.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is that I spend hours on my phone every day.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, the text shows how screens affect young people.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Model the structure with the example. Students use their own opinion, reason, and evidence from their own text (B1, B2, or C1)."
+    },
+    {
+      "layout": "raw",
+      "id": "writing-task",
+      "step": 1,
+      "background_color": "#9b59b6",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:46px;font-weight:700;margin:0\">Time to Write</p><p style=\"color:#fff;text-align:center;font-size:40px;margin-top:18px\">Do you think technology is affecting your brain?</p><p style=\"color:#ffdd00;text-align:center;font-size:35px;margin-top:24px\">Write a 70-word response.</p><p style=\"color:#fff;text-align:center;font-size:33px;margin-top:12px\">Opinion. Reason. Evidence from your text.</p>",
+      "notes": "All students write a 70-word response. Use the O-R-E structure from the previous slide. Collect at the end of the lesson."
+    }
+  ]
+}

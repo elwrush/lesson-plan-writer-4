@@ -140,11 +140,17 @@ for p in "${presentations[@]}"; do
 done
 ```
 
-### Step 5: Shallow clone gh-pages
+### Step 5: Sparse clone gh-pages (metadata + index.html only)
 ```bash
 worktreeDir=$(mktemp -d /tmp/gh-pages-worktree-XXXXXX)
-if git clone --branch gh-pages --single-branch --depth 1 "https://github.com/$owner/$repo.git" "$worktreeDir" 2>/dev/null; then
-  echo "  Cloned existing gh-pages branch"
+# Sparse clone: fetch metadata plus each presentation's index.html only
+# (~1.6 MB), NOT the full branch tree (85 MB of audio/video blobs).
+# The landing page only reads index.html titles; media blobs are never
+# needed in the worktree, and the drift check compares only the deployed
+# subfolder. This keeps deploys fast regardless of branch size.
+if git clone --filter=blob:none --sparse --branch gh-pages --single-branch --depth 1 "https://github.com/$owner/$repo.git" "$worktreeDir" 2>/dev/null; then
+  git -C "$worktreeDir" sparse-checkout set --no-cone '*/index.html'
+  echo "  Cloned existing gh-pages branch (sparse: index.html only)"
 else
   echo "  gh-pages branch does not exist yet — starting fresh"
   rm -rf "$worktreeDir"
@@ -176,6 +182,13 @@ for p in "${presentations[@]}"; do
   mkdir -p "$worktreeDir/$p"
   cp -r "$staging/$p/"* "$worktreeDir/$p/"
   echo "  Deployed $p"
+done
+# The sparse cone only checks out */index.html — expand it to include the
+# deployed folder(s) so their assets (mp3, images, timer-plugin files) get
+# staged by `git add -A`. Without this, git silently skips them and the
+# push ships an index.html with missing media.
+for p in "${presentations[@]}"; do
+  git -C "$worktreeDir" sparse-checkout set --no-cone '*/index.html' "$p" 2>/dev/null || true
 done
 ```
 
@@ -242,6 +255,22 @@ print(f'Landing page generated — {len(slide_dirs)} presentations')
 ```bash
 date_str=$(date +%d%m%y)
 git -C "$worktreeDir" add -A
+# Completeness gate — abort if any staged file was dropped by the sparse
+# cone. Without this, a deploy can ship an index.html with missing media.
+missing_files=""
+for p in "${presentations[@]}"; do
+  while IFS= read -r f; do
+    rel="${f#"$staging/$p/"}"
+    if ! git -C "$worktreeDir" ls-files --error-unmatch "$p/$rel" >/dev/null 2>&1; then
+      missing_files="$missing_files $p/$rel"
+    fi
+  done < <(find "$staging/$p" -type f)
+done
+if [ -n "$missing_files" ]; then
+  echo "ERROR: sparse-checkout dropped these files from staging:$missing_files"
+  echo "  The deploy would ship without them. Expand the sparse cone (Step 6) and retry."
+  exit 1
+fi
 if ! git -C "$worktreeDir" diff --cached --quiet; then
   commit_hash=$(git -C "$worktreeDir" commit -m "Deploy $name ($date_str)" | grep -oP '[0-9a-f]{7,}' | head -1)
   echo "  Committed: $commit_hash"

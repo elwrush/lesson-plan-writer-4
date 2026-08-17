@@ -1,0 +1,139 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Traditional)",
+    "description": "Traditional productive skills lesson with preparation stages followed by speaking or writing output.",
+    "pedagogical_justification": "Here the focus is on helping learners practice their speaking or writing skills. The lesson can usually be divided into preparation for speaking/writing and speaking/writing task stages.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to [speak/write] about [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to draft a four-paragraph compare-and-contrast essay from their notes, using linking words, stronger comparisons, and a clear concluding opinion, then review and edit their draft.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>09-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Writing)<br><b>Materials:</b><br>Textbook writing workshop pp. 135-137, slideshow, essay topic cards, essay plans<br><b>Assessment:</b><br>Drafted and edited essay<br><b>Skills:</b><br>Writing",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To reactivate lessons 1 and 2 and set the theme: today we draft the full essay from our plan",
+          "procedure": [
+            "Show the splash slide. Ask: \"What do you see? Someone writing. What might this lesson be about?\" Let students guess.",
+            "Advance to the title slide: \"Draft it. Polish it.\" Confirm the theme: today we write the full essay from our plan.",
+            "Show the \"Why is this lesson important?\" slide and read the bullets aloud.",
+            "Pairs recap: \"What are the four parts of an essay? Which three ideas did you choose?\" Students restate their ideas in one sentence.",
+            "Point to the Opinion-Reason-Evidence line at the bottom of the slide."
+          ],
+          "time": 4,
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "The introduction",
+          "stage_number": 2,
+          "stage_aim": "To teach the hook-and-question introduction and draft the opening paragraph",
+          "procedure": [
+            "Show the red transition slide: \"The introduction.\"",
+            "Teach the strategy table: ask a question in the first line to hook the reader.",
+            "Reveal the Exercise 1 answer: the model essay opens with \"But which type of sports are best: team or individual?\" and \"How do they compare?\"",
+            "Exercise 2: students write their own introduction from their notes, asking the question and comparing both sides."
+          ],
+          "time": 7,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Linking ideas",
+          "stage_number": 3,
+          "stage_aim": "To teach contrasting linking words, including conjunctive adverbs after a semicolon, and apply them to the notes",
+          "procedure": [
+            "Show the red transition slide: \"Link your ideas.\"",
+            "Teach the strategy table: use linking words to contrast; match the word to one sentence or after a semicolon.",
+            "Present the key phrases: one-sentence words (although, despite, whereas, while) and after-a-semicolon words (however, nevertheless, even so, on the other hand).",
+            "Run the demo: the film sentence with the green checkmark on \"however\". Stress: semicolon before, comma after, not capitalised.",
+            "Reveal the Exercise 3 answers row by row.",
+            "Exercise 4: students choose a linking word for each of their own ideas."
+          ],
+          "time": 9,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Body paragraphs",
+          "stage_number": 4,
+          "stage_aim": "To teach stronger comparison phrases and write the two main paragraphs",
+          "procedure": [
+            "Show the red transition slide: \"Make comparisons stronger.\"",
+            "Present the key phrases: much, far more, far less, nowhere near as.",
+            "Run the demo: choose the stronger sentence (far more stimulating).",
+            "Exercise 6: students write their second and third paragraphs from their notes. 8 minutes (timer).",
+            "Monitor: linking words and comparisons appear in every paragraph."
+          ],
+          "time": 10,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "The conclusion",
+          "stage_number": 5,
+          "stage_aim": "To teach the opinion-phrase key phrases and write a clear concluding paragraph",
+          "procedure": [
+            "Show the red transition slide: \"Write your conclusion.\"",
+            "Teach the strategy table: repeat your opinion clearly; summarise one point from each side first.",
+            "Reveal the Exercise 8 key phrases: I'd say that ..., It's my opinion that ..., I strongly believe that ..., It's clear that ..., The way I see it, ...",
+            "Exercises 7 and 9: students make notes for their conclusion, then write it. 5 minutes (timer)."
+          ],
+          "time": 7,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Review and edit",
+          "stage_number": 6,
+          "stage_aim": "For students to revise their draft: synonyms, cuts, register, and proofreading",
+          "procedure": [
+            "Show the red transition slide: \"Review and edit.\"",
+            "Teach the synonym strategy and reveal the Exercise 2 answers (advantages becomes benefits, important becomes valuable, great becomes wonderful).",
+            "Teach the cuts strategy and the neutral-words strategy.",
+            "Students complete Exercises 1, 3, 4 and 5: check paragraphs, replace repeated words, make cuts, read aloud, and proofread. 8 minutes (timer)."
+          ],
+          "time": 8,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Wrap-up",
+          "stage_number": 7,
+          "stage_aim": "To consolidate the completed draft and set the final-copy task",
+          "procedure": [
+            "Show the wrap-up slide: \"Your essay is ready.\"",
+            "Exercise 6 on page 137: students write the corrected final copy for homework or in the next class.",
+            "Collect the drafts."
+          ],
+          "time": 1,
+          "interaction": "T-Ss"
+        }
+      ]
+    },
+    "note": "For middle schoolers interested in SCR approach to productive skills, see Shape J instead."
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "9 August, 2026",
+    "class_name": "M3-A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape F — Productive Skills (Writing)",
+    "topic": "Compare and contrast essays: draft, link, and review",
+    "materials": [
+      "Oxford Discover Futures 3, Unit \"Writing workshop: A compare and contrast essay\", pp. 135–137",
+      "Slideshow — Lesson 3: Draft, Link, and Review",
+      "Essay topic cards — each student's topic from Lesson 1",
+      "Essay plans — each student's notes from Lesson 2"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to draft a four-paragraph compare-and-contrast essay from their notes, using linking words, stronger comparisons, and a clear concluding opinion, then review and edit their draft.",
+    "subsidiary_aim": "Learners will also be better able to contrast ideas using conjunctive adverbs after a semicolon (however, nevertheless) and subordinating conjunctions (although, despite), and to strengthen comparisons with far more, far less, and nowhere near as.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/writing_M3_compare_and_contrast_lesson_3/index.html",
+    "answer_key": [
+      "<strong>Exercise 1 — The introduction (p. 135)</strong>",
+      "The model essay opens with the questions \"But which type of sports are best: team or individual?\" and \"How do they compare?\" The introduction presents both sides and asks the question the essay will answer.",
+      "<strong>Exercise 3 — Linking sentences (p. 135)</strong>",
+      "1 It can be easy to feel lonely in a city despite the thousands of people who live there.",
+      "2 Students don't have much money; nevertheless, they may be able to get a higher-earning job later.",
+      "3 Exotic fruit is delicious; however, it often has a high carbon footprint.",
+      "4 Housing is cheaper in a village; on the other hand, commuting can cost a lot.",
+      "<strong>Exercise 8 — Key phrases: giving your opinion (p. 136)</strong>",
+      "1 I'd say that ... 2 It's my opinion that ... 3 I strongly believe that ... 4 It's clear that ... 5 The way I see it, ...",
+      "<strong>Exercise 2 — Synonyms in the model (p. 137)</strong>",
+      "The model repeats ideas but not words: advantages becomes benefits, important becomes valuable, and great becomes wonderful."
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Traditional)",
+    "description": "Traditional productive skills lesson with preparation stages followed by speaking or writing output.",
+    "pedagogical_justification": "Here the focus is on helping learners practice their speaking or writing skills. The lesson can usually be divided into preparation for speaking/writing and speaking/writing task stages.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to [speak/write] about [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to write a short response to a compare-and-contrast question, stating a clear position with a reason and a piece of evidence.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>05-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Writing)<br><b>Materials:</b><br>Slideshow, essay question cards<br><b>Assessment:</b><br>Written response (opinion, reason, evidence)<br><b>Skills:</b><br>Writing, Speaking",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To activate students' prior knowledge of opinions and reasons, and to introduce the Opinion-Reason-Evidence frame",
+          "procedure": [
+            "Show the splash slide. Ask: \"What do you see? What might this lesson be about?\" Let students guess.",
+            "Advance to the title slide: \"Read the question. Take a position.\" Confirm the theme: today we start writing an opinion essay.",
+            "Show the \"Why is this lesson important?\" slide and read the bullets aloud.",
+            "Students work in pairs. Ask: \"Cats or dogs — which makes a better pet?\" Each student gives one reason. 2 minutes.",
+            "Elicit two or three opinions. Point to the Opinion-Reason-Evidence line at the bottom of the slide."
+          ],
+          "time": 5,
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Understanding the question",
+          "stage_number": 2,
+          "stage_aim": "To teach students to identify the four parts of a compare-and-contrast question",
+          "procedure": [
+            "Show the red transition slide: \"How do we read the question?\"",
+            "Teach the strategy table: read the question twice; every question has four parts.",
+            "Show the anatomy slide: Context, Opinion A, Opinion B, Your choice. Check understanding of each part.",
+            "Project the teacher's conscription question on the matching slide. Students match each sentence to its part before you click.",
+            "Reveal the correct matches with auto-animate. Say each part aloud and confirm the colours."
+          ],
+          "time": 10,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Taking a position",
+          "stage_number": 3,
+          "stage_aim": "To show students that a good essay needs one clear opinion, and to model choosing a side",
+          "procedure": [
+            "Teach the strategy table: choose one side; essays need one clear opinion; ask which side you agree with more.",
+            "Show the teacher's example on the demo slide. Ask: \"Which side would the teacher choose?\"",
+            "Click to reveal the green check mark. Emphasise that no side is wrong, but students must choose one."
+          ],
+          "time": 5,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Your turn: parse your card",
+          "stage_number": 4,
+          "stage_aim": "For students to apply the parsing strategy to their own randomly assigned question",
+          "procedure": [
+            "Show the red transition slide: \"Your turn.\"",
+            "Distribute one essay question card to each student at random. Students cannot choose their topic.",
+            "Project the task slide. Students read their question twice, underline the topic, circle both opinions, and choose their side.",
+            "Monitor and help students who cannot find both opinions."
+          ],
+          "time": 6,
+          "interaction": "S"
+        },
+        {
+          "stage": "Levels of evidence",
+          "stage_number": 5,
+          "stage_aim": "To introduce the hierarchy of evidence: statistics, quotations, news examples, personal anecdotes",
+          "procedure": [
+            "Show the red transition slide: \"How strong is your evidence?\"",
+            "Teach the strategy table: support your reasons with evidence; strong evidence convinces the reader.",
+            "Reveal the evidence pyramid one level at a time, top-down: statistics, quotations, news examples, personal anecdotes.",
+            "Use the conscription examples on each level. Stress that statistics are strongest and anecdotes weakest.",
+            "Explain that students do not need statistics or quotations today, but they must know these levels exist."
+          ],
+          "time": 7,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Writing the response",
+          "stage_number": 6,
+          "stage_aim": "For students to write a three-sentence response: opinion, reason, and evidence",
+          "procedure": [
+            "Show the scaffold slide with the sentence frames: I believe that..., One reason is..., For example, ...",
+            "Project the red task slide: \"Write your response.\"",
+            "Students write three sentences: their opinion, one reason, and one piece of evidence about their own question card. 6 minutes.",
+            "Collect the responses at the end of the stage."
+          ],
+          "time": 8,
+          "interaction": "S"
+        },
+        {
+          "stage": "Sharing opinions",
+          "stage_number": 7,
+          "stage_aim": "For students to share their position orally using the Opinion-Reason-Evidence frame",
+          "procedure": [
+            "Show the discussion-structure slide with the Opinion-Reason-Evidence table and the conscription example.",
+            "Students share their responses with a partner, using the frames: opinion, reason, evidence.",
+            "Elicit two or three strong examples for the whole class.",
+            "Show the wrap-up slide: \"Your essay starts here.\" Preview lesson 2: building the full essay."
+          ],
+          "time": 5,
+          "interaction": "Ss-Ss"
+        }
+      ]
+    },
+    "note": "For middle schoolers interested in SCR approach to productive skills, see Shape J instead."
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "5 August, 2026",
+    "class_name": "M3-A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape F — Productive Skills (Writing)",
+    "topic": "Compare and contrast essays: read the question, take a position",
+    "materials": [
+      "Slideshow — Lesson 1: Read the Question, Take a Position",
+      "Essay question cards — 10 compare-and-contrast topics, randomly distributed",
+      "Teacher example: the conscription question (used for the parsing and position demos)"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to write a short response to a compare-and-contrast question, stating a clear position with a reason and a piece of evidence.",
+    "subsidiary_aim": "Learners will also be better able to identify the four parts of an essay question and use the Opinion–Reason–Evidence frame when discussing their position.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/writing_M3_compare_and_contrast_lesson_1/index.html",
+    "answer_key": [
+      "<strong>Teacher example — parsing the conscription question</strong>",
+      "Context: Every year, Thai men must join the army for a short time.",
+      "Opinion A: Some people say the army builds discipline and national pride.",
+      "Opinion B: But others believe it wastes two years of young men's lives.",
+      "Your choice: Personally, I think military service is an essential commitment.",
+      "<strong>Demo — taking a position</strong>",
+      "The teacher chooses Opinion A: military training builds discipline and national pride. Any side is valid — the point is to choose one side and defend it.",
+      "<strong>Levels of evidence (strongest to weakest)</strong>",
+      "Statistics: A survey found that 7 in 10 young men feel fitter after army training.",
+      "Quotations: An officer said, \"Army life taught me to be strong.\"",
+      "News examples: The news showed young men in uniform helping people after the floods.",
+      "Personal anecdotes: My uncle says the army made him fitter."
+    ]
+  }
+}

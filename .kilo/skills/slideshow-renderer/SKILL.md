@@ -326,7 +326,9 @@ Rate each dimension 1-5 and provide pass/fail (pass requires all >= 3).
 If fail, list specific slide IDs with repair actions."""
 
 payload = {
-    "model": "deepseek-chat",
+    # DeepSeek model IDs: use deepseek-v4-flash / deepseek-v4-pro. The legacy
+    # deepseek-chat / deepseek-reasoner names were retired on 2026-07-24.
+    "model": "deepseek-v4-flash",
     "temperature": 0.1,
     "response_format": {"type": "json_object"},
     "messages": [
@@ -580,7 +582,12 @@ Post-processing adds `data-timer="900"` to the section, injects `timer-plugin.js
 ```
 
 ### Matching exercise — auto-animate pair with 2-column grid
-Stems on the left, options on the right. Each option has a consistent `data-id` across both steps. In step 1 options are scrambled; step 2 places them in correct positions. Auto-animate slides each option to its matched row.
+Stems on the left, options on the right. A matching exercise is the **Controlled retrieval practice** stage of a Shape K vocabulary lesson (see `LESSON-SHAPES/shape-k.json`). Each option has a consistent `data-id` across both steps.
+
+- **Step 1 (landing):** the right column lists the option pool in its textbook letter order — a, b, c, d, e … top to bottom — exactly as printed in the book, so students can map letters to stems.
+- **Step 2 (answer):** each option animates to its matched stem and shows the correct letter per stem (e.g. rows read b, d, c, e, a when the key is 1-b, 2-d, 3-c, 4-e, 5-a).
+- Letters: orange `#e67e22` on step 1, green `#2ecc71` on step 2.
+- **NEVER scramble the letter labels on step 1.** The right column must read a, b, c, d, e in order — scrambled letters are a display bug, not a feature.
 
 **Use the helper script** `scripts/matching_exercise.py` to generate matching pairs automatically:
 
@@ -608,11 +615,12 @@ slides += build_matching_pair(
 
 **Manual approach** (if not using the script):
 - Use `auto-animate-pair` layout with two steps
-- Every option gets a stable `data-id="o1"`, `o2`, etc. consistent across both steps
-- Step 1: options scrambled. Step 2: options in correct matching order
+- Every option gets a stable `data-id` by its textbook letter — `o_a`, `o_b`, `o_c` … — identical in both steps so auto-animate slides it to its matched row
+- Step 1: options listed in order (a, b, c, d, e) down the right column — never scrambled
+- Step 2: options in correct matching order; the letter label shows the correct match per stem
 - Stem elements get stable `data-id="s1"`, `s2`, etc.
 - CSS: `font-size:32px`, no bold, left-aligned, `white-space:nowrap`
-- `data-id` values: `o1`–`oN` for options, `s1`–`sN` for stems
+- `data-id` values: `o_a`–`o_N` for options (letter-based), `s1`–`sN` for stems
 
 ### B2 salary slide — use Thai Baht figures
 ```json

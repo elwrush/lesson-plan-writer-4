@@ -1,0 +1,168 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Traditional)",
+    "description": "Traditional productive skills lesson with preparation stages followed by speaking or writing output.",
+    "pedagogical_justification": "Here the focus is on helping learners practice their speaking or writing skills. The lesson can usually be divided into preparation for speaking/writing and speaking/writing task stages.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to [speak/write] about [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to draft a complete for-and-against essay from their plan, using key phrases for listing, adding, and contrasting, and then review and edit their draft.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>09-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Writing)<br><b>Materials:</b><br>Textbook writing workshop pp. 134-137, slideshow, essay topic cards, essay plans<br><b>Assessment:</b><br>Drafted and edited essay<br><b>Skills:</b><br>Writing",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To reactivate lessons 1 and 2 and set the theme: today we write the full essay from our plan",
+          "procedure": [
+            "Show the splash slide. Ask: \"What do you see? Someone writing a draft. What might this lesson be about?\" Let students guess.",
+            "Advance to the title slide: \"Write your essay.\" Confirm the theme: today we write the full for/against essay from our plan.",
+            "Show the \"Why is this lesson important?\" slide and read the bullets aloud.",
+            "Pairs recap: \"What is your position? What are your three strongest ideas?\" Students restate them.",
+            "Point to the Opinion-Reason-Evidence line at the bottom of the slide."
+          ],
+          "time": 3,
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "The introduction",
+          "stage_number": 2,
+          "stage_aim": "To teach the hook-and-question introduction and draft the opening paragraph",
+          "procedure": [
+            "Show the red transition slide: \"The introduction.\"",
+            "Teach the strategy table: ask a question in the first line to hook the reader.",
+            "Reveal the Exercise 1 answers: the model asks \"How do you listen to music?\" and \"So what are the advantages and disadvantages of doing this?\" and mentions the alternative: downloads.",
+            "Exercise 2: students write their own introduction. 5 minutes (timer)."
+          ],
+          "time": 6,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Key phrases: listing and adding",
+          "stage_number": 3,
+          "stage_aim": "To teach the key phrases for listing and adding ideas and find them in the model",
+          "procedure": [
+            "Show the red transition slide: \"Key phrases.\"",
+            "Present the key phrases: listing (First, Second, Finally, Last but not least) and adding (What's more, On top of this, As well as, There's also the fact that).",
+            "Reveal the Exercise 3 gap-fill answers row by row.",
+            "Reveal the Exercise 4 answers: which phrases list ideas and which add information in the model essay."
+          ],
+          "time": 4,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Making a contrast",
+          "stage_number": 4,
+          "stage_aim": "To teach the contrast words and apply them (Exercise 6)",
+          "procedure": [
+            "Show the red transition slide: \"Make a contrast.\"",
+            "Present the contrast words: although, even if, even though, while.",
+            "Run the demo: \"I like streaming, even though I still prefer downloads.\"",
+            "Reveal the Exercise 6 answers row by row."
+          ],
+          "time": 5,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Attitude adverbs",
+          "stage_number": 5,
+          "stage_aim": "To teach attitude adverbs and match them to their meanings (Exercise 7)",
+          "procedure": [
+            "Show the red transition slide: \"Use attitude adverbs.\"",
+            "Teach the strategy: one or two words make a point clear.",
+            "Reveal the Exercise 7 answers row by row. The four adverbs used in the model are obviously, increasingly, personally, and most importantly."
+          ],
+          "time": 4,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Main paragraphs",
+          "stage_number": 6,
+          "stage_aim": "For students to draft the two main paragraphs with key phrases and an attitude adverb (Exercise 8)",
+          "procedure": [
+            "Show the red transition slide: \"Your main paragraphs.\"",
+            "Present the paragraph openers: advantages (Let's start by looking at the advantages) and disadvantages (Turning to the disadvantages).",
+            "Exercise 8: students write their two main paragraphs from their notes. 8 minutes (timer).",
+            "Monitor: key phrases and an attitude adverb appear in both paragraphs."
+          ],
+          "time": 8,
+          "interaction": "S"
+        },
+        {
+          "stage": "The conclusion",
+          "stage_number": 7,
+          "stage_aim": "To teach the conclusion strategies and key phrases and draft the final paragraph (Exercises 9 and 10)",
+          "procedure": [
+            "Show the red transition slide: \"Write your conclusion.\"",
+            "Teach the strategy: repeat your opinion clearly, and show one point from the other side first.",
+            "Present the conclusion key phrases: To sum up, In conclusion, All in all, Overall, All things considered.",
+            "Reveal the Exercise 9 answer: the model uses \"All things considered\" and \"overall\".",
+            "Exercise 10: students write their conclusion. 5 minutes (timer)."
+          ],
+          "time": 6,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Review and edit",
+          "stage_number": 8,
+          "stage_aim": "For students to revise their draft: pronouns, adverbs of degree, and cuts (page 137)",
+          "procedure": [
+            "Show the red transition slide: \"Review and edit.\"",
+            "Teach the repetition strategy: use pronouns instead of repeating words. Reveal the Exercise 1 answers row by row.",
+            "Present the adverbs of degree and reveal the Exercise 3 answers.",
+            "Teach the cuts strategy: remove extra words.",
+            "Students complete the review exercises: check paragraphs, replace repeated words, add adverbs of degree, make cuts, and proofread. 8 minutes (timer)."
+          ],
+          "time": 9,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Wrap-up",
+          "stage_number": 9,
+          "stage_aim": "To consolidate the completed draft and set the final-copy task",
+          "procedure": [
+            "Show the wrap-up slide: \"Your essay is ready.\"",
+            "Students write the corrected final copy for homework.",
+            "Collect the drafts."
+          ],
+          "time": 1,
+          "interaction": "T-Ss"
+        }
+      ]
+    },
+    "note": "For middle schoolers interested in SCR approach to productive skills, see Shape J instead."
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "9 August, 2026",
+    "class_name": "M2",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape F — Productive Skills (Writing)",
+    "topic": "For and against essays: draft, link, and review",
+    "materials": [
+      "Oxford Discover Futures 2, Unit \"Writing workshop: A for and against essay\", pp. 134–137",
+      "Slideshow — Lesson 3: Draft, Link, and Review",
+      "Essay topic cards — each student's assigned topic",
+      "Essay plans — each student's notes from Lesson 2"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to draft a complete for-and-against essay from their plan, using key phrases for listing, adding, and contrasting, and then review and edit their draft.",
+    "subsidiary_aim": "Learners will also be better able to use attitude adverbs to make their points clear and pronouns to avoid repetition.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/writing_M2_for_and_against_lesson_3/index.html",
+    "answer_key": [
+      "<strong>Drafting, Exercise 1 — The introduction (p. 134)</strong>",
+      "The model asks \"How do you listen to music?\" and \"So what are the advantages and disadvantages of doing this?\" The alternative mentioned is downloads: the writer says to forget downloads and just listen to music on streaming services.",
+      "<strong>Exercise 3 — Complete the key phrases (p. 135)</strong>",
+      "1 Second. 2 What's more. 3 On top of this. 4 Last but not least.",
+      "<strong>Exercise 4 — Find the key phrases (p. 135)</strong>",
+      "Listing phrases: First, and most importantly; Second; Finally; first of all; Furthermore; Last but not least. Adding phrases: what's more; On top of this; As well as; There's also the fact that; another argument against them is.",
+      "<strong>Exercise 6 — Complete the contrasts (p. 135)</strong>",
+      "1 \"... while the free service with ads might seem fine at first, obviously they can get very annoying.\" 2 \"... the audio quality is quite poor, although not everyone notices this.\" 3 \"... even though I like the convenience of streaming, to me, it's much better to own the music.\"",
+      "<strong>Exercise 7 — Attitude adverbs (p. 135)</strong>",
+      "1 obviously (everyone knows this), 2 basically (in a clear and simple way), 3 incredibly (really difficult to believe), 4 apparently (heard it, not sure it is true), 5 increasingly (more and more), 6 actually (in fact, it is true), 7 personally (this is my own opinion), 8 most importantly (more important than anything before). The four used in the model are obviously, increasingly, personally, and most importantly.",
+      "<strong>Exercise 9 — The conclusion key phrases (p. 136)</strong>",
+      "The model conclusion uses \"All things considered\" and \"overall\", with the contrast word \"even though\" before the opinion.",
+      "<strong>Exercise 1 — Pronouns (p. 137)</strong>",
+      "1 this refers to streaming music and forgetting downloads. 2 them refers to your playlists. 3 these refers to good Wi-Fi and a big data allowance. 4 which refers to the chance to stream music for free. 5 they refers to the ads. 6 this refers to the poor audio quality. 7 it refers to the music.",
+      "<strong>Exercise 3 — Adverbs of degree (p. 137)</strong>",
+      "1 quite poor describes audio quality. 2 fairly big describes the data allowance. 3 pretty expensive describes streaming services. 4 very annoying describes the ads. 5 incredibly big describes the choice."
+    ]
+  }
+}

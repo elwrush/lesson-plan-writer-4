@@ -1,0 +1,103 @@
+{
+  "title": "Numbers Around School",
+  "setting": "",
+  "characters": [
+    {
+      "name": "Ms. Rivera",
+      "voice_notes": "Warm, encouraging teacher. Clear and patient, a little formal.",
+      "key_line": "\"So the sum of all that homework time must be quite high.\""
+    },
+    {
+      "name": "Leo",
+      "voice_notes": "Young, curious student. Friendly and a little unsure.",
+      "key_line": "\"I put them in a sequence, from smallest to largest, so the data is easier to compare.\""
+    }
+  ],
+  "turns": [
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": "happy",
+      "line": "Hi Leo. How is your numbers project going?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": "nervous",
+      "line": "Quite well, actually. I've been measuring things around school, and I'm starting to see some interesting patterns."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": "curious",
+      "line": "Patterns? Tell me more. What have you found so far?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": null,
+      "line": "Well, the average student spends about an hour on homework every night, which is more than I expected."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": "surprised",
+      "line": "Really? And roughly what percentage of students said that?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": null,
+      "line": "Around sixty percent. The amount of time surprised me too, especially on weekends."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": "calm",
+      "line": "So the sum of all that homework time must be quite high. Did you calculate it?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": null,
+      "line": "Yes, I did. I also checked the probability of rain this weekend, since we're planning a school trip."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": "confident",
+      "line": "Good thinking. Did you measure the classrooms as well?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": null,
+      "line": "Yes. The length of our classroom comes to nine meters, while the width is just seven."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": null,
+      "line": "And the height?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": null,
+      "line": "About three meters, although I had to estimate it from the door frame."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": null,
+      "line": "What about the weight of the sports equipment?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": null,
+      "line": "The football weighs around four hundred grams, though I'd like to check the shot put too."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": "happy",
+      "line": "Great. Have you organized all your numbers?"
+    },
+    {
+      "character": "Leo",
+      "stage_direction": "happy",
+      "line": "Yes. I put them in a sequence, from smallest to largest, so the data is easier to compare."
+    },
+    {
+      "character": "Ms. Rivera",
+      "stage_direction": "happy",
+      "line": "Excellent work, Leo. Your data is complete, and I'm genuinely impressed with your project."
+    }
+  ]
+}

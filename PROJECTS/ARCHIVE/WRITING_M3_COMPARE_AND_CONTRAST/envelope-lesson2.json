@@ -1,0 +1,127 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Traditional)",
+    "description": "Traditional productive skills lesson with preparation stages followed by speaking or writing output.",
+    "pedagogical_justification": "Here the focus is on helping learners practice their speaking or writing skills. The lesson can usually be divided into preparation for speaking/writing and speaking/writing task stages.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to [speak/write] about [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to plan a compare-and-contrast essay by analysing a model, generating ideas, and ordering their strongest points with linking expressions.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>05-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>F (Productive Skills - Writing)<br><b>Materials:</b><br>Textbook writing workshop pp. 132-134, slideshow, essay question cards, planning worksheet<br><b>Assessment:</b><br>Written essay plan (notes and ordered sentences)<br><b>Skills:</b><br>Writing",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To reactivate lesson 1 and set the theme: today we study the model essay and plan our own",
+          "procedure": [
+            "Show the splash slide. Ask: \"What do you see? What might this lesson be about?\" Let students guess.",
+            "Advance to the title slide: \"Learn the shape. Plan your essay.\" Confirm the theme.",
+            "Show the \"Why is this lesson important?\" slide and read the bullets aloud.",
+            "Pairs recap lesson 1: \"What are the four parts of a question? Which side did you choose?\" Point to the Opinion-Reason-Evidence line on the slide."
+          ],
+          "time": 5,
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "The model essay",
+          "stage_number": 2,
+          "stage_aim": "To analyse the four-paragraph structure of the model essay and answer Exercise 1",
+          "procedure": [
+            "Show the red transition slide: \"The model essay.\"",
+            "Display the structure map: introduction, paragraph 2, paragraph 3, conclusion. Point at each paragraph of the model on page 133.",
+            "Read the model essay together.",
+            "Work through Exercise 1 on page 132, one question at a time, revealing each answer on click: the number of paragraphs, the function of each paragraph, the writer's overall opinion, and the two meanings of \"there is no 'I' in team\".",
+            "Teach the comparing and contrasting strategy table: argue each side in turn, then conclude with your preference."
+          ],
+          "time": 12,
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Notes from the model",
+          "stage_number": 3,
+          "stage_aim": "For students to complete the notes comparing team and individual sports (Exercise 2)",
+          "procedure": [
+            "Project the Exercise 2 answer slide.",
+            "Students complete the four notes about team and individual sports using the model essay.",
+            "Reveal the four answers row by row and check understanding of each gap."
+          ],
+          "time": 8,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Brainstorm ideas",
+          "stage_number": 4,
+          "stage_aim": "For pairs to generate positives and negatives for both aspects of their own topic (Exercise 4)",
+          "procedure": [
+            "Show the red transition slide: \"Plan your essay.\"",
+            "Project the Exercise 4 task slide. In pairs, students think of positives and negatives for both aspects of their own essay topic.",
+            "Students write their ideas in the positives/negatives table on the worksheet.",
+            "Monitor and encourage ideas in both columns for both aspects."
+          ],
+          "time": 8,
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Select, order and write",
+          "stage_number": 5,
+          "stage_aim": "For students to choose their strongest ideas, learn the linking expressions, and write sentences to introduce them",
+          "procedure": [
+            "Teach the selecting and ordering strategy: choose the strongest three or four ideas.",
+            "Reveal the Exercise 6 expression matches. Students compare them with the model essay.",
+            "Exercises 5 and 7: students choose their best ideas and write full sentences using the expressions.",
+            "Collect the plans at the end of the stage."
+          ],
+          "time": 11,
+          "interaction": "T-Ss / S"
+        },
+        {
+          "stage": "Wrap-up",
+          "stage_number": 6,
+          "stage_aim": "To consolidate the plan and preview lesson 3: drafting",
+          "procedure": [
+            "Show the wrap-up slide: \"Your plan is ready.\"",
+            "Preview lesson 3: drafting the introduction, body, and conclusion from the plan."
+          ],
+          "time": 2,
+          "interaction": "T-Ss"
+        }
+      ]
+    },
+    "note": "For middle schoolers interested in SCR approach to productive skills, see Shape J instead."
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "5 August, 2026",
+    "class_name": "M3-A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape F — Productive Skills (Writing)",
+    "topic": "Compare and contrast essays: the model essay and planning",
+    "materials": [
+      "Textbook writing workshop — \"A compare and contrast essay\", pp. 132–134 (model essay, Exercises 1–7)",
+      "Slideshow — Lesson 2: The Model Essay and Planning",
+      "Essay question cards — each student's topic from Lesson 1",
+      "Essay planning worksheet — positives/negatives table (Exercise 4)"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to plan a compare-and-contrast essay by analysing a model essay, generating ideas, and ordering their strongest points with linking expressions.",
+    "subsidiary_aim": "Learners will also be better able to identify the four-paragraph structure of an essay and the function of each paragraph.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/writing_M3_compare_and_contrast_lesson_2/index.html",
+    "answer_key": [
+      "<strong>Exercise 1 — Analysing the model essay (p. 132)</strong>",
+      "The model essay has four paragraphs: an introduction, two body paragraphs, and a conclusion.",
+      "The introduction asks the question. Paragraph 2 argues for individual sports. Paragraph 3 argues for team sports. The conclusion gives the writer's opinion.",
+      "The writer's overall opinion is that team sports are better for young people.",
+      "The idiom has two meanings. Literally, the word team has no letter i. Its real meaning is that the team matters more than any one player.",
+      "<strong>Exercise 2 — Notes on team and individual sports (p. 132)</strong>",
+      "Team sports have to be organized with others.",
+      "Individual success is more satisfying.",
+      "Learning to cooperate with others is more valuable.",
+      "Being part of a team can lead to arguments.",
+      "<strong>Exercise 6 — Expressions that mean the same (p. 134)</strong>",
+      "Let's start by looking at means the same as Let's begin with.",
+      "Then there's the fact that means the same as Another point is that.",
+      "In addition means the same as Also.",
+      "What's more means the same as Furthermore.",
+      "Finally means the same as Last but not least.",
+      "To conclude means the same as In conclusion."
+    ]
+  }
+}

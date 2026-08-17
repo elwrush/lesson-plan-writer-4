@@ -1,0 +1,554 @@
+{
+  "book_title": "Oxford Discover Futures 2",
+  "unit_section": "Writing workshop: A for and against essay",
+  "pages": [
+    {
+      "page_number": 132,
+      "section": "Writing workshop / Writing task / Understand the task",
+      "writing_task": {
+        "title": "A for and against essay",
+        "instructions": "Write an essay discussing the advantages and disadvantages of different kinds of technology. Your essay should end with your own opinion, and state if you are for or against using this kind of technology.",
+        "suggested_topics": [
+          "reading books on digital devices",
+          "social media",
+          "studying online",
+          "streaming music",
+          "online gaming",
+          "voice recognition"
+        ]
+      },
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "section_heading": "Understand the task",
+          "type": "Understand the task",
+          "prompt": "Study the writing task. What do you have to do in the essay?",
+          "answer_key": "Discuss the advantages and disadvantages of a chosen technology, end with a personal opinion, and state whether you are for or against using that kind of technology."
+        },
+        {
+          "exercise_number": 2,
+          "section_heading": "Understand the task",
+          "type": "Comprehension",
+          "prompt": "Read the model essay and answer the questions.",
+          "questions": [
+            {
+              "number": 1,
+              "question": "Which topic is the essay about?",
+              "answer_key": "Streaming music."
+            },
+            {
+              "number": 2,
+              "question": "Is the writer for or against the topic? Why?",
+              "answer_key": "Against. The writer prefers downloading because they believe it is much better to own the music you love."
+            }
+          ]
+        },
+        {
+          "exercise_number": 3,
+          "section_heading": "Understand the task",
+          "type": "Comprehension / Analysis",
+          "prompt": "Answer the questions about the model essay.",
+          "questions": [
+            {
+              "number": 1,
+              "question": "How many paragraphs are there?",
+              "answer_key": "4"
+            },
+            {
+              "number": 2,
+              "question": "How does the writer begin paragraphs 2 and 3?",
+              "answer_key": "Paragraph 2 begins with: 'Let's start with the advantages.' Paragraph 3 begins with: 'Turning to the disadvantages,...'"
+            },
+            {
+              "number": 3,
+              "question": "How many advantages are described in paragraph 2?",
+              "answer_key": "4 advantages (listen anywhere on any device without using memory; create and share playlists / get recommendations; choice is enormous; possible to stream for free)."
+            },
+            {
+              "number": 4,
+              "question": "How many disadvantages are described in paragraph 3?",
+              "answer_key": "4 disadvantages (need good Wi-Fi and data allowance / service can be expensive or free service has annoying ads; audio quality can be poor; some artists don't appear / aren't paid much; you don't own the music)."
+            },
+            {
+              "number": 5,
+              "question": "Which points does the conclusion contain: advantages, disadvantages, new information, opinion?",
+              "answer_key": "Advantages ('convenience of streaming') and opinion ('it's much better to own the music you love', 'I still prefer downloads')."
+            }
+          ]
+        }
+      ],
+      "model_essay": {
+        "title": "IS IT TIME TO STOP DOWNLOADING?",
+        "paragraph_1_introduction": "How do you listen to music? Increasingly, the big question is whether to forget downloads and just listen to music on streaming services, which now account for 75% of the music industry's income. So what are the advantages and disadvantages of doing this?",
+        "paragraph_2_advantages": "Let's start with the advantages. First, and most importantly, streaming means you can listen to your favorite songs anywhere, on any device, without using up memory on it. Second, you can create your own playlists, and what's more, share them with friends easily. Another big advantage is that streaming services suggest music to you, which helps you find new bands. On top of this, the choice is absolutely enormous! Finally, it's possible to stream music for free, which is great for young people.",
+        "paragraph_3_disadvantages": "Turning to the disadvantages, first of all you need good Wi-Fi for streaming and a fairly big data allowance. As well as the cost of these, the streaming service itself can be pretty expensive (and while the free service with ads might seem fine at first, obviously they can get very annoying). Furthermore, the audio quality can be quite poor, although not everyone notices this. There's also the fact that some artists don't appear on streaming services, and another argument against them is that they don't pay artists much. Last but not least, when you stream music, unfortunately you don't own it at all.",
+        "paragraph_4_conclusion": "So, all things considered, even though I like the convenience of streaming, to me personally, it's much better to own the music you love. That's why overall, I still prefer downloads."
+      }
+    },
+    {
+      "page_number": 133,
+      "section": "Think and plan",
+      "tips_and_strategies": [
+        {
+          "title": "Writing tip",
+          "content": "Don't decide which topic you are going to write about too quickly. First, ask yourself:\n• Which of the technology topics are you most familiar with?\n• Which have you heard people talk about the most?\n• Which one(s) do you use most often?\n• Which one(s) have you had the most problems with?"
+        },
+        {
+          "title": "Writing strategy: Organizing for and against points",
+          "content": "In a for and against essay, it's easiest to discuss the advantages in one paragraph, and then do the same for the disadvantages in another paragraph."
+        },
+        {
+          "title": "Writing tip",
+          "content": "Before you begin writing, make notes on the essay topic. You can write down nouns or adjectives under \"for\" or \"against.\" This will help you organize your ideas and save time. After taking notes, try cutting as many words as possible from your ideas, leaving only the key information you need. This will help you get into the habit of taking short notes."
+        },
+        {
+          "title": "Writing strategy: Generating ideas",
+          "content": "Before you decide whether you are for or against the topic, think of as many points as possible for each argument. Think of different people you know and their opinions.\nYou can find more ideas by doing online research and choosing the ideas that you think are strongest."
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "type": "Discussion",
+          "prompt": "Study the writing tip and discuss your ideas with a partner.",
+          "answer_key": "Open-ended / Student discussion."
+        },
+        {
+          "exercise_number": 2,
+          "type": "Matching",
+          "prompt": "Study the writing strategy. Match these notes to the different essay topics. Which notes are about advantages? Which are about disadvantages?",
+          "notes": [
+            {"id": "a", "text": "it saves the cutting down of trees"},
+            {"id": "b", "text": "it encourages people to have social interaction"},
+            {"id": "c", "text": "there's a lack of feedback from a teacher"},
+            {"id": "d", "text": "you can meet and play with new people"}
+          ],
+          "answer_key": {
+            "a": {"topic": "reading books on digital devices", "advantage_or_disadvantage": "advantage"},
+            "b": {"topic": "social media", "advantage_or_disadvantage": "advantage"},
+            "c": {"topic": "studying online", "advantage_or_disadvantage": "disadvantage"},
+            "d": {"topic": "online gaming", "advantage_or_disadvantage": "advantage"}
+          }
+        },
+        {
+          "exercise_number": 3,
+          "type": "Note reduction",
+          "prompt": "Study the writing tip. Look at these notes again and try to reduce the words to the number in parentheses, or even less if possible.",
+          "items": [
+            {
+              "original": "it saves the cutting down of trees (4 words)",
+              "handwritten_example": "saves cutting down trees -> saves trees"
+            },
+            {
+              "original": "it encourages people to have social interaction (3 words)",
+              "answer_key": "encourages social interaction"
+            },
+            {
+              "original": "you don't get any feedback from a teacher (4 words)",
+              "answer_key": "no feedback from teacher"
+            },
+            {
+              "original": "you can meet and play with new people (4 words)",
+              "answer_key": "meet/play new people"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 134,
+      "section": "Drafting",
+      "tips_and_strategies": [
+        {
+          "title": "Writing strategy: Selecting and ordering ideas",
+          "content": "There won't be space for more than two or three ideas in each main paragraph. Which ones in your notes make the strongest arguments? Which will be easiest for you to explain?\nDecide the order of your ideas now. Which come after each other most logically? Could any of them be joined into one sentence? You can also decide whether to start each paragraph with the strongest points, or finish it with them."
+        },
+        {
+          "title": "Writing tip",
+          "content": "Use the first paragraph to introduce the topic and get the reader's interest. You can make it personal by asking a question. You could also say why it's important to think about this topic, and what the alternative is to using this kind of technology."
+        },
+        {
+          "title": "Writing strategy: Linking your for and against ideas",
+          "content": "In each of the main paragraphs, you need to use words and phrases that link your ideas together and help the reader to understand your arguments. You can use words and expressions for listing and adding ideas."
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_number": 4,
+          "type": "Tabular planning",
+          "prompt": "Study the writing strategy (Organizing for and against points) on page 133. Write down your arguments in the For or Against column, and then write what another person might say in answer to them. Do some internet research to find other ideas.",
+          "table_headers": ["For (Advantages)", "Against (Disadavantages)"],
+          "answer_key": "Open-ended / Student activity."
+        },
+        {
+          "exercise_number": 5,
+          "type": "Pair work",
+          "prompt": "Work in pairs. Read one column of your arguments to each other. The other person has to make an opposite argument for each point. Did you find any new ideas?",
+          "answer_key": "Open-ended / Student pair activity."
+        },
+        {
+          "exercise_number": 6,
+          "type": "Analysis",
+          "prompt": "Study the writing strategy and answer the questions.",
+          "questions": [
+            {
+              "number": 1,
+              "question": "Which arguments are joined in one sentence in the model essay on page 132?",
+              "answer_key": "In Paragraph 2: 'Second, you can create your own playlists, and what's more, share them with friends easily.' In Paragraph 3: 'There's also the fact that some artists don't appear on streaming services, and another argument against them is that they don't pay artists much.'"
+            },
+            {
+              "number": 2,
+              "question": "Which paragraph begins with the strongest argument?",
+              "answer_key": "Paragraph 2 ('First, and most importantly, streaming means you can listen to your favorite songs anywhere, on any device, without using up memory on it.')"
+            },
+            {
+              "number": 3,
+              "question": "Which paragraph has one of the strongest points at the end?",
+              "answer_key": "Paragraph 3 ('Last but not least, when you stream music, unfortunately you don't own it at all.')"
+            },
+            {
+              "number": 4,
+              "question": "Select and order your notes for each of your two main paragraphs.",
+              "answer_key": "Open-ended / Student planning."
+            }
+          ]
+        },
+        {
+          "exercise_number": 1,
+          "section_heading": "Drafting",
+          "type": "Analysis",
+          "prompt": "Study the writing tip and answer the questions.",
+          "questions": [
+            {
+              "number": 1,
+              "question": "What question is asked in the introduction to the model essay on page 132?",
+              "answer_key": "'How do you listen to music?' and 'So what are the advantages and disadvantages of doing this?'"
+            },
+            {
+              "number": 2,
+              "question": "What alternative to the technology is mentioned?",
+              "answer_key": "Downloads ('forget downloads')."
+            }
+          ]
+        },
+        {
+          "exercise_number": 2,
+          "section_heading": "Drafting",
+          "type": "Writing draft",
+          "prompt": "Write a draft of your introduction.",
+          "answer_key": "Open-ended / Student writing draft."
+        }
+      ]
+    },
+    {
+      "page_number": 135,
+      "section": "Writing strategy / Key phrases",
+      "tips_and_strategies": [
+        {
+          "title": "Writing tip",
+          "content": "When you talk about the disadvantages, you can make a short contrast with an advantage. Use the key phrases."
+        },
+        {
+          "title": "Writing strategy: Using attitude adverbs",
+          "content": "Attitude adverbs (Obviously, Certainly, Most importantly) are an easy way to make a point clear, as they are only one or two words. They also make your writing more interesting."
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_number": 3,
+          "type": "Gap fill / Key phrases",
+          "prompt": "Study the writing strategy on page 134 and look at the key phrases. Complete the blanks with the expressions.",
+          "given_expressions": [
+            "On top of this",
+            "Second",
+            "Last but not least",
+            "What's more"
+          ],
+          "key_phrases_box": {
+            "title": "Key phrases Listing and adding ideas",
+            "column_1": [
+              "First, / First of all,",
+              "1 _______________",
+              "Then there's the question of ...",
+              "Also,",
+              "Another reason why / for / that / ... is",
+              "Another advantage / disadvantage is",
+              "Another argument for / against ... is"
+            ],
+            "column_2": [
+              "Furthermore, / 2 _______________",
+              "Besides this, / 3 _______________",
+              "In addition to ... / As well as ....",
+              "There's also the fact that ....",
+              "Above all, / 4 _______________",
+              "Finally,"
+            ]
+          },
+          "answer_key": {
+            "1": "Second",
+            "2": "What's more",
+            "3": "On top of this",
+            "4": "Last but not least"
+          }
+        },
+        {
+          "exercise_number": 4,
+          "type": "Text identification",
+          "prompt": "Look at the model essay on page 132. Circle the key phrases that list ideas and underline the key phrases that add information.",
+          "answer_key": {
+            "listing_key_phrases": [
+              "First, and most importantly",
+              "Second",
+              "Finally",
+              "first of all",
+              "Furthermore",
+              "Last but not least"
+            ],
+            "adding_key_phrases": [
+              "what's more",
+              "On top of this",
+              "As well as",
+              "There's also the fact that",
+              "another argument against them is"
+            ]
+          }
+        },
+        {
+          "exercise_number": 5,
+          "type": "Application",
+          "prompt": "Look at the notes you made in exercise 4 of Think and plan on page 134. Choose three of the key phrases for listing and adding, and include them in your notes.",
+          "answer_key": "Open-ended / Student writing."
+        },
+        {
+          "exercise_number": 6,
+          "type": "Gap fill",
+          "prompt": "Study the writing tip and the key phrases. Find these contrasts in the model essay on page 132 and complete them.",
+          "key_phrases_box": {
+            "title": "Key phrases Making a contrast",
+            "phrases": [
+              "although ...",
+              "even if ...",
+              "even though ...",
+              "while ..."
+            ]
+          },
+          "items": [
+            {"number": 1, "text": "... 1 _______________ the free service with ads might seem fine at first, obviously they can get very annoying."},
+            {"number": 2, "text": "... the audio quality is quite poor, 2 _______________ not everyone notices this."},
+            {"number": 3, "text": "... 3 _______________ I like the convenience of streaming, to me, it's much better to own the music ...."}
+          ],
+          "answer_key": {
+            "1": "while",
+            "2": "although",
+            "3": "even though"
+          }
+        },
+        {
+          "exercise_number": 7,
+          "type": "Matching & Checkbox",
+          "prompt": "Study the writing strategy. Match the attitude adverbs (1-8) with their definitions (a-h). Check (✓) the ones that are used in the model essay on page 132.",
+          "adverbs": [
+            {"number": 1, "text": "obviously"},
+            {"number": 2, "text": "basically"},
+            {"number": 3, "text": "incredibly"},
+            {"number": 4, "text": "apparently"},
+            {"number": 5, "text": "increasingly"},
+            {"number": 6, "text": "actually"},
+            {"number": 7, "text": "personally"},
+            {"number": 8, "text": "most importantly"}
+          ],
+          "definitions": [
+            {"id": "a", "text": "more and more"},
+            {"id": "b", "text": "this is more important than anything I've said before"},
+            {"id": "c", "text": "this is really difficult to believe"},
+            {"id": "d", "text": "you might not think this is true, but in fact it is"},
+            {"id": "e", "text": "this is my own opinion"},
+            {"id": "f", "text": "to say it in a very clear and simple way"},
+            {"id": "g", "text": "I've heard this, but I don't know if it's definitely true"},
+            {"id": "h", "text": "everyone knows this"}
+          ],
+          "answer_key": {
+            "1": {"match": "h", "checked_in_model": true},
+            "2": {"match": "f", "checked_in_model": false},
+            "3": {"match": "c", "checked_in_model": false},
+            "4": {"match": "g", "checked_in_model": false},
+            "5": {"match": "a", "checked_in_model": true},
+            "6": {"match": "d", "checked_in_model": false},
+            "7": {"match": "e", "checked_in_model": true},
+            "8": {"match": "b", "checked_in_model": true}
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 136,
+      "section": "Writing workshop / A for and against essay",
+      "tips_and_strategies": [
+        {
+          "title": "Writing strategy: Introducing for and against paragraphs",
+          "content": "To make it clear what each of your main paragraphs are about, introduce it with one of these expressions.",
+          "key_phrases": {
+            "introducing_the_advantages": [
+              "Let's start by looking at the advantages.",
+              "On the plus side, ....",
+              "On the one hand, ...."
+            ],
+            "introducing_the_disadvantages": [
+              "Now let's look at some of the disadvantages of ....",
+              "Turning to the disadvantages, ....",
+              "On the other hand, ...."
+            ]
+          }
+        },
+        {
+          "title": "Writing strategy: Writing a conclusion",
+          "content": "Your conclusion should be a short final paragraph that repeats one or two of the most important points to you and concludes with a clear statement of your opinion.",
+          "key_phrases": {
+            "introducing_your_conclusion": [
+              "To sum up, ....",
+              "In conclusion, ....",
+              "All in all, ....",
+              "Overall, ....",
+              "All things considered, ...."
+            ]
+          }
+        },
+        {
+          "title": "Writing tip",
+          "content": "Your conclusion should sum up the whole argument, so it helps to include one of the opposite points of view before you give your own opinion. Use one of the key phrases for making a contrast (although, even if, even though, while). Which opposite point of view is mentioned in the conclusion of the model essay?"
+        },
+        {
+          "title": "Writing tip (Review and edit)",
+          "content": "Avoid repetition when you refer back to something you said earlier, e.g.,\nYou can play your songs on any device, without using up memory on the device.\nYou can do this by using pronouns such as:\nit  this  that  these  those  them  which\nE.g., You can play your songs on any device, without using up memory on it."
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_number": 8,
+          "type": "Drafting",
+          "prompt": "Study the writing strategy and look at the key phrases. Now write a draft of your two main paragraphs, using your notes. Remember to include some attitude adverbs and some key phrases for:\n• introducing each paragraph\n• listing and adding points\n• making a contrast",
+          "answer_key": "Open-ended / Student writing draft."
+        },
+        {
+          "exercise_number": 9,
+          "type": "Analysis",
+          "prompt": "Study the writing strategy about writing an essay conclusion. Which key phrases are used in the model essay on page 132?",
+          "answer_key": "'All things considered' and 'overall'."
+        },
+        {
+          "exercise_number": 10,
+          "type": "Drafting",
+          "prompt": "Study the key phrases and the writing tip. Then write a draft of your conclusion.",
+          "answer_key": "Open-ended / Student writing draft."
+        }
+      ]
+    },
+    {
+      "page_number": 137,
+      "section": "Review and edit / Final check",
+      "tips_and_strategies": [
+        {
+          "title": "Writing tip",
+          "content": "Use adverbs of degree with adjectives to make your writing more interesting.\na little -> quite -> fairly -> pretty -> very -> extremely -> incredibly"
+        },
+        {
+          "title": "Final check / Writing strategy: Making cuts",
+          "content": "If your essay is too long, look for things you can cut without losing any important arguments. If you can't cut things, can you find ways to say the same thing in fewer words?\nIf necessary, take a break and then try to make more cuts. You can often see new ways to make cuts after a break!"
+        },
+        {
+          "title": "Writing tip",
+          "content": "Read your essay aloud as a final check. Do all the arguments in it make sense? Reading aloud can also help you to see if some information is missing."
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "type": "Pronoun reference",
+          "prompt": "Study the writing tip on page 136. Find these lines in the model essay on page 132. What do the highlighted pronouns refer to?",
+          "items": [
+            {"number": 1, "line": "So what are the advantages and disadvantages of doing this?", "highlighted_word": "this"},
+            {"number": 2, "line": "...and what's more, share them with friends easily.", "highlighted_word": "them"},
+            {"number": 3, "line": "As well as the cost of these, ...", "highlighted_word": "these"},
+            {"number": 4, "line": "... which is great for young people.", "highlighted_word": "which"},
+            {"number": 5, "line": "..., obviously they can get very annoying.", "highlighted_word": "they"},
+            {"number": 6, "line": "..., although not everyone notices this.", "highlighted_word": "this"},
+            {"number": 7, "line": "..., unfortunately you don't own it at all.", "highlighted_word": "it"}
+          ],
+          "answer_key": {
+            "1": "just listening to music on streaming services / forgetting downloads and streaming music",
+            "2": "(your own) playlists",
+            "3": "good Wi-Fi for streaming and a fairly big data allowance",
+            "4": "the fact that it's possible to stream music for free",
+            "5": "ads / the free service with ads",
+            "6": "that the audio quality can be quite poor",
+            "7": "music (when you stream it)"
+          }
+        },
+        {
+          "exercise_number": 2,
+          "type": "Editing",
+          "prompt": "Read through and edit your draft essay. Try to use pronouns where you have repeated things.",
+          "answer_key": "Open-ended / Student editing activity."
+        },
+        {
+          "exercise_number": 3,
+          "type": "Matching",
+          "prompt": "Study the writing tip. Match the adverbs of degree and adjectives with the things they referred to in the model essay on page 132. Then look at the essay to check.",
+          "left_column": [
+            {"number": 1, "text": "quite poor"},
+            {"number": 2, "text": "fairly big"},
+            {"number": 3, "text": "pretty expensive"},
+            {"number": 4, "text": "very annoying"},
+            {"number": 5, "text": "incredibly big"}
+          ],
+          "right_column": [
+            {"id": "a", "text": "ads"},
+            {"id": "b", "text": "streaming services"},
+            {"id": "c", "text": "choice"},
+            {"id": "d", "text": "audio quality"},
+            {"id": "e", "text": "data allowance"}
+          ],
+          "answer_key": {
+            "1": "d (audio quality)",
+            "2": "e (data allowance)",
+            "3": "b (streaming services)",
+            "4": "a (ads)",
+            "5": "c (choice)"
+          }
+        },
+        {
+          "exercise_number": 4,
+          "type": "Editing",
+          "prompt": "Find adjectives in your essay and add some adverbs of degree before them.",
+          "answer_key": "Open-ended / Student editing activity."
+        },
+        {
+          "exercise_number": 5,
+          "type": "Editing",
+          "prompt": "Read through your first draft and check that all your ideas are in the correct paragraph. Make sure that you haven't repeated any ideas.",
+          "answer_key": "Open-ended / Student self-check activity."
+        },
+        {
+          "exercise_number": 1,
+          "section_heading": "Final check",
+          "type": "Editing",
+          "prompt": "Study the writing strategy and try to make cuts in your essay where possible.",
+          "answer_key": "Open-ended / Student editing activity."
+        },
+        {
+          "exercise_number": 2,
+          "section_heading": "Final check",
+          "type": "Proofreading",
+          "prompt": "Study the writing tip. Read your essay aloud to check that it all makes sense. Then look through it carefully and use the list below to check spelling and punctuation.",
+          "checklist": [
+            "Look for spelling mistakes, checking in a dictionary or using a spellchecker.",
+            "Does every new sentence begin with a capital letter?",
+            "Does each sentence end with a period, question mark, or exclamation mark?",
+            "Have you used commas where necessary (e.g., after listing words and attitude adverbs)?"
+          ],
+          "answer_key": "Open-ended / Student proofreading checklist."
+        }
+      ]
+    }
+  ]
+}

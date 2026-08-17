@@ -1,0 +1,59 @@
+{
+  "name": "Shape K - Vocabulary Development (Retrieval-Focused)",
+  "description": "Vocabulary lesson built on the research consensus: words are presented explicitly in context, then met repeatedly through spaced retrieval practice and varied input before generative productive use.",
+  "pedagogical_justification": "Research on L2 vocabulary instruction converges on four principles that this shape operationalises.\n\n(1) Selection: teach high-frequency, useful words (Nation, 2017; Nation & Waring, 1997). Words chosen should be learnable as a word family (stem + inflected/derived forms) so that affix knowledge multiplies the repetitions available (Bauer & Nation, 1993).\n\n(2) Explicit first meeting in context: an efficient initial encounter (brief meaning, form, pronunciation, phonemic script) gives learners something to retrieve later. Isolated word lists are inferior; words should be presented in a meaning-rich context and connected to known words or cognates (Alizadeh, 2016; Nation, 2017; Nisbet & Tindall, 2015).\n\n(3) Retrieval and spacing: retrieval (recalling a form or meaning rather than re-reading it) strengthens the form-meaning link, and spaced repetition beats massed repetition for long-term retention (Kim & Webb, 2022 meta-analysis, 98 effect sizes; Nation, 2017). In-class retrieval activities (word cards, gap-fill, matching) set up the learner to meet the word again.\n\n(4) Varied meetings and generative use: meeting a word in new contexts and using it productively deepens processing. Deeper task-induced involvement (need, search, evaluation) predicts stronger learning (Laufer & Hulstijn, 2001; Kim, 2011). A productive stage that forces use of the target words converts receptive knowledge into productive knowledge (Nation, 2017).\n\nThe shape therefore moves: Lead-in (context) → Explicit presentation (M/F/P in context) → Controlled retrieval practice → Varied input meeting (reading/listening where the words recur) → Generative use (freer productive task) → Recycling (spaced retrieval of the words for a later lesson). Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will be better able to use [target vocabulary] to [function] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to use a set of film vocabulary items (blockbuster, cast, plot, scene, soundtrack, special effects, trailer, screenplay) to describe and discuss films they have seen.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>K (Vocabulary Development)<br><b>Materials:</b><br>Student Book page 122, slideshow, audio track, vocabulary word cards<br><b>Assessment:</b><br>Retrieval game scores, generative task observation<br><b>Systems:</b><br>Vocabulary\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate schema and set the film context",
+        "procedure": "- Display three film stills (sci-fi, action, drama) on PP. In pairs, Ss name the genre and say one thing they know about each type of film. 2 min. Feedback.\n- Ask: What makes a film good? Elicit ideas (story, actors, music, explosions). Write ideas on the board.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Explicit presentation (meaning, form, pronunciation)",
+        "stage_number": 2,
+        "stage_aim": "To present target vocabulary clearly in context",
+        "procedure": "- Display the 8 target words in a table: word + phonemic script + context sentence. E.g. blockbuster /ˈblɒkbʌstə/: 'That new superhero film was a huge blockbuster.'\n- Model pronunciation. Drill chorally and individually.\n- Elicit/check meaning with concept-checking questions (What does a 'cast' include? Is a 'scene' long or short?).\n- Draw attention to form: 'screen' + 'play' = screenplay. Which of these are compound words? 1 min.\n",
+        "time": 8,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Controlled retrieval practice",
+        "stage_number": 3,
+        "stage_aim": "To retrieve form and meaning under controlled conditions",
+        "procedure": "- Activity 1 (receptive retrieval): Ss match word cards to definitions on their desks. Self-check against answers on PP. 2 min.\n- Activity 2 (productive retrieval): Ss close books. Display L1 translations or pictures one at a time; Ss say the English word and write it on mini whiteboards. Reveal spelling after each. 3 min.\n- Language feedback on spelling and pronunciation.\n",
+        "time": 6,
+        "interaction": "Ind / T-Ss"
+      },
+      {
+        "stage": "Varied meeting through input",
+        "stage_number": 4,
+        "stage_aim": "To meet the target words again in new contexts while listening",
+        "procedure": "- Ss open books to page 122. Explain they will listen to a short film review containing the target words in new contexts.\n- Play the audio once. Ss tick the words they hear. 3 min. Pair check.\n- Play again. Ss answer two gist questions (Is the review positive? What type of film is it?). 3 min. Feedback.\n",
+        "time": 7,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Generative use",
+        "stage_number": 5,
+        "stage_aim": "To use the target vocabulary productively in a freer task",
+        "procedure": "- In pairs, Ss choose a film they both know. They must use at least 5 of the target words to describe it (plot, cast, soundtrack, special effects...). 4 min.\n- Pairs join into groups of four and compare. Each pair reports one film using the words. 4 min.\n- Content feedback first, then language feedback on target word use.\n",
+        "time": 12,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Recycling and wrap-up",
+        "stage_number": 6,
+        "stage_aim": "To consolidate and set up spaced retrieval for the next lesson",
+        "procedure": "- Quick-fire retrieval round: teacher says a definition, Ss say the word. 8 items, 2 min.\n- Tell Ss the same words will reappear in next lesson's warm-up (spaced retrieval).\n- Exit question: Which word was most useful for you? Why? 1 min.\n",
+        "time": 9,
+        "interaction": "T-Ss"
+      }
+    ]
+  }
+}

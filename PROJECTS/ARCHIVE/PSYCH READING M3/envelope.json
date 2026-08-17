@@ -1,0 +1,153 @@
+{
+  "shape": {
+    "name": "Receptive Skills — Reading",
+    "description": "A differentiated reading lesson built around news articles on technology and the brain, with a grammar entry ticket, a choose-your-level reading task, and a structured opinion-writing finale.",
+    "pedagogical_justification": "The lesson opens with a timed grammar entry ticket to consolidate the target structures before the main input. Students choose their reading level (B1, B2, or C1), which keeps every learner in their zone of proximal development. Key blocking vocabulary is pre-taught with a 3-click reveal, and the main B2 text is supported by an audio read-along. The lesson closes with a 70-word opinion response scaffolded by an Opinion–Reason–Evidence structure, so reading feeds directly into writing.",
+    "main_aim_format": "By the end, students will [read and understand a differentiated text].",
+    "example_lesson_plan": {
+      "header": "Receptive Skills — Reading<br>What's tech doing to your brain?",
+      "stages": [
+        {
+          "stage": "Grammar entry ticket",
+          "stage_number": 1,
+          "stage_aim": "Complete the grammar entry ticket and check the answers as a class.",
+          "procedure": [
+            "Hand out the grammar entry ticket. Show the red \"Grammar Entry Ticket\" slide and start the 4-minute timer.",
+            "Students complete the 15 questions (Parts A–C) on their papers.",
+            "When the timer ends, go through the answers one section at a time: Part A (Questions 1–5), Part B (Questions 6–13), Part C (Questions 14–15). Collect the papers."
+          ],
+          "time": "6 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Lead-in: How do you use your phone?",
+          "stage_number": 2,
+          "stage_aim": "Activate students' ideas about their own screen habits.",
+          "procedure": [
+            "Show the splash slide (the BBC image). Ask: \"What do you see? What might this lesson be about?\" Let students speculate freely.",
+            "Advance to the title slide: \"What's tech doing to your brain?\" Confirm the theme.",
+            "Open-class discussion: \"How much time do you spend on your phone? What do you do first when you wake up? Do you ever scroll without thinking?\" Point to the Opinion — Reason — Evidence label that will structure the final writing task."
+          ],
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Choose your text",
+          "stage_number": 3,
+          "stage_aim": "Preview the three differentiated texts and let students choose their reading level.",
+          "procedure": [
+            "Show the red \"Choose Your Text\" transition and the three level cards: B2 \"The hidden dangers of doomscrolling\" (main group with the teacher), B1 \"Roblox: A child-friendly game with a dark side\", C1 \"The truth about brain rot\".",
+            "Preview one representative paragraph from each text (three excerpt slides).",
+            "Students choose their level. The B2 group stays with the teacher (20 copies available). B1 and C1 readers move into their own groups, work together outside the main group, and will mark their own answers."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss / groups"
+        },
+        {
+          "stage": "Vocabulary pre-teach",
+          "stage_number": 4,
+          "stage_aim": "Pre-teach five words from the B2 text that block comprehension.",
+          "procedure": [
+            "Show the red transition \"Let's check your word knowledge\".",
+            "Present each word with the 3-click reveal: phonemic script, then the word, then a context sentence. Words: doomscrolling, onslaught, sedentary, trigger, hypervigilant.",
+            "Do NOT teach \"abstinence\" — it is tested in Question 5 of the reading."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Main task: listen and read",
+          "stage_number": 5,
+          "stage_aim": "Listen to the narrated B2 text while following along, then answer the questions.",
+          "procedure": [
+            "Direct the groups: \"B2 readers stay with the class. B1 and C1 readers work in your groups.\"",
+            "Play the B2 audio (about 4 minutes). Students follow the text on their worksheets.",
+            "Students answer the ten questions (nine multiple-choice and one summary). B1 and C1 groups read their own texts silently and answer their own questions."
+          ],
+          "time": "10 min",
+          "interaction": "Ss / groups"
+        },
+        {
+          "stage": "Check answers",
+          "stage_number": 6,
+          "stage_aim": "Self-check answers and understand why each answer is correct.",
+          "procedure": [
+            "Show the red \"Check Your Answers\" transition. B2 students check together; B1 and C1 groups mark their own answers with the printed answer guides.",
+            "Show the B2 answer key slide (Questions 1–9) and run the 60-second timer for self-marking.",
+            "Go through each multiple-choice question one at a time (one slide per question) with the question, answer, explanation, and transcript evidence. Review the Question 10 summary marking guidance (2 / 1 / 0 points)."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Writing task: 70-word response",
+          "stage_number": 7,
+          "stage_aim": "Write a structured 70-word opinion response using evidence from the text.",
+          "procedure": [
+            "Show the O-R-E structure slide: Opinion, Reason, Evidence (yellow label). Model the example with the class.",
+            "Show the writing task slide: \"Do you think technology is affecting your brain? Write a 70-word response.\"",
+            "Students write their own response using their opinion, a reason, and evidence from their text (B2, B1, or C1). Collect the responses at the end of the lesson."
+          ],
+          "time": "8 min",
+          "interaction": "Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "14 August, 2026",
+    "class_name": "M3A",
+    "duration_minutes": 46,
+    "cefr_level": "B2 (with B1 and C1 challenge)",
+    "lesson_shape": "Receptive Skills — Reading",
+    "topic": "What's tech doing to your brain?",
+    "materials": [
+      "B2 focus reading: \"The Hidden Dangers of Doomscrolling\" (adapted from Harvard Health Publishing, 2024) — article + 10 questions (9 multiple-choice + 1 summary)",
+      "B1 reading: \"Roblox: A Child-Friendly Game with a Dark Side\" (adapted from The Guardian, 14 April 2025) — 8 questions, self-marking",
+      "C1 reading: \"The truth about brain rot, according to science\" (adapted from Science News, June 2026) — 11 questions, self-marking",
+      "Slideshow: What's tech doing to your brain? (36 slides)",
+      "Audio: B2 text narrated (b2-text.mp3)",
+      "Worksheet: B2 reading questions 1–10",
+      "Grammar entry ticket: 15 questions (Parts A–C)",
+      "B1 and C1 printed answer guides for self-marking"
+    ],
+    "main_aim": "By the end of the lesson, students will be able to read and understand a news article about technology and the brain, and answer multiple-choice comprehension questions at their chosen level (B1, B2, or C1).",
+    "subsidiary_aim": "Students will practise listening while reading, expand vocabulary for discussing digital wellbeing, and write a short 70-word opinion response using evidence from their text.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/PSYCH_READING_M3/",
+    "answer_key": [
+      "<strong>Grammar Entry Ticket — Part A (Questions 1–5)</strong>",
+      "1. A — Sarah must have stayed up late last night (modal perfect for a past deduction).",
+      "2. C — If we had left earlier, we wouldn't have missed the train (third conditional).",
+      "3. C — She told me she would travel the following week (reported speech backshift).",
+      "4. D — By next month, we will have finished the entire project (future perfect).",
+      "5. C — The new mall, which opened in June, is already crowded (non-defining relative clause).",
+      "<strong>Grammar Entry Ticket — Part B (Questions 6–13)</strong>",
+      "6. A — \"have\" must change to \"has\" (subject–verb agreement with an indefinite pronoun).",
+      "7. A — \"The meeting was over, everyone left…\" needs \"After the meeting was over\" or a full stop (comma splice).",
+      "8. B — \"informations\" must be \"information\" (uncountable noun).",
+      "9. D — \"acomodation\" must be \"accommodation\" (spelling).",
+      "10. B — \"have increased\" must change to \"has increased\" (subject–verb agreement with the head noun).",
+      "11. B — \"equipments\" must be \"equipment\" (uncountable noun).",
+      "12. B — \"its\" must change to \"it's\" (apostrophe).",
+      "13. D — \"goverment\" must be \"government\" (spelling).",
+      "<strong>Grammar Entry Ticket — Part C (Questions 14–15)</strong>",
+      "14. A — \"No sooner the bell rang\" needs inversion: \"No sooner had the bell rung\" (inversion after a negative adverbial).",
+      "15. C — \"would be playing\" completes the mixed conditional.",
+      "<strong>B2 Reading (Questions 1–9)</strong>",
+      "1. D — Mood and fulfilment tend to drop the more people scroll. The research review found that doomscrolling is linked to worse mental well-being and lower life satisfaction.",
+      "2. A — The August 2024 study found that constant scrolling deepens fears about life itself; the habit raises existential anxiety.",
+      "3. D — The main idea of paragraph 6 is that research keeps finding that doomscrolling harms mental health.",
+      "4. B — The writer quotes the doctors to explain why people feel pushed to keep scrolling, such as stress and the urge to keep going.",
+      "5. C — \"Abstinence\" means giving something up completely; cutting back is not about abstinence but about decreasing reliance.",
+      "6. B — People who have lived through violence often keep reading bad news even as it harms them, because the exposure acts as a trigger and makes their anxiety worse.",
+      "7. A — The steady flow of distressing stories feeds the habit; the more you scroll, the more you feel you need to.",
+      "8. C — The writer would agree that people can follow world events while protecting their peace of mind.",
+      "9. A — The 2023 review drew on more adults (about 1,200) than the August 2024 study (800).",
+      "<strong>B2 Reading — Question 10 (Summary, up to 50 words)</strong>",
+      "2 points: Restates the advice (cut back rather than stop completely; build digital and social boundaries) AND names one specific strategy from the passage (e.g. keeping the phone away from the bed, switching the screen to grayscale, or choosing local news).",
+      "1 point: Correct advice but no specific strategy.",
+      "0 points: Wrong claim or no passage reference."
+    ]
+  }
+}

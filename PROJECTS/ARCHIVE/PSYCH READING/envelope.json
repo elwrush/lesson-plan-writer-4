@@ -1,0 +1,148 @@
+{
+  "shape": {
+    "name": "Receptive Skills — Reading",
+    "description": "A differentiated reading lesson built around news articles on technology and the brain, with a grammar entry ticket, a choose-your-level reading task, and a structured opinion-writing finale.",
+    "pedagogical_justification": "The lesson opens with a timed grammar entry ticket to consolidate the target structures before the main input. Students choose their reading level (B1, B2, or C1), which keeps every learner in their zone of proximal development. Key blocking vocabulary is pre-taught with a 3-click reveal, and the main B1 text is supported by an audio read-along. The lesson closes with a 70-word opinion response scaffolded by an Opinion–Reason–Evidence structure, so reading feeds directly into writing.",
+    "main_aim_format": "By the end, students will [read and understand a differentiated text].",
+    "example_lesson_plan": {
+      "header": "Receptive Skills — Reading<br>What's tech doing to your brain?",
+      "stages": [
+        {
+          "stage": "Grammar entry ticket",
+          "stage_number": 1,
+          "stage_aim": "Complete the grammar entry ticket and check the answers as a class.",
+          "procedure": [
+            "Hand out the grammar entry ticket. Show the red \"Grammar Entry Ticket\" slide and start the 4-minute timer.",
+            "Students complete the 15 questions (Parts A–C) on their papers.",
+            "When the timer ends, go through the answers one section at a time: Part A (Questions 1–5), Part B (Questions 6–13), Part C (Questions 14–15). Collect the papers."
+          ],
+          "time": "6 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Lead-in: How do you use your phone?",
+          "stage_number": 2,
+          "stage_aim": "Activate students' ideas about their own screen habits.",
+          "procedure": [
+            "Show the splash slide (the BBC image). Ask: \"What do you see? What might this lesson be about?\" Let students speculate freely.",
+            "Advance to the title slide: \"What's tech doing to your brain?\" Confirm the theme.",
+            "Open-class discussion: \"How much time do you spend on your phone? What do you do first when you wake up? Do you ever scroll without thinking?\" Point to the Opinion — Reason — Evidence label that will structure the final writing task."
+          ],
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Choose your text",
+          "stage_number": 3,
+          "stage_aim": "Preview the three differentiated texts and let students choose their reading level.",
+          "procedure": [
+            "Show the red \"Choose Your Text\" transition and the three level cards: B1 \"Roblox: A child-friendly game with a dark side\" (main group with the teacher), B2 \"The hidden dangers of doomscrolling\", C1 \"The truth about brain rot\".",
+            "Preview one representative paragraph from each text (three excerpt slides).",
+            "Students choose their level. The B1 group stays with the teacher (20 copies available). B2 and C1 readers move into their own groups, work together outside the main group, and will mark their own answers."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss / groups"
+        },
+        {
+          "stage": "Vocabulary pre-teach",
+          "stage_number": 4,
+          "stage_aim": "Pre-teach five words from the B1 text that block comprehension.",
+          "procedure": [
+            "Show the red transition \"Let's check your word knowledge\".",
+            "Present each word with the 3-click reveal: phonemic script, then the word, then a context sentence. Words: harmless, disturbing, fictional, suitable, addicted.",
+            "Do NOT teach \"verification\" — it is tested in Question 5 of the reading."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Main task: listen and read",
+          "stage_number": 5,
+          "stage_aim": "Listen to the narrated B1 text while following along, then answer the eight questions.",
+          "procedure": [
+            "Direct the groups: \"B1 readers stay with the class. B2 and C1 readers work in your groups.\"",
+            "Play the B1 audio (about 3 minutes). Students follow the text on their worksheets.",
+            "Students answer the eight multiple-choice questions. B2 and C1 groups read their own texts silently and answer their own questions."
+          ],
+          "time": "10 min",
+          "interaction": "Ss / groups"
+        },
+        {
+          "stage": "Check answers",
+          "stage_number": 6,
+          "stage_aim": "Self-check answers and understand why each answer is correct.",
+          "procedure": [
+            "Show the red \"Check Your Answers\" transition. B1 students check together; B2 and C1 groups mark their own answers with the printed answer guides.",
+            "Show the B1 answer key slide and run the 60-second timer for self-marking.",
+            "Go through each question one at a time (one slide per question) with the question, answer, explanation, and transcript evidence."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Writing task: 70-word response",
+          "stage_number": 7,
+          "stage_aim": "Write a structured 70-word opinion response using evidence from the text.",
+          "procedure": [
+            "Show the O-R-E structure slide: Opinion, Reason, Evidence (yellow label). Model the example with the class.",
+            "Show the writing task slide: \"Do you think technology is affecting your brain? Write a 70-word response.\"",
+            "Students write their own response using their opinion, a reason, and evidence from their text (B1, B2, or C1). Collect the responses at the end of the lesson."
+          ],
+          "time": "8 min",
+          "interaction": "Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "14 August, 2026",
+    "class_name": "M2A",
+    "duration_minutes": 46,
+    "cefr_level": "B1 (with B2 and C1 challenge)",
+    "lesson_shape": "Receptive Skills — Reading",
+    "topic": "What's tech doing to your brain?",
+    "materials": [
+      "B1 focus reading: \"Roblox: A Child-Friendly Game with a Dark Side\" (adapted from The Guardian, 14 April 2025) — article + 8 multiple-choice questions",
+      "B2 reading: \"The Hidden Dangers of Doomscrolling\" (adapted from Harvard Health Publishing, 2024) — 10 questions, self-marking",
+      "C1 reading: \"The truth about brain rot, according to science\" (adapted from Science News, June 2026) — 11 questions, self-marking",
+      "Slideshow: What's tech doing to your brain? (34 slides)",
+      "Audio: B1 text narrated (b1-text.mp3)",
+      "Worksheet: B1 reading questions 1–8",
+      "Grammar entry ticket: 15 questions (Parts A–C)",
+      "B2 and C1 printed answer guides for self-marking"
+    ],
+    "main_aim": "By the end of the lesson, students will be able to read and understand a news article about technology and the brain, and answer multiple-choice comprehension questions at their chosen level (B1, B2, or C1).",
+    "subsidiary_aim": "Students will practise listening while reading, expand vocabulary for discussing digital wellbeing, and write a short 70-word opinion response using evidence from their text.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/PSYCH_READING/",
+    "answer_key": [
+      "<strong>Grammar Entry Ticket — Part A (Questions 1–5)</strong>",
+      "1. A — Mark has lived in Bangkok since 2020 (present perfect for a situation that continues).",
+      "2. C — At nine o'clock, Sarah was washing the dishes when the lights went out (past continuous for an action in progress).",
+      "3. B — If it rains this afternoon, the farmers will be happy (first conditional).",
+      "4. D — That must be her mother calling (modal deduction).",
+      "5. A — The new stadium is far bigger than the old one (comparative with modifier).",
+      "<strong>Grammar Entry Ticket — Part B (Questions 6–13)</strong>",
+      "6. C — \"sit\" must change to \"sits\" (subject–verb agreement).",
+      "7. B — \"park\" must change to \"parks\" (plural marking).",
+      "8. A — \"The weather was hot, we decided…\" needs \"Because the weather was hot\" or a full stop (comma splice).",
+      "9. D — \"tomorow\" must be \"tomorrow\" (spelling).",
+      "10. A — \"is\" must change to \"are\" (there are many restaurants).",
+      "11. B — \"advices\" must be \"advice\" (uncountable noun).",
+      "12. B — \"its\" must change to \"it's\" (apostrophe).",
+      "13. D — \"seperate\" must be \"separate\" (spelling).",
+      "<strong>Grammar Entry Ticket — Part C (Questions 14–15)</strong>",
+      "14. C — \"leave\" must change to \"have left\" (modal perfect).",
+      "15. C — \"had avoided\" completes the third conditional.",
+      "<strong>B1 Reading (Questions 1–8)</strong>",
+      "1. B — Over 85 million people played Roblox daily. The company reports more than 85 million players every day, about 40% of them under 13.",
+      "2. C — Adults could message even the youngest accounts. Even the five-year-old fake account could chat with adults.",
+      "3. D — The writer's purpose is to show how easily children meet danger there. The experiment details reveal dangers behind the friendly look.",
+      "4. C — The fixes still leave children exposed to strangers. The new safety features do not go far enough.",
+      "5. A — \"Verification\" means checking that information is true and correct.",
+      "6. D — Players can get around voice-chat protection without much difficulty; the report says the AI measures are easy to avoid.",
+      "7. B — An adult can easily pretend to be a child because there is no real age check.",
+      "8. A — The writer is critical of the company's efforts so far; the company must do far more."
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "shape": {
+    "name": "Shape K - Vocabulary Development (Retrieval-Focused)",
+    "description": "Vocabulary lesson built on the research consensus: words are presented explicitly in context, then met repeatedly through spaced retrieval practice and varied input before generative productive use.",
+    "pedagogical_justification": "Research on L2 vocabulary instruction converges on four principles that this shape operationalises.\n\n(1) Selection: teach high-frequency, useful words (Nation, 2017; Nation & Waring, 1997).\n\n(2) Explicit first meeting in context: an efficient initial encounter (brief meaning, form, pronunciation, phonemic script) gives learners something to retrieve later (Alizadeh, 2016; Nation, 2017).\n\n(3) Retrieval and spacing: retrieval strengthens the form-meaning link, and spaced repetition beats massed repetition for long-term retention (Kim & Webb, 2022; Nation, 2017).\n\n(4) Varied meetings and generative use: meeting a word in new contexts and using it productively deepens processing (Laufer & Hulstijn, 2001; Kim, 2011).\n\nThe lesson opens with a retrieval diagnostic (entry ticket) that sets the learning agenda and feeds the recycling stage.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to use [target vocabulary] to [function] in the context of [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to use a set of education vocabulary items (allow, assessment, assignments, ban, behavior, bullying, required, educate, grades, work experience) to discuss and compare schools.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>16-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>K (Vocabulary Development)<br><b>Materials:</b><br>Oxford Discover Futures 2, Unit 6 (Discover vocabulary), p. 122, slideshow, dialog audio, entry ticket worksheet<br><b>Assessment:</b><br>Entry ticket scores, retrieval activities, generative task observation<br><b>Systems:</b><br>Vocabulary",
+      "stages": [
+        {
+          "stage": "Entry ticket (retrieval diagnostic)",
+          "stage_number": 1,
+          "stage_aim": "To retrieve current vocabulary knowledge and set the learning agenda",
+          "procedure": [
+            "Hand out the Vocabulary Levels Test (20 items, A2-B2). Set the 5-minute timer on the entry-ticket slide.",
+            "Students complete the test individually.",
+            "Display the answer slides (1-10, 11-20). Students swap and mark. Collect scores for feedback."
+          ],
+          "time": "8 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Lead-in",
+          "stage_number": 2,
+          "stage_aim": "To activate schema and set the school context",
+          "procedure": [
+            "Show the splash slide. Ask: What do you see? Where are these people? Let students speculate.",
+            "Advance to the title slide: How do you talk about school? Confirm the theme.",
+            "In pairs, students discuss: What makes a good school? Anchor the Opinion-Reason-Evidence structure."
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Explicit presentation (meaning, form, pronunciation)",
+          "stage_number": 3,
+          "stage_aim": "To present the ten target words clearly in context",
+          "procedure": [
+            "Display the ten target words one at a time (phonemic script, then word, then context sentence).",
+            "Model pronunciation. Drill chorally and individually.",
+            "Elicit and check meaning with concept-checking questions (e.g. If the teacher allows phones, can you use them? Is a required subject optional?).",
+            "Draw attention to form: continuous assessment and work experience are two-word phrases."
+          ],
+          "time": "7 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Varied meeting through input",
+          "stage_number": 4,
+          "stage_aim": "To meet the target words again in new contexts while listening",
+          "procedure": [
+            "Present the Predict strategy (Do / Why / How) and try the demo.",
+            "Play the School Open Evening dialog once. Students listen for gist: What is Mr. Harris choosing? Check the answer.",
+            "Play the dialog again. Students answer four detail questions (teaching, grades, phones, work experience). Check answers.",
+            "Point out the target words as they recur in the dialog (assessment, allow, ban, bullying, behavior, work experience)."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Controlled retrieval practice",
+          "stage_number": 5,
+          "stage_aim": "To retrieve form and meaning under controlled conditions",
+          "procedure": [
+            "Exercise 1 (p. 122): students complete the conversation with the ten target words. 6-minute timer. Self-check against answer slides.",
+            "Exercise 2 (p. 122): true or false for you? Students share in pairs. 3-minute timer.",
+            "Exercise 3 (p. 122): adjective + preposition combinations. 5-minute timer. Check answers.",
+            "Exercise 4 (p. 122): match the sentence halves (ways to learn). 4-minute timer. Animate the matching answers."
+          ],
+          "time": "10 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Generative use",
+          "stage_number": 6,
+          "stage_aim": "To use the target vocabulary productively in a freer task",
+          "procedure": [
+            "In pairs, students discuss: What makes a good school? Should schools ban phones during lessons? What is the best way to learn English?",
+            "They must use at least five target words (allow, ban, grades, behavior, work experience...). 5-minute timer.",
+            "Use the Opinion-Reason-Evidence scaffold. Pairs report one idea to the class.",
+            "Content feedback first, then language feedback on target word use."
+          ],
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Recycling and wrap-up",
+          "stage_number": 7,
+          "stage_aim": "To consolidate and set up spaced retrieval for the next lesson",
+          "procedure": [
+            "Quick-fire retrieval round: the teacher says a definition, students say the word. 8 items.",
+            "Tell students the same words will reappear in next lesson's warm-up (spaced retrieval).",
+            "Exit question: Which word was most useful for you? Why?"
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "16 August, 2026",
+    "class_name": "M2",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape K - Vocabulary Development (Retrieval-Focused)",
+    "topic": "Education vocabulary - school life",
+    "materials": [
+      "Oxford Discover Futures 2, Unit 6 (Discover vocabulary), p. 122",
+      "Slideshow: M2 Education Vocabulary (https://elwrush.github.io/lesson-plan-writer/M2-VOCAB/index.html)",
+      "Audio: School Open Evening dialog (Ms. Clark and Mr. Harris)",
+      "Entry ticket: Vocabulary Levels Test - M2 (20 questions) with answer key"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to use ten education vocabulary items (allow, assessment, assignments, ban, behavior, bullying, required, educate, grades, work experience) to discuss and compare schools in the context of school life.",
+    "subsidiary_aim": "Learners will also have practiced listening for gist and detail in a school open evening conversation, and consolidated adjective + preposition combinations and ways-to-learn phrases from the unit.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M2-VOCAB/index.html",
+    "transcript": "PROJECTS/M2-VOCAB/transcript.json",
+    "answer_key": [
+      "<strong>Entry ticket - Vocabulary Levels Test</strong>",
+      "See the answer key on the last page of the handout: 1-D, 2-B, 3-A, 4-A, 5-B, 6-C, 7-A, 8-C, 9-C, 10-C, 11-D, 12-B, 13-B, 14-D, 15-C, 16-D, 17-A, 18-A, 19-D, 20-B.",
+      "<strong>Listening - School Open Evening</strong>",
+      "Gist: Mr. Harris is choosing a school for his son.",
+      "Detail 1: The school teaches with small classes and plenty of discussion.",
+      "Detail 2: A student's grade comes from continuous assessment - work from the whole year.",
+      "Detail 3: Students can use phones at break time; they are banned during lessons.",
+      "Detail 4: In the final year, students do work experience - three weeks in a real workplace.",
+      "<strong>Exercise 1 - Complete the conversation</strong>",
+      "1. educate - My parents wanted to educate me at home.",
+      "2. grades - I don't get very good grades.",
+      "3. bullying - I was a victim of bullying for a while.",
+      "4. behavior - Their behavior changed completely.",
+      "5. required - It's a required subject, along with math and English.",
+      "6. assessment - We also have continuous assessment.",
+      "7. assignments - We have to complete two assignments every week.",
+      "8. allow - The teachers sometimes allow us to use them for quizzes.",
+      "9. ban - Some schools ban them completely.",
+      "10. work experience - We do six weeks' work experience.",
+      "<strong>Exercise 3 - Adjective + preposition</strong>",
+      "1. Allie was covered in paint.",
+      "2. I used to be scared of flying. (or: nervous about)",
+      "3. Joe's very good at dancing.",
+      "4. I'm worried about falling over. (or: nervous about)",
+      "5. The room was full of people.",
+      "6. I'm scared of snakes!",
+      "7. I was impressed with the way you answered her question.",
+      "8. Were you upset about losing your phone?",
+      "<strong>Exercise 4 - Match the sentence halves</strong>",
+      "1. I figured out how to fix my bike by watching a video tutorial. (b)",
+      "2. I experimented with different approaches, and this process of trial and error was very helpful. (d)",
+      "3. I got together with some friends, and we shared tips about study skills. (c)",
+      "4. I prioritized the information I needed to know and concentrated on learning it. (e)",
+      "5. I memorized the new vocabulary by repeating it aloud several times. (a)"
+    ]
+  }
+}

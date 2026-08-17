@@ -28,3 +28,25 @@
 - Source: Real-audio clone (60s, from 44s mark) of Helen Mirren reading a fairy tale by Terry Jones
 - Tone: Warm, expressive, elegant storyteller; natural rhythm
 - Created: 2026-08-03
+
+## RCrowe-adult-Aus-celeb
+- Voice ID: 0f00fb73c0c94c6182ed994193dd7ce7
+- Age: Adult, Gender: Male, Region: Australian
+- Source: Real-audio clone (60s, 12:02–13:02) from YouTube https://www.youtube.com/watch?v=embQ1r9udaI
+- Tone: Natural celebrity interview voice; conversational
+- Created: 2026-08-16
+
+## scolbert-us-male-celeb
+- Voice ID: ecd51fc992bf4a2d9a4b1d1c7aadcfb8
+- Age: Adult, Gender: Male, Region: US
+- Source: Real-audio clone (78s, 19:02–20:20) from YouTube https://www.youtube.com/watch?v=1p9Hx43P5yE
+- Tone: Celebrity talk-show host; conversational
+- Created: 2026-08-16
+
+## london-boy
+- Voice ID: 311190e1caec4042962da2f9d6eb810a
+- Age: Young, Gender: Male, Region: London (UK)
+- Source: Real-audio clone (70s) from AUDIO_SAMPLES/London_boy.mp3
+- Tone: Youthful London voice; natural conversational
+- Created: 2026-08-16
+- Used for: M3-VOCAB "Numbers Around School" dialog (student Leo)

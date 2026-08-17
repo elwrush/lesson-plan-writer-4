@@ -1,0 +1,370 @@
+{
+  "title": "M3 Numbers & Numeracy Vocabulary",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How well do you know your numbers?",
+      "body": "Let's find out.",
+      "notes": "Greet students. Ask: Where do you see numbers every day? What do they tell you?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Numbers appear in news, shopping, and sport.</li><li>These words help you read data and talk about it.</li><li>You can use them in exams and real conversations.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "entry-ticket-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Entry Ticket &mdash; Vocabulary Test",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the test on your paper.</p><p style=\"font-size:38px;color:#fff;margin:0\">Answer all 20 questions. You have 5 minutes.</p>",
+      "notes": "Students complete the 20-question Vocabulary Levels Test handout. Timer pill: 5 minutes (300 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "entry-ticket-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.et{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.et td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.et .num{color:#ffdd00;font-weight:700;min-width:30px}.et .ltr{color:#2ecc71;font-weight:900;min-width:34px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Entry Ticket &mdash; Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"et\"><tr><td class=\"num\">1</td><td class=\"ltr\">D</td><td>become less hot</td></tr><tr><td class=\"num\">2</td><td class=\"ltr\">A</td><td>put in danger</td></tr><tr><td class=\"num\">3</td><td class=\"ltr\">A</td><td>coming</td></tr><tr><td class=\"num\">4</td><td class=\"ltr\">A</td><td>enthusiasm</td></tr><tr><td class=\"num\">5</td><td class=\"ltr\">C</td><td>stock</td></tr><tr><td class=\"num\">6</td><td class=\"ltr\">B</td><td>sacred</td></tr><tr><td class=\"num\">7</td><td class=\"ltr\">D</td><td>wraps up</td></tr><tr><td class=\"num\">8</td><td class=\"ltr\">C</td><td>actors</td></tr><tr><td class=\"num\">9</td><td class=\"ltr\">D</td><td>steep rock</td></tr><tr><td class=\"num\">10</td><td class=\"ltr\">B</td><td>valuable thing</td></tr></table>",
+      "notes": "Answers 1-10. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "entry-ticket-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.et{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.et td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.et .num{color:#ffdd00;font-weight:700;min-width:30px}.et .ltr{color:#2ecc71;font-weight:900;min-width:34px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Entry Ticket &mdash; Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Continue</span> marking.</p><table class=\"et\"><tr><td class=\"num\">11</td><td class=\"ltr\">B</td><td>mental science</td></tr><tr><td class=\"num\">12</td><td class=\"ltr\">B</td><td>temporary</td></tr><tr><td class=\"num\">13</td><td class=\"ltr\">C</td><td>wager</td></tr><tr><td class=\"num\">14</td><td class=\"ltr\">A</td><td>wickedness</td></tr><tr><td class=\"num\">15</td><td class=\"ltr\">C</td><td>wait</td></tr><tr><td class=\"num\">16</td><td class=\"ltr\">D</td><td>housing</td></tr><tr><td class=\"num\">17</td><td class=\"ltr\">B</td><td>connect</td></tr><tr><td class=\"num\">18</td><td class=\"ltr\">A</td><td>cutting edge</td></tr><tr><td class=\"num\">19</td><td class=\"ltr\">D</td><td>clapped</td></tr><tr><td class=\"num\">20</td><td class=\"ltr\">C</td><td>replacement</td></tr></table>",
+      "notes": "Answers 11-20. Continue marking."
+    },
+    {
+      "layout": "content",
+      "id": "recall-numbers",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Think about numbers",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Where do you see numbers every day?</p><p style=\"font-size:38px;color:#fff;margin:0 0 22px 0\">Talk to your partner.</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss for 2 minutes. Elicit ideas: prices, sport scores, timetables, weather, phone numbers."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "notes": "Transition to vocabulary presentation. Say: These are words for numbers and measurements. We will learn ten of them."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-amount",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/əˈmaʊnt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">amount</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The amount of sugar in this cake is surprisingly high. I counted four cups in the recipe.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is the amount of sugar a number or a feeling?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-average",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈævərɪdʒ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">average</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The average temperature in July here is thirty degrees. Most days stay around that mark.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is the average the biggest number or the typical number?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-length",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/leŋθ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">length</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The length of the swimming pool is twenty-five meters. Swimmers cover it in a few strokes.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Does length measure how long or how wide something is?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-height",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/haɪt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">height</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The height of that tower is over three hundred meters. It dominates the whole skyline.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is the height measured from top to bottom?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-width",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/wɪdθ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">width</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The width of the river here is about fifty meters. It narrows further upstream.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is the width measured from side to side?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-weight",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/weɪt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">weight</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The weight of the luggage was over the limit. The airline charged us extra.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Do we measure weight in meters or in kilos?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-probability",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˌprɒbəˈbɪləti/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">probability</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The probability of winning the lottery is extremely low. You should not rely on it.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is probability about how likely or how big something is?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-percentage",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/pəˈsentɪdʒ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">percentage</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">A large percentage of students walk to school. Around eighty percent of them do.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is a percentage a part of one hundred?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-sequence",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈsiːkwəns/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">sequence</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Put the numbers in the correct sequence. Start with one, then two, then three.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is a sequence an ordered list of items?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-sum",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/sʌm/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">sum</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">The sum of two and three is five. Just add them together.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is the sum the result of adding or subtracting?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-listen",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Numbers Around School",
+      "notes": "Transition to listening. Say: We will listen to a teacher and a student talking about a numbers project."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Predict what the student will say.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It helps your brain focus.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the title. Think of topics.</td></tr></table>",
+      "notes": "Say: The title is Numbers Around School. A student talks about his project. What might he mention? Predict first, then listen."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A student talks about his weekend.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which numbers might he mention?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The price of his new trainers.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His favourite movie's plot.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The distance he cycled.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His friend's opinion of him.</td></tr></table>",
+      "notes": "Ask students to predict which numbers a student might mention. Click to reveal the checkmarks."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A student talks about his weekend.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which numbers might he mention?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The price of his new trainers.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His favourite movie's plot.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The distance he cycled.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His friend's opinion of him.</td></tr></table>",
+      "notes": "Revealed: price and distance make sense. The plot and an opinion are not numbers."
+    },
+    {
+      "layout": "raw",
+      "id": "gist-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen &mdash; Gist</h2><p style=\"color:#fff;text-align:center;font-size:38px;max-width:700px;margin:0 auto\">What is Leo doing?</p><div style=\"text-align:center;margin-top:24px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog once. Students listen for the gist only: What is Leo doing? Answer: a survey project about numbers."
+    },
+    {
+      "layout": "content",
+      "id": "gist-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Gist — Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">What is Leo doing?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">He is doing a survey project about numbers.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">He measures things and asks students about homework.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">\u201cI've been measuring things around school.\u201d</td></tr></table>",
+      "notes": "Confirm the gist. Leo is collecting data for a survey project."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen again</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:16px\">Answer the questions.</p><div style=\"max-width:840px;margin:0 auto\"><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">1. How long does the average student spend on homework?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">2. What percentage of students said that?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">3. What are the classroom measurements?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">4. How does Leo organize his numbers?</p></div><div style=\"text-align:center;margin-top:16px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog again. Students answer the four detail questions. Then go through the answer slides."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (1/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1. How long does the average student spend on homework?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">About an hour every night &mdash; that's the average.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Leo found the average was higher than he expected.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">\u201cThe average student spends about an hour on homework every night.\u201d</td></tr></table>",
+      "notes": "Check the answer. Point out the word average from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (2/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2. What percentage of students said that?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Around sixty percent.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Most of the students Leo asked agreed.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">\u201cAround sixty percent.\u201d</td></tr></table>",
+      "notes": "Check the answer. Point out the word percentage from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (3/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">3. What are the classroom measurements?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Nine meters long, seven meters wide, and about three meters high.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Leo measured the length, width, and height himself.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">\u201cThe length of our classroom comes to nine meters, while the width is just seven.\u201d</td></tr></table>",
+      "notes": "Check the answer. Point out length, width, and height from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (4/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">4. How does Leo organize his numbers?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">He puts them in a sequence, from smallest to largest.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Ordering the data makes it easier to compare.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">\u201cI put them in a sequence, from smallest to largest.\u201d</td></tr></table>",
+      "notes": "Check the answer. Point out the word sequence from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "ex1-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 1 &mdash; Page 120",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Label the images with numbers and measurements words.</p><p style=\"font-size:38px;color:#fff;margin:0\">Use the ten words.</p>",
+      "notes": "Students complete Exercise 1 from the book. Timer pill: 5 minutes (300 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex1-table{border-collapse:collapse;margin:8px auto;max-width:820px;width:100%}.ex1-table td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:32px;vertical-align:top}.ex1-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex1-table .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex1-table\"><tr class=\"fragment\"><td class=\"num\">1</td><td><span class=\"ans\">height</span> &mdash; vertical arrow</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td><span class=\"ans\">width</span> &mdash; horizontal arrow</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td><span class=\"ans\">sequence</span> &mdash; 1, 1, 2, 3, 5, 8, 13</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td><span class=\"ans\">length</span> &mdash; ruler</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td><span class=\"ans\">amount</span> &mdash; receipt price (90 c)</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td><span class=\"ans\">sum</span> &mdash; receipt total ($7.49)</td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td><span class=\"ans\">probability</span> &mdash; rain chance (20%)</td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td><span class=\"ans\">average</span> &mdash; line graph curve</td></tr><tr class=\"fragment\"><td class=\"num\">9</td><td><span class=\"ans\">percentage</span> &mdash; percent sign (%)</td></tr><tr class=\"fragment\"><td class=\"num\">10</td><td><span class=\"ans\">weight</span> &mdash; kitchen scale</td></tr></table>",
+      "notes": "Each click reveals the next row."
+    },
+    {
+      "layout": "content",
+      "id": "ex2-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 2 &mdash; Page 120",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the questions.</p><p style=\"font-size:38px;color:#fff;margin:0\">Then research the answers.</p>",
+      "notes": "Students complete Exercise 2 in pairs (research questions). Timer pill: 5 minutes (300 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex2-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex2-table{border-collapse:collapse;margin:8px auto;max-width:860px;width:100%}.ex2-table td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:31px;vertical-align:top}.ex2-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex2-table .ans{color:#ffdd00;font-weight:700}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Exercise 2 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex2-table\"><tr class=\"fragment\"><td class=\"num\">1</td><td><span class=\"ans\">length</span> of the Great Wall &mdash; about 21,196 km</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td><span class=\"ans\">height</span> and <span class=\"ans\">width</span> of a soccer goal &mdash; 2.44 m x 7.32 m</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td><span class=\"ans\">probability</span> of rolling a five &mdash; 1 in 6 (about 16.67%)</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td><span class=\"ans\">weight</span> of an adult human brain &mdash; about 1.3 to 1.4 kg</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td><span class=\"ans\">amount</span> of sugar in a can of Coke &mdash; about 39 grams</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td><span class=\"ans\">percentage</span> of the world that is male &mdash; about 50.4%</td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td><span class=\"ans\">average</span> age of the world's population &mdash; about 30-31 years</td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td>next number in the <span class=\"ans\">sequence</span> 2, 3, 5, 7, 11, 13, 17 &mdash; <span class=\"ans\">19</span></td></tr></table>",
+      "notes": "Each click reveals the next row. Students research and check."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-verbprep",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:720px;width:100%}.vt td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:12px\">Verb + preposition</h2><table class=\"vt\"><tr><td>appear in</td><td>insist on</td></tr><tr><td>arrive at</td><td>occur in</td></tr><tr><td>apply to</td><td>provide with</td></tr><tr><td>belong to</td><td>search for</td></tr></table>",
+      "notes": "New vocabulary before Exercise 3. Elicit each phrase's meaning; do not write definitions on screen. Quick examples: This belongs to me. I'm searching for my keys."
+    },
+    {
+      "layout": "content",
+      "id": "ex3-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 3 &mdash; Page 120",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the sentences.</p><p style=\"font-size:38px;color:#fff;margin:0\">Use verb + preposition phrases.</p>",
+      "notes": "Students complete Exercise 3 (verb + preposition). Timer pill: 4 minutes (240 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex3-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex3-table{border-collapse:collapse;margin:8px auto;max-width:860px;width:100%}.ex3-table td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.ex3-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex3-table .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Exercise 3 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex3-table\"><tr class=\"fragment\"><td class=\"num\">1</td><td>Dad <span class=\"ans\">insisted on</span> paying for everyone.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>Scientists have been <span class=\"ans\">searching for</span> a cure for flu.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>Brown eyes <span class=\"ans\">occur in</span> a majority of the world's population.</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>The rules <span class=\"ans\">apply to</span> everyone.</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>Who does this jacket <span class=\"ans\">belong to</span>?</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>Which movies has your favourite actor <span class=\"ans\">appeared in</span>?</td></tr></table>",
+      "notes": "Each click reveals the next row."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-money",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.vt{border-collapse:collapse;margin:15px auto;max-width:760px;width:100%}.vt td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:12px\">Money and budgeting</h2><table class=\"vt\"><tr><td>afford</td><td>debt</td><td>lend</td></tr><tr><td>allowance</td><td>earn</td><td>sale</td></tr><tr><td>bargain</td><td>budget</td><td>save</td></tr><tr><td>borrow</td><td>cost</td><td>spend</td></tr></table>",
+      "notes": "New vocabulary before Exercise 4. Elicit meaning: afford (have enough money), allowance (money from parents), debt (money you owe), borrow vs lend, bargain (cheap deal), budget (spending plan)."
+    },
+    {
+      "layout": "content",
+      "id": "ex4-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 4 &mdash; Page 120",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete 1&ndash;6 with money and budgeting words.</p><p style=\"font-size:38px;color:#fff;margin:0\">Read the dialogues first.</p>",
+      "notes": "Students complete Exercise 4 (money and budgeting). Timer pill: 5 minutes (300 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex4-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex4-table{border-collapse:collapse;margin:8px auto;max-width:860px;width:100%}.ex4-table td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.ex4-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex4-table .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Exercise 4 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex4-table\"><tr class=\"fragment\"><td class=\"num\">1</td><td>whether they can <span class=\"ans\">afford</span> to take a taxi</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>how much she can <span class=\"ans\">lend</span></td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>they're talking about a <span class=\"ans\">debt</span></td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>they're talking about an <span class=\"ans\">allowance</span></td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>they're talking about a <span class=\"ans\">budget</span></td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>they're talking about a <span class=\"ans\">sale</span></td></tr></table>",
+      "notes": "Each click reveals the next row."
+    },
+    {
+      "layout": "content",
+      "id": "ex5-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 5 &mdash; Page 120",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Choose the correct words.</p><p style=\"font-size:38px;color:#fff;margin:0\">Are the sentences true for you?</p>",
+      "notes": "Students complete Exercise 5. Timer pill: 3 minutes (180 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "ex5-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex5-table{border-collapse:collapse;margin:8px auto;max-width:860px;width:100%}.ex5-table td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.ex5-table .num{color:#ffdd00;font-weight:700;min-width:30px}.ex5-table .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Exercise 5 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex5-table\"><tr class=\"fragment\"><td class=\"num\">1</td><td>I <span class=\"ans\">earn</span> money by doing jobs around the house.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>I love going to the <span class=\"ans\">sales</span> to look for <span class=\"ans\">bargains</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>I don't <span class=\"ans\">spend</span> much money on music each month.</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>I <span class=\"ans\">save</span> about $20 every month.</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>I get an <span class=\"ans\">allowance</span> of $100 every month.</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>The shoes I'm wearing today <span class=\"ans\">cost</span> more than $60.</td></tr></table>",
+      "notes": "Each click reveals the next row. Ask: Are these sentences true for you?"
+    },
+    {
+      "layout": "content",
+      "id": "freer-discussion",
+      "step": 1,
+      "background_color": "#4a235a",
+      "title": "Talk with your partner",
+      "body": "<p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">How much money do you spend each week?</p><p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">Should students get a regular allowance?</p><p style=\"font-size:36px;color:#fff;margin:0 0 16px 0\">What is the average price of a school lunch?</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think students should save part of their allowance.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is it teaches them to budget.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, the dialog shows Leo collecting data.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Timer pill: 5 minutes (300 seconds). Students discuss using the numbers and money vocabulary. Use Opinion-Reason-Evidence."
+    },
+    {
+      "layout": "content",
+      "id": "conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Questions?",
+      "body": "Any questions about what we've learned today?",
+      "notes": "Wrap up. Ask: What ten number words can you use now? What did Leo measure?"
+    }
+  ]
+}

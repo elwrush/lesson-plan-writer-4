@@ -1,0 +1,316 @@
+{
+  "title": "M2 For and Against — Lesson 3",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Write your essay.",
+      "body": "Key phrases make it flow.",
+      "notes": "Ask: what do you think this lesson is about? Today we write the full essay from our plan."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Key phrases guide the reader through your ideas.</li><li>Attitude words make your points clear.</li><li>Editing turns a good draft into a great essay.</li></ul>",
+      "notes": "Frame: readers follow clear writing. Examiners reward organised essays."
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Pair Talk",
+      "body": "What is your position on your topic?<br><br>What are your three strongest ideas?<br><br>Tell your partner.<br><br><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Recap lesson 2: the plan. Students restate their position and strongest ideas."
+    },
+    {
+      "layout": "content",
+      "id": "transition-intro",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "The introduction"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-intro",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Hook the reader",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Ask a question in the first line.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It makes the reader curious.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Mention the alternative too.</td></tr></table>",
+      "notes": "Page 134, Writing tip. The essay answers the question it asks."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-intro-q",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 134, Drafting — Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which question is asked in the introduction?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>\"How do you listen to music?\" and \"So what are the advantages and disadvantages of doing this?\"</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The question asks about the topic and previews both sides.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"How do you listen to music? Increasingly, the big question is whether to forget downloads...\"</td></tr></table>",
+      "notes": "Students find the questions on page 132 first."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-intro-alt",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 134, Drafting — Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>What alternative to the technology is mentioned?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>Downloads.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The writer says to forget downloads and just stream.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"whether to forget downloads and just listen to music on streaming services\"</td></tr></table>",
+      "notes": "The introduction names the alternative to the technology."
+    },
+    {
+      "layout": "content",
+      "id": "task-intro",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 134, Drafting — Exercise 2",
+      "body": "<span class=\"box-word\">Write</span> your introduction.<br><br>Ask the question. Mention the alternative.",
+      "notes": "Five minutes. Timer starts automatically."
+    },
+    {
+      "layout": "content",
+      "id": "transition-keyphrases",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Key phrases"
+    },
+    {
+      "layout": "content",
+      "id": "key-phrases-listing",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Key phrases: Listing and adding ideas",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Listing</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">First, / First of all, / Second, / Finally, / Last but not least,</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Adding</td><td style=\"padding:8px 0\">What's more, / On top of this, / As well as, / There's also the fact that,</td></tr></table>",
+      "notes": "Page 135, Key phrases. Use one phrase to start each new point."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-keyphrases",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 135, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Complete the key phrases.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1</td><td><strong>Second</strong></td></tr><tr class=\"fragment\"><td class=\"lbl\">2</td><td><strong>What's more</strong></td></tr><tr class=\"fragment\"><td class=\"lbl\">3</td><td><strong>On top of this</strong></td></tr><tr class=\"fragment\"><td class=\"lbl\">4</td><td><strong>Last but not least</strong></td></tr></table>",
+      "notes": "Reveal row by row. These phrases list and add ideas."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-keyphrases-model",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 135, Exercise 4</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Find the key phrases in the model essay.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Listing</td><td>First, and most importantly / Second / Finally / first of all / Furthermore / Last but not least</td></tr><tr class=\"fragment\"><td class=\"lbl\">Adding</td><td>what's more / On top of this / As well as / There's also the fact that / another argument against them is</td></tr></table>",
+      "notes": "Page 132 model. Listing phrases order the points; adding phrases bring in more."
+    },
+    {
+      "layout": "content",
+      "id": "transition-contrast",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Make a contrast"
+    },
+    {
+      "layout": "content",
+      "id": "key-phrases-contrast",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Key phrases: Making a contrast",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Words</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">although, even if, even though, while</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Use</td><td style=\"padding:8px 0\">Show the other side before your point.</td></tr></table>",
+      "notes": "Page 135, Writing tip. Make a short contrast when you talk about the disadvantages."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-contrast",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Choose the contrast word",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Choose the contrast word</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">I like streaming ______ I still prefer downloads.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#ffdd00\">Which word fits?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">even though</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">despite</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">because</td></tr></table>",
+      "notes": "Ask: which word shows a contrast? Then click."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-contrast",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Choose the contrast word",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Choose the contrast word</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">I like streaming ______ I still prefer downloads.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#ffdd00\">Which word fits?</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">even though</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">despite</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">because</td></tr></table>",
+      "notes": "Even though shows the contrast. Despite needs a noun. Because gives a reason."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-contrast",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 135, Exercise 6</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Complete the contrasts from the model essay.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1</td><td>... <strong>while</strong> the free service with ads might seem fine at first, obviously they can get very annoying.</td></tr><tr class=\"fragment\"><td class=\"lbl\">2</td><td>... the audio quality is quite poor <strong>although</strong> not everyone notices this.</td></tr><tr class=\"fragment\"><td class=\"lbl\">3</td><td>... <strong>even though</strong> I like the convenience of streaming, to me, it's much better to own the music.</td></tr></table>",
+      "notes": "Reveal row by row. All three show the other side before the main point."
+    },
+    {
+      "layout": "content",
+      "id": "transition-adverbs",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Use attitude adverbs"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-adverbs",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Use attitude adverbs",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Add one or two words to make a point clear.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The reader knows how you feel.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Try: obviously, personally, most importantly.</td></tr></table>",
+      "notes": "Page 135, Writing strategy. Short words make writing more interesting."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-adverbs",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 135, Exercise 7</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Match the adverbs. The ones in the model have a check.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1 obviously ✓</td><td>everyone knows this</td></tr><tr class=\"fragment\"><td class=\"lbl\">2 basically</td><td>in a clear and simple way</td></tr><tr class=\"fragment\"><td class=\"lbl\">3 incredibly</td><td>really difficult to believe</td></tr><tr class=\"fragment\"><td class=\"lbl\">4 apparently</td><td>heard it, not sure it is true</td></tr><tr class=\"fragment\"><td class=\"lbl\">5 increasingly ✓</td><td>more and more</td></tr><tr class=\"fragment\"><td class=\"lbl\">6 actually</td><td>in fact, it is true</td></tr><tr class=\"fragment\"><td class=\"lbl\">7 personally ✓</td><td>this is my own opinion</td></tr><tr class=\"fragment\"><td class=\"lbl\">8 most importantly ✓</td><td>more important than anything before</td></tr></table>",
+      "notes": "Reveal row by row. The four checked adverbs appear in the model essay."
+    },
+    {
+      "layout": "content",
+      "id": "transition-body",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Your main paragraphs"
+    },
+    {
+      "layout": "content",
+      "id": "key-phrases-intro",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Introducing your paragraphs",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Advantages</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Let's start by looking at the advantages. / On the plus side,</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Disadvantages</td><td style=\"padding:8px 0\">Turning to the disadvantages, / On the other hand,</td></tr></table>",
+      "notes": "Page 136, Writing strategy. Open each main paragraph clearly."
+    },
+    {
+      "layout": "content",
+      "id": "task-body",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 136, Exercise 8",
+      "body": "<span class=\"box-word\">Write</span> your two main paragraphs.<br><br>Use key phrases. Add an attitude adverb.",
+      "notes": "Eight minutes. Timer starts automatically. Monitor: key phrases and adverbs in both paragraphs."
+    },
+    {
+      "layout": "content",
+      "id": "transition-conclusion",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Write your conclusion"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: End with your opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Repeat your opinion clearly.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The reader remembers your choice.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Show one point from the other side first.</td></tr></table>",
+      "notes": "Page 136, Writing strategy and tip. Use a contrast word before your opinion."
+    },
+    {
+      "layout": "content",
+      "id": "key-phrases-conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Key phrases: Your conclusion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Start</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">To sum up, / In conclusion, / All in all, / Overall, / All things considered,</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Before your opinion</td><td style=\"padding:8px 0\">Make a short contrast: although / even though / while</td></tr></table>",
+      "notes": "Page 136, Key phrases. The conclusion sums up, then gives the opinion."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-conclusion",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 136, Exercise 9</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which key phrases does the conclusion use?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>\"All things considered\" and \"overall\".</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The conclusion repeats an advantage, then gives the opinion.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"So, all things considered, even though I like the convenience of streaming, to me personally, it's much better to own the music you love.\"</td></tr></table>",
+      "notes": "The model uses the contrast word even though before the opinion."
+    },
+    {
+      "layout": "content",
+      "id": "task-conclusion",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 136, Exercise 10",
+      "body": "<span class=\"box-word\">Write</span> your conclusion.<br><br>Give your opinion. Use a key phrase.",
+      "notes": "Five minutes. Timer starts automatically."
+    },
+    {
+      "layout": "content",
+      "id": "transition-review",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Review and edit"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-pronouns",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Avoid repetition",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Use pronouns instead of repeating words.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Your writing flows better.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Use it, this, them, which.</td></tr></table>",
+      "notes": "Page 136, Writing tip. Refer back with pronouns, not repeated nouns."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-pronouns",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 137, Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>What do the pronouns refer to?</td></tr><tr class=\"fragment\"><td class=\"lbl\">1 this</td><td>streaming music / forgetting downloads</td></tr><tr class=\"fragment\"><td class=\"lbl\">2 them</td><td>your playlists</td></tr><tr class=\"fragment\"><td class=\"lbl\">3 these</td><td>good Wi-Fi and a big data allowance</td></tr><tr class=\"fragment\"><td class=\"lbl\">4 which</td><td>the chance to stream music for free</td></tr><tr class=\"fragment\"><td class=\"lbl\">5 they</td><td>the ads</td></tr><tr class=\"fragment\"><td class=\"lbl\">6 this</td><td>the poor audio quality</td></tr><tr class=\"fragment\"><td class=\"lbl\">7 it</td><td>the music</td></tr></table>",
+      "notes": "Reveal row by row. Pronouns stop the repetition."
+    },
+    {
+      "layout": "content",
+      "id": "key-phrases-degree",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Adverbs of degree",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Stronger</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">incredibly, extremely, very</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Middle</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">pretty, fairly, quite</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Weak</td><td style=\"padding:8px 0\">a little</td></tr></table>",
+      "notes": "Page 137, Writing tip. Order: a little, quite, fairly, pretty, very, extremely, incredibly."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-degree",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 137, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Match the adverbs of degree.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1 quite poor</td><td>audio quality</td></tr><tr class=\"fragment\"><td class=\"lbl\">2 fairly big</td><td>data allowance</td></tr><tr class=\"fragment\"><td class=\"lbl\">3 pretty expensive</td><td>streaming services</td></tr><tr class=\"fragment\"><td class=\"lbl\">4 very annoying</td><td>ads</td></tr><tr class=\"fragment\"><td class=\"lbl\">5 incredibly big</td><td>choice</td></tr></table>",
+      "notes": "Reveal row by row. The model uses these with the things it describes."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-cuts",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Make cuts",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Cut extra words.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Short essays are clear essays.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Remove ideas you do not need.</td></tr></table>",
+      "notes": "Page 137, Final check. Take a break, then cut more."
+    },
+    {
+      "layout": "content",
+      "id": "task-edit",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 137, Review and edit",
+      "body": "<span class=\"box-word\">Check</span> your paragraphs.<br><br><span class=\"box-word\">Replace</span> repeated words with pronouns.<br><br><span class=\"box-word\">Cut</span> extra words.<br><br><span class=\"box-word\">Read</span> it aloud. Check spelling and punctuation.",
+      "notes": "Eight minutes. Timer starts automatically. Exercises 1, 2, 4, 5 and the final check on page 137."
+    },
+    {
+      "layout": "content",
+      "id": "wrap-up",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your essay is ready",
+      "body": "You drafted. You edited.<br><br><span class=\"box-word\">Write</span> the final copy.",
+      "notes": "Collect the essays. Final check: write the corrected essay."
+    }
+  ]
+}

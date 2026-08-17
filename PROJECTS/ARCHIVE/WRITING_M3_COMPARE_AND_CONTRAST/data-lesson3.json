@@ -1,0 +1,271 @@
+{
+  "title": "M3 Compare and Contrast — Lesson 3",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Draft it. Polish it.",
+      "body": "Your plan becomes an essay.",
+      "notes": "Ask: what do you think this lesson is about? Today we write the full essay from our plan."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Linking words guide the reader through your essay.</li><li>A strong ending leaves a good impression.</li><li>Editing turns a good draft into a great essay.</li></ul>",
+      "notes": "Frame: readers follow clear writing. Examiners reward organised essays."
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Pair Talk",
+      "body": "What are the four parts of an essay?<br><br>Which three ideas did you choose?<br><br>Tell your partner.<br><br><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Recap lesson 2: the four-part shape and the ideas each student ordered. No timer."
+    },
+    {
+      "layout": "content",
+      "id": "transition-intro",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "The introduction"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-intro",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Hook the reader",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Ask a question in the first line.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It makes the reader curious.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Ask about the topic. Compare both sides.</td></tr></table>",
+      "notes": "Page 135, Writing tip. The essay answers the question it asks."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-intro",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 135, Exercise 1</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which questions are in the model essay?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>\"But which type of sports are best: team or individual?\" and \"How do they compare?\"</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The questions present both sides and ask the reader to compare.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"Playing sports has both physical and psychological advantages for young people.\"</td></tr></table>",
+      "notes": "Students find the questions on page 133 first. The intro asks, the essay answers."
+    },
+    {
+      "layout": "content",
+      "id": "task-intro",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 135, Exercise 2",
+      "body": "<span class=\"box-word\">Write</span> your introduction.<br><br>Ask the question. Compare the two sides.",
+      "notes": "Students draft the introduction from their notes. No timer."
+    },
+    {
+      "layout": "content",
+      "id": "transition-linking",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Link your ideas"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-linking",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Contrast your ideas",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Use linking words to contrast.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The reader follows each new point.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">One sentence, or after a semicolon.</td></tr></table>",
+      "notes": "Page 135, Writing strategy. Conjunctive adverbs follow a semicolon and are not capitalised."
+    },
+    {
+      "layout": "content",
+      "id": "key-phrases-contrast",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Key phrases: Contrasting",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">One sentence</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">although, despite, whereas, while</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">After a semicolon</td><td style=\"padding:8px 0\">however, nevertheless, even so, on the other hand</td></tr></table>",
+      "notes": "Page 135, Key phrases. Conjunctive adverbs come after a semicolon and take a comma. They are not capitalised."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-linking",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Choose the linking word",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Choose the linking word</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">The film was long; ______ , we enjoyed it.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#ffdd00\">A conjunctive adverb follows a semicolon. It is not capitalised.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center;\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">however</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">although</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">despite</td></tr></table>",
+      "notes": "Ask: which word fits after a semicolon? Then click."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-linking",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Choose the linking word",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Choose the linking word</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">The film was long; ______ , we enjoyed it.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#ffdd00\">A conjunctive adverb follows a semicolon. It is not capitalised.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">however</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">although</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">despite</td></tr></table>",
+      "notes": "However is a conjunctive adverb — it follows a semicolon, is not capitalised, and takes a comma after it. Although and Despite link within one sentence."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-linking",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 135, Exercise 3</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Write sentences with the linking words.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1</td><td>It can be easy to feel lonely in a city despite the thousands of people who live there.</td></tr><tr class=\"fragment\"><td class=\"lbl\">2</td><td>Students don't have much money; nevertheless, they may be able to get a higher-earning job later.</td></tr><tr class=\"fragment\"><td class=\"lbl\">3</td><td>Exotic fruit is delicious; however, it often has a high carbon footprint.</td></tr><tr class=\"fragment\"><td class=\"lbl\">4</td><td>Housing is cheaper in a village; on the other hand, commuting can cost a lot.</td></tr></table>",
+      "notes": "Reveal row by row. Check: despite + noun phrase in one sentence. However, nevertheless, and on the other hand follow a semicolon and are not capitalised."
+    },
+    {
+      "layout": "content",
+      "id": "task-linking",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 135, Exercise 4",
+      "body": "Look at your notes.<br><br><span class=\"box-word\">Choose</span> a linking word for each idea.",
+      "notes": "Students choose contrast words for their own ideas. No timer."
+    },
+    {
+      "layout": "content",
+      "id": "transition-strong",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Make comparisons stronger"
+    },
+    {
+      "layout": "content",
+      "id": "key-phrases-strong",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Key phrases: Stronger comparisons",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">much</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">much easier (than)</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">far more</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">far more satisfying (than)</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">far less</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">far less stressful (than)</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">nowhere near as</td><td style=\"padding:8px 0\">nowhere near as valuable (as)</td></tr></table>",
+      "notes": "Page 136, Exercise 5. These words make a comparison much stronger."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-strong",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Make it stronger",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Make it stronger</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">Choose the stronger sentence.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Team sports are more stimulating than individual sports.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Team sports are far more stimulating than individual sports.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Team sports are a bit more stimulating than individual sports.</td></tr></table>",
+      "notes": "Ask: which sentence sounds stronger? Then click."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-strong",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Make it stronger",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Try it: Make it stronger</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">Choose the stronger sentence.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Team sports are more stimulating than individual sports.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Team sports are far more stimulating than individual sports.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Team sports are a bit more stimulating than individual sports.</td></tr></table>",
+      "notes": "Far more is stronger than a bit more. The reader feels the difference."
+    },
+    {
+      "layout": "content",
+      "id": "task-body",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 136, Exercise 6",
+      "body": "<span class=\"box-word\">Write</span> your second and third paragraphs.<br><br>Use your notes. Use linking words and comparisons.",
+      "notes": "Eight minutes. Timer starts automatically. Monitor: linking words in every paragraph."
+    },
+    {
+      "layout": "content",
+      "id": "transition-conclusion",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Write your conclusion"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: End with your opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Repeat your opinion clearly.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The reader remembers your choice.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Summarise one point from each side first.</td></tr></table>",
+      "notes": "Page 136, Writing tip. The conclusion is the last thing the reader reads."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-opinion",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 136, Exercise 8</p><table class=\"ans\"><tr><td class=\"lbl\">Task</td><td>Complete the key phrases.</td></tr><tr class=\"fragment\"><td class=\"lbl\">1</td><td>I'd <strong>say</strong> that &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\">2</td><td>It's my <strong>opinion</strong> that &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\">3</td><td>I <strong>strongly</strong> believe that &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\">4</td><td>It's <strong>clear</strong> that &#8230;</td></tr><tr class=\"fragment\"><td class=\"lbl\">5</td><td>The <strong>way</strong> I see it, &#8230;</td></tr></table>",
+      "notes": "Word bank: clear, opinion, say, strongly, way. Reveal one phrase at a time."
+    },
+    {
+      "layout": "content",
+      "id": "task-conclusion",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 136, Exercises 7 and 9",
+      "body": "<span class=\"box-word\">Make</span> notes for your conclusion.<br><br><span class=\"box-word\">Write</span> it. Give your opinion clearly.",
+      "notes": "Five minutes. Timer starts automatically. Students use the opinion phrases."
+    },
+    {
+      "layout": "content",
+      "id": "transition-review",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Review and edit"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-synonyms",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Use synonyms",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Replace repeated words with synonyms.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Your writing stays interesting.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Use a thesaurus for new words.</td></tr></table>",
+      "notes": "Page 137, Writing tip. Repeat ideas, not words."
+    },
+    {
+      "layout": "raw",
+      "id": "answer-synonyms",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ans{width:100%;border-collapse:collapse;margin-top:6px}.ans td{padding:10px 12px;border-bottom:1px solid #444;font-size:32px;color:#fff;vertical-align:top}.ans td.lbl{font-weight:700;color:#ffdd00;white-space:nowrap;width:150px}</style><p style=\"color:#ffdd00;font-size:48px;font-weight:700;margin:0 0 12px 0\">Page 137, Exercise 2</p><table class=\"ans\"><tr><td class=\"lbl\">Question</td><td>Which synonyms does the model use?</td></tr><tr class=\"fragment\"><td class=\"lbl\">Answer</td><td>advantages becomes benefits. important becomes valuable. great becomes wonderful.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Explanation</td><td>The model repeats ideas, but not the same words.</td></tr><tr class=\"fragment\"><td class=\"lbl\">Transcript</td><td>\"the benefits of individual sports\" and \"can feel wonderful\"</td></tr></table>",
+      "notes": "Students find the pairs on page 133 first."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-cuts",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Make cuts",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Cut extra words.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Short essays are clear essays.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Remove ideas you do not need.</td></tr></table>",
+      "notes": "Page 137, Writing strategy. Every sentence should earn its place."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-register",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Choose neutral words",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Avoid slang in essays.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Essays are not messages to friends.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Say children, not kids. Say a lot, not loads.</td></tr></table>",
+      "notes": "Page 137, Writing strategy. Neutral words fit any reader."
+    },
+    {
+      "layout": "content",
+      "id": "task-edit",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Page 137, Review and edit",
+      "body": "<span class=\"box-word\">Check</span> your paragraphs.<br><br><span class=\"box-word\">Replace</span> repeated words.<br><br><span class=\"box-word\">Cut</span> extra words.<br><br><span class=\"box-word\">Read</span> it aloud. Check spelling and punctuation.",
+      "notes": "Eight minutes. Timer starts automatically. Exercises 1, 3, 4 and 5 on page 137."
+    },
+    {
+      "layout": "content",
+      "id": "wrap-up",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your essay is ready",
+      "body": "You drafted. You edited.<br><br><span class=\"box-word\">Write</span> the final copy.",
+      "notes": "Collect the essays. Exercise 6 on page 137: write the corrected essay."
+    }
+  ]
+}

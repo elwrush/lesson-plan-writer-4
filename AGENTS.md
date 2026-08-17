@@ -37,6 +37,21 @@ Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical refer
 - Re-rendering overwrites `index.html` in-place; **do NOT stop the server**.
 - Don't ask about it.
 
+## Pixabay image search
+
+Splash/background photos come from Pixabay first. Setup:
+
+- **Script:** `scripts/pixabay_download.py` at the repo root (working copy). The canonical copy lives in the `pixabay-image-search` skill at `~/.kilo/skills/pixabay-image-search/scripts/pixabay_download.py`. If either is missing, restore it from git history: `git show $(git log --all --format=%H -- scripts/pixabay_download.py | head -1):scripts/pixabay_download.py > scripts/pixabay_download.py`. It reads the API key from the env var `PIXABAY_API_KEY` and outputs JSON with `path` + `attribution`.
+- **API key:** `PIXABAY_API_KEY` is exported in the *interactive* shell environment (injected by the Kilo CLI alongside the other API keys — it is NOT in `~/.zshrc` or any rc file). Non-interactive/tool shells do NOT inherit it, so always run the download through an interactive zsh:
+
+```bash
+zsh -ic 'python scripts/pixabay_download.py --query "architectural blueprint" --type image --count 3 --output "PROJECTS/{name}/slides/assets/"'
+```
+
+  If it errors with "PIXABAY_API_KEY environment variable not set", export it first (`export PIXABAY_API_KEY=11734277-a13c57a7ba308cbbae98df5bd`) inside the `zsh -ic` invocation.
+- **Fallback:** if Pixabay returns nothing usable, use the `search-wikimedia-commons` skill (free, no key) or the `download-image-from-url` skill for a direct URL.
+- After download, centre-crop to 16:9 with ImageMagick/Pillow before using as `splash.jpg`.
+
 ## Slideshow workflow
 
 ### Before writing data.json

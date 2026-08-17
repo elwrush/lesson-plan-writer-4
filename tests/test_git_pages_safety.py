@@ -115,3 +115,23 @@ def test_exit_on_failure():
     assert "exit 1" in content, (
         "Must exit on failure instead of continuing."
     )
+
+
+def test_sparse_cone_expands_for_deployed_folder():
+    """Sparse clone must include the deployed folder so its assets get staged."""
+    content = load_command_file()
+    assert "sparse-checkout set" in content, (
+        "Step 6 must expand the sparse cone to include the deployed folder. "
+        "Without it, git add -A silently skips the folder's assets and the "
+        "push ships an index.html with missing media."
+    )
+
+
+def test_staged_completeness_check():
+    """Must verify every staged file is tracked before commit."""
+    content = load_command_file()
+    assert "missing_files" in content and "ls-files" in content, (
+        "Before committing, the command must verify every file copied into "
+        "the worktree is staged — a sparse-checkout that drops assets must "
+        "abort the deploy, not ship a broken deck."
+    )

@@ -1,0 +1,188 @@
+{
+  "title": "M3 Compare and Contrast — Lesson 1",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Read the question. Take a position.",
+      "body": "Your essay starts here.",
+      "notes": "Ask: What do you think this lesson is about?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Every essay question hides a topic and two opinions.</li><li>Clear writers read the question before they write.</li><li>Your opinion is the engine.</li></ul>",
+      "notes": "Frame: essay competitions, exams, and life all reward clear opinions."
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Pair Talk",
+      "body": "Cats or dogs — which makes a better pet?\n\nTell your partner. Give one reason.\n\n<p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss for two minutes. Elicit: an opinion needs a reason."
+    },
+    {
+      "layout": "content",
+      "id": "transition-parse",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "How do we read the question?"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-parse",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Read twice",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Read the question twice.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It has four parts.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Find the topic. Spot both opinions. Choose one.</td></tr></table>",
+      "notes": "Model reading the conscription question aloud twice."
+    },
+    {
+      "layout": "content",
+      "id": "anatomy",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Every question has four parts",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Context</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The topic. The situation.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion A</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">One side of the argument.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion B</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">The other side.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Your choice</td><td style=\"padding:8px 0\">Which one do you agree with?</td></tr></table>",
+      "notes": "Point at each part. CCQ: Which part gives the topic?"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-parse",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Find the parts",
+      "body": "<style>.match-grid{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:10px 0;width:100%;font-size:31px}.match-grid .stem{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:flex-start;text-align:left;font-weight:700}.match-grid .opt{color:#fff;padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:flex-start;text-align:left}</style><p style=\"color:#ffdd00;font-size:36px;font-weight:700;margin:0 0 8px 0\">Teacher example: Conscription</p><p style=\"color:#fff;font-size:32px;margin:0 0 6px 0\">Match each sentence to its part.</p><div class=\"match-grid\" data-id=\"grid\"><div class=\"stem\" data-id=\"s1\" style=\"color:#ffdd00\">Context</div><div class=\"opt\" data-id=\"o3\">But others believe it wastes two years of young men's lives.</div><div class=\"stem\" data-id=\"s2\" style=\"color:#85c1e9\">Opinion A</div><div class=\"opt\" data-id=\"o4\">Personally, I think military service is an essential commitment.</div><div class=\"stem\" data-id=\"s3\" style=\"color:#f0b27a\">Opinion B</div><div class=\"opt\" data-id=\"o1\">Every year, Thai men must join the army for a short time.</div><div class=\"stem\" data-id=\"s4\" style=\"color:#82e0aa\">Your choice</div><div class=\"opt\" data-id=\"o2\">Some people say the army builds discipline and national pride.</div></div>",
+      "notes": "Ask students to match each sentence to its part before you click."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-parse",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Find the parts",
+      "body": "<style>.match-grid{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:10px 0;width:100%;font-size:31px}.match-grid .stem{padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:flex-start;text-align:left;font-weight:700}.match-grid .opt{color:#fff;padding:6px 4px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:flex-start;text-align:left}</style><p style=\"color:#ffdd00;font-size:36px;font-weight:700;margin:0 0 8px 0\">Teacher example: Conscription</p><p style=\"color:#fff;font-size:32px;margin:0 0 6px 0\">Match each sentence to its part.</p><div class=\"match-grid\" data-id=\"grid\"><div class=\"stem\" data-id=\"s1\" style=\"color:#ffdd00\">Context</div><div class=\"opt\" data-id=\"o1\" style=\"color:#ffdd00\">Every year, Thai men must join the army for a short time.</div><div class=\"stem\" data-id=\"s2\" style=\"color:#85c1e9\">Opinion A</div><div class=\"opt\" data-id=\"o2\" style=\"color:#85c1e9\">Some people say the army builds discipline and national pride.</div><div class=\"stem\" data-id=\"s3\" style=\"color:#f0b27a\">Opinion B</div><div class=\"opt\" data-id=\"o3\" style=\"color:#f0b27a\">But others believe it wastes two years of young men's lives.</div><div class=\"stem\" data-id=\"s4\" style=\"color:#82e0aa\">Your choice</div><div class=\"opt\" data-id=\"o4\" style=\"color:#82e0aa\">Personally, I think military service is an essential commitment.</div></div>",
+      "notes": "Click: sentences snap into place and take their part's colour."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-position",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Take a position",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Choose one side.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Essays need one clear opinion.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Ask: which side do I agree with more?</td></tr></table>",
+      "notes": "Emphasize: no side is wrong, but you must choose."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-position",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Choose a side",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Teacher example: Conscription</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">The teacher must choose a side.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Military training builds discipline and national pride.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Two years of a young man's life is a big waste.</td></tr></table>",
+      "notes": "Ask: which side would you choose? Then click."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-position",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Choose a side",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;color:#ffdd00;font-size:36px;font-weight:700\">Teacher example: Conscription</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:32px;color:#fff\">The teacher must choose a side.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Military training builds discipline and national pride.</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"display:inline-block;width:26px;text-align:center\">&nbsp;</span></td><td style=\"padding:10px 0;border-bottom:1px solid #444;font-size:32px\">Two years of a young man's life is a big waste.</td></tr></table>",
+      "notes": "The teacher chose the first side. Everyone can choose differently."
+    },
+    {
+      "layout": "content",
+      "id": "transition-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Your turn"
+    },
+    {
+      "layout": "content",
+      "id": "task-parse",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Your question card",
+      "body": "<span class=\"box-word\">Read</span> your question twice. <span class=\"box-word\">Underline</span> the topic. <span class=\"box-word\">Circle</span> both opinions. <span class=\"box-word\">Choose</span> your side.",
+      "notes": "Distribute the cards now. Students work alone. Monitor."
+    },
+    {
+      "layout": "content",
+      "id": "scaffold-response",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "State your opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">I believe that &#8230;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">One reason is &#8230;</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0\">For example, &#8230;</td></tr></table>",
+      "notes": "These frames start every good response."
+    },
+    {
+      "layout": "content",
+      "id": "transition-evidence",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "How strong is your evidence?"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-evidence",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Use strong evidence",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Support your reasons with evidence.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Strong evidence convinces the reader.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Choose from the four levels.</td></tr></table>",
+      "notes": "Stress: statistics are the strongest, anecdotes the weakest."
+    },
+    {
+      "layout": "raw",
+      "id": "evidence-pyramid",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.pyramid{display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:2px}.pyramid .tier{width:100%;border-radius:6px;padding:8px 18px;text-align:center;color:#fff}.pyramid .tier strong{display:block;font-size:40px}.pyramid .tier span{font-size:31px}.t-stats{background:#e67e22}.t-quote{background:#3498db}.t-news{background:#2ecc71}.t-story{background:#9b59b6}</style><p style=\"margin:6px 0 2px 0;text-align:center\"><i class=\"fa-solid fa-caret-up\" style=\"font-size:56px;color:#e67e22\"></i></p><div class=\"pyramid\"><div class=\"fragment tier t-stats\" style=\"width:29%\"><strong>Statistics</strong><span>A survey found that 7 in 10 young men feel fitter after army training.</span></div><div class=\"fragment tier t-quote\" style=\"width:52%\"><strong>Quotations</strong><span>An officer said, \"Army life taught me to be strong.\"</span></div><div class=\"fragment tier t-news\" style=\"width:75%\"><strong>News examples</strong><span>The news showed young men in uniform helping people after the floods.</span></div><div class=\"fragment tier t-story\" style=\"width:98%\"><strong>Personal anecdotes</strong><span>My uncle says the army made him fitter.</span></div></div>",
+      "notes": "Click through top-down. Students do not need stats or quotes, but they must know these levels exist."
+    },
+    {
+      "layout": "content",
+      "id": "task-write",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Write your response",
+      "body": "<span class=\"box-word\">Write</span> your opinion. Add one reason. Add one piece of evidence.",
+      "notes": "Three sentences minimum. Collect the responses at the end of the lesson."
+    },
+    {
+      "layout": "content",
+      "id": "discussion-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Give Your Opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I believe military training is valuable.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is it builds discipline.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, my uncle says the army made him fitter.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs share their responses using the O-R-E frames."
+    },
+    {
+      "layout": "content",
+      "id": "wrap-up",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your essay starts here",
+      "body": "You read the question. You chose your side. Next lesson: we build the essay.",
+      "notes": "Collect responses. Preview lesson 2: drafting the essay."
+    }
+  ]
+}

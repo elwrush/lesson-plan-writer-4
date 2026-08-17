@@ -1,0 +1,47 @@
+{
+  "title": "Compare and Contrast Essay Topics",
+  "class": "M3",
+  "prompt_style": "Context statement, opposing view, final question",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Social media helps us stay connected with friends all over the world. Many young people say it brings them closer to others, but studies show that heavy use can cause loneliness and anxiety. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 2,
+      "topic": "Almost every school in Thailand requires students to wear uniforms. Some people say uniforms make everyone equal and save money, but others believe students should wear their own clothes to express their personality. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 3,
+      "topic": "Smartphones are part of everyday life for most students. Some teachers think they can be used effectively in class as learning tools, but others believe they cause students to get distracted and their schoolwork suffers. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 4,
+      "topic": "Fast food is cheap, quick, and tastes great. Many teenagers eat it several times a week, but doctors warn that too much fast food leads to serious health problems. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 5,
+      "topic": "Teachers give homework so that students can practice what they learned in class. Some students say homework helps them remember the lesson, but others feel it steals their free time and causes stress. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 6,
+      "topic": "Video games are one of the most popular hobbies among teenagers. Many players say gaming improves their thinking and reaction speed, but parents worry that too much gaming causes addiction and laziness. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 7,
+      "topic": "After the pandemic, many schools now offer classes online. Some students prefer studying from home at their own speed, but others say they understand lessons better in a real classroom with friends and teachers. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 8,
+      "topic": "Plastic bags and bottles are cheap and convenient. However, they pollute the oceans and take hundreds of years to break down, and many countries are now banning them. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 9,
+      "topic": "Some teenagers take part-time jobs to earn their own money. Working teaches responsibility and good money habits, but it can also take time away from homework and rest. Which opinion do you agree with the most?"
+    },
+    {
+      "id": 10,
+      "topic": "Many students feel sleepy in their first class of the day. Some experts say schools should start later so teenagers can get more sleep, but others think an early start prepares students for adult life. Which opinion do you agree with the most?"
+    }
+  ]
+}

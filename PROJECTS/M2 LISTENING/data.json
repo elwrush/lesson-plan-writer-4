@@ -1,0 +1,176 @@
+{
+  "title": "M2 Listening — Smart Glasses",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Should &quot;smart glasses&quot; be allowed?",
+      "body": "Let's listen and make a decision.",
+      "notes": "Greet students. Ask: What are smart glasses? Do you know anyone with them?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>You will practise listening to a song and a news report.</li><li>You will hear the debate about smart glasses and privacy.</li><li>You will make a decision: should they be allowed?</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-entry",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Entry Ticket &mdash; Tom's Diner",
+      "notes": "Transition to the entry ticket. Say: We start with a famous song. The worksheet has the lyrics with gaps."
+    },
+    {
+      "layout": "two-column",
+      "id": "susan-vega",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Before you listen",
+      "body": "<img src=\"assets/suzanne_vega.jpg\" alt=\"Suzanne Vega\" style=\"width:100%;height:100%;object-fit:cover;border-radius:8px\">|||<p style=\"font-size:36px;line-height:1.6;margin:0 0 12px 0\">Look at the picture.</p><p style=\"font-size:36px;line-height:1.6;margin:0 0 12px 0\">What might this song be about?</p><p style=\"font-size:36px;line-height:1.6;margin:0\">Talk to your partner.</p><p style=\"color:#ffdd00;text-align:center;font-size:36px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Students speculate about the song from the picture (a woman in a diner). Use Opinion-Reason-Evidence: I think... because..."
+    },
+    {
+      "layout": "content",
+      "id": "song-facts",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "A famous song",
+      "body": "<ul style=\"font-size:36px;line-height:1.7\"><li>Suzanne Vega wrote the song in 1982.</li><li>Engineers used it to test the MP3 music format.</li><li>In 1990, a remix became an international hit.</li><li>It sold millions of copies around the world.</li></ul>",
+      "notes": "Cultural impact: the MP3 test connection. Economic success: the 1990 DNA remix sold millions. Keep it brief."
+    },
+    {
+      "layout": "raw",
+      "id": "snippet-listen",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">First listen &mdash; What is the song about?</h2><div style=\"display:flex;align-items:center;gap:36px;justify-content:center\"><div style=\"flex:1;max-width:540px\"><p style=\"color:#fff;font-size:38px;margin:0 0 12px 0\">What is Suzanne Vega trying to communicate?</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">A</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">The excitement of a busy city.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">B</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">The quiet story of an ordinary moment.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">C</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">The sadness of a rainy morning.</td></tr></table></div><div style=\"flex:1;max-width:600px;text-align:center\"><iframe width=\"600\" height=\"338\" src=\"https://www.youtube-nocookie.com/embed/mto47BMT3yA?start=0&amp;end=44\" title=\"Tom's Diner\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div></div>",
+      "notes": "Play the 44-second snippet. Students choose the main idea. Answer: B — the quiet story of an ordinary moment."
+    },
+    {
+      "layout": "content",
+      "id": "snippet-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">B &mdash; The quiet story of an ordinary moment.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0\">A woman sits in a diner. She watches people and reads the paper. It is an ordinary morning told as a story.</td></tr></table>",
+      "notes": "Confirm B. The song narrates a normal morning — a woman in a diner watching the world go by."
+    },
+    {
+      "layout": "raw",
+      "id": "gapfill-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">Complete the gaps</h2><p style=\"color:#fff;text-align:center;font-size:38px;margin:0 0 8px 0\">Open your worksheet to the Entry Ticket.</p><p style=\"color:#fff;text-align:center;font-size:38px;margin:0 0 20px 0\">Listen to the whole song <strong>once</strong> and fill in the gaps.</p><div style=\"text-align:center;margin-top:18px\"><iframe width=\"880\" height=\"495\" src=\"https://www.youtube-nocookie.com/embed/mto47BMT3yA\" title=\"Tom's Diner\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play the full song once. Students fill the 24 gaps on the worksheet. Check answers afterwards."
+    },
+    {
+      "layout": "raw",
+      "id": "gapfill-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.gf{border-collapse:collapse;margin:8px auto;max-width:640px;width:100%}.gf td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:30px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr><td class=\"num\">1</td><td class=\"ans\">on</td></tr><tr><td class=\"num\">2</td><td class=\"ans\">the</td></tr><tr><td class=\"num\">3</td><td class=\"ans\">only</td></tr><tr><td class=\"num\">4</td><td class=\"ans\">out</td></tr><tr><td class=\"num\">5</td><td class=\"ans\">nice</td></tr><tr><td class=\"num\">6</td><td class=\"ans\">To</td></tr><tr><td class=\"num\">7</td><td class=\"ans\">her</td></tr><tr><td class=\"num\">8</td><td class=\"ans\">are</td></tr><tr><td class=\"num\">9</td><td class=\"ans\">them</td></tr><tr><td class=\"num\">10</td><td class=\"ans\">the</td></tr><tr><td class=\"num\">11</td><td class=\"ans\">died</td></tr><tr><td class=\"num\">12</td><td class=\"ans\">had</td></tr></table>",
+      "notes": "Answers 1-12. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "gapfill-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.gf{border-collapse:collapse;margin:8px auto;max-width:640px;width:100%}.gf td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:30px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Continue</span> marking.</p><table class=\"gf\"><tr><td class=\"num\">13</td><td class=\"ans\">looking</td></tr><tr><td class=\"num\">14</td><td class=\"ans\">and</td></tr><tr><td class=\"num\">15</td><td class=\"ans\">the</td></tr><tr><td class=\"num\">16</td><td class=\"ans\">does</td></tr><tr><td class=\"num\">17</td><td class=\"ans\">reflection</td></tr><tr><td class=\"num\">18</td><td class=\"ans\">up</td></tr><tr><td class=\"num\">19</td><td class=\"ans\">hair</td></tr><tr><td class=\"num\">20</td><td class=\"ans\">through</td></tr><tr><td class=\"num\">21</td><td class=\"ans\">the</td></tr><tr><td class=\"num\">22</td><td class=\"ans\">the</td></tr><tr><td class=\"num\">23</td><td class=\"ans\">began</td></tr><tr><td class=\"num\">24</td><td class=\"ans\">to</td></tr></table>",
+      "notes": "Answers 13-24. Continue marking."
+    },
+    {
+      "layout": "content",
+      "id": "transition-main",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Main Lesson &mdash; Meta Smart Glasses",
+      "notes": "Transition to the main lesson. Say: Now we listen to a news report about smart glasses. The worksheet has the questions."
+    },
+    {
+      "layout": "raw",
+      "id": "gist-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">Listen 1 &mdash; The big idea</h2><div style=\"display:flex;align-items:center;gap:36px;justify-content:center\"><div style=\"flex:1;max-width:560px\"><p style=\"color:#fff;font-size:38px;margin:0 0 8px 0\">Watch the video once. Don't write anything.</p><p style=\"color:#fff;font-size:38px;margin:0 0 10px 0\">The video is mainly about&hellip;</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">A</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">Where to buy smart glasses.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">B</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">What smart glasses can do, and why some people worry.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">C</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">How smart glasses are made.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">D</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">Why smart glasses are expensive.</td></tr></table></div><div style=\"flex:1;max-width:600px;text-align:center\"><iframe width=\"600\" height=\"338\" src=\"https://www.youtube-nocookie.com/embed/I1BzGOfh4L0\" title=\"Smart glasses video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div></div>",
+      "notes": "Play the BTN video once. Students listen for gist only and choose the main idea. Answer: B."
+    },
+    {
+      "layout": "content",
+      "id": "gist-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Gist — Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">B &mdash; What smart glasses can do, and why some people worry.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0\">The video shows the features, then the privacy debate: people call them stalker glasses and want them banned.</td></tr></table>",
+      "notes": "Confirm B. The report covers both the benefits and the privacy concerns."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">Listen 2 &mdash; Details</h2><p style=\"color:#fff;text-align:center;font-size:38px;margin:0 0 20px 0\">Watch again. Answer the questions on your worksheet.</p><div style=\"text-align:center\"><iframe width=\"880\" height=\"495\" src=\"https://www.youtube-nocookie.com/embed/I1BzGOfh4L0\" title=\"Smart glasses video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play the video again. Students complete the six detail sentences. Then the true/false section."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.da{border-collapse:collapse;margin:8px auto;max-width:840px;width:100%}.da td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.da .num{color:#ffdd00;font-weight:700;min-width:30px}.da .ans{color:#ffdd00;font-weight:700}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Details — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"da\"><tr><td class=\"num\">1</td><td>since the early <span class=\"ans\">twenty-tens</span></td></tr><tr><td class=\"num\">2</td><td>worked together in <span class=\"ans\">2021</span></td></tr><tr><td class=\"num\">3</td><td>costs <span class=\"ans\">$89</span> and sold out last week</td></tr><tr><td class=\"num\">4</td><td>play music, and make <span class=\"ans\">calls</span></td></tr><tr><td class=\"num\">5</td><td>translate foreign <span class=\"ans\">languages</span> instantly</td></tr><tr><td class=\"num\">6</td><td>changeroom, or <span class=\"ans\">bedroom</span> is illegal</td></tr></table>",
+      "notes": "Each answer is a word from the worksheet. Point out the full answers."
+    },
+    {
+      "layout": "content",
+      "id": "tf-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "True or False &mdash; Correct the False Ones",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Write T or F on your worksheet.</p><p style=\"font-size:38px;color:#fff;margin:0\">If the sentence is false, correct it on the line.</p>",
+      "notes": "Students complete the true/false section from the second listen. Timer pill: 4 minutes (240 seconds)."
+    },
+    {
+      "layout": "raw",
+      "id": "tf-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.tf{border-collapse:collapse;margin:8px auto;max-width:900px;width:100%}.tf td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:32px;vertical-align:top}.tf .num{color:#ffdd00;font-weight:700;min-width:30px}.tf .v{color:#2ecc71;font-weight:900;min-width:34px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">True or False — Answers</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"tf\"><tr><td class=\"num\">1</td><td class=\"v\">F</td><td>Smart glasses first appeared in the early twenty-tens, not 2021.</td></tr><tr><td class=\"num\">2</td><td class=\"v\">T</td><td>The Kmart glasses sold out last week.</td></tr><tr><td class=\"num\">3</td><td class=\"v\">T</td><td>In Australia, filming people in public places is usually allowed.</td></tr><tr><td class=\"num\">4</td><td class=\"v\">T</td><td>You must ask permission before filming on private property.</td></tr><tr><td class=\"num\">5</td><td class=\"v\">F</td><td>It is not necessarily against the law, but many people say it is not ethical.</td></tr></table>",
+      "notes": "1 F, 2 T, 3 T, 4 T, 5 F with corrections."
+    },
+    {
+      "layout": "content",
+      "id": "discussion",
+      "step": 1,
+      "background_color": "#4a235a",
+      "title": "Discuss &mdash; Should Smart Glasses Be Banned?",
+      "body": "<p style=\"font-size:36px;color:#fff;margin:0 0 16px 0\">Give your opinion. Agree or disagree. Reach a conclusion.</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think smart glasses should be banned because&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Agree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I agree with you because&hellip; That's a good point.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Disagree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I disagree because&hellip; I see what you mean, but&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Conclusion</td><td style=\"padding:8px 0\">So we agree that&hellip; In conclusion, we think&hellip;</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Timer pill: 5 minutes (300 seconds). Use the worksheet outline (opinion + three ideas) and the language table. Groups report their conclusion."
+    },
+    {
+      "layout": "content",
+      "id": "conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Questions?",
+      "body": "What did you decide? Should smart glasses be allowed?",
+      "notes": "Wrap up. Elicit each group's conclusion. Ask: Which listening words were new for you?"
+    }
+  ]
+}

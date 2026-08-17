@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "book_title": "Oxford Discover Futures 2",
+    "page_number": 122,
+    "unit": "Unit 6",
+    "section_title": "Discover vocabulary"
+  },
+  "sections": [
+    {
+      "section_title": "Education",
+      "audio_track": "1.36",
+      "word_bank": [
+        "allow",
+        "assessment",
+        "assignments",
+        "ban",
+        "behavior",
+        "bullying",
+        "required",
+        "educate",
+        "grades",
+        "work experience"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "instruction": "Complete the conversation with the correct words.",
+          "type": "fill_in_the_blank",
+          "content": {
+            "dialogue": [
+              {
+                "speaker": "Ben",
+                "text": "What school do you go to?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "My parents wanted to 1 [educate] me at home, but they both have full-time jobs, so I go to the local high school."
+              },
+              {
+                "speaker": "Ben",
+                "text": "Do you study hard?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "Yes, but I don't get very good 2 [grades]."
+              },
+              {
+                "speaker": "Ben",
+                "text": "Are you happy in school?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "Yes, although I was a victim of 3 [bullying] for a while. There were some girls who weren't very nice to me. Fortunately, my teacher was very helpful and their 4 [behavior] changed completely."
+              },
+              {
+                "speaker": "Ben",
+                "text": "Do you study science in school?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "Yes, it's a 5 [required] subject, along with math and English."
+              },
+              {
+                "speaker": "Ben",
+                "text": "How do they test you?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "There are exams at the end of the year, but we also have continuous 6 [assessment]."
+              },
+              {
+                "speaker": "Ben",
+                "text": "And do you have a lot of homework?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "Yes! We have to complete two 7 [assignments] every week."
+              },
+              {
+                "speaker": "Ben",
+                "text": "That's a lot! Can you use your cell phones in school?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "Yes. We can use them at break times, and the teachers sometimes 8 [allow] us to use them for quizzes during class. We're lucky, since I know some schools 9 [ban] them completely."
+              },
+              {
+                "speaker": "Ben",
+                "text": "What are you looking forward to next year?"
+              },
+              {
+                "speaker": "Mia",
+                "text": "We do six weeks' 10 [work experience]. I have a placement at a vet's. It'll be interesting."
+              }
+            ]
+          },
+          "answer_key": {
+            "1": "educate",
+            "2": "grades",
+            "3": "bullying",
+            "4": "behavior",
+            "5": "required",
+            "6": "assessment",
+            "7": "assignments",
+            "8": "allow",
+            "9": "ban",
+            "10": "work experience"
+          }
+        },
+        {
+          "exercise_number": 2,
+          "instruction": "Are the sentences true (T) or false (F) for you?",
+          "type": "personal_response",
+          "content": [
+            "1 Religious studies is a required subject for students of my age in my country.",
+            "2 I'm generally happy with the grades I get.",
+            "3 We're allowed to have any hairstyle we want at my school.",
+            "4 I've never done any work experience.",
+            "5 Bullying isn't a big problem at my school.",
+            "6 I'd love to be educated at home."
+          ],
+          "answer_key": "Answers will vary depending on the individual student."
+        }
+      ]
+    },
+    {
+      "section_title": "Adjective + preposition combinations",
+      "audio_track": "1.37",
+      "word_bank": [
+        "covered in",
+        "full of",
+        "good at",
+        "impressed with",
+        "nervous about",
+        "upset about",
+        "scared of",
+        "worried about"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 3,
+          "instruction": "Complete the second sentence so it means the same as the first. Use adjective + preposition combinations.",
+          "type": "sentence_transformation",
+          "content": [
+            {
+              "item_number": 1,
+              "original": "Allie had paint on all her clothes and in her hair.",
+              "prompt": "Allie was ________ paint.",
+              "answer": "covered in"
+            },
+            {
+              "item_number": 2,
+              "original": "I used to be a nervous flyer.",
+              "prompt": "I used to be ________ flying.",
+              "answer": "scared of"
+            },
+            {
+              "item_number": 3,
+              "original": "Joe's a great dancer.",
+              "prompt": "Joe's very ________ dancing.",
+              "answer": "good at"
+            },
+            {
+              "item_number": 4,
+              "original": "I keep thinking I might fall over.",
+              "prompt": "I'm ________ falling over.",
+              "answer": "worried about"
+            },
+            {
+              "item_number": 5,
+              "original": "There were a lot of people in the room.",
+              "prompt": "The room was ________ people.",
+              "answer": "full of"
+            },
+            {
+              "item_number": 6,
+              "original": "I find snakes really scary!",
+              "prompt": "I'm ________ snakes!",
+              "answer": "scared of"
+            },
+            {
+              "item_number": 7,
+              "original": "The way you answered her question was amazing.",
+              "prompt": "I was ________ the way you answered her question.",
+              "answer": "impressed with"
+            },
+            {
+              "item_number": 8,
+              "original": "Were you sad that you lost your phone?",
+              "prompt": "Were you ________ losing your phone?",
+              "answer": "upset about"
+            }
+          ],
+          "answer_key": {
+            "1": "covered in",
+            "2": "scared of / nervous about",
+            "3": "good at",
+            "4": "worried about / nervous about",
+            "5": "full of",
+            "6": "scared of",
+            "7": "impressed with",
+            "8": "upset about"
+          }
+        }
+      ]
+    },
+    {
+      "section_title": "Ways to learn",
+      "audio_track": "1.38",
+      "word_bank": [
+        "aloud",
+        "concentrate",
+        "experiment",
+        "get together",
+        "memorize",
+        "prioritize",
+        "repeat",
+        "tip",
+        "trial and error",
+        "video tutorial",
+        "figure out"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 4,
+          "instruction": "Match the sentence halves 1–5 with a–e.",
+          "type": "matching",
+          "content": {
+            "column_1": [
+              "1 I figured out how to fix my bike",
+              "2 I experimented with different approaches,",
+              "3 I got together with some friends",
+              "4 I prioritized the information I needed to know",
+              "5 I memorized the new vocabulary"
+            ],
+            "column_2": [
+              "a by repeating it aloud several times.",
+              "b by watching a video tutorial.",
+              "c and we shared tips about study skills.",
+              "d and this process of trial and error was very helpful.",
+              "e and concentrated on learning it."
+            ]
+          },
+          "answer_key": {
+            "1": "b",
+            "2": "d",
+            "3": "c",
+            "4": "e",
+            "5": "a"
+          }
+        },
+        {
+          "exercise_number": 5,
+          "instruction": "Answer the quiz with your own ideas. Use words and phrases from exercise 4.",
+          "title": "Quiz: What's the best way to ... ?",
+          "type": "open_ended_quiz",
+          "content": [
+            "memorize ten important dates from history",
+            "calculate how much paint you need to decorate a room",
+            "figure out how to make a pizza that everyone likes",
+            "prepare for six exams in different subjects",
+            "learn how to change an electrical plug",
+            "find out where the best places to visit are in a country you're going to visit next month",
+            "improve your English pronunciation"
+          ],
+          "answer_key": "Open-ended response. Sample answers using target vocabulary:\n- Memorize ten important dates from history: Repeat them aloud several times.\n- Calculate how much paint you need: Figure it out by using a video tutorial.\n- Figure out how to make a pizza that everyone likes: Try a process of trial and error.\n- Prepare for six exams in different subjects: Prioritize the most difficult subjects and concentrate on learning them.\n- Learn how to change an electrical plug: Watch a video tutorial.\n- Find out where the best places to visit are: Get together with friends who have been there to get tips.\n- Improve your English pronunciation: Repeat phrases aloud and concentrate on listening to native speakers."
+        }
+      ]
+    }
+  ]
+}
