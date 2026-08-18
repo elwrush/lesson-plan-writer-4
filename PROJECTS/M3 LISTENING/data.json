@@ -1,0 +1,255 @@
+{
+  "title": "M3 Listening — Coming Out in Sport",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How hard is it to come out?",
+      "body": "Let's watch and find out.",
+      "notes": "Greet students. Ask: What does coming out mean? Why might it be hard for a sportsperson?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>You will listen to a famous song and a news interview.</li><li>You will hear what it means to be the first.</li><li>You will decide what needs to change in sport.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-entry",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Entry Ticket &mdash; Cat's in the Cradle",
+      "notes": "Transition to the entry ticket. Say: We start with a famous song. The worksheet has the lyrics with gaps."
+    },
+    {
+      "layout": "image",
+      "id": "chapin-image",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "notes": "Show the picture. Ask: What might this song be about? Talk to your partner. Use Opinion-Reason-Evidence: I think... because...",
+      "image_url": "assets/CHAPIN.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "song-facts",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Cat's in the Cradle",
+      "body": "<ul style=\"font-size:36px;line-height:1.7\"><li>Harry Chapin wrote the song with his wife, Sandra.</li><li>It was his only number-one single, in 1974.</li><li>It sold over one million copies and went gold.</li><li>It is the sound of a parent&rsquo;s regret &mdash; the boy grows up, and he becomes just like his dad.</li></ul>",
+      "notes": "Cultural impact: a father-and-son story that became iconic. Economic success: number one on the US chart and a gold record in 1974."
+    },
+    {
+      "layout": "raw",
+      "id": "verse1-listen",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">First listen &mdash; What is the song about?</h2><div style=\"display:flex;align-items:center;gap:36px;justify-content:center\"><div style=\"flex:1;max-width:560px\"><p style=\"color:#fff;font-size:38px;margin:0 0 8px 0\">Watch the first verse. Don't write anything.</p><p style=\"color:#fff;font-size:38px;margin:0 0 10px 0\">The song is mainly about&hellip;</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">A</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">A father who always finds time for his son.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">B</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">A father who is too busy for his son.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">C</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">A son who is angry with his father.</td></tr></table></div><div style=\"flex:1;max-width:600px;text-align:center\"><iframe width=\"600\" height=\"338\" src=\"https://www.youtube-nocookie.com/embed/etundhQa724?start=64&amp;end=113\" title=\"Cat's in the Cradle\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div></div>",
+      "notes": "Play the first verse only. Students choose the main idea. Answer: B — a father who is too busy for his son."
+    },
+    {
+      "layout": "content",
+      "id": "verse1-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">B &mdash; A father who is too busy for his son.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0\">The father has planes to catch and bills to pay. He learns to walk while he is away.</td></tr></table>",
+      "notes": "Confirm B. The father is absent — he is always busy with work."
+    },
+    {
+      "layout": "raw",
+      "id": "gapfill-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">Complete the gaps</h2><p style=\"color:#fff;text-align:center;font-size:38px;margin:0 0 8px 0\">Open your worksheet to the Entry Ticket.</p><p style=\"color:#fff;text-align:center;font-size:38px;margin:0 0 20px 0\">Listen to the rest of the song <strong>once</strong> and fill in the gaps.</p><div style=\"text-align:center\"><iframe width=\"880\" height=\"495\" src=\"https://www.youtube-nocookie.com/embed/etundhQa724?start=114\" title=\"Cat's in the Cradle\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play the whole song once. Students fill the 25 gaps on the worksheet. Check answers afterwards."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-1",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (1-3)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">1</td><td class=\"ans\">said</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td class=\"ans\">Can</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td class=\"ans\">I</td></tr></table>",
+      "notes": "Answers 1-3. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-2",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (4-6)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">4</td><td class=\"ans\">And</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td class=\"ans\">said</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td class=\"ans\">gonna</td></tr></table>",
+      "notes": "Answers 4-6. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-3",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (7-9)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">7</td><td class=\"ans\">and</td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td class=\"ans\">on</td></tr><tr class=\"fragment\"><td class=\"num\">9</td><td class=\"ans\">know</td></tr></table>",
+      "notes": "Answers 7-9. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-4",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (10-12)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">10</td><td class=\"ans\">have</td></tr><tr class=\"fragment\"><td class=\"num\">11</td><td class=\"ans\">just</td></tr><tr class=\"fragment\"><td class=\"num\">12</td><td class=\"ans\">just</td></tr></table>",
+      "notes": "Answers 10-12. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-5",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (13-15)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">13</td><td class=\"ans\">you</td></tr><tr class=\"fragment\"><td class=\"num\">14</td><td class=\"ans\">he</td></tr><tr class=\"fragment\"><td class=\"num\">15</td><td class=\"ans\">is</td></tr></table>",
+      "notes": "Answers 13-15. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-6",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (16-18)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">16</td><td class=\"ans\">I</td></tr><tr class=\"fragment\"><td class=\"num\">17</td><td class=\"ans\">moved</td></tr><tr class=\"fragment\"><td class=\"num\">18</td><td class=\"ans\">I</td></tr></table>",
+      "notes": "Answers 16-18. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-7",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (19-21)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">19</td><td class=\"ans\">mind</td></tr><tr class=\"fragment\"><td class=\"num\">20</td><td class=\"ans\">find</td></tr><tr class=\"fragment\"><td class=\"num\">21</td><td class=\"ans\">and</td></tr></table>",
+      "notes": "Answers 19-21. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-8",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (22-24)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">22</td><td class=\"ans\">talking</td></tr><tr class=\"fragment\"><td class=\"num\">23</td><td class=\"ans\">you</td></tr><tr class=\"fragment\"><td class=\"num\">24</td><td class=\"ans\">to</td></tr></table>",
+      "notes": "Answers 22-24. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "gapfill-answers-9",
+      "body": "<style>.gf{border-collapse:collapse;margin:10px auto;max-width:520px;width:100%}.gf td{padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.gf .num{color:#ffdd00;font-weight:700;min-width:36px}.gf .ans{color:#2ecc71;font-weight:900}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Gap-fill — Answers (25-25)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:10px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"gf\"><tr class=\"fragment\"><td class=\"num\">25</td><td class=\"ans\">was</td></tr></table>",
+      "notes": "Answers 25-25. Students swap and mark. Click to reveal each answer."
+    },
+    {
+      "layout": "content",
+      "id": "transition-main",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Main Lesson &mdash; Leigh Ryswyk",
+      "notes": "Transition to the main lesson. Say: Now we listen to a news interview with Australia's first openly gay AFL player."
+    },
+    {
+      "layout": "raw",
+      "id": "welcome-afl",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:18px\">Welcome to Australian football</h2><div style=\"text-align:center\"><iframe width=\"880\" height=\"495\" src=\"https://www.youtube-nocookie.com/embed/7AjcFfBvIcs?start=864\" title=\"Welcome to Australian football\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play the clip from 14:24. It introduces Australian rules football (AFL) — the sport Leigh Ryswyk played. Students watch for context before the interview."
+    },
+    {
+      "layout": "raw",
+      "id": "gist-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">Listen 1 &mdash; The big idea</h2><div style=\"display:flex;align-items:center;gap:36px;justify-content:center\"><div style=\"flex:1;max-width:560px\"><p style=\"color:#fff;font-size:38px;margin:0 0 8px 0\">Watch the video once. Don't write anything.</p><p style=\"color:#fff;font-size:38px;margin:0 0 10px 0\">The video is mainly about&hellip;</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">A</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">How to become a professional AFL player.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">B</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">The first openly gay AFL player and his decision to come out.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">C</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">How Australian rules football began.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;width:36px;text-align:center;vertical-align:middle\"><span style=\"color:#ffdd00;font-weight:700;font-size:36px\">D</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;color:#fff;font-size:36px\">Famous AFL players from the past.</td></tr></table></div><div style=\"flex:1;max-width:600px;text-align:center\"><iframe width=\"600\" height=\"338\" src=\"https://www.youtube-nocookie.com/embed/JzljTlTSzYk\" title=\"BTN interview\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div></div>",
+      "notes": "Play the BTN video once. Students listen for gist only and choose the main idea. Answer: B."
+    },
+    {
+      "layout": "content",
+      "id": "gist-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Gist — Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">B &mdash; The first openly gay AFL player and his decision to come out.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0\">Leigh Ryswyk talks about his football career and why he decided to come out publicly.</td></tr></table>",
+      "notes": "Confirm B. The interview is about Leigh Ryswyk's decision to come out as the first openly gay AFL player."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:14px\">Listen 2 &mdash; Answer the Questions</h2><p style=\"color:#fff;text-align:center;font-size:38px;margin:0 0 20px 0\">Watch again. Answer the six questions on your worksheet.</p><div style=\"text-align:center\"><iframe width=\"880\" height=\"495\" src=\"https://www.youtube-nocookie.com/embed/JzljTlTSzYk\" title=\"BTN interview\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play the video again. Students answer the six open questions on the worksheet in their own words."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.da{border-collapse:collapse;margin:8px auto;max-width:900px;width:100%}.da td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.da .num{color:#ffdd00;font-weight:700;min-width:30px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Questions — Model Answers (1-3)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"da\"><tr class=\"fragment\"><td class=\"num\">1</td><td>It was a turning point because he realised he could play well — he was best on ground for the opposition.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>He wanted to take the pressure off other people who were afraid — someone had to be the first.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>It suggests he was hiding a heavy weight and could finally be himself after coming out.</td></tr></table>",
+      "notes": "Model answers 1-3. Accept reasonable paraphrases. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.da{border-collapse:collapse;margin:8px auto;max-width:900px;width:100%}.da td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.da .num{color:#ffdd00;font-weight:700;min-width:30px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">Questions — Model Answers (4-6)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"da\"><tr class=\"fragment\"><td class=\"num\">4</td><td>No active AFL player has done it, so they do not know what to expect — the unknown is scary, and the media and fans add pressure.</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>Consistent, year-round education about inclusion — not just one pride round once a year — built into workplaces and society.</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>If you can be yourself, you can still achieve anything; coming out is a personal choice and is not required.</td></tr></table>",
+      "notes": "Model answers 4-6. Accept reasonable paraphrases. Click to reveal each answer."
+    },
+    {
+      "layout": "content",
+      "id": "tf-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "True or False &mdash; Correct the False Ones",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Write T or F on your worksheet.</p><p style=\"font-size:38px;color:#fff;margin:0\">If the sentence is false, correct it on the line.</p>",
+      "notes": "Students complete the true/false section on the worksheet. Timer pill: 4 minutes (240 seconds)."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "tf-answers-1",
+      "body": "<style>.tf{border-collapse:collapse;margin:8px auto;max-width:900px;width:100%}.tf td{padding:9px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.tf .num{color:#ffdd00;font-weight:700;min-width:30px}.tf .v{color:#2ecc71;font-weight:900;min-width:34px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">True or False — Answers (1-3)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"tf\"><tr class=\"fragment\"><td class=\"num\">1</td><td class=\"v\">F</td><td>Leigh was born in Victoria and moved to Queensland at six.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td class=\"v\">T</td><td>Leigh was delisted by Brisbane.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td class=\"v\">F</td><td>Mitch Brown was the first bi man, not the first gay man.</td></tr></table>",
+      "notes": "True/False answers 1-3 with corrections. Click to reveal each answer."
+    },
+    {
+      "layout": "raw",
+      "step": 1,
+      "background_color": "#052e0d",
+      "id": "tf-answers-2",
+      "body": "<style>.tf{border-collapse:collapse;margin:8px auto;max-width:900px;width:100%}.tf td{padding:9px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:34px;vertical-align:top}.tf .num{color:#ffdd00;font-weight:700;min-width:30px}.tf .v{color:#2ecc71;font-weight:900;min-width:34px}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:8px\">True or False — Answers (4-5)</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"tf\"><tr class=\"fragment\"><td class=\"num\">4</td><td class=\"v\">T</td><td>Leigh says the media can make it more uncomfortable.</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td class=\"v\">F</td><td>Coming out is a personal choice; athletes do not have to do it publicly.</td></tr></table>",
+      "notes": "True/False answers 4-5 with corrections. Click to reveal each answer."
+    },
+    {
+      "layout": "content",
+      "id": "discussion",
+      "step": 1,
+      "background_color": "#4a235a",
+      "title": "Discuss &mdash; Should Athletes Have to Come Out Publicly?",
+      "body": "<p style=\"font-size:36px;color:#fff;margin:0 0 16px 0\">Give your opinion. Agree or disagree. Reach a conclusion.</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think athletes should not have to come out because&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Agree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I agree with you because&hellip; That's a good point.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Disagree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I disagree because&hellip; I see what you mean, but&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Conclusion</td><td style=\"padding:8px 0\">So we agree that&hellip; In conclusion, we think&hellip;</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Timer pill: 5 minutes (300 seconds). Use the worksheet outline (opinion + three ideas) and the language table. Groups report their conclusion."
+    },
+    {
+      "layout": "content",
+      "id": "conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Questions?",
+      "body": "What did you decide? What needs to change in sport?",
+      "notes": "Wrap up. Elicit each group's conclusion. Ask: What was the hardest part of the listening for you?"
+    }
+  ]
+}

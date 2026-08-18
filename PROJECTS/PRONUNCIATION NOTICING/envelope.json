@@ -1,0 +1,134 @@
+{
+  "shape": {
+    "name": "Shape L - Pronunciation Noticing (Noticing-First)",
+    "description": "Noticing-first pronunciation lesson: learners are first made to hear the gap between their L1 transfer and the target feature (auditory discrimination), then the feature is isolated, explained, drilled, and used freely.",
+    "pedagogical_justification": "Pronunciation instruction that works is intelligibility-based (Levis, 2005; Munro & Derwing, 1995) and noticing-first (Schmidt, 1990). Learners must consciously notice a feature in input for it to become intake, and instruction is most effective when it primes that noticing (Schmidt & Frota, 1986). For Thai learners, word-final /t/ and /d/ are the critical case: Thai final stops are unreleased but phonologically present, so learners believe they are pronouncing the consonant when listeners hear nothing. Final-consonant deletion and missing clusters are the strongest intelligibility threats in Thai-accented English (Setter, 2005; Suntornsawet, 2022). The shape therefore follows the perception-before-production sequence established in final-consonant-deletion intervention: auditory discrimination precedes production. The trigger stage makes the gap audible by contrasting a model sentence against the L1-transfer version; the feature stage isolates the target (including the -ed /Id/ syllable, which Thai has no equivalent for) and links it to meaning (dropped -ed hides past tense); controlled production drills the release; freer use transfers it into spontaneous speech. Perceptual salience is designed in: model sentences place every target sound before a vowel or a pause, where native speakers audibly release the consonant. In-class data confirms the need: 112 students (27% of the cohort) carry examiner feedback flagging dropped or underarticulated final /t/, /d/, or -ed endings.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to notice and produce [target feature] in the context of [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to notice and produce word-final /t/, /d/ and /Id/ endings (including -ed) in the context of talking about what they did last night.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>18 August, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>L (Pronunciation Noticing)<br><b>Materials:</b><br>Slideshow, worksheet (Parts A-H), comparison audio, Part B and Part C tracks, Rome recording, quantum model audio<br><b>Assessment:</b><br>Discrimination accuracy (Parts A-C), production observation during drills and the game (Part F)<br><b>Systems:</b><br>Pronunciation",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To activate the topic and elicit the target feature in natural speech",
+          "procedure": [
+            "Show the splash slide. Ask: What do you see? What might this lesson be about? Let students speculate.",
+            "Advance to the title slide. Confirm the theme: the sounds at the end of words.",
+            "Ask: What did you do last night? Elicit 3-4 answers. Write them on the board exactly as students say them, without comment.",
+            "Tell students the focus is the sounds at the END of words."
+          ],
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Noticing trigger",
+          "stage_number": 2,
+          "stage_aim": "To make the gap between L1 transfer and the target audible",
+          "procedure": [
+            "Display the model sentence: I started my game at eight and played it all night.",
+            "Play the comparison track. Helen labels Thai English, then Standard English.",
+            "Ask: Can you hear the difference? What disappeared?",
+            "Students tap the table on every final /t/ or /d/ they hear in the Standard English version (Worksheet, Part A).",
+            "Feedback: the model sentence has five final sounds: started, eight, played, it, night."
+          ],
+          "time": "6 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Auditory discrimination",
+          "stage_number": 3,
+          "stage_aim": "To perceive the target feature before producing it",
+          "procedure": [
+            "Worksheet, Part B. Play the track: Helen announces each number, Benedict says each word twice.",
+            "Students write ✓ if both repetitions are correct, or ✗ if the final sound is dropped.",
+            "Check answers: pattern ✗ ✓ ✗ ✗ ✓.",
+            "Repeat any pairs students could not perceive. Note who still cannot hear the difference."
+          ],
+          "time": "6 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Feature focus: the -ed pattern",
+          "stage_number": 4,
+          "stage_aim": "To isolate the /t/, /d/, /Id/ endings and link them to meaning",
+          "procedure": [
+            "Worksheet, Part C. Play the track: Russell reads each past-tense verb once. Students write ✓ if they hear the -ed ending, or ✗ if it is missing.",
+            "Check answers: wanted ✓, played ✗, stopped ✓, needed ✗, watched ✓, stayed ✓, started ✗, helped ✓.",
+            "Worksheet, Part D. Students clap the syllables. Reveal one count per click: wanted = 3, played = 1, stopped = 1, needed = 2.",
+            "Elicit the rule: after /t/ or /d/, -ed adds a syllable. Worksheet, Part E: circle the past tense - want is present, wanted is past."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Controlled production",
+          "stage_number": 5,
+          "stage_aim": "To drill the audible release",
+          "procedure": [
+            "Finger-tap drill on the model sentence: I started (1) my game at eight (2) and played (3) it (4) all night (5).",
+            "Backchain: night, all night, played it all night, I started my game at eight and played it all night.",
+            "Choral and individual drill. Whisper-release drill: night, played - the final consonant must be heard.",
+            "Correct errors immediately. -ed words keep their extra syllable."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Freer use: Catch the Finals",
+          "stage_number": 6,
+          "stage_aim": "To transfer the feature into spontaneous speech",
+          "procedure": [
+            "Worksheet, Part F. Show the game slide and start the 5-minute timer.",
+            "Pairs: A tells B two things they did last night. B holds up one finger for every final /t/ or /d/ heard - one point per sound.",
+            "Dropped final = do-over until B hears it. Swap after 2.5 minutes.",
+            "Content feedback first, then language feedback on the most frequent dropped finals."
+          ],
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Rome noticing and wrap-up",
+          "stage_number": 7,
+          "stage_aim": "To consolidate noticing on authentic speech and set up recycling",
+          "procedure": [
+            "Worksheet, Part G. Play Rome's book review. Students tick or cross the 23 numbered words. Reveal: only [5], [10], [22] and [23] were correct.",
+            "Worksheet, Part H. Play the quantum model. Pairs read the paragraph to each other and tick or cross.",
+            "Quick-fire exit: night, wanted, played. Say them with the ending.",
+            "Tell students the same finals return in the next lesson's warm-up."
+          ],
+          "time": "6 min",
+          "interaction": "Ss-Ss / T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "18 August, 2026",
+    "class_name": "M2A / M3A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape L - Pronunciation Noticing (Noticing-First)",
+    "topic": "Final /t/, /d/ and /Id/ - Pronunciation Noticing",
+    "materials": [
+      "Pronunciation Noticing slideshow (https://elwrush.github.io/lesson-plan-writer/PRONUNCIATION_NOTICING/index.html)",
+      "Pronunciation Noticing worksheet - Parts A-H",
+      "Audio: model-sentence comparison track (Helen labels Thai English and Standard English)",
+      "Audio: Part B minimal-pairs track",
+      "Audio: Part C past-tense verbs track",
+      "Audio: Rome's book review recording (Part G)",
+      "Audio: quantum theory model reading (Part H)"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to notice and produce word-final /t/, /d/ and /Id/ endings (including -ed) in the context of talking about what they did last night.",
+    "subsidiary_aim": "To link dropped -ed endings to lost past-tense meaning and transfer the feature into pair interaction.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/PRONUNCIATION_NOTICING/index.html",
+    "answer_key": [
+      "<strong>Part A - Can you hear it?</strong> The model sentence has five final sounds: started (/Id/), eight (/t/), played (/d/), it (/t/) and night (/t/).",
+      "<strong>Part B - Same or different?</strong> Pattern: night ✗, fight ✓, last ✗, wanted ✗, played ✓. The dropped endings were nigh(t), las(t) and wante(d).",
+      "<strong>Part C - Past tense or not?</strong> wanted ✓, played ✗, stopped ✓, needed ✗, watched ✓, stayed ✓, started ✗, helped ✓. Words 2, 4 and 7 lost the whole -ed syllable: play, need, start.",
+      "<strong>Part D - The -ed pattern.</strong> Syllables: wanted = 3, played = 1, stopped = 1, needed = 2. After /t/ or /d/, -ed adds a syllable.",
+      "<strong>Part E - Does the ending matter?</strong> The past-tense words are wanted and played. Night ends with a /t/ sound.",
+      "<strong>Part G - Rome's book review.</strong> Rome pronounced only [5], [10], [22] and [23] correctly. The other 20 endings were dropped."
+    ]
+  }
+}

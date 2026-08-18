@@ -19,21 +19,30 @@ PROJECTS/{name}/              # Per-lesson directory (15-40 files)
   data.json                   # Slide deck. Load slideshow-renderer skill first.
   lesson.json                 # Source textbook lesson metadata + exercises
   transcript.json             # Audio transcript for listening tasks
+  build_data.py               # Deck builder: wires structure only, text authored verbatim
   generate_cue_cards.py       # Speed-dating cue cards (self-contained Playwright)
+  generate_worksheet.py       # Bespoke worksheet via write-test-worksheet skill
   post-process.py             # Timer + plugin injection (re-run after every render)
   classroom-layout.svg        # Classroom layout diagram for rotation models
-  slides/assets/              # splash.jpg, logo.png, blip/BELL.mp3
+  slides/assets/              # splash.jpg, logo.png, blip/BELL.mp3, audio
 ```
 
-Top-level: `LESSON-SHAPES/shape-{a..g}.json`, `RESEARCH/*.md` (pedagogical references), `tests/test_git_pages_safety.py`.
+Top-level: `LESSON-SHAPES/shape-{a..g,k,l}.json`, `RESEARCH/*.md` (pedagogical references), `tests/test_git_pages_safety.py`.
+
+**Pronunciation lessons (Shape L — see `LESSON-SHAPES/shape-l.json` + `RESEARCH/pronunciation-noticing.md`):**
+- Model sentences place every target before a vowel or a pause — never "wanted to", "fight game", "last night" (natives reduce those too).
+- Noticing texts use numbered underlined targets: `[0]` = example item, `[1]`–`[n]` = scored. Correct the transcript ONLY in the target feature; leave all other grammar verbatim.
+- **Tick/cross answer keys for audio MUST be verified by a teacher listening to the recording** — LLM judges and regex cannot hear dropped consonants. Never guess a key.
+- Student-facing slides say "the model", never the celebrity voice name.
 
 ## Classes
 
-`M2`, `M3-A`, `M2-4A`, `M2-5A` — never invent others.
+`M2`, `M3-A`, `M2-4A`, `M2-5A`, `M2A`, `M3A` — never invent others.
 
 ## HTTP server
 
 - Python `http.server` or `npx http-server -p 8080 --cors -g` on port 8080.
+- If nothing is listening on 8080, start one from the repo root: `python3 -m http.server 8080` (tracked as a background process). The deck URL is `http://localhost:8080/PROJECTS/{name}/slides/index.html`.
 - Re-rendering overwrites `index.html` in-place; **do NOT stop the server**.
 - Don't ask about it.
 
@@ -137,6 +146,10 @@ zsh -ic 'python scripts/pixabay_download.py --query "architectural blueprint" --
 
 **Slide text is authored verbatim.** Never compose displayed sentences programmatically in a builder script (f-string assembly, joins of clauses) — every string students see must be written out literally by the agent. Grammar errors in a deck are the signature of script-composed text. Demo ("Try it") slides use the teal `#116466` background (distinct from navy strategy slides), and correct-answer positions in demo checkmark tables must vary across demos — never always the first row.
 
+**Generator scripts that share strings** (e.g. a transcript reused by two generators) must guard their render calls under `if __name__ == "__main__":` — otherwise importing them to share a constant triggers a side-effect render and a circular import. Define shared text once in the primary generator and import it.
+
+**LLM-as-judge JSON is unreliable in shape.** deepseek-v4-flash mangles keys (`. __`-prefixed) and occasionally drops fields despite `response_format={"type":"json_object"}`. Normalize keys (`k.lstrip("._")`, `verdict`→`pass_fail`) and retry up to 3× on `model_validate()` failure — but keep Pydantic `model_validate()` as the sole acceptance gate. Never accept unvalidated judge output.
+
 ### Render
 
 ```bash
@@ -165,6 +178,10 @@ python3 -m pytest tests/ -v
 4. Verify: `pdfinfo` confirms A4, page count = students × (content pages + padding).
 5. Padding rule: `PADDING_MAP = {1:0, 2:0, 3:1, 4:0, 5:3}`.
 
+- **Banner images get clipped by the shared template.** The skill's `.ws-image img` rule is `max-height:5.5cm; object-fit:cover` — it centre-crops a 16:9 image by ~44%. To show the whole image edge-to-edge, pass `styles_override` (the FULL CSS string with the one rule changed to `width:100%; height:auto`). This replaces the entire stylesheet, so copy the project's working `STYLES` string rather than writing from scratch.
+- **Assessment data lives in two Supabase tables.** `speaking_assessment_cambridge` holds grades + `pronunciation_feedback` but its `audio_url` is usually NULL. Speaking audio URLs and comments live in `student_submissions` — columns `url` + `speaking_pron_comment`. Drive URLs are usually **folder** links: download with `gdown --folder <id> -O <dir>`.
+- Lint tests assert `EXPECTED_PAGES` — adding/removing sections changes the page count; update the test after a layout shift.
+
 PDFs are gitignored (`PROJECTS/**/*.pdf`).
 
 ## Cue cards
@@ -178,10 +195,14 @@ Write a `generate_cue_cards.py` per project. Self-contained Playwright script:
 ## Audio / monologs
 
 - Fish Audio TTS. `FISH_API_KEY` is in the environment. `s2.1-pro-free` runs the **same model** as paid `s2.1-pro` — only TTFA/DPA guarantees differ, so the free tier is not a degraded engine.
-- Cloned voices are logged in `cloned-voices/readme.md` with reusable voice IDs (e.g. `Patrick_Stewart` `134fbc5b…`, `Benedict_Cumberbatch` `2d3546b7…`, `narrator` `f190f246…`). Reuse existing IDs; log every new clone.
+- Cloned voices are logged in `cloned-voices/readme.md` with reusable voice IDs (e.g. `Patrick_Stewart` `134fbc5b…`, `Benedict_Cumberbatch` `2d3546b7…`, `Helen_Mirren` `6da4ca15…` (number announcer), `RCrowe-adult-Aus-celeb` `0f00fb73…`, `narrator` `f190f246…`, `london-boy` `311190e1…`). Reuse existing IDs; log every new clone.
 - **Clone from REAL human audio** (15 s min, 45–60 s ideal) via `POST /api.fish.audio/model` fast mode. Voices cloned from synthetic design audio sound robotic (community-verified) — prefer clean real narration clips (e.g. audiobook excerpts).
 - **NEVER apply fades (`afade`)** to generated audio: a fade-out starts before the last phoneme and cuts the final words. Trim trailing silence instead.
-- Natural prosody for read-along texts: `[long-break]`/`[break]` pause markers between paragraphs, `[emphasis]` on key terms, `temperature=0.8`, `prosody.speed≈0.93`, `chunk_length=300`. Embed the result in the slide body as `<audio controls data-src="assets/{file}.mp3">`.
+- **`silenceremove`'s `stop_periods` is BROKEN on this ffmpeg build** — it cuts into speech (a 10-word sentence trimmed to 1.6s). For edge-trim, detect boundaries with `silencedetect=noise=-40dB:d=0.08`, parse `silence_start`/`silence_end`, and cut with `-ss`/`-to` (leading silence ends at first `silence_end`; trailing starts at last `silence_start`).
+- **TTS cannot "mispronounce".** To get a dropped-final-consonant version, feed a homophone respelling: `night`→`nigh`, `fight`→`fie`, `played`→`play`, `wanted`→`want`. Always audition respellings (vowel drift risk: `lahs` can read as `lass`).
+- **Match audio loudness across a deck**: normalize each track with `loudnorm=I=-16:TP=-1.5:LRA=11` (I=-15/LRA=7 for quiet recordings) and verify with `ebur128` — all tracks should land within ~1 LU of each other.
+- **Browsers cache mp3s at the same URL** — after re-processing an audio file, add `?v=N` to its `data-src` in data.json or listeners hear the old (quiet) version. (Do NOT version the timer-plugin.css link — see gotchas.)
+- Natural prosody for read-along texts: `[long-break]`/`[break]` pause markers between paragraphs, `[emphasis]` on key terms, `temperature=0.8`, `prosody.speed≈0.93`, `chunk_length=300`. Embed the result in the slide body as `<audio controls data-src="assets/{file}.mp3">` (reveal.js lazy-loads `data-src` on show).
 
 ## Lesson plan PDF workflow
 

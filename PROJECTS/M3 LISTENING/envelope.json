@@ -1,0 +1,129 @@
+{
+  "shape": {
+    "name": "Shape E - Receptive Skills (Traditional)",
+    "description": "Traditional receptive skills lesson focusing on practicing listening or reading sub-skills.",
+    "pedagogical_justification": "Here the focus is not on language but on practicing receptive skills and helping learners process written and audio text. The overall aims might be: By the end of the lesson, learners will have practiced and developed the sub-skills of listening for gist and detailed comprehension. You should also include the context as part of the aim, e.g. ... in the context of an interview with Australia's first openly gay AFL player. The lesson opens with a listening entry ticket (a famous song gap-fill) that activates schema and sets the lesson's emotional theme.",
+    "main_aim_format": "By the end of the lesson, learners will have practiced and developed the sub-skills of [reading/listening] for [gist/detail/specific information] in the context of [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have practiced and developed the sub-skills of listening for gist and detailed comprehension in the context of an interview with Australia's first openly gay AFL player.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>17-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B2<br><b>Lesson Shape:</b><br>E (Receptive Skills - Listening)<br><b>Materials:</b><br>Worksheet, slideshow, BTN interview video, song video (Cat's in the Cradle)<br><b>Assessment:</b><br>Entry ticket gap-fill, listening questions, discussion observation<br><b>Skills:</b><br>Listening",
+      "stages": [
+        {
+          "stage": "Entry ticket - Cat's in the Cradle gap-fill",
+          "stage_number": 1,
+          "stage_aim": "To activate schema and practice listening for key words",
+          "procedure": [
+            "Show the Harry Chapin picture. In pairs, students predict what the song is about. Use Opinion-Reason-Evidence.",
+            "Give the song facts (written with his wife Sandra, his only number-one single in 1974, went gold).",
+            "Play the first verse (1:04-1:53). Students answer the multiple-choice question about the song's meaning. Check (B - a father too busy for his son).",
+            "Students open their worksheets. Play the song from 1:54 once. They complete the 25 lyric gaps (first chorus gapped; later choruses marked [chorus]).",
+            "Display the answer slides. Students swap and mark."
+          ],
+          "time": "10 min",
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Lead-in",
+          "stage_number": 2,
+          "stage_aim": "To set the context for the main listening",
+          "procedure": [
+            "Show the splash slide. Ask: What do you see? What might this be about? Let students speculate.",
+            "Advance to the title slide: How hard is it to come out? Confirm the theme.",
+            "Ask: What does coming out mean? Why might it be hard for a sportsperson?"
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Listening for gist",
+          "stage_number": 3,
+          "stage_aim": "To listen for the main idea of the interview",
+          "procedure": [
+            "Tell students to watch the video once without writing.",
+            "Play the BTN interview with Leigh Ryswyk.",
+            "Students choose the main idea (A-D) on the worksheet. Check the answer (B)."
+          ],
+          "time": "6 min",
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Listening for detail - answer the questions",
+          "stage_number": 4,
+          "stage_aim": "To listen for detail and answer open comprehension questions",
+          "procedure": [
+            "Play the video again. Students answer the six open questions on the worksheet in their own words.",
+            "Check the model answers.",
+            "Students complete the true/false section and correct the false ones. 4-minute timer.",
+            "Check the true/false answers (1 F, 2 T, 3 F, 4 T, 5 F)."
+          ],
+          "time": "10 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Post-listening discussion",
+          "stage_number": 5,
+          "stage_aim": "To use the listening content to form and defend an opinion",
+          "procedure": [
+            "In groups, students discuss: Should athletes have to come out publicly?",
+            "Each student writes their opinion and three supporting ideas on the worksheet outline.",
+            "Groups share opinions, agree or disagree using the language table, and reach a conclusion. 5-minute timer.",
+            "Each group reports one conclusion to the class. Content feedback first, then language feedback."
+          ],
+          "time": "12 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Recycling and wrap-up",
+          "stage_number": 6,
+          "stage_aim": "To consolidate the lesson and check understanding",
+          "procedure": [
+            "Ask: What did you decide? What needs to change in sport?",
+            "Elicit a few group conclusions.",
+            "Quick recap: Which listening words were new for you today?"
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "17 August, 2026",
+    "class_name": "M3",
+    "duration_minutes": 46,
+    "cefr_level": "B2",
+    "lesson_shape": "Shape E - Receptive Skills (Traditional) - Listening",
+    "topic": "Coming out in sport - Cat's in the Cradle and Leigh Ryswyk",
+    "materials": [
+      "Worksheet: Cat's in the Cradle & Leigh Ryswyk - Listening (entry ticket gap-fill, gist, open questions, true/false, discussion outline)",
+      "Slideshow: M3 Listening - Coming Out in Sport (https://elwrush.github.io/lesson-plan-writer/M3_LISTENING/index.html)",
+      "Video: BTN interview with Leigh Ryswyk (https://www.youtube.com/watch?v=JzljTlTSzYk)",
+      "Song: Cat's in the Cradle by Harry Chapin (entry ticket listening)"
+    ],
+    "main_aim": "By the end of the lesson, learners will have practiced and developed the sub-skills of listening for gist and detailed comprehension in the context of an interview with Australia's first openly gay AFL player.",
+    "subsidiary_aim": "Learners will also have practiced listening to a song for key words (gap-fill) and will discuss and reach a conclusion on coming out in sport using opinion and agreement language.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M3_LISTENING/index.html",
+    "video_url": "https://www.youtube.com/watch?v=JzljTlTSzYk",
+    "transcript": "PROJECTS/M3 LISTENING/btn.transcript.txt",
+    "answer_key": [
+      "<strong>Entry Ticket - Cat's in the Cradle gap-fill</strong>",
+      "First-verse question: B - A father who is too busy for his son. The father has planes to catch and bills to pay.",
+      "Gap-fill answers (25, verses 2-4 and the first chorus): said, Can, I, And, said, gonna, and, on, know, have, just, just, you, he, is, I, moved, I, mind, find, and, talking, you, to, was.",
+      "<strong>Listening - Gist</strong>",
+      "The video is mainly about B: the first openly gay AFL player and his decision to come out.",
+      "<strong>Listening - Answer the Questions</strong>",
+      "1. It was a turning point because he realised he could play well - he was best on ground for the opposition.",
+      "2. He wanted to take the pressure off other people who were afraid - someone had to be the first.",
+      "3. It suggests he was hiding a heavy weight and could finally be himself after coming out.",
+      "4. No active AFL player has done it, so they do not know what to expect - the unknown is scary, and the media and fans add pressure.",
+      "5. Consistent, year-round education about inclusion - not just one pride round once a year - built into workplaces and society.",
+      "6. If you can be yourself, you can still achieve anything; coming out is a personal choice and is not required.",
+      "<strong>True or False - Correct the False Ones</strong>",
+      "1. False - Leigh was born in Victoria and moved to Queensland at six.",
+      "2. True - Leigh was delisted by Brisbane.",
+      "3. False - Mitch Brown was the first bi man, not the first gay man.",
+      "4. True - Leigh says the media can make it more uncomfortable.",
+      "5. False - coming out is a personal choice; athletes do not have to do it publicly."
+    ]
+  }
+}

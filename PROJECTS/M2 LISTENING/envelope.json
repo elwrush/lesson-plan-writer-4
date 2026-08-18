@@ -1,0 +1,129 @@
+{
+  "shape": {
+    "name": "Shape E - Receptive Skills (Traditional)",
+    "description": "Traditional receptive skills lesson focusing on practicing listening or reading sub-skills.",
+    "pedagogical_justification": "Here the focus is not on language but on practicing receptive skills and helping learners process written and audio text. The overall aims might be: By the end of the lesson, learners will have practiced and developed the sub-skills of listening for gist and detailed comprehension. You should also include the context as part of the aim, e.g. ... in the context of a news report about smart glasses. The lesson opens with a listening entry ticket (a famous song gap-fill) that activates schema and pre-listening vocabulary.",
+    "main_aim_format": "By the end of the lesson, learners will have practiced and developed the sub-skills of [reading/listening] for [gist/detail/specific information] in the context of [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have practiced and developed the sub-skills of listening for gist and detailed comprehension in the context of a news report about smart glasses and privacy.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>17-08-26<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>E (Receptive Skills - Listening)<br><b>Materials:</b><br>Worksheet, slideshow, BTN news video, song audio (Tom's Diner)<br><b>Assessment:</b><br>Entry ticket gap-fill, listening tasks, discussion observation<br><b>Skills:</b><br>Listening",
+      "stages": [
+        {
+          "stage": "Entry ticket - Tom's Diner gap-fill",
+          "stage_number": 1,
+          "stage_aim": "To activate schema and practice listening for key words",
+          "procedure": [
+            "Show the Suzanne Vega picture. In pairs, students predict what the song is about. Use Opinion-Reason-Evidence.",
+            "Give the song facts (written 1982, used to test the MP3 format, 1990 remix became a hit).",
+            "Play the 44-second snippet once. Students answer the multiple-choice question about the song's meaning. Check.",
+            "Students open their worksheets. Play the whole song once. They complete the 24 lyric gaps.",
+            "Display the answer slides. Students swap and mark."
+          ],
+          "time": "10 min",
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Lead-in",
+          "stage_number": 2,
+          "stage_aim": "To set the context for the main listening",
+          "procedure": [
+            "Show the splash slide. Ask: What do you see? What might this be about? Let students speculate.",
+            "Advance to the title slide: Should smart glasses be allowed? Confirm the theme.",
+            "Ask: What are smart glasses? Do you know anyone with them?"
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Listening for gist",
+          "stage_number": 3,
+          "stage_aim": "To listen for the main idea of the news report",
+          "procedure": [
+            "Tell students to watch the video once without writing.",
+            "Play the BTN video (Meta Smart Glasses).",
+            "Students choose the main idea (A-D) on the worksheet. Check the answer (B)."
+          ],
+          "time": "6 min",
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Listening for detail and specific information",
+          "stage_number": 4,
+          "stage_aim": "To listen for specific information and identify true/false statements",
+          "procedure": [
+            "Play the video again. Students complete the six detail sentences on the worksheet.",
+            "Check the detail answers.",
+            "Students complete the true/false section and correct the false ones. 4-minute timer.",
+            "Check the true/false answers (1 F, 2 T, 3 T, 4 T, 5 F)."
+          ],
+          "time": "10 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Post-listening discussion",
+          "stage_number": 5,
+          "stage_aim": "To use the listening content to form and defend an opinion",
+          "procedure": [
+            "In groups, students discuss: Should smart glasses be banned?",
+            "Each student writes their opinion and three supporting ideas on the worksheet outline.",
+            "Groups share opinions, agree or disagree using the language table, and reach a conclusion. 5-minute timer.",
+            "Each group reports one conclusion to the class. Content feedback first, then language feedback."
+          ],
+          "time": "12 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Recycling and wrap-up",
+          "stage_number": 6,
+          "stage_aim": "To consolidate the lesson and check understanding",
+          "procedure": [
+            "Ask: What did you decide? Should smart glasses be allowed?",
+            "Elicit a few group conclusions.",
+            "Quick recap: Which listening words were new for you today?"
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "17 August, 2026",
+    "class_name": "M2",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape E - Receptive Skills (Traditional) - Listening",
+    "topic": "Smart glasses and privacy - listening and decision-making",
+    "materials": [
+      "Worksheet: Smart Glasses - Listening & Discussion (entry ticket gap-fill, gist, details, true/false, discussion outline)",
+      "Slideshow: M2 Listening - Smart Glasses (https://elwrush.github.io/lesson-plan-writer/M2_LISTENING/index.html)",
+      "Video: BTN - Meta Smart Glasses news report (https://www.youtube.com/watch?v=I1BzGOfh4L0)",
+      "Song: Tom's Diner by Suzanne Vega (entry ticket listening)"
+    ],
+    "main_aim": "By the end of the lesson, learners will have practiced and developed the sub-skills of listening for gist and detailed comprehension in the context of a news report about smart glasses and privacy.",
+    "subsidiary_aim": "Learners will also have practiced listening to a song for key words (gap-fill) and will discuss and reach a conclusion on a privacy issue using opinion and agreement language.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M2_LISTENING/index.html",
+    "video_url": "https://www.youtube.com/watch?v=I1BzGOfh4L0",
+    "transcript": "PROJECTS/M2 LISTENING/TRANSCRIPT.txt",
+    "answer_key": [
+      "<strong>Entry Ticket - Tom's Diner gap-fill</strong>",
+      "Snippet question: B - The quiet story of an ordinary moment. A woman sits in a diner and watches people come and go.",
+      "Gap-fill answers (24): 1. on, 2. the, 3. only, 4. out, 5. nice, 6. To, 7. her, 8. are, 9. them, 10. the, 11. died, 12. had, 13. looking, 14. and, 15. the, 16. does, 17. reflection, 18. up, 19. hair, 20. through, 21. the, 22. the, 23. began, 24. to.",
+      "<strong>Listening - Gist</strong>",
+      "The video is mainly about B: what smart glasses can do, and why some people worry about them.",
+      "<strong>Listening - Details</strong>",
+      "1. Smart glasses have been around since the early twenty-tens.",
+      "2. Ray-Ban and Meta worked together in 2021.",
+      "3. The Kmart version costs $89 and sold out last week.",
+      "4. The glasses can respond to voice commands, play music, and make calls.",
+      "5. Some use AI to translate foreign languages instantly.",
+      "6. Filming in a bathroom, changeroom, or bedroom is illegal.",
+      "<strong>True or False - Correct the False Ones</strong>",
+      "1. False - Smart glasses first appeared in the early twenty-tens, not 2021.",
+      "2. True - The Kmart glasses sold out last week.",
+      "3. True - In Australia, filming people in public places is usually allowed.",
+      "4. True - You must ask permission before filming on private property.",
+      "5. False - Filming without knowledge is not necessarily against the law, but many people say it is not ethical."
+    ]
+  }
+}

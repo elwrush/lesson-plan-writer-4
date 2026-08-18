@@ -1,14 +1,14 @@
-"""test_worksheet_lint.py — Red-green deterministic checks for the Smart Glasses worksheet.
+"""test_worksheet_lint.py — Red-green deterministic checks for the M3 listening worksheet.
 
 Red phase: PDF does not exist yet (test_pdf_exists MUST fail).
-Green phase: PDF exists, A4, 2 pages, fonts embedded.
+Green phase: PDF exists, A4, expected pages, fonts embedded.
 """
 
 import subprocess
 from pathlib import Path
 
-PDF_PATH = Path("PROJECTS/M2 LISTENING/Smart-Glasses-Listening-Discussion-Worksheet.pdf")
-EXPECTED_PAGES = 4
+PDF_PATH = Path("PROJECTS/M3 LISTENING/Cats-Cradle-Leigh-Ryswyk-Listening-Worksheet.pdf")
+EXPECTED_PAGES = 5
 
 
 def test_pdf_exists():
@@ -27,7 +27,7 @@ def test_pdf_is_a4():
 
 
 def test_page_count():
-    """Page count matches the documented expectation for this worksheet."""
+    """Page count matches the documented expectation."""
     result = subprocess.run(
         ["pdfinfo", str(PDF_PATH)],
         capture_output=True, text=True, check=True,
@@ -38,6 +38,15 @@ def test_page_count():
             count = int(line.split(":")[1].strip())
             break
     assert count == EXPECTED_PAGES, f"Expected {EXPECTED_PAGES} pages, got {count}"
+
+
+def test_answer_key_on_last_page():
+    """The answer key must start on the final page."""
+    result = subprocess.run(
+        ["pdftotext", "-f", str(EXPECTED_PAGES), "-l", str(EXPECTED_PAGES), str(PDF_PATH), "-"],
+        capture_output=True, text=True, check=True,
+    )
+    assert "Answer Key" in result.stdout, "Last page must contain the answer key"
 
 
 def test_fonts_embedded():

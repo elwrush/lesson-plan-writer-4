@@ -191,6 +191,31 @@ content = {
                 "</table>"
             ),
         },
+        {"type": "page_break"},
+        {"type": "heading", "text": "Answer Key"},
+        {"type": "heading", "text": "Entry Ticket — Tom's Diner"},
+        {
+            "type": "gap_sentence",
+            "items": [
+                {"num": 1, "text": "Snippet question: <strong>B</strong> — The quiet story of an ordinary moment."},
+                {
+                    "num": 2,
+                    "text": "Gap-fill answers: <strong>on, the, only, out, nice, To, her, are, them, the, died, had, "
+                            "looking, and, the, does, reflection, up, hair, through, the, the, began, to.</strong>",
+                },
+            ],
+        },
+        {"type": "heading", "text": "Main Lesson — Meta Smart Glasses"},
+        {
+            "type": "gap_sentence",
+            "items": [
+                {"num": 1, "text": "Gist: <strong>B</strong> — What smart glasses can do, and why some people worry."},
+                {"num": 2, "text": "Details: 1. early twenty-tens. 2. 2021. 3. $89. 4. calls. 5. languages. 6. bedroom."},
+                {"num": 3, "text": "True or False: 1. <strong>False</strong> — first appeared in the early twenty-tens, not 2021."},
+                {"num": 4, "text": "2. <strong>True</strong>. 3. <strong>True</strong>. 4. <strong>True</strong>."},
+                {"num": 5, "text": "5. <strong>False</strong> — not necessarily against the law, but many say it is not ethical."},
+            ],
+        },
     ],
 }
 

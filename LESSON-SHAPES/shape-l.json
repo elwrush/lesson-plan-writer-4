@@ -1,0 +1,67 @@
+{
+  "name": "Shape L - Pronunciation Noticing (Noticing-First)",
+  "description": "Noticing-first pronunciation lesson for a specific L1-transfer feature (e.g. dropped/underarticulated word-final /t/, /d/, /Id/ endings for Thai learners). Learners are first made to HEAR the gap between the L1-transfer version and the target (auditory discrimination), then the feature is isolated, linked to meaning, drilled, and used freely. Authentic recordings from past students serve as the final noticing text.",
+  "pedagogical_justification": "Pronunciation instruction that works is intelligibility-based (Levis, 2005; Munro & Derwing, 1995) and noticing-first (Schmidt, 1990): learners must consciously notice a feature in input for it to become intake, and instruction is most effective when it primes that noticing (Schmidt & Frota, 1986). For Thai learners, word-final /t/ and /d/ are the critical case: Thai final stops are unreleased but phonologically present, so learners believe they are pronouncing the consonant when listeners hear nothing. Final-consonant deletion and missing clusters are the strongest intelligibility threats in Thai-accented English (Setter, 2005; Suntornsawet, 2022). The shape therefore follows the perception-before-production sequence established in final-consonant-deletion intervention: auditory discrimination precedes production.\n\nThe shape embeds four design principles learned in practice:\n(1) PERCEPTUAL SALIENCE IS DESIGNED, NOT ASSUMED. Model sentences place every target sound before a vowel or a pause, where native speakers audibly release the consonant. Coarticulation traps (\"wanted to\", \"fight game\", \"last night\") are unusable as models because natives reduce them too.\n(2) THE GAP IS MADE AUDIBLE WITH A CONTRAST PAIR. The trigger stage plays a comparison track: a narrator labels \"Thai English\" then \"Standard English\" readings of the same model sentence (native model + homophone-respelled version produced by TTS).\n(3) TARGETS ARE NUMBERED, KEYS ARE AUDITED. Noticing texts carry numbered underlined targets ([0] = example item, [1]-[n] = scored targets). The tick/cross answer key CANNOT be inferred from the audio metadata - it must be verified by a teacher listening to the recording (LLM-as-judge and regex checks cannot hear dropped consonants).\n(4) AUTHENTIC STUDENT DATA IS THE FINAL INPUT. The closing stage uses a real past-student recording (from assessment audio) as an authentic noticing text: the transcript is corrected ONLY in the target feature (all other grammar left verbatim), targets are underlined and numbered, and students tick/cross the recording against the printed text.\n\nThe trigger stage contrasts a model sentence against the L1-transfer version; the feature stage isolates the target (including the -ed /Id/ syllable, which Thai has no equivalent for) and links it to meaning (dropped -ed hides past tense); controlled production drills the release; freer use transfers it into spontaneous speech. In-class assessment data grounds the choice of feature: 112 students (27% of the cohort) carry examiner feedback flagging dropped or underarticulated final /t/, /d/, or -ed endings. Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will be better able to notice and produce [target feature] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to notice and produce word-final /t/, /d/ and /Id/ endings (including -ed) in the context of talking about what they did last night.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>L (Pronunciation Noticing)<br><b>Materials:</b><br>Slideshow, worksheet (Parts A-H), comparison audio, Part B and Part C tracks, Rome recording, quantum model audio<br><b>Assessment:</b><br>Discrimination accuracy (Parts A-C), production observation during drills and the game (Part F)<br><b>Systems:</b><br>Pronunciation\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate the topic and elicit the target feature in natural speech",
+        "procedure": "- Show the splash slide. Ask: What do you see? What might this lesson be about? Let students speculate.\n- Advance to the title slide. Confirm the theme: the sounds at the end of words.\n- Ask: What did you do last night? Elicit 3-4 answers. Write them on the board exactly as students say them, without comment.\n- Tell students the focus is the sounds at the END of words.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Noticing trigger",
+        "stage_number": 2,
+        "stage_aim": "To make the gap between L1 transfer and the target audible",
+        "procedure": "- Display the model sentence: I started my game at eight and played it all night. Every target sits before a vowel or a pause (salience-designed).\n- Play the comparison track: a narrator labels Thai English, then Standard English, readings of the model sentence.\n- Ask: Can you hear the difference? What disappeared?\n- Students tap the table on every final /t/ or /d/ they hear in the Standard English version (Worksheet, Part A).\n- Feedback: the model sentence has five final sounds: started, eight, played, it, night.\n",
+        "time": 6,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Auditory discrimination",
+        "stage_number": 3,
+        "stage_aim": "To perceive the target feature before producing it",
+        "procedure": "- Worksheet, Part B. Play the track: a narrator announces each number, a second voice says each word twice.\n- Students write ✓ if both repetitions are correct, or ✗ if the final sound is dropped.\n- Check answers against the audited key (verified by listening, never guessed). Pattern: ✗ ✓ ✗ ✗ ✓.\n- Repeat any pairs students could not perceive. Note who still cannot hear the difference.\n",
+        "time": 6,
+        "interaction": "Ind / T-Ss"
+      },
+      {
+        "stage": "Feature focus: the -ed pattern",
+        "stage_number": 4,
+        "stage_aim": "To isolate the /t/, /d/, /Id/ endings and link them to meaning",
+        "procedure": "- Worksheet, Part C. Play the track: each past-tense verb read once. Students write ✓ if they hear the -ed ending, or ✗ if it is missing.\n- Check answers: wanted ✓, played ✗, stopped ✓, needed ✗, watched ✓, stayed ✓, started ✗, helped ✓.\n- Worksheet, Part D. Students clap the syllables. Reveal one count per click: wanted = 3, played = 1, stopped = 1, needed = 2.\n- Elicit the rule: after /t/ or /d/, -ed adds a syllable. Worksheet, Part E: circle the past tense - want is present, wanted is past.\n",
+        "time": 8,
+        "interaction": "T-Ss / Ss-Ss"
+      },
+      {
+        "stage": "Controlled production",
+        "stage_number": 5,
+        "stage_aim": "To drill the audible release",
+        "procedure": "- Finger-tap drill on the model sentence: I started (1) my game at eight (2) and played (3) it (4) all night (5).\n- Backchain: night, all night, played it all night, I started my game at eight and played it all night.\n- Choral and individual drill. Whisper-release drill: night, played - the final consonant must be heard.\n- Correct errors immediately. -ed words keep their extra syllable.\n",
+        "time": 8,
+        "interaction": "T-Ss / Ind"
+      },
+      {
+        "stage": "Freer use: Catch the Finals",
+        "stage_number": 6,
+        "stage_aim": "To transfer the feature into spontaneous speech",
+        "procedure": "- Worksheet, Part F. Show the game slide and start the 5-minute timer.\n- Pairs: A tells B two things they did last night. B holds up one finger for every final /t/ or /d/ heard - one point per sound.\n- Dropped final = do-over until B hears it. Swap after 2.5 minutes.\n- Content feedback first, then language feedback on the most frequent dropped finals.\n",
+        "time": 8,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Authentic noticing and wrap-up",
+        "stage_number": 7,
+        "stage_aim": "To consolidate noticing on authentic student speech and set up recycling",
+        "procedure": "- Worksheet, Part G. Play a past student's recording (from assessment audio). Students tick or cross the numbered underlined targets.\n- The transcript is corrected ONLY in the target feature; all other grammar stays verbatim. [0] is the example item.\n- Reveal the audited key (e.g. only [5], [10], [22] and [23] were correct).\n- Worksheet, Part H. Play the model reading. Pairs read the paragraph to each other and tick or cross.\n- Quick-fire exit: night, wanted, played. Say them with the ending. Tell students the finals return in the next warm-up.\n",
+        "time": 6,
+        "interaction": "Ss-Ss / T-Ss"
+      }
+    ]
+  }
+}

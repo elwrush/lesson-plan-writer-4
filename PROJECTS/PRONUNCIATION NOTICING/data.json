@@ -1,0 +1,193 @@
+{
+  "title": "Pronunciation Noticing: Final /t/, /d/ and /Id/",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "Can you hear the ending?",
+      "body": "Let's train your ears and your mouth."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "Your listener can't understand words if you drop the /t/, /d/ and /Id/ endings."
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "What did you do last night?",
+      "body": "Tell your partner two things.<p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Elicit 3-4 answers. Note how students say the past endings. Do not correct yet."
+    },
+    {
+      "layout": "content",
+      "id": "transition-feature",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Final /t/, /d/ and /Id/",
+      "body": "The sounds at the end of words."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-notice",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Notice",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Listen for the last sound of each word.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Dropped finals hide the past tense.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Tap your finger on every final /t/ or /d/.</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-notice",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Notice",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">I <span style=\"text-decoration:none\">started</span> my game at <span style=\"text-decoration:none\">eight</span> and <span style=\"text-decoration:none\">played</span> <span style=\"text-decoration:none\">it</span> all <span style=\"text-decoration:none\">night</span>.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">How many final sounds?</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-notice",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Notice",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">I <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:3px;text-underline-offset:5px\">started</span> my game at <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:3px;text-underline-offset:5px\">eight</span> and <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:3px;text-underline-offset:5px\">played</span> <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:3px;text-underline-offset:5px\">it</span> all <span style=\"text-decoration:underline;text-decoration-color:#ffdd00;text-decoration-thickness:3px;text-underline-offset:5px\">night</span>.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Five. started, eight, played, it, night.</td></tr></table>"
+    },
+    {
+      "layout": "raw",
+      "id": "listen-a",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"font-size:40px;margin:8px 0;color:#ffdd00;font-weight:700\">Worksheet, Part A</p><p style=\"font-size:38px;margin:8px 0\">Listen to Thai English and Standard English pronunciation of the model sentence.</p><p style=\"font-size:38px;margin:8px 0\">Can you hear the difference?</p><p style=\"font-size:36px;margin:16px 0;color:#ffdd00\">I started my game at eight and played it all night.</p><p style=\"font-size:38px;margin:8px 0\">Tap on every final /t/ or /d/ you hear.</p><audio controls data-src=\"assets/model-sentence-compare.mp3\" style=\"width:440px;margin:20px\"></audio>",
+      "notes": "Helen labels Thai English then Standard English. Students tap the five target words on the printed sentence."
+    },
+    {
+      "layout": "content",
+      "id": "answer-a",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part A",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">How many final /t/ or /d/ sounds does the model sentence have?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Five.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">started /Id/ · eight /t/ · played /d/ · it /t/ · night /t/.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">I started my game at eight and played it all night.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-b",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Worksheet, Part B"
+    },
+    {
+      "layout": "raw",
+      "id": "listen-b",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"font-size:40px;margin:8px 0;color:#ffdd00;font-weight:700\">Worksheet, Part B</p><p style=\"font-size:38px;margin:8px 0\">You will hear each word spoken twice. Write ✓ if the words are pronounced correctly each time.</p><audio controls data-src=\"assets/partb-audio.mp3\" style=\"width:440px;margin:20px\"></audio>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-b",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part B",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Which words lost their final sound?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1 ✗ · 2 ✓ · 3 ✗ · 4 ✗ · 5 ✓.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The dropped endings: nigh(t), las(t), wante(d).</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">Pattern: ✗ ✓ ✗ ✗ ✓.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-c",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Worksheet, Part C"
+    },
+    {
+      "layout": "raw",
+      "id": "listen-c",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"font-size:40px;margin:8px 0;color:#ffdd00;font-weight:700\">Worksheet, Part C</p><p style=\"font-size:38px;margin:8px 0\">Russell says each verb once.</p><p style=\"font-size:38px;margin:8px 0\">Did you hear the -ed ending? Write ✓ or ✗.</p><audio controls data-src=\"assets/partc-audio.mp3\" style=\"width:440px;margin:20px\"></audio>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-c",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part C",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Which -ed endings did Russell pronounce?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1 ✓ · 2 ✗ · 3 ✓ · 4 ✗ · 5 ✓ · 6 ✓ · 7 ✗ · 8 ✓.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2, 4, 7 lost the whole -ed syllable: play, need, start.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">wanted ✓ · played ✗ · stopped ✓ · needed ✗ · watched ✓ · stayed ✓ · started ✗ · helped ✓.</td></tr></table>"
+    },
+    {
+      "layout": "raw",
+      "id": "feature-ed",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"font-size:40px;margin:8px 0;color:#ffdd00;font-weight:700\">Worksheet, Part D &mdash; The -ed Pattern</p><p style=\"font-size:38px;margin:8px 0\">Clap the syllables. How many does each word have?</p><table style=\"width:100%;border-collapse:collapse;margin-top:16px\"><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;font-size:38px;width:55%\">wanted</td><td class=\"fragment\" style=\"padding:10px 0;border-bottom:1px solid #444;font-size:38px;color:#ffdd00;font-weight:700\">3 syllables</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;font-size:38px\">played</td><td class=\"fragment\" style=\"padding:10px 0;border-bottom:1px solid #444;font-size:38px;color:#ffdd00;font-weight:700\">1 syllable</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;font-size:38px\">stopped</td><td class=\"fragment\" style=\"padding:10px 0;border-bottom:1px solid #444;font-size:38px;color:#ffdd00;font-weight:700\">1 syllable</td></tr><tr><td style=\"padding:10px 12px 10px 0;border-bottom:1px solid #444;font-size:38px\">needed</td><td class=\"fragment\" style=\"padding:10px 0;border-bottom:1px solid #444;font-size:38px;color:#ffdd00;font-weight:700\">2 syllables</td></tr><tr class=\"fragment\"><td colspan=\"2\" style=\"padding:12px 0;font-size:36px\">After /t/ or /d/, -ed adds a syllable.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-e",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part E",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Which word is the past tense?</td></tr><tr class=\"fragment\"><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">wanted and played. And night ends with /t/.</td></tr><tr class=\"fragment\"><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Dropped -ed hides the past. Want is present. Wanted is past.</td></tr><tr class=\"fragment\"><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">Last night I wanted to play my game. I played it all night.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-f",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Worksheet, Part F"
+    },
+    {
+      "layout": "content",
+      "id": "game-f",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Worksheet, Part F &mdash; Catch the Finals Game",
+      "body": "<ul><li>Tell your partner two things you did last night.</li><li>They count every final /t/ or /d/.</li><li>One point per sound.</li></ul>"
+    },
+    {
+      "layout": "raw",
+      "id": "listen-g",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"font-size:40px;margin:8px 0;color:#ffdd00;font-weight:700\">Worksheet, Part G</p><p style=\"font-size:38px;margin:8px 0\">Rome drops many endings. Tick or cross the numbered words.</p><audio controls data-src=\"assets/rome-book-review.mp3?v=2\" style=\"width:440px;margin:20px\"></audio>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-g",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Part G",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Which endings did Rome say clearly?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Only [5], [10], [22] and [23]. The other 20 were dropped.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Rome's examiner flagged called, would, friend, complicated.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">[5] ✓ · [10] ✓ · [22] ✓ · [23] ✓ — all the rest ✗.</td></tr></table>"
+    },
+    {
+      "layout": "raw",
+      "id": "listen-h",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"font-size:40px;margin:8px 0;color:#ffdd00;font-weight:700\">Worksheet, Part H</p><p style=\"font-size:38px;margin:8px 0\">This is the model. Listen first.</p><p style=\"font-size:38px;margin:8px 0\">Then read the paragraph to your partner.</p><audio controls data-src=\"assets/quantum-model.mp3\" style=\"width:440px;margin:20px\"></audio>"
+    },
+    {
+      "layout": "content",
+      "id": "wrap-up",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "You trained your ears today.",
+      "body": "Say these with the ending: night, wanted, played.",
+      "notes": "Recycling: the same finals return in the next lesson warm-up."
+    }
+  ]
+}
