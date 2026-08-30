@@ -1,0 +1,361 @@
+{
+  "title": "M3A Career Skills and First Impressions",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "What skills do you need for work?",
+      "body": "Let's find out.",
+      "notes": "Greet students. Ask: What skills do you need for a good job? What do you see in the picture?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>These words help you talk about jobs and school.</li><li>You will need them at interviews.</li><li>They help you understand how people make a good impression.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "spelling-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Spelling Test",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Listen and write the 20 words.</p><p style=\"font-size:38px;color:#fff;margin:0 0 20px 0\">Each word comes twice, with a sentence.</p><div style=\"text-align:center\"><audio controls data-src=\"assets/spelling-test.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Hand out the answer sheets. Play the audio once only. Then students swap and mark against the answer slides. Collect the sheets after marking."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s1{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s1 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s1 .num{color:#ffdd00;font-weight:700;min-width:40px}.s1 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (1/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s1\"><tr class=\"fragment\"><td class=\"num\">1</td><td><span class=\"ans\">qualification</span></td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td><span class=\"ans\">confident</span></td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td><span class=\"ans\">ambitious</span></td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td><span class=\"ans\">reliable</span></td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td><span class=\"ans\">communication</span></td></tr></table>",
+      "notes": "Answer key 1-5. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s2{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s2 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s2 .num{color:#ffdd00;font-weight:700;min-width:40px}.s2 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (2/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s2\"><tr class=\"fragment\"><td class=\"num\">6</td><td><span class=\"ans\">deadline</span></td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td><span class=\"ans\">initiative</span></td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td><span class=\"ans\">negotiate</span></td></tr><tr class=\"fragment\"><td class=\"num\">9</td><td><span class=\"ans\">efficient</span></td></tr><tr class=\"fragment\"><td class=\"num\">10</td><td><span class=\"ans\">commitment</span></td></tr></table>",
+      "notes": "Answer key 6-10. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s3{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s3 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s3 .num{color:#ffdd00;font-weight:700;min-width:40px}.s3 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (3/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s3\"><tr class=\"fragment\"><td class=\"num\">11</td><td><span class=\"ans\">discipline</span></td></tr><tr class=\"fragment\"><td class=\"num\">12</td><td><span class=\"ans\">flexible</span></td></tr><tr class=\"fragment\"><td class=\"num\">13</td><td><span class=\"ans\">promotion</span></td></tr><tr class=\"fragment\"><td class=\"num\">14</td><td><span class=\"ans\">patience</span></td></tr><tr class=\"fragment\"><td class=\"num\">15</td><td><span class=\"ans\">leadership</span></td></tr></table>",
+      "notes": "Answer key 11-15. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s4{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s4 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s4 .num{color:#ffdd00;font-weight:700;min-width:40px}.s4 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (4/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s4\"><tr class=\"fragment\"><td class=\"num\">16</td><td><span class=\"ans\">collaborate</span></td></tr><tr class=\"fragment\"><td class=\"num\">17</td><td><span class=\"ans\">mentor</span></td></tr><tr class=\"fragment\"><td class=\"num\">18</td><td><span class=\"ans\">decisive</span></td></tr><tr class=\"fragment\"><td class=\"num\">19</td><td><span class=\"ans\">credibility</span></td></tr><tr class=\"fragment\"><td class=\"num\">20</td><td><span class=\"ans\">articulate</span></td></tr></table>",
+      "notes": "Answer key 16-20. Students swap and mark."
+    },
+    {
+      "layout": "content",
+      "id": "lead-in",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Think about work",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 22px 0\">What skills do you need for a good job? Talk to your partner.</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss for 2 minutes. Elicit a few ideas: teamwork, communication, patience. Keep it brief."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "notes": "Transition to vocabulary presentation. Say: These are words about career skills. We will learn nine of them."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-decisive",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/dɪˈsaɪsɪv/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">decisive</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">A decisive leader makes quick choices. She decides before the team waits too long.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If a manager is decisive, does she wait long to decide?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-creative",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/kriˈeɪtɪv/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">creative</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Creative people think of new ideas. They find answers nobody else sees.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is a creative person good at making new things?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-patience",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈpeɪʃns/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">patience</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Teaching small children takes patience. You must wait and stay calm.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If you have patience, do you get angry quickly?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-natural-leader",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈnætʃrəl ˈliːdə/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">natural leader</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">A natural leader guides the group. Everyone listens when she speaks.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is a natural leader someone people follow?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-team-player",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/tiːm ˈpleɪə/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">team player</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">A team player helps the group win. He shares the work and supports others.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is a team player someone who works alone?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-analytical-skills",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˌænəˈlɪtɪkl skɪlz/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">analytical skills</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Analytical skills help you solve problems. You study the facts and find the answer.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Do analytical skills help you understand difficult situations?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-communication-skills",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/kəˌmjuːnɪˈkeɪʃn skɪlz/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">communication skills</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Good communication skills win interviews. You speak clearly and listen well.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: What is a communication skill? (speaking, listening)"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-time-management",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/taɪm ˈmænɪdʒmənt skɪlz/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">time management skills</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Time management skills keep you on track. You finish tasks before the deadline.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If you manage your time well, are you often late?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-people-skills",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ɡʊd ˈpiːpl skɪlz/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">good people skills</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Good people skills make you easy to work with. You stay friendly and calm with everyone.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Does a person with good people skills get along with others?"
+    },
+    {
+      "layout": "content",
+      "id": "transition-listen",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Interview at International School Bangkok",
+      "notes": "Transition to listening. Say: We will listen to an interview at an international school in Bangkok."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Predict what the director will ask.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It helps your brain focus.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the questions. Think first.</td></tr></table>",
+      "notes": "Say: The title is Interview at International School Bangkok. A director interviews a student. What might he ask? Predict first, then listen."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A director interviews a new student.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which topics might he ask about?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her favorite food.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her best skills.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A movie she watched.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her plans for the future.</td></tr></table>",
+      "notes": "Ask students to predict which topics a director might ask about. Click to reveal the checkmarks."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A director interviews a new student.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which topics might he ask about?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her favorite food.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her best skills.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A movie she watched.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her plans for the future.</td></tr></table>",
+      "notes": "Revealed: skills and future plans make sense. Food and movies are less likely for a school interview."
+    },
+    {
+      "layout": "raw",
+      "id": "gist-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen &mdash; Gist</h2><p style=\"color:#fff;text-align:center;font-size:38px;max-width:800px;margin:0 auto\">Why is Lily at International School Bangkok?</p><div style=\"text-align:center;margin-top:24px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog once. Students listen for the gist only: Why is Lily at the school?"
+    },
+    {
+      "layout": "content",
+      "id": "gist-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Gist — Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Why is Lily at International School Bangkok?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">She is having an interview to join the school.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The director interviews her, and she hopes to get a place at the school.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“I really hope I get a place at your school.”</td></tr></table>",
+      "notes": "Confirm the gist. Lily is applying to join the international school."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen again</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:16px\">Answer the questions.</p><div style=\"max-width:880px;margin:0 auto\"><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">1. What does the director say about first impressions?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">2. What is Lily's best skill?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">3. What happened with the school play?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">4. What does Lily need to work on?</p></div><div style=\"text-align:center;margin-top:16px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog again. Students answer the four detail questions. Then go through the answer slides."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (1/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1. What does the director say about first impressions?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">They start with a handshake. A good first impression matters.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Lily agrees and says she makes eye contact and smiles.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“We like to start with a handshake. A good first impression matters.”</td></tr></table>",
+      "notes": "Check the answer. Point out handshake, make eye contact from the unit."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (2/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2. What is Lily's best skill?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Communication. She listens well and enjoys talking to people.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">She also says she is a team player who stays calm under pressure.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“My best skill is communication. I listen well.”</td></tr></table>",
+      "notes": "Check the answer. Point out communication and team player from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (3/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">3. What happened with the school play?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">It lost its director. Lily came up with a new plan, and they acted out all the scenes in one week.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Some friends dropped out, but she faced up to the challenge. Hard work pays off.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“I came up with a new plan, and we acted out all the scenes in one week.”</td></tr></table>",
+      "notes": "Check the answer. Point out the multi-word verbs: came up with, acted out, dropped out, faced up to, pays off."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (4/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">4. What does Lily need to work on?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Her time management. She leaves big tasks to the last minute.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The director says patience helps and time management is a skill you can learn.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“I sometimes leave big tasks to the last minute.”</td></tr></table>",
+      "notes": "Check the answer. Point out time management and patience from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "ex1-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 1 &mdash; Page 124",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Write the career skill for each person.</p><p style=\"font-size:38px;color:#fff;margin:0\">Choose from the nine skills.</p>",
+      "notes": "Students complete Exercise 1 independently. Then check the answer slides."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.e1{border-collapse:collapse;margin:6px auto;max-width:900px;width:100%}.e1 td{padding:6px 12px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:31px;vertical-align:top}.e1 .num{color:#ffdd00;font-weight:700;min-width:28px}.e1 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:6px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:33px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"e1\"><tr class=\"fragment\"><td class=\"num\">1</td><td>Emma doesn't waste time – she always makes a decision and trusts her instincts. <span class=\"ans\">decisive</span></td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>Sara listens well and gets the best out of everyone. <span class=\"ans\">natural leader</span></td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>Li thinks of ideas that no one else thinks of. <span class=\"ans\">creative</span></td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>Ahmed understands processes and situations very well. <span class=\"ans\">analytical skills</span></td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>Felicity can express complicated ideas really clearly. <span class=\"ans\">communication skills</span></td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>Ramon works very well in groups. <span class=\"ans\">team player</span></td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td>Sandy is happy to take on responsibility and help others. <span class=\"ans\">good people skills</span></td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td>Dmitry stays calm when other people might get really angry. <span class=\"ans\">patience</span></td></tr><tr class=\"fragment\"><td class=\"num\">9</td><td>Jens never misses his deadlines – he's really organized. <span class=\"ans\">time management skills</span></td></tr></table>",
+      "notes": "Answers 1-9. Each click reveals the next row."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-mwv",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.mv{border-collapse:collapse;margin:15px auto;max-width:720px;width:100%}.mv td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:12px\">Multi-word verbs</h2><table class=\"mv\"><tr><td>come up with</td><td>act out</td></tr><tr><td>drop out</td><td>face up to</td></tr><tr><td>pay off</td><td>turn down</td></tr></table>",
+      "notes": "New vocabulary before Exercise 3. Elicit meaning: come up with (think of), act out (show with actions), drop out (quit), face up to (accept a hard fact), pay off (be worth it), turn down (refuse)."
+    },
+    {
+      "layout": "content",
+      "id": "ex3-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 3 &mdash; Page 124",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Replace the underlined verbs.</p><p style=\"font-size:38px;color:#fff;margin:0\">Use a multi-word verb in the correct form.</p>",
+      "notes": "Students complete Exercise 3 (multi-word verbs: come up with, act out, turn down, face up to, drop out, pay off). Then check the answers."
+    },
+    {
+      "layout": "raw",
+      "id": "ex3-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.e3{border-collapse:collapse;margin:8px auto;max-width:900px;width:100%}.e3 td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:32px;vertical-align:top}.e3 .num{color:#ffdd00;font-weight:700;min-width:30px}.e3 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 3 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"e3\"><tr class=\"fragment\"><td class=\"num\">1</td><td>We just need to <span class=\"ans\">come up with</span> a really good idea.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>The children <span class=\"ans\">acted out</span> what they'd seen.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>I applied for the job, but they <span class=\"ans\">turned me down</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>It was hard to <span class=\"ans\">face up to</span> the fact that my life would never be the same again.</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>After just a year of college, Jack <span class=\"ans\">dropped out</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>Finally, all those hours of studying have <span class=\"ans\">paid off</span>!</td></tr></table>",
+      "notes": "Each click reveals the next row. Drill the multi-word verbs after checking."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-first",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.fi{border-collapse:collapse;margin:15px auto;max-width:760px;width:100%}.fi td{color:#fff;font-size:34px;padding:9px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:12px\">First impressions</h2><table class=\"fi\"><tr><td>shake hands</td><td>make eye contact</td></tr><tr><td>make small talk</td><td>make a good / bad / lasting impression</td></tr><tr><td>kiss</td><td>fold your arms</td></tr><tr><td>warm up to</td><td>come across as</td></tr></table>",
+      "notes": "New vocabulary before Exercise 4. Elicit meaning: shake hands (greet with hands), make eye contact (look at someone), make small talk (talk about light topics), make a good impression (seem good), fold your arms (cross arms), warm up to (start to like), come across as (seem)."
+    },
+    {
+      "layout": "content",
+      "id": "ex4-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 4 &mdash; Page 124",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Match the sentence halves.</p><p style=\"font-size:38px;color:#fff;margin:0\">First impressions.</p>",
+      "notes": "Students complete Exercise 4 (match halves about first impressions). Then check the answers."
+    },
+    {
+      "layout": "raw",
+      "id": "ex4-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.e4{border-collapse:collapse;margin:6px auto;max-width:880px;width:100%}.e4 td{padding:6px 12px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:31px;vertical-align:top}.e4 .num{color:#ffdd00;font-weight:700;min-width:26px}.e4 .ltr{color:#2ecc71;font-weight:900;min-width:26px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:6px\">Exercise 4 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:33px;margin-bottom:8px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"e4\"><tr class=\"fragment\"><td class=\"num\">1</td><td class=\"ltr\">d</td><td>kissed him on the cheek.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td class=\"ltr\">b</td><td>warmed up to him when I got to know him.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td class=\"ltr\">h</td><td>we shook hands.</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td class=\"ltr\">a</td><td>he made eye contact during the interview.</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td class=\"ltr\">f</td><td>made small talk.</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td class=\"ltr\">g</td><td>made a lasting impression on me.</td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td class=\"ltr\">e</td><td>just folded his arms and looked at me.</td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td class=\"ltr\">c</td><td>came across as rather rude when I met her.</td></tr></table>",
+      "notes": "Answers 1-d, 2-b, 3-h, 4-a, 5-f, 6-g, 7-e, 8-c. Each click reveals the next row."
+    },
+    {
+      "layout": "content",
+      "id": "ex5-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 5 &mdash; Page 124",
+      "body": "<p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">Add the missing words.</p><p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">Complete the travel guide.</p><p style=\"font-size:36px;color:#fff;margin:0\">Is the information true or false about your country?</p>",
+      "notes": "Students complete Exercise 5 (first impressions travel guide). Then check the completed guide."
+    },
+    {
+      "layout": "raw",
+      "id": "ex5-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.e5{max-width:920px;margin:0 auto;color:#fff;font-size:31px;line-height:1.5;text-align:left}.e5 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Exercise 5 — Answers</h2><div class=\"e5\"><p class=\"fragment\" style=\"margin:0 0 10px 0\">If you spend time in Bangkok, you should know about how people interact. Friends usually <span class=\"ans\">shake hands</span> or <span class=\"ans\">kiss</span> each other on the cheek when they meet.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">When people <span class=\"ans\">make small talk</span>, they usually chat about the weather or sports like basketball or soccer.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">If you want to <span class=\"ans\">make a good impression</span>, wearing smart clothes will impress people. But it's also important to smile and <span class=\"ans\">make eye contact</span>.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">If you don't look at people directly, they won't trust you.</p></div>",
+      "notes": "The completed travel guide with all 5 answers. Each click reveals the next paragraph."
+    },
+    {
+      "layout": "content",
+      "id": "freer-discussion",
+      "step": 1,
+      "background_color": "#4a235a",
+      "title": "Talk with your partner",
+      "body": "<p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">Is the travel guide true about your country?</p><p style=\"font-size:36px;color:#fff;margin:0 0 16px 0\">What is your best career skill?</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think first impressions matter a lot.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is people decide quickly.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, the director started with a handshake.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:20px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss. Use at least five target words: communication skills, team player, decisive, make eye contact, make small talk, patience... Pairs report one idea to the class."
+    },
+    {
+      "layout": "content",
+      "id": "recycling",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Quick round",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0\">I say the meaning. You say the word.</p>",
+      "notes": "Quick-fire retrieval: teacher says a definition, students say the word. Use the spelling test words. Say: These words will return in next lesson's warm-up. Exit question: Which word was most useful for you?"
+    }
+  ]
+}

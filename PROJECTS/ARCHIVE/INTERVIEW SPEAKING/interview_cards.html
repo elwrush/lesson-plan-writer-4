@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    color: #222;
+  }
+  .page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4mm;
+    height: 273mm;
+    page-break-after: always;
+  }
+  .card {
+    border: 1.5px solid #333;
+    border-radius: 4px;
+    padding: 4mm 5mm;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-header {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-bottom: 1.5px solid #1a1a2e;
+    padding-bottom: 1.5mm;
+    margin-bottom: 2mm;
+  }
+  .num-badge {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #fff;
+    width: 5.5mm;
+    height: 5.5mm;
+    text-align: center;
+    line-height: 5.5mm;
+    font-size: 9pt;
+    border-radius: 2px;
+    margin-right: 2mm;
+  }
+  .question {
+    font-size: 16pt;
+    font-weight: 700;
+    line-height: 1.25;
+    background: #eef2f7;
+    border-left: 3px solid #1a1a2e;
+    padding: 2.5mm 3mm;
+    margin-bottom: 2.5mm;
+  }
+  .section-label {
+    font-size: 9pt;
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 1mm;
+  }
+  .structure {
+    list-style: none;
+    font-size: 11pt;
+    line-height: 1.35;
+    color: #333;
+    border-left: 2px solid #9b59b6;
+    padding-left: 2.5mm;
+    flex: 1;
+  }
+  .structure li {
+    margin-bottom: 1.2mm;
+  }
+  .structure li strong {
+    color: #9b59b6;
+    margin-right: 1mm;
+  }
+  .follow-up {
+    margin-top: 2mm;
+    font-size: 10.5pt;
+    line-height: 1.35;
+    color: #444;
+    background: #fff8e1;
+    border: 1px solid #e0c568;
+    border-radius: 3px;
+    padding: 1.8mm 2.5mm;
+  }
+  .follow-up strong {
+    color: #7a5c00;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<div class="card">
+  <div class="card-header"><span class="num-badge">1</span>Interview Question 1 — Personal</div>
+  <div class="question">Tell me about yourself.</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>Who you are:</strong> My name is&hellip; I am 14 years old.</li>
+<li><strong>What you like:</strong> I enjoy&hellip; (sports, music, reading)</li>
+<li><strong>Your goal:</strong> In the future, I want to&hellip;</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;What do you do in your free time?&rdquo; &ldquo;What is your favourite subject?&rdquo;</div>
+</div>
+
+<div class="card">
+  <div class="card-header"><span class="num-badge">2</span>Interview Question 2 — Why MUIDS?</div>
+  <div class="question">Why do you want to study at MUIDS?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>Answer first:</strong> Because of the way they teach. Students learn by doing things, not just reading.</li>
+<li><strong>Example:</strong> For example, science students do real experiments and present them in English.</li>
+<li><strong>For me:</strong> I want to study medicine, so I need strong English and practical skills.</li>
+<li><strong>Close:</strong> So MUIDS is exactly the school I want.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;What do you know about MUIDS?&rdquo; &ldquo;Which subjects interest you?&rdquo;</div>
+</div>
+
+<div class="card">
+  <div class="card-header"><span class="num-badge">3</span>Interview Question 3 — Favourite subject</div>
+  <div class="question">What is your favourite subject and why?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>P — Position:</strong> Science, for sure!</li>
+<li><strong>R — Reason:</strong> I love knowing how things work.</li>
+<li><strong>E — Example:</strong> For example, last term we did an experiment with magnets.</li>
+<li><strong>P — Position:</strong> So yeah, that&rsquo;s why science is my favourite.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;What do you like most about it?&rdquo; &ldquo;Which subject do you find difficult?&rdquo;</div>
+</div>
+
+<div class="card">
+  <div class="card-header"><span class="num-badge">4</span>Interview Question 4 — Opinion</div>
+  <div class="question">Should mobile phones be banned at school?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>P — Position:</strong> Hmm, no. I don&rsquo;t think phones should be banned.</li>
+<li><strong>R — Reason:</strong> They&rsquo;re really useful for learning.</li>
+<li><strong>E — Example:</strong> For example, I can look up a word on my phone in seconds.</li>
+<li><strong>P — Position:</strong> So I think they should stay, just not during tests.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;How much do you use your phone?&rdquo; &ldquo;What do you use it for?&rdquo; &ldquo;Do you think phone use is important?&rdquo;</div>
+</div>
+
+</div>
+
+<div class="page">
+<div class="card">
+  <div class="card-header"><span class="num-badge">5</span>Interview Question 5 — Challenge</div>
+  <div class="question">What do you do when you face a challenge?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>S — Situation:</strong> Tell about a hard time. For example, a difficult exam.</li>
+<li><strong>A — Action:</strong> Say what you did. I made a study plan and practiced every day.</li>
+<li><strong>R — Result:</strong> Say what happened. I passed, and I felt proud.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;What did you learn from it?&rdquo; &ldquo;Would you do anything differently?&rdquo;</div>
+</div>
+
+<div class="card">
+  <div class="card-header"><span class="num-badge">6</span>Interview Question 6 — Strengths & weaknesses</div>
+  <div class="question">What are your strengths and weaknesses?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>Strength:</strong> I am good at&hellip; (e.g. working in a team)</li>
+<li><strong>Example:</strong> For example, I help my group in school projects.</li>
+<li><strong>Weakness:</strong> One weakness is&hellip; I worry too much about exams.</li>
+<li><strong>Improving:</strong> I am working on it. I practice deep breathing before tests.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;How are you improving your weakness?&rdquo; &ldquo;Who helps you when things are hard?&rdquo;</div>
+</div>
+
+<div class="card">
+  <div class="card-header"><span class="num-badge">7</span>Interview Question 7 — About MUIDS</div>
+  <div class="question">What do you know about MUIDS?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>Facts:</strong> MUIDS is an international high school at Mahidol University.</li>
+<li><strong>Learning:</strong> Students study in English and learn by doing projects and experiments.</li>
+<li><strong>Example:</strong> For example, science students do lab experiments and present their results in English.</li>
+<li><strong>Why it matters:</strong> That&rsquo;s why MUIDS is my first choice.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;Where is MUIDS?&rdquo; &ldquo;What subjects can you study there?&rdquo;</div>
+</div>
+
+<div class="card">
+  <div class="card-header"><span class="num-badge">8</span>Interview Question 8 — Your questions</div>
+  <div class="question">Do you have any questions for us?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>About learning:</strong> What is a normal day at MUIDS like?</li>
+<li><strong>About activities:</strong> What clubs and sports can students join?</li>
+<li><strong>About support:</strong> How do teachers help new students?</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;Ask one or two questions. Asking shows you are interested.&rdquo;</div>
+</div>
+
+</div>
+
+<div class="page">
+<div class="card">
+  <div class="card-header"><span class="num-badge">9</span>Interview Question 9 — Social media</div>
+  <div class="question">Should social media be banned for teenagers under 16?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>P — Position:</strong> Hmm, no. I don&rsquo;t think a full ban is the answer.</li>
+<li><strong>R — Reason:</strong> Social media helps us stay in touch and learn new things.</li>
+<li><strong>E — Example:</strong> For example, I follow science pages and chat with my friends.</li>
+<li><strong>P — Position:</strong> So I think age limits and clear rules are better than a ban.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;How much time do you spend on social media?&rdquo; &ldquo;What are the dangers of social media?&rdquo; &ldquo;Do your parents limit your screen time?&rdquo;</div>
+</div>
+
+<div class="card">
+  <div class="card-header"><span class="num-badge">10</span>Interview Question 10 — Homework</div>
+  <div class="question">Should homework be banned?</div>
+  <div class="section-label">Answer structure</div>
+  <ol class="structure">
+    <li><strong>P — Position:</strong> Hmm, not completely. Some homework is useful.</li>
+<li><strong>R — Reason:</strong> It helps us practise what we learn in class.</li>
+<li><strong>E — Example:</strong> For example, a little maths homework keeps my skills sharp.</li>
+<li><strong>P — Position:</strong> But I think the amount should be smaller, not banned.</li>
+  </ol>
+  <div class="follow-up"><strong>Follow-up:</strong> &ldquo;How much homework do you get?&rdquo; &ldquo;What kind of homework do you like?&rdquo; &ldquo;When is homework a waste of time?&rdquo;</div>
+</div>
+
+</div>
+
+</body>
+</html>

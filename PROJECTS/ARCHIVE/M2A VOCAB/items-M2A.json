@@ -1,0 +1,52 @@
+[
+  {
+    "context_sentence": "The sea was rough during the storm.",
+    "correct_answer": "not calm",
+    "distractors": ["very deep", "full of fish", "really cold"]
+  },
+  {
+    "context_sentence": "The lawyer proved that the man was innocent.",
+    "correct_answer": "not guilty",
+    "distractors": ["very ill", "completely lost", "really angry"]
+  },
+  {
+    "context_sentence": "This is a very special occasion for our family.",
+    "correct_answer": "event",
+    "distractors": ["place", "person", "meal"]
+  },
+  {
+    "context_sentence": "The water in the pond was completely still.",
+    "correct_answer": "not moving",
+    "distractors": ["very cold", "not clean", "extremely deep"]
+  },
+  {
+    "context_sentence": "The store sells electronic goods.",
+    "correct_answer": "products",
+    "distractors": ["workers", "customers", "prices"]
+  },
+  {
+    "context_sentence": "The movie was dull, so we left early.",
+    "correct_answer": "boring",
+    "distractors": ["slow", "crowded", "expensive"]
+  },
+  {
+    "context_sentence": "His mistake was deliberate.",
+    "correct_answer": "on purpose",
+    "distractors": ["by accident", "unusual", "serious"]
+  },
+  {
+    "context_sentence": "English is compulsory for all students at our school.",
+    "correct_answer": "required",
+    "distractors": ["optional", "interesting", "easy"]
+  },
+  {
+    "context_sentence": "The school will implement the new rules next term.",
+    "correct_answer": "put into action",
+    "distractors": ["write down", "think about", "take away"]
+  },
+  {
+    "context_sentence": "The company exploited its young workers.",
+    "correct_answer": "used unfairly",
+    "distractors": ["employed", "ignored", "promoted"]
+  }
+]

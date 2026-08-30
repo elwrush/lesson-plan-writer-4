@@ -1,0 +1,51 @@
+{
+  "name": "Shape N - Genre-Based Reading (Process Genre)",
+  "description": "Reading lesson where students learn to read by learning how texts are built. The cycle is Modelled reading → Joint construction → Independent reading → Independent writing, so students analyse the genre, moves and language features of a text before answering comprehension questions.",
+  "pedagogical_justification": "Genre-based approaches (Hyland, 2004; UPM 2023 review, 33 citations; ERIC 2025) make the text's architecture visible. Instead of treating the text as opaque (as Shape E does), students learn to see the moves, structures and language choices that make a text work. This deepens comprehension because students understand not just WHAT the text says but HOW and WHY it says it. Reading and writing become two sides of the same coin: analysing a text prepares you to write one, and joint construction bridges the gap between modelled and independent work.\n\nThe shape therefore moves through the Teaching and Learning Cycle: Lead-in (identify the genre) → Modelled reading (teacher labels the genre, structural moves and key language features) → Joint construction (class writes a text together, applying the structure) → Independent reading (students read a new text and identify genre, moves and language features) → Independent writing (students write their own text in the genre). This is strongest with argumentative, informational and procedural texts, and at B1-C1 where there is enough metalinguistic awareness. Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will have analysed the genre structure of [text type] and [read/written] a [genre] about [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have analysed the genre structure of a persuasive article and written their own short persuasive article about changing school rules.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>N (Genre-Based Reading)<br><b>Materials:</b><br>Model persuasive article (School uniforms), a second article for independent reading, writing frame, genre-moves checklist<br><b>Assessment:</b><br>Independent writing applying the genre structure<br><b>Skills:</b><br>Reading and Writing\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate schema and introduce the genre",
+        "procedure": "- Display the model text (a persuasive article about school uniforms) on PP. Ask: What kind of text is this? How do you know? 2 min.\n- In pairs, Ss tell each other what makes a persuasive text different from a story. 1 min. Feedback.\n- Tell Ss they will learn how to read and write a persuasive article.\n",
+        "time": 5,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Modelled reading",
+        "stage_number": 2,
+        "stage_aim": "To analyse the genre structure",
+        "procedure": "- Teacher reads the model text aloud, labelling the genre (persuasive article).\n- Identify the structural moves on PP: introduction (the opinion) → argument 1 (reason + evidence) → argument 2 → conclusion (call to action).\n- Discuss the key language features: opinion phrases (in my opinion, I believe), linkers (firstly, for example, on the other hand, therefore), and modal verbs for persuasion (should, must).\n",
+        "time": 10,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Joint construction",
+        "stage_number": 3,
+        "stage_aim": "To co-construct a text in the genre",
+        "procedure": "- Teacher and Ss write a short persuasive article together about a different school rule (e.g. mobile phones in class).\n- Teacher scribes on the board / PP. Ss contribute the opinion, the arguments, and the language.\n- As the text grows, Ss identify which move they are using (opinion, reason, evidence, conclusion).\n",
+        "time": 10,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Independent reading",
+        "stage_number": 4,
+        "stage_aim": "To apply genre knowledge to a new text",
+        "procedure": "- Ss read a new persuasive article independently (a different topic, e.g. homework at the weekend).\n- Using the genre-moves checklist, Ss identify the moves and key language features. 4 min.\n- Pair check: Ss compare their move labels. Whole-class feedback on the structure.\n",
+        "time": 10,
+        "interaction": "S, Ss-Ss"
+      },
+      {
+        "stage": "Independent writing",
+        "stage_number": 5,
+        "stage_aim": "To write in the genre",
+        "procedure": "- Ss plan and write their own short persuasive article (6-8 sentences) on a school rule of their choice.\n- They must use the moves: opinion, argument + evidence, conclusion, and at least two linkers and one modal verb. 8 min.\n- Peer check against the genre-moves checklist. Teacher circulates, feeding back on structure and language.\n",
+        "time": 11,
+        "interaction": "S"
+      }
+    ]
+  }
+}

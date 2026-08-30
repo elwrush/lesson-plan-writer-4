@@ -1,0 +1,51 @@
+{
+  "name": "Shape M - Extensive Reading (Sustained Silent Reading)",
+  "description": "Reading lesson built on the research consensus that reading volume is the strongest driver of vocabulary and comprehension growth. Students read self-selected, level-appropriate texts for pleasure with no comprehension testing. Comprehension improves through massive, enjoyable input rather than focused analysis of one text.",
+  "pedagogical_justification": "The research consensus (Nation, 2017; Kim & Webb, 2022 meta-analysis, 98 effect sizes) is that volume of reading is the strongest predictor of vocabulary and comprehension growth. Extensive reading is the most divergent from Shape E: instead of one text read intensively, ER uses many texts read extensively, and the form-meaning connection is strengthened through repeated exposure across many contexts rather than teacher-led analysis of a single text.\n\nFive principles drive the design: (1) Students choose what they read — motivation is essential. (2) Texts must be at the right level — 95-98% comprehension without a dictionary. (3) No comprehension testing — reading is its own reward. (4) Volume matters more than depth. (5) The teacher reads too — modelling is powerful, and reading logs, book talks and reading walls make the program visible. ER is a complementary program alongside classroom instruction, not a replacement: it builds vocabulary, speed and habit, while explicit teaching and sub-skill practice belong to other shapes.\n\nThis shape is a single ER lesson cycle: SSR (sustained silent reading) → Book talk (sharing, no testing) → Vocabulary spotlight (noticing words from self-selected reading) → Reading log update. Class time here is a 46-minute reading block built around an ongoing ER program.\n",
+  "main_aim_format": "By the end of the [program/term], learners will have read [number] books/texts at [level] and developed their reading fluency and vocabulary through sustained silent reading.\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have read for pleasure at their own level and shared one interesting word from their self-selected reading.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>M (Extensive Reading)<br><b>Materials:</b><br>Classroom library organised by level, reading logs, reading wall, book talk checklist<br><b>Assessment:</b><br>Reading logs (title, pages, enjoyment rating) — no comprehension checks<br><b>Skills:</b><br>Reading\n",
+    "stages": [
+      {
+        "stage": "Book selection",
+        "stage_number": 1,
+        "stage_aim": "To choose a level-appropriate text for pleasure reading",
+        "procedure": "- Ss select a book or text from the classroom library organised by level (Oxford, Cambridge or Macmillan graded readers).\n- Remind them of the 'right level' rule: they should understand about 95-98% without stopping to look up every word.\n- A quick 'five-finger check' on one page helps them judge the difficulty.\n",
+        "time": 4,
+        "interaction": "S"
+      },
+      {
+        "stage": "SSR - Sustained Silent Reading",
+        "stage_number": 2,
+        "stage_aim": "To read for pleasure at an appropriate level",
+        "procedure": "- Set a 20-minute timer at the start of the reading block.\n- Ss read silently. No dictionaries, no stopping. If a word is unknown, read on — the meaning will often become clear.\n- The teacher reads too, modelling the habit.\n- Teacher circulates quietly, without interrupting.\n",
+        "time": 20,
+        "interaction": "S"
+      },
+      {
+        "stage": "Book talk",
+        "stage_number": 3,
+        "stage_aim": "To share reading experiences and recommend books",
+        "procedure": "- In groups of three or four, Ss briefly share what they are reading and why they like it. 3-4 min.\n- No comprehension questions — just sharing. \n- Encourage Ss to recommend their book to a classmate who has not tried it. 2 min.\n- Teacher listens for engagement and may ask a book talk question to extend thinking.\n",
+        "time": 8,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Vocabulary spotlight",
+        "stage_number": 4,
+        "stage_aim": "To notice and learn words from self-selected reading",
+        "procedure": "- Ss share 1-2 interesting words they met in their reading today. The teacher writes them on the board.\n- Brief whole-class discussion of meaning. Ss say what they think it means and check the context.\n- Where possible, note the word family (e.g. decide, decision).\n",
+        "time": 8,
+        "interaction": "Ss-Ss, T-Ss"
+      },
+      {
+        "stage": "Reading log update",
+        "stage_number": 5,
+        "stage_aim": "To track reading progress",
+        "procedure": "- Ss update their reading logs: title, pages read, enjoyment rating (1-5 stars).\n- Ss add today's new words to their personal word list if they wish.\n- Teacher reminds Ss of the target for the term and points to the reading wall to celebrate progress.\n",
+        "time": 6,
+        "interaction": "S"
+      }
+    ]
+  }
+}

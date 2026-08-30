@@ -50,3 +50,45 @@
 - Tone: Youthful London voice; natural conversational
 - Created: 2026-08-16
 - Used for: M3-VOCAB "Numbers Around School" dialog (student Leo)
+
+## Ana-teen-girl
+- Voice ID: 4f12bc0c87464c68b357ee93e3572ee4
+- Age: Female teenager (~15), Region: en
+- Source: Real-audio clone (50s) from AUDIO_SAMPLES/Ana.mp3, loudnorm-amplified -29.2 -> -16 LUFS before cloning
+- Tone: Natural teen girl; conversational
+- Created: 2026-08-19
+- Used for: INTERVIEW SPEAKING — B1 (Ploy) and B2 (Elle) interview dialogs
+
+## Ana-teen-girl-v2
+- Voice ID: 9bad7a8c618344b0b3a441d268addd3f
+- Age: Female teenager (~15), Region: en
+- Source: Real-audio clone (50s) from AUDIO_SAMPLES/Ana.mp3, preprocessed highpass=60 + afftdn denoise + loudnorm -18 LUFS (supersedes Ana-teen-girl 4f12bc0c — quality was not great)
+- Tone: Natural teen girl; conversational
+- Created: 2026-08-19
+
+## VOICE REVERT (2026-08-19)
+- Ana-teen-girl-v2 (9bad7a8c) DISCARDED — afftdn denoise smeared the voice; quality worse than v1.
+- Active student voice: Ana-teen-girl v1 (4f12bc0c), cloned from loudnorm-amplified source (no denoise).
+- Dialog lines regenerated with 4f12bc0c; natural-pause stitch (600/400/250ms).
+
+## London-F-teen-1
+- Voice ID: f7c181b6c1c146a58c89872c9b30ecb1
+- Age: Female teenager (~15), Region: London (UK)
+- Source: Real-audio clone (36.6s) from AUDIO_SAMPLES/London_F_teen_1.mp3, cloned as-is (-18.4 LUFS, no preprocessing)
+- Tone: Natural teenage girl; conversational
+- Created: 2026-08-19
+- Used for: INTERVIEW SPEAKING — B1 (Ploy) and B2 (Elle) interview dialogs (replaces Ana)
+
+## Ana clones DELETED (2026-08-19)
+- Ana-teen-girl 4f12bc0c and Ana-teen-girl-v2 9bad7a8c both deleted from Fish — voice too degraded (quiet 94kbps source; v2 denoise smeared it further). Replaced by London-F-teen-1.
+
+## US-F-teen-1
+- Voice ID: c87c03465e564db9957f25c600895f08
+- Age: Female teenager (~15), Region: General American
+- Source: Real-audio clone (60s, first 60s of YouTube b_zwemYrgLE, user-downloaded), trimmed to 60s, loudnorm-amplified -24.8 -> -16 LUFS (no denoise)
+- Tone: Natural teenage girl; conversational
+- Created: 2026-08-19
+- Used for: INTERVIEW SPEAKING — B1 (Ploy) and B2 (Elle) interview dialogs
+
+## London-F-teen-1 DELETED (2026-08-19)
+- f7c181b6 deleted from Fish — British teen voice not wanted. Replaced by US-F-teen-1.

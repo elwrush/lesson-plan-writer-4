@@ -1,0 +1,169 @@
+{
+  "shape": {
+    "name": "Shape K - Vocabulary Development (Retrieval-Focused)",
+    "description": "Vocabulary lesson built on the research consensus: words are presented explicitly in context, then met repeatedly through spaced retrieval practice and varied input before generative productive use.",
+    "pedagogical_justification": "Research on L2 vocabulary instruction converges on four principles that this shape operationalises.\n\n(1) Selection: teach high-frequency, useful words (Nation, 2017; Nation & Waring, 1997).\n\n(2) Explicit first meeting in context: an efficient initial encounter (brief meaning, form, pronunciation, phonemic script) gives learners something to retrieve later (Alizadeh, 2016; Nation, 2017).\n\n(3) Retrieval and spacing: retrieval (recalling a form or meaning rather than re-reading it) strengthens the form-meaning link, and spaced repetition beats massed repetition for long-term retention (Kim & Webb, 2022; Nation, 2017). In-class retrieval activities (matching, gap-fill) set up the learner to meet the word again.\n\n(4) Varied meetings and generative use: meeting a word in new contexts and using it productively deepens processing (Laufer & Hulstijn, 2001; Kim, 2011). A productive stage that forces use of the target words converts receptive knowledge into productive knowledge.\n\nThe lesson opens with a spelling test that doubles as a retrieval diagnostic: it sets the learning agenda and feeds the recycling stage. Stage times assume a 46-minute lesson.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to use [target vocabulary] to [function] in the context of [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to use world problems and community action vocabulary (conflict, education, health, housing, hunger, literacy, pollution, poverty, sanitation, charity, donate, volunteer) to discuss problems facing the world and how communities can help.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>24 August, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>K (Vocabulary Development)<br><b>Materials:</b><br>Oxford Discover Futures 2, Unit 8 (Discover vocabulary), p. 126, slideshow, radio interview audio, spelling test audio<br><b>Assessment:</b><br>Spelling test scores, retrieval activities, generative task observation<br><b>Systems:</b><br>Vocabulary",
+      "stages": [
+        {
+          "stage": "Spelling test (retrieval diagnostic)",
+          "stage_number": 1,
+          "stage_aim": "To diagnose spelling of the target vocabulary and set the learning agenda",
+          "procedure": [
+            "Hand out the spelling test answer sheets (20 words).",
+            "Play the spelling test audio (23-Aug-2026_M2-world-problems-spelling.mp3): each word is read twice with a context sentence.",
+            "Students write the 20 words. Play once only.",
+            "Collect the sheets for marking after class. Say: We'll meet these words again today - see how many you know."
+          ],
+          "time": "8 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Lead-in",
+          "stage_number": 2,
+          "stage_aim": "To activate schema and set the world problems context",
+          "procedure": [
+            "Show the splash slide. Ask: What do you see? What problems might this be about? Let students speculate.",
+            "Advance to the title slide: World problems. Confirm the theme.",
+            "In pairs, students brainstorm: What problems does the world face today? Elicit a few ideas onto the board."
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Explicit presentation (meaning, form, pronunciation)",
+          "stage_number": 3,
+          "stage_aim": "To present the nine world problem words clearly in context",
+          "procedure": [
+            "Display the nine target words one at a time (phonemic script, then word, then context sentence): poverty, education, sanitation, housing, hunger, literacy, health, conflict, pollution.",
+            "Model pronunciation. Drill chorally and individually. Play audio track 2.15 for each word.",
+            "Check meaning with concept-checking questions: If a family lives in poverty, do they have a lot of money? What does sanitation give us? If two countries are in conflict, are they friends?",
+            "Draw attention to form: the -tion ending (education, pollution, sanitation) and literacy = the ability to read and write."
+          ],
+          "time": "7 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Varied meeting through input (listening)",
+          "stage_number": 4,
+          "stage_aim": "To meet the target words again in new contexts while listening",
+          "procedure": [
+            "Present the Predict strategy (Do / Why / How) and try the demo: predict answers before you listen.",
+            "Tell students they will hear a radio interview called The Green Garden Project. Set the gist question: What is the Green Garden Project? Play the audio once. Check the answer.",
+            "Play the audio again. Students answer four detail questions: How did Tom first get involved? What does the garden give the community? What is the fundraising campaign for? What did a local company do? Check answers.",
+            "Point out the target words as they recur in the dialog (charity, volunteer, neighbor, encourage, get involved, respect, rights, pollution, health, poverty, hunger, education, taught himself, blame myself, fundraising, donate, conflict, effort)."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Controlled retrieval practice",
+          "stage_number": 5,
+          "stage_aim": "To retrieve form and meaning under controlled conditions",
+          "procedure": [
+            "Exercise 1 (p. 126): match the nine sentences to the correct world problem words. 4-minute timer. Self-check against the answer slides.",
+            "Exercise 3 (p. 126): complete the eight sentences with a reciprocal verb and the correct reflexive pronoun (teach herself, blame yourself, help yourselves...). 3-minute timer. Check answers.",
+            "Exercise 4 (p. 126): complete the community action text with the correct form of the words. 3-minute timer. Check answers."
+          ],
+          "time": "10 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Generative use",
+          "stage_number": 6,
+          "stage_aim": "To use the target vocabulary productively in a freer task",
+          "procedure": [
+            "In pairs, students discuss the Exercise 5 questions: How many charities can you name? Which charity would you donate to and why? If you could spend a year volunteering, where would you go? What local community organizations do you know? 4-minute timer.",
+            "Students must use at least five target words (charity, donate, volunteer, get involved, poverty, hunger...).",
+            "Pairs report one idea to the class. Content feedback first, then language feedback on target word use."
+          ],
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Recycling and wrap-up",
+          "stage_number": 7,
+          "stage_aim": "To consolidate and set up spaced retrieval for the next lesson",
+          "procedure": [
+            "Quick-fire retrieval round using the spelling test words: the teacher says a definition, students say the word. 10 items.",
+            "Tell students the same words will reappear in next lesson's warm-up (spaced retrieval).",
+            "Exit question: Which word was most useful for you? Why?"
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "24 August, 2026",
+    "class_name": "M2",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape K - Vocabulary Development (Retrieval-Focused)",
+    "topic": "World problems and community action",
+    "materials": [
+      "Oxford Discover Futures 2, Unit 8 (Discover vocabulary), p. 126",
+      "Slideshow: M2 World problems and community action (https://elwrush.github.io/lesson-plan-writer/M2_VOCAB/index.html)",
+      "Audio: The Green Garden Project radio interview (dialog.mp3, 98 seconds)",
+      "Spelling test: 23-Aug-2026_M2-world-problems-spelling (audio MP3 + answer sheet, 20 words)"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to use world problems and community action vocabulary (conflict, education, health, housing, hunger, literacy, pollution, poverty, sanitation, charity, donate, volunteer) to discuss problems facing the world and how communities can help.",
+    "subsidiary_aim": "Learners will review reciprocal verbs with reflexive pronouns (teach herself, blame yourself, help yourselves), practise listening for gist and detail in a radio interview, and give and justify opinions on global issues.",
+    "transcript": "PROJECTS/M2 VOCAB/transcript.json",
+    "answer_key": [
+      "<strong>Spelling test — M2 world problems (23-Aug-2026)</strong>",
+      "1. pollution (A2)  2. disease (A2)  3. education (A2)",
+      "4. environment (A2)  5. charity (A2)  6. encourage (B1)",
+      "7. respect (B1)  8. global (B1)  9. convince (B1)",
+      "10. volunteer (B1)  11. effort (B1)  12. poverty (B1)",
+      "13. issue (B1)  14. donate (B1)  15. campaign (B1)",
+      "16. hunger (B2)  17. housing (B2)  18. blame (B2)",
+      "19. refugee (B2)  20. conflict (B2)",
+      "<strong>Listening — The Green Garden Project (radio interview)</strong>",
+      "Gist: The Green Garden Project is a charity that turned an old wasteland into a garden for the community.",
+      "Detail 1: A neighbor encouraged Tom to join, and he got to know people in the area.",
+      "Detail 2: The garden gives children a safe place to play and gives some families fresh food.",
+      "Detail 3: The fundraising campaign is to buy more plants and equipment.",
+      "Detail 4: A local company donated a large sum of money.",
+      "<strong>Exercise 1 — World problems</strong>",
+      "1. poverty — Some people don't have enough money to spend on basic things like food and shelter.",
+      "2. education — Children need to go to school.",
+      "3. sanitation — Everyone needs clean water for drinking and washing.",
+      "4. housing — People need safe places to live.",
+      "5. hunger — Some families don't have enough food.",
+      "6. literacy — The ability to read and write changes lives.",
+      "7. health — We all need to be protected against illness and disease.",
+      "8. conflict — In some parts of the world, communities and countries are at war with each other.",
+      "9. pollution — The air, land, and water are dirty because of the actions of humans.",
+      "<strong>Exercise 2 — How optimistic are you? (Students' own answers)</strong>",
+      "Scoring: Questions 1, 4, 5, and 8 — Agree = 0 points, Disagree = 1 point. Questions 2, 3, 6, and 7 — Agree = 1 point, Disagree = 0 points.",
+      "<strong>Exercise 3 — Reciprocal verbs</strong>",
+      "1. teach herself — She plans to teach herself Spanish.",
+      "2. blame yourself — Don't blame yourself for what happened.",
+      "3. introduce myself — I'm going to introduce myself to Sophia.",
+      "4. hurt yourself — Be careful, Sam! Don't hurt yourself!",
+      "5. amuse themselves — We're not going to be home on time, so our guests will have to amuse themselves.",
+      "6. convinced himself — He convinced himself that he was sick.",
+      "7. prepare ourselves — We need to prepare ourselves for difficult times.",
+      "8. Help yourselves — Welcome! Help yourselves to coffee or tea.",
+      "<strong>Exercise 4 — Community action</strong>",
+      "1. neighbors — We met some of our neighbors.",
+      "2. got to know — After that, I got to know more people in the area.",
+      "3. encouraged — One day, I was talking to someone who encouraged me.",
+      "4. get involved — ...to get involved in a local community project.",
+      "5. charity — It's a charity called the Green Garden Project.",
+      "6. volunteer — I'm happy to volunteer for such a good cause.",
+      "7. good cause — ...for such a good cause.",
+      "8. respects — Everyone respects each other's rights and freedoms.",
+      "9. rights — ...each other's rights and freedoms.",
+      "10. fundraising — Right now, we're running a fundraising campaign so we can buy more plants and equipment.",
+      "11. donated — A local company has just donated a large sum of money.",
+      "<strong>Exercise 5 — Community action questions (Students' own answers)</strong>"
+    ],
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M2_VOCAB/index.html"
+  }
+}

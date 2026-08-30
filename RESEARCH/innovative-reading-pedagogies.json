@@ -1,0 +1,828 @@
+{
+  "meta": {
+    "title": "Innovative Reading Pedagogies — Research Findings",
+    "description": "Evidence-based alternatives to the traditional receptive reading lesson (Shape E). Each pedagogy includes enough structural detail for an agent to construct new lesson shapes following the LESSON-SHAPES JSON convention.",
+    "date": "2026-08-29",
+    "sources": [
+      "Palincsar & Brown (1984) — Reciprocal Teaching",
+      "Slavin et al. (2011) — Collaborative Strategic Reading",
+      "Fauzi et al. (2025) — RADEC Model",
+      "Daniels (2002) — Literature Circles",
+      "Nation (2017); Kim & Webb (2022) — Extensive Reading",
+      "Hyland (2004) — Genre-Based Approach",
+      "Belkhir et al. (2025);多项 AI in EFL reviews — AI-Assisted Reading",
+      "Fisher & Frey (2012) — Close Reading"
+    ],
+    "shape_e_limitations": [
+      "Teacher-directed comprehension questions — students passively answer",
+      "Single reading, single task — no strategy instruction",
+      "Comprehension is tested, not monitored or repaired",
+      "Post-reading speaking is tacked on, not integrated",
+      "One-size-fits-all — no differentiation within the lesson"
+    ],
+    "recommended_combination": "Reciprocal Teaching (reading stage) + RADEC Create phase (output stage) — addresses Shape E's two biggest gaps: lack of strategy instruction and lack of genuine productive output."
+  },
+
+  "pedagogies": [
+    {
+      "id": "reciprocal-teaching",
+      "name": "Reciprocal Teaching",
+      "description": "Students rotate four comprehension roles (Predictor, Clarifier, Questioner, Summariser) while reading a text in sections. The teacher scaffolds gradually, then releases control. Students take ownership of comprehension monitoring.",
+      "pedagogical_justification": "Reciprocal teaching is one of the most robustly supported reading approaches. Meta-analyses consistently show effect sizes of d=0.32-0.88 on comprehension (SAGE Journals, 2025). The four roles make comprehension strategies visible and teachable, transforming passive reading into active strategy use. Unlike Shape E, which tests comprehension after reading, reciprocal teaching builds comprehension during reading.",
+      "when_to_use": [
+        "Texts with multiple sections that can be read incrementally",
+        "Mixed-ability classes where students need different levels of support",
+        "When the goal is to develop independent comprehension strategies",
+        "B1-B2 level texts where students can discuss meaning in English"
+      ],
+      "when_not_to_use": [
+        "Very short texts (under 500 words) — not enough material for role rotation",
+        "Pure listening lessons — roles are designed for reading",
+        "When students are completely new to the concept and need full teacher modelling first"
+      ],
+      "main_aim_format": "By the end of the lesson, learners will have practised and applied [Predictor/Clarifier/Questioner/Summariser] strategies to comprehend a text about [topic].",
+      "key_principles": [
+        "Roles rotate every section, not every lesson — with 3 sections, every student does every role once",
+        "Text is delivered in chunks, not all at once — keeps roles live",
+        "Teacher circulates and intervenes only when groups are stuck",
+        "The hardest part for teachers is staying quiet — comprehension is student-owned",
+        "Start with Summariser for first-time groups (most structured role)"
+      ],
+      "roles": {
+        "predictor": {
+          "description": "Before reading each section, look at headings, subheadings, or pull-quotes and guess what the text will say.",
+          "purpose": "Activates schema, creates anticipation, makes prediction a reading strategy",
+          "sentence_starters": [
+            "The heading says... so I think the text will...",
+            "Based on the previous section, I predict...",
+            "This paragraph will probably explain..."
+          ]
+        },
+        "clarifier": {
+          "description": "Identify what was confusing and work to fix it — with the teacher's help when needed.",
+          "purpose": "Makes it legitimate to say 'I didn't understand' and do something about it",
+          "sentence_starters": [
+            "I didn't understand when it said...",
+            "This is confusing because...",
+            "The author means that...",
+            "I think this part means..."
+          ]
+        },
+        "questioner": {
+          "description": "Generate questions about the text — not comprehension-check questions, but genuine 'I wonder' questions.",
+          "purpose": "Provokes curiosity, shifts from passive reception to active inquiry",
+          "sentence_starters": [
+            "What questions does this raise for you?",
+            "What would you ask the author if you could?",
+            "What's the most important question this text answers?",
+            "Why do you think the author included this?"
+          ]
+        },
+        "summariser": {
+          "description": "Write a brief summary of each section in their own words.",
+          "purpose": "Forces distillation of main ideas from supporting details",
+          "sentence_starters": [
+            "The main point of this section is...",
+            "In one sentence, this section tells us...",
+            "The most important idea is..."
+          ]
+        }
+      },
+      "stage_template": [
+        {
+          "stage": "Lead-in",
+          "stage_aim": "To activate schema and set the context",
+          "procedure": "Splash image or statistic related to the topic. Pair discussion: 'What do you know about...?' Whole-class feedback.",
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Role assignment + Section 1 reading",
+          "stage_aim": "To read the first section with a specific comprehension role",
+          "procedure": "Assign roles (P/Q/C/S). Students read section 1 silently (1.5-2 min). Each student performs their role for the group (2-3 min).",
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Section 2 reading + role rotation",
+          "stage_aim": "To apply comprehension strategies to a new section with a different role",
+          "procedure": "Roles rotate (P→Q→C→S). Students read section 2 silently. Perform roles. Teacher addresses 2-3 common clarifier points with whole class.",
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Section 3 reading + role rotation",
+          "stage_aim": "To apply comprehension strategies to the final section",
+          "procedure": "Roles rotate again. Read + perform roles. This section is typically the actionable one — Summariser has the hardest job.",
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Whole-class debrief",
+          "stage_aim": "To consolidate understanding and address misconceptions",
+          "procedure": "'What was the most surprising thing you learned?' 'Which of the solutions will you actually try?' Teacher addresses misconceptions surfaced during Clarifier stages.",
+          "time": "10 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Exit task",
+          "stage_aim": "To check individual comprehension",
+          "procedure": "Individual: Write one sentence summarising the whole text. OR: 'Write one question you still have after reading this.'",
+          "time": "4 min",
+          "interaction": "S"
+        }
+      ],
+      "role_card_design": {
+        "front": "Role name + plain-English description",
+        "back": "3-4 sentence starters",
+        "note": "Keep cards simple. B1 students need more scaffolding (more sentence starters, simpler language). B2 students can handle open-ended Questioner prompts."
+      },
+      "b1_vs_b2": {
+        "b1": "More sentence starters on role cards, simpler language in role descriptions, shorter text sections (~130-150 words each)",
+        "b2": "Open-ended Questioner prompts, longer sections (~200-250 words), more abstract claims in the text"
+      },
+      "research_citations": [
+        "Palincsar & Brown (1984) — original reciprocal teaching study",
+        "SAGE Journals (2025) — 'Examining classroom strategies: Reciprocal teaching and its effect on reading comprehension'",
+        "Meta-analyses: d=0.32-0.88 effect sizes on comprehension"
+      ],
+      "evidence_strength": "Very Strong",
+      "difficulty_to_implement": "Low"
+    },
+
+    {
+      "id": "csr",
+      "name": "Collaborative Strategic Reading (CSR)",
+      "description": "Students work in cooperative groups through four phases: Preview → Click & Clunk (fix-up strategies) → Get the Gist → Wrap-Up. Each phase has a specific cognitive strategy. The 'Click & Clunk' phase explicitly teaches students to detect and repair comprehension breakdowns.",
+      "pedagogical_justification": "CSR (16 citations, ScienceDirect 2025) makes comprehension strategies visible and teachable. Unlike Shape E, which assumes comprehension is a product of the task, CSR gives students physical tools (clunk cards) to use when they hit a comprehension wall. Strong for mixed-ability classes because group roles distribute the cognitive load.",
+      "when_to_use": [
+        "Mixed-ability classes where students need different levels of support",
+        "Texts with challenging vocabulary or complex ideas",
+        "When the goal is to develop self-regulated reading strategies",
+        "Extended reading tasks (multi-paragraph texts)"
+      ],
+      "when_not_to_use": [
+        "Very short texts — not enough material for all four phases",
+        "When students are completely unfamiliar with cooperative learning structures"
+      ],
+      "main_aim_format": "By the end of the lesson, learners will have used collaborative reading strategies to comprehend and discuss a text about [topic].",
+      "key_principles": [
+        "The 'Click & Clunk' phase is the core innovation — students learn to detect when comprehension breaks down and apply fix-up strategies",
+        "Clunk cards are physical strategy cards students use when they hit a wall",
+        "Groups have assigned roles (Leader, Clunk Expert, Gist Expert, Announcer)",
+        "The teacher models each phase before groups work independently",
+        "Get the Gist teaches summarisation as a strategy, not just a task"
+      ],
+      "phases": {
+        "preview": {
+          "purpose": "Activate background knowledge, set purpose for reading",
+          "activity": "Students look at title, headings, pictures. Predict content. Set a reading goal.",
+          "time": "3-5 min"
+        },
+        "click_and_clunk": {
+          "purpose": "Detect and repair comprehension breakdowns",
+          "activity": "Students read a section. When they hit a 'clunk' (word or idea they don't understand), they use a fix-up strategy: reread, read ahead, use context clues, ask a peer.",
+          "clunk_cards": [
+            "Reread the sentence",
+            "Read ahead to see if it becomes clear",
+            "Look at the words around it",
+            "Ask your group",
+            "Skip it and come back later"
+          ],
+          "time": "8-10 min"
+        },
+        "get_the_gist": {
+          "purpose": "Identify the main idea of each section",
+          "activity": "Group writes a one-sentence summary of the section. Must be 10 words or fewer. Discuss and agree.",
+          "time": "5 min"
+        },
+        "wrap_up": {
+          "purpose": "Consolidate understanding, generate questions",
+          "activity": "Students write questions about the text. Review what was learned. Predict what comes next.",
+          "time": "5 min"
+        }
+      },
+      "stage_template": [
+        {
+          "stage": "Lead-in",
+          "stage_aim": "To activate schema and introduce the text",
+          "procedure": "Introduce the topic. Activate prior knowledge through pair discussion.",
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Phase 1: Preview",
+          "stage_aim": "To set purpose for reading",
+          "procedure": "Students look at title, headings, images. Predict content. Set a reading goal as a group.",
+          "time": "5 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Phase 2: Click & Clunk",
+          "stage_aim": "To read and repair comprehension breakdowns",
+          "procedure": "Students read a section silently. When they hit a 'clunk', they use clunk cards (fix-up strategies). Discuss difficult words/ideas in groups.",
+          "time": "10 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Phase 3: Get the Gist",
+          "stage_aim": "To identify the main idea",
+          "procedure": "Group writes a one-sentence summary (10 words or fewer). Discuss and agree on the main idea.",
+          "time": "5 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Phase 4: Wrap-Up",
+          "stage_aim": "To consolidate and generate questions",
+          "procedure": "Students write questions about the text. Review what was learned. Predict what comes next.",
+          "time": "5 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Whole-class feedback",
+          "stage_aim": "To share group findings and address misconceptions",
+          "procedure": "Each group shares their 'Get the Gist' summary. Teacher addresses common clunks. Discuss the most interesting questions generated.",
+          "time": "7 min",
+          "interaction": "T-Ss"
+        }
+      ],
+      "research_citations": [
+        "Slavin et al. (2011) — CSR framework",
+        "ScienceDirect (2025) — 'The impact of collaborative strategic reading on EFL students with different critical thinking levels' (16 citations)"
+      ],
+      "evidence_strength": "Strong",
+      "difficulty_to_implement": "Medium"
+    },
+
+    {
+      "id": "radec",
+      "name": "RADEC (Read-Answer-Discuss-Explain-Create)",
+      "description": "A 5-phase cycle: Read → Answer → Discuss → Explain → Create. The 'Create' phase is the differentiator — students produce something new from the text (a summary, a transformation, a response text).",
+      "pedagogical_justification": "RADEC (17 citations, ResearchGate 2025) is an Indonesian-developed model gaining traction across ASEAN. It addresses Shape E's biggest weakness: the lack of genuine productive output. The 'Create' phase requires deep processing because students must synthesise and transform the text's ideas into something new.",
+      "when_to_use": [
+        "When the goal is to move from comprehension to production",
+        "Texts that lend themselves to transformation (argument → counter-argument, summary → opinion, fact → creative response)",
+        "When students need to demonstrate understanding through output, not just answer questions",
+        "Any CEFR level — the Create phase scales with proficiency"
+      ],
+      "when_not_to_use": [
+        "When the sole focus is reading sub-skills (gist, detail, specific info)",
+        "When time is very limited — the Create phase needs 8-10 minutes minimum"
+      ],
+      "main_aim_format": "By the end of the lesson, learners will have read, discussed, and created [output type] about [topic].",
+      "key_principles": [
+        "The Create phase is not a throwaway — it is the culmination of the lesson",
+        "Students must transform, not just repeat, the text's ideas",
+        "Discussion happens BEFORE creation — students refine ideas through talk",
+        "The teacher facilitates discussion, not just checks answers",
+        "The output can be written, spoken, visual, or digital"
+      ],
+      "phases": {
+        "read": {
+          "purpose": "Comprehend the text",
+          "activity": "Students read the text (silently or aloud). May include gist and detail questions.",
+          "time": "8-10 min"
+        },
+        "answer": {
+          "purpose": "Check comprehension of key information",
+          "activity": "Students answer comprehension questions (can be MC, true/false, short answer).",
+          "time": "5-7 min"
+        },
+        "discuss": {
+          "purpose": "Deepen understanding through talk",
+          "activity": "Pair or group discussion about the text's ideas, arguments, or implications. 'Do you agree? Why? What would you add?'",
+          "time": "5-8 min"
+        },
+        "explain": {
+          "purpose": "Make thinking visible",
+          "activity": "Students explain the text's main idea, argument, or findings in their own words. Can be oral or written.",
+          "time": "3-5 min"
+        },
+        "create": {
+          "purpose": "Transform understanding into new output",
+          "activity": "Students produce something new from the text: a summary, a response letter, a visual organiser, a counter-argument, a social media post, a podcast script.",
+          "time": "8-12 min"
+        }
+      },
+      "create_phase_examples": {
+        "B1": [
+          "Write a 100-word summary of the article",
+          "Write a letter to the editor expressing your opinion",
+          "Create a social media post sharing the key finding"
+        ],
+        "B2": [
+          "Write a counter-argument to the author's main claim",
+          "Create an infographic summarising the key data",
+          "Write a review of the article for a school magazine"
+        ],
+        "C1": [
+          "Write a critical evaluation of the research methodology",
+          "Create a podcast script discussing the article's implications",
+          "Write a policy brief based on the article's findings"
+        ]
+      },
+      "stage_template": [
+        {
+          "stage": "Lead-in",
+          "stage_aim": "To activate schema and set the context",
+          "procedure": "Splash image or statistic. Pair discussion about the topic.",
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Read",
+          "stage_aim": "To comprehend the text",
+          "procedure": "Students read the text silently. Teacher monitors.",
+          "time": "8 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Answer",
+          "stage_aim": "To check comprehension",
+          "procedure": "Students answer comprehension questions individually or in pairs. Peer check. Whole-class feedback.",
+          "time": "7 min",
+          "interaction": "S, Ss-Ss"
+        },
+        {
+          "stage": "Discuss",
+          "stage_aim": "To deepen understanding through talk",
+          "procedure": "Pair or group discussion: 'Do you agree with the author? Why? What would you add?'",
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Explain",
+          "stage_aim": "To make thinking visible",
+          "procedure": "Students explain the main idea in their own words. Pairs share with another pair.",
+          "time": "5 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Create",
+          "stage_aim": "To transform understanding into new output",
+          "procedure": "Students produce output (summary, letter, infographic, etc.). Teacher monitors and assists.",
+          "time": "10 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Share and feedback",
+          "stage_aim": "To present and evaluate creations",
+          "procedure": "Students share their creations. Peer feedback. Teacher provides language and content feedback.",
+          "time": "5 min",
+          "interaction": "Ss-Ss, T-Ss"
+        }
+      ],
+      "research_citations": [
+        "Fauzi et al. (2025) — 'RADEC (Read-Answer-Discuss-Explain-Create) as a New Learning Model in Indonesia' (17 citations)",
+        "Implementation studies in Indonesian EFL classrooms at scale"
+      ],
+      "evidence_strength": "Strong (growing)",
+      "difficulty_to_implement": "Low"
+    },
+
+    {
+      "id": "literature-circles",
+      "name": "Literature Circles + Teaching and Learning Cycle",
+      "description": "Students take on rotating roles (Discussion Director, Vocabulary Enricher, Literary Luminary, Connector, Illustrator) within a text. The TLC framework adds explicit teaching of genre structure before the circle meets.",
+      "pedagogical_justification": "Literature circles treat the text as a shared intellectual experience rather than a vehicle for comprehension questions. When combined with the Teaching and Learning Cycle (TLC), students first learn the genre structure explicitly, then engage with the text through roles. Published in Semantic Scholar (2025) with evidence from Indonesian EFL classrooms.",
+      "when_to_use": [
+        "Narrative texts, longer reading projects, reading for pleasure programs",
+        "When the goal is to develop critical engagement with texts, not just comprehension",
+        "Literature classes, extensive reading programs",
+        "A2-C1 levels — roles can be simplified or extended"
+      ],
+      "when_not_to_use": [
+        "Short informational texts — not enough material for multiple roles",
+        "When the focus is on reading sub-skills (gist, detail) rather than critical engagement"
+      ],
+      "main_aim_format": "By the end of the lesson, learners will have discussed and analysed a text about [topic] using [specific roles] to explore [vocabulary/structure/themes/connections].",
+      "key_principles": [
+        "Roles rotate — every student experiences every perspective on the text",
+        "The text is a shared experience, not a test",
+        "TLC adds explicit genre teaching before the circle — students learn HOW texts are built",
+        "Discussion is student-led, not teacher-directed",
+        "The teacher facilitates and extends, not evaluates"
+      ],
+      "roles": {
+        "discussion_director": {
+          "description": "Prepares open-ended questions to guide group discussion",
+          "focus": "Critical thinking, interpretation, opinion"
+        },
+        "vocabulary_enricher": {
+          "description": "Identifies important or difficult words and prepares definitions/examples",
+          "focus": "Vocabulary, word study"
+        },
+        "literary_luminary": {
+          "description": "Selects key passages to read aloud and discuss",
+          "focus": "Text structure, author's craft, important moments"
+        },
+        "connector": {
+          "description": "Finds connections between the text and the real world, other texts, or personal experience",
+          "focus": "Prior knowledge, intertextuality, relevance"
+        },
+        "illustrator": {
+          "description": "Creates a visual representation of a key scene, idea, or theme",
+          "focus": "Visual literacy, interpretation, creativity"
+        }
+      },
+      "stage_template": [
+        {
+          "stage": "TLC: Modelled reading",
+          "stage_aim": "To teach the genre structure explicitly",
+          "procedure": "Teacher reads a model text aloud. Identifies the genre (e.g. argument, narrative, report). Labels the structural moves (e.g. introduction → argument → evidence → conclusion).",
+          "time": "10 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "TLC: Joint construction",
+          "stage_aim": "To co-construct a text with the class",
+          "procedure": "Teacher and students write a text together, applying the genre structure. Teacher scribes, students contribute ideas and language.",
+          "time": "8 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Literature circle: Role preparation",
+          "stage_aim": "To prepare for the circle meeting",
+          "procedure": "Students read their assigned section of the text. Prepare their role (questions, vocabulary, passages, connections, illustrations).",
+          "time": "8 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Literature circle: Meeting",
+          "stage_aim": "To discuss the text through roles",
+          "procedure": "Groups meet. Each student presents their role contribution. Discussion follows. Teacher circulates and extends.",
+          "time": "12 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Whole-class debrief",
+          "stage_aim": "To share insights and address themes",
+          "procedure": "Each group shares their most interesting discussion point. Teacher connects themes across groups.",
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Independent writing",
+          "stage_aim": "To apply genre knowledge independently",
+          "procedure": "Students write their own text in the genre studied, applying the structural moves modelled earlier.",
+          "time": "10 min",
+          "interaction": "S"
+        }
+      ],
+      "research_citations": [
+        "Daniels (2002) — Literature Circles: Voice and Choice in Book Clubs",
+        "Semantic Scholar (2025) — 'Scaffolding Narrative Reading through Literature Circles and the Teaching and Learning Cycle: Evidence from Indonesian EFL Classrooms'"
+      ],
+      "evidence_strength": "Moderate",
+      "difficulty_to_implement": "Medium"
+    },
+
+    {
+      "id": "extensive-reading",
+      "name": "Extensive Reading (ER) Programs",
+      "description": "Students read self-selected, level-appropriate texts for pleasure with no comprehension testing. The pedagogy is: read a lot, read what you enjoy, read at your level. Comprehension improves through massive input, not through focused practice on one text.",
+      "pedagogical_justification": "The research consensus (Nation, 2017; Kim & Webb, 2022 meta-analysis, 98 effect sizes) is that volume of reading is the strongest predictor of vocabulary and comprehension growth. ER is the most divergent from Shape E: instead of one text read intensively, ER uses many texts read extensively. The form-meaning connection is strengthened through repeated exposure across many contexts, not through teacher-led analysis of a single text.",
+      "when_to_use": [
+        "As a complementary program alongside classroom instruction (not a replacement)",
+        "When the goal is vocabulary growth, reading speed, and reading fluency",
+        "When students need to build reading habits and motivation",
+        "All levels — A2-C1, with level-appropriate materials"
+      ],
+      "when_not_to_use": [
+        "As the sole reading instruction — ER complements, not replaces, explicit teaching",
+        "When the goal is to teach specific reading sub-skills or strategies",
+        "When students have no access to level-appropriate materials"
+      ],
+      "main_aim_format": "By the end of the [program/term], learners will have read [number] books/texts at [level] and developed their reading fluency and vocabulary through sustained silent reading.",
+      "key_principles": [
+        "Students choose what they read — motivation is essential",
+        "Texts must be at the right level — 95-98% comprehension without a dictionary",
+        "No comprehension testing — reading is its own reward",
+        "Volume matters more than depth — more books, more growth",
+        "The teacher reads too — modelling is powerful",
+        "Reading logs, book talks, and reading walls make the program visible"
+      ],
+      "program_elements": {
+        "book_levels": "Fountas & Pinnell, Lexile, or graded readers (Oxford, Cambridge, Macmillan)",
+        "reading_time": "15-30 minutes of sustained silent reading per day",
+        "book_selection": "Students choose from a classroom library organised by level",
+        "no_testing": "No quizzes, no comprehension questions, no book reports",
+        "accountability": "Reading logs (title, pages, enjoyment rating) — not comprehension checks",
+        "celebration": "Book talks, reading walls, class reading challenges, reading celebrations"
+      },
+      "stage_template": [
+        {
+          "stage": "SSR (Sustained Silent Reading)",
+          "stage_aim": "To read for pleasure at an appropriate level",
+          "procedure": "Students select a book from the classroom library. Read silently for 15-20 minutes. Teacher reads too.",
+          "time": "20 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Book talk",
+          "stage_aim": "To share reading experiences and recommend books",
+          "procedure": "3-4 students briefly share what they're reading and why they like it. No comprehension questions — just sharing.",
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Vocabulary spotlight",
+          "stage_aim": "To notice and learn words from self-selected reading",
+          "procedure": "Students share 1-2 interesting words they encountered in their reading. Write on board. Brief discussion of meaning.",
+          "time": "5 min",
+          "interaction": "Ss-Ss, T-Ss"
+        },
+        {
+          "stage": "Reading log update",
+          "stage_aim": "To track reading progress",
+          "procedure": "Students update their reading logs: title, pages read, enjoyment rating (1-5 stars).",
+          "time": "3 min",
+          "interaction": "S"
+        }
+      ],
+      "research_citations": [
+        "Nation (2017) — Learning Vocabulary in Another Language",
+        "Kim & Webb (2022) — Meta-analysis of extensive reading (98 effect sizes)",
+        "McLean & Rouault (2017) — L2 silent reading norms",
+        "TESL-EJ v24 — Reading rate research"
+      ],
+      "evidence_strength": "Very Strong",
+      "difficulty_to_implement": "Low (but requires book investment)"
+    },
+
+    {
+      "id": "genre-based",
+      "name": "Genre-Based Reading (Process Genre Approach)",
+      "description": "Students learn to read by learning to write. The cycle: Modelled reading → Joint construction → Independent reading/writing. Students analyse how texts are constructed (genre, moves, language features) before answering comprehension questions.",
+      "pedagogical_justification": "Genre-based approaches (33 citations, UPM 2023) make the text's architecture visible. Instead of treating the text as opaque (Shape E), students learn to see the moves, structures, and language choices that make a text work. This deepens comprehension because students understand not just WHAT the text says but HOW and WHY it says it.",
+      "when_to_use": [
+        "Academic texts, exam preparation, reading-to-write connections",
+        "When students need to understand text structure, not just content",
+        "B1-C1 levels — genre analysis requires some metalinguistic awareness",
+        "When the goal is to develop both reading and writing skills simultaneously"
+      ],
+      "when_not_to_use": [
+        "Narrative texts — genre-based is strongest with argumentative, informational, and procedural texts",
+        "When the focus is purely on reading sub-skills (gist, detail)"
+      ],
+      "main_aim_format": "By the end of the lesson, learners will have analysed the genre structure of [text type] and [read/written] a [genre] about [topic].",
+      "key_principles": [
+        "Reading and writing are two sides of the same coin — analysing a text prepares you to write one",
+        "The teacher models genre knowledge explicitly before students analyse",
+        "Joint construction bridges the gap between modelled and independent work",
+        "Language features (hedging, cohesive devices, register) are taught in context, not in isolation",
+        "The cycle moves from other's text → shared text → own text"
+      ],
+      "stages": {
+        "modelled_reading": {
+          "purpose": "Teacher demonstrates how to analyse a genre",
+          "activity": "Teacher reads a model text aloud. Labels the genre (e.g. argument, report, review). Identifies the structural moves and key language features.",
+          "time": "10 min"
+        },
+        "joint_construction": {
+          "purpose": "Class constructs a text together, applying genre knowledge",
+          "activity": "Teacher and students write a text in the same genre. Teacher scribes, students contribute ideas, vocabulary, and structural choices.",
+          "time": "10 min"
+        },
+        "independent_reading": {
+          "purpose": "Students read a new text in the same genre independently",
+          "activity": "Students read a new text. Identify the genre, structural moves, and key language features. Answer comprehension questions that focus on structure as well as content.",
+          "time": "10 min"
+        },
+        "independent_writing": {
+          "purpose": "Students write their own text in the genre",
+          "activity": "Students write a text in the same genre, applying the structural moves and language features modelled earlier.",
+          "time": "15 min"
+        }
+      },
+      "stage_template": [
+        {
+          "stage": "Lead-in",
+          "stage_aim": "To activate schema and introduce the genre",
+          "procedure": "Display a text in the target genre. Ask: 'What kind of text is this? How do you know?'",
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Modelled reading",
+          "stage_aim": "To analyse the genre structure",
+          "procedure": "Read the model text. Label the genre. Identify structural moves. Discuss key language features.",
+          "time": "10 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Joint construction",
+          "stage_aim": "To co-construct a text in the genre",
+          "procedure": "Class writes a text together. Teacher scribes. Students contribute ideas and language.",
+          "time": "10 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Independent reading",
+          "stage_aim": "To apply genre knowledge to a new text",
+          "procedure": "Students read a new text. Identify genre, moves, and language features. Comprehension questions.",
+          "time": "10 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Independent writing",
+          "stage_aim": "To write in the genre",
+          "procedure": "Students write their own text. Apply structural moves and language features.",
+          "time": "15 min",
+          "interaction": "S"
+        }
+      ],
+      "research_citations": [
+        "Hyland (2004) — Genre and Second Language Writing",
+        "UPM (2023) — 'Genre-based approaches and ESL/EFL writing: A review of the literature' (33 citations)",
+        "ERIC (2025) — 'Enhancing In-Service English Teachers' Lesson Planning Skills Using Genre-Based Approach and AI for Teaching Fiction Reading'"
+      ],
+      "evidence_strength": "Strong",
+      "difficulty_to_implement": "Medium"
+    },
+
+    {
+      "id": "ai-assisted",
+      "name": "AI-Assisted Reading Comprehension",
+      "description": "AI tools (ChatGPT, custom reading apps) provide adaptive scaffolding (difficulty adjusts to learner level), instant feedback on comprehension, generated questions at different cognitive levels, and personalised text simplification.",
+      "pedagogical_justification": "AI-assisted reading is rapidly emerging (5-29 citations across multiple 2024-2025 sources). It addresses Shape E's one-size-fits-all limitation: different students can read different versions of the same text at their level, receive personalised feedback, and progress at their own pace. The teacher's role shifts from question-setter to facilitator and mediator.",
+      "when_to_use": [
+        "When students in the same class have widely different reading levels",
+        "When personalised feedback is needed but teacher time is limited",
+        "When students need immediate feedback on comprehension",
+        "As a complement to teacher-led instruction, not a replacement"
+      ],
+      "when_not_to_use": [
+        "When students may become over-reliant on AI and lose independent reading strategies",
+        "When internet access is unreliable",
+        "When the goal is to develop collaborative discussion skills (AI is individual)"
+      ],
+      "main_aim_format": "By the end of the lesson, learners will have used AI-assisted tools to [read/comprehend/discuss] a text about [topic] at their individual level.",
+      "key_principles": [
+        "AI is a tool, not a teacher — the teacher mediates and interprets",
+        "Differentiation happens automatically — texts and questions adapt to the learner",
+        "Immediate feedback accelerates learning — but must not replace teacher feedback",
+        "Teacher monitors AI interactions to ensure quality and prevent over-reliance",
+        "Privacy and data considerations must be addressed"
+      ],
+      "ai_capabilities": {
+        "text_simplification": "AI can rewrite a text at different CEFR levels while preserving meaning",
+        "question_generation": "AI can generate comprehension questions at different cognitive levels (recall, inference, evaluation)",
+        "instant_feedback": "AI can check student answers and provide explanations",
+        "vocabulary_scaffolding": "AI can identify and gloss difficult vocabulary for each student's level",
+        "reading_rate_tracking": "AI can track reading speed and suggest appropriate text levels"
+      },
+      "stage_template": [
+        {
+          "stage": "Lead-in",
+          "stage_aim": "To activate schema and introduce the topic",
+          "procedure": "Teacher-led discussion about the topic. Set the purpose for reading.",
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "AI-adapted reading",
+          "stage_aim": "To read a level-appropriate version of the text",
+          "procedure": "Students access the text via AI tool. Text is automatically adapted to their level. Students read silently.",
+          "time": "10 min",
+          "interaction": "S + AI"
+        },
+        {
+          "stage": "AI-generated comprehension check",
+          "stage_aim": "To check understanding with personalised questions",
+          "procedure": "AI generates questions at the student's level. Students answer and receive immediate feedback. Teacher monitors.",
+          "time": "10 min",
+          "interaction": "S + AI"
+        },
+        {
+          "stage": "Teacher-led discussion",
+          "stage_aim": "To deepen understanding through human interaction",
+          "procedure": "Teacher leads whole-class discussion about the text's ideas. Addresses misconceptions surfaced by AI feedback.",
+          "time": "10 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Reflection and goal-setting",
+          "stage_aim": "To consolidate learning and set reading goals",
+          "procedure": "Students reflect on what they learned and set a reading goal for the next session.",
+          "time": "5 min",
+          "interaction": "S"
+        }
+      ],
+      "research_citations": [
+        "Belkhir et al. (2025) — 'Artificial intelligence in ESL/EFL education: Evidence from recent reviews' (29 citations)",
+        "SSRN (2025) — 'Assessing EFL Undergraduates' Attitudes Toward AI in Enhancing Reading Comprehension' (13 citations)",
+        "ERIC (2025) — 'Artificial Intelligence in EFL Education in China: A Systematic Review' (14 citations)",
+        "ScienceDirect (2025) — Multiple reviews of AI in language education"
+      ],
+      "evidence_strength": "Moderate (rapidly growing)",
+      "difficulty_to_implement": "High (requires technology infrastructure and teacher training)"
+    },
+
+    {
+      "id": "close-reading",
+      "name": "Close Reading with Text-Dependent Annotation",
+      "description": "Students read the same short text 2-3 times, each time with a different analytical lens: first for literal meaning, then for author's craft/structure, then for argument/evidence. Annotation is physical (underlining, margin notes, symbols).",
+      "pedagogical_justification": "Close reading (imported from US Common Core State Standards) replaces Shape E's single-reading model with purposeful re-reading. Each pass has a different analytical focus, building layered comprehension. The physical annotation makes thinking visible and creates a record of the reading process.",
+      "when_to_use": [
+        "Short, dense texts — articles, speeches, literary excerpts, editorials",
+        "When the goal is to develop analytical reading skills",
+        "B2-C1 levels — requires ability to analyse language and argument",
+        "When preparing for exams that test critical reading"
+      ],
+      "when_not_to_use": [
+        "Long texts — too exhausting for multiple full readings",
+        "A1-A1 levels — annotation requires metalinguistic awareness",
+        "When the goal is fluency or extensive reading (close reading is intensive)"
+      ],
+      "main_aim_format": "By the end of the lesson, learners will have analysed a text through multiple readings, identifying [literal meaning/author's craft/argument and evidence] in the context of [topic].",
+      "key_principles": [
+        "Each reading has a specific purpose — never read the same text twice for the same reason",
+        "Annotation is physical — underlining, circling, margin notes, symbols",
+        "The teacher models annotation before students do it independently",
+        "Short texts work better — density, not length, is the challenge",
+        "Discussion happens between readings, not after the final reading"
+      ],
+      "annotation_system": {
+        "underline": "Key ideas or claims",
+        "circle": "Important vocabulary",
+        "star": "Evidence or examples",
+        "question_mark": "Confusing or debatable points",
+        "exclamation_mark": "Surprising or powerful moments",
+        "margin_note": "Brief reaction or connection in own words"
+      },
+      "stage_template": [
+        {
+          "stage": "Lead-in",
+          "stage_aim": "To activate schema and set purpose",
+          "procedure": "Introduce the text's topic. Ask: 'What do you already know about this?' Set the purpose for the first reading.",
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "First reading: Literal meaning",
+          "stage_aim": "To understand what the text says",
+          "procedure": "Students read the text once, silently. Annotate: underline key ideas, circle unfamiliar words. Do NOT discuss yet.",
+          "time": "6 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Pair check: Literal comprehension",
+          "stage_aim": "To verify understanding",
+          "procedure": "In pairs, students compare their annotations. What did each person identify as key ideas? Discuss differences.",
+          "time": "5 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Second reading: Author's craft",
+          "stage_aim": "To analyse how the text is constructed",
+          "procedure": "Students re-read, this time focusing on HOW the author builds the argument: structure, language choices, persuasive techniques. Annotate with different symbols.",
+          "time": "6 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Discussion: Author's craft",
+          "stage_aim": "To share analytical observations",
+          "procedure": "Small group discussion: What techniques did the author use? Why? How effective were they?",
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Third reading: Argument and evidence",
+          "stage_aim": "To evaluate the strength of the argument",
+          "procedure": "Students re-read a third time, focusing on the quality of evidence and the strength of the argument. Annotate: Is the argument convincing? What evidence supports or weakens it?",
+          "time": "6 min",
+          "interaction": "S"
+        },
+        {
+          "stage": "Whole-class evaluation",
+          "stage_aim": "To evaluate the text's argument collectively",
+          "procedure": "Whole-class discussion: Is the argument convincing? What evidence is strongest/weakest? What would you add?",
+          "time": "8 min",
+          "interaction": "T-Ss"
+        }
+      ],
+      "research_citations": [
+        "Fisher & Frey (2012) — Text Complexity: Rigorous Reading in Readable Classrooms",
+        "CCSS (2010) — Common Core State Standards for close reading",
+        "UHO (2024) — 'The Effect of the Close Reading Technique on Students' Reading Comprehension'"
+      ],
+      "evidence_strength": "Moderate",
+      "difficulty_to_implement": "Low"
+    }
+  ],
+
+  "implementation_matrix": {
+    "columns": ["Pedagogy", "Difficulty", "Evidence", "Best For", "Levels", "Min Time"],
+    "rows": [
+      ["Reciprocal Teaching", "Low", "Very Strong", "Strategy instruction, mixed-ability", "B1-C1", "40 min"],
+      ["CSR", "Medium", "Strong", "Mixed-ability, challenging texts", "B1-C1", "40 min"],
+      ["RADEC", "Low", "Strong (growing)", "Comprehension to production", "A2-C1", "46 min"],
+      ["Literature Circles", "Medium", "Moderate", "Narrative texts, pleasure reading", "A2-C1", "46 min"],
+      ["Extensive Reading", "Low", "Very Strong", "Vocabulary growth, reading habits", "A2-C1", "20-30 min/day"],
+      ["Genre-Based", "Medium", "Strong", "Academic texts, reading-writing link", "B1-C1", "46 min"],
+      ["AI-Assisted", "High", "Moderate (growing)", "Differentiation, personalised feedback", "A2-C1", "40 min"],
+      ["Close Reading", "Low", "Moderate", "Dense texts, analytical reading", "B2-C1", "40 min"]
+    ]
+  }
+}

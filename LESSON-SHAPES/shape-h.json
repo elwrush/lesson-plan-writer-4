@@ -1,0 +1,67 @@
+{
+  "name": "Shape H - Collaborative Strategic Reading (Comprehension Repair)",
+  "description": "Reading lesson where cooperative groups move through four phases (Preview, Click & Clunk, Get the Gist, Wrap-Up). The 'Click & Clunk' phase explicitly teaches students to detect and repair their own comprehension breakdowns.",
+  "pedagogical_justification": "CSR makes comprehension strategies visible and teachable (Slavin et al., 2011; ScienceDirect 2025 meta review, 16 citations). Unlike Shape E, which assumes comprehension is a product of the task, CSR gives students physical tools (clunk cards) to deploy the moment they hit a comprehension wall. The four phases map onto a coherent cognitive sequence: preview primes background knowledge and sets a purpose; click-and-clunk trains self-monitoring and fix-up strategies (the core innovation); get-the-gist forces summarisation as a strategy rather than a task; wrap-up consolidates and generates genuine questions. It is strong for mixed-ability classes because the group roles (Leader, Clunk Expert, Gist Expert, Announcer) distribute the cognitive load across learners rather than leaving a struggling reader alone against the text.\n\nThe shape therefore moves: Lead-in (activate schema) → Preview (purpose-setting) → Click & Clunk (read + repair breakdowns) → Get the Gist (main idea) → Wrap-Up (consolidate + question) → Whole-class feedback (share findings, address common clunks). The teacher models each phase before groups work independently, then releases control. Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will have used collaborative reading strategies to comprehend and discuss a text about [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have used the collaborative reading strategies of Preview, Click & Clunk, Get the Gist and Wrap-Up to comprehend and discuss an article about how bees help our world.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>H (Collaborative Strategic Reading)<br><b>Materials:</b><br>Article 'How Bees Help Our World', clunk cards (one set per group), role cards, worksheet for Get the Gist<br><b>Assessment:</b><br>Group Gist summaries, Clunk Expert listening check<br><b>Skills:</b><br>Reading\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate schema and set the context",
+        "procedure": "- Display the article's photos of bees and flowers on PP. In pairs, Ss tell each other one thing they already know about bees and one question they have. 2 min.\n- Whole-class feedback. Write a few of the questions on the board.\n- Tell Ss they will read an article about how bees help our world.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Phase 1: Preview",
+        "stage_number": 2,
+        "stage_aim": "To set a purpose for reading",
+        "procedure": "- Model the Preview strategy on PP: look at the title, subheadings and pictures. Predict what the text will say. Set a reading goal.\n- In groups of four, Ss look at the title and subheadings only (no reading yet). They predict the content and agree on one reading goal. 2 min.\n- Each group shares one prediction. Feedback.\n",
+        "time": 6,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Phase 2: Click & Clunk",
+        "stage_number": 3,
+        "stage_aim": "To read and repair comprehension breakdowns",
+        "procedure": "- Explain: 'click' = I understand, 'clunk' = I don't. When you hit a clunk, use a clunk card.\n- Model with the first sentence using the fix-up steps on the clunk cards: reread, read ahead, use the words around it, ask the group.\n- Assign roles: Leader, Clunk Expert, Gist Expert, Announcer.\n- Ss read the first section silently (1-2 min). Group discusses clunks and fixes them using clunk cards. 4 min.\n- Ss read the second section and repeat. Clunk Expert collects the group's clunks. 4 min.\n- Teacher circulates, addressing 2-3 common clunks with the whole class.\n",
+        "time": 12,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Phase 3: Get the Gist",
+        "stage_number": 4,
+        "stage_aim": "To identify the main idea of each section",
+        "procedure": "- Model Get the Gist: say the main idea in one sentence of ten words or fewer.\n- Groups write a one-sentence summary for each section on the worksheet. 3 min.\n- Groups share their gist with the class. Feedback on whether each captures the main idea.\n",
+        "time": 6,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Phase 4: Wrap-Up",
+        "stage_number": 5,
+        "stage_aim": "To consolidate and generate questions",
+        "procedure": "- Individually, Ss write one question the article raises for them (a real 'I wonder' question, not a comprehension check). 2 min.\n- In groups, Ss share questions. They review what they have learned and predict what a following section might say. 3 min.\n- Announcer shares one interesting question from the group.\n",
+        "time": 6,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Whole-class feedback",
+        "stage_number": 6,
+        "stage_aim": "To share group findings and address misconceptions",
+        "procedure": "- Each group shares their best 'Get the Gist' sentence. Teacher records them on the board.\n- Teacher addresses common clunks and any misconceptions surfaced during the Clunk stages.\n- Discuss the most interesting questions generated. Which did the article answer? Which remain open?\n",
+        "time": 8,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Exit task",
+        "stage_number": 7,
+        "stage_aim": "To check individual comprehension",
+        "procedure": "- Individually, Ss write one sentence summarising the whole article OR one question they still have after reading. 3 min.\n- Collect as an exit ticket.\n",
+        "time": 4,
+        "interaction": "S"
+      }
+    ]
+  }
+}

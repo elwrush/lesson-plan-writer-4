@@ -1,0 +1,279 @@
+{
+  "page_meta": {
+    "page_number": 124,
+    "unit_number": "Unit 7",
+    "header_left": "Discover vocabulary",
+    "header_right": "Unit 7",
+    "footer": "124 Unit 7 Discover vocabulary"
+  },
+  "sections": [
+    {
+      "title": "Career skills and qualities",
+      "audio_track": "2.14",
+      "word_bank": [
+        "analytical skills",
+        "communication skills",
+        "creative",
+        "decisive",
+        "good people skills",
+        "natural leader",
+        "patience",
+        "team player",
+        "time management skills"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "instruction": "Write the career skill for each person.",
+          "items": [
+            {
+              "item_number": 1,
+              "prompt": "Emma doesn’t waste time – she always makes a decision and trusts her instincts."
+            },
+            {
+              "item_number": 2,
+              "prompt": "Sara listens well and gets the best out of everyone."
+            },
+            {
+              "item_number": 3,
+              "prompt": "Li thinks of ideas that no one else thinks of."
+            },
+            {
+              "item_number": 4,
+              "prompt": "Ahmed understands processes and situations very well."
+            },
+            {
+              "item_number": 5,
+              "prompt": "Felicity can express complicated ideas really clearly."
+            },
+            {
+              "item_number": 6,
+              "prompt": "Ramon works very well in groups."
+            },
+            {
+              "item_number": 7,
+              "prompt": "Sandy is happy to take on responsibility and help others."
+            },
+            {
+              "item_number": 8,
+              "prompt": "Dmitry stays calm when other people might get really angry."
+            },
+            {
+              "item_number": 9,
+              "prompt": "Jens never misses his deadlines – he’s really organized."
+            }
+          ]
+        },
+        {
+          "exercise_number": 2,
+          "instruction": "Think about your own skills and complete the form. Then complete the sentences and explain why.",
+          "content": {
+            "title": "How good are your career skills?",
+            "legend": "* = Not very good   ** = OK   *** = Good   **** = Excellent",
+            "skills": [
+              "time management",
+              "analytical skills",
+              "communication skills",
+              "creative ability",
+              "ability to be a good team player",
+              "ability to be decisive",
+              "people skills",
+              "patience"
+            ],
+            "prompts": [
+              "My best career skill is __________________________________________________",
+              "I need to work on ______________________________________________________\n________________________________________________________________________"
+            ]
+          }
+        }
+      ],
+      "answer_keys": {
+        "exercise_1": {
+          "1": "decisive",
+          "2": "natural leader",
+          "3": "creative",
+          "4": "analytical skills",
+          "5": "communication skills",
+          "6": "team player",
+          "7": "good people skills",
+          "8": "patience",
+          "9": "time management skills"
+        },
+        "exercise_2": "Students' own answers."
+      }
+    },
+    {
+      "title": "Multi-word verbs (1)",
+      "audio_track": "2.15",
+      "word_bank": [
+        "act out",
+        "come up with",
+        "drop out",
+        "face up to",
+        "pay off",
+        "turn down"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 3,
+          "instruction": "Use a multi-word verb in the correct form that means the same as the underlined verb.",
+          "items": [
+            {
+              "item_number": 1,
+              "text": "We just need to think of a really good idea.",
+              "underlined": "think of"
+            },
+            {
+              "item_number": 2,
+              "text": "The children used actions to show us what they’d seen.",
+              "underlined": "used actions to show us"
+            },
+            {
+              "item_number": 3,
+              "text": "I applied for the job, but they didn’t offer it to me.",
+              "underlined": "didn’t offer it to"
+            },
+            {
+              "item_number": 4,
+              "text": "It was hard to accept the fact that my life would never be the same again.",
+              "underlined": "accept"
+            },
+            {
+              "item_number": 5,
+              "text": "After just a year of college, Jack quit.",
+              "underlined": "quit"
+            },
+            {
+              "item_number": 6,
+              "text": "Finally, all those hours of studying have turned out to be worth it!",
+              "underlined": "have turned out to be worth it"
+            }
+          ]
+        }
+      ],
+      "answer_keys": {
+        "exercise_3": {
+          "1": "come up with",
+          "2": "acted out",
+          "3": "turned me down",
+          "4": "face up to",
+          "5": "dropped out",
+          "6": "paid off"
+        }
+      }
+    },
+    {
+      "title": "First impressions",
+      "audio_track": "2.16",
+      "word_bank": [
+        "come across as",
+        "make a good / bad / lasting impression",
+        "fold your arms",
+        "kiss",
+        "make eye contact",
+        "make small talk",
+        "shake hands",
+        "warm up to"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 4,
+          "instruction": "Match the sentence halves.",
+          "left_column": [
+            {
+              "item_number": 1,
+              "text": "She threw her arms around him and ........."
+            },
+            {
+              "item_number": 2,
+              "text": "I really didn’t like Kevin at first, but I soon ........."
+            },
+            {
+              "item_number": 3,
+              "text": "I introduced myself to the manager and ........."
+            },
+            {
+              "item_number": 4,
+              "text": "He didn’t look at me when he arrived, but ........."
+            },
+            {
+              "item_number": 5,
+              "text": "We didn’t have any conversations about big topics – we just ........."
+            },
+            {
+              "item_number": 6,
+              "text": "I only met your grandfather once, but he ........."
+            },
+            {
+              "item_number": 7,
+              "text": "Bruno wasn’t easy to talk to – he ........."
+            },
+            {
+              "item_number": 8,
+              "text": "I’d heard that Sheila was really nice, but she ........."
+            }
+          ],
+          "right_column": [
+            {
+              "item_letter": "a",
+              "text": "he made eye contact during the interview."
+            },
+            {
+              "item_letter": "b",
+              "text": "warmed up to him when I got to know him."
+            },
+            {
+              "item_letter": "c",
+              "text": "came across as rather rude when I met her."
+            },
+            {
+              "item_letter": "d",
+              "text": "kissed him on the cheek."
+            },
+            {
+              "item_letter": "e",
+              "text": "just folded his arms and looked at me."
+            },
+            {
+              "item_letter": "f",
+              "text": "made small talk."
+            },
+            {
+              "item_letter": "g",
+              "text": "made a lasting impression on me."
+            },
+            {
+              "item_letter": "h",
+              "text": "we shook hands."
+            }
+          ]
+        },
+        {
+          "exercise_number": 5,
+          "instruction": "Add the missing words. Is the information true or false about your country?",
+          "box_title": "TRAVEL GUIDE",
+          "text_content": "If you spend time in [Map/X], you should know about how people interact. Friends usually ¹ ___________________ or ² ___________________ each other on the cheek when they meet.\nWhen people ³ ___________________ , they usually chat about the weather or sports like basketball or soccer.\nIf you want to ⁴ ___________________ , wearing smart clothes will impress people. But it’s also important to smile and ⁵ ___________________ .\nIf you don’t look at people directly, they won’t trust you."
+        }
+      ],
+      "answer_keys": {
+        "exercise_4": {
+          "1": "d",
+          "2": "b",
+          "3": "h",
+          "4": "a",
+          "5": "f",
+          "6": "g",
+          "7": "e",
+          "8": "c"
+        },
+        "exercise_5": {
+          "1": "shake hands",
+          "2": "kiss",
+          "3": "make small talk",
+          "4": "make a good impression",
+          "5": "make eye contact"
+        }
+      }
+    }
+  ]
+}

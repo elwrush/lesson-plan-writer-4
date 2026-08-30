@@ -15,7 +15,7 @@ Green phase (should PASS):
     - Contains "This command NEVER switches branches in the main working tree"
 """
 
-COMMAND_FILE = ".kilo/command/git-pages.md"
+COMMAND_FILE = ".opencode/command/git-pages.md"
 RED = "RED PHASE: command file does not exist yet"
 
 

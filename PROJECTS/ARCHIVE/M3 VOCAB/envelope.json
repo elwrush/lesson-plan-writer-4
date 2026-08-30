@@ -1,0 +1,165 @@
+{
+  "shape": {
+    "name": "Shape K - Vocabulary Development (Retrieval-Focused)",
+    "description": "Vocabulary lesson built on the research consensus: words are presented explicitly in context, then met repeatedly through spaced retrieval practice and varied input before generative productive use.",
+    "pedagogical_justification": "Research on L2 vocabulary instruction converges on four principles that this shape operationalises.\n\n(1) Selection: teach high-frequency, useful words (Nation, 2017; Nation & Waring, 1997).\n\n(2) Explicit first meeting in context: an efficient initial encounter (brief meaning, form, pronunciation, phonemic script) gives learners something to retrieve later (Alizadeh, 2016; Nation, 2017).\n\n(3) Retrieval and spacing: retrieval (recalling a form or meaning rather than re-reading it) strengthens the form-meaning link, and spaced repetition beats massed repetition for long-term retention (Kim & Webb, 2022; Nation, 2017). In-class retrieval activities (matching, gap-fill) set up the learner to meet the word again.\n\n(4) Varied meetings and generative use: meeting a word in new contexts and using it productively deepens processing (Laufer & Hulstijn, 2001; Kim, 2011). A productive stage that forces use of the target words converts receptive knowledge into productive knowledge.\n\nThe lesson opens with a spelling test that doubles as a retrieval diagnostic: it sets the learning agenda and feeds the recycling stage. Stage times assume a 46-minute lesson.",
+    "main_aim_format": "By the end of the lesson, learners will be better able to use [target vocabulary] to [function] in the context of [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to use career skills and first impressions vocabulary (communication skills, team player, decisive, patience, time management skills, make eye contact, shake hands, make small talk) to talk about skills for school and work, and how people make a good impression.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>25 August, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B2<br><b>Lesson Shape:</b><br>K (Vocabulary Development)<br><b>Materials:</b><br>Oxford Discover Futures 3, Unit 7 (Discover vocabulary), p. 124, slideshow, interview audio, spelling test audio<br><b>Assessment:</b><br>Spelling test scores, retrieval activities, generative task observation<br><b>Systems:</b><br>Vocabulary",
+      "stages": [
+        {
+          "stage": "Spelling test (retrieval diagnostic)",
+          "stage_number": 1,
+          "stage_aim": "To diagnose spelling of the target vocabulary and set the learning agenda",
+          "procedure": [
+            "Hand out the spelling test answer sheets (20 words).",
+            "Play the spelling test audio (23-Aug-2026_M3A-career-skills-spelling.mp3): each word is read twice with a context sentence.",
+            "Students write the 20 words. Play once only.",
+            "Students swap and mark against the answer slides. Collect the sheets after marking. Say: We'll meet these words again today."
+          ],
+          "time": "8 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Lead-in",
+          "stage_number": 2,
+          "stage_aim": "To activate schema and set the careers context",
+          "procedure": [
+            "Show the splash slide. Ask: What do you see? What might this lesson be about? Let students speculate.",
+            "Advance to the title slide: Career skills and first impressions. Confirm the theme.",
+            "In pairs, students brainstorm: What skills do you need for a good job? Elicit a few ideas onto the board."
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Explicit presentation (meaning, form, pronunciation)",
+          "stage_number": 3,
+          "stage_aim": "To present the nine career skill words clearly in context",
+          "procedure": [
+            "Display the nine target items one at a time (phonemic script, then word, then context sentence): decisive, creative, patience, natural leader, team player, analytical skills, communication skills, time management skills, good people skills.",
+            "Model pronunciation. Drill chorally and individually. Play audio track 2.14 for each word.",
+            "Check meaning with concept-checking questions: If a manager is decisive, does she wait long to decide? Is a team player someone who works alone?",
+            "Draw attention to form: the multi-word items (analytical skills, time management skills, good people skills) are two-word noun phrases."
+          ],
+          "time": "7 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Varied meeting through input (listening)",
+          "stage_number": 4,
+          "stage_aim": "To meet the target words again in new contexts while listening",
+          "procedure": [
+            "Present the Predict strategy (Do / Why / How) and try the demo: predict answers before you listen.",
+            "Tell students they will hear an interview at International School Bangkok. Set the gist question: Why is Lily at the school? Play the audio once. Check the answer.",
+            "Play the audio again. Students answer four detail questions: What does the director say about first impressions? What is Lily's best skill? What happened with the school play? What does Lily need to work on? Check answers.",
+            "Point out the target words as they recur in the interview (handshake, make eye contact, communication, team player, natural leader, decisive, came up with, acted out, dropped out, faced up to, pays off, patience, time management, made a lasting impression)."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Controlled retrieval practice",
+          "stage_number": 5,
+          "stage_aim": "To retrieve form and meaning under controlled conditions",
+          "procedure": [
+            "Exercise 1 (p. 124): write the career skill for each person. 4-minute timer. Self-check against the answer slides.",
+            "Exercise 3 (p. 124): replace the underlined verbs with multi-word verbs (come up with, act out, turn down, face up to, drop out, pay off). 3-minute timer. Check answers.",
+            "Exercise 4 (p. 124): match the sentence halves about first impressions. 3-minute timer. Check answers."
+          ],
+          "time": "10 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Generative use",
+          "stage_number": 6,
+          "stage_aim": "To use the target vocabulary productively in a freer task",
+          "procedure": [
+            "Exercise 5 (p. 124): complete the travel guide with first impressions vocabulary, then check the answers.",
+            "In pairs, students discuss: Is this true about your country? What do people do when they meet? What is your best career skill? 4-minute timer.",
+            "Students must use at least five target words (communication skills, team player, decisive, make eye contact, make small talk...).",
+            "Pairs report one idea to the class. Content feedback first, then language feedback on target word use."
+          ],
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Recycling and wrap-up",
+          "stage_number": 7,
+          "stage_aim": "To consolidate and set up spaced retrieval for the next lesson",
+          "procedure": [
+            "Quick-fire retrieval round using the spelling test words: the teacher says a definition, students say the word. 10 items.",
+            "Tell students the same words will reappear in next lesson's warm-up (spaced retrieval).",
+            "Exit question: Which word was most useful for you? Why?"
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "25 August, 2026",
+    "class_name": "M3A",
+    "duration_minutes": 46,
+    "cefr_level": "B2",
+    "lesson_shape": "Shape K - Vocabulary Development (Retrieval-Focused)",
+    "topic": "Career skills and first impressions",
+    "materials": [
+      "Oxford Discover Futures 3, Unit 7 (Discover vocabulary), p. 124",
+      "Slideshow: M3A Career skills and first impressions (https://elwrush.github.io/lesson-plan-writer/M3_VOCAB/index.html)",
+      "Audio: Interview at International School Bangkok (dialog.mp3, 91 seconds)",
+      "Spelling test: 23-Aug-2026_M3A-career-skills-spelling (audio MP3 + answer sheet, 20 words)"
+    ],
+    "main_aim": "By the end of the lesson, learners will be better able to use career skills and first impressions vocabulary (communication skills, team player, decisive, patience, time management skills, make eye contact, shake hands, make small talk) to talk about skills for school and work, and how people make a good impression.",
+    "subsidiary_aim": "Learners will review multi-word verbs (come up with, drop out, face up to, pay off, turn down, act out), practise listening for gist and detail in an international school interview, and compare first impressions in different countries.",
+    "transcript": "PROJECTS/M3 VOCAB/transcript.json",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/M3_VOCAB/index.html",
+    "answer_key": [
+      "<strong>Spelling test — M3A career skills (23-Aug-2026)</strong>",
+      "1. qualification (B1)  2. confident (B1)  3. ambitious (B1)",
+      "4. reliable (B1)  5. communication (B1)  6. deadline (B2)",
+      "7. initiative (B2)  8. negotiate (B2)  9. efficient (B2)",
+      "10. commitment (B2)  11. discipline (B2)  12. flexible (B2)",
+      "13. promotion (B2)  14. patience (B2)  15. leadership (B2)",
+      "16. collaborate (C1)  17. mentor (C1)  18. decisive (C1)",
+      "19. credibility (C1)  20. articulate (C1)",
+      "<strong>Listening — Interview at International School Bangkok</strong>",
+      "Gist: Lily is having an admissions interview to join International School Bangkok.",
+      "Detail 1: The director starts with a handshake — a good first impression matters. Lily makes eye contact and smiles when she meets someone new.",
+      "Detail 2: Lily's best skill is communication — she listens well and enjoys talking to new people.",
+      "Detail 3: The school play lost its director. Lily came up with a new plan, and they acted out all the scenes in one week. Some friends dropped out, but she faced up to it.",
+      "Detail 4: Lily needs to work on her time management — she sometimes leaves big tasks to the last minute.",
+      "<strong>Exercise 1 — Career skills and qualities</strong>",
+      "1. decisive — Emma always makes a decision and trusts her instincts.",
+      "2. natural leader — Sara listens well and gets the best out of everyone.",
+      "3. creative — Li thinks of ideas that no one else thinks of.",
+      "4. analytical skills — Ahmed understands processes and situations very well.",
+      "5. communication skills — Felicity can express complicated ideas really clearly.",
+      "6. team player — Ramon works very well in groups.",
+      "7. good people skills — Sandy is happy to take on responsibility and help others.",
+      "8. patience — Dmitry stays calm when other people might get really angry.",
+      "9. time management skills — Jens never misses his deadlines.",
+      "<strong>Exercise 2 — How good are your career skills? (Students' own answers)</strong>",
+      "<strong>Exercise 3 — Multi-word verbs</strong>",
+      "1. come up with — We just need to come up with a really good idea.",
+      "2. acted out — The children acted out what they'd seen.",
+      "3. turned me down — I applied for the job, but they turned me down.",
+      "4. face up to — It was hard to face up to the fact that my life would never be the same again.",
+      "5. dropped out — After just a year of college, Jack dropped out.",
+      "6. paid off — Finally, all those hours of studying have paid off!",
+      "<strong>Exercise 4 — First impressions (match)</strong>",
+      "1. She threw her arms around him and kissed him on the cheek. (d)",
+      "2. I really didn't like Kevin at first, but I soon warmed up to him when I got to know him. (b)",
+      "3. I introduced myself to the manager and we shook hands. (h)",
+      "4. He didn't look at me when he arrived, but he made eye contact during the interview. (a)",
+      "5. We didn't have any conversations about big topics — we just made small talk. (f)",
+      "6. I only met your grandfather once, but he made a lasting impression on me. (g)",
+      "7. Bruno wasn't easy to talk to — he just folded his arms and looked at me. (e)",
+      "8. I'd heard that Sheila was really nice, but she came across as rather rude when I met her. (c)",
+      "<strong>Exercise 5 — Travel guide (Students' own answers after gap-fill)</strong>",
+      "Gap-fill: 1. shake hands, 2. kiss, 3. make small talk, 4. make a good impression, 5. make eye contact."
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "MUIDS Interview \u2014 B1 (Ploy)",
+  "setting": "Classroom practice dialog in an interview room. Two characters: an interviewer and a 14-year-old student.",
+  "characters": [
+    {
+      "name": "Teacher",
+      "voice_notes": "Authoritative adult male interviewer, professional, clear conversational delivery",
+      "key_line": "\"So, tell me about yourself.\""
+    },
+    {
+      "name": "Ploy",
+      "voice_notes": "Teenage girl, slightly nervous at first, natural conversational",
+      "key_line": "\"Good morning. Well, my name is Ploy, and I'm fourteen.\""
+    }
+  ],
+  "turns": [
+    {
+      "character": "Teacher",
+      "stage_direction": null,
+      "line": "Good morning. Please, have a seat. So, tell me about yourself."
+    },
+    {
+      "character": "Ploy",
+      "stage_direction": null,
+      "line": "Good morning. Well, my name is Ploy, and I'm fourteen. I go to school in Bangkok. When I'm not studying, I play volleyball, and I like reading adventure books. In the future, I want to be a doctor."
+    },
+    {
+      "character": "Teacher",
+      "stage_direction": null,
+      "line": "Nice. So why do you want to study at em-yoo-eye-dee-es?"
+    },
+    {
+      "character": "Ploy",
+      "stage_direction": null,
+      "line": "Because of the way they teach. Students learn by doing things, not just reading. For example, science students do real experiments and present them in English. I want to study medicine, so I need strong English and practical skills. So em-yoo-eye-dee-es is exactly the school I want."
+    },
+    {
+      "character": "Teacher",
+      "stage_direction": null,
+      "line": "What's your favourite subject?"
+    },
+    {
+      "character": "Ploy",
+      "stage_direction": null,
+      "line": "Science, for sure! I love knowing how things work. For example, last term we did an experiment with magnets. So yeah, that's why science is my favourite."
+    },
+    {
+      "character": "Teacher",
+      "stage_direction": null,
+      "line": "Another question. Should phones be banned at school?"
+    },
+    {
+      "character": "Ploy",
+      "stage_direction": null,
+      "line": "Hmm, no. I don't think phones should be banned. They're really useful for learning. For example, I can look up a word on my phone in seconds. So I think they should stay, just not during tests."
+    },
+    {
+      "character": "Teacher",
+      "stage_direction": null,
+      "line": "Good answer. What do you do when you face a challenge?"
+    },
+    {
+      "character": "Ploy",
+      "stage_direction": null,
+      "line": "Last year, I had a really hard maths exam. I was nervous, so I made a study plan and practiced every day. In the end, I passed, and I felt so proud."
+    },
+    {
+      "character": "Teacher",
+      "stage_direction": null,
+      "line": "Very good. Do you have any questions for us?"
+    },
+    {
+      "character": "Ploy",
+      "stage_direction": null,
+      "line": "Yes. What's a normal day at em-yoo-eye-dee-es like?"
+    },
+    {
+      "character": "Teacher",
+      "stage_direction": null,
+      "line": "We start at eight thirty, and we have five classes a day. Thank you for coming. We'll let you know our decision soon."
+    },
+    {
+      "character": "Ploy",
+      "stage_direction": null,
+      "line": "Thank you. Goodbye."
+    }
+  ]
+}

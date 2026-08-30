@@ -1,0 +1,67 @@
+{
+  "name": "Shape R - RADEC (Read-Answer-Discuss-Explain-Create)",
+  "description": "Reading lesson built on a five-phase cycle: Read → Answer → Discuss → Explain → Create. The Create phase is the differentiator — students produce something new from the text (a summary, a transformation, a response text) rather than only answering comprehension questions.",
+  "pedagogical_justification": "RADEC (Fauzi et al., 2025, 17 citations; ResearchGate 2025) is an Indonesian-developed model gaining traction across ASEAN. It addresses Shape E's biggest weakness: the lack of genuine productive output. The five phases represent a deepening engagement with the text: Read establishes comprehension, Answer checks key information, Discuss deepens understanding through talk, Explain makes thinking visible by requiring the student to restate the main idea, and Create forces deep processing because the student must synthesise and transform the text's ideas into something new. The Create phase is not a throwaway — it is the culmination of the lesson.\n\nThe shape therefore moves: Lead-in (activate schema) → Read (silent comprehension) → Answer (comprehension check) → Discuss (pair/group talk about ideas) → Explain (restate the main idea in own words) → Create (transform understanding into new output) → Share and feedback (present and evaluate creations). Discussion happens before creation so students refine ideas through talk, and the output can be written, spoken, visual or digital. The Create phase scales with proficiency: B1 write a 100-word summary or a letter to the editor; B2 write a counter-argument or an infographic; C1 write a critical evaluation or a policy brief. Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will have read, discussed and created [output type] about [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have read an article about plastic pollution in the ocean, discussed the arguments, and created a 100-word summary/poster calling for change.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>R (RADEC)<br><b>Materials:</b><br>Article 'Plastic in the Ocean', comprehension worksheet, poster paper / online board for the Create phase<br><b>Assessment:</b><br>Comprehension answers, Create-phase output (peer-assessed)<br><b>Skills:</b><br>Reading and Writing\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate schema and set the context",
+        "procedure": "- Display a striking image of plastic in the ocean on PP. In pairs, Ss tell each other what they see and how it makes them feel. 2 min.\n- Whole-class feedback. Elicit key words about the problem.\n- Tell Ss they will read an article about plastic pollution.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Read",
+        "stage_number": 2,
+        "stage_aim": "To comprehend the text",
+        "procedure": "- Ss read the article silently (once for meaning). 6 min.\n- Teacher monitors, noting any words that cause difficulty.\n- Teacher does not interrupt; reading is for global comprehension first.\n",
+        "time": 8,
+        "interaction": "S"
+      },
+      {
+        "stage": "Answer",
+        "stage_number": 3,
+        "stage_aim": "To check comprehension of key information",
+        "procedure": "- Ss answer comprehension questions individually or in pairs (a mix of gist, detail and inference). 4 min.\n- Peer check. Whole-class feedback on PP.\n- Teacher addresses any shared misunderstandings.\n",
+        "time": 7,
+        "interaction": "S, Ss-Ss"
+      },
+      {
+        "stage": "Discuss",
+        "stage_number": 4,
+        "stage_aim": "To deepen understanding through talk",
+        "procedure": "- In pairs or groups, Ss discuss: Do you agree with the article's argument? Why? What would you add? 4 min.\n- Teacher facilitates, prompting with: What is the biggest problem the article raises? Who is responsible?\n",
+        "time": 7,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Explain",
+        "stage_number": 5,
+        "stage_aim": "To make thinking visible",
+        "procedure": "- Ss explain the main idea of the article in their own words, first to a partner, then to another pair. 3 min.\n- This restating consolidates the key proposition before creation.\n",
+        "time": 5,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Create",
+        "stage_number": 6,
+        "stage_aim": "To transform understanding into new output",
+        "procedure": "- Ss produce a piece of new output from the text: a 100-word summary, a poster calling for change, or a letter to the editor. 7 min.\n- Teacher monitors and assists, feeding back on content and language.\n- The output must transform the text's ideas, not copy them.\n",
+        "time": 10,
+        "interaction": "S"
+      },
+      {
+        "stage": "Share and feedback",
+        "stage_number": 7,
+        "stage_aim": "To present and evaluate creations",
+        "procedure": "- Ss share their creations with a partner or the class. Pair/peer feedback using simple criteria. 3 min.\n- Teacher provides content feedback first, then language feedback.\n- Circle back: what did you learn from the article, and what did you create from it?\n",
+        "time": 5,
+        "interaction": "Ss-Ss, T-Ss"
+      }
+    ]
+  }
+}

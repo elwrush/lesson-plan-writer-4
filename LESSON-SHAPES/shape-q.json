@@ -1,0 +1,59 @@
+{
+  "name": "Shape Q - Literature Circles + Genre Cycle",
+  "description": "Reading lesson where students take on rotating roles (Discussion Director, Vocabulary Enricher, Literary Luminary, Connector, Illustrator) within a text. The Teaching and Learning Cycle adds explicit teaching of genre structure before the circle meets, so students learn how texts are built before they discuss one.",
+  "pedagogical_justification": "Literature circles treat the text as a shared intellectual experience rather than a vehicle for comprehension questions (Daniels, 2002). When combined with the Teaching and Learning Cycle (TLC), students first learn the genre structure explicitly, then engage with the text through roles — a sequence published in Semantic Scholar (2025) with evidence from Indonesian EFL classrooms. The five roles distribute the interpretive load across the group: the Discussion Director provokes critical thinking, the Vocabulary Enricher does word study, the Literary Luminary attends to text structure and the author's craft, the Connector links the text to the world and to other texts, and the Illustrator brings a visual interpretation.\n\nThe shape therefore moves: TLC Modelled reading (teacher reads a model text and labels the genre and its structural moves) → TLC Joint construction (class writes a text together, applying the structure) → Literature circle: Role preparation (students read their section and prepare their role) → Literature circle: Meeting (groups discuss through roles) → Whole-class debrief (share insights) → Independent writing (apply genre knowledge). Roles rotate so every student experiences every perspective, and discussion is student-led rather than teacher-directed. It suits narrative texts and longer reading projects, and roles can be simplified or extended across A2-C1. Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will have discussed and analysed a text about [topic] using [specific roles] to explore [vocabulary/structure/themes/connections].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have analysed a short story using the roles of Discussion Director, Vocabulary Enricher, Literary Luminary, Connector and Illustrator to explore its themes and structure.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>Q (Literature Circles)<br><b>Materials:</b><br>Short story 'The Bridge', TLC model text, role cards, copy of the story for each student<br><b>Assessment:</b><br>Role contribution during the meeting, independent writing<br><b>Skills:</b><br>Reading\n",
+    "stages": [
+      {
+        "stage": "TLC: Modelled reading",
+        "stage_number": 1,
+        "stage_aim": "To teach the genre structure explicitly",
+        "procedure": "- Teacher reads a model narrative aloud. Identifies the genre (story/narrative).\n- Labels the structural moves on PP: setting → problem → rising action → climax → resolution.\n- Points out the language features of narrative writing (past tense, time linkers, descriptive language).\n",
+        "time": 8,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "TLC: Joint construction",
+        "stage_number": 2,
+        "stage_aim": "To co-construct a text with the class",
+        "procedure": "- Teacher and Ss write a short narrative together, applying the genre structure.\n- Teacher scribes; Ss contribute the setting, the problem, and the moves. 5 min.\n- Ss help choose the language (past tense, time linkers).\n",
+        "time": 6,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Literature circle: Role preparation",
+        "stage_number": 3,
+        "stage_aim": "To prepare for the circle meeting",
+        "procedure": "- Introduce the five roles and hand out role cards.\n- Ss read their assigned section of 'The Bridge'.\n- Each Ss prepares their role: Discussion Director writes 2-3 open questions; Vocabulary Enricher picks 3 important words; Literary Luminary marks a key passage; Connector finds a real-world link; Illustrator sketches a scene.\n",
+        "time": 8,
+        "interaction": "S"
+      },
+      {
+        "stage": "Literature circle: Meeting",
+        "stage_number": 4,
+        "stage_aim": "To discuss the text through roles",
+        "procedure": "- Groups meet. Each student presents their role contribution.\n- Discussion follows, guided by the Director's questions. 8 min.\n- Teacher circulates and extends, but does not evaluate or steer.\n- Remind groups that every role matters and all voices are heard.\n",
+        "time": 12,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Whole-class debrief",
+        "stage_number": 5,
+        "stage_aim": "To share insights and address themes",
+        "procedure": "- Each group shares its most interesting discussion point.\n- Teacher connects themes across groups and highlights a couple of good language choices Ss made.\n",
+        "time": 5,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Independent writing",
+        "stage_number": 6,
+        "stage_aim": "To apply genre knowledge independently",
+        "procedure": "- Ss write their own short narrative in the same genre, applying the structural moves modelled earlier.\n- Peer check against the genre structure. Teacher circulates, feeding back on structure and language.\n",
+        "time": 7,
+        "interaction": "S"
+      }
+    ]
+  }
+}

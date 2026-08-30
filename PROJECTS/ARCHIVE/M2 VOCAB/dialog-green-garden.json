@@ -1,0 +1,128 @@
+{
+  "title": "The Green Garden Project",
+  "setting": "",
+  "characters": [
+    {
+      "name": "Presenter",
+      "voice_notes": "Warm, professional radio presenter. Calm, measured, friendly.",
+      "key_line": "\"Welcome to World Watch. Today we meet a volunteer from the Green Garden Project.\""
+    },
+    {
+      "name": "Tom",
+      "voice_notes": "Friendly volunteer, enthusiastic and conversational.",
+      "key_line": "\"A neighbor encouraged me to join.\""
+    }
+  ],
+  "turns": [
+    {
+      "character": "Presenter",
+      "stage_direction": "happy",
+      "line": "Welcome to World Watch. Today we meet a volunteer from the Green Garden Project."
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "happy",
+      "line": "Thanks for having me. It's great to be here."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": null,
+      "line": "Tell us, what is the Green Garden Project?"
+    },
+    {
+      "character": "Tom",
+      "stage_direction": null,
+      "line": "It's a charity in our area. We turned an old wasteland into a garden for the community. Children play there now."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": "curious",
+      "line": "How did you first get involved?"
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "friendly",
+      "line": "A neighbor encouraged me to join. Before that, I didn't really know people here. Now I know everyone."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": null,
+      "line": "So you got to know your community."
+    },
+    {
+      "character": "Tom",
+      "stage_direction": null,
+      "line": "Exactly. We respect each other's rights, and everyone helps. It's a good cause."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": null,
+      "line": "Why is a green space important for a city?"
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "thoughtful",
+      "line": "Pollution is a big problem in cities. Green spaces give us cleaner air. They're good for our health too."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": null,
+      "line": "Does the project help with bigger problems?"
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "calm",
+      "line": "Yes. Some families here live in poverty. The garden gives them fresh food. It helps with hunger and gives children an education about food."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": "interested",
+      "line": "You mentioned teaching. How did you learn to grow vegetables?"
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "chuckling",
+      "line": "I taught myself! I made mistakes at first, but I didn't blame myself. You learn by trying."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": null,
+      "line": "You're running a fundraising campaign now, right?"
+    },
+    {
+      "character": "Tom",
+      "stage_direction": null,
+      "line": "Yes. We want to buy more plants and equipment. A local company just donated a large sum of money."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": "warm",
+      "line": "In a world full of conflict, this garden brings people together."
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "happy",
+      "line": "That's true. Everyone is welcome in the garden."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": null,
+      "line": "How can our listeners help?"
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "happy",
+      "line": "Come and volunteer! You can donate too. Every small effort makes a difference."
+    },
+    {
+      "character": "Presenter",
+      "stage_direction": "happy",
+      "line": "Thanks, Tom. The Green Garden Project — what a great story."
+    },
+    {
+      "character": "Tom",
+      "stage_direction": "happy",
+      "line": "Thank you. The garden is open to everyone."
+    }
+  ]
+}

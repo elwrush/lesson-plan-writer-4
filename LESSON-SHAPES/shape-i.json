@@ -1,0 +1,59 @@
+{
+  "name": "Shape I - Reciprocal Teaching (Role-Rotated Comprehension)",
+  "description": "Reading lesson where students rotate four comprehension roles (Predictor, Clarifier, Questioner, Summariser) while reading a text in sections. The teacher scaffolds, then releases control so students own the comprehension monitoring.",
+  "pedagogical_justification": "Reciprocal teaching is one of the most robustly supported reading approaches. Meta-analyses consistently show effect sizes of d = 0.32-0.88 on comprehension (Palincsar & Brown, 1984; SAGE Journals 2025). The four roles make comprehension strategies visible and teachable, transforming passive reading into active strategy use. Unlike Shape E, which tests comprehension after reading, reciprocal teaching builds comprehension during reading: the Predictor primes prediction as a habit, the Clarifier legitimises 'I didn't understand' and gives a procedure to fix it, the Questioner shifts the reader from passive reception to active inquiry, and the Summariser forces distillation of main idea from supporting detail.\n\nThe shape therefore moves: Lead-in (activate schema) → Role assignment + Section 1 reading (each student performs one role) → Section 2 reading with rotation (P→Q→C→S) → Section 3 reading with final rotation → Whole-class debrief (consolidate, address misconceptions) → Exit task (individual check). Roles rotate every section, not every lesson — with three sections, every student does every role once. For first-time groups, start with Summariser (the most structured role) and add sentence-starter scaffolding. Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will have practiced and applied [Predictor/Clarifier/Questioner/Summariser] strategies to comprehend a text about [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have practiced and applied the strategies of Predicting, Clarifying, Questioning and Summarising to comprehend an article about why some teenagers sleep too little.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>I (Reciprocal Teaching)<br><b>Materials:</b><br>Article 'Why Do Teenagers Sleep Too Little?', four role cards, worksheet for the sums<br><b>Assessment:</b><br>Role performances, exit summary<br><b>Skills:</b><br>Reading\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate schema and set the context",
+        "procedure": "- Display the splash statistic on PP: 'Teenagers need 8-10 hours of sleep a night.' In pairs, Ss tell each other how many hours they usually sleep and why. 2 min.\n- Whole-class feedback. Ask: Do you ever find it hard to get up in the morning? Why might that be?\n- Tell Ss they will read an article about why teenagers sleep too little.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Role assignment + Section 1 reading",
+        "stage_number": 2,
+        "stage_aim": "To read the first section with a specific comprehension role",
+        "procedure": "- Assign the four roles (Predictor, Clarifier, Questioner, Summariser) around each group of four. Hand out the role cards.\n- Explain each role briefly and point to the sentence starters on the cards.\n- Ss read Section 1 silently (1.5-2 min).\n- Each student performs their role for the group: Predictor predicts before reading, then Clarifier, Questioner and Summariser. 2-3 min.\n- Teacher circulates, prompting only where a group is stuck.\n",
+        "time": 8,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Section 2 reading + role rotation",
+        "stage_number": 3,
+        "stage_aim": "To apply comprehension strategies to a new section with a different role",
+        "procedure": "- Roles rotate one position (P→Q→C→S around the group).\n- Ss read Section 2 silently.\n- Each student performs their new role. 2-3 min.\n- Teacher addresses 2-3 common Clarifier points with the whole class on PP.\n- Remind Ss to use the sentence starters when they are not sure what to say.\n",
+        "time": 8,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Section 3 reading + role rotation",
+        "stage_number": 4,
+        "stage_aim": "To apply comprehension strategies to the final section",
+        "procedure": "- Roles rotate again (the second rotation).\n- Ss read Section 3 silently.\n- Each student performs their final role. This section is typically the actionable one, so the Summariser has the hardest job.\n- Groups agree on one-sentence summary of the whole article.\n",
+        "time": 8,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Whole-class debrief",
+        "stage_number": 5,
+        "stage_aim": "To consolidate understanding and address misconceptions",
+        "procedure": "- Ask: What was the most surprising thing you learned? Which advice from the article will you actually try?\n- Teacher addresses misconceptions surfaced during the Clarifier stages.\n- Review the four strategies: name them and say what each one helps you do.\n",
+        "time": 10,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Exit task",
+        "stage_number": 6,
+        "stage_aim": "To check individual comprehension",
+        "procedure": "- Individually, Ss write one sentence summarising the whole article, OR one question they still have after reading. 3 min.\n- Collect as an exit ticket.\n",
+        "time": 8,
+        "interaction": "S"
+      }
+    ]
+  }
+}

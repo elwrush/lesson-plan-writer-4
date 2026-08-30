@@ -1,0 +1,278 @@
+{
+  "page_meta": {
+    "page_number": 126,
+    "unit_number": "Unit 8",
+    "header_left": "Discover vocabulary",
+    "header_right": "Unit 8",
+    "footer": "126 Unit 8 Discover vocabulary"
+  },
+  "sections": [
+    {
+      "title": "World problems",
+      "audio_track": "2.15",
+      "word_bank": [
+        "conflict",
+        "education",
+        "health",
+        "housing",
+        "hunger",
+        "literacy",
+        "pollution",
+        "poverty",
+        "sanitation"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "instruction": "Choose the correct words to match the sentences.",
+          "items": [
+            {
+              "item_number": 1,
+              "text": "“Some people don’t have enough money to spend on basic things like food and shelter.” ___________________"
+            },
+            {
+              "item_number": 2,
+              "text": "“Children need to go to school.” ___________________"
+            },
+            {
+              "item_number": 3,
+              "text": "“Everyone needs clean water for drinking and washing.” ___________________"
+            },
+            {
+              "item_number": 4,
+              "text": "“People need safe places to live.” ___________________"
+            },
+            {
+              "item_number": 5,
+              "text": "“Some families don’t have enough food.” ___________________"
+            },
+            {
+              "item_number": 6,
+              "text": "“The ability to read and write changes lives.” ___________________"
+            },
+            {
+              "item_number": 7,
+              "text": "“We all need to be protected against illness and disease.” ___________________"
+            },
+            {
+              "item_number": 8,
+              "text": "“In some parts of the world, communities and countries are at war with each other.” ___________________"
+            },
+            {
+              "item_number": 9,
+              "text": "“The air, land, and water are dirty because of the actions of humans.” ___________________"
+            }
+          ]
+        },
+        {
+          "exercise_number": 2,
+          "instruction": "Read and complete the questionnaire.",
+          "content": {
+            "title": "How optimistic are you?",
+            "subtitle": "Choose the answers you agree or disagree with.",
+            "statements": [
+              {
+                "item_number": 1,
+                "text": "Not much can be done to solve the problem of pollution."
+              },
+              {
+                "item_number": 2,
+                "text": "Scientists will find a cure for most of the world’s biggest health problems in the next 50 years."
+              },
+              {
+                "item_number": 3,
+                "text": "Technology will allow everyone to have access to a good education in the future."
+              },
+              {
+                "item_number": 4,
+                "text": "There will always be conflict in the world."
+              },
+              {
+                "item_number": 5,
+                "text": "A growing population means there will never be enough housing for everyone."
+              },
+              {
+                "item_number": 6,
+                "text": "There will always be people who are working to end hunger and poverty."
+              },
+              {
+                "item_number": 7,
+                "text": "Technology will improve sanitation in the poorest countries by 2100."
+              },
+              {
+                "item_number": 8,
+                "text": "Achieving literacy will always be difficult for some."
+              }
+            ],
+            "scoring": {
+              "title": "Score",
+              "rules": [
+                "Questions 1, 4, 5, and 8: Agree = 0 points Disagree = 1 point",
+                "Questions 2, 3, 6, and 7: Agree = 1 point Disagree = 0 points"
+              ]
+            },
+            "results": {
+              "title": "Result",
+              "tiers": [
+                {
+                  "range": "5–8 points",
+                  "text": "It’s great that you have hope for the future of the world. But remember – optimism alone won’t change things. People need to take action!"
+                },
+                {
+                  "range": "2–4 points",
+                  "text": "Well, at least you’re optimistic about some things! Is there something small you could do to make a difference to the world?"
+                },
+                {
+                  "range": "0–1 points",
+                  "text": "Oh dear! You aren’t very optimistic about the world you live in. Is there something small you could do to make a difference in your local community?"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "answer_keys": {
+        "exercise_1": {
+          "1": "poverty",
+          "2": "education",
+          "3": "sanitation",
+          "4": "housing",
+          "5": "hunger",
+          "6": "literacy",
+          "7": "health",
+          "8": "conflict",
+          "9": "pollution"
+        },
+        "exercise_2": "Students' own answers."
+      }
+    },
+    {
+      "title": "Reciprocal verbs",
+      "audio_track": "2.16",
+      "word_bank": [
+        "amuse",
+        "blame",
+        "convince",
+        "help",
+        "hurt",
+        "introduce",
+        "prepare",
+        "teach"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 3,
+          "instruction": "Complete the sentences using a reciprocal verb and the correct reflexive pronoun.",
+          "items": [
+            {
+              "item_number": 1,
+              "text": "She plans to ___________________ Spanish."
+            },
+            {
+              "item_number": 2,
+              "text": "Don’t ___________________ for what happened."
+            },
+            {
+              "item_number": 3,
+              "text": "I’m going to ___________________ to Sophia."
+            },
+            {
+              "item_number": 4,
+              "text": "Be careful, Sam! Don’t ___________________!"
+            },
+            {
+              "item_number": 5,
+              "text": "We’re not going to be home on time, so our guests will have to ___________________."
+            },
+            {
+              "item_number": 6,
+              "text": "He ___________________ that he was sick."
+            },
+            {
+              "item_number": 7,
+              "text": "We need to ___________________ for difficult times."
+            },
+            {
+              "item_number": 8,
+              "text": "Welcome! ___________________ to coffee or tea."
+            }
+          ]
+        }
+      ],
+      "answer_keys": {
+        "exercise_3": {
+          "1": "teach herself",
+          "2": "blame yourself",
+          "3": "introduce myself",
+          "4": "hurt yourself",
+          "5": "amuse themselves",
+          "6": "convinced himself",
+          "7": "prepare ourselves",
+          "8": "Help yourselves"
+        }
+      }
+    },
+    {
+      "title": "Community action",
+      "audio_track": "2.17",
+      "word_bank": [
+        "charity",
+        "donate",
+        "encourage",
+        "fundraising",
+        "get involved",
+        "get to know",
+        "good cause",
+        "neighbor",
+        "respect",
+        "rights",
+        "volunteer"
+      ],
+      "exercises": [
+        {
+          "exercise_number": 4,
+          "instruction": "Complete the text with the correct form of the words.",
+          "text_content": "I moved here two years ago with my family. We didn’t know anyone at first, but then we met some of our ¹ ___________________ and after that, I ² ___________________ more people in the area. One day, I was talking to someone who ³ ___________________ me to ⁴ ___________________ in a local community project. It’s a ⁵ ___________________ called the Green Garden Project, and it’s turned an area of wasteland into a beautiful green space for children to play. I’m happy to ⁶ ___________________ for such a ⁷ ___________________. There are people from all parts of the community but everyone ⁸ ___________________ each other’s ⁹ ___________________ and freedoms. Right now, we’re running a ¹⁰ ___________________ campaign so we can buy more plants and equipment. A local company has just ¹¹ ___________________ a large sum of money, which will make a huge difference in what we do."
+        },
+        {
+          "exercise_number": 5,
+          "instruction": "Answer the questions with your own ideas.",
+          "items": [
+            {
+              "item_number": 1,
+              "question": "How many charities can you name? Write some here."
+            },
+            {
+              "item_number": 2,
+              "question": "Which charity would you donate to? Why?"
+            },
+            {
+              "item_number": 3,
+              "question": "If you could spend a year volunteering, where would you go? What would you do? Why?"
+            },
+            {
+              "item_number": 4,
+              "question": "What local community organizations do you know?"
+            }
+          ]
+        }
+      ],
+      "answer_keys": {
+        "exercise_4": {
+          "1": "neighbors",
+          "2": "got to know",
+          "3": "encouraged",
+          "4": "get involved",
+          "5": "charity",
+          "6": "volunteer",
+          "7": "good cause",
+          "8": "respects",
+          "9": "rights",
+          "10": "fundraising",
+          "11": "donated"
+        },
+        "exercise_5": "Students' own answers."
+      }
+    }
+  ]
+}

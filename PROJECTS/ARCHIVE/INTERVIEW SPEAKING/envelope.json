@@ -1,0 +1,123 @@
+{
+  "shape": {
+    "name": "Shape F — Productive Skills",
+    "description": "A speaking lesson that teaches students a reusable answer structure (PREP) for school entry interviews, moving from teacher-led input to controlled practice and a timed freer speaking task.",
+    "pedagogical_justification": "School entry interviews reward structured, communicative answers. A single reusable structure (Position, Reason, Example, Position) reduces cognitive load and gives B1-B2 learners a reliable way to extend short answers, preparing them for real interview situations at international and scholarship schools.",
+    "main_aim_format": "By the end, students will [productive target] with [structure].",
+    "example_lesson_plan": {
+      "header": "INTERVIEW POWER — ANSWER WITH PREP<br>Speaking &amp; Interview Preparation — M2 / M3",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "Activate students' knowledge of interviews and set the lesson goal",
+          "procedure": [
+            "Show the splash slide. Ask: \"What do you see? What might this lesson be about?\" Let students speculate.",
+            "Advance to the title slide: \"How do you ace a school interview?\" Confirm the theme.",
+            "Ask: \"What happens in a school interview? What does the interviewer want?\" Elicit English, confidence, and answers."
+          ],
+          "time": "5 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Strategy",
+          "stage_number": 2,
+          "stage_aim": "Present the PREP answer structure and the answer-first rule for why questions",
+          "procedure": [
+            "Present the PREP formula: Position, Reason, Example, Position. Emphasise the rule: no \"because\" in the first sentence.",
+            "Show the demo: a weak answer vs the PREP answer to \"Should school start later?\"",
+            "Show the why-question rule: answer with your reason first. Demo: \"Why MUIDS?\"",
+            "Show the challenge-question rule: tell a story. Demo: Situation, Action, Result."
+          ],
+          "time": "10 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Listening",
+          "stage_number": 3,
+          "stage_aim": "Hear the structure in a model interview and identify its parts",
+          "procedure": [
+            "Play the model interview (B1 version for M2, B2 version for M3). First listen: gist. Who is speaking? What school?",
+            "Second listen: students tick the parts they hear — Position, Reason, Example, Position.",
+            "Check together. The answer slide breaks down the Why MUIDS? answer into its four parts."
+          ],
+          "time": "8 min",
+          "interaction": "Ss / T-Ss"
+        },
+        {
+          "stage": "Worksheet Parts A and B",
+          "stage_number": 4,
+          "stage_aim": "Controlled practice: rebuild a PREP answer and complete the frames",
+          "procedure": [
+            "Students open the worksheet. Part A: put the jumbled phones answer in order (1-4).",
+            "Part B: complete the frames using each phrase once: In my opinion, One reason is, For example, That's why.",
+            "Check answers together."
+          ],
+          "time": "8 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Sentence Cut-Up",
+          "stage_number": 5,
+          "stage_aim": "Rebuild a complete interview from sentence strips and rehearse it",
+          "procedure": [
+            "Each pair gets a set of strips (B1 or B2) that together make one interview.",
+            "Students arrange the strips in the correct order: questions, answers, and the PREP parts inside each answer.",
+            "Check against the answer slides, then pairs practise the interview aloud."
+          ],
+          "time": "5 min",
+          "interaction": "Pairs"
+        },
+        {
+          "stage": "Speed Dating",
+          "stage_number": 6,
+          "stage_aim": "Freer speaking: answer interview questions with structure under time pressure",
+          "procedure": [
+            "Show the sample card. Remind students of the structure: Position, Reason, Example, Position.",
+            "Instructions: one question, one minute, answer with your structure, then swap.",
+            "Run the timed rounds (60 seconds each) using the 10 interview question cards."
+          ],
+          "time": "8 min",
+          "interaction": "Pairs"
+        },
+        {
+          "stage": "Wrap-up",
+          "stage_number": 7,
+          "stage_aim": "Consolidate the lesson and set the writing task",
+          "procedure": [
+            "Worksheet Part C: students write their own PREP answer to one question — school uniforms or social media.",
+            "Finish in class or as homework. Next lesson: a full mock interview."
+          ],
+          "time": "2 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "19 August, 2026",
+    "class_name": "M2 / M3",
+    "duration_minutes": 46,
+    "cefr_level": "B1 (M2) / B2 (M3)",
+    "lesson_shape": "Shape F — Productive Skills",
+    "topic": "Interview Power — Answer with PREP",
+    "materials": [
+      "Slideshow: Interview Power — Answer with Structure (https://elwrush.github.io/lesson-plan-writer/INTERVIEW_SPEAKING/index.html)",
+      "Worksheet: Interview Power — Answer with PREP (Part A: order the answer, Part B: complete the frames, Part C: write your own answer)",
+      "10 interview question cards (3 A4 pages, 4 cards per page)",
+      "Sentence cut-up strips — B1 and B2 (one interview per A4 page)",
+      "Model interview audio — B1 and B2 versions (Ploy and Elle, with teacher voice)"
+    ],
+    "main_aim": "By the end of the lesson, students will answer school interview questions with a clear structure (Position, Reason, Example, Position) in a timed speed-dating interview.",
+    "subsidiary_aim": "Students will use the frames \"In my opinion\", \"One reason is\", \"For example\", and \"That's why\", and will lead with their reason when answering \"why\" questions.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/INTERVIEW_SPEAKING/index.html",
+    "answer_key": [
+      "<strong>Worksheet Part A — Put the answer in order</strong> Correct order: 4, 3, 2, 1. The student starts with the position (\"In my opinion, phones should be allowed at school.\"), gives a reason (\"One reason is that phones help students learn.\"), adds an example (\"For example, students can look up information quickly in class.\"), and closes with the position again (\"That's why I think phones should stay at school.\").",
+      "<strong>Worksheet Part B — Complete the frames</strong> 1. In my opinion, homework should not be too much. 2. One reason is that students need free time to rest and play. 3. For example, in my school we get homework for every subject every night. 4. That's why I believe schools should think again about homework.",
+      "<strong>Worksheet Part C — Model answer (uniforms)</strong> \"In my opinion, students should wear school uniforms. One reason is that uniforms make everyone feel equal. For example, nobody can be judged by their clothes. That's why I think uniforms are a good idea for schools.\"",
+      "<strong>Sentence Cut-Up B1 — correct order</strong> 1. Good morning. What do you enjoy doing in your free time? 2. I really like playing the guitar. 3. It helps me relax after a long day at school. 4. For example, I practise for thirty minutes every evening. 5. So music is my favourite way to unwind. 6. That's nice. Do you play in a band? 7. Not yet, but I'd love to. 8. I think playing with other people is the best way to improve. 9. For example, my cousin plays with his friends every weekend. 10. Lovely. Thank you for coming today. 11. Thank you. Goodbye.",
+      "<strong>Sentence Cut-Up B2 — correct order</strong> 1. So, tell me — how do you usually spend your weekends? 2. That's a good question. Honestly, I try to keep a balance between relaxing and doing something useful. 3. The main reason is that I think weekends are for recharging, not just for homework. 4. For example, on Saturday mornings I help my family at our market stall, and in the afternoon I swim. 5. However, I also spend a couple of hours on Sunday studying, especially English. 6. So, for me, a good weekend has both fun and a little work. 7. That sounds well planned. And what's something new you'd like to try? 8. I'd love to learn scuba diving. 9. I've watched documentaries about coral reefs, and I find the underwater world fascinating. 10. For example, a friend of mine started diving last year, and she says it's the most peaceful feeling in the world. 11. Wonderful. Thank you for coming. We'll be in touch soon. 12. Thank you very much. It was a pleasure."
+    ]
+  }
+}

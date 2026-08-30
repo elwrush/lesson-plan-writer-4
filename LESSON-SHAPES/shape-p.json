@@ -1,0 +1,51 @@
+{
+  "name": "Shape P - AI-Assisted Reading (Adaptive Scaffolding)",
+  "description": "Reading lesson where AI tools (ChatGPT, custom reading apps) provide adaptive scaffolding: text difficulty adjusts to each learner, generated questions target different cognitive levels, feedback is instant, and vocabulary is glossed per-student level. The teacher's role shifts from question-setter to facilitator and mediator.",
+  "pedagogical_justification": "AI-assisted reading is rapidly emerging (Belkhir et al., 2025, 29 citations; SSRN 2025, 13 citations; ERIC 2025, 14 citations) and addresses Shape E's one-size-fits-all limitation. In a mixed-ability class, different students can read different versions of the same text at their level, receive personalised feedback on comprehension, and progress at their own pace. The teacher's role shifts from question-setter to facilitator and mediator.\n\nFive capabilities make this possible: (1) text simplification — AI rewrites a text at different CEFR levels while preserving meaning; (2) question generation — AI generates questions at different cognitive levels (recall, inference, evaluation); (3) instant feedback — AI checks answers and explains; (4) vocabulary scaffolding — AI identifies and glosses difficult vocabulary for each student's level; (5) reading-rate tracking. AI is a tool, not a teacher — the student still needs human mediation, and the teacher must monitor for quality and prevent over-reliance. Privacy and data considerations must be addressed. This shape complements, not replaces, teacher-led instruction.\n\nThis shape is a single AI-assisted lesson: Lead-in (activate schema) → AI-adapted reading (level-appropriate text) → AI-generated comprehension check (personalised questions + instant feedback) → Teacher-led discussion (deepen understanding) → Reflection and goal-setting. Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will have used AI-assisted tools to [read/comprehend/discuss] a text about [topic] at their individual level.\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have used an AI reading tool to read and check their comprehension of an article about renewable energy at their own level, then discussed it as a class.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>P (AI-Assisted Reading)<br><b>Materials:</b><br>AI reading tool, source article on renewable energy, devices for each student, teacher monitoring checklist<br><b>Assessment:</b><br>AI comprehension-check results, contribution to class discussion<br><b>Skills:</b><br>Reading\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate schema and introduce the topic",
+        "procedure": "- Teacher-led discussion about the topic: What do you know about renewable energy? Where does your electricity come from? 2 min.\n- Set the purpose for reading.\n- Remind Ss how to use the tool: read, answer, ask the AI for help, but always try on your own first.\n",
+        "time": 5,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "AI-adapted reading",
+        "stage_number": 2,
+        "stage_aim": "To read a level-appropriate version of the text",
+        "procedure": "- Ss open the text in the AI tool. The text has been adapted to each student's level.\n- Ss read silently. The tool provides per-word glosses for difficult vocabulary at their level.\n- Teacher circulates and monitors. 10 min.\n- Note: students are reading to comprehend, not to browse the device.\n",
+        "time": 12,
+        "interaction": "S + AI"
+      },
+      {
+        "stage": "AI-generated comprehension check",
+        "stage_number": 3,
+        "stage_aim": "To check understanding with personalised questions",
+        "procedure": "- The AI generates questions at the student's level (recall, inference, evaluation).\n- Ss answer and receive immediate feedback and explanation. 7 min.\n- Teacher monitors the AI interactions, noting which questions Ss struggle with.\n- Ask: Which questions were easy? Which were hard? Why?\n",
+        "time": 11,
+        "interaction": "S + AI"
+      },
+      {
+        "stage": "Teacher-led discussion",
+        "stage_number": 4,
+        "stage_aim": "To deepen understanding through human interaction",
+        "procedure": "- Teacher leads a whole-class discussion about the text's ideas.\n- Address misconceptions surfaced by the AI feedback.\n- Push beyond the AI's questions: What is the most important idea? Do you agree? What would you add? 7 min.\n- Invite Ss to share one thing the AI did not ask that they wonder about.\n",
+        "time": 10,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Reflection and goal-setting",
+        "stage_number": 5,
+        "stage_aim": "To consolidate learning and set reading goals",
+        "procedure": "- Ss reflect on what they learned and one thing they still find hard.\n- Ss set a reading goal for the next session (e.g. read one level up, or read without the AI glosses).\n- Teacher reminds Ss the AI is a support tool, not a substitute for their own thinking.\n",
+        "time": 8,
+        "interaction": "S"
+      }
+    ]
+  }
+}

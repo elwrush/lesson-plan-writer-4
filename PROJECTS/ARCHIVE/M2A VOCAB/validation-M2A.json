@@ -1,0 +1,9 @@
+{
+  "overall_rating": 4,
+  "verdict": "PASS",
+  "flagged_items": [
+    "Item 1 [ADVISORY]: 'not calm' is acceptable but slightly imprecise \u2014 'rough' sea specifically implies choppy/wavy with high waves, not merely 'not calm'. However, no better 1-3 word B1 option exists.",
+    "Item 7 [ADVISORY]: 'on purpose' is the best 2-word fit, though 'deliberate' as an adjective means 'done intentionally with full awareness' \u2014 'intentional' would be more precise but is single-word and may exceed B2 nuance. 'On purpose' is acceptable at this level.",
+    "Item 8 [ADVISORY]: 'required' is correct; however, 'optional' (A) is a direct antonym and a very strong distractor that semantically contrasts sharply. Consider if this makes the item too easy, though it does fit grammatically and is a valid farthest-tier distractor."
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "title": "Interview Power — Answer with Structure",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How do you ace a school interview?",
+      "body": "Let's build answers that work."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Interviews decide who gets into international schools.</li><li>Strong answers win scholarships and IB places.</li><li>This structure works in every interview.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "recall",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "What happens in a school interview?",
+      "body": "<p style=\"font-size:36px;line-height:1.6\">Talk to your partner. What does the interviewer want?</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Example</p>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-prep",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: The PREP Formula",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">P &mdash; Position</td><td style=\"padding:8px 0;border-bottom:1px solid #555;font-size:36px\">Say your opinion first. In my opinion&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">R &mdash; Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #555;font-size:36px\">Give one reason. One reason is&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">E &mdash; Example</td><td style=\"padding:8px 0;border-bottom:1px solid #555;font-size:36px\">Add an example. For example&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">P &mdash; Position</td><td style=\"padding:8px 0;font-size:36px\">Repeat your opinion. That&rsquo;s why&hellip;</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:34px;font-weight:700;margin-top:18px\">No 'because' in the first sentence.</p><p style=\"text-align:center;font-size:32px;margin-top:14px;color:#fff\">Your worksheet shows the same formula.</p>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-prep",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: A weak answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Should school start later in the morning?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444;font-size:36px\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Yes, I think that's good. I'm tired in the morning. It would help me.</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-prep",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: The PREP answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Should school start later in the morning?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444;font-size:36px\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\"><strong style=\"color:#ffdd00\">In my opinion</strong>, school should start later. <strong style=\"color:#ffdd00\">One reason is</strong> that students need more sleep. <strong style=\"color:#ffdd00\">For example</strong>, teenagers need about nine hours of sleep. <strong style=\"color:#ffdd00\">That's why</strong> a later start would help us learn.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-why",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Why questions",
+      "body": "<p style=\"font-size:36px;line-height:1.7\">Answer with your reason first.</p><p style=\"font-size:36px;line-height:1.7\">Don't repeat the question.</p><p style=\"font-size:36px;line-height:1.7\">Because the school teaches in English.</p>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-why",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Why questions",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Why do you want to study at MUIDS?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444;font-size:36px\">Which answer is better?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">I want to study at MUIDS. I really do.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Because of the way they teach. Students learn by doing things.</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-why",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Why questions",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Why do you want to study at MUIDS?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444;font-size:36px\">Which answer is better?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">I want to study at MUIDS. I really do.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">&#10003;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Because of the way they teach. Students learn by doing things.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "strategy-challenge",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Challenge questions",
+      "body": "<p style=\"font-size:36px;line-height:1.7\">Tell a short story.</p><p style=\"font-size:36px;line-height:1.7\">Situation. Action. Result.</p>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-challenge",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Challenge questions",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">What do you do when you face a challenge?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444;font-size:36px\">Which answer is best?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Last year, I had a difficult exam. I made a plan and practised every day. I passed.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">I try to stay calm and do my best.</td></tr></table>"
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-challenge",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Challenge questions",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">What do you do when you face a challenge?</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444;font-size:36px\">Which answer is best?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">&#10003;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Last year, I had a difficult exam. I made a plan and practised every day. I passed.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">I try to stay calm and do my best.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-listen",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Listening: Two model interviews"
+    },
+    {
+      "layout": "content",
+      "id": "listen-b1",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Model Interview — B1",
+      "body": "<audio controls data-src=\"assets/interview-b1-ploy.mp3\" style=\"width:90%;margin:10px auto 20px auto;display:block\"></audio><p style=\"font-size:36px;line-height:1.6\">Listen twice. Tick the parts you hear: Position, Reason, Example, Position.</p>"
+    },
+    {
+      "layout": "content",
+      "id": "listen-b2",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Model Interview — B2",
+      "body": "<audio controls data-src=\"assets/interview-b2-elle.mp3\" style=\"width:90%;margin:10px auto 20px auto;display:block\"></audio><p style=\"font-size:36px;line-height:1.6\">Listen twice. The student answers every question with a structure. Which parts do you hear?</p>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-model",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Why MUIDS?",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Answer first</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Because of the way they teach.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Students learn by doing things, not just reading.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Example</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">Science students do real experiments and present them in English.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Close</td><td style=\"padding:8px 0;font-size:36px\">So MUIDS is exactly the school I want.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Worksheet: Parts A and B"
+    },
+    {
+      "layout": "content",
+      "id": "controlled",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Worksheet: Parts A &amp; B",
+      "body": "<p style=\"font-size:36px;line-height:1.6\"><strong>Part A:</strong> Put the answer in order (1&ndash;4).</p><p style=\"font-size:36px;line-height:1.6\">Question: Should mobile phones be banned at school?</p><p style=\"font-size:36px;line-height:1.6\"><strong>Part B:</strong> Complete the frames. Use each phrase once.</p>"
+    },
+    {
+      "layout": "content",
+      "id": "transition-cutup",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Sentence Cut-Up"
+    },
+    {
+      "layout": "content",
+      "id": "cutup-instru",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your strips",
+      "body": "<p style=\"font-size:36px;line-height:1.6\">Your strips make one interview.</p><p style=\"font-size:36px;line-height:1.6\">Put them in the correct order.</p><p style=\"font-size:36px;line-height:1.6\">Then practise it with your partner.</p>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-cutup-b1-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Sentence Cut-Up (B1) &mdash; 1/2",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">1.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">Good morning. What do you enjoy doing in your free time?</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">2.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">I really like playing the guitar.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">3.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">It helps me relax after a long day at school.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">4.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">For example, I practise for thirty minutes every evening.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">5.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">So music is my favourite way to unwind.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">6.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">That's nice. Do you play in a band?</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-cutup-b1-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Sentence Cut-Up (B1) &mdash; 2/2",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">1.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">Not yet, but I'd love to.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">2.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">I think playing with other people is the best way to improve.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">3.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">For example, my cousin plays with his friends every weekend.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">4.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">Lovely. Thank you for coming today.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">5.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">Thank you. Goodbye.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-cutup-b2-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Sentence Cut-Up (B2) &mdash; 1/2",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">1.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">So, tell me &mdash; how do you usually spend your weekends?</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">2.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">That's a good question. Honestly, I try to keep a balance between relaxing and doing something useful.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">3.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">The main reason is that I think weekends are for recharging, not just for homework.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">4.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">For example, on Saturday mornings I help my family at our market stall, and in the afternoon I swim.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">5.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">However, I also spend a couple of hours on Sunday studying, especially English.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">6.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">So, for me, a good weekend has both fun and a little work.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "answer-cutup-b2-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers: Sentence Cut-Up (B2) &mdash; 2/2",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">1.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">That sounds well planned. And what's something new you'd like to try?</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">2.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">I'd love to learn scuba diving.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">3.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">I've watched documentaries about coral reefs, and I find the underwater world fascinating.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">4.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">For example, a friend of mine started diving last year, and she says it's the most peaceful feeling in the world.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">5.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">Wonderful. Thank you for coming. We'll be in touch soon.</td></tr><tr><td style=\"padding:4px 10px 4px 0;border-bottom:1px solid #444;font-size:32px;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:44px\">6.</td><td style=\"padding:4px 0;border-bottom:1px solid #444;font-size:32px\">Thank you very much. It was a pleasure.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "speeddating-transition",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Speed Dating!"
+    },
+    {
+      "layout": "content",
+      "id": "speeddating-card",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your card",
+      "body": "<table style=\"width:100%;border-collapse:collapse;margin-top:10px\"><tr><td style=\"padding:10px 14px;border-bottom:1px solid #444;font-size:38px;background:#eef2f7;color:#1a1a2e;font-weight:700\">Interview Question 4</td></tr><tr><td style=\"padding:10px 14px;border-bottom:1px solid #444;font-size:36px\">Should mobile phones be banned at school?</td></tr><tr><td style=\"padding:10px 14px;border-bottom:1px solid #444;font-size:32px;color:#9b59b6\">P &mdash; Position: Hmm, no. I don't think phones should be banned.</td></tr><tr><td style=\"padding:10px 14px;border-bottom:1px solid #444;font-size:32px;color:#9b59b6\">R &mdash; Reason: They're really useful for learning.</td></tr><tr><td style=\"padding:10px 14px;border-bottom:1px solid #444;font-size:32px;color:#9b59b6\">E &mdash; Example: I can look up a word on my phone in seconds.</td></tr><tr><td style=\"padding:10px 14px;font-size:32px;color:#9b59b6\">P &mdash; Position: So I think they should stay, just not during tests.</td></tr></table>"
+    },
+    {
+      "layout": "content",
+      "id": "speeddating-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your answer structure",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Position</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">In my opinion&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">One reason is&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Example</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">For example&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:36px\">Position</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:36px\">That&rsquo;s why&hellip;</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Position &mdash; Reason &mdash; Example &mdash; Position</p>"
+    },
+    {
+      "layout": "content",
+      "id": "speeddating-instru",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Speed Dating",
+      "body": "<p style=\"font-size:36px;line-height:1.6\">One question. One minute.</p><p style=\"font-size:36px;line-height:1.6\">Answer with your structure.</p><p style=\"font-size:36px;line-height:1.6\">Then swap and move on.</p>"
+    },
+    {
+      "layout": "raw",
+      "id": "speeddating-go",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<p style=\"color:#fff;text-align:center;font-size:52px;font-weight:700;margin-top:60px\">Speed Dating &mdash; GO!</p><div class=\"cta-box\"><p>Ready? Start now.</p></div>"
+    },
+    {
+      "layout": "content",
+      "id": "part-c",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Worksheet: Part C",
+      "body": "<p style=\"font-size:36px;line-height:1.6\">Write your own PREP answer.</p><p style=\"font-size:36px;line-height:1.6\">Choose one question:</p><p style=\"font-size:36px;line-height:1.6\">School uniforms, or social media?</p><p style=\"font-size:36px;line-height:1.6\">Use the skeleton on your worksheet.</p>"
+    }
+  ]
+}

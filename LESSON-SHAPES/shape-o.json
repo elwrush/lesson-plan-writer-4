@@ -1,0 +1,67 @@
+{
+  "name": "Shape O - Close Reading (Multi-Pass Annotation)",
+  "description": "Reading lesson where students read the same short text 2-3 times, each pass with a different analytical lens — first for literal meaning, then for author's craft/structure, then for argument/evidence. Annotation is physical (underlining, margin notes, symbols), making the thinking visible and creating a record of the reading process.",
+  "pedagogical_justification": "Close reading (imported from US Common Core State Standards; Fisher & Frey, 2012; UHO 2024) replaces Shape E's single-reading model with purposeful re-reading. Each pass has a different analytical focus, building layered comprehension: the first pass establishes literal meaning, the second reveals the author's craft and structure, and the third evaluates the strength of the argument and evidence. The physical annotation makes thinking visible and creates a durable record of the reading process that the student can revisit.\n\nThe shape therefore moves: Lead-in (activate schema, set purpose) → First reading: literal meaning (annotate key ideas, underline claims, circle unknown words) → Pair check (compare annotations) → Second reading: author's craft (annotate HOW the author builds the argument) → Discussion: author's craft → Third reading: argument and evidence (evaluate strength) → Whole-class evaluation. Short, dense texts work best — density, not length, is the challenge — and discussion happens between readings, not only after the final one. It suits B2-C1 where students can analyse language and argument, and is an intensive approach (the opposite of extensive reading). Stage times assume a 46-minute lesson.\n",
+  "main_aim_format": "By the end of the lesson, learners will have analysed a text through multiple readings, identifying [literal meaning/author's craft/argument and evidence] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will have analysed an editorial through three readings, identifying its literal meaning, the author's persuasive techniques and the strength of its argument and evidence.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B2<br><b>Lesson Shape:</b><br>O (Close Reading)<br><b>Materials:</b><br>Editorial 'The Case for a Later School Start', annotation guide, highlighter/pen for each student<br><b>Assessment:</b><br>Annotated text, whole-class evaluation contribution<br><b>Skills:</b><br>Reading\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate schema and set purpose",
+        "procedure": "- Ask: What time does school start for you? Would you change it? 2 min.\n- Introduce the editorial topic: whether school should start later. Ask: What do you already know or believe about this?\n- Set the purpose for the first reading and introduce the annotation symbols (underline, circle, star, ?, !).\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "First reading: Literal meaning",
+        "stage_number": 2,
+        "stage_aim": "To understand what the text says",
+        "procedure": "- Ss read the editorial once, silently. Annotate: underline key ideas, circle unfamiliar words. Do NOT discuss yet. 6 min.\n- Keep the first reading focused on meaning only.\n",
+        "time": 8,
+        "interaction": "S"
+      },
+      {
+        "stage": "Pair check: Literal comprehension",
+        "stage_number": 3,
+        "stage_aim": "To verify understanding",
+        "procedure": "- In pairs, Ss compare their annotations. What did each person identify as key ideas? Discuss any differences. 3 min.\n- Whole-class quick check: What is the author's main claim?\n",
+        "time": 5,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Second reading: Author's craft",
+        "stage_number": 4,
+        "stage_aim": "To analyse how the text is constructed",
+        "procedure": "- Ss re-read the editorial, this time focusing on HOW the author builds the argument: structure, language choices, persuasive techniques. Annotate with different symbols (star for evidence, ? for debatable points). 4 min.\n- Teacher models the second-pass annotation on the first paragraph before releasing Ss.\n",
+        "time": 6,
+        "interaction": "S"
+      },
+      {
+        "stage": "Discussion: Author's craft",
+        "stage_number": 5,
+        "stage_aim": "To share analytical observations",
+        "procedure": "- In small groups, Ss discuss: What techniques did the author use? Why? How effective were they? 5 min.\n- Each group shares one technique with the class.\n",
+        "time": 8,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Third reading: Argument and evidence",
+        "stage_number": 6,
+        "stage_aim": "To evaluate the strength of the argument",
+        "procedure": "- Ss re-read a third time, focusing on the quality of evidence and strength of the argument. Annotate: Is the argument convincing? What evidence supports or weakens it? 4 min.\n- Note the strongest and weakest point in the margin.\n",
+        "time": 7,
+        "interaction": "S"
+      },
+      {
+        "stage": "Whole-class evaluation",
+        "stage_number": 7,
+        "stage_aim": "To evaluate the text's argument collectively",
+        "procedure": "- Whole-class discussion: Is the argument convincing? What evidence is strongest/weakest? What would you add?\n- Ss justify their view with reference to the text. Teacher extends and challenges.\n",
+        "time": 8,
+        "interaction": "T-Ss"
+      }
+    ]
+  }
+}

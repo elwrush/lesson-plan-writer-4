@@ -1,0 +1,12 @@
+[
+  {"lemma": "rough", "cefr_level": "B1", "pos": "adj"},
+  {"lemma": "innocent", "cefr_level": "B1", "pos": "adj"},
+  {"lemma": "occasion", "cefr_level": "B1", "pos": "noun"},
+  {"lemma": "still", "cefr_level": "B1", "pos": "adj"},
+  {"lemma": "goods", "cefr_level": "B1", "pos": "noun"},
+  {"lemma": "dull", "cefr_level": "B2", "pos": "adj"},
+  {"lemma": "deliberate", "cefr_level": "B2", "pos": "adj"},
+  {"lemma": "compulsory", "cefr_level": "B2", "pos": "adj"},
+  {"lemma": "implement", "cefr_level": "B2", "pos": "verb"},
+  {"lemma": "exploit", "cefr_level": "B2", "pos": "verb"}
+]

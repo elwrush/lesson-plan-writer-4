@@ -1,0 +1,118 @@
+{
+  "title": "Interview at International School Bangkok",
+  "setting": "",
+  "characters": [
+    {
+      "name": "Director",
+      "voice_notes": "Warm, wise school director. Calm, measured, friendly.",
+      "key_line": "\"A good first impression matters.\""
+    },
+    {
+      "name": "Lily",
+      "voice_notes": "Friendly, confident American teenager.",
+      "key_line": "\"I'm a real team player.\""
+    }
+  ],
+  "turns": [
+    {
+      "character": "Director",
+      "stage_direction": "happy",
+      "line": "Good morning, Lily. Welcome to International School Bangkok. Please, come in."
+    },
+    {
+      "character": "Lily",
+      "stage_direction": "happy",
+      "line": "Thank you. It's great to be here."
+    },
+    {
+      "character": "Director",
+      "stage_direction": null,
+      "line": "We like to start with a handshake. (chuckling) A good first impression matters."
+    },
+    {
+      "character": "Lily",
+      "stage_direction": "happy",
+      "line": "I agree. I make eye contact and smile when I meet someone new."
+    },
+    {
+      "character": "Director",
+      "stage_direction": null,
+      "line": "Tell me about yourself. What are your best skills?"
+    },
+    {
+      "character": "Lily",
+      "stage_direction": "thoughtful",
+      "line": "My best skill is communication. I listen well, and I enjoy talking to new people."
+    },
+    {
+      "character": "Director",
+      "stage_direction": null,
+      "line": "That's important. What about teamwork?"
+    },
+    {
+      "character": "Lily",
+      "stage_direction": null,
+      "line": "I'm a real team player. I like helping my group stay calm and focused."
+    },
+    {
+      "character": "Director",
+      "stage_direction": "curious",
+      "line": "Are you a natural leader?"
+    },
+    {
+      "character": "Lily",
+      "stage_direction": null,
+      "line": "Sometimes. I stay calm under pressure, so people trust me with decisions."
+    },
+    {
+      "character": "Director",
+      "stage_direction": null,
+      "line": "Have you ever had to be decisive in a difficult moment?"
+    },
+    {
+      "character": "Lily",
+      "stage_direction": null,
+      "line": "Yes. Last year, our school play lost its director. I came up with a new plan, and we acted out all the scenes in one week."
+    },
+    {
+      "character": "Director",
+      "stage_direction": "impressed",
+      "line": "Wonderful. Did you ever want to give up?"
+    },
+    {
+      "character": "Lily",
+      "stage_direction": "calm",
+      "line": "No. Some friends dropped out of the play, but I faced up to the challenge. Hard work pays off."
+    },
+    {
+      "character": "Director",
+      "stage_direction": null,
+      "line": "What do you want to work on?"
+    },
+    {
+      "character": "Lily",
+      "stage_direction": null,
+      "line": "My time management. I sometimes leave big tasks to the last minute."
+    },
+    {
+      "character": "Director",
+      "stage_direction": "warm",
+      "line": "Patience helps. Good time management is a skill you can learn."
+    },
+    {
+      "character": "Lily",
+      "stage_direction": null,
+      "line": "Thank you. I really hope I get a place at your school."
+    },
+    {
+      "character": "Director",
+      "stage_direction": "happy",
+      "line": "You made a lasting impression today, Lily. We'll be in touch soon."
+    },
+    {
+      "character": "Lily",
+      "stage_direction": "happy",
+      "line": "Thank you. I look forward to hearing from you."
+    }
+  ]
+}

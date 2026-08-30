@@ -1,0 +1,4401 @@
+{
+  "source": "Oxford 5000 (Oxford Learner's Dictionaries, CEFR-graded)",
+  "level": "B1",
+  "words": [
+    {
+      "word": "absolutely",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "academic",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "access",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "access",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "accommodation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "account",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "achievement",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "act",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ad",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "addition",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "admire",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "admit",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "advanced",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "advise",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "afford",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "age",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "aged",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "agent",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "agreement",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ahead",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "aim",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "aim",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "alarm",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "album",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "alcohol",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "alcoholic",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "alternative",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "amazed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "ambition",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ambitious",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "analyse",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "analysis",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "announce",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "announcement",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "annoy",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "annoyed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "annoying",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "apart",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "apologize",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "application",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "appointment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "appreciate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "approximately",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "arrest",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "arrest",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "arrival",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "assignment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "assist",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "atmosphere",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "attach",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "attitude",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "attract",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "attraction",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "authority",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "average",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "award",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "aware",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "backwards",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "bake",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "balance",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "balance",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "ban",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ban",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "base",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "base",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "basic",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "basis",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "battery",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "battle",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "beauty",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bee",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "belief",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bell",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bend",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bend",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "benefit",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "better",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bite",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bite",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "block",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "block",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "board",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "bomb",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bomb",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "border",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bother",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "branch",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "brand",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "brand",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "brave",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "breath",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "breathe",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "breathing",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bride",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bubble",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "bury",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "by",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "calm",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "calm",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "calm",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "campaign",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "campaign",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "campus",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "candidate",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "cap",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "captain",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "careless",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "category",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ceiling",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "celebration",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "central",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "centre",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "ceremony",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "chain",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "challenge",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "champion",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "channel",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "chapter",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "charge",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "charge",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "cheap",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "cheat",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "cheat",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "cheerful",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "chemical",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "chemical",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "chest",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "childhood",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "claim",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "claim",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "clause",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "clear",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "click",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "click",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "client",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "climb",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "close",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "cloth",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "clue",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "coach",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "coal",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "coin",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "collection",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "coloured",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "combine",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "comment",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "commercial",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "commercial",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "commit",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "communication",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "comparison",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "competitive",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "competitor",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "complaint",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "complex",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "concentrate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "conclude",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "conclusion",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "confident",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "confirm",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "confuse",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "confused",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "connection",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "consequence",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "consist",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "consume",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "consumer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "contact",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "contact",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "container",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "content",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "continuous",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "contrast",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "contrast",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "convenient",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "convince",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "cool",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "costume",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "cottage",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "cotton",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "count",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "countryside",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "court",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "cover",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "covered",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "cream",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "criminal",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "cruel",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "cultural",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "currency",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "current",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "currently",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "curtain",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "custom",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "cut",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "daily",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "damage",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "damage",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "deal",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "decade",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "decorate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "deep",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "define",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "definite",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "definition",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "deliver",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "departure",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "destination",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "determine",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "determined",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "development",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "diagram",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "diamond",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "difficulty",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "direct",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "direct",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "directly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "dirt",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "disadvantage",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "disappointed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "disappointing",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "discount",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "dislike",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "dislike",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "divide",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "documentary",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "donate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "double",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "doubt",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "doubt",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "dressed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "drop",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "drum",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "drunk",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "due",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "dust",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "duty",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "earthquake",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "eastern",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "economic",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "economy",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "edge",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "editor",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "educate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "educated",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "educational",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "effective",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "effectively",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "effort",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "election",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "element",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "embarrassed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "embarrassing",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "emergency",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "emotion",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "employment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "empty",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "encourage",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "enemy",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "engaged",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "engineering",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "entertain",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "entertainment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "entrance",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "entry",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "environmental",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "episode",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "equal",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "equal",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "equally",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "escape",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "escape",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "essential",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "eventually",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "examine",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "exchange",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "exchange",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "excitement",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "exhibition",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "expand",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "expected",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "expedition",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "experience",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "experienced",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "experiment",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "explode",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "explore",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "explosion",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "export",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "export",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "extra",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "extra",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "face",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "fairly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "familiar",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "fancy",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "fancy",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "far",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "fascinating",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "fashionable",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "fasten",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "favour",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "fear",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "feature",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "fence",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "fighting",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "file",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "financial",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "fire",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "fitness",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "fixed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "flag",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "flood",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "flood",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "flour",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "flow",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "flow",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "fold",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "folk",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "folk",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "following",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "force",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "force",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "forever",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "frame",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "frame",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "freeze",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "frequently",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "friendship",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "frighten",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "frightened",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "frightening",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "frozen",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "fry",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "fuel",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "function",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "fur",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "further",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "garage",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "gather",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "generally",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "generation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "generous",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "gentle",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "gentleman",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ghost",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "giant",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "giant",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "glad",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "global",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "glove",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "go",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "goods",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "grade",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "graduate",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "graduate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "grain",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "grateful",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "growth",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "guard",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "guard",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "guilty",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "hand",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "hang",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "happiness",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "hardly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "hate",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "head",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "headline",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "heating",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "heavily",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "helicopter",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "highlight",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "highlight",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "highly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "hire",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "historic",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "historical",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "honest",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "horrible",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "horror",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "host",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "hunt",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "hurricane",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "hurry",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "hurry",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "identity",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ignore",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "illegal",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "imaginary",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "immediate",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "immigrant",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "impact",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "impact",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "import",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "import",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "importance",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "impression",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "impressive",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "improvement",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "incredibly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "indeed",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "indicate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "indirect",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "indoor",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "indoors",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "influence",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "influence",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "ingredient",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "injure",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "injured",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "innocent",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "intelligence",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "intend",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "intention",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "invest",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "investigate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "involved",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "iron",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "iron",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "issue",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "it",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "journal",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "judge",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "judge",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "keen",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "key",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "keyboard",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "kick",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "kick",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "killing",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "kind",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "kiss",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "kiss",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "knock",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "label",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "label",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "laboratory",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "lack",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "lack",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "latest",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "lay",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "layer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "lead",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "leading",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "leaf",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "leather",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "legal",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "leisure",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "length",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "level",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "lie",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "lie",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "like",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "limit",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "limit",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "lip",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "liquid",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "liquid",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "literature",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "live",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "live",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "living",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "living",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "local",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "locate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "located",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "location",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "lonely",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "loss",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "luxury",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "luxury",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mad",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "magic",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "magic",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mainly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "mall",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "management",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "market",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "marketing",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "marriage",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "meanwhile",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "measure",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "measure",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "medium",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "mental",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "mention",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mess",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mild",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "mine",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mix",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mix",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "mixture",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mood",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "move",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mud",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "murder",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "murder",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "muscle",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "musical",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "mystery",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "nail",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "narrative",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "narrative",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "nation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "native",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "native",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "naturally",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "necessarily",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "needle",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "neighbourhood",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "neither",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "net",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "next",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "nor",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "normal",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "northern",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "note",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "nuclear",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "obvious",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "obviously",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "occasion",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "occur",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "odd",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "official",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "old-fashioned",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "operation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "organized",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "organizer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "original",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "originally",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "outdoor",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "outdoors",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "pack",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "package",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "painful",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "pale",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "pan",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "participate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "particularly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "pass",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "passion",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "path",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "payment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "peaceful",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "percentage",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "perfectly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "performance",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "personally",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "persuade",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "photographer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "photography",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "pin",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "pin",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "pipe",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "place",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "planning",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "pleasant",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "pleasure",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "plot",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "poem",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "poet",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "poetry",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "point",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "poison",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "poison",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "poisonous",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "policy",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "political",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "politician",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "politics",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "port",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "portrait",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "possibly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "pot",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "pour",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "poverty",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "powder",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "powerful",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "practical",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "pray",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "prayer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "prediction",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "prepared",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "presentation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "press",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "press",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "pressure",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "pretend",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "previous",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "previously",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "priest",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "primary",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "prince",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "princess",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "printing",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "prisoner",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "private",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "producer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "production",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "profession",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "profit",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "program",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "promote",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "proper",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "properly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "property",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "protest",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "protest",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "proud",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "prove",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "pull",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "punish",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "punishment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "push",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "qualification",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "qualified",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "qualify",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "queue",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "queue",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "quit",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "quotation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "quote",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "quote",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "racing",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "range",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "rare",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "rarely",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "reaction",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "reality",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "receipt",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "recommendation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "reference",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "reflect",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "regularly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "reject",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "relate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "related",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "relation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "relative",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "relative",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "relaxed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "relaxing",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "release",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "release",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "reliable",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "religion",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "religious",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "remain",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "remind",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "remote",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "rent",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "rent",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "repair",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "repeat",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "repeated",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "represent",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "request",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "require",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "reservation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "resource",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "respect",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "respect",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "responsibility",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "responsible",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "result",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "retire",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "retired",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "revise",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "rise",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "risk",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "risk",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "robot",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "roll",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "roll",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "romantic",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "rope",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "rough",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "row",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "royal",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "rugby",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "rule",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "safety",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sail",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sailor",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sample",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sand",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "scan",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "scientific",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "script",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sculpture",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "secondary",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "security",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "seed",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sensible",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "separate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "seriously",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "servant",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "set",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "set",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "setting",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sex",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sexual",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "shake",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "share",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sharp",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "shelf",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "shell",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "shift",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "shine",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "shiny",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "shoot",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "shy",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "sight",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "signal",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "signal",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "silent",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "silly",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "similarity",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "similarly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "simply",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "since",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "sink",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "slice",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "slice",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "slightly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "slow",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "smart",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "smooth",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "software",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "soil",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "solid",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "solid",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "sort",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "southern",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "specifically",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "spending",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "spicy",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "spirit",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "spoken",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "spot",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "spread",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "stadium",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "staff",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "standard",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "standard",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "state",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "state",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "statistic",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "statue",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "stick",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "stick",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "still",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "store",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "stranger",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "strength",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "string",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "strongly",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "studio",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "stuff",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "substance",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "successfully",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "sudden",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "suffer",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "suit",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "suitable",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "summarize",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "summary",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "supply",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "supply",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "supporter",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "surely",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "surface",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "survive",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "swim",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "switch",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "symptom",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tail",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "talent",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "talented",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "tape",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tax",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tax",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "technical",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "technique",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tend",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "tent",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "that",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "theme",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "theory",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "therefore",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "this",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "though",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "throat",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "throughout",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "tight",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "tin",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tiny",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "tip",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "toe",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tongue",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "total",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "total",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "totally",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "touch",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tour",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "trade",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "trade",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "translate",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "translation",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "transport",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "treat",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "treatment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "trend",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "trick",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "trick",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "truth",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "tube",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "type",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "typically",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "tyre",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "ugly",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "unable",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "uncomfortable",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "underwear",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "unemployed",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "unemployment",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "unfair",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "union",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "unlikely",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "unnecessary",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "unpleasant",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "update",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "update",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "upset",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "upset",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "used",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "valuable",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "value",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "various",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "version",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "victim",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "view",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "viewer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "violent",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "volunteer",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "volunteer",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "vote",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "vote",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "warm",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "warn",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "warning",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "waste",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "waste",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "waste",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "water",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "wave",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "weapon",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "weigh",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "western",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "while",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "whole",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "will",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "win",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "wing",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "wonder",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "wonder",
+      "pos": "verb",
+      "level": "B1"
+    },
+    {
+      "word": "wool",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "worldwide",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "worldwide",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "worry",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "worse",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "worst",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "worth",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "written",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "word": "wrong",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "word": "yard",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "young",
+      "pos": "noun",
+      "level": "B1"
+    },
+    {
+      "word": "youth",
+      "pos": "noun",
+      "level": "B1"
+    }
+  ]
+}

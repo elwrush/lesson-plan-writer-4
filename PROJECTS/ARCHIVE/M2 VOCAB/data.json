@@ -1,0 +1,362 @@
+{
+  "title": "M2 World Problems",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "How do you talk about world problems?",
+      "body": "Let's find out.",
+      "notes": "Greet students. Ask: What problems does the world face today? What do you see in the picture?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>You see these words in the news every day.</li><li>They help you understand stories about the world.</li><li>They help you talk about how people help.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "spelling-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Spelling Test",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Listen and write the 20 words.</p><p style=\"font-size:38px;color:#fff;margin:0 0 20px 0\">Each word comes twice, with a sentence.</p><div style=\"text-align:center\"><audio controls data-src=\"assets/spelling-test.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Hand out the answer sheets. Play the audio once only. Then students swap and mark against the answer slides. Collect the sheets after marking."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s1{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s1 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s1 .num{color:#ffdd00;font-weight:700;min-width:40px}.s1 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (1/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s1\"><tr class=\"fragment\"><td class=\"num\">1</td><td><span class=\"ans\">pollution</span></td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td><span class=\"ans\">disease</span></td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td><span class=\"ans\">education</span></td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td><span class=\"ans\">environment</span></td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td><span class=\"ans\">charity</span></td></tr></table>",
+      "notes": "Answer key 1-5. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s2{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s2 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s2 .num{color:#ffdd00;font-weight:700;min-width:40px}.s2 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (2/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s2\"><tr class=\"fragment\"><td class=\"num\">6</td><td><span class=\"ans\">encourage</span></td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td><span class=\"ans\">respect</span></td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td><span class=\"ans\">global</span></td></tr><tr class=\"fragment\"><td class=\"num\">9</td><td><span class=\"ans\">convince</span></td></tr><tr class=\"fragment\"><td class=\"num\">10</td><td><span class=\"ans\">volunteer</span></td></tr></table>",
+      "notes": "Answer key 6-10. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s3{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s3 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s3 .num{color:#ffdd00;font-weight:700;min-width:40px}.s3 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (3/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s3\"><tr class=\"fragment\"><td class=\"num\">11</td><td><span class=\"ans\">effort</span></td></tr><tr class=\"fragment\"><td class=\"num\">12</td><td><span class=\"ans\">poverty</span></td></tr><tr class=\"fragment\"><td class=\"num\">13</td><td><span class=\"ans\">issue</span></td></tr><tr class=\"fragment\"><td class=\"num\">14</td><td><span class=\"ans\">donate</span></td></tr><tr class=\"fragment\"><td class=\"num\">15</td><td><span class=\"ans\">campaign</span></td></tr></table>",
+      "notes": "Answer key 11-15. Students swap and mark."
+    },
+    {
+      "layout": "raw",
+      "id": "spelling-answers-4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.s4{border-collapse:collapse;margin:8px auto;max-width:760px;width:100%}.s4 td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:38px;vertical-align:top}.s4 .num{color:#ffdd00;font-weight:700;min-width:40px}.s4 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 12px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Spelling Test — Answers (4/4)</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:12px\"><span class=\"box-word\">Swap</span> and <span class=\"box-word\">mark</span>.</p><table class=\"s4\"><tr class=\"fragment\"><td class=\"num\">16</td><td><span class=\"ans\">hunger</span></td></tr><tr class=\"fragment\"><td class=\"num\">17</td><td><span class=\"ans\">housing</span></td></tr><tr class=\"fragment\"><td class=\"num\">18</td><td><span class=\"ans\">blame</span></td></tr><tr class=\"fragment\"><td class=\"num\">19</td><td><span class=\"ans\">refugee</span></td></tr><tr class=\"fragment\"><td class=\"num\">20</td><td><span class=\"ans\">conflict</span></td></tr></table>",
+      "notes": "Answer key 16-20. Students swap and mark."
+    },
+    {
+      "layout": "content",
+      "id": "lead-in",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Think about the world",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 22px 0\">What problems does the world face today? Talk to your partner.</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss for 2 minutes. Elicit a few ideas: pollution, poverty, hunger, war. Keep it brief."
+    },
+    {
+      "layout": "content",
+      "id": "transition-vocab",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Let's check your word knowledge",
+      "notes": "Transition to vocabulary presentation. Say: These are words about world problems. We will learn nine of them."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-poverty",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈpɒvəti/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">poverty</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Many families live in poverty. They cannot buy food or warm clothes.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If a family lives in poverty, do they have much money?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-education",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˌedʒuˈkeɪʃn/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">education</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">A good education opens doors. It helps you find a better job.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is education about learning at school?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-sanitation",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˌsænɪˈteɪʃn/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">sanitation</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Good sanitation keeps water clean. Without it, people get sick.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: What does sanitation give us? (clean water, safe toilets)"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-housing",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈhaʊzɪŋ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">housing</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Cheap housing is hard to find in big cities. Many families share one small room.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Is housing a place where people live?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-hunger",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈhʌŋɡə/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">hunger</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Hunger is a serious problem in poor areas. Some children sleep without food.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If a child suffers from hunger, does the child have enough food?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-literacy",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈlɪtərəsi/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">literacy</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Literacy changes lives. With it, you can read news and contracts.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: Can a person with literacy read and write?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-health",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/helθ/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">health</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Clean water is important for health. It stops diseases before they start.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: What is good for your health?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-conflict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/ˈkɒnflɪkt/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">conflict</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Conflict forces families to leave their homes. They search for safety far away.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: If two countries are in conflict, are they friends?"
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-pollution",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<table style=\"width:100%;text-align:left;border-collapse:collapse;margin-top:30px\"><tr><td style=\"padding:12px 0;font-size:47px\">/pəˈluːʃn/</td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\"><span class=\"box-word\">pollution</span></td></tr><tr class=\"fragment\"><td style=\"padding:12px 0\">Air pollution is bad in big cities. It makes it hard to breathe.</td></tr></table>",
+      "notes": "Click 1: show word. Click 2: show context. CCQ: What causes air pollution? (cars, factories)"
+    },
+    {
+      "layout": "content",
+      "id": "transition-listen",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "The Green Garden Project",
+      "notes": "Transition to listening. Say: We will listen to a radio interview about a community garden."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-predict",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">Predict what Tom will say.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">It helps your brain focus.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Read the questions. Think first.</td></tr></table>",
+      "notes": "Say: The title is The Green Garden Project. A volunteer talks on the radio. What might he talk about? Predict first, then listen."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A volunteer talks on the radio about his project.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which topics might he mention?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His favorite food.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A movie he watched.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The community garden.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His neighbors.</td></tr></table>",
+      "notes": "Ask students to predict which topics a volunteer might mention. Click to reveal the checkmarks."
+    },
+    {
+      "layout": "auto-animate-pair",
+      "id": "demo-predict",
+      "step": 2,
+      "background_color": "#116466",
+      "title": "Try it: Predict",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td colspan=\"2\" style=\"padding:8px 0;border-bottom:1px solid #444\">A volunteer talks on the radio about his project.</td></tr><tr><td colspan=\"2\" style=\"padding:8px 0;color:#ffdd00;border-bottom:1px solid #444\">Which topics might he mention?</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His favorite food.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center\">&nbsp;</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A movie he watched.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The community garden.</td></tr><tr><td style=\"padding:8px 12px 8px 0;width:36px;text-align:center;vertical-align:middle;border-bottom:1px solid #444\"><span style=\"display:inline-block;width:24px;text-align:center;color:#2ecc71;font-weight:900\">✓</span></td><td style=\"padding:8px 0;border-bottom:1px solid #444\">His neighbors.</td></tr></table>",
+      "notes": "Revealed: the garden and his neighbors make sense. Food and movies are less likely for a radio talk about a project."
+    },
+    {
+      "layout": "raw",
+      "id": "gist-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen &mdash; Gist</h2><p style=\"color:#fff;text-align:center;font-size:38px;max-width:760px;margin:0 auto\">What is the Green Garden Project?</p><div style=\"text-align:center;margin-top:24px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog once. Students listen for the gist only: What is the Green Garden Project?"
+    },
+    {
+      "layout": "content",
+      "id": "gist-answer",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Gist — Answer",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">What is the Green Garden Project?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">It's a charity. It turned an old wasteland into a garden for the community.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Tom says the project is a charity in his area that made a garden for people.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“It's a charity in our area. We turned an old wasteland into a garden.”</td></tr></table>",
+      "notes": "Confirm the gist. The project is a community charity garden."
+    },
+    {
+      "layout": "raw",
+      "id": "detail-task",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<h2 style=\"color:#fff;text-align:center;font-size:48px;margin-bottom:20px\">Listen again</h2><p style=\"color:#fff;text-align:center;font-size:36px;margin-bottom:16px\">Answer the questions.</p><div style=\"max-width:860px;margin:0 auto\"><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">1. How did Tom first get involved?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">2. What does the garden give the community?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">3. What is the fundraising campaign for?</p><p style=\"color:#fff;text-align:center;font-size:34px;margin:10px 0\">4. What did a local company do?</p></div><div style=\"text-align:center;margin-top:16px\"><audio controls data-src=\"assets/dialog.mp3\" style=\"width:340px\"></audio></div>",
+      "notes": "Play the dialog again. Students answer the four detail questions. Then go through the answer slides."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (1/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">1. How did Tom first get involved?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A neighbor encouraged him to join.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">He got to know the people in his area through the project.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“A neighbor encouraged me to join.”</td></tr></table>",
+      "notes": "Check the answer. Point out the words neighbor and encourage from the unit."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (2/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">2. What does the garden give the community?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">A safe place for children to play and fresh food for some families.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Children play there now, and the garden gives fresh food to families in poverty.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“Children play there now.” “The garden gives them fresh food.”</td></tr></table>",
+      "notes": "Check the answer. Point out the words poverty and hunger from the vocabulary."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (3/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">3. What is the fundraising campaign for?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">To buy more plants and equipment.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Tom says the money will buy what the garden needs to grow.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“We want to buy more plants and equipment.”</td></tr></table>",
+      "notes": "Check the answer. Point out the word fundraising from the unit."
+    },
+    {
+      "layout": "content",
+      "id": "answer-d4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers (4/4)",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:90px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">4. What did a local company do?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">It donated a large sum of money.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Explanation</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The company gave money to help the project succeed.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Transcript</td><td style=\"padding:8px 0\">“A local company just donated a large sum of money.”</td></tr></table>",
+      "notes": "Check the answer. Point out the word donate from the unit."
+    },
+    {
+      "layout": "content",
+      "id": "ex1-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 1 &mdash; Page 126",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Choose the correct words to match the sentences.</p><p style=\"font-size:38px;color:#fff;margin:0\">Write the world problem word.</p>",
+      "notes": "Students complete Exercise 1 independently. Then check the answer slides."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.w1{border-collapse:collapse;margin:8px auto;max-width:860px;width:100%}.w1 td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.w1 .num{color:#ffdd00;font-weight:700;min-width:30px}.w1 .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"w1\"><tr class=\"fragment\"><td class=\"num\">1</td><td>Some people don't have enough money to spend on basic things like food and shelter. <span class=\"ans\">poverty</span></td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>Children need to go to school. <span class=\"ans\">education</span></td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>Everyone needs clean water for drinking and washing. <span class=\"ans\">sanitation</span></td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>People need safe places to live. <span class=\"ans\">housing</span></td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>Some families don't have enough food. <span class=\"ans\">hunger</span></td></tr></table>",
+      "notes": "Answers 1-5. Each click reveals the next row."
+    },
+    {
+      "layout": "raw",
+      "id": "ex1-answers-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.w1b{border-collapse:collapse;margin:8px auto;max-width:860px;width:100%}.w1b td{padding:8px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:33px;vertical-align:top}.w1b .num{color:#ffdd00;font-weight:700;min-width:30px}.w1b .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 1 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Continue</span> checking.</p><table class=\"w1b\"><tr class=\"fragment\"><td class=\"num\">6</td><td>The ability to read and write changes lives. <span class=\"ans\">literacy</span></td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td>We all need to be protected against illness and disease. <span class=\"ans\">health</span></td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td>In some parts of the world, communities and countries are at war with each other. <span class=\"ans\">conflict</span></td></tr><tr class=\"fragment\"><td class=\"num\">9</td><td>The air, land, and water are dirty because of the actions of humans. <span class=\"ans\">pollution</span></td></tr></table>",
+      "notes": "Answers 6-9. Continue checking."
+    },
+    {
+      "layout": "raw",
+      "id": "vocab-reciprocal",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "body": "<style>.rv{border-collapse:collapse;margin:15px auto;max-width:760px;width:100%}.rv td{color:#fff;font-size:36px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,0.12);text-align:left}</style><h2 style=\"color:#fff;text-align:center;font-size:47px;margin-bottom:12px\">Reciprocal verbs</h2><table class=\"rv\"><tr><td>teach yourself</td><td>blame yourself</td></tr><tr><td>introduce myself</td><td>hurt yourself</td></tr><tr><td>amuse themselves</td><td>convince himself</td></tr><tr><td>prepare ourselves</td><td>help yourselves</td></tr></table>",
+      "notes": "New grammar before Exercise 3. The verb goes with the right reflexive pronoun: myself, yourself, himself, herself, ourselves, yourselves, themselves. Quick example: I taught myself to swim."
+    },
+    {
+      "layout": "content",
+      "id": "ex3-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 3 &mdash; Page 126",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the sentences.</p><p style=\"font-size:38px;color:#fff;margin:0\">Use a reciprocal verb + a reflexive pronoun.</p>",
+      "notes": "Students complete Exercise 3 (reciprocal verbs with reflexive pronouns). Then check the answers."
+    },
+    {
+      "layout": "raw",
+      "id": "ex3-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex3a{border-collapse:collapse;margin:8px auto;max-width:880px;width:100%}.ex3a td{padding:7px 14px;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;text-align:left;font-size:32px;vertical-align:top}.ex3a .num{color:#ffdd00;font-weight:700;min-width:30px}.ex3a .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:8px\">Exercise 3 — Answers</h2><p style=\"color:#fff;text-align:center;font-size:34px;margin-bottom:10px\"><span class=\"box-word\">Check</span> your answers.</p><table class=\"ex3a\"><tr class=\"fragment\"><td class=\"num\">1</td><td>She plans to <span class=\"ans\">teach herself</span> Spanish.</td></tr><tr class=\"fragment\"><td class=\"num\">2</td><td>Don't <span class=\"ans\">blame yourself</span> for what happened.</td></tr><tr class=\"fragment\"><td class=\"num\">3</td><td>I'm going to <span class=\"ans\">introduce myself</span> to Sophia.</td></tr><tr class=\"fragment\"><td class=\"num\">4</td><td>Be careful, Sam! Don't <span class=\"ans\">hurt yourself</span>!</td></tr><tr class=\"fragment\"><td class=\"num\">5</td><td>We're not going to be home on time, so our guests will have to <span class=\"ans\">amuse themselves</span>.</td></tr><tr class=\"fragment\"><td class=\"num\">6</td><td>He <span class=\"ans\">convinced himself</span> that he was sick.</td></tr><tr class=\"fragment\"><td class=\"num\">7</td><td>We need to <span class=\"ans\">prepare ourselves</span> for difficult times.</td></tr><tr class=\"fragment\"><td class=\"num\">8</td><td>Welcome! <span class=\"ans\">Help yourselves</span> to coffee or tea.</td></tr></table>",
+      "notes": "Each click reveals the next row. Drill the reflexive pronouns after checking."
+    },
+    {
+      "layout": "content",
+      "id": "ex4-task",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Exercise 4 &mdash; Page 126",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0 0 12px 0\">Complete the text.</p><p style=\"font-size:38px;color:#fff;margin:0\">Use the correct form of the words.</p>",
+      "notes": "Students complete Exercise 4 (community action text). Then check the completed text."
+    },
+    {
+      "layout": "raw",
+      "id": "ex4-answers",
+      "step": 1,
+      "background_color": "#052e0d",
+      "body": "<style>.ex4a{max-width:960px;margin:0 auto;color:#fff;font-size:30px;line-height:1.5;text-align:left}.ex4a .ans{color:#ffdd00;font-weight:700;border:2px solid #ffdd00;border-radius:4px;padding:1px 7px}</style><h2 style=\"color:#fff;text-align:center;font-size:44px;margin-bottom:10px\">Exercise 4 — Answers</h2><div class=\"ex4a\"><p class=\"fragment\" style=\"margin:0 0 10px 0\">I moved here two years ago with my family. We didn't know anyone at first, but then we met some of our <span class=\"ans\">neighbors</span> and after that, I <span class=\"ans\">got to know</span> more people in the area.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">One day, I was talking to someone who <span class=\"ans\">encouraged</span> me to <span class=\"ans\">get involved</span> in a local community project.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">It's a <span class=\"ans\">charity</span> called the Green Garden Project, and it's turned an area of wasteland into a beautiful green space for children to play.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">I'm happy to <span class=\"ans\">volunteer</span> for such a <span class=\"ans\">good cause</span>.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">There are people from all parts of the community but everyone <span class=\"ans\">respects</span> each other's <span class=\"ans\">rights</span> and freedoms.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">Right now, we're running a <span class=\"ans\">fundraising</span> campaign so we can buy more plants and equipment.</p><p class=\"fragment\" style=\"margin:0 0 10px 0\">A local company has just <span class=\"ans\">donated</span> a large sum of money, which will make a huge difference in what we do.</p></div>",
+      "notes": "The completed text with all 11 answers. Each click reveals the next paragraph."
+    },
+    {
+      "layout": "content",
+      "id": "discussion-structure",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Give Your Opinion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I think charity work helps communities.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">One reason is it brings people together.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">For example, the project made a garden for everyone.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Anchors the Opinion-Reason-Evidence structure before the discussion task."
+    },
+    {
+      "layout": "content",
+      "id": "ex5-task",
+      "step": 1,
+      "background_color": "#4a235a",
+      "title": "Talk with your partner",
+      "body": "<p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">How many charities can you name?</p><p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">Which charity would you donate to? Why?</p><p style=\"font-size:36px;color:#fff;margin:0 0 10px 0\">If you could spend a year volunteering, where would you go? What would you do? Why?</p><p style=\"font-size:36px;color:#fff;margin:0 0 16px 0\">What local community organizations do you know?</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px\">Opinion &mdash; Reason &mdash; Evidence</p>",
+      "notes": "Pairs discuss. Use at least five target words: charity, donate, volunteer, get involved, poverty, hunger... Pairs report one idea to the class."
+    },
+    {
+      "layout": "content",
+      "id": "recycling",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Quick round",
+      "body": "<p style=\"font-size:38px;color:#fff;margin:0\">I say the meaning. You say the word.</p>",
+      "notes": "Quick-fire retrieval: teacher says a definition, students say the word. Use the spelling test words. Say: These words will return in next lesson's warm-up."
+    },
+    {
+      "layout": "content",
+      "id": "conclusion",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Questions?",
+      "body": "Any questions about what we've learned today?",
+      "notes": "Wrap up. Ask: Which word was most useful for you? Why?"
+    }
+  ]
+}
