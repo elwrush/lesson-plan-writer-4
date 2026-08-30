@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+:root {
+  --accent: #1a3a5c;
+  --accent-soft: #eef2f6;
+  --rule: #c8d2dc;
+  --title-rule: #6b7683;
+  --g-tight: 0.4em;
+  --g-close: 0.85em;
+  --g-section: 1.7em;
+  --g-zone: 2.0em;
+}
+
+@page {
+  size: A4;
+  margin: 1.2cm 1.2cm 1.6cm 1.2cm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    color: #666;
+    vertical-align: top;
+    padding-top: 0.4em;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13pt;
+  line-height: 1.45;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.masthead img.left { height: 1.8cm; justify-self: start; }
+.masthead img.right { height: 1.3cm; justify-self: end; margin-right: 0.5cm; max-width: 100%; }
+.masthead h1 { font-size: 15pt; margin: 0; justify-self: center; color: var(--accent); }
+
+.doc-title {
+  text-align: left;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cefr-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 13pt;
+  font-weight: bold;
+  padding: 0.2em 0.8em;
+  border-radius: 3pt;
+  margin: 0;
+  letter-spacing: 0.5pt;
+}
+
+/* Badge + title on one line, left aligned */
+.title-badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.6em;
+  margin: 0.1em 0 1.2em 0;
+}
+
+.subtitle {
+  font-size: 13pt;
+  color: var(--accent);
+  margin: 0 0 var(--g-tight) 0;
+}
+
+.section { margin: var(--g-section) 0 0 0; }
+.section-label {
+  font-size: 13pt;
+  font-weight: bold;
+  color: var(--accent);
+  border-bottom: 0.5pt solid var(--rule);
+  padding-bottom: 2pt;
+  margin: 0 0 var(--g-tight) 0;
+}
+.section-body p { margin: 0.35em 0; font-size: 13pt; line-height: 1.45; }
+
+.task-header {
+  background: var(--accent);
+  color: #fff;
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 0.45em 0.7em;
+  border-radius: 3pt;
+  margin: 0 0 0.4em 0;
+  page-break-after: avoid;
+}
+.task-header .task-num {
+  display: inline-block;
+  background: #fff;
+  color: var(--accent);
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0.05em 0.5em;
+  border-radius: 2pt;
+  margin-right: 0.6em;
+  vertical-align: baseline;
+}
+
+.task-box {
+  border: 1.2pt solid var(--rule);
+  border-radius: 5pt;
+  background: #fafbfc;
+  padding: 12pt 14pt;
+  margin: 0 0 var(--g-section) 0;
+}
+.task-box p { margin: 0.35em 0; font-size: 13pt; line-height: 1.5; }
+.task-box p:first-child { margin-top: 0; }
+.task-box p:last-child { margin-bottom: 0; }
+.task-box ul { margin: 0.3em 0; padding-left: 1.6em; font-size: 13pt; line-height: 1.5; }
+.task-box li { margin: 0.22em 0; }
+
+/* Offset, dot-pointed rule callout */
+.rule-box {
+  margin: 0.9em 0 0 0;
+  padding: 0.5em 0.7em 0.5em 1em;
+  border-left: 3pt solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 4pt 4pt 0;
+}
+.rule-box .rule-title {
+  font-size: 13pt;
+  font-weight: bold;
+  color: var(--accent);
+  margin: 0 0 0.3em 0;
+}
+.rule-box ul.rule-list {
+  list-style: disc;
+  margin: 0.2em 0;
+  padding-left: 1.4em;
+  font-size: 13pt;
+  line-height: 1.45;
+}
+.rule-box ul.rule-list li { margin: 0.28em 0; }
+.rule-box .rule-foot {
+  font-size: 12.5pt;
+  color: #555;
+  margin: 0.5em 0 0 0;
+  padding-top: 0.3em;
+  border-top: 0.5pt solid var(--rule);
+}
+
+.task-subbox {
+  border: 0.5pt solid var(--rule);
+  border-radius: 3pt;
+  background: #fff;
+  padding: 8pt 10pt;
+  margin: 0.4em 0 0 0;
+}
+.task-subbox .sub-head {
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 12pt;
+  margin: 0 0 0.15em 0;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid var(--rule);
+}
+.task-subbox p { margin: 0.25em 0; font-size: 13pt; line-height: 1.45; }
+.task-subbox p:last-child { margin-bottom: 0; }
+
+.inset {
+  width: 100%;
+}
+.inset img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--rule);
+}
+.inset .caption {
+  font-size: 11pt;
+  color: #555;
+  text-align: center;
+  padding: 2pt 0 4pt 0;
+  font-style: italic;
+  background: var(--accent-soft);
+}
+
+.clear { clear: both; }
+
+/* Magazine-style figure row: text left, image right, aligned on one grid */
+.fig-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  margin: 0.4em 0 0 0;
+}
+.fig-row .fig-text {
+  flex: 1 1 58%;
+}
+.fig-row .fig-illustration {
+  flex: 0 0 42%;
+}
+.fig-row .fig-illustration .inset {
+  height: auto;
+  display: block;
+  background: none;
+}
+
+.page-break { page-break-before: always; }
+
+.label-box {
+  display: inline-block;
+  width: 2.2em;
+  height: 1.4em;
+  border: 1.2pt solid var(--accent);
+  border-radius: 2pt;
+  margin-left: 0.6em;
+  vertical-align: middle;
+}
+
+.transcript { line-height: 2.0; }
+.transcript .target {
+  text-decoration: underline;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <img class="left" src="ASSETS/cambridge.png" alt="Cambridge">
+  <h1>C&middot;E&middot;L Mathayom</h1>
+  <img class="right" src="ASSETS/ACT.png" alt="ACT">
+</div>
+
+<div class="title-badge-row">
+  {% if level %}<div class="cefr-badge">{{ level }}</div>{% endif %}
+  <h2 class="doc-title">{{ title }}</h2>
+</div>
+{% if subtitle %}<div class="subtitle">{{ subtitle }}</div>{% endif %}
+
+{% for block in blocks %}
+  {% if block.type == "task" %}
+  <div class="task-header">
+    <span class="task-num">Part {{ block.num }}</span>{{ block.title }}
+  </div>
+  <div class="task-box">{{ block.body | safe }}</div>
+
+  {% elif block.type == "task_sub" %}
+  <div class="task-subbox">
+    {% if block.heading %}<div class="sub-head">{{ block.heading }}</div>{% endif %}
+    {{ block.body | safe }}
+  </div>
+
+  {% elif block.type == "fig_row" %}
+  <div class="task-header">
+    <span class="task-num">Part {{ block.num }}</span>{{ block.title }}
+  </div>
+  <div class="task-box">
+    <div class="fig-row">
+      <div class="fig-text">{{ block.text | safe }}</div>
+      <div class="fig-illustration">
+        <div class="inset">
+          <img src="{{ block.src }}" alt="{{ block.alt }}">
+          {% if block.caption %}<div class="caption">{{ block.caption }}</div>{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% elif block.type == "inset" %}
+  <div class="inset">
+    <img src="{{ block.src }}" alt="{{ block.alt }}">
+    {% if block.caption %}<div class="caption">{{ block.caption }}</div>{% endif %}
+  </div>
+
+  {% elif block.type == "clear" %}
+  <div class="clear"></div>
+
+  {% elif block.type == "page_break" %}
+  <div class="page-break"></div>
+
+  {% elif block.type == "raw" %}
+  {{ block.html | safe }}
+
+  {% endif %}
+{% endfor %}
+
+</body>
+</html>

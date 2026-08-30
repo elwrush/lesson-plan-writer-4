@@ -1,0 +1,131 @@
+{
+  "shape": {
+    "name": "Shape L — Pronunciation Noticing (Noticing-First)",
+    "description": "Noticing-first pronunciation lesson for plural -s (/s/, /z/, /ɪz/) in the context of personal possessions. Learners are first made to HEAR the gap between the L1-transfer version and the target (auditory discrimination), then the feature is isolated, linked to meaning, drilled, and used freely. An authentic recording from a past student serves as the final noticing text.",
+    "pedagogical_justification": "Pronunciation instruction that works is intelligibility-based (Levis, 2005; Munro & Derwing, 1995) and noticing-first (Schmidt, 1990): learners must consciously notice a feature in input for it to become intake. For Thai learners, plural -s is a critical case: final /s/, /z/ and /ɪz/ are often dropped or underarticulated, hiding the singular/plural distinction. Perception precedes production (final-consonant-deletion intervention literature), so the shape delivers auditory discrimination before drills.",
+    "main_aim_format": "By the end of the lesson, students will be better able to notice and produce plural -s (/s/, /z/, /ɪz/) when talking about the things they own.",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, students will be better able to notice and produce plural -s (/s/, /z/, /ɪz/) in the context of talking about the things they own.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>31 August, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>L (Pronunciation Noticing)<br><b>Materials:</b><br>Worksheet<br><b>Assessment:</b><br>Discrimination accuracy (Parts A-C), production observation during drills and the game (Part F)<br><b>Systems:</b><br>Pronunciation",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To activate the topic and elicit the target feature in natural speech",
+          "procedure": [
+            "Show the splash slide. Ask: What do you see? What might this lesson be about? Let students speculate.",
+            "Advance to the title slide. Confirm the theme: the sounds at the end of plural words.",
+            "Ask: What things do you have on your desk, in your bag, at home? Elicit 3-4 answers. Write them on the board exactly as students say them, without comment.",
+            "Tell students the focus is the sounds at the END of plural words."
+          ],
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Noticing trigger",
+          "stage_number": 2,
+          "stage_aim": "To make the gap between L1 transfer and the target audible",
+          "procedure": [
+            "Display the model sentence: I have three books, two dogs, and four glasses. Every plural -s sits before a pause or a vowel (salience-designed).",
+            "Play the comparison track: a narrator labels Thai English, then Standard English, readings of the model sentence.",
+            "Ask: Can you hear the difference? What disappeared?",
+            "Students tap the table on every plural /s/, /z/, /ɪz/ they hear in the Standard English version (Worksheet, Part A).",
+            "Feedback: the model sentence has three plural sounds: books, dogs, glasses."
+          ],
+          "time": "6 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Auditory discrimination",
+          "stage_number": 3,
+          "stage_aim": "To perceive the target feature before producing it",
+          "procedure": [
+            "Worksheet, Part B. Play the track: a narrator announces each number, a second voice says each word twice.",
+            "Students write ✓ if both repetitions carry the plural, or ✗ if the plural is dropped.",
+            "Check answers against the audited key (verified by listening, never guessed). Pattern: ✗ ✗ ✗ ✗ ✗.",
+            "Repeat any pairs students could not perceive. Note who still cannot hear the difference."
+          ],
+          "time": "6 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Feature focus: the plural pattern",
+          "stage_number": 4,
+          "stage_aim": "To isolate the /s/, /z/, /ɪz/ endings and link them to meaning",
+          "procedure": [
+            "Worksheet, Part C. Play the track: each word read once. Students write ✓ if they hear the plural ending, or ✗ if it is missing.",
+            "Worksheet, Part D. Students clap the syllables. Books = 1, dogs = 1, glasses = 2; reveal one count per click.",
+            "Elicit the rule: after voiceless sounds, -s sounds like /s/ (books); after voiced sounds, /z/ (dogs); after sibilants, /ɪz/ and adds a syllable (glasses).",
+            "Worksheet, Part E: circle the correct form — book is one, books is many."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss / Ss-Ss"
+        },
+        {
+          "stage": "Controlled production",
+          "stage_number": 5,
+          "stage_aim": "To drill the audible release",
+          "procedure": [
+            "Finger-tap drill on the model sentence: I have three books (1) and two dogs (2) and four glasses (3).",
+            "Backchain: glasses, four glasses, and four glasses, two dogs and four glasses, I have three books.",
+            "Choral and individual drill. Whisper-release drill: books, dogs, glasses — the final consonant must be heard.",
+            "Correct errors immediately. /ɪz/ words keep their extra syllable."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Freer use: Catch the Finals",
+          "stage_number": 6,
+          "stage_aim": "To transfer the feature into spontaneous speech",
+          "procedure": [
+            "Worksheet, Part F. Show the game slide and start the timer.",
+            "Pairs: A tells B two things they own. B holds up one finger for every plural /s/, /z/, /ɪz/ heard — one point per sound.",
+            "Dropped plural = do-over until B hears it. Swap after half the time.",
+            "Content feedback first, then language feedback on the most frequent dropped finals."
+          ],
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Authentic noticing and wrap-up",
+          "stage_number": 7,
+          "stage_aim": "To consolidate noticing on authentic student speech and set up recycling",
+          "procedure": [
+            "Worksheet, Part G. Play a past student's recording (Florence). Students tick or cross the numbered underlined plural targets.",
+            "The transcript is corrected ONLY in the target feature; all other grammar stays verbatim. [0] is the example item.",
+            "Reveal the audited key (verified by a teacher listening to the recording).",
+            "Worksheet, Part H. Play the model reading. Pairs read the paragraph to each other and tick or cross.",
+            "Quick-fire exit: books, dogs, glasses. Say them with the ending. Tell students the finals return in the next warm-up."
+          ],
+          "time": "6 min",
+          "interaction": "Ss-Ss / T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "31 August, 2026",
+    "class_name": "M2A / M3A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape L — Pronunciation Noticing",
+    "topic": "Pronunciation Noticing: Plural -s (/s/, /z/, /ɪz/)",
+    "materials": ["Pronunciation Noticing worksheet"],
+    "main_aim": "By the end of the lesson, students will be better able to notice and produce plural -s (/s/, /z/, /ɪz/) when talking about the things they own.",
+    "subsidiary_aim": "To notice that dropping the -s ending hides the singular/plural meaning.",
+    "slideshow_url": null,
+    "video_url": null,
+    "transcript": null,
+    "answer_key": [
+      "Part A: 3 plural sounds — books (/s/), dogs (/z/), glasses (/ɪz/).",
+      "Part B: 1. books/book — ✗ · 2. dogs/dog — ✗ · 3. glasses/glass — ✗ · 4. friends/friend — ✗ · 5. years/year — ✗. Pattern ✗✗✗✗✗ — all dropped.",
+      "Part C: answers require teacher audition — listen to the discrimination track and verify each tick/cross.",
+      "Part D syllables: books = 1, dogs = 1, glasses = 2, friends = 1.",
+      "Part E: 1. books · 2. dogs · 3. yes — glasses has 2 syllables, glass has 1.",
+      "Game: 1 point per heard plural /s/, /z/, or /ɪz/; do-over until the sound is heard.",
+      "Part G (Florence's transcript): ✓ = pronounced correctly, ✗ = plural dropped. Answers require teacher audition — the key must be verified by a teacher listening to the recording. 7 targets: [0] years (example, not scored) · [1] hours · [2] things · [3] friends · [4] books · [5] pictures · [6] books · [7] plants.",
+      "Part H (Model reading): 11 targets: [1] things (/z/) · [2] books (/s/) · [3] dogs (/z/) · [4] glasses (/ɪz/) · [5] friends (/z/) · [6] games (/z/) · [7] siblings (/z/) · [8] things (/z/) · [9] plants (/z/) · [10] pictures (/z/) · [11] things (/z/)."
+    ]
+  }
+}

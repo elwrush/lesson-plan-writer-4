@@ -23,9 +23,13 @@ ASSETS/
 **/*.mp3
 **/*.wav
 **/*.ogg
+**/*.m4a
+**/*.aac
+**/*.flac
 **/*.mp4
 **/*.mov
 **/*.avi
+**/*.part
 **/*.zip
 **/*.tar
 **/*.gz
@@ -59,3 +63,7 @@ audit-*.md
 # OS files
 .DS_Store
 Thumbs.db
+
+# Legacy kilocode migration artifacts (superseded by .opencode/ and ~/.agents/skills)
+.kilo/
+.kilocode/

@@ -2,6 +2,6 @@
   "$schema": "https://opencode.ai/config.json",
   "snapshot": false,
   "skills": {
-    "paths": ["/home/elwru/.agents/skills"]
+    "paths": [".opencode/skills", "/home/elwru/.agents/skills"]
   }
 }

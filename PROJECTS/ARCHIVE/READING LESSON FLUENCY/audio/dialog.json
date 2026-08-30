@@ -1,0 +1,38 @@
+{
+  "title": "Reciprocal Teaching \u2014 Predictions and Post-Reading Discussion",
+  "setting": "Classroom listening: the teacher introduces the reciprocal-reading steps, two students (B1 and B2) make a prediction, then each group's Clarifier, Questioner and Summariser discuss the chunk.",
+  "characters": [
+    {"name": "Benedict", "voice_notes": "Teacher, warm and clear, authoritative classroom narrator.", "key_line": "Let's listen to how students can talk to each other about reading."},
+    {"name": "Emma", "voice_notes": "B1 teenage girl, natural and curious.", "key_line": "The heading is 'What Is Going Wrong \u2014 the causes of the decline'."},
+    {"name": "Oliver", "voice_notes": "B2 teenage boy, thoughtful, slightly more formal.", "key_line": "I predict the causes will be technological."},
+    {"name": "Jack", "voice_notes": "B1 teenage boy, natural, clarifying what was confusing.", "key_line": "I didn't understand 'systematic review'."},
+    {"name": "Sophie", "voice_notes": "B1 teenage girl, curious, asking genuine questions.", "key_line": "I wonder why does it matter for students?"},
+    {"name": "Liam", "voice_notes": "B1 teenage boy, confident, summarising the main point.", "key_line": "The main point of this chunk is that screens and phones make young people read less."},
+    {"name": "Ava", "voice_notes": "B2 teenage girl, precise, clarifying complex terms.", "key_line": "I need to clarify 'systematic review' and 'mechanisms'."},
+    {"name": "Noah", "voice_notes": "B2 teenage boy, curious, asking deeper questions.", "key_line": "Is it really the device, or just the habit of having it there?"},
+    {"name": "Mia", "voice_notes": "B2 teenage girl, analytical, summarising the core argument.", "key_line": "The strongest evidence is the 'cognitive pull'."}
+  ],
+  "turns": [
+    {"character": "Benedict", "stage_direction": null, "line": "Let's listen to how students can talk to each other about reading. We will start with the B1 reading."},
+    {"character": "Benedict", "stage_direction": null, "line": "The only person to speak before reading is The Predictor. They will look at the reading headings and illustrations and say what they think the story will be about, and why they have that opinion."},
+    {"character": "Benedict", "stage_direction": null, "line": "In the example on your worksheet, the heading is: 'What Is Going Wrong \u2014 the causes of the decline'. Listen to the predictions. First, Emma, in the B1 story."},
+    {"character": "Emma", "stage_direction": null, "line": "The heading is 'What Is Going Wrong \u2014 the causes of the decline'. So I predict this chunk will talk about why people read less. Maybe phones?"},
+    {"character": "Benedict", "stage_direction": null, "line": "Now for Oliver in the B2 reading. Note how he uses more complex language."},
+    {"character": "Oliver", "stage_direction": null, "line": "The heading 'What Is Going Wrong \u2014 the causes of the decline' tells me this chunk will explain why reading is falling, before any solutions. I predict the causes will be technological."},
+    {"character": "Benedict", "stage_direction": null, "line": "After this, you will all read the chunk silently. After this, the Clarifier, Questioner and Summariser will discuss what they have read."},
+    {"character": "Benedict", "stage_direction": null, "line": "Let's listen to the B1 example first."},
+    {"character": "Jack", "stage_direction": null, "line": "I didn't understand 'systematic review'. The gloss says it is a study of many studies. So it's a big study with many people."},
+    {"character": "Sophie", "stage_direction": null, "line": "If it's such a big study, I wonder why does it matter for students? Is it only about young people? I'm a student too."},
+    {"character": "Jack", "stage_direction": null, "line": "The text says a phone can make a 'pull' even when it is off. So it's not about the phone being on \u2014 just having it near you."},
+    {"character": "Sophie", "stage_direction": null, "line": "That makes me wonder can the same happen with a laptop, or only a phone?"},
+    {"character": "Liam", "stage_direction": null, "line": "The main point of this chunk is that screens and phones are the main reason young people read less, and even a phone in the room weakens focus."},
+    {"character": "Emma", "stage_direction": null, "line": "My prediction was right \u2014 it was about phones. Good summary, Liam."},
+    {"character": "Benedict", "stage_direction": null, "line": "Now for the B2 example."},
+    {"character": "Ava", "stage_direction": null, "line": "I need to clarify 'systematic review' and 'mechanisms'. A review combines many earlier studies, and the 'mechanisms' here are the reasons behind the decline."},
+    {"character": "Noah", "stage_direction": null, "line": "The text says a switched-off phone still reduces comprehension, and calls it a 'cognitive pull'. I wonder is it really the device, or just the habit of having it there?"},
+    {"character": "Ava", "stage_direction": null, "line": "The text says the pull happens even when it's off, so it's not the screen itself \u2014 it's your attention being drawn to it."},
+    {"character": "Noah", "stage_direction": null, "line": "That makes me wonder would the same happen with any device, or only a phone? And is it the same for digital reading as for paper?"},
+    {"character": "Mia", "stage_direction": null, "line": "The core argument is that the shift from print to screens, combined with persistent smartphone distraction, trains students to skim rather than read deeply. The strongest evidence is the 'cognitive pull' \u2014 the device alone weakens focus."},
+    {"character": "Oliver", "stage_direction": null, "line": "My prediction held \u2014 the causes were technological. Excellent summary, Mia."}
+  ]
+}

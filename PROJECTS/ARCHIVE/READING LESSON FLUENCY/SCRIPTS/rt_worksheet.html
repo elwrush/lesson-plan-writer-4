@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+/*
+ * Reciprocal Teaching model-discussion worksheet.
+ * Layout adapted from BOOK-REPORT-PRODUCTION templates/report.html (C.R.A.P.):
+ *   Contrast  -> one accent color (--accent) for labels/headings only; hierarchy by size/weight.
+ *   Repetition-> every section = accent heading + light rule + body; one spacing rhythm.
+ *   Alignment -> ONE left-aligned grid: title, identity, section rules and blocks share edges.
+ *   Proximity -> tight inside groups, generous between sections.
+ * Font sizes fixed at >=13pt (teacher mandate).
+ */
+:root {
+  --accent: #1a3a5c;
+  --accent-soft: #eef2f6;
+  --rule: #c8d2dc;
+  --title-rule: #6b7683;
+  --g-tight: 0.4em;
+  --g-close: 0.85em;
+  --g-section: 1.7em;
+  --g-zone: 2.0em;
+}
+
+@page {
+  size: A4;
+  margin: 1.2cm 1.2cm 1.6cm 1.2cm;
+  /* Page number bottom-centre, book style */
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    color: #666;
+    vertical-align: top;
+    padding-top: 0.4em;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13pt;
+  line-height: 1.45;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- Masthead: logos at the edges, wordmark centred ---- */
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.masthead img.left { height: 1.8cm; justify-self: start; }
+.masthead img.right { height: 1.3cm; justify-self: end; margin-right: 0.5cm; max-width: 100%; }
+.masthead h1 { font-size: 15pt; margin: 0; justify-self: center; color: var(--accent); }
+
+/* ---- Document title: centred, single line ---- */
+.doc-title {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 0.1em 0 0.15em 0;
+}
+.title-rule {
+  border: none;
+  border-top: 1pt solid var(--title-rule);
+  margin: 0 0 var(--g-zone) 0;
+}
+
+/* ---- Filled CEFR badge before the title — centred ---- */
+.cefr-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 0.2em 0.8em;
+  border-radius: 3pt;
+  margin: 0 0 0.25em 0;
+  letter-spacing: 0.5pt;
+}
+
+/* ---- CEFR tag / subtitle line ---- */
+.subtitle {
+  font-size: 13pt;
+  color: var(--accent);
+  margin: 0 0 var(--g-tight) 0;
+}
+
+/* ---- Section: accent heading + light rule + body ---- */
+.section { margin: var(--g-section) 0 0 0; }
+.section-label {
+  font-size: 13pt;
+  font-weight: bold;
+  color: var(--accent);
+  border-bottom: 0.5pt solid var(--rule);
+  padding-bottom: 2pt;
+  margin: 0 0 var(--g-tight) 0;
+}
+.section-body p { margin: 0.35em 0; font-size: 13pt; line-height: 1.45; }
+
+/* ---- Task header: strongly boxed, accent-filled, ultra-visible ---- */
+.task-header {
+  background: var(--accent);
+  color: #fff;
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 0.45em 0.7em;
+  border-radius: 3pt;
+  margin: 0 0 0.4em 0;
+  page-break-after: avoid;
+}
+.task-header .task-num {
+  display: inline-block;
+  background: #fff;
+  color: var(--accent);
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 0.05em 0.5em;
+  border-radius: 2pt;
+  margin-right: 0.6em;
+  vertical-align: baseline;
+}
+
+/* ---- Boxed task body: wraps the content of each task ---- */
+.task-box {
+  border: 1.2pt solid var(--rule);
+  border-radius: 5pt;
+  background: #fafbfc;
+  padding: 12pt 14pt;
+  margin: 0 0 var(--g-section) 0;
+  page-break-inside: avoid;
+}
+.task-box p { margin: 0.35em 0; font-size: 13pt; line-height: 1.5; }
+.task-box p:first-child { margin-top: 0; }
+.task-box p:last-child { margin-bottom: 0; }
+.task-box ul { margin: 0.3em 0; padding-left: 1.6em; font-size: 13pt; line-height: 1.5; }
+.task-box li { margin: 0.22em 0; }
+
+/* Sub-box inside a task (role cards, chunk text, transcript) */
+.task-subbox {
+  border: 0.5pt solid var(--rule);
+  border-radius: 3pt;
+  background: #fff;
+  padding: 8pt 10pt;
+  margin: 0.4em 0 0 0;
+  page-break-inside: avoid;
+}
+.task-subbox .sub-head {
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 12pt;
+  margin: 0 0 0.15em 0;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid var(--rule);
+}
+.task-subbox p { margin: 0.25em 0; font-size: 13pt; line-height: 1.45; }
+.task-subbox p:last-child { margin-bottom: 0; }
+
+/* Chunk heading inside a task: title left, CEFR badge right */
+.chunk-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 0 0.2em 0;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid var(--rule);
+}
+.chunk-head .title { font-size: 13pt; font-weight: bold; color: var(--accent); }
+.chunk-head .level {
+  font-size: 10pt; font-weight: bold; color: #fff;
+  background: var(--accent); border-radius: 2pt; padding: 0.05em 0.45em;
+  white-space: nowrap;
+}
+
+/* ---- Level divider band (B1 / B2) between differentiated sections ---- */
+.level-band {
+  background: var(--accent);
+  color: #fff;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.4em 0.7em;
+  border-radius: 3pt;
+  margin: var(--g-section) 0 0.2em 0;
+  page-break-before: always;
+  page-break-after: avoid;
+  letter-spacing: 0.5pt;
+}
+.level-band .sub {
+  display: block;
+  font-size: 11pt;
+  font-weight: normal;
+  margin-top: 0.15em;
+  opacity: 0.95;
+}
+
+/* ---- Inset pen-and-ink illustration: floated right, bordered ---- */
+.inset {
+  float: right;
+  width: 42%;
+  margin: 0 0 0.6em 0.8em;
+  border: 0.5pt solid var(--rule);
+  border-radius: 4pt;
+  overflow: hidden;
+}
+.inset img { width: 100%; display: block; }
+.inset .caption {
+  font-size: 11pt;
+  color: #555;
+  text-align: center;
+  padding: 2pt 0 4pt 0;
+  font-style: italic;
+  background: var(--accent-soft);
+}
+
+/* ---- Discussion framework table ---- */
+table.framework {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.3em 0 0 0;
+  font-size: 13pt;
+  page-break-inside: avoid;
+}
+table.framework th {
+  background: var(--accent);
+  color: #fff;
+  text-align: left;
+  padding: 0.32em 0.5em;
+  border-bottom: 0.5pt solid var(--rule);
+}
+table.framework td {
+  padding: 0.26em 0.5em;
+  border-bottom: 0.5pt solid var(--rule);
+  vertical-align: top;
+}
+table.framework td.step { font-weight: bold; color: var(--accent); white-space: nowrap; }
+table.framework td.lang { font-style: italic; }
+
+/* ---- Clear floated inset before the closing section ---- */
+.clear { clear: both; }
+
+.page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <img class="left" src="assets/images/cambridge.png" alt="Cambridge">
+  <h1>C&middot;E&middot;L Mathayom</h1>
+  <img class="right" src="assets/images/ACT.png" alt="ACT">
+</div>
+
+{% if level %}<div class="cefr-badge" style="text-align:center">{{ level }}</div>{% endif %}
+<h2 class="doc-title">{{ title }}</h2>
+{% if subtitle %}<div class="subtitle">{{ subtitle }}</div>{% endif %}
+<hr class="title-rule">
+
+{% for block in blocks %}
+  {% if block.type == "task" %}
+  <div class="task-header">
+    <span class="task-num">Task {{ block.num }}</span>{{ block.title }}
+  </div>
+  <div class="task-box">{{ block.body | safe }}</div>
+
+  {% elif block.type == "task_sub" %}
+  <div class="task-subbox">
+    {% if block.heading %}<div class="sub-head">{{ block.heading }}</div>{% endif %}
+    {{ block.body | safe }}
+  </div>
+
+  {% elif block.type == "inset" %}
+  <div class="inset">
+    <img src="{{ block.src }}" alt="{{ block.alt }}">
+    {% if block.caption %}<div class="caption">{{ block.caption }}</div>{% endif %}
+  </div>
+
+  {% elif block.type == "level_section" %}
+  <div class="level-band">{{ block.level }}{% if block.sub %}<span class="sub">{{ block.sub }}</span>{% endif %}</div>
+
+  {% elif block.type == "clear" %}
+  <div class="clear"></div>
+
+  {% elif block.type == "page_break" %}
+  <div class="page-break"></div>
+
+  {% elif block.type == "raw" %}
+  {{ block.html | safe }}
+
+  {% endif %}
+{% endfor %}
+
+</body>
+</html>

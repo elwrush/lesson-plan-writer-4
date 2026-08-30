@@ -1,0 +1,284 @@
+#!/usr/bin/env python3
+"""Build data.json for the READING LESSON FLUENCY reciprocal-teaching deck.
+
+This script wires STRUCTURE ONLY (layout, ids, colors, table markup) and passes
+every displayed string as a COMPLETE verbatim literal. No text is composed
+programmatically — no f-string sentence building, no joining of clauses.
+"""
+
+import json
+
+SLIDES = []
+
+def add(slide):
+    SLIDES.append(slide)
+
+# O-R-E anchor line — REQUIRED in two places (lead-in discussion + structure slide).
+ORE_LINE = '<p style="color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:22px">Opinion &mdash; Reason &mdash; Evidence</p>'
+
+# ── 1. Splash (header + shrunk graph image) ────────────────────────────────
+add({
+    "layout": "content",
+    "id": "splash",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Thailand Reading Scores, PISA, 2000-2022",
+    "body": "<div style=\"text-align:center\"><img src=\"assets/splash.jpg\" alt=\"Thailand PISA reading scores\" style=\"max-width:72%;width:72%;border-radius:8px;margin-top:8px\"></div>",
+    "notes": "Count up. Ask: What is this graph showing? Where is Thailand going?",
+})
+
+# ── 2. Title (logo + shield + background_image) — carries the message ──────
+add({
+    "layout": "content",
+    "id": "title",
+    "step": 1,
+    "background_image": "assets/splash.jpg",
+    "logo": "assets/logo.png",
+    "shield": True,
+    "title": "What is going wrong with reading around the world?",
+    "body": "Let's read and find out.",
+    "notes": "Today we learn to read deeply together. No one reads alone.",
+})
+
+# ── 3. Importance (must be immediately after title) ────────────────────────
+add({
+    "layout": "content",
+    "id": "importance",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Why is this lesson important?",
+    "body": "<ul><li>Reading well at 15 predicts your future success.</li><li>Thailand's scores keep falling, every year.</li><li>Reading is a skill you can learn — not a gift.</li></ul>",
+    "notes": "Frame in real-world outcomes. Reading is a life skill, not school only.",
+})
+
+# ── 4. Straw poll (lead-in recall + O-R-E anchor) ──────────────────────────
+add({
+    "layout": "content",
+    "id": "straw-poll",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "A quick question",
+    "body": "<p>How many of you have read a book in Thai or English in the past 12 months?</p><p>Hand up. Look around.</p>" + ORE_LINE,
+    "notes": "Take a poll. Count hands. Do not judge. This is the problem we explore today.",
+})
+
+# ── 5. Video intro (red transition + listening tag) ────────────────────────
+add({
+    "layout": "content",
+    "id": "video-intro",
+    "step": 1,
+    "background_color": "#c0392b",
+    "title": "Watch the news report",
+    "body": "<p>Why is the Professor worried?</p><p>Why does he think reading ability is declining?</p>",
+    "notes": "Two listening questions. Play the clip once. Let them watch, not write.",
+})
+
+# ── 6. Video embed (raw iframe, clipped 0:00-2:37) ──────────────────────────
+add({
+    "layout": "raw",
+    "id": "video-embed",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "body": "<div class=\"video-box\"><iframe src=\"https://www.youtube.com/embed/lEdbCpBn9kc?start=0&end=157&rel=0\" title=\"PBS news report on reading\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+    "notes": "Play 0:00-2:37. Listen for the Harvard expert's worry and his reason.",
+})
+
+# ── 7. Transition to main method ───────────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "transition-main",
+    "step": 1,
+    "background_color": "#c0392b",
+    "title": "Time to read together",
+    "body": "Today we learn a way to read as a team.",
+    "notes": "We are going to read in groups of four. Each person has one special job.",
+})
+
+# ── 9. Task 1 — How one round works ────────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "task1-round",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Task 1: How One Round Works",
+    "body": "<p style=\"margin:0 0 10px 0\">Each person in your group has one job.</p><p style=\"margin:0 0 18px 0\">You will change jobs for every reading chunk. There are four chunks.</p><p style=\"margin:0 0 18px 0\">The jobs are: <span style=\"color:#ffdd00;font-weight:700\">Predictor</span>, <span style=\"color:#ffdd00;font-weight:700\">Clarifier</span>, <span style=\"color:#ffdd00;font-weight:700\">Questioner</span> and <span style=\"color:#ffdd00;font-weight:700\">Summariser</span>.</p><p style=\"margin:0\">The teacher will not talk or give you answers. Your job is to teach each other.</p>",
+    "notes": "Four roles, four chunks. Each person does each role once. Teacher is silent.",
+})
+
+# ── 10. Task 2 — Before reading: Predictor ─────────────────────────────────
+add({
+    "layout": "content",
+    "id": "task2-predictor",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Task 2 &middot; Before reading",
+    "body": "<p style=\"color:#ffdd00;font-weight:700;margin:0 0 6px 0\">PREDICTOR</p><p style=\"margin:0 0 10px 0\">Look at the heading. Guess what the section will say.</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;vertical-align:top;width:40px;color:#ffdd00;text-align:center\">&bull;</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The heading says&hellip; so I think this section will&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;color:#ffdd00;text-align:center\">&bull;</td><td style=\"padding:8px 0\">I predict&hellip; because&hellip;</td></tr></table>",
+    "notes": "Only the Predictor speaks before reading. This is the first role.",
+})
+
+# ── 11. Task 2 — After reading: three roles ────────────────────────────────
+add({
+    "layout": "content",
+    "id": "task2-after",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Task 2 &middot; After reading",
+    "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 0;border-bottom:1px solid #444\"><span style=\"color:#ffdd00;font-weight:700\">CLARIFIER</span><br>Say what was confusing. Fix it with your group.</td></tr><tr><td style=\"padding:8px 0;border-bottom:1px solid #444\"><span style=\"color:#ffdd00;font-weight:700\">QUESTIONER</span><br>Ask a genuine I wonder question, not a quick check.</td></tr><tr><td style=\"padding:8px 0\"><span style=\"color:#ffdd00;font-weight:700\">SUMMARISER</span><br>Say the main idea of the chunk in one sentence.</td></tr></table>",
+    "notes": "Three roles speak, in turn, after reading. They build on each other.",
+})
+
+# ── 12. Task 3 — Read and Learn (silent reading of the model chunk) ────────
+add({
+    "layout": "content",
+    "id": "task3-learn",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Task 3 &middot; Read and Learn",
+    "body": "<p>Read the chunk on your worksheet. Watch for:</p><p style=\"color:#ffdd00\">systematic review&nbsp;&nbsp;&middot;&nbsp;&nbsp;cognitive pull</p>",
+    "notes": "This is the model chunk: What Is Going Wrong. Read silently. Do not speak.",
+})
+
+# ── 13. Task 4 — Model discussion (audio with four roles) ──────────────────
+add({
+    "layout": "content",
+    "id": "task4-model",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Task 4 &middot; Model discussion",
+    "body": "<p>Listen to four students read one round.</p><audio controls preload=\"none\" src=\"assets/reciprocal-teaching-predictions-and-discussion.mp3\"></audio><p style=\"color:#ffdd00\">Emma predicts &middot; Jack clarifies &middot; Sophie questions &middot; Liam summarises</p>",
+    "notes": "Play the model. Point to each role on the worksheet Task 4 as they speak.",
+})
+
+# ── 14. Task 5 — Discussion questions (per chunk) ──────────────────────────
+add({
+    "layout": "content",
+    "id": "task5-questions",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Task 5 &middot; Discuss with your group",
+    "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">1</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reading at 15 predicts your future.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">2</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reading pays at school and at work.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">3</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reading can be learned, not born.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">4</td><td style=\"padding:8px 0\">Thailand's fall is the sharpest.</td></tr></table>",
+    "notes": "Choose one question per chunk. Use the framework on the next slide.",
+})
+
+# ── 15. Discussion structure (O-R-E scaffold, navy) ────────────────────────
+add({
+    "layout": "content",
+    "id": "discussion-structure",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Give your opinion",
+    "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Opinion</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">In my opinion&hellip; / I think&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">because&hellip; / I think this because&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">The text says&hellip; / In the article, it says&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Disagree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I'm not sure I agree&hellip; / I see it differently&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Agree</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">I agree, and also&hellip; / That's a good point, because&hellip;</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Conclusion</td><td style=\"padding:8px 0\">So we agree that&hellip; / To sum up, we think&hellip;</td></tr></table>" + ORE_LINE,
+    "notes": "Six-step framework, on the worksheet too. The O-R-E line anchors it.",
+})
+
+# ── 16. Transition to transfer ─────────────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "transition-transfer",
+    "step": 1,
+    "background_color": "#c0392b",
+    "title": "Now you do it",
+    "body": "Read the whole reading pack together.",
+    "notes": "Groups of four. One role each. Rotate for each chunk.",
+})
+
+# ── 17. Transfer — group setup + role rotation ─────────────────────────────
+add({
+    "layout": "content",
+    "id": "transfer-setup",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Work in your group of four",
+    "body": "<p>One role each.</p><p>For every chunk, rotate to a new role.</p><p>Everyone gets a turn at each role.</p>",
+    "notes": "4 chunks, 4 roles. Each person does each role once.",
+})
+
+# ── 18. Transfer — the four chunks ─────────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "transfer-chunks",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "The reading pack has four chunks",
+    "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;white-space:nowrap;vertical-align:top\">1</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reading at 15 predicts your future</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;white-space:nowrap;vertical-align:top\">2</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reading pays at school and at work</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;color:#ffdd00;font-weight:700;white-space:nowrap;vertical-align:top\">3</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">Reading can be learned, not born</td></tr><tr><td style=\"padding:8px 12px 8px 0;color:#ffdd00;font-weight:700;white-space:nowrap;vertical-align:top\">4</td><td style=\"padding:8px 0\">Thailand's fall is the sharpest</td></tr></table>",
+    "notes": "Same four topics as Task 5. One chunk at a time.",
+})
+
+# ── 19. Transfer — take notes, teacher silent ──────────────────────────────
+add({
+    "layout": "content",
+    "id": "transfer-notes",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Your job, not the teacher's",
+    "body": "<p>Take notes as you read.</p><p>I will not speak or give answers.</p><p>You and your group manage it.</p>",
+    "notes": "Emphasise: the teacher is silent. Students own the discussion.",
+})
+
+# ── 20. Transfer — silent reading (timer) ──────────────────────────────────
+add({
+    "layout": "content",
+    "id": "transfer-read",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Silent reading",
+    "body": "<p>Read the chunk silently.</p><p>Take notes in your role.</p><p>Then start the discussion.</p>",
+    "notes": "Timer auto-starts. Return to this slide for each chunk.",
+})
+
+# ── 21. Transfer — discussion (timer) ──────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "transfer-discuss",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Discuss the chunk",
+    "body": "<p>Clarify. Question. Summarise.</p><p>Then rotate roles.</p><p>Next chunk.</p>",
+    "notes": "Timer auto-starts. Use the O-R-E framework.",
+})
+
+# ── 22. Open-class feedback ────────────────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "feedback",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Open-class feedback",
+    "body": "<p>What surprised you in the readings?</p><p>What did your group learn?</p>",
+    "notes": "Whole class. Elicit ideas about the problem and about reading together.",
+})
+
+# ── 23. Transition to final discussion ─────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "transition-discuss",
+    "step": 1,
+    "background_color": "#c0392b",
+    "title": "The big discussion",
+    "body": "If we have time, we talk it out.",
+    "notes": "Only if time allows. Use the O-R-E framework.",
+})
+
+# ── 24. Final discussion (timer) ───────────────────────────────────────────
+add({
+    "layout": "content",
+    "id": "discuss-final",
+    "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "Final discussion",
+    "body": "<p>Say your opinion.</p><p>Give a reason.</p><p>Use an example from the text.</p>" + ORE_LINE,
+    "notes": "Timer auto-starts. One chunk question per group.",
+})
+
+deck = {
+    "title": "Reciprocal Learning and Discussion",
+    "author": "Ed Rush",
+    "theme": "black",
+    "transition": "slide",
+    "slides": SLIDES,
+}
+
+with open("PROJECTS/READING LESSON FLUENCY/data.json", "w", encoding="utf-8") as f:
+    json.dump(deck, f, indent=2, ensure_ascii=False)
+
+print(f"Wrote {len(SLIDES)} slides to data.json")

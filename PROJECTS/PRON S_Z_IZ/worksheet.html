@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@page { size: A4; margin: 1.6cm 1.8cm 1.8cm 1.8cm; }
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead {
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  align-items: center;
+  margin-bottom: 0.15em;
+}
+.masthead-left { text-align: left; }
+.masthead-left img { height: 1.6cm; }
+.masthead-center { text-align: center; font-size: 16pt; font-weight: bold; letter-spacing: 0.5pt; }
+.masthead-right { text-align: right; }
+.masthead-right img { height: 1.0cm; }
+.masthead-sep { border: none; border-top: 1.5pt solid #000; margin: 0 0 0.25em 0; }
+
+h1 {
+  font-size: 20pt;
+  text-align: center;
+  margin: 0 0 0.15em 0;
+}
+h2 {
+  font-size: 14pt;
+  margin: 0.75em 0 0.25em 0;
+  padding: 0.1em 0.5em;
+  background: #222;
+  color: #fff;
+}
+h3 {
+  font-size: 14pt;
+  margin: 0.45em 0 0.15em 0;
+  color: #222;
+}
+
+.cefr-tag {
+  text-align: center;
+  font-size: 14pt;
+  color: #555;
+  margin: 0 0 0.2em 0;
+}
+
+.instructions {
+  font-size: 14pt;
+  color: #444;
+  margin: 0.2em 0 0.3em 0;
+  padding: 0.25em 0.5em;
+  background: #f0f0f0;
+  border-left: 3pt solid #222;
+}
+
+.task1-sentence, .join-item, .gap-sentence {
+  page-break-inside: avoid;
+  margin: 0.35em 0 0 0;
+  text-align: left;
+}
+.s-num {
+  font-weight: bold;
+  margin-right: 0.3em;
+}
+.s-text {
+  font-size: 14pt;
+  line-height: 1.4;
+}
+
+.mcq {
+  page-break-inside: avoid;
+  margin: 0.45em 0 0 0;
+  text-align: left;
+}
+.mcq-prompt {
+  font-size: 14pt;
+  line-height: 1.4;
+}
+.mcq-options {
+  margin: 0.15em 0 0 1.8em;
+}
+.mcq-option {
+  font-size: 14pt;
+  line-height: 1.35;
+}
+
+.label-box {
+  display: inline-block;
+  width: 2.2em;
+  height: 1.4em;
+  border: 1.5pt solid #222;
+  margin-left: 0.6em;
+  vertical-align: middle;
+}
+
+.boxed {
+  display: inline-block;
+  border: 1.5pt solid #222;
+  background: #e8e8e8;
+  padding: 0.05em 0.2em;
+  font-weight: bold;
+  color: #222;
+}
+
+.word-bank {
+  margin: 0.35em 0 0.4em 0;
+  text-align: center;
+}
+.bank-word {
+  display: inline-block;
+  border: 1pt solid #222;
+  padding: 0.1em 0.7em;
+  margin: 0.15em 0.2em;
+  font-size: 14pt;
+  background: #f7f7f7;
+}
+
+.write-lines {
+  margin: 0.3em 0 0 0;
+}
+.write-lines .wl {
+  border-bottom: 1pt solid #999;
+  height: 2.4em;
+}
+
+.writing-prompt {
+  font-size: 14pt;
+  color: #444;
+  margin: 0.4em 0 0.4em 0;
+  padding: 0.3em 0.5em;
+  background: #f0f0f0;
+  border: 1pt solid #999;
+}
+
+.highlight-bar {
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+  background: #ffdd00;
+  border: 1pt solid #222;
+  margin: 0.5em 0 0.3em 0;
+  padding: 0.35em 0.5em;
+}
+
+.ws-image {
+  text-align: center;
+  margin: 0.5em 0 0.4em 0;
+}
+.ws-image img {
+  width: 100%;
+  max-height: 5.5cm;
+  object-fit: cover;
+  border: 1px solid #999;
+}
+.ws-caption {
+  font-size: 11pt;
+  color: #555;
+  margin-top: 0.15em;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+
+.transcript {
+  line-height: 2.2;
+  font-size: 13pt;
+  text-align: left;
+  background: #fff;
+  padding: 0.2em 0.4em;
+}
+
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="masthead-left"><img src="file:///home/elwru/.agents/skills/write-test-worksheet/assets/cambridge.png" alt=""></div>
+  <div class="masthead-center">C·E·L Mathayom</div>
+  <div class="masthead-right"><img src="file:///home/elwru/.agents/skills/write-test-worksheet/assets/ACT.png" alt=""></div>
+</div>
+<hr class="masthead-sep">
+
+<h1>Pronunciation Noticing: Plural -s  /s/  /z/  /ɪz/</h1>
+<div class="cefr-tag">CEFR B1 · Noticing · M2A / M3A</div>
+
+
+  
+    <div class="ws-image">
+      <img src="PROJECTS/PRON S_Z_IZ/assets/banner.jpg" alt="New Yorker cartoon: teacher at blackboard">
+      
+    </div>
+
+  
+
+  
+    <h2>Part A — Listen. Can You Hear It?</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Listen to the two recordings. One is Thai-style English. One is native English. In the native version, every word ends with its full sound. Tap your finger every time you hear a plural <strong>/s/</strong>, <strong>/z/</strong>, or <strong>/ɪz/</strong> at the end of a word.</div>
+
+  
+
+  
+    <div class="writing-prompt"><strong>Model sentence:</strong> I have three books, two dogs, and four glasses.</div>
+
+  
+
+  
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">1.</span><span class="s-text">How many plural sounds did you hear? Write the number: <span class="label-box"></span></span></div>
+    </div>
+    
+
+  
+
+  
+    <h2>Part B — Same or Different?</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Listen to the recording. After each number you will hear a word <strong>twice</strong>. Are both pronounced the same, or is the plural sound missing the second time? Write <strong>✓</strong> if both have the plural, or <strong>✗</strong> if the plural is dropped.</div>
+
+  
+
+  
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">1.</span><span class="s-text"><span class="label-box"></span> books</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">2.</span><span class="s-text"><span class="label-box"></span> dogs</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">3.</span><span class="s-text"><span class="label-box"></span> glasses</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">4.</span><span class="s-text"><span class="label-box"></span> friends</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">5.</span><span class="s-text"><span class="label-box"></span> years</span></div>
+    </div>
+    
+
+  
+
+  
+    <h2>Part C — Plural or Not?</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Listen to the recording. After each number you will hear a word. Write <strong>✓</strong> if you hear the plural ending, or <strong>✗</strong> if it is missing.</div>
+
+  
+
+  
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">1.</span><span class="s-text"><span class="label-box"></span> things</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">2.</span><span class="s-text"><span class="label-box"></span> siblings</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">3.</span><span class="s-text"><span class="label-box"></span> games</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">4.</span><span class="s-text"><span class="label-box"></span> students</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">5.</span><span class="s-text"><span class="label-box"></span> pictures</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">6.</span><span class="s-text"><span class="label-box"></span> dinners</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">7.</span><span class="s-text"><span class="label-box"></span> books</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">8.</span><span class="s-text"><span class="label-box"></span> plants</span></div>
+    </div>
+    
+
+  
+
+  
+    <h2>Part D — The Plural Pattern</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Say each word and clap the syllables. Write the number of syllables next to the word.</div>
+
+  
+
+  
+    
+    <div class="gap-sentence">
+      <div class="s-row"><span class="s-num">1.</span><span class="s-text">books  ______  syllables</span></div>
+    </div>
+    
+    <div class="gap-sentence">
+      <div class="s-row"><span class="s-num">2.</span><span class="s-text">dogs  ______  syllables</span></div>
+    </div>
+    
+    <div class="gap-sentence">
+      <div class="s-row"><span class="s-num">3.</span><span class="s-text">glasses  ______  syllables</span></div>
+    </div>
+    
+    <div class="gap-sentence">
+      <div class="s-row"><span class="s-num">4.</span><span class="s-text">friends  ______  syllables</span></div>
+    </div>
+    
+
+  
+
+  
+    <div class="writing-prompt"><strong>Rule:</strong> After voiceless sounds (like /k/), -s sounds like <strong>/s/</strong>: <em>books</em> = 1 syllable. After voiced sounds (like /ɡ/), -s sounds like <strong>/z/</strong>: <em>dogs</em> = 1 syllable. After sibilants (like /s/, /z/, /ʃ/), -s sounds like <strong>/ɪz/</strong> and adds a syllable: <em>glasses</em> = 2. Dropped plurals hide the meaning — <em>book</em> is one, <em>books</em> is many!</div>
+
+  
+
+  
+    <h2>Part E — Does the Ending Matter?</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Circle the correct form, then answer the question.</div>
+
+  
+
+  
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">1.</span><span class="s-text">Circle the correct form: I have three (book / books).</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">2.</span><span class="s-text">Circle the correct form: She has two (dog / dogs).</span></div>
+    </div>
+    
+    <div class="task1-sentence">
+      <div class="s-row"><span class="s-num">3.</span><span class="s-text">Does <em>glasses</em> have more syllables than <em>glass</em>? <span class="label-box"></span>  yes / no</span></div>
+    </div>
+    
+
+  
+
+  
+    <div class="highlight-bar">Main Activity — Catch the Finals</div>
+
+  
+
+  
+    <h2>Part F — Catch the Finals Game</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Tell your partner <strong>two things you own</strong>. Your partner holds up one finger for every plural /s/, /z/, or /ɪz/ they hear — 1 point per sound. Dropped sound? Say it again! Then swap.</div>
+
+  
+
+  
+    
+    <div class="join-item">
+      <div class="s-row"><span class="s-num">1.</span><span class="s-text">I have ______.  My score: <span class="label-box"></span></span></div>
+      <div class="write-lines">
+        <div class="wl"></div>
+      </div>
+    </div>
+    
+    <div class="join-item">
+      <div class="s-row"><span class="s-num">2.</span><span class="s-text">I have ______.  My score: <span class="label-box"></span></span></div>
+      <div class="write-lines">
+        <div class="wl"></div>
+      </div>
+    </div>
+    
+
+  
+
+  
+    <h2>Part G — Florence's Recording: Tick or Cross</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Listen to Florence talking about her life. The numbered underlined words end with a plural <strong>/s/</strong>, <strong>/z/</strong>, or <strong>/ɪz/</strong>. For each numbered word, write <strong>✓</strong> if Florence pronounces the plural correctly, or <strong>✗</strong> if she drops it.</div>
+
+  
+
+  
+    <div class="writing-prompt"><div class="transcript">Um, my name is Kalaphat and my nickname is Florence and I'm, I'm, how old are you?<br><br>I'm [0] <u>14 <strong>years</strong></u> old but next month I will be 15.<br><br>Uh, I, I was born in Ayutthaya and come here to <u><strong>studies</strong></u> in Bangkok, so I now live in Bangkok near the, near the school, uh, like around 7-Eleven.<br><br>I use it everyday like, uh, four hours a day.<br><br>And, yeah.<br><br>Um, app and website I like best is, I think it's Instagram because their news feed is really interesting. It's related to the <u><strong>things</strong></u> [1] that I love and enjoy doing and also I can text with my <u><strong>friends</strong></u> [2] on it and also making a video call.<br><br>Um, I see a girl writing a notebook and she has uh short hair and she wears a hoodie.<br><br>Uh, she's writing, I think a homework and she's using her laptop to do her homework and on the desk it have a book, uh, three <u><strong>books</strong></u> [3].<br><br>Uh, they have science and English grammar and something I cannot read.<br><br>On her background, uh, I can see her bed and her, on the wall it have <u><strong>pictures</strong></u> [4] hanging on it and she have a bookshelf that have many <u><strong>books</strong></u> [5] and a <u><strong>plants</strong></u> [6] on it.<br><br>And also she's, uh, a table she's sitting is near a window and I think it's, uh, a day where, where she do it.<br><br>Okay, first Kaohom.<br><br>Yeah, I think that's so, I think it's also great, uh, activity to do but I think for me, uh, playing board <u><strong>game</strong></u> [7] is also a great activity to do with your <u><strong>friends</strong></u> [8] so you, so you won't be bored.<br><br>Uh, for me I have a <u><strong>siblings</strong></u> [9] so I often play the game with them instead of cooking because I often don't like, uh, how they just, uh, shake the cooking and I think it was more fun to do a board game.<br><br>Yeah, I get your point.<br><br>I think board game it's look really interesting to do with your <u><strong>friends</strong></u> [10] or your <u><strong>siblings</strong></u> [11].<br><br>Sometimes I also play board game with my family and my brother too.<br><br>Uh, I think painting it's really interesting activity with your <u><strong>friends</strong></u> [12] because like you can paint something together to keep the memory or like paint something that you are enjoy doing together.<br><br>I think it will give you memory and show your new idea and share it together.<br><br>Yeah, I think so because like painting can like paint the memory together and we can spend time together painting.<br><br>Um, for I think for the best I think we go for board <u><strong>games</strong></u> [13].<br><br>I also think that too because I have a older brother and room too and uh whenever we have a <u><strong>dinners</strong></u> [14], we, we have a dinner he's always playing on his phone and my dad told him to stop but he just all the time.<br><br>And also my dad also play uh a phone all the time when he at home.<br><br>I think the best <u><strong>things</strong></u> [15], I can, can I have a question again?<br><br>I think the best thing having on the internet is we can find uh information quicker and I think it's more correct than reading a book because I spend less time reading a book and sometime I don't understand uh like some word, yeah.<br><br>I think it's better to play game with <u><strong>friends</strong></u> [16] because we can enjoy the time together and play with <u><strong>friends</strong></u> [17] is more, more, more enjoyable and fun because we can talk together when we are playing and playing together is like you can share your idea and like yes, it's very fun.<br><br>Um, for me I when I didn't have a digital, I'm just go to sleep or maybe had a talk, I did talk with my <u><strong>siblings</strong></u> [18] or my family.<br><br>Um, I think school should allow <u><strong>students</strong></u> [19] to use phone in the class because sometime we have to do a research or searching information for our work and homework.<br><br>It's like you can use it in the useful way and the correct way if you can separate your time properly.<br><br>Thanks.</div></div>
+
+  
+
+  
+    <h2>Part H — Model Reading: Partner Check</h2>
+
+  
+
+  
+    <div class="instructions"><strong>Instructions:</strong> Listen to the model reading of the paragraph. Then take turns reading it to your partner. The numbered underlined words end with a plural <strong>/s/</strong>, <strong>/z/</strong>, or <strong>/ɪz/</strong>. Your partner writes <strong>✓</strong> if you pronounce the plural correctly, or <strong>✗</strong> if you drop it.</div>
+
+  
+
+  
+    <div class="writing-prompt"><div class="transcript">I love my <u><strong>things</strong></u> [1]. I have three <u><strong>books</strong></u> [2] on my desk, two <u><strong>dogs</strong></u> [3] in the garden, and four <u><strong>glasses</strong></u> [4] in the kitchen. My <u><strong>friends</strong></u> [5] come to my house and we play board <u><strong>games</strong></u> [6]. My <u><strong>siblings</strong></u> [7] have their own <u><strong>things</strong></u> [8] too. We have <u><strong>plants</strong></u> [9] in every room and <u><strong>pictures</strong></u> [10] on every wall. I like my house because it is full of <u><strong>things</strong></u> [11] that make me happy.</div></div>
+
+  
+
+  
+    <div class="page-break"></div>
+
+  
+
+  
+    <h2>Answer Key (Teacher — requires audition)</h2>
+
+  
+
+  
+    <div class="writing-prompt"><strong>Part A:</strong> 3 plural sounds — <em>books</em> (/s/), <em>dogs</em> (/z/), <em>glasses</em> (/ɪz/).<br><br><strong>Part B:</strong> 1. books / book — ✗ &nbsp; 2. dogs / dog — ✗ &nbsp; 3. glasses / glass — ✗ &nbsp; 4. friends / friend — ✗ &nbsp; 5. years / year — ✗. Pattern ✗✗✗✗✗ — all dropped.<br><br><strong>Part C:</strong> [answers require teacher audition — listen to the discrimination track and verify each tick/cross].<br><br><strong>Part D syllables:</strong> books = 1, dogs = 1, glasses = 2, friends = 1.<br><br><strong>Part E:</strong> 1. books &nbsp; 2. dogs &nbsp; 3. yes — <em>glasses</em> has 2 syllables, <em>glass</em> has 1.<br><br><strong>Game:</strong> 1 point per heard plural /s/, /z/, or /ɪz/; do-over until the sound is heard.<br><br><strong>Part G (Florence's transcript):</strong> ✓ = pronounced correctly, ✗ = plural dropped. <strong>Answers require teacher audition.</strong> Florence's feedback notes she "sometimes drops the 's' at the end of plural words" — the key must be verified by listening to florence-33171.m4a. 19 targets: [0] years (example, not scored) · [1] things · [2] friends · [3] books · [4] pictures · [5] books · [6] plants · [7] game · [8] friends · [9] siblings · [10] friends · [11] siblings · [12] friends · [13] games · [14] dinners · [15] things · [16] friends · [17] friends · [18] siblings · [19] students.<br><br><strong>Part H (Model reading):</strong> 11 targets: [1] things (/z/) · [2] books (/s/) · [3] dogs (/z/) · [4] glasses (/ɪz/) · [5] friends (/z/) · [6] games (/z/) · [7] siblings (/z/) · [8] things (/z/) · [9] plants (/z/) · [10] pictures (/z/) · [11] things (/z/).</div>
+
+  
+
+
+</body>
+</html>
