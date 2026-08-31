@@ -1,0 +1,67 @@
+{
+  "name": "Shape S - Grammar Noticing (Noticing-First)",
+  "description": "Noticing-first grammar lesson for a specific target structure (e.g. the simple past regular -ed and common irregular forms that learners from non-marking L1s drop). Learners are first made to NOTICE the gap between the learner/L1-transfer version and the target (a contrast pair), then the feature is isolated, linked to meaning, drilled, and used freely. Authentic past-student production serves as the final noticing text.",
+  "pedagogical_justification": "Grammar instruction that works is noticing-first (Schmidt, 1990; Schmidt & Frota, 1986): learners must consciously notice a feature in input for it to become intake, and instruction is most effective when it primes that noticing. Because learners can produce a structure they do not notice (they read/hear past their own interlanguage), the gap between what they say and the target must be made SENSIBLE first — the grammar analog of making the gap AUDIBLE in pronunciation. For learners whose L1 does not mark past tense, the -ed ending (and irregular past forms) are the critical case: the learner's interlanguage uses the base form where the target requires a marked past, so learners believe they are using past tense when the listener/reader sees nothing. The error-deletion threat makes the decisive feature choice: it changes the grammatical reading of the sentence, not just its sound.\n\nThe shape therefore follows the same perception-before-production sequence established for pronunciation (Shape L): noticing trigger before discrimination, discrimination before feature focus, and production only after the feature has been isolated and linked to meaning. The arc embeds four design principles carried over from Shape L and adapted to grammar:\n\n(1) SALIENCE IS DESIGNED, NOT ASSUMED. Model sentences place every target form where the contrast is unambiguous. For grammar this means the past form is the ONLY grammatically accepted reading in its context and the learner version reads clearly 'off' against it. Traps: contexts that accept both forms (/\\\"I saw the movie yesterday\\\" vs \\\"I have seen...\\\"/ are both fine), or where the learner's base form is still intelligible and reads as present.\n\n(2) THE GAP IS MADE SENSIBLE WITH A CONTRAST PAIR. The trigger stage presents a labelled pair of the same model sentence — a \\\"Learner English\\\" version (base form) and a \\\"Standard English\\\" version (marked past) — and asks what changed. For grammar this is visual/meaning-based rather than audio.\n\n(3) TARGETS ARE NUMBERED, KEYS ARE AUDITED. Noticing texts carry numbered underlined targets ([0] example item, [1]-[n] scored). The tick/cross answer key CANNOT be inferred from the text alone — it must be verified because a learner may \\\"correctly\\\" flag a form while still not understanding the rule. Unlike dropped consonants, this key CAN be judged by a competent human teacher (the feature is categorical), but LLM-as-judge JSON remains shape-unreliable and must be human-checked.\n\n(4) AUTHENTIC STUDENT DATA IS THE FINAL INPUT. The closing stage uses a real past-student text (from assessment corpus) as an authentic noticing text: the transcript is corrected ONLY in the target feature; all other grammar stays verbatim (authenticity is the point).\n\nStage times assume a 46-minute lesson.",
+  "main_aim_format": "By the end of the lesson, learners will be better able to notice and use the [target structure] in the context of [topic].\n",
+  "example_lesson_plan": {
+    "header": "<b>Objective:</b><br>By the end of the lesson, learners will be better able to notice and use the simple past (regular -ed and common irregular forms) in the context of talking about what they did last night.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>[DD-MM-YY]<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>S (Grammar Noticing)<br><b>Materials:</b><br>Slideshow, worksheet (Parts A-H), contrast-pair track, Part B and Part C tracks, past-student text, model reading<br><b>Assessment:</b><br>Discrimination accuracy (Parts A-C), production observation during drills and the game (Part F)<br><b>Systems:</b><br>Grammar\n",
+    "stages": [
+      {
+        "stage": "Lead-in",
+        "stage_number": 1,
+        "stage_aim": "To activate the topic and elicit the target structure in natural speech",
+        "procedure": "- Show the splash slide. Ask: What do you see? What might this lesson be about? Let students speculate.\n- Advance to the title slide. Confirm the theme: the past tense, how we say what we did.\n- Ask: What did you do last night? Elicit 3-4 answers. Write them on the board exactly as students say them, without comment.\n- Tell students the focus is how we talk about things that already happened.\n",
+        "time": 4,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Noticing trigger",
+        "stage_number": 2,
+        "stage_aim": "To make the gap between the learner version and the target sensible",
+        "procedure": "- Display the model sentence: Yesterday I played football with my friends and went home at eight. The past form is the only accepted reading in this context.\n- Present the contrast pair, labelled: \"Learner English\" (Yesterday I play football with my friends and go home at eight.) and \"Standard English\" (Yesterday I played football with my friends and went home at eight.).\n- Ask: Can you see the difference? What changed? Which one is about the past?\n- Students underline every past verb they can find (Worksheet, Part A).\n- Feedback: the model sentence has four past forms: played, went, ...\n",
+        "time": 6,
+        "interaction": "T-Ss"
+      },
+      {
+        "stage": "Discrimination",
+        "stage_number": 3,
+        "stage_aim": "To perceive the target feature before producing it",
+        "procedure": "- Worksheet, Part B. Play the track: a narrator announces each number, a second voice reads each sentence once.\n- Students write ✓ if the verb is past (correct), or ✗ if the base form is used (learner version).\n- Check against the audited key. Pattern: ✗ ✓ ✗ ✓ ✓.\n- Repeat any sentences students could not perceive. Note who still cannot hear the difference.\n",
+        "time": 6,
+        "interaction": "Ind / T-Ss"
+      },
+      {
+        "stage": "Feature focus: the -ed/irregular pattern",
+        "stage_number": 4,
+        "stage_aim": "To isolate the past forms and link them to meaning",
+        "procedure": "- Worksheet, Part C. Play the track: each verb read once. Students write ✓ if it is past, or ✗ if it is base.\n- Check answers: played ✓, go ✗, watched ✓, went ✓, eat ✗, stayed ✓, saw ✓, help ✗.\n- Worksheet, Part D. Students clap the syllables of regular -ed words. Reveal one count per click: played = 1, wanted = 2, needed = 2, stopped = 1.\n- Elicit the rule: after /t/ or /d/, -ed adds a syllable; regular verbs otherwise take one syllable; irregular verbs change form (go-went, see-saw, eat-ate).\n- Worksheet, Part E: underline the past verb — play is base, played is past.\n",
+        "time": 8,
+        "interaction": "T-Ss / Ss-Ss"
+      },
+      {
+        "stage": "Controlled production",
+        "stage_number": 5,
+        "stage_aim": "To drill the marked past forms",
+        "procedure": "- Finger-tap drill on the model sentence: Yesterday I played (1) football with my friends and went (2) home at eight (3).\n- Backchain: went, went home, played football and went home, Yesterday I played football with my friends and went home at eight.\n- Choral and individual drill. Correction drill: teacher says the base form, students say the past (play -> played; go -> went).\n- Correct errors immediately. -ed words keep their marker; irregular forms must change.\n",
+        "time": 8,
+        "interaction": "T-Ss / Ind"
+      },
+      {
+        "stage": "Freer use: Catch the Past",
+        "stage_number": 6,
+        "stage_aim": "To transfer the feature into spontaneous speech",
+        "procedure": "- Worksheet, Part F. Show the game slide and start the 5-minute timer.\n- Pairs: A tells B two things they did last night. B holds up one finger for every past form heard — one point per correct past verb.\n- Base form = do-over until B hears the past. Swap after 2.5 minutes.\n- Content feedback first, then language feedback on the most frequent base forms.\n",
+        "time": 8,
+        "interaction": "Ss-Ss"
+      },
+      {
+        "stage": "Authentic noticing and wrap-up",
+        "stage_number": 7,
+        "stage_aim": "To consolidate noticing on authentic student speech and set up recycling",
+        "procedure": "- Worksheet, Part G. Play a past student's recording (from assessment audio). Students tick or cross the numbered underlined targets.\n- The transcript is corrected ONLY in the target feature; all other grammar stays verbatim. [0] is the example item.\n- Reveal the audited key (e.g. only [4], [9], [10] and [18] were past).\n- Worksheet, Part H. Play the model reading. Pairs read the paragraph to each other and tick or cross.\n- Quick-fire exit: play, played; go, went; eat, ate. Say them with the past form. Tell students the past tense returns in the next warm-up.\n",
+        "time": 6,
+        "interaction": "Ss-Ss / T-Ss"
+      }
+    ]
+  }
+}

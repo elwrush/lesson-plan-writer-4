@@ -1,0 +1,563 @@
+{
+  "meta": {
+    "title": "Grammar Pedagogy in ESL/EFL — Research Findings",
+    "description": "Evidence-based methods for teaching grammar in ESL/EFL settings, with particular emphasis on the Noticing Hypothesis and consciousness-raising approaches. Synthesised from SerpApi Google Scholar, CORE, and Trafilatura extraction across 30+ sources.",
+    "date": "2026-08-31",
+    "sources": [
+      "Schmidt (1990, 1995) — Noticing Hypothesis",
+      "VanPatten (1996, 2004) — Input Processing & Processing Instruction",
+      "Sharwood Smith (1991, 1993) — Input Enhancement",
+      "Ellis (1997, 2003) — Focus on Form & Consciousness-Raising Tasks",
+      "Long (1991) — Focus on Form",
+      "Krashen (1985) — Input Hypothesis",
+      "Benati (2005, 2016, 2017) — Processing Instruction",
+      "Wong (2005) — Input Enhancement in the Classroom",
+      "Al-Jarf (2026) — Systematic Review of EFL Grammar Studies 2000–2025",
+      "Farahian & Avarzamani (2019) — Processing Instruction Revisited",
+      "Jalali & Jafarigohar (2026) — Processing Instruction vs Consciousness-Raising vs Input Enhancement",
+      "Hashim et al. (2019) — Gamified Grammar Learning (183 citations)",
+      "Castillo-Cuesta (2020) — Digital Games for EFL Grammar (152 citations)",
+      "Williams (2005) — Form-Focused Instruction review (357 citations)",
+      "Kuiken & Vedder (2005) — Noticing and Interaction",
+      "Flowerdew (2015) — Data-Driven Learning (279 citations)",
+      "Collentine (1998) — Cognitive Principles and CALL Grammar Instruction"
+    ]
+  },
+
+  "theoretical_frameworks": [
+    {
+      "id": "noticing-hypothesis",
+      "name": "The Noticing Hypothesis",
+      "theorist": "Richard Schmidt (1990, 1995)",
+      "core_claim": "Learners must consciously notice (attend to) linguistic forms in the input before those forms can be converted into intake and eventually acquired. Subliminal exposure is insufficient; focal and peripheral attention are both necessary.",
+      "key_distinctions": {
+        "noticing": "Detection + conscious attention to form in the input (Schmidt's 'noticing')",
+        "understanding": "Noticing + ability to state a rule or generalisation ('noticing-plus')",
+        "intake": "The portion of input that is actually processed and available for acquisition"
+      },
+      "pedagogical_implications": [
+        "Teachers must create conditions that promote noticing — through input enhancement, task design, or explicit instruction",
+        "Noticing can be promoted without explicit grammar rules (via consciousness-raising tasks)",
+        "Noticing in input is necessary but may not be sufficient — output and interaction also promote noticing of gaps in interlanguage",
+        "Frequency and salience of target forms in input directly affect noticing"
+      ],
+      "criticisms": [
+        "De Bot (1996): not all noticed features are acquired",
+        "Truscott (1998): the relationship between noticing and acquisition is not as direct as Schmidt claims",
+        "Some SLA researchers argue that implicit learning can occur without conscious noticing"
+      ]
+    },
+    {
+      "id": "input-processing",
+      "name": "Input Processing Hypothesis",
+      "theorist": "Bill VanPatten (1996, 2004)",
+      "core_claim": "Learners have limited processing capacity and tend to process meaning before form. They apply processing strategies (e.g., 'Lexical Preference' — they skip grammatical morphemes if lexical items carry the same meaning) that cause them to miss grammatical cues in input.",
+      "strategies_identified": [
+        "Lexical Preference: learners look for meaning in words, not grammar (e.g., 'yesterday' signals past tense, so the -ed ending is skipped)",
+        "Preference for Meaning-Bearing Input: learners process content words before function words or morphology",
+        "First Noun Principle: learners tend to assign agent role to the first noun or pronoun they encounter",
+        "Working Memory Limitations: learners cannot simultaneously process form and meaning"
+      ],
+      "pedagogical_implication": "Processing Instruction (PI) restructures input to force learners to attend to grammatical morphology by removing lexical cues and creating structured input activities where meaning depends on the target form."
+    },
+    {
+      "id": "input-enhancement",
+      "name": "Input Enhancement",
+      "theorist": "Sharwood Smith (1991, 1993)",
+      "core_claim": "Teachers can increase the salience of target forms in input through external manipulation, making noticing more likely without changing the meaning of the input.",
+      "techniques": {
+        "textual_enhancement": [
+          "Bolding, underlining, italicising, or colouring target forms",
+          "Can be single (e.g., bold only) or compound (e.g., bold + underline + capitalise)",
+          "Draws visual attention to specific forms in reading texts"
+        ],
+        "input_flooding": [
+          "Increasing the frequency of target forms in a text without explicit marking",
+          "Learners encounter the form repeatedly in meaningful context"
+        ],
+        "auditory_enhancement": [
+          "Pausing before or after target forms",
+          "Stressing or emphasising target forms in speech",
+          "Slowing speech rate at target points"
+        ],
+        "visual_enhancement": [
+          "Graphics, icons, or gestures highlighting form-meaning connections",
+          "On-screen highlighting in digital texts"
+        ]
+      },
+      "evidence": "Jalali & Jafarigohar (2026) found that input enhancement was effective for grammar acquisition, though Processing Instruction outperformed it on interpretation tasks. Textual enhancement alone shows mixed results — more effective when combined with explicit instruction or tasks."
+    },
+    {
+      "id": "focus-on-form",
+      "name": "Focus on Form (FonF)",
+      "theorist": "Michael Long (1991)",
+      "core_claim": "Attention to language form should arise incidentally during meaning-focused communication, triggered by communication breakdowns or learner difficulties. This is distinct from 'focus on forms' (pre-planned syllabus of grammar items) and 'focus on meaning' (pure communicative teaching with no attention to form).",
+      "sub_approaches": [
+        {
+          "name": "Consciousness-Raising Tasks",
+          "proponents": "Ellis (1991, 1997)",
+          "description": "Tasks that draw learners' attention to specific grammatical features through guided discovery. Learners analyse examples, identify patterns, and formulate rules. The goal is explicit knowledge (understanding), not immediate automatization.",
+          "task_types": [
+            "Compare/contrast tasks (two texts with different uses of a form)",
+            "Rule-search tasks (find the rule governing the form)",
+            "Error-detection tasks (identify and correct grammatical errors)",
+            "Text-reconstruction tasks (rebuild a text with gaps targeting the form)"
+          ]
+        },
+        {
+          "name": "Processing Instruction (PI)",
+          "proponents": "VanPatten & Cadierno (1993), Benati (2005)",
+          "description": "Restructures input to counteract learners' default processing strategies. Uses structured input activities where learners must attend to grammatical form to comprehend meaning. Replaces traditional output practice with input interpretation tasks.",
+          "key_principles": [
+            "Map pedagogical interventions to specific processing strategies",
+            "Use interpretation tasks, not production tasks, during instruction",
+            "Remove or alter lexical/syntactic cues that allow learners to bypass the target form",
+            "Provide structured input in referential and affective activity types"
+          ]
+        },
+        {
+          "name": "Textual Enhancement",
+          "proponents": "Sharwood Smith (1991, 1993), Wong (2005)",
+          "description": "Visually manipulates written text (bold, underline, italics, colour) to increase the perceptual salience of target forms. A 'low-intrusion' technique — does not interrupt communication or require explicit explanation.",
+          "evidence_summary": "Meta-analyses show small-to-medium effects on noticing and intake. Most effective when combined with meaning-focused tasks, not in isolation. Compound enhancement (multiple visual cues) is more effective than single enhancement."
+        }
+      ]
+    },
+    {
+      "id": "output-hypothesis",
+      "name": "Output Hypothesis",
+      "theorist": "Merrill Swain (1985, 1995)",
+      "core_claim": "Producing language (speaking or writing) serves three functions that promote acquisition: (1) a noticing/triggering function — output forces learners to notice gaps in their interlanguage; (2) a hypothesis-testing function — learners test hypotheses about the target language and receive feedback; (3) a metalinguistic function — learners use language to reflect on language.",
+      "relevance_to_grammar": "Izumi (2003) showed that output tasks promote noticing of grammatical forms in input more than comprehension-only tasks. The act of producing language creates a 'gap' between what learners want to say and what they can say, driving attention to form."
+    }
+  ],
+
+  "methods": [
+    {
+      "id": "consciousness-raising-tasks",
+      "name": "Consciousness-Raising (CR) Tasks",
+      "category": "Noticing-based",
+      "description": "Guided-discovery tasks where learners analyse language data, identify patterns, and articulate rules. The teacher provides structured input and elicits awareness rather than explaining rules.",
+      "theoretical_basis": "Ellis (1991, 1997); Schmidt (1990) Noticing Hypothesis",
+      "evidence": "CR tasks improve explicit grammatical knowledge and accuracy, especially when combined with production practice. They promote deeper processing than rule presentation because learners must actively analyse form-meaning connections.",
+      "implementation": {
+        "pre_task": "Present a communicative text or dialogue containing the target structure",
+        "task": [
+          "Learners read/listen and answer meaning-focused questions",
+          "Learners complete a noticing task: 'Find all examples of [structure] and underline them'",
+          "Learners compare examples: 'What do these sentences have in common?'",
+          "Learners articulate or write the rule in their own words",
+          "Learners check their rule against additional examples"
+        ],
+        "post_task": "Controlled production practice to consolidate awareness into skill",
+        "example_task_types": [
+          "Error correction tasks (find and fix 5 errors)",
+          "Text comparison tasks (same topic, different tenses — what changed?)",
+          "Gap-fill with explanation (fill the gap AND explain why)",
+          "Sentence combining (combine two simple sentences into one complex sentence)",
+          "Rule formulation tasks (write the rule for using the past perfect)"
+        ]
+      },
+      "advantages": [
+        "Promotes deep processing — learners actively construct knowledge",
+        "Develops metalinguistic awareness (ability to talk about grammar)",
+        "Does not require the teacher to explain rules — learners discover them",
+        "Effective for B1+ learners who can handle analytical tasks",
+        "Results are more durable than rule-memorisation (Costa Rica CR study showed delayed post-test gains)"
+      ],
+      "limitations": [
+        "Requires learners with sufficient L1 literacy and analytical skills",
+        "May not lead to automatization without follow-up production practice",
+        "Less effective for very young learners or beginners with limited literacy",
+        "Time-intensive compared to explicit rule presentation"
+      ],
+      "research_findings": "Consciousness-raising tasks for the learning of grammar in high school English language classrooms (Actualidades Investigativas en Educación, 2018) found that CR tasks significantly improved ninth-graders' scores on simple past, past continuous, and present perfect, with gains retained on delayed post-tests. Students positively assessed the tasks, noting they encouraged active participation and critical thinking."
+    },
+    {
+      "id": "processing-instruction",
+      "name": "Processing Instruction (PI)",
+      "category": "Noticing-based",
+      "description": "An input-based instructional approach that restructures input to counteract learners' default processing strategies. Learners do structured input activities where they must attend to grammatical form to comprehend meaning.",
+      "theoretical_basis": "VanPatten (1996) Input Processing; VanPatten & Cadierno (1993)",
+      "evidence": "PI consistently outperforms traditional output-based instruction on interpretation tasks and often matches or exceeds it on production tasks (Farahian & Avarzamani, 2019; Jalali & Jafarigohar, 2026). PI group outperformed both dictogloss and meaningful output instruction in interpreting and producing passive voice.",
+      "implementation": {
+        "step_1": "Identify the processing strategy learners use that causes problems (e.g., 'Lexical Preference' for tense marking)",
+        "step_2": "Design structured input activities that force learners to process the target form",
+        "step_3": "Use two activity types: referential (right/wrong answer exists, form determines meaning) and affective (learners express opinions, form still matters)",
+        "step_4": "Provide explicit information about the rule AFTER input activities (not before)",
+        "example_activity": "For passive voice: Show 10 sentences. Learners must decide WHO performed the action (agent). In active sentences, agent is obvious. In passive sentences, agent is absent or oblique — learners must notice the form to answer correctly."
+      },
+      "advantages": [
+        "Targets the root cause of processing errors (not just the symptom)",
+        "More effective than traditional instruction for interpretation skills",
+        "Can be combined with explicit rule explanation for stronger gains",
+        "Effective across proficiency levels and L1 backgrounds",
+        "Produces durable gains — Farahian & Avarzamani (2019) found PI gains held on delayed post-tests"
+      ],
+      "limitations": [
+        "Requires careful task design aligned to specific processing strategies",
+        "Does not develop production skills as directly as output-based methods",
+        "Teacher training needed — many teachers unfamiliar with PI principles",
+        "Less effective for forms that are not subject to common processing strategy errors"
+      ],
+      "research_findings": "Processing Instruction Revisited (Farahian & Avarzamani, 2019) compared PI, dictogloss, and output instruction on passive voice acquisition. PI group significantly outperformed both alternatives on interpretation tasks and matched them on production. Jalali & Jafarigohar (2026) found PI was more effective than consciousness-raising tasks and textual input enhancement for causative structures, especially on interpretation measures."
+    },
+    {
+      "id": "textual-enhancement",
+      "name": "Textual Enhancement (TE)",
+      "category": "Noticing-based",
+      "description": "Visually highlighting target grammatical forms in reading texts through bolding, underlining, italicising, colouring, or a combination. A low-intrusion technique that draws attention to form without disrupting meaning processing.",
+      "theoretical_basis": "Sharwood Smith (1991) Input Enhancement; Schmidt (1990) Noticing Hypothesis",
+      "evidence": "Small-to-medium effect sizes on noticing and acquisition. More effective when combined with other techniques (compound TE > single TE). Best when target forms are already somewhat familiar — pure exposure without awareness does not lead to acquisition.",
+      "implementation": {
+        "techniques": [
+          "Single TE: bold OR underline OR italicise target forms",
+          "Compound TE: bold + underline + colour (multiple cues)",
+          "Input flooding: increase frequency of target forms without highlighting",
+          "Combined: flooding + enhancement"
+        ],
+        "design_principles": [
+          "Highlight only the target structure — do not over-enhance",
+          "Maintain communicative value of the text — learners should still focus on meaning",
+          "Combine with a follow-up task that requires processing the highlighted forms",
+          "Use sparingly — too much enhancement reduces effectiveness"
+        ]
+      },
+      "advantages": [
+        "Non-intrusive — does not interrupt the flow of communication",
+        "Easy to implement — requires only text modification",
+        "Can be combined with any task type",
+        "Works across proficiency levels",
+        "Especially effective for reading texts in digital formats"
+      ],
+      "limitations": [
+        "Inconsistent results when used alone (some studies show no effect)",
+        "More effective for explicit knowledge than implicit acquisition",
+        "May cause over-reliance on highlighted forms (learners ignore non-highlighted text)",
+        "Not effective for forms that are structurally complex — learners may notice the form but not understand the rule"
+      ],
+      "research_findings": "Ahmad (2025) reviewed input enhancement techniques and concluded that compound TE (multiple visual cues) consistently outperforms single TE. The most effective approach is TE combined with structured tasks that require learners to process the enhanced forms for meaning. Jalali & Jafarigohar (2026) found TE was effective but less so than Processing Instruction for causative structures."
+    },
+    {
+      "id": "game-based-grammar",
+      "name": "Game-Based Grammar Learning",
+      "category": "Innovative / Technology-Enhanced",
+      "description": "Using digital and physical games (board games, video games, mobile apps, gamification elements) to teach grammar structures. Games create communicative pressure to use target forms while maintaining engagement.",
+      "theoretical_basis": "Skehan (1998) Task-Based Learning; Dörnyei (2001) Motivation in Language Learning",
+      "evidence": "Meta-analyses show significant gains: Hashim et al. (2019) — gamified learning improves grammar in ESL contexts (183 citations). Castillo-Cuesta (2020) — digital games enhance EFL grammar and vocabulary (152 citations). Aprilia & Nasekhah (2025) systematic review confirmed positive effects of game-based learning on EFL grammar.",
+      "implementation": {
+        "game_types": [
+          "Quiz-based (Kahoot, Quizlet) — drill-based grammar practice with competition",
+          "Role-playing games — grammar structures emerge from narrative interaction",
+          "Board/card games — grammar-focused with rule-following mechanics",
+          "Simulation games — authentic communication requiring target forms",
+          "Gamification — points, badges, leaderboards layered onto grammar activities"
+        ],
+        "design_principles": [
+          "Target grammar must be embedded in game mechanics, not bolted on",
+          "Competition and collaboration increase engagement and output",
+          "Immediate feedback on grammar errors is essential",
+          "Game difficulty should match learner proficiency (Krashen's i+1)"
+        ]
+      },
+      "advantages": [
+        "High engagement and motivation — reduces affective barriers",
+        "Encourages communication in meaningful contexts",
+        "Immediate feedback loops support noticing of errors",
+        "Can be adapted for online/hybrid learning",
+        "Effective for reluctant learners and lower proficiency groups"
+      ],
+      "limitations": [
+        "Risk of gameplay overshadowing grammar learning",
+        "Time-consuming to set up and debrief",
+        "Not all games promote noticing of form — some are purely meaning-focused",
+        "Assessment of grammar gains can be difficult",
+        "Digital games require technology access"
+      ]
+    },
+    {
+      "id": "task-based-grammar",
+      "name": "Task-Based Language Teaching (TBLT) for Grammar",
+      "category": "Communicative",
+      "description": "Grammar is taught incidentally through completion of meaningful tasks. The teacher pre-selects target structures, designs tasks that require their use, and provides feedback during or after task performance.",
+      "theoretical_basis": "Long (1985, 1991) Focus on Form; Skehan (1998) Task-Based Learning; Ellis (2003) Task-Based Language Teaching",
+      "evidence": "TBLT is one of the most widely supported approaches for integrating grammar instruction with communicative competence. Grammar is not taught in isolation but as a resource for completing tasks. Effectiveness depends on task design and whether tasks create genuine communicative need for the target structure.",
+      "implementation": {
+        "stages": [
+          "Pre-task: Introduce the topic, activate schemata, pre-teach critical vocabulary (but NOT the target grammar)",
+          "Task cycle: Learners perform a task in pairs/groups (information gap, opinion exchange, problem-solving). Teacher monitors and notes errors.",
+          "Language focus: Teacher draws attention to the target structure — either through a consciousness-raising task or explicit explanation",
+          "Report: Learners report back to the class, using target structures in a more formal register"
+        ],
+        "task_types": [
+          "Information gap tasks (e.g., describe a picture, compare two versions)",
+          "Problem-solving tasks (e.g., negotiate a solution, rank items)",
+          "Opinion gap tasks (e.g., discuss, debate, survey classmates)",
+          "Text reconstruction tasks (e.g., dictogloss — reconstruct a text from notes)"
+        ]
+      },
+      "advantages": [
+        "Grammar is taught in meaningful context, not in isolation",
+        "Promotes both fluency and accuracy",
+        "Encourages negotiation of meaning, which promotes noticing",
+        "Students are active participants, not passive recipients",
+        "Aligns with communicative language teaching principles"
+      ],
+      "limitations": [
+        "Risk that grammar is neglected if the teacher focuses only on meaning",
+        "Task design is critical — poorly designed tasks do not promote target form use",
+        "Difficult to ensure all students use the target structure",
+        "May not be suitable for very large classes",
+        "Requires experienced teachers who can integrate form and meaning"
+      ]
+    },
+    {
+      "id": "data-driven-learning",
+      "name": "Data-Driven Learning (DDL)",
+      "category": "Corpus-Based / Inductive",
+      "description": "Learners use corpus concordances (multiple examples of a word or structure in context) to discover grammatical patterns through inductive reasoning. The teacher provides a mini-corpus and guided discovery tasks.",
+      "theoretical_basis": "Johns (1991) Data-Driven Learning; Flowerdew (2015) Corpora in Language Learning",
+      "evidence": "Flowerdew (2015) meta-analysis found DDL promotes inductive grammar learning and noticing of patterns. More effective for advanced learners who can handle analytical tasks. Most effective for frequent, salient grammatical features.",
+      "implementation": {
+        "steps": [
+          "Teacher prepares a mini-corpus (10-20 examples) of the target structure in context",
+          "Learners examine the examples and identify patterns (word order, collocations, morphology)",
+          "Learners articulate a hypothesis about the rule",
+          "Learners check their hypothesis against additional examples",
+          "Learners apply the rule in production tasks"
+        ],
+        "tools": [
+          "AntConc (free corpus analysis tool)",
+          "SkELL (Sketch Engine for Language Learning)",
+          "Ludwig.guru (search engine for English sentences)",
+          "Google Ngram Viewer (frequency data)"
+        ]
+      },
+      "advantages": [
+        "Promotes deep noticing — learners must actively analyse patterns",
+        "Exposes learners to authentic language use",
+        "Develops learner autonomy and analytical skills",
+        "Effective for vocabulary-grammar connections (collocations, colligations)"
+      ],
+      "limitations": [
+        "Requires learner literacy and analytical skills",
+        "Time-consuming to prepare corpora and guide discovery",
+        "Less effective for infrequent or structurally complex forms",
+        "May overwhelm beginners"
+      ]
+    },
+    {
+      "id": "grammar-noticing",
+      "name": "Grammar Noticing (Noticing-First)",
+      "category": "Noticing-based",
+      "description": "A noticing-first grammar lesson in the same arc as the pronunciation-noticing shape (Shape L). Learners are first made to NOTICE the gap between the learner/L1-transfer version of a structure and the target, then the feature is isolated, linked to meaning, drilled, and used freely. Authentic past-student production serves as the final noticing text.",
+      "theoretical_basis": "Schmidt (1990) Noticing Hypothesis; Schmidt & Frota (1986) — instruction primes noticing; Sharwood Smith (1993) Input Enhancement; Ellis (1991, 1997) Consciousness-Raising; VanPatten (1996) Input Processing; Swain (1985) Output Hypothesis. This is the grammar analog of the pronunciation-noticing design arc (Shape L).",
+      "pedagogical_justification": "Grammar instruction that works is noticing-first (Schmidt, 1990): learners must consciously notice a feature in input for it to become intake, and instruction is most effective when it primes that noticing (Schmidt & Frota, 1986). Because learners can produce a structure they do not notice (they hear/read past their own interlanguage), the gap between what they say and the target must be made SENSIBLE first — the grammar analog of making the gap AUDIBLE in pronunciation. The shape therefore follows the same perception-before-production sequence: noticing trigger before discrimination, discrimination before feature focus, and production only after the feature has been isolated and linked to meaning. The arc embeds four design principles carried over from Shape L and adapted to grammar.",
+      "design_principles_adapted_from_shape_l": [
+        "(1) SALIENCE IS DESIGNED, NOT ASSUMED. Model sentences place every target form where the contrast is unambiguous. For grammar this means: the target form must be the ONLY grammatically acceptable reading in its context, and the learner version must feel noticeably 'off' when placed against it. Traps: contexts that accept both forms (e.g. 'I saw the movie yesterday' vs 'I have seen...' both fine), or where the learner version is still intelligible.",
+        "(2) THE GAP IS MADE SENSIBLE WITH A CONTRAST PAIR. The trigger stage presents a pair: the learner/L1-transfer version and the target version of the same model sentence, labelled (e.g. 'Learner English' / 'Standard English'). For grammar this is visual/meaning-based rather than audio — the two versions are shown or spoken, and the learner must decide what changed.",
+        "(3) TARGETS ARE NUMBERED, KEYS ARE AUDITED. Noticing texts carry numbered underlined targets ([0] example item, [1]-[n] scored). The tick/cross answer key CANNOT be inferred from text alone — it must be verified against the audited key, because a learner may 'correctly' identify a form but still not understand the rule. For grammar, unlike pronunciation, the key CAN be judged by a competent human teacher (the feature is categorical), but LLM-as-judge output remains shape-unreliable and must be human-checked.",
+        "(4) AUTHENTIC STUDENT DATA IS THE FINAL INPUT. The closing stage uses a real past-student text (written or spoken, from assessment corpus) as an authentic noticing text: the transcript is corrected ONLY in the target feature; all other grammar stays verbatim (authenticity is the point)."
+      ],
+      "implementation": {
+        "stages_arc": [
+          {
+            "stage": "Lead-in",
+            "aim": "To activate the topic and elicit the target structure in natural speech",
+            "procedure": "Show the splash slide. Ask: What do you see? What might this lesson be about? Let students speculate. Advance to the title slide. Confirm the theme: the structure at the focus of the lesson. Ask a question that naturally elicits the target structure. Write student answers on the board exactly as they say them, without comment. Tell students the focus is a structure they use every day.",
+            "time_min": 4
+          },
+          {
+            "stage": "Noticing trigger",
+            "aim": "To make the gap between learner/L1-transfer and the target sensible",
+            "procedure": "Display the model sentence where the target form is unambiguous and the contrast is clear. Present the contrast pair: the same sentence in a 'Learner English' version and a 'Standard English' version, labelled. Ask: Can you see/hear the difference? What changed? Students tick the target form every time it appears (Worksheet, Part A). Feedback: the model sentence has N instances of the target.",
+            "time_min": 6
+          },
+          {
+            "stage": "Discrimination",
+            "aim": "To perceive the target feature before producing it",
+            "procedure": "Worksheet, Part B. Play the track (or show the text): a narrator announces each number, a second voice reads each sentence. Students write ✓ if the target form is correct, or ✗ if the learner version is used. Check against the audited key. Repeat any items students could not perceive. Note who still cannot see/hear the difference.",
+            "time_min": 6
+          },
+          {
+            "stage": "Feature focus: the pattern",
+            "aim": "To isolate the target form and link it to meaning",
+            "procedure": "Worksheet, Part C. Students read/listen to each target item and mark ✓ if the form is used, or ✗ if it is missing. Check the key. Worksheet, Part D. Students clap or count occurrences — reveal one count per click. Elicit the rule/pattern via a consciousness-raising question (What do these have in common? What changes when...?). Worksheet, Part E: circle/underline the target form and identify its marker.",
+            "time_min": 8
+          },
+          {
+            "stage": "Controlled production",
+            "aim": "To drill the target form",
+            "procedure": "Finger-tap/quotation drill on the model sentence. Backchain the model. Choral and individual drill. Correct errors immediately. The target form keeps its marker — do not drop it. Use a variant of the model sentence to avoid pure repetition.",
+            "time_min": 8
+          },
+          {
+            "stage": "Freer use",
+            "aim": "To transfer the feature into spontaneous speech/writing",
+            "procedure": "Worksheet, Part F. Show the game/task slide and start the timer. Pairs: A says something that must use the target form; B holds up one finger for every correct use — one point per correct form. Incorrect form = do-over until B hears/sees it correctly. Swap after half the time. Content feedback first, then language feedback on the most frequent errors.",
+            "time_min": 8
+          },
+          {
+            "stage": "Authentic noticing and wrap-up",
+            "aim": "To consolidate noticing on authentic student production and set up recycling",
+            "procedure": "Worksheet, Part G. Play a past student's text (from assessment corpus). Students tick or cross the numbered underlined targets. The transcript is corrected ONLY in the target feature; all other grammar stays verbatim. [0] is the example item. Reveal the audited key. Worksheet, Part H. Play/read the model version. Pairs read the paragraph to each other and tick or cross. Quick-fire exit: say/spell the target form with its marker. Tell students the target returns in the next warm-up.",
+            "time_min": 6
+          }
+        ],
+        "total_time_min": 46,
+        "example_noticing_text": "A paragraph containing 8-12 numbered underlined instances of the target form, one [0] example + [1]-[n] scored. The key is audited by a competent teacher/L1 speaker, never guessed."
+      },
+      "advantages": [
+        "Uses a proven noticing-first arc already validated for pronunciation (Shape L)",
+        "Unifies the three most effective noticing mechanisms: contrast-pair trigger, consciousness-raising, and authentic input",
+        "Gap is made sensible BEFORE production — learners do not drill a form they cannot perceive",
+        "Perception precedes production, reducing fossilised error repetition",
+        "Encourages active participation and critical thinking (as with CR tasks in the Costa Rica study)",
+        "Effective for B1+ learners who can handle analytical noticing tasks",
+        "Recycles a design template the team already builds reliably"
+      ],
+      "limitations": [
+        "Requires careful model-sentence design — the contrast must be unambiguous or the noticing trigger fails",
+        "Noticing and CR tasks develop explicit knowledge; follow-up production practice is required to automatise",
+        "The audited key for written texts still needs a competent human check (LLM-as-judge is shape-unreliable for grammar as for pronunciation)",
+        "Not ideal for very young or low-literacy learners who cannot handle analytical tasks",
+        "Less effective for structures whose learner version is also grammatically acceptable (contrast collapses)"
+      ],
+      "research_findings": "Directly analogous to the pronunciation-noticing arc, which yields large gains when the gap is made salient before production. For grammar, this shape unifies the evidence for CR tasks (Costa Rica study — CR tasks improved tense scores with gains retained on delayed post-tests), input enhancement (Sharwood Smith; Ahmad, 2025 — compound enhancement effective when paired with tasks), and output (Izumi, 2003 — output tasks promote noticing more than comprehension-only). No single study tests the full arc for grammar, but each stage is individually supported.",
+      "reference_shape": "LESSON-SHAPES/shape-l.json (Pronunciation Noticing) — the arc this grammar shape is adapted from"
+    }
+  ],
+
+  "comparative_effectiveness": {
+    "summary": "Processing Instruction consistently outperforms traditional and output-based instruction on interpretation tasks, and often matches or exceeds it on production tasks (Farahian & Avarzamani, 2019; Jalali & Jafarigohar, 2026). Consciousness-raising tasks produce durable gains in explicit knowledge. Textual enhancement is effective as a supplementary technique but weak in isolation. Game-based learning is most effective for engagement and fluency but variable for accuracy gains. The Grammar Noticing (Noticing-First) shape is the strongest candidate for a new SHAPE because it reuses the team's proven pronunciation-noticing arc (Shape L) and needs no new theory — it just applies the noticing-first sequence to grammar.",
+    "meta_principle": "The most effective grammar instruction combines multiple noticing mechanisms: input enhancement (to increase salience) + consciousness-raising tasks (to promote analysis) + production practice (to automatise). No single technique is sufficient for all aspects of grammar acquisition. The strongest single delivery vehicle is the Grammar Noticing (Noticing-First) arc, which sequences all three: contrast-pair trigger (enhancement) → feature focus (consciousness-raising) → freer use (production)."
+  },
+
+  "practical_recommendations": {
+    "for_noticeing_in_classroom": [
+      "Use compound textual enhancement (bold + colour) on target forms in reading texts",
+      "Design consciousness-raising tasks: 'Find, compare, and articulate the rule'",
+      "Use structured input activities (Processing Instruction) for forms learners consistently misinterpret",
+      "Combine noticing activities with production practice — awareness alone is insufficient",
+      "Leverage output: sentence writing, speaking tasks, and peer correction force learners to attend to form-meaning gaps",
+      "Use corpus concordances (DDL) for advanced learners to discover patterns independently",
+      "Integrate grammar into meaningful tasks — never teach grammar in isolation"
+    ],
+    "for_form_meaning_balance": [
+      "Start with meaning-focused communication (a task or text)",
+      "Then redirect attention to form (noticing, CR task, or TE)",
+      "Then return to meaning-focused practice with the target structure",
+      "This 'sandwich' approach maintains fluency while developing accuracy",
+      "Avoid the extremes: pure grammar drilling (too much FoF) or pure communication (too much FoM)"
+    ],
+    "for_different_learner_levels": [
+      "Beginners: input enhancement + explicit rule presentation + controlled practice",
+      "Intermediate: CR tasks + Processing Instruction + task-based practice",
+      "Advanced: DDL + inductive discovery + extended production tasks",
+      "All levels: meaningful context, immediate feedback, and recycling of target structures"
+    ]
+  },
+
+  "key_papers": [
+    {
+      "title": "A Systematic Self-Review of EFL Grammar Studies (2000–2025): Teaching, Technologies, and Learning Outcomes",
+      "authors": "R. Al-Jarf",
+      "year": 2026,
+      "journal": "Journal of Learning and Development Studies",
+      "citations": 7,
+      "key_finding": "Technology-enhanced grammar instruction yields significant gains when tools are simple with an interactive learning community. Complex platforms (Moodle, WebCT) hinder engagement. Morphological weaknesses persist in plural formation and suffixes.",
+      "url": "https://alkindipublisher.com/index.php/jlds/article/view/12683",
+      "access": "open"
+    },
+    {
+      "title": "Processing Instruction Revisited: Does it Lead to Superior Performance in Interpretation and Production?",
+      "authors": "M. Farahian, F. Avarzamani",
+      "year": 2019,
+      "journal": "Eurasian Journal of Applied Linguistics",
+      "citations": 10,
+      "key_finding": "PI group significantly outperformed both dictogloss and meaningful output instruction on passive voice interpretation and production tasks.",
+      "url": "https://dergipark.org.tr/en/doi/10.32601/ejal.543783",
+      "access": "open"
+    },
+    {
+      "title": "The Effects of Processing Instruction, Consciousness-Raising Tasks, and Textual Input Enhancement on Intake and Acquisition of English Causative Structures",
+      "authors": "M. Jalali, M. Jafarigohar",
+      "year": 2026,
+      "journal": "Iranian Journal of Applied Linguistics",
+      "citations": 8,
+      "key_finding": "PI outperformed CR tasks and TE on interpretation tasks; all three were effective for production. TE was least effective when used alone.",
+      "url": "https://ijal.khu.ac.ir/article_4542_7c33e57e3dbd8a52940fa1a963aa4a4a.pdf",
+      "access": "paywall"
+    },
+    {
+      "title": "Improving ESL Learners' Grammar with Gamified-Learning",
+      "authors": "H. Hashim, R.M. Rafiq, M. Md Yunus",
+      "year": 2019,
+      "journal": "Arab World English Journal",
+      "citations": 183,
+      "key_finding": "Gamified learning significantly improved ESL grammar scores. Engagement and motivation were key mediating factors.",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3431736",
+      "access": "open"
+    },
+    {
+      "title": "Consciousness-Raising Tasks for the Learning of Grammar in High School English Language Classrooms",
+      "authors": "Various (Costa Rica study)",
+      "year": 2018,
+      "journal": "Actualidades Investigativas en Educación",
+      "citations": null,
+      "key_finding": "CR tasks improved ninth-graders' scores on simple past, past continuous, and present perfect. Gains were retained on delayed post-tests. Students reported active participation and critical thinking.",
+      "url": "https://www.redalyc.org/journal/447/44759784005/html/",
+      "access": "open"
+    },
+    {
+      "title": "Balancing Focus on Form and Meaning with Input Enhancement",
+      "authors": "W. Ahmad",
+      "year": 2025,
+      "journal": "HLT Magazine",
+      "citations": null,
+      "key_finding": "Compound textual enhancement (multiple visual cues) is more effective than single enhancement. TE works best when combined with meaning-focused tasks, not in isolation.",
+      "url": "https://www.hltmag.co.uk/jun25/balancing-focus",
+      "access": "open"
+    },
+    {
+      "title": "Enhancing EFL Grammar Learning Through Game-Based Learning: A Systematic Literature Review",
+      "authors": "N.I. Aprilia, D. Nasekhah",
+      "year": 2025,
+      "journal": "JEELL (Journal of English Education and Linguistics)",
+      "citations": 10,
+      "key_finding": "Systematic review confirmed positive effects of game-based learning on EFL grammar. Games with integrated grammar mechanics outperform drill-based games.",
+      "url": "http://jeell.upjb.ac.id/index.php/files/article/view/55",
+      "access": "open"
+    },
+    {
+      "title": "Form-Focused Instruction",
+      "authors": "J. Williams",
+      "year": 2005,
+      "journal": "In Research in Second Language Teaching and Learning (Cambridge)",
+      "citations": 357,
+      "key_finding": "Comprehensive review of form-focused instruction. Found that FFI is effective when it draws attention to form during meaning-focused communication. Most effective forms of FFI: input enhancement, recasting, and consciousness-raising tasks.",
+      "url": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.4324/9781410612700-47&type=chapterpdf",
+      "access": "paywall"
+    },
+    {
+      "title": "Data-Driven Learning and Language Learning Theories",
+      "authors": "L. Flowerdew",
+      "year": 2015,
+      "journal": "In Using Language Corpora for Data-Driven Learning",
+      "citations": 279,
+      "key_finding": "DDL promotes inductive grammar learning and noticing of patterns through corpus concordances. Most effective for advanced learners and frequent grammatical features.",
+      "url": "https://www.torrossa.com/gs/resourceProxy?an=5000845&publisher=FZ4850#page=24",
+      "access": "open"
+    },
+    {
+      "title": "Comprehension and Production Processes in Second Language Learning: In Search of the Psycholinguistic Rationale of the Output Hypothesis",
+      "authors": "S. Izumi",
+      "year": 2003,
+      "journal": "Applied Linguistics",
+      "citations": 531,
+      "key_finding": "Output tasks promote noticing of grammatical forms in input more than comprehension-only tasks. The act of producing language creates a gap between what learners want to say and what they can say.",
+      "url": "https://academic.oup.com/applij/article-abstract/24/2/168/173510",
+      "access": "paywall"
+    }
+  ]
+}
