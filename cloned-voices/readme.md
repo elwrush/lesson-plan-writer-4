@@ -22,12 +22,28 @@
 - Tone: Refined, expressive actor-narrator; natural rhythm
 - Created: 2026-08-03
 
-## Helen_Mirren
+## Helen_Mirren (WARNING: DEAD — do not use)
 - Voice ID: 6da4ca158cac4f0e8023a26881b4919d
 - Age: Mature adult, Gender: Female, Region: British (RP)
 - Source: Real-audio clone (60s, from 44s mark) of Helen Mirren reading a fairy tale by Terry Jones
 - Tone: Warm, expressive, elegant storyteller; natural rhythm
 - Created: 2026-08-03
+- ⚠️ This model no longer exists on Fish — `/model/{id}` 404s and TTS returns
+  "Reference not found". The live Helen Mirren clone is `Helen_Mirren_v2` below.
+
+## Helen_Mirren_v2 (USE THIS)
+- Voice ID: 141726a5cc6b426b9eb8be8938d732cf
+- Age: Mature adult, Gender: Female, Region: British (RP)
+- Tone: Warm, expressive, elegant number-announcer/storyteller; natural rhythm
+- Created: 2026-08-19
+- Used for: number announcers / instruction narration (e.g. "Number one", "Standard English")
+
+## Emma_Watson
+- Voice ID: 3348026252654c05a790528e411b117a
+- Age: Young adult, Gender: Female, Region: British
+- Tone: Clear, bright British female; instruction/narration
+- Created: 2026-08-19
+- Used for: instruction narration / numbers
 
 ## RCrowe-adult-Aus-celeb
 - Voice ID: 0f00fb73c0c94c6182ed994193dd7ce7

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: A4; margin: 13mm 15mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Roboto', 'Segoe UI', Arial, sans-serif; color: #111; }
+
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  /* ---------- STRUCTURED (Set A): one topic per page, 2 side-by-side cards (pair) ---------- */
+  .grid-structured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6mm;
+    align-items: stretch;
+  }
+  .card {
+    border: 1.2px solid #2c3e50;
+    border-radius: 6px;
+    padding: 7mm 8mm;
+    background: #fff;
+    break-inside: avoid;
+    display: flex;
+    flex-direction: column;
+    min-height: 240mm;
+  }
+  .card .badge {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: 700;
+    padding: 1.5mm 3mm;
+    border-radius: 3px;
+    margin-bottom: 3mm;
+    align-self: flex-start;
+  }
+  .card h2 {
+    font-size: 19pt;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 2.5mm;
+  }
+  .card .context {
+    font-size: 12.5pt;
+    line-height: 1.35;
+    color: #333;
+  }
+  .card .label {
+    font-size: 11pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #666;
+    margin: 4mm 0 1.5mm 0;
+    border-top: 0.8px solid #ddd;
+    padding-top: 3mm;
+  }
+  .card ol.structure {
+    list-style: none;
+    font-size: 12.5pt;
+    line-height: 1.35;
+  }
+  .card ol.structure li {
+    margin-bottom: 1mm;
+    padding-left: 4.5mm;
+    position: relative;
+  }
+  .card ol.structure li::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0;
+    color: #9b59b6;
+    font-weight: 700;
+  }
+  .card ol.structure li strong { color: #1a1a2e; }
+  .card ol.structure li em { color: #333; }
+  .card .lang-box {
+    background: #eef2f7;
+    border-left: 3px solid #1a1a2e;
+    border-radius: 3px;
+    padding: 3mm 4mm;
+    margin-top: 3mm;
+    flex: 1;
+  }
+  .card .lang-box ul {
+    list-style: none;
+    font-size: 12pt;
+    line-height: 1.45;
+  }
+  .card .lang-box ul li {
+    margin-bottom: 0.7mm;
+    padding-left: 3.5mm;
+    position: relative;
+  }
+  .card .lang-box ul li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #1a1a2e;
+    font-weight: 700;
+  }
+
+  /* ---------- BARE (Set B): 5 per page, single column ---------- */
+  .grid-bare {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 4mm;
+    height: 271mm;
+  }
+  .bare-card {
+    border: 1.2px solid #2c3e50;
+    border-radius: 6px;
+    padding: 2.5mm 7mm;
+    display: flex;
+    align-items: center;
+    gap: 6mm;
+    break-inside: avoid;
+  }
+  .bare-card .num {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    flex: 0 0 auto;
+  }
+  .bare-card .prompt {
+    font-size: 14pt;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    flex: 1 1 auto;
+  }
+  .bare-card .hint {
+    font-size: 9pt;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex: 0 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 1 · copy 1</span></div>
+      <h2>Should AI be allowed in classrooms?</h2>
+      <div class="context">Some schools let students use AI to help with homework. Other schools say students should think for themselves.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's start with a big question: should AI be allowed in the classroom?&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>I firmly believe that ...</li><li>There's no doubt in my mind that ...</li><li>That's a good point, but ...</li><li>I see it completely differently.</li><li>Could you explain why you think that?</li><li>To sum up, we both ...</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 1 · copy 2</span></div>
+      <h2>Should AI be allowed in classrooms?</h2>
+      <div class="context">Some schools let students use AI to help with homework. Other schools say students should think for themselves.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's start with a big question: should AI be allowed in the classroom?&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>I firmly believe that ...</li><li>There's no doubt in my mind that ...</li><li>That's a good point, but ...</li><li>I see it completely differently.</li><li>Could you explain why you think that?</li><li>To sum up, we both ...</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 2 · copy 1</span></div>
+      <h2>Would school life be better without smartphones?</h2>
+      <div class="context">Before smartphones, students talked and played at break time. Now many students just look at their phones all day.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Imagine a school day with no smartphones. Would it be better or worse?&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>If I could turn back time, I would ...</li><li>Honestly, I think life was simpler then.</li><li>I can see why you'd say that, but ...</li><li>What do you mean exactly?</li><li>Let me put it another way ...</li><li>In the end, I'd say ...</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 2 · copy 2</span></div>
+      <h2>Would school life be better without smartphones?</h2>
+      <div class="context">Before smartphones, students talked and played at break time. Now many students just look at their phones all day.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Imagine a school day with no smartphones. Would it be better or worse?&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>If I could turn back time, I would ...</li><li>Honestly, I think life was simpler then.</li><li>I can see why you'd say that, but ...</li><li>What do you mean exactly?</li><li>Let me put it another way ...</li><li>In the end, I'd say ...</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 3 · copy 1</span></div>
+      <h2>Should students wear school uniforms?</h2>
+      <div class="context">Some schools make students wear uniforms. Other schools let students wear whatever they like.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's talk about what students wear at school.&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>From my point of view, ...</li><li>It really depends on the school.</li><li>I agree with you up to a point.</li><li>Hmm, I'm not so sure.</li><li>Can you give me an example?</li><li>So, if I understand correctly ...</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 3 · copy 2</span></div>
+      <h2>Should students wear school uniforms?</h2>
+      <div class="context">Some schools make students wear uniforms. Other schools let students wear whatever they like.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's talk about what students wear at school.&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>From my point of view, ...</li><li>It really depends on the school.</li><li>I agree with you up to a point.</li><li>Hmm, I'm not so sure.</li><li>Can you give me an example?</li><li>So, if I understand correctly ...</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 4 · copy 1</span></div>
+      <h2>Is homework really necessary?</h2>
+      <div class="context">Homework helps you practise what you learn. But too much homework can be stressful and take your free time.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;How much homework is too much? Let's find out.&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>I believe it's important to ...</li><li>The main reason is that ...</li><li>That might be true, however ...</li><li>Let's think about it another way.</li><li>How would you feel if ... ?</li><li>All things considered, ...</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 4 · copy 2</span></div>
+      <h2>Is homework really necessary?</h2>
+      <div class="context">Homework helps you practise what you learn. But too much homework can be stressful and take your free time.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;How much homework is too much? Let's find out.&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>I believe it's important to ...</li><li>The main reason is that ...</li><li>That might be true, however ...</li><li>Let's think about it another way.</li><li>How would you feel if ... ?</li><li>All things considered, ...</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 5 · copy 1</span></div>
+      <h2>Should every student learn to code?</h2>
+      <div class="context">Some people say coding is a skill for the future. Others say art and music are just as important.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Should coding be a subject for everyone?&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>In my opinion, ...</li><li>Some people argue that ...</li><li>But on the other hand, ...</li><li>What I mean is ...</li><li>Do you have any experience with ... ?</li><li>At the end of the day, ...</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 5 · copy 2</span></div>
+      <h2>Should every student learn to code?</h2>
+      <div class="context">Some people say coding is a skill for the future. Others say art and music are just as important.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Should coding be a subject for everyone?&rdquo;</em></li>
+        <li><strong>Your view:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Respond:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Resolution:</strong> <em>Summarise your discussion together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        <ul>
+        <li>In my opinion, ...</li><li>Some people argue that ...</li><li>But on the other hand, ...</li><li>What I mean is ...</li><li>Do you have any experience with ... ?</li><li>At the end of the day, ...</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+</body>
+</html>

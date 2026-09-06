@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: A4; margin: 13mm 15mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Roboto', 'Segoe UI', Arial, sans-serif; color: #111; }
+
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  /* ---------- STRUCTURED (Set A): one topic per page, 2 side-by-side cards ---------- */
+  .grid-structured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6mm;
+    align-items: stretch;
+  }
+  .card {
+    border: 1.2px solid #2c3e50;
+    border-radius: 6px;
+    padding: 7mm 8mm;
+    background: #fff;
+    break-inside: avoid;
+    display: flex;
+    flex-direction: column;
+    min-height: 240mm;
+  }
+  .card .badge {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: 700;
+    padding: 1.5mm 3mm;
+    border-radius: 3px;
+    margin-bottom: 3mm;
+    align-self: flex-start;
+  }
+  .card h2 {
+    font-size: 19pt;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 2.5mm;
+  }
+  .card .context {
+    font-size: 12.5pt;
+    line-height: 1.35;
+    color: #333;
+    margin-bottom: 1mm;
+  }
+  .card .label {
+    font-size: 11pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #666;
+    margin: 4mm 0 1.5mm 0;
+    border-top: 0.8px solid #ddd;
+    padding-top: 3mm;
+  }
+  .card ol.structure {
+    list-style: none;
+    font-size: 12.5pt;
+    line-height: 1.35;
+  }
+  .card ol.structure li {
+    margin-bottom: 1mm;
+    padding-left: 4.5mm;
+    position: relative;
+  }
+  .card ol.structure li::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0;
+    color: #9b59b6;
+    font-weight: 700;
+  }
+  .card ol.structure li strong { color: #1a1a2e; }
+  .card ol.structure li em { color: #333; }
+  .card .lang-box {
+    background: #eef2f7;
+    border-left: 3px solid #1a1a2e;
+    border-radius: 3px;
+    padding: 3mm 4mm;
+    margin-top: 3mm;
+    flex: 1;
+    font-size: 11.5pt;
+  }
+  .card .lang-box .lang-func {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #9b59b6;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 2mm;
+  }
+  .card .lang-box .lang-func:first-child { margin-top: 0; }
+  .card .lang-box ul {
+    list-style: none;
+    line-height: 1.4;
+  }
+  .card .lang-box ul li {
+    margin-bottom: 0.6mm;
+    padding-left: 3.5mm;
+    position: relative;
+  }
+  .card .lang-box ul li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #1a1a2e;
+    font-weight: 700;
+  }
+
+  /* ---------- BARE (Set B): 6 per page, single column ---------- */
+  .grid-bare {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 4mm;
+    height: 271mm;
+  }
+  .bare-card {
+    border: 1.2px solid #2c3e50;
+    border-radius: 6px;
+    padding: 3mm 7mm;
+    display: flex;
+    align-items: center;
+    gap: 6mm;
+    break-inside: avoid;
+  }
+  .bare-card .num {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    flex: 0 0 auto;
+  }
+  .bare-card .prompt {
+    font-size: 14pt;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    flex: 1 1 auto;
+  }
+  .bare-card .hint {
+    font-size: 9pt;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex: 0 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 1 · copy 1</span></div>
+      <h2>Is it ever OK to break a rule to do the right thing?</h2>
+      <div class="context">Some rules seem unfair or harmful. A person might break one to help someone in need. Is that ever justified?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's talk about the rules we follow.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's talk about climate change now.</li><li>I'd like to talk about the weather and the climate.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>In my view, ...</li><li>I strongly believe ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... because ...</li><li>... because, you see, ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I agree with you.</li><li>I completely agree.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>So, could we agree that ... ?</li><li>How about we agree that ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 1 · copy 2</span></div>
+      <h2>Is it ever OK to break a rule to do the right thing?</h2>
+      <div class="context">Some rules seem unfair or harmful. A person might break one to help someone in need. Is that ever justified?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's talk about the rules we follow.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's talk about climate change now.</li><li>I'd like to talk about the weather and the climate.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>In my view, ...</li><li>I strongly believe ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... because ...</li><li>... because, you see, ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I agree with you.</li><li>I completely agree.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>So, could we agree that ... ?</li><li>How about we agree that ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 2 · copy 1</span></div>
+      <h2>Should you tell a lie to protect a friend?</h2>
+      <div class="context">Your friend did something wrong. The teacher asks you directly. Do you protect them, or tell the truth?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Shall we talk about honesty?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Shall we talk about what is happening to our planet?</li><li>What do you think about all these unusual floods?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I think ...</li><li>Honestly, I think ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>The main reason is that ...</li><li>The reason I say that is ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>That's a good point, but ...</li><li>I disagree, because ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Maybe we can both ...</li><li>Perhaps we can settle on ...</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 2 · copy 2</span></div>
+      <h2>Should you tell a lie to protect a friend?</h2>
+      <div class="context">Your friend did something wrong. The teacher asks you directly. Do you protect them, or tell the truth?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Shall we talk about honesty?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Shall we talk about what is happening to our planet?</li><li>What do you think about all these unusual floods?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I think ...</li><li>Honestly, I think ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>The main reason is that ...</li><li>The reason I say that is ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>That's a good point, but ...</li><li>I disagree, because ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Maybe we can both ...</li><li>Perhaps we can settle on ...</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 3 · copy 1</span></div>
+      <h2>Is it fair to judge a person by what they own?</h2>
+      <div class="context">Some people are treated differently because they have money. Others are looked down on for having little.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's start with how we judge people.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's start with a question about the weather.</li><li>Let's discuss what we can both do to help.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>If you ask me, ...</li><li>As far as I'm concerned, ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>One reason is that ...</li><li>I think so because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I see your point, however ...</li><li>You're right, but ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Let's find a middle way.</li><li>Let's agree on ... then.</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 3 · copy 2</span></div>
+      <h2>Is it fair to judge a person by what they own?</h2>
+      <div class="context">Some people are treated differently because they have money. Others are looked down on for having little.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's start with how we judge people.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's start with a question about the weather.</li><li>Let's discuss what we can both do to help.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>If you ask me, ...</li><li>As far as I'm concerned, ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>One reason is that ...</li><li>I think so because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I see your point, however ...</li><li>You're right, but ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Let's find a middle way.</li><li>Let's agree on ... then.</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 4 · copy 1</span></div>
+      <h2>Should rich people be forced to help the poor?</h2>
+      <div class="context">Some say the wealthy have a duty to give back. Others say it should be a free choice, not a law.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Should we talk about money and duty?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Should we talk about why the climate is changing?</li><li>To start, let's think about our own country.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I'd say ...</li><li>My opinion is that ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... since ...</li><li>... and that's why ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I'm not sure I agree.</li><li>I understand your view, yet ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Would you accept ... ?</li><li>Is that a good compromise?</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 4 · copy 2</span></div>
+      <h2>Should rich people be forced to help the poor?</h2>
+      <div class="context">Some say the wealthy have a duty to give back. Others say it should be a free choice, not a law.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Should we talk about money and duty?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Should we talk about why the climate is changing?</li><li>To start, let's think about our own country.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I'd say ...</li><li>My opinion is that ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... since ...</li><li>... and that's why ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I'm not sure I agree.</li><li>I understand your view, yet ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Would you accept ... ?</li><li>Is that a good compromise?</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 5 · copy 1</span></div>
+      <h2>Is it wrong to buy a bargain that came from unfair work?</h2>
+      <div class="context">Cheap clothes, phones and food are often made by people working very hard for very little money.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's discuss the things we buy.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's begin with something we all see every day.</li><li>How do you feel about the way the climate is changing?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>It seems to me that ...</li><li>I'm fairly sure that ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>That's because ...</li><li>... partly because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I partly agree, but ...</li><li>Hmm, I see it differently.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Can we compromise and say ... ?</li><li>So we both think ..., right?</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 5 · copy 2</span></div>
+      <h2>Is it wrong to buy a bargain that came from unfair work?</h2>
+      <div class="context">Cheap clothes, phones and food are often made by people working very hard for very little money.</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's discuss the things we buy.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's begin with something we all see every day.</li><li>How do you feel about the way the climate is changing?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>It seems to me that ...</li><li>I'm fairly sure that ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>That's because ...</li><li>... partly because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I partly agree, but ...</li><li>Hmm, I see it differently.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Can we compromise and say ... ?</li><li>So we both think ..., right?</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 6 · copy 1</span></div>
+      <h2>Is watching someone being bullied the same as joining in?</h2>
+      <div class="context">A group is picking on one student. You do nothing and just watch. Are you partly responsible?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;What do you think about standing by?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>I'd like to talk about the weather and the climate.</li><li>Let's talk about climate change now.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I strongly believe ...</li><li>In my view, ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... because, you see, ...</li><li>... because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I completely agree.</li><li>I agree with you.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>How about we agree that ... ?</li><li>So, could we agree that ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 6 · copy 2</span></div>
+      <h2>Is watching someone being bullied the same as joining in?</h2>
+      <div class="context">A group is picking on one student. You do nothing and just watch. Are you partly responsible?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;What do you think about standing by?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>I'd like to talk about the weather and the climate.</li><li>Let's talk about climate change now.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I strongly believe ...</li><li>In my view, ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... because, you see, ...</li><li>... because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I completely agree.</li><li>I agree with you.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>How about we agree that ... ?</li><li>So, could we agree that ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 7 · copy 1</span></div>
+      <h2>Should you keep a promise even if it now seems wrong?</h2>
+      <div class="context">You promised to keep a secret. Later you find out the secret could hurt someone. What do you do?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's talk about promises.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>What do you think about all these unusual floods?</li><li>Shall we talk about what is happening to our planet?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>Honestly, I think ...</li><li>I think ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>The reason I say that is ...</li><li>The main reason is that ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I disagree, because ...</li><li>That's a good point, but ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Perhaps we can settle on ...</li><li>Maybe we can both ...</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 7 · copy 2</span></div>
+      <h2>Should you keep a promise even if it now seems wrong?</h2>
+      <div class="context">You promised to keep a secret. Later you find out the secret could hurt someone. What do you do?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's talk about promises.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>What do you think about all these unusual floods?</li><li>Shall we talk about what is happening to our planet?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>Honestly, I think ...</li><li>I think ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>The reason I say that is ...</li><li>The main reason is that ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I disagree, because ...</li><li>That's a good point, but ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Perhaps we can settle on ...</li><li>Maybe we can both ...</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 8 · copy 1</span></div>
+      <h2>Is a small lie ever better than a painful truth?</h2>
+      <div class="context">A friend asks if they look good. They have a big test tomorrow and are nervous. Is kindness more important than honesty?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Shall we talk about kindness and truth?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's discuss what we can both do to help.</li><li>Let's start with a question about the weather.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>As far as I'm concerned, ...</li><li>If you ask me, ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>I think so because ...</li><li>One reason is that ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>You're right, but ...</li><li>I see your point, however ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Let's agree on ... then.</li><li>Let's find a middle way.</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 8 · copy 2</span></div>
+      <h2>Is a small lie ever better than a painful truth?</h2>
+      <div class="context">A friend asks if they look good. They have a big test tomorrow and are nervous. Is kindness more important than honesty?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Shall we talk about kindness and truth?&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>Let's discuss what we can both do to help.</li><li>Let's start with a question about the weather.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>As far as I'm concerned, ...</li><li>If you ask me, ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>I think so because ...</li><li>One reason is that ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>You're right, but ...</li><li>I see your point, however ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Let's agree on ... then.</li><li>Let's find a middle way.</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 9 · copy 1</span></div>
+      <h2>Should you report a friend who cheated?</h2>
+      <div class="context">Your friend cheated on a test and got a top mark. You know the truth. Do you tell, or stay quiet?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's start with fairness.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>To start, let's think about our own country.</li><li>Should we talk about why the climate is changing?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>My opinion is that ...</li><li>I'd say ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... and that's why ...</li><li>... since ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I understand your view, yet ...</li><li>I'm not sure I agree.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Is that a good compromise?</li><li>Would you accept ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 9 · copy 2</span></div>
+      <h2>Should you report a friend who cheated?</h2>
+      <div class="context">Your friend cheated on a test and got a top mark. You know the truth. Do you tell, or stay quiet?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's start with fairness.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>To start, let's think about our own country.</li><li>Should we talk about why the climate is changing?</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>My opinion is that ...</li><li>I'd say ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... and that's why ...</li><li>... since ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>I understand your view, yet ...</li><li>I'm not sure I agree.</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>Is that a good compromise?</li><li>Would you accept ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="page">
+  
+  <div class="grid-structured">
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 10 · copy 1</span></div>
+      <h2>Is it fair that one country makes most of the money?</h2>
+      <div class="context">Some powerful countries got rich by taking resources from poorer ones. Is that a moral problem?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's discuss who should have the most.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>How do you feel about the way the climate is changing?</li><li>Let's begin with something we all see every day.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I'm fairly sure that ...</li><li>It seems to me that ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... partly because ...</li><li>That's because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>Hmm, I see it differently.</li><li>I partly agree, but ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>So we both think ..., right?</li><li>Can we compromise and say ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="card">
+      <div><span class="badge">Speaking Cue Card 10 · copy 2</span></div>
+      <h2>Is it fair that one country makes most of the money?</h2>
+      <div class="context">Some powerful countries got rich by taking resources from poorer ones. Is that a moral problem?</div>
+      <div class="label">Structure your discussion</div>
+      <ol class="structure">
+        <li><strong>Open:</strong> <em>&ldquo;Let's discuss who should have the most.&rdquo;</em></li>
+        <li><strong>Opinion:</strong> <em>Give your opinion.</em></li>
+        <li><strong>Reason:</strong> <em>Give a reason for your opinion.</em></li>
+        <li><strong>Agree / disagree:</strong> <em>Listen, then agree or disagree.</em></li>
+        <li><strong>Agreement:</strong> <em>Try to reach a compromise together.</em></li>
+      </ol>
+      <div class="lang-box">
+        <div class="label" style="border-top:none;padding-top:0;margin-top:0;margin-bottom:1mm">Language you can use</div>
+        
+        <div class="lang-func">To open</div>
+        <ul><li>How do you feel about the way the climate is changing?</li><li>Let's begin with something we all see every day.</li></ul>
+        
+        <div class="lang-func">To give an opinion</div>
+        <ul><li>I'm fairly sure that ...</li><li>It seems to me that ...</li></ul>
+        
+        <div class="lang-func">To give a reason</div>
+        <ul><li>... partly because ...</li><li>That's because ...</li></ul>
+        
+        <div class="lang-func">To agree / disagree</div>
+        <ul><li>Hmm, I see it differently.</li><li>I partly agree, but ...</li></ul>
+        
+        <div class="lang-func">To reach agreement</div>
+        <ul><li>So we both think ..., right?</li><li>Can we compromise and say ... ?</li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+</body>
+</html>

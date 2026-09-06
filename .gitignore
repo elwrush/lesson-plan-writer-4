@@ -1,6 +1,9 @@
 # Secrets
 .env
 .env.*
+# OAuth credentials — never commit
+**/client_secret*.json
+**/token.json
 
 # Generated PDFs (worksheets, answer sheets, reports, lesson plans)
 PROJECTS/**/*.pdf
@@ -20,6 +23,7 @@ ASSETS/
 **/*.gif
 **/*.webp
 **/*.svg
+**/*.avif
 **/*.mp3
 **/*.wav
 **/*.ogg

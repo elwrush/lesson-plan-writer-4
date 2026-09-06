@@ -3,6 +3,26 @@
 Data-only repo: lesson shape templates + per-project slide decks, cue cards, and worksheets.  
 No Makefile, no build system. Venv has pytest only.
 
+## Architecture Decision Records (ADRs)
+
+We capture significant architectural decisions as **ADRs**, written at the **project level**.
+Each lesson/feature project records its own decisions; for this data-only repo the shared
+ADRs live in the repo-root **`adr/`** folder. This is opencode-ready — the instructions below
+are loaded when opencode starts, so the agent is always ADR-aware.
+
+- **One ADR per file, one topic each.** A decision never shares a file.
+- **Each file under 5KB** — forces clarity and concision.
+- **Named `NNNN-topic.md`** (e.g. `0001-fish-audio-single-skill.md`), prefixed with the
+  ADR-template frontmatter (`title`, `status`, `date`, `deciders`).
+- **Status is one of** `proposed` | `accepted` | `deprecated` | `superseded`. New ADRs open as
+  `proposed` and flip to `accepted` once confirmed.
+- **Structure:** Context → Decision → Consequences (good / bad / risks). Copy
+  `adr/ADR-template.md`.
+- **When to write one:** whenever a non-obvious choice is made that future-you (or another
+  project) would otherwise have to re-derive — e.g. unifying a tool, choosing an approach with
+  real trade-offs, or a hard-won lesson worth recording. Write the ADR at the time of the
+  decision, not retroactively.
+
 ## Remotes
 
 | Remote | URL | Purpose |
@@ -18,6 +38,32 @@ Runs under **opencode** (migrated from KiloCode). Project commands live in
 `.opencode/command/*.md`; config is `opencode.json`. Global skills (`slideshow-renderer`,
 `write-lesson-plan`, `pixabay-image-search`, etc.) are registered via `skills.paths`
 pointing at `~/.agents/skills`.
+
+- **`just`** (command runner) is installed — the repo-root `justfile` holds the
+  multi-command workflows. See **Recipes (`just`)** below.
+- `/git-pages [name] [source-dir]` (in `.opencode/command/git-pages.md`) is the gh-pages
+  deploy command. `source-dir` defaults to `slides/`; quote it if it has spaces. It
+  clones gh-pages into an isolated worktree (never touches the main branch), regenerates
+  the landing page, and **verifies the pushed file back by MD5** — don't skip that step.
+- Slides are gitignored (`**/slides/`); only the gh-pages branch carries them.
+
+## Recipes (`just`)
+
+**`just` is installed and available.** Run `just --list` (or `just help`) to see every
+recipe. Use the recipes instead of reconstructing command order — order matters and the
+paths are long. Project dirs contain a **space**, so pass `name` as a positional arg
+that you quote: `just render "LISTENING M3"`.
+
+| Recipe | What it does |
+|--------|--------------|
+| `just render "LISTENING M3"` | build → render → post-process → validate fonts (the full dev loop). Only works for projects with a `build_deck.py`. |
+| `just validate "LISTENING M3"` | font validation only (gray-color / undersized-text gate). |
+| `just test` | `pytest tests/` (gh-pages safety tests). |
+| `just serve` | start `http.server` on :8080 in the background — **idempotent**, won't start a second one; never stop it. |
+
+`just render` is a **hard gate** — the final `validate_fonts` step exits non-zero on
+gray text (`#aaa`) or undersized fonts. Keep instruction/muted text in a non-gray,
+passing color like `#f0f0f0` (not `#aaa`/`#ddd`/`#ccc`).
 
 ## Project layout
 
@@ -125,13 +171,17 @@ zsh -ic 'python scripts/pixabay_download.py --query "architectural blueprint" --
 
 **Speed dating sequence**: red transition "Speed Dating!" → video → sample cue card slide → instructions → timed GO slide. The sample card shows the cue card format before students handle them.
 
-**Timers**: write a `post-process.py` per deck. The resolver adds `slide-{id}-1` prefixes to data-ids. Timer auto-start via `data-timer-autostart="true"`. Re-run post-processing after every render.
+**Timers**: write a `post-process.py` per deck. The resolver adds `slide-{id}-1` prefixes to data-ids — `TIMER_DATA` keys MUST be the full resolved form (e.g. `slide-speed-cp-1`, not `speed-cp`). Timer auto-start via `data-timer-autostart="true"`. Re-run post-processing after every render.
 
 ## Hard-earned gotchas
 
 **Browser cache.** Do NOT version the timer-plugin.css link (`?v=N`) — reference it plainly and overwrite the file in place. The deck page carries `Cache-Control: no-store` meta tags (injected by post-processing), so the browser always re-fetches the document and its linked CSS. If a change still looks stale, hard refresh (Ctrl+Shift+R).
 
 **Timer pill.** The canonical plugin is in the slideshow-renderer skill at `references/timer-plugin.md` (the archive copy under `PROJECTS/ARCHIVE/JULY 20 M3 VOCAB MOVIES/slides/` is OLD — it lacks the `clearInterval` guard in `onStart()` and auto-start support in `loadSlideTimer()`). **NEVER put a static `<div class="timer-pill">` or an inline `.timer-pill{...}` `<style>` rule in a slide body** — the plugin owns that class; an inline style overrides the plugin's `display:none` and forces the pill (▶ start / ↴ reset buttons) to render on every slide. The plugin creates the pill UI automatically; the body must NOT contain a pill. Post-processing must be idempotent (guard every `data-timer` / CSS / script / plugin-array injection) so re-runs after re-renders never duplicate attributes or script tags.
+
+**Timer load order (deck goes blank white + can't navigate).** `TimerPlugin` must be **defined before** `Reveal.initialize()` runs — the `plugins: [..., TimerPlugin]` array is evaluated at init. If `timer-plugin.js` loads at `</body>` (after the init script block), you get `TimerPlugin is not defined`, `Reveal.next is not a function`, and a dead/blank slide that can't be navigated. Inject `timer-plugin.js` **before** the `<script src=".../reveal.js@5.1.0/dist/reveal.js"></script>` tag, never at `</body>`. Verify with Playwright: navigate to a slide and confirm `section.present` resolves and `Reveal.next()` works.
+
+**Timers belong only on speed-dating slides** (`speed-cp`, `speed-fp`) — a 2-minute round pill. Do **NOT** add `data-timer` to tape/video or dictation slides: the user explicitly rejected timer pills on the YouTube-embedded listening pages. When debugging, note the pill is appended to `.reveal` (a sibling of `<section>`), so `document.querySelector('section.present .timer-pill')` is always null — query `.timer-pill` directly.
 
 **Slide layout.** Use `raw` layout with CSS `<style>` blocks and centered tables (`margin:auto`, `max-width`). Don't use `content` layout for anything with HTML. Copy the CSS pattern from the working archive project, not from memory.
 
@@ -207,9 +257,40 @@ Write a `generate_cue_cards.py` per project. Self-contained Playwright script:
 - **NEVER apply fades (`afade`)** to generated audio: a fade-out starts before the last phoneme and cuts the final words. Trim trailing silence instead.
 - **`silenceremove`'s `stop_periods` is BROKEN on this ffmpeg build** — it cuts into speech (a 10-word sentence trimmed to 1.6s). For edge-trim, detect boundaries with `silencedetect=noise=-40dB:d=0.08`, parse `silence_start`/`silence_end`, and cut with `-ss`/`-to` (leading silence ends at first `silence_end`; trailing starts at last `silence_start`).
 - **TTS cannot "mispronounce".** To get a dropped-final-consonant version, feed a homophone respelling: `night`→`nigh`, `fight`→`fie`, `played`→`play`, `wanted`→`want`. Always audition respellings (vowel drift risk: `lahs` can read as `lass`).
+- **TTS reads EVERY character — strip markdown before sending.** Fish Audio (and all TTS engines) read `**` as "asterisk asterisk", `#` as "hash", `_` as "underscore", `` ` `` as "backtick", and `[text](url)` as bracket-words. **Every text string MUST pass through `strip_markdown()` before reaching the TTS API.** Add a RED-GATE (`assert_no_markdown()`) that BLOCKS any call containing markdown artifacts — do not warn, raise an error. The `generate_audio.py` in LISTENING M3 has the reference implementation. Cost of getting this wrong: 48 TTS calls × API credits × full regeneration.
+- **Generate each TTS sentence as ONE complete call — NEVER split into fragments.** Do NOT regex-split a sentence at commas/"and"/"but" and TTS each fragment separately, then glue with silence. That breaks prosody and creates word-cutoff artifacts (a fragment like "the key difference between trading..." spoken in isolation sounds truncated/robotic). Send the whole sentence to Fish in ONE call and let `chunk_length` handle internal phrasing; reuse the same file for a repeat hearing. Verify with `silencedetect` — speech blocks should be continuous (average 4-6s), not tiny 0.2s fragments. Reference: `generate_dictation()` in LISTENING M3 `generate_audio.py`.
+- **Mid-sentence write pause = timestamp + ffmpeg, NOT fragmentation.** To give students time to write in the middle of a dictation sentence, generate the WHOLE sentence via `POST /v1/tts/stream/with-timestamp` (returns concatenated `audio_base64` + `alignment.segments[]` = word-level `{text,start,end}` on the full timeline; add `chunk_audio_offset_sec` for absolute time). Then use ffmpeg `atrim`+`concat` (filter_complex) to splice a 2.0s silence at the split word's `end`+pad. The sentence is recorded naturally ONCE and reused for both hearings. Verify the write pauses exist (16 × ~2.0s gaps for 8 questions × 2 hearings) with `silencedetect`. Reference: `tts_with_timestamps()` / `word_pause_time()` / `insert_pause_at()` in LISTENING M3 `generate_audio.py`.
+- **Fish Audio mispronounces numerals — always spell them out.** `"Question 1."` reads as "Question Un"; write `"Question one."` instead. Use a `NUMBER_WORDS` map for any label/instruction text where a number must be spoken.
+- **Phoneticise foreign/non-English names with CMU Arpabet tags.** Fish auto-detects language and reads unknown proper nouns how it likes — "Siam" can become "see-am", "Question 1." becomes French "Un". Pin the intended sound with `|<phoneme_start|>ARPABET<|phoneme_end|>` (English uses CMU Arpabet; one word per tag). Pipeline: `strip_markdown()` → `apply_pronunciations()` → `assert_no_markdown()`. Only tag genuinely foreign/ambiguous names (Siam `S AY1 AE2 M`, Mongkut `M AO1 NG K AH0 T`, Chulalongkorn, Nanking, Lin Zexu, Bowring) — never tag already-correct English words (China, Britain, India) or it sounds robotic. Reference: `pronounce.py` + `test_pronunciations.py` (19 GREEN) in the `fish-audio` skill; `apply_pronunciations()` wired into both `tts()` and `tts_with_timestamps()` in LISTENING M3 `generate_audio.py`.
 - **Match audio loudness across a deck**: normalize each track with `loudnorm=I=-16:TP=-1.5:LRA=11` (I=-15/LRA=7 for quiet recordings) and verify with `ebur128` — all tracks should land within ~1 LU of each other.
 - **Browsers cache mp3s at the same URL** — after re-processing an audio file, add `?v=N` to its `data-src` in data.json or listeners hear the old (quiet) version. (Do NOT version the timer-plugin.css link — see gotchas.)
 - Natural prosody for read-along texts: `[long-break]`/`[break]` pause markers between paragraphs, `[emphasis]` on key terms, `temperature=0.8`, `prosody.speed≈0.93`, `chunk_length=300`. Embed the result in the slide body as `<audio controls data-src="assets/{file}.mp3">` (reveal.js lazy-loads `data-src` on show).
+
+## Listening tapes on YouTube (auto-captions)
+
+Classroom listening tapes are hosted on YouTube as unlisted videos so the player's
+CC button auto-captions them. Use the **`youtube-audio-developer`** global skill
+(`~/.agents/skills/youtube-audio-developer/`) — `scripts/upload.py` builds the mp4
+(cover + audio), OAuth-uploads, adds to a playlist, and prints the video ID + embed.
+
+- **Ask the user** for the mp3 path and cover image before uploading — the skill does
+  not guess them.
+- **Embed** with `?enablejsapi=1` so the deck can pause the player; use the
+  `youtube-nocookie.com` host (privacy-enhanced). Add a pause-on-slidechange script
+  (postMessage `pauseVideo`) or the audio keeps playing when the student advances.
+- **Caption verification needs `youtube.force-ssl` scope**, not plain `youtube` —
+  `captions().list` returns `Insufficient Permission` otherwise. The skill's `SCOPE`
+  already lists both.
+- **Auto-captions lag processing** — `uploadStatus: processed` only means the video is
+  playable; the `asr` track can appear minutes-to-hours later, and **longer audio takes
+  longer** (a 6-min tape lagged several hours here). If `--check-cc` returns 0 tracks
+  for a `processed` video, keep the original and wait/re-check.
+- **Never re-upload just because captions aren't ready** — it creates a duplicate video
+  and usually fails identically. Re-check `--check-cc` over time first. Delete any
+  accidental duplicate via `videos().delete(id=...)`.
+- Video IDs are written to `PROJECTS/{name}/youtube/video_ids.json` and wired into
+  `build_deck.py`'s `YT_IDS` map. Creditentials (`client_secret.json`, `token.json`)
+  live in the skill's `creds/` dir, gitignored — never commit them.
 
 ## Lesson plan PDF workflow
 
@@ -236,8 +317,9 @@ Verify: `pdfinfo` confirms A4 (594.96 × 841.92 pts), `pdffonts` confirms embedd
 
 ## Before declaring done
 
-1. Re-run post-processing (render wipes timer injections).
+1. Re-run post-processing (render wipes timer injections). Re-run it AFTER every render.
 2. Verify slide order matches JSON array.
 3. Check source fidelity against worksheets/transcripts.
 4. Run `python3 -m pytest tests/ -v`.
-5. Deploy is GATED — do NOT push gh-pages without explicit user OK.
+5. If the deck has a timer plugin, confirm it loads before `Reveal.initialize()` (blank-white-page guard) and that timers are only on the intended slides.
+6. Deploy is GATED — do NOT push gh-pages without explicit user OK. If deploying, `/git-pages` must confirm the remote MD5 matches local.

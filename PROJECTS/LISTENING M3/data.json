@@ -1,0 +1,212 @@
+{
+  "title": "The Opium Wars and the Country That Got Away",
+  "author": "Ed Rush",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "When Britain addicted China to hard drugs.",
+      "body": "Let's listen to this amazing story.",
+      "notes": "Show the opium-era image. Ask: What do you see? What might this be about?"
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Colonisation shaped the world — including Thailand.</li><li>The opium trade is a controversial chapter of history.</li><li>Thailand is the only Southeast Asian country never colonised.</li></ul>"
+    },
+    {
+      "layout": "content",
+      "id": "open-dictation",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Listen and write the questions",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">You will hear <strong>eight questions</strong>.<br>Write each question. You will hear each one <strong>twice</strong>.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Dictation tape</p><audio controls preload=\"none\" src=\"assets/questions.mp3\" style=\"width:70%;max-width:640px;margin:6px auto;display:block\"></audio>",
+      "notes": "Play the dictation tape. Students write the 8 questions. Play twice."
+    },
+    {
+      "layout": "content",
+      "id": "dict-check-1",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Check your dictation — Part 1",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">What is the key difference between trading with a country and colonising it?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">How did the British justify colonisation?</p>",
+      "notes": "Read the two questions aloud. Students tick or correct what they wrote."
+    },
+    {
+      "layout": "content",
+      "id": "dict-check-2",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Check your dictation — Part 2",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why was Britain spending so much silver on Chinese tea, silk, and porcelain, and how did the opium trade fix this problem?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">What excuse did Britain use to start the First Opium War after Lin Zexu destroyed their opium?</p>",
+      "notes": "Read the two questions aloud. Students tick or correct what they wrote."
+    },
+    {
+      "layout": "content",
+      "id": "dict-check-3",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Check your dictation — Part 3",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">How did the opium trade affect ordinary Chinese families?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">What does extraterritoriality mean, and why did it make the Chinese angry?</p>",
+      "notes": "Read the two questions aloud. Students tick or correct what they wrote."
+    },
+    {
+      "layout": "content",
+      "id": "dict-check-4",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Check your dictation — Part 4",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">How did King Mongkut's approach to the British differ from the Chinese emperor's approach?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">What strategy did King Chulalongkorn use to keep Thailand independent while giving up forty percent of its territory?</p>",
+      "notes": "Read the two questions aloud. Students tick or correct what they wrote."
+    },
+    {
+      "layout": "content",
+      "id": "intro-interview",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Now listen to the podcast",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">A history podcast: <strong>It's Academic</strong>.<br>Host Jack Smith talks to teen researcher Ebony Mills.<br>There are <strong>four parts</strong>.<br>Listen to each part <strong>twice</strong>. Then answer the questions.</p>",
+      "notes": "Introduce the podcast format: Jack Smith (Stephen Colbert) + Ebony Mills (teen researcher)."
+    },
+    {
+      "layout": "content",
+      "id": "tape-1",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Podcast — Part 1",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 1</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/PAC65Ewnrdk?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 1 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
+    },
+    {
+      "layout": "content",
+      "id": "tape-2",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Podcast — Part 2",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 2</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/0yCF4E9kgj0?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 2 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
+    },
+    {
+      "layout": "content",
+      "id": "tape-3",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Podcast — Part 3",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 3</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/uSbfURZb7U8?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 3 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
+    },
+    {
+      "layout": "content",
+      "id": "tape-4",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Podcast — Part 4",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 4</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/R2V0w2Ob5PA?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 4 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
+    },
+    {
+      "layout": "content",
+      "id": "answer-1",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers — Part 1",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">What is the key difference between trading with a country and colonising it?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Trading means voluntary exchange. Colonisation means taking control — making laws, collecting taxes, and using the land and people.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">How did the British justify colonisation?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">They said they were bringing civilisation, education, and order. But really they were taking resources and power.</td></tr></table>",
+      "notes": "Read each question, ask students, then reveal the answer."
+    },
+    {
+      "layout": "content",
+      "id": "answer-2",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers — Part 2",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why was Britain spending so much silver on Chinese tea, silk, and porcelain, and how did the opium trade fix this problem?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Britain bought tea, silk, and porcelain and had to pay in silver, which drained their economy. Growing opium in India and selling it to China reversed the silver flow.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">What excuse did Britain use to start the First Opium War after Lin Zexu destroyed their opium?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Britain said Lin Zexu destroying their opium was an attack on free trade — that was the excuse for war.</td></tr></table>",
+      "notes": "Read each question, ask students, then reveal the answer."
+    },
+    {
+      "layout": "content",
+      "id": "answer-3",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers — Part 3",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">How did the opium trade affect ordinary Chinese families?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Millions became addicted. Fathers could not work. Families lost everything. The government could not stop it.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">What does extraterritoriality mean, and why did it make the Chinese angry?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">British people in China were judged by British courts, not Chinese law. So they could break the law and walk away — China lost control of its own land.</td></tr></table>",
+      "notes": "Read each question, ask students, then reveal the answer."
+    },
+    {
+      "layout": "content",
+      "id": "answer-4",
+      "step": 1,
+      "background_color": "#052e0d",
+      "title": "Answers — Part 4",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">How did King Mongkut's approach to the British differ from the Chinese emperor's approach?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">The Chinese emperor fought back and was defeated. King Mongkut welcomed the British envoy, spoke English, showed his library of Western books, and negotiated.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">What strategy did King Chulalongkorn use to keep Thailand independent while giving up forty percent of its territory?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">He gave away far-off border lands he barely controlled — to France and Britain — to protect the heartland. A sacrifice, not a defeat.</td></tr></table>",
+      "notes": "Read each question, ask students, then reveal the answer."
+    },
+    {
+      "layout": "image",
+      "id": "model-card",
+      "step": 1,
+      "image_url": "assets/card-model.png",
+      "background_color": "#1a1a2e",
+      "notes": "Walk through the 5-step structure on the card. Model one short example with a student."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-compromise",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Strategy: Close the discussion",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Do</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">End the talk by stating the compromise you both accept.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #555;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Why</td><td style=\"padding:8px 0;border-bottom:1px solid #555\">A clear resolution shows you understood and agreed.</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">How</td><td style=\"padding:8px 0\">Summarise the middle point. Then say: \"So, can we compromise and say ...?\"</td></tr></table>",
+      "notes": "Teach the ENDING. Summarise the middle point, then state the resolution both partners accept. One closing sentence each."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-compromise-demo",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Card 1 — the resolution",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:0 0 10px 0;color:#fff\"><strong>Card 1:</strong> Is it ever OK to break a rule to do the right thing?</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Partner A</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">\"Breaking a rule is always wrong.\"</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Partner B</td><td style=\"padding:8px 0;border-bottom:1px solid #444\">\"I see your point, but sometimes the rule is unfair.\"</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Resolution</td><td style=\"padding:8px 0\">\"So, can we compromise and say we decide by the rule and the reason?\"</td></tr></table>",
+      "notes": "Model the END of the discussion — the resolution. Partner A vs B, then both state the final compromise. Students repeat the 'So, can we compromise and say...?' closing pattern."
+    },
+    {
+      "layout": "content",
+      "id": "strategy-compromise-lang",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Resolution — closing the discussion",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:0 0 10px 0;text-align:left\"><strong>State the agreement</strong>: \"So, can we compromise and say ... ?\"</p><p style=\"font-size:35px;line-height:1.5;margin:0 0 10px 0;text-align:left\"><strong>Or</strong>: \"Could we agree that ... ?\" \"Maybe we can both ...\"</p><p style=\"font-size:35px;line-height:1.5;margin:0 0 10px 0;text-align:left\"><strong>Confirm</strong>: \"So we both think ..., right?\"</p><p style=\"font-size:35px;line-height:1.5;margin:0;text-align:left\"><strong>Close</strong>: \"Great, we agree on that.\"</p>",
+      "notes": "Step 5 endings — these close the discussion. One resolution statement that both partners say together."
+    },
+    {
+      "layout": "content",
+      "id": "speed-cp",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Speed dating — Card Set A",
+      "body": "<img src=\"assets/cards-cp-1.png\" alt=\"Set A structured card\" style=\"width:38%;max-height:330px;object-fit:contain;margin:6px auto;display:block;border-radius:6px\"><p style=\"font-size:35px;line-height:1.45;margin:12px 0 6px 0\">Pair up. One card each. Discuss for <strong>2 minutes</strong>.</p><p style=\"font-size:35px;line-height:1.45;margin:0\">Use the structure and the language on the card. Then move to the next partner.</p>",
+      "notes": "Set A = structured cards with language support. 2-minute rounds. Rotate partners."
+    },
+    {
+      "layout": "content",
+      "id": "speed-fp",
+      "step": 1,
+      "background_color": "#116466",
+      "title": "Speed dating — Card Set B",
+      "body": "<img src=\"assets/cards-fp.png\" alt=\"Set B bare card\" style=\"width:38%;max-height:330px;object-fit:contain;margin:6px auto;display:block;border-radius:6px\"><p style=\"font-size:35px;line-height:1.45;margin:12px 0 6px 0\">Now no language help. Talk for <strong>2 minutes</strong>.</p><p style=\"font-size:35px;line-height:1.45;margin:0\">Use your own ideas. Then move to the next partner.</p>",
+      "notes": "Set B = bare cards, no language support. Students must use the structure on their own."
+    }
+  ]
+}

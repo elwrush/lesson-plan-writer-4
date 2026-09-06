@@ -1,0 +1,17 @@
+/* Keep each STAGE header attached to its content row (orphan guard). */
+.stage-section {
+    break-inside: avoid;
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+/* Tighten stage-procedure line spacing so content rows are less likely to split. */
+.stage-row .procedure li {
+    margin-bottom: 1pt;
+}
+.stage-row .procedure li::before {
+    padding-right: 5pt;
+}
+.stages-table td {
+    padding: 1.5pt 6pt;
+}

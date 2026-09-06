@@ -155,6 +155,10 @@ Auto-animate bar charts: use `layout: "auto-animate-pair"` with steps 1 (0% widt
 - **Answer-key honesty.** Slide answer reveals for audio tasks must match the audited key — a teacher who listened to the recording, never a guessed sequence.
 - **Voice anonymity.** Student-facing slides say "the model", never the celebrity/voice name. Cloned-voice identities are teacher-facing only.
 
+> **Reusable deck blueprint:** the full Shape L slide sequence, `feature-rules` auto-animate
+> pattern, and per-part audio conventions live in `references/shape-l-pronunciation-noticing.md`.
+> Load that library file when building any pronunciation-noticing deck.
+
 ## When to Use
 
 Use this skill when generating reveal.js slideshows for classroom presentation from structured lesson content. The pipeline handles slide layout selection, cross-slide attribute continuity, and CDN-based HTML generation.
@@ -306,6 +310,23 @@ python ~/.agents/skills/slideshow-renderer/scripts/render.py \
 ```
 
 **Do NOT restart the HTTP server** — it reads the file on each request and picks up changes automatically.
+
+> ## 🔗 Presenting the deck URL — ONE line only
+> When the deck is served/deployed, output **only** the clickable URL on a single line.
+> No prose, no preamble, no formatting around it. The user just wants the link.
+
+### Step 7b — Background server (zsh / opencode)
+
+Start the server detached so the tool shell does not hang (zsh, opencode env — not legacy kilo):
+
+```bash
+cd "/mnt/c/PROJECTS/LESSON-PLAN-WRITER-4"          # repo root
+curl -s -o /dev/null http://localhost:8080/ || { setsid python3 -m http.server 8080 >/tmp/opencode/httpserver.log 2>&1 </dev/null & disown; sleep 1.5; }
+```
+
+- Never background with a bare `&` chained by `&&`/`||` in one tool call — the shell waits and hangs. Use `setsid ... & disown` with redirected streams and `</dev/null`.
+- Deck URL (spaces → `%20`): `http://localhost:8080/PROJECTS/{folder}/slides/index.html`.
+- Visual QA: screenshot key slides with Playwright (see `references/*`); run `validate_slide_fonts.py` after any styling change. It flags mid-gray hex (`#ccc`) — use white for secondary text.
 
 ### Step 8 — Content integrity check (auto-lint)
 

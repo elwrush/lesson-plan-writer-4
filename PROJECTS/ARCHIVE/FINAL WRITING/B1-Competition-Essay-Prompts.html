@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 190mm;
+    height: 277mm;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5mm;
+    page-break-after: always;
+  }
+  .page:last-child {
+    page-break-after: auto;
+  }
+  .card {
+    border: 1px solid #d5dbe3;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(26, 26, 46, 0.10);
+  }
+  .card-header {
+    color: #fff;
+    padding: 3.5mm 4mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-title {
+    display: flex;
+    align-items: center;
+  }
+  .num-badge {
+    background: #ffdd00;
+    color: #1a1a2e;
+    font-weight: 900;
+    font-size: 14pt;
+    width: 8mm;
+    height: 8mm;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3mm;
+    flex-shrink: 0;
+  }
+  .card-kicker {
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.92;
+  }
+  .card-body {
+    flex: 1;
+    padding: 4mm 4.5mm 3mm 4.5mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .notice {
+    font-size: 9pt;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 2mm;
+  }
+  .competition-title {
+    font-size: 13pt;
+    font-weight: 900;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2.5mm;
+    text-align: center;
+  }
+  .context-text {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+    margin-bottom: 2.5mm;
+  }
+  .write-line {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 2mm;
+  }
+  .bullets-label {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 1mm;
+  }
+  .bullet {
+    font-size: 10pt;
+    line-height: 1.4;
+    color: #333;
+    padding-left: 3mm;
+    margin-bottom: 0.8mm;
+  }
+  .bullet::before {
+    content: "\2022  ";
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+  .word-count {
+    font-size: 8.5pt;
+    color: #999;
+    font-style: italic;
+    margin-top: auto;
+    padding-top: 2mm;
+  }
+  .topic-title {
+    font-size: 12pt;
+    font-weight: 900;
+    color: #1a1a2e;
+    margin-bottom: 3mm;
+  }
+  .b2-context {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+    margin-bottom: 2mm;
+  }
+  .b2-definition {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+    margin-bottom: 2.5mm;
+  }
+  .b2-instruction {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+  .card-footer {
+    border-top: 1px solid #e3e8ef;
+    padding: 2mm 4.5mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .level-tag {
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .card-page {
+    font-size: 8pt;
+    color: #aab2bf;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">1</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say it is easier to learn today because you can find the answer on the internet. Other students say you learn more when a teacher helps you in class.</div>
+    <div class="write-line">Write an essay for the competition about learning with a teacher or learning from the internet.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">what you use the internet for</div>
+    <div class="bullet">what you learn from your teacher</div>
+    <div class="bullet">which is better for you and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#1a1a2e">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 1 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">2</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say school uniforms make everyone equal and save time in the morning. Other students say they should be free to wear their own clothes.</div>
+    <div class="write-line">Write an essay for the competition about wearing a school uniform or wearing your own clothes.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">what you like about wearing a uniform</div>
+    <div class="bullet">what you like about wearing your own clothes</div>
+    <div class="bullet">which you prefer and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#116466">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 2 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2e7d32">
+    <div class="card-title">
+      <span class="num-badge">3</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say homework helps them remember what they learned in class. Other students say homework takes too much free time.</div>
+    <div class="write-line">Write an essay for the competition about homework — good or bad for students.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about homework</div>
+    <div class="bullet">one bad thing about homework</div>
+    <div class="bullet">whether homework should be given or not and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2e7d32">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 3 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#c0392b">
+    <div class="card-title">
+      <span class="num-badge">4</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say mobile phones help them learn because they can look up information quickly. Other students say phones are a big distraction in class.</div>
+    <div class="write-line">Write an essay for the competition about mobile phones in school — helpful or distracting.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one way phones help you learn</div>
+    <div class="bullet">one way phones cause problems</div>
+    <div class="bullet">whether students should use phones in school and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#c0392b">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 4 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#e67e22">
+    <div class="card-title">
+      <span class="num-badge">5</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say English is the most useful language to learn because it is spoken all over the world. Other students say it is more important to study your own language well first.</div>
+    <div class="write-line">Write an essay for the competition about learning English — the most important subject or not.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one reason English is useful</div>
+    <div class="bullet">one reason other subjects matter more</div>
+    <div class="bullet">which you think is the most important and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#e67e22">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 5 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#6c3483">
+    <div class="card-title">
+      <span class="num-badge">6</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say maths is the best subject because it teaches you to think clearly. Other students say science is more useful because it explains the world around us.</div>
+    <div class="write-line">Write an essay for the competition about the best subject at school.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one subject you enjoy and why</div>
+    <div class="bullet">one subject you find difficult and why</div>
+    <div class="bullet">which subject you think is the most important and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#6c3483">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 6 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2874a6">
+    <div class="card-title">
+      <span class="num-badge">7</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say school trips are the best way to learn new things. Other students say you learn more in the classroom with a teacher.</div>
+    <div class="write-line">Write an essay for the competition about school trips — fun or useful.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one school trip you remember</div>
+    <div class="bullet">what you learned from it</div>
+    <div class="bullet">whether schools should have more trips and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2874a6">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 7 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#7b241c">
+    <div class="card-title">
+      <span class="num-badge">8</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say reading books helps you learn new words and ideas. Other students say watching videos is easier and more interesting.</div>
+    <div class="write-line">Write an essay for the competition about reading books or watching videos — which helps you learn more.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one thing you learn from reading</div>
+    <div class="bullet">one thing you learn from videos</div>
+    <div class="bullet">which you prefer and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#7b241c">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 8 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">9</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say online friends are just as good as real friends. Other students say you need to meet people face to face to have a real friendship.</div>
+    <div class="write-line">Write an essay for the competition about online friends or real friends.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about online friends</div>
+    <div class="bullet">one good thing about real friends</div>
+    <div class="bullet">which type of friend is more important and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#1a1a2e">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 9 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">10</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say studying in the morning is best because your brain is fresh. Other students say studying at night is better because it is quiet.</div>
+    <div class="write-line">Write an essay for the competition about the best time to study.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one reason morning study is good</div>
+    <div class="bullet">one reason evening study is good</div>
+    <div class="bullet">which time you prefer and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#116466">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 10 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2e7d32">
+    <div class="card-title">
+      <span class="num-badge">11</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say team sports are better because you learn to work with others. Other students say individual sports are better because you can improve at your own speed.</div>
+    <div class="write-line">Write an essay for the competition about team sports or individual sports.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about team sports</div>
+    <div class="bullet">one good thing about individual sports</div>
+    <div class="bullet">which you prefer and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2e7d32">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 11 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#c0392b">
+    <div class="card-title">
+      <span class="num-badge">12</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say living in the city is better because there are more things to do. Other students say the countryside is better because it is quieter and safer.</div>
+    <div class="write-line">Write an essay for the competition about living in the city or the countryside.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about city life</div>
+    <div class="bullet">one good thing about country life</div>
+    <div class="bullet">which you prefer and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#c0392b">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 12 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#e67e22">
+    <div class="card-title">
+      <span class="num-badge">13</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say a part-time job teaches teenagers to be responsible. Other students say teenagers should focus on school and not work.</div>
+    <div class="write-line">Write an essay for the competition about part-time jobs for teenagers — a good idea or not.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about working as a teenager</div>
+    <div class="bullet">one bad thing about working as a teenager</div>
+    <div class="bullet">whether teenagers should work and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#e67e22">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 13 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#6c3483">
+    <div class="card-title">
+      <span class="num-badge">14</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say bringing lunch from home is healthier and cheaper. Other students say buying lunch at school is more convenient and tastier.</div>
+    <div class="write-line">Write an essay for the competition about bringing lunch from home or buying lunch at school.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about bringing lunch</div>
+    <div class="bullet">one good thing about buying lunch</div>
+    <div class="bullet">which you prefer and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#6c3483">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 14 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2874a6">
+    <div class="card-title">
+      <span class="num-badge">15</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say making mistakes is the best way to learn. Other students say it is better to get things right the first time.</div>
+    <div class="write-line">Write an essay for the competition about learning from mistakes.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one time you learned from a mistake</div>
+    <div class="bullet">what you learned from it</div>
+    <div class="bullet">why mistakes can help you learn better</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2874a6">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 15 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#7b241c">
+    <div class="card-title">
+      <span class="num-badge">16</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say children should start learning English as early as possible. Other students say it is better to wait until you are older and can understand more.</div>
+    <div class="write-line">Write an essay for the competition about the best age to start learning English.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one advantage of starting young</div>
+    <div class="bullet">one advantage of starting later</div>
+    <div class="bullet">which age you think is best and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#7b241c">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 16 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">17</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say having brothers and sisters teaches you to share and cooperate. Other students say sharing with siblings causes arguments and stress.</div>
+    <div class="write-line">Write an essay for the competition about sharing with brothers and sisters.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about having siblings</div>
+    <div class="bullet">one difficult thing about having siblings</div>
+    <div class="bullet">whether having siblings is better or worse and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#1a1a2e">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 17 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">18</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say video games help you think faster and solve problems. Other students say video games waste time and make you lazy.</div>
+    <div class="write-line">Write an essay for the competition about video games — useful or a waste of time.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one good thing about playing video games</div>
+    <div class="bullet">one bad thing about playing video games</div>
+    <div class="bullet">whether video games are useful and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#116466">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 18 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2e7d32">
+    <div class="card-title">
+      <span class="num-badge">19</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say cooking is an important life skill that everyone should learn. Other students say it is easy to buy food, so cooking is not necessary.</div>
+    <div class="write-line">Write an essay for the competition about learning to cook — important or not.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one reason cooking is useful</div>
+    <div class="bullet">one reason it is not important</div>
+    <div class="bullet">whether students should learn to cook and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2e7d32">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 19 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#c0392b">
+    <div class="card-title">
+      <span class="num-badge">20</span>
+      <span class="card-kicker">Essay Competition</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="notice">You see this notice in your school magazine.</div>
+    <div class="competition-title">ESSAY COMPETITION</div>
+    <div class="context-text">Some students say small classes are better because the teacher can give more attention to each student. Other students say big classes are better because there are more people to work with.</div>
+    <div class="write-line">Write an essay for the competition about small classes or big classes.</div>
+    <div class="bullets-label">Your essay must include:</div>
+    <div class="bullet">one advantage of small classes</div>
+    <div class="bullet">one advantage of big classes</div>
+    <div class="bullet">which you prefer and why</div>
+    <div class="word-count">Write your essay in around 100 words.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#c0392b">CEFR B1 &middot; Grade 8</span>
+    <span class="card-page">Card 20 / 20</span>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

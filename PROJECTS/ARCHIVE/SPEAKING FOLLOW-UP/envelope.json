@@ -1,0 +1,124 @@
+{
+  "shape": {
+    "name": "Shape F - Productive Skills (Speaking)",
+    "description": "Regular speaking lesson that moves students from recalling the reading-crisis evidence through free, structured debate. After finishing the final chunk of the reading pack using the reciprocal-teaching method they already know, students revise the Open - Your view - Respond - Resolution discussion structure, then run two speed-dating rounds: first with structured cue cards (Set A) that scaffold the discussion and provide target language, then with bare topic cards (Set B) that give only a prompt. The lesson closes with an open-class reflection on the single most useful lesson for the exam.",
+    "pedagogical_justification": "Speed dating is a structured speaking fluency technique in which students rotate partners at a fixed interval, maximising the number of interlocutors each learner speaks with and reducing the pressure of speaking to the whole class. Scaffolding is staged down: the first round provides both a discussion structure and functional language cues, and the second removes the scaffold so students must deploy the structure independently - a retrieval-style release matching the exam demand. The premise (debating issues, trying to reach compromise) develops argumentation and disagreement-management that feed directly into the speaking exam.",
+    "main_aim_format": "By the end of the lesson, learners will have debated argument topics in a speed-dating format, using the Open - Your view - Respond - Resolution structure and working towards compromise with a partner.",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have debated a series of argument topics in a speed-dating format, using the Open - Your view - Respond - Resolution discussion structure and working towards compromise.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>2 September, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>Shape F - Productive Skills (Speaking)<br><b>Materials:</b><br>The Reading Crisis: Why Fluency Matters More Than Ever (adapted from OECD, Thai Enquirer, Edutopia and PIAAC research); reading pack (4 chunks); Harvard expert video on the reading decline (bare reference); structured cue cards Set A; bare topic cue cards Set B<br><b>Assessment:</b><br>Observation of structured and free debate; open-class reflection<br><b>Skills:</b><br>Speaking",
+      "stages": [
+        {
+          "stage": "Recall the reading crisis",
+          "stage_number": 1,
+          "stage_aim": "To activate prior knowledge of the reading-crisis evidence",
+          "procedure": [
+            "Whole-class recall: ask Ss what the Harvard expert warned about the reading crisis (bare reference to the video watched in the reading lesson - no transcript).",
+            "Elicit the chain: a reduction in reading is widening the gap in reading scores.",
+            "Elicit the three causes of the reduction in reading: declining test accountability, social media use, and absenteeism.",
+            "One or two Ss restate the chain aloud so everyone hears the key argument before the debate."
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Final chunk - Chunk 4 reading",
+          "stage_number": 2,
+          "stage_aim": "To finish the reading pack using the established reciprocal-teaching method",
+          "procedure": [
+            "Remind Ss of the four reciprocal-teaching roles: Predictor, Clarifier, Questioner, Summariser.",
+            "Groups rotate roles one final position for Chunk 4: Thailand's fall is sharpest.",
+            "Read silently, then each student performs their final role.",
+            "Each group agrees a single-sentence summary of the whole reading pack."
+          ],
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Set up the debate and revise structure",
+          "stage_number": 3,
+          "stage_aim": "To introduce the debate topic, revise the discussion structure and stress compromise",
+          "procedure": [
+            "Introduce the main argument topic (education-themed argument prompts).",
+            "Revise the discussion structure together: Open - Your view - Respond - Resolution.",
+            "Stress that most issues CAN be debated and there is no single correct answer; the aim is to try to reach a compromise.",
+            "Model one short debate with the class, aiming for a compromise.",
+            "Ss practise the structure once in pairs."
+          ],
+          "time": "8 min",
+          "interaction": "T-Ss, Ss-Ss"
+        },
+        {
+          "stage": "Review the speed-dating format",
+          "stage_number": 4,
+          "stage_aim": "To set the protocol for the speed-dating rounds",
+          "procedure": [
+            "Re-explain speed dating: Ss sit opposite a partner; on the signal they discuss, then one row rotates.",
+            "Clarify each round: 30 seconds silent prep (no notes), then 2 minutes of discussion.",
+            "Confirm the goal each round: state your opinion, listen, respond, and work towards a compromise."
+          ],
+          "time": "2 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Speed debate - structured cue cards (Set A)",
+          "stage_number": 5,
+          "stage_aim": "To debate five structured topics with discussion and language support",
+          "procedure": [
+            "Hand out the structured cue cards (Set A): five education topics with the discussion structure and target language cues.",
+            "30 seconds silent prep per round (no notes).",
+            "2-minute discussion per round using Open - Your view - Respond - Resolution and the target language cues.",
+            "Rotate after each round; five rounds covering the five structured topics.",
+            "Teacher circulates, notes language, and encourages Ss to work towards compromise."
+          ],
+          "time": "13 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Speed debate - bare topic cue cards (Set B)",
+          "stage_number": 6,
+          "stage_aim": "To debate five topics with no scaffold, deploying the structure independently",
+          "procedure": [
+            "Hand out the bare topic cue cards (Set B): five prompts only, no structure or language support.",
+            "30 seconds silent prep per round (no notes).",
+            "2-minute discussion per round; Ss must supply the structure themselves.",
+            "Rotate after each round; five rounds covering the five bare topics.",
+            "Teacher observes whether Ss can run the discussion structure without the scaffold."
+          ],
+          "time": "10 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Open-class reflection",
+          "stage_number": 7,
+          "stage_aim": "To consolidate the most transferable lesson for the exam",
+          "procedure": [
+            "Whole-class discussion: what is the single most important thing you learned today that will help you in the exam?",
+            "Invite several Ss to share one idea and one reason.",
+            "Elicit a takeaway about structure, compromise, or handling disagreement - the ideas that transfer to the speaking exam."
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "2 September, 2026",
+    "class_name": "M2A-M3A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape F - Productive Skills (Speaking)",
+    "topic": "Reading Crisis Debate: Reaching Compromise",
+    "materials": [
+      "The Reading Crisis: Why Fluency Matters More Than Ever - adapted from OECD, Thai Enquirer, Edutopia and PIAAC research",
+      "Reading pack (4 chunks): Reading at 15, Reading pays, Reading can be learned, Thailand's fall",
+      "Harvard expert video on the reading decline (bare reference - viewed in the reading lesson, no transcript)",
+      "Structured cue cards Set A: five education topics (discussion structure + target language cues)",
+      "Bare topic cue cards Set B: five topics (prompt only)"
+    ],
+    "main_aim": "By the end of the lesson, learners will have debated argument topics in a speed-dating format, using the Open - Your view - Respond - Resolution discussion structure and working towards compromise with a partner.",
+    "subsidiary_aim": "To recall the evidence and causes of the reading decline from the reading-crisis pack, and to use discussion language to state an opinion, agree, disagree and propose compromise.",
+    "answer_key": []
+  }
+}

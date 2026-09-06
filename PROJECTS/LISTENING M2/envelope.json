@@ -1,0 +1,130 @@
+{
+  "shape": {
+    "name": "Shape E - Receptive Skills (Traditional)",
+    "description": "Traditional receptive skills lesson focusing on practising listening sub-skills, with a post-listening discussion that recycles the content into a productive speaking task.",
+    "pedagogical_justification": "The lesson opens with a listening dictation that activates the question forms students will hear in the main text, then practises listening for specific information and detailed comprehension in a radio interview. The final stage recycles the interview content into a structured speed-dating discussion about climate change, moving learners from receptive to productive use.",
+    "main_aim_format": "By the end of the lesson, learners will have practised listening for [specific information/detail] in the context of [topic], and will have discussed [topic] using [structure].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have practised listening for specific information and detailed comprehension in a radio interview about a flood at the China-Nepal border, and will have discussed flood risk and climate change using a five-step speaking structure.<br><b>Teacher:</b><br>Ed Rush<br><b>Date:</b><br>5 September, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1<br><b>Lesson Shape:</b><br>E (Receptive Skills - Listening)<br><b>Materials:</b><br>Slideshow, audio interview, dictation tape, speaking cue cards<br><b>Assessment:</b><br>Dictation, listening tasks, discussion observation<br><b>Skills:</b><br>Listening, Speaking",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To set the context and activate background knowledge about floods",
+          "procedure": [
+            "Show the splash slide. Ask: Where is this? What do you see? Let students speculate in pairs.",
+            "Advance to the title slide: The flood at the China-Nepal border. Confirm the theme.",
+            "Ask: Have you ever seen a flood? What happens when a river floods?"
+          ],
+          "time": "3 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Why this matters",
+          "stage_number": 2,
+          "stage_aim": "To raise the importance of the topic and connect it to students' own context",
+          "procedure": [
+            "Show the 'Why is this lesson important?' slide.",
+            "Read the three points aloud. Emphasise: floods are a real risk across Asia, including Thailand.",
+            "Tell students: today you will listen to a radio interview about this flood, then discuss climate change."
+          ],
+          "time": "2 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Dictation - listen and write the questions",
+          "stage_number": 3,
+          "stage_aim": "To practise listening for specific information by writing dictated questions",
+          "procedure": [
+            "Show the dictation slide. Explain: you will hear eight questions, each read twice. Write each one exactly.",
+            "Play the dictation tape (questions.mp3). Students write the eight questions.",
+            "Display the 'Check your dictation' slides, Parts 1-4. Read each question aloud; students tick or correct what they wrote."
+          ],
+          "time": "9 min",
+          "interaction": "T-Ss / Ind"
+        },
+        {
+          "stage": "Listening for detail - the interview",
+          "stage_number": 4,
+          "stage_aim": "To listen for detailed comprehension in a radio interview",
+          "procedure": [
+            "Introduce the interview: journalist Lucy Milligan interviews aid worker Emma McKinley.",
+            "Play Part 1 twice. Students answer questions 1-2. Check on the 'Answers - Part 1' slide.",
+            "Play Part 2 twice. Students answer questions 3-4. Check on the 'Answers - Part 2' slide.",
+            "Play Part 3 twice. Students answer questions 5-6. Check on the 'Answers - Part 3' slide.",
+            "Play Part 4 twice. Students answer questions 7-8. Check on the 'Answers - Part 4' slide."
+          ],
+          "time": "18 min",
+          "interaction": "Ind / T-Ss"
+        },
+        {
+          "stage": "Speaking - model card and speed dating",
+          "stage_number": 5,
+          "stage_aim": "To discuss flood risk and climate change using a five-step speaking structure",
+          "procedure": [
+            "Show the model speaking card. Walk through the five steps: Open, Opinion, Reason, Agree/disagree, Agreement.",
+            "Model one short example with a student.",
+            "Speed dating Set A (structured cards with language support). Two-minute rounds; rotate partners.",
+            "Speed dating Set B (bare cards, no language support). Two-minute rounds; rotate partners."
+          ],
+          "time": "10 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Wrap-up and feedback",
+          "stage_number": 6,
+          "stage_aim": "To consolidate the lesson and give feedback on the discussion",
+          "procedure": [
+            "Ask groups: What did you agree on? Elicit a few conclusions.",
+            "Give content feedback first, then language feedback on the discussion language.",
+            "Quick recap: What was the most surprising fact you heard today?"
+          ],
+          "time": "4 min",
+          "interaction": "T-Ss"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "5 September, 2026",
+    "class_name": "M2-4A",
+    "duration_minutes": 46,
+    "cefr_level": "B1",
+    "lesson_shape": "Shape E - Receptive Skills (Traditional) - Listening",
+    "topic": "The flood at the China-Nepal border - listening and discussion",
+    "materials": [
+      "Audio interview: 'World Stories' - Lucy Milligan interviews aid worker Emma McKinley (four parts, played twice)",
+      "Slideshow: The Flood at the China-Nepal Border",
+      "Audio: Dictation tape (eight questions, each read twice)",
+      "Speaking cue cards: climate change discussion - Set A (structured) and Set B (bare)"
+    ],
+    "main_aim": "By the end of the lesson, learners will have practised listening for specific information and detailed comprehension in a radio interview about a flood at the China-Nepal border, and will have discussed flood risk and climate change using a five-step speaking structure.",
+    "subsidiary_aim": "Learners will also have practised listening to and writing dictated questions, and will use opinion, reason, agreement and compromise language to reach a shared position in a speed-dating discussion.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/LISTENING_M2/index.html",
+    "transcript": "PROJECTS/LISTENING M2/transcript.json",
+    "answer_key": [
+      "<strong>Dictation - the eight questions</strong>",
+      "1. Emma says the flood was not a normal flood. What was it like, and why was it so dangerous?",
+      "2. Why was the loud noise so surprising to the people in Nuwakot?",
+      "3. Why did so many people first believe that there had been an earthquake?",
+      "4. Why is it so hard for scientists to warn people before a glacier collapses?",
+      "5. Give two examples of the damage that the flood caused to buildings and infrastructure.",
+      "6. How many people were affected in total, and around how many children lost their classrooms?",
+      "7. Emma says the danger is not over. Why?",
+      "8. Why does Emma think that this is a climate story, and not only a Nepal story?",
+      "<strong>Interview Part 1 - Questions 1-2</strong>",
+      "1. The flood was a solid wall of water, mud, rocks and broken ice. It moved incredibly fast, so people had no time to run.",
+      "2. The noise sounded like thunder, but the sky was clear and blue, with no clouds.",
+      "<strong>Interview Part 2 - Questions 3-4</strong>",
+      "3. The US Geological Survey recorded a small tremor, about 4.4, so many people believed an earthquake had caused a landslide.",
+      "4. The Himalayas are huge and remote, and there are thousands of glaciers, so scientists cannot say which one will break, or when.",
+      "<strong>Interview Part 3 - Questions 5-6</strong>",
+      "5. The flood destroyed homes, roads and bridges, and it blocked the tunnels of hydroelectric power stations.",
+      "6. About 65,000 people were affected, and around 10,000 children lost their classrooms.",
+      "<strong>Interview Part 4 - Questions 7-8</strong>",
+      "7. A barrier lake has formed behind rocks and debris. Water is building up behind it, and if it breaks, there could be a second flood.",
+      "8. The warming planet makes flooding worse across Asia. Thailand is also at risk, and countries like Nepal cause little of the problem but feel it first."
+    ]
+  }
+}

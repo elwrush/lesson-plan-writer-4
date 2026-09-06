@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "context": "Repetitive learning has been a feature of Asian education systems for centuries.",
+    "definition": "It involves repeating the same information or task again and again until you can remember it and do it without thinking.",
+    "topic": "repetitive learning"
+  },
+  {
+    "id": 2,
+    "context": "Homework has been a standard part of schooling for generations.",
+    "definition": "It involves tasks and exercises that students complete at home after school hours.",
+    "topic": "homework"
+  },
+  {
+    "id": 3,
+    "context": "Standardised testing has become increasingly common in education systems around the world.",
+    "definition": "It involves all students taking the same exam under the same conditions and receiving a score.",
+    "topic": "standardised testing"
+  },
+  {
+    "id": 4,
+    "context": "School uniforms have been a tradition in many countries for over a century.",
+    "definition": "They require students to wear specific clothing chosen by the school rather than their own clothes.",
+    "topic": "school uniforms"
+  },
+  {
+    "id": 5,
+    "context": "Mobile phones have become a part of daily life for most teenagers.",
+    "definition": "They allow students to access information instantly but also offer many distractions.",
+    "topic": "mobile phones in the classroom"
+  },
+  {
+    "id": 6,
+    "context": "Online learning has grown rapidly since the COVID-19 pandemic.",
+    "definition": "It involves attending classes and completing assignments through the internet instead of meeting in a physical classroom.",
+    "topic": "online learning"
+  },
+  {
+    "id": 7,
+    "context": "Starting foreign language study from primary school has become a policy in many countries.",
+    "definition": "It involves teaching children a second language from as young as five or six years old.",
+    "topic": "foreign language study from primary school"
+  },
+  {
+    "id": 8,
+    "context": "After-school tutoring is widespread in many Asian countries.",
+    "definition": "It involves students attending extra classes outside regular school hours to improve their academic performance.",
+    "topic": "after-school tutoring"
+  },
+  {
+    "id": 9,
+    "context": "Mixed-ability classrooms are used in many education systems to bring students of different levels together.",
+    "definition": "They involve placing students of varying academic abilities in the same class rather than separating them by skill level.",
+    "topic": "mixed-ability classrooms"
+  },
+  {
+    "id": 10,
+    "context": "Handwritten notes remain common in classrooms despite the rise of digital technology.",
+    "definition": "They involve students writing by hand during lessons rather than typing on a device.",
+    "topic": "handwritten notes"
+  },
+  {
+    "id": 11,
+    "context": "Arts and music education has been valued in schools for centuries.",
+    "definition": "It involves including creative subjects such as painting, drama, and music as part of the regular school programme.",
+    "topic": "arts and music in the curriculum"
+  },
+  {
+    "id": 12,
+    "context": "Physical education has been a required subject in most schools for decades.",
+    "definition": "It involves students participating in sports, exercise, and fitness activities as part of their school day.",
+    "topic": "physical education requirements"
+  },
+  {
+    "id": 13,
+    "context": "Peer teaching is a method where students explain concepts to their classmates.",
+    "definition": "It involves learners taking on the role of teacher to help others understand a topic.",
+    "topic": "peer teaching"
+  },
+  {
+    "id": 14,
+    "context": "Textbook-based learning has been the foundation of education for centuries.",
+    "definition": "It involves using printed books as the primary resource for delivering lessons and exercises.",
+    "topic": "textbook-based learning"
+  },
+  {
+    "id": 15,
+    "context": "Project-based learning has gained popularity in recent years as an alternative to traditional teaching.",
+    "definition": "It involves students working on extended tasks that combine knowledge from different subjects.",
+    "topic": "project-based learning"
+  },
+  {
+    "id": 16,
+    "context": "Spaced repetition is a learning technique backed by memory research.",
+    "definition": "It involves reviewing material at gradually increasing intervals to strengthen long-term recall.",
+    "topic": "spaced repetition"
+  },
+  {
+    "id": 17,
+    "context": "Student self-assessment has become more common in modern education.",
+    "definition": "It involves learners evaluating their own work and progress rather than relying solely on teacher feedback.",
+    "topic": "student self-assessment"
+  },
+  {
+    "id": 18,
+    "context": "Year-round schooling is practised in some countries as an alternative to the traditional calendar.",
+    "definition": "It involves shorter, more frequent breaks throughout the year instead of one long summer holiday.",
+    "topic": "year-round schooling"
+  },
+  {
+    "id": 19,
+    "context": "Bilingual education programmes have expanded in many countries as global communication increases.",
+    "definition": "They involve teaching students in two languages, often the local language and English, throughout their schooling.",
+    "topic": "bilingual education"
+  },
+  {
+    "id": 20,
+    "context": "Cram schools, known as juku in Japan and hagwon in South Korea, are widespread across Asia.",
+    "definition": "They involve students attending intensive after-school classes specifically designed to prepare for entrance exams.",
+    "topic": "cram schools and intensive exam preparation"
+  }
+]

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: A4; margin: 13mm 15mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Roboto', 'Segoe UI', Arial, sans-serif; color: #111; }
+
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  /* ---------- STRUCTURED (Set A): one topic per page, 2 side-by-side cards ---------- */
+  .grid-structured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6mm;
+    align-items: stretch;
+  }
+  .card {
+    border: 1.2px solid #2c3e50;
+    border-radius: 6px;
+    padding: 7mm 8mm;
+    background: #fff;
+    break-inside: avoid;
+    display: flex;
+    flex-direction: column;
+    min-height: 240mm;
+  }
+  .card .badge {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: 700;
+    padding: 1.5mm 3mm;
+    border-radius: 3px;
+    margin-bottom: 3mm;
+    align-self: flex-start;
+  }
+  .card h2 {
+    font-size: 19pt;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 2.5mm;
+  }
+  .card .context {
+    font-size: 12.5pt;
+    line-height: 1.35;
+    color: #333;
+    margin-bottom: 1mm;
+  }
+  .card .label {
+    font-size: 11pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #666;
+    margin: 4mm 0 1.5mm 0;
+    border-top: 0.8px solid #ddd;
+    padding-top: 3mm;
+  }
+  .card ol.structure {
+    list-style: none;
+    font-size: 12.5pt;
+    line-height: 1.35;
+  }
+  .card ol.structure li {
+    margin-bottom: 1mm;
+    padding-left: 4.5mm;
+    position: relative;
+  }
+  .card ol.structure li::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0;
+    color: #9b59b6;
+    font-weight: 700;
+  }
+  .card ol.structure li strong { color: #1a1a2e; }
+  .card ol.structure li em { color: #333; }
+  .card .lang-box {
+    background: #eef2f7;
+    border-left: 3px solid #1a1a2e;
+    border-radius: 3px;
+    padding: 3mm 4mm;
+    margin-top: 3mm;
+    flex: 1;
+    font-size: 11.5pt;
+  }
+  .card .lang-box .lang-func {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #9b59b6;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 2mm;
+  }
+  .card .lang-box .lang-func:first-child { margin-top: 0; }
+  .card .lang-box ul {
+    list-style: none;
+    line-height: 1.4;
+  }
+  .card .lang-box ul li {
+    margin-bottom: 0.6mm;
+    padding-left: 3.5mm;
+    position: relative;
+  }
+  .card .lang-box ul li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #1a1a2e;
+    font-weight: 700;
+  }
+
+  /* ---------- BARE (Set B): 6 per page, single column ---------- */
+  .grid-bare {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 4mm;
+    height: 271mm;
+  }
+  .bare-card {
+    border: 1.2px solid #2c3e50;
+    border-radius: 6px;
+    padding: 3mm 7mm;
+    display: flex;
+    align-items: center;
+    gap: 6mm;
+    break-inside: avoid;
+  }
+  .bare-card .num {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    flex: 0 0 auto;
+  }
+  .bare-card .prompt {
+    font-size: 14pt;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    flex: 1 1 auto;
+  }
+  .bare-card .hint {
+    font-size: 9pt;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex: 0 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  
+  <div class="grid-bare">
+    
+    <div class="bare-card">
+      <span class="num">1</span>
+      <span class="prompt">How do you feel when you see litter or plastic in your street?</span>
+      <span class="hint"></span>
+    </div>
+    
+    <div class="bare-card">
+      <span class="num">2</span>
+      <span class="prompt">Should richer people feel a duty to help poorer people? Why?</span>
+      <span class="hint"></span>
+    </div>
+    
+    <div class="bare-card">
+      <span class="num">3</span>
+      <span class="prompt">Do you feel responsible for helping families hit by floods?</span>
+      <span class="hint"></span>
+    </div>
+    
+    <div class="bare-card">
+      <span class="num">4</span>
+      <span class="prompt">Is it fair that some countries pollute more than others? How does that make you feel?</span>
+      <span class="hint"></span>
+    </div>
+    
+    <div class="bare-card">
+      <span class="num">5</span>
+      <span class="prompt">Would you give up something you enjoy to help the planet?</span>
+      <span class="hint"></span>
+    </div>
+    
+    <div class="bare-card">
+      <span class="num">6</span>
+      <span class="prompt">Do you believe that your own choices really matter? How do you feel about that?</span>
+      <span class="hint"></span>
+    </div>
+    
+  </div>
+  
+</div>
+
+</body>
+</html>

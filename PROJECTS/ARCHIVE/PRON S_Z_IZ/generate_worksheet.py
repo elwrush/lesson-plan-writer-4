@@ -71,18 +71,18 @@ FLORENCE_TRANSCRIPT = (
     "Uh, I, I was born in Ayutthaya and come here to studies in Bangkok, so I now live in Bangkok "
     "near the, near the school, uh, like around 7-Eleven. I use it everyday like, uh, four "
     "<span class='target'><strong>hours</strong></span> [1] a day. "
-    "And, yeah. Um, app and website I like best is, I think it's Instagram because their news feed "
-    "is really interesting. It's related to the <span class='target'><strong>things</strong></span> [2] "
+    "And, yeah. Um, app and website I like best is, I think it's Instagram because their "
+    "<span class='target'><strong>news</strong></span> [2] feed "
+    "is really interesting. It's related to the <span class='target'><strong>things</strong></span> [3] "
     "that I love and enjoy doing and also I can text with my "
-    "<span class='target'><strong>friends</strong></span> [3] on it and also making a video call. "
+    "<span class='target'><strong>friends</strong></span> [4] on it and also making a video call. "
     "Um, I see a girl writing a notebook and she has uh short hair and she wears a hoodie. "
     "Uh, she's writing, I think a homework and she's using her laptop to do her homework and on the "
-    "desk it have a book, uh, three <span class='target'><strong>books</strong></span> [4]. "
-    "Uh, they have science and English grammar and something I cannot read. On her background, uh, "
-    "I can see her bed and her, on the wall it have <span class='target'><strong>pictures</strong></span> [5] "
-    "hanging on it and she have a bookshelf that have many <span class='target'><strong>books</strong></span> [6] "
-    "and a <span class='target'><strong>plants</strong></span> [7] on it. And also she's, uh, a table "
-    "she's sitting is near a window and I think it's, uh, a day where, where she do it."
+    "desk it have a book, uh, three <span class='target'><strong>books</strong></span> [5]. "
+    "Uh, they have science and English <span class='target'><strong>grammar</strong></span> [6] and something I cannot read. On her background, uh, "
+    "I can see her bed and her, on the wall it have <span class='target'><strong>pictures</strong></span> [7] "
+    "hanging on it and she have a bookshelf that have many <span class='target'><strong>books</strong></span> [8] "
+    "and a <span class='target'><strong>plant</strong></span> [9] on it."
 )
 
 MODEL_READING = (
@@ -170,18 +170,6 @@ def build_blocks():
         ),
     })
 
-    # ---- Part E ----
-    blocks.append({
-        "type": "task", "num": "E", "title": "Does the Ending Matter?",
-        "body": (
-            "<p><strong>Instructions:</strong> Circle the correct form, then answer the question.</p>"
-            "<p><strong>1.</strong> Circle the correct form: I have three (book / books).</p>"
-            "<p><strong>2.</strong> Circle the correct form: She has two (dog / dogs).</p>"
-            "<p><strong>3.</strong> Does <em>glasses</em> have more syllables than <em>glass</em>? "
-            "<span class='label-box'></span> &nbsp; yes / no</p>"
-        ),
-    })
-
     # ---- Part F ----
     blocks.append({
         "type": "task", "num": "F", "title": "Catch the Finals Game",
@@ -199,15 +187,16 @@ def build_blocks():
         "type": "task", "num": "G", "title": "Florence's Recording: Tick or Cross",
         "body": (
             "<p><strong>Instructions:</strong> Listen to Florence talking about her life. The numbered underlined "
-            "words end with a plural <strong>/s/</strong>, <strong>/z/</strong>, or <strong>/ɪz/</strong>. For each "
+            "words end with a plural <strong>/s/</strong>, <strong>/z/</strong>, or <strong>/ɪz/</strong>. Sometimes plurals have been added when they should not have been. For each "
             "numbered word, write <strong>&#10003;</strong> if Florence pronounces the plural correctly, or "
-            "<strong>&#10007;</strong> if she drops it.</p>"
+            "<strong>&#10007;</strong> if she drops it or adds a plural which does not belong.</p>"
             "<div class='task-subbox'><div class='sub-head'>Florence's transcript</div>"
             "<div class='transcript'>" + FLORENCE_TRANSCRIPT + "</div></div>"
         ),
     })
 
     # ---- Part H ----
+    blocks.append({"type": "page_break"})
     blocks.append({
         "type": "task", "num": "H", "title": "Model Reading: Partner Check",
         "body": (
@@ -227,20 +216,19 @@ def build_blocks():
         "body": (
             "<p><strong>Part A:</strong> 3 plural sounds — <em>books</em> (/s/), <em>dogs</em> (/z/), "
             "<em>glasses</em> (/ɪz/).</p>"
-            "<p><strong>Part B:</strong> 1. books/book — &#10007; &nbsp; 2. dogs/dog — &#10007; &nbsp; "
-            "3. glasses/glass — &#10007; &nbsp; 4. friends/friend — &#10007; &nbsp; 5. years/year — &#10007;. "
-            "Pattern &#10007;&#10007;&#10007;&#10007;&#10007; — all dropped.</p>"
-            "<p><strong>Part C:</strong> [answers require teacher audition — listen to the discrimination track and "
-            "verify each tick/cross].</p>"
+            "<p><strong>Part B:</strong> 1. books/book — &#10007; &nbsp; 2. dogs/dog — &#10003; &nbsp; "
+            "3. glasses/glass — &#10007; &nbsp; 4. friends/friend — &#10007; &nbsp; 5. years/year — &#10003;. "
+            "Pattern &#10007; &#10003; &#10007; &#10007; &#10003;.</p>"
+            "<p><strong>Part C:</strong> 1. things &#10003; &middot; 2. siblings &#10007; (singular) &middot; "
+            "3. games &#10003; &middot; 4. students &#10003; &middot; 5. pictures &#10007; (singular) &middot; "
+            "6. dinners &#10003; &middot; 7. books &#10007; (singular) &middot; 8. plants &#10003;.</p>"
             "<p><strong>Part D syllables:</strong> books = 1, dogs = 1, glasses = 2, friends = 1.</p>"
-            "<p><strong>Part E:</strong> 1. books &nbsp; 2. dogs &nbsp; 3. yes — <em>glasses</em> has 2 syllables, "
-            "<em>glass</em> has 1.</p>"
             "<p><strong>Game:</strong> 1 point per heard plural /s/, /z/, or /ɪz/; do-over until the sound is heard.</p>"
-            "<p><strong>Part G (Florence's transcript):</strong> &#10003; = pronounced correctly, &#10007; = plural dropped. "
-            "<strong>Answers require teacher audition.</strong> Florence's feedback notes she \"sometimes drops the 's' "
-            "at the end of plural words\" — the key must be verified by listening to florence-33171.m4a. 7 targets: "
-            "[0] years (example, not scored) &middot; [1] hours &middot; [2] things &middot; [3] friends &middot; "
-            "[4] books &middot; [5] pictures &middot; [6] books &middot; [7] plants.</p>"
+            "<p><strong>Part G (Florence's transcript):</strong> &#10003; = pronounced correctly, &#10007; = plural dropped or incorrectly added. Audited key (verified by a teacher listening to florence-33171.m4a): "
+            "[0] years &#10003; (example, not scored) &middot; [1] hours &#10003; &middot; [2] news &#10007; (drops s) &middot; "
+            "[3] things &#10003; &middot; [4] friends &#10003; &middot; [5] books &#10007; (drops s) &middot; "
+            "[6] grammar &#10007; (adds s) &middot; [7] pictures &#10003; &middot; [8] books &#10003; &middot; "
+            "[9] plant &#10007; (adds s).</p>"
             "<p><strong>Part H (Model reading):</strong> 11 targets: [1] things (/z/) &middot; [2] books (/s/) &middot; "
             "[3] dogs (/z/) &middot; [4] glasses (/ɪz/) &middot; [5] friends (/z/) &middot; [6] games (/z/) &middot; "
             "[7] siblings (/z/) &middot; [8] things (/z/) &middot; [9] plants (/z/) &middot; [10] pictures (/z/) &middot; "

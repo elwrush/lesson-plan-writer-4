@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 190mm;
+    height: 277mm;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5mm;
+    page-break-after: always;
+  }
+  .page:last-child {
+    page-break-after: auto;
+  }
+  .card {
+    border: 1px solid #d5dbe3;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(26, 26, 46, 0.10);
+  }
+  .card-header {
+    color: #fff;
+    padding: 3.5mm 4mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-title {
+    display: flex;
+    align-items: center;
+  }
+  .num-badge {
+    background: #ffdd00;
+    color: #1a1a2e;
+    font-weight: 900;
+    font-size: 14pt;
+    width: 8mm;
+    height: 8mm;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3mm;
+    flex-shrink: 0;
+  }
+  .card-kicker {
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.92;
+  }
+  .card-body {
+    flex: 1;
+    padding: 4mm 4.5mm 3mm 4.5mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .notice {
+    font-size: 9pt;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 2mm;
+  }
+  .competition-title {
+    font-size: 13pt;
+    font-weight: 900;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2.5mm;
+    text-align: center;
+  }
+  .context-text {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+    margin-bottom: 2.5mm;
+  }
+  .write-line {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 2mm;
+  }
+  .bullets-label {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 1mm;
+  }
+  .bullet {
+    font-size: 10pt;
+    line-height: 1.4;
+    color: #333;
+    padding-left: 3mm;
+    margin-bottom: 0.8mm;
+  }
+  .bullet::before {
+    content: "\2022  ";
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+  .word-count {
+    font-size: 8.5pt;
+    color: #999;
+    font-style: italic;
+    margin-top: auto;
+    padding-top: 2mm;
+  }
+  .topic-title {
+    font-size: 12pt;
+    font-weight: 900;
+    color: #1a1a2e;
+    margin-bottom: 3mm;
+  }
+  .b2-context {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+    margin-bottom: 2mm;
+  }
+  .b2-definition {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+    margin-bottom: 2.5mm;
+  }
+  .b2-instruction {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+  .card-footer {
+    border-top: 1px solid #e3e8ef;
+    padding: 2mm 4.5mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .level-tag {
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .card-page {
+    font-size: 8pt;
+    color: #aab2bf;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">1</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Repetitive Learning</div>
+    <div class="b2-context">Repetitive learning has been a feature of Asian education systems for centuries.</div>
+    <div class="b2-definition">It involves repeating the same information or task again and again until you can remember it and do it without thinking.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of repetitive learning.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#1a1a2e">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 1 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">2</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Homework</div>
+    <div class="b2-context">Homework has been a standard part of schooling for generations.</div>
+    <div class="b2-definition">It involves tasks and exercises that students complete at home after school hours.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of homework.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#116466">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 2 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2e7d32">
+    <div class="card-title">
+      <span class="num-badge">3</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Standardised Testing</div>
+    <div class="b2-context">Standardised testing has become increasingly common in education systems around the world.</div>
+    <div class="b2-definition">It involves all students taking the same exam under the same conditions and receiving a score.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of standardised testing.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2e7d32">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 3 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#c0392b">
+    <div class="card-title">
+      <span class="num-badge">4</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">School Uniforms</div>
+    <div class="b2-context">School uniforms have been a tradition in many countries for over a century.</div>
+    <div class="b2-definition">They require students to wear specific clothing chosen by the school rather than their own clothes.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of school uniforms.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#c0392b">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 4 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#e67e22">
+    <div class="card-title">
+      <span class="num-badge">5</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Mobile Phones In The Classroom</div>
+    <div class="b2-context">Mobile phones have become a part of daily life for most teenagers.</div>
+    <div class="b2-definition">They allow students to access information instantly but also offer many distractions.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of mobile phones in the classroom.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#e67e22">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 5 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#6c3483">
+    <div class="card-title">
+      <span class="num-badge">6</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Online Learning</div>
+    <div class="b2-context">Online learning has grown rapidly since the COVID-19 pandemic.</div>
+    <div class="b2-definition">It involves attending classes and completing assignments through the internet instead of meeting in a physical classroom.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of online learning.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#6c3483">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 6 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2874a6">
+    <div class="card-title">
+      <span class="num-badge">7</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Foreign Language Study From Primary School</div>
+    <div class="b2-context">Starting foreign language study from primary school has become a policy in many countries.</div>
+    <div class="b2-definition">It involves teaching children a second language from as young as five or six years old.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of foreign language study from primary school.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2874a6">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 7 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#7b241c">
+    <div class="card-title">
+      <span class="num-badge">8</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">After-School Tutoring</div>
+    <div class="b2-context">After-school tutoring is widespread in many Asian countries.</div>
+    <div class="b2-definition">It involves students attending extra classes outside regular school hours to improve their academic performance.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of after-school tutoring.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#7b241c">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 8 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">9</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Mixed-Ability Classrooms</div>
+    <div class="b2-context">Mixed-ability classrooms are used in many education systems to bring students of different levels together.</div>
+    <div class="b2-definition">They involve placing students of varying academic abilities in the same class rather than separating them by skill level.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of mixed-ability classrooms.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#1a1a2e">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 9 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">10</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Handwritten Notes</div>
+    <div class="b2-context">Handwritten notes remain common in classrooms despite the rise of digital technology.</div>
+    <div class="b2-definition">They involve students writing by hand during lessons rather than typing on a device.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of handwritten notes.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#116466">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 10 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2e7d32">
+    <div class="card-title">
+      <span class="num-badge">11</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Arts And Music In The Curriculum</div>
+    <div class="b2-context">Arts and music education has been valued in schools for centuries.</div>
+    <div class="b2-definition">It involves including creative subjects such as painting, drama, and music as part of the regular school programme.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of arts and music in the curriculum.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2e7d32">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 11 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#c0392b">
+    <div class="card-title">
+      <span class="num-badge">12</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Physical Education Requirements</div>
+    <div class="b2-context">Physical education has been a required subject in most schools for decades.</div>
+    <div class="b2-definition">It involves students participating in sports, exercise, and fitness activities as part of their school day.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of physical education requirements.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#c0392b">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 12 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#e67e22">
+    <div class="card-title">
+      <span class="num-badge">13</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Peer Teaching</div>
+    <div class="b2-context">Peer teaching is a method where students explain concepts to their classmates.</div>
+    <div class="b2-definition">It involves learners taking on the role of teacher to help others understand a topic.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of peer teaching.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#e67e22">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 13 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#6c3483">
+    <div class="card-title">
+      <span class="num-badge">14</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Textbook-Based Learning</div>
+    <div class="b2-context">Textbook-based learning has been the foundation of education for centuries.</div>
+    <div class="b2-definition">It involves using printed books as the primary resource for delivering lessons and exercises.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of textbook-based learning.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#6c3483">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 14 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2874a6">
+    <div class="card-title">
+      <span class="num-badge">15</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Project-Based Learning</div>
+    <div class="b2-context">Project-based learning has gained popularity in recent years as an alternative to traditional teaching.</div>
+    <div class="b2-definition">It involves students working on extended tasks that combine knowledge from different subjects.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of project-based learning.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2874a6">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 15 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#7b241c">
+    <div class="card-title">
+      <span class="num-badge">16</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Spaced Repetition</div>
+    <div class="b2-context">Spaced repetition is a learning technique backed by memory research.</div>
+    <div class="b2-definition">It involves reviewing material at gradually increasing intervals to strengthen long-term recall.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of spaced repetition.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#7b241c">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 16 / 20</span>
+  </div>
+</div>
+</div>
+<div class="page"><div class="card">
+  <div class="card-header" style="background:#1a1a2e">
+    <div class="card-title">
+      <span class="num-badge">17</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Student Self-Assessment</div>
+    <div class="b2-context">Student self-assessment has become more common in modern education.</div>
+    <div class="b2-definition">It involves learners evaluating their own work and progress rather than relying solely on teacher feedback.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of student self-assessment.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#1a1a2e">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 17 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#116466">
+    <div class="card-title">
+      <span class="num-badge">18</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Year-Round Schooling</div>
+    <div class="b2-context">Year-round schooling is practised in some countries as an alternative to the traditional calendar.</div>
+    <div class="b2-definition">It involves shorter, more frequent breaks throughout the year instead of one long summer holiday.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of year-round schooling.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#116466">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 18 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#2e7d32">
+    <div class="card-title">
+      <span class="num-badge">19</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Bilingual Education</div>
+    <div class="b2-context">Bilingual education programmes have expanded in many countries as global communication increases.</div>
+    <div class="b2-definition">They involve teaching students in two languages, often the local language and English, throughout their schooling.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of bilingual education.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#2e7d32">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 19 / 20</span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" style="background:#c0392b">
+    <div class="card-title">
+      <span class="num-badge">20</span>
+      <span class="card-kicker">Compare &amp; Contrast</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="topic-title">Cram Schools And Intensive Exam Preparation</div>
+    <div class="b2-context">Cram schools, known as juku in Japan and hagwon in South Korea, are widespread across Asia.</div>
+    <div class="b2-definition">They involve students attending intensive after-school classes specifically designed to prepare for entrance exams.</div>
+    <div class="b2-instruction">Compare and contrast the positive and negative features of cram schools and intensive exam preparation.</div>
+  </div>
+  <div class="card-footer">
+    <span class="level-tag" style="color:#c0392b">CEFR B2 &middot; Grade 9</span>
+    <span class="card-page">Card 20 / 20</span>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

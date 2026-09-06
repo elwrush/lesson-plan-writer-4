@@ -54,8 +54,7 @@
           "procedure": [
             "Worksheet, Part C. Play the track: each word read once. Students write ✓ if they hear the plural ending, or ✗ if it is missing.",
             "Worksheet, Part D. Students clap the syllables. Books = 1, dogs = 1, glasses = 2; reveal one count per click.",
-            "Elicit the rule: after voiceless sounds, -s sounds like /s/ (books); after voiced sounds, /z/ (dogs); after sibilants, /ɪz/ and adds a syllable (glasses).",
-            "Worksheet, Part E: circle the correct form — book is one, books is many."
+            "Elicit the rule: after voiceless sounds, -s sounds like /s/ (books); after voiced sounds, /z/ (dogs); after sibilants, /ɪz/ and adds a syllable (glasses)."
           ],
           "time": "8 min",
           "interaction": "T-Ss / Ss-Ss"
@@ -111,20 +110,21 @@
     "cefr_level": "B1",
     "lesson_shape": "Shape L — Pronunciation Noticing",
     "topic": "Pronunciation Noticing: Plural -s (/s/, /z/, /ɪz/)",
-    "materials": ["Pronunciation Noticing worksheet"],
+    "materials": [
+      "Pronunciation Noticing worksheet"
+    ],
     "main_aim": "By the end of the lesson, students will be better able to notice and produce plural -s (/s/, /z/, /ɪz/) when talking about the things they own.",
     "subsidiary_aim": "To notice that dropping the -s ending hides the singular/plural meaning.",
-    "slideshow_url": null,
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/PRON_S_Z_IZ/index.html",
     "video_url": null,
     "transcript": null,
     "answer_key": [
       "Part A: 3 plural sounds — books (/s/), dogs (/z/), glasses (/ɪz/).",
-      "Part B: 1. books/book — ✗ · 2. dogs/dog — ✗ · 3. glasses/glass — ✗ · 4. friends/friend — ✗ · 5. years/year — ✗. Pattern ✗✗✗✗✗ — all dropped.",
-      "Part C: answers require teacher audition — listen to the discrimination track and verify each tick/cross.",
+      "Part B: 1. books/book — ✗ · 2. dogs/dog — ✓ · 3. glasses/glass — ✗ · 4. friends/friend — ✗ · 5. years/year — ✓. Pattern ✗ ✓ ✗ ✗ ✓.",
+      "Part C: 1. things ✓ · 2. siblings ✗ (singular) · 3. games ✓ · 4. students ✓ · 5. pictures ✗ (singular) · 6. dinners ✓ · 7. books ✗ (singular) · 8. plants ✓.",
       "Part D syllables: books = 1, dogs = 1, glasses = 2, friends = 1.",
-      "Part E: 1. books · 2. dogs · 3. yes — glasses has 2 syllables, glass has 1.",
       "Game: 1 point per heard plural /s/, /z/, or /ɪz/; do-over until the sound is heard.",
-      "Part G (Florence's transcript): ✓ = pronounced correctly, ✗ = plural dropped. Answers require teacher audition — the key must be verified by a teacher listening to the recording. 7 targets: [0] years (example, not scored) · [1] hours · [2] things · [3] friends · [4] books · [5] pictures · [6] books · [7] plants.",
+      "Part G (Florence's transcript): ✓ = pronounced correctly, ✗ = plural dropped or incorrectly added. Audited key (verified by a teacher listening to florence-33171.m4a): [0] years ✓ (example, not scored) · [1] hours ✓ · [2] news ✗ (drops s) · [3] things ✓ · [4] friends ✓ · [5] books ✗ (drops s) · [6] grammar ✗ (adds s) · [7] pictures ✓ · [8] books ✓ · [9] plant ✗ (adds s).",
       "Part H (Model reading): 11 targets: [1] things (/z/) · [2] books (/s/) · [3] dogs (/z/) · [4] glasses (/ɪz/) · [5] friends (/z/) · [6] games (/z/) · [7] siblings (/z/) · [8] things (/z/) · [9] plants (/z/) · [10] pictures (/z/) · [11] things (/z/)."
     ]
   }
