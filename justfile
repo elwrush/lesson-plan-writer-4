@@ -8,6 +8,7 @@
 #   just render name="LISTENING M3"   # build -> render -> postprocess -> validate (full loop)
 #   just validate name="LISTENING M3" # font validation only
 #   just indread-render name="READING M2" # independent reading render+combine (post-gate)
+#   just reading-check name="READING M3"  # word-band + gloss-integrity check (pre-flight)
 #   just test                         # pytest
 #   just serve                        # start background HTTP server on :8080 (idempotent)
 #   just help                         # list recipes
@@ -56,6 +57,18 @@ validate	name=name:
 indread-render	name=name:
 	@echo "==[ independent reading render+combine: {{name}} ]=="
 	@python3 "INDEPENDENT-READING/PROJECTS/{{name}}/SCRIPTS/produce.py"
+	@echo "==[ done ]=="
+
+# ── Reading envelope check (word-band + gloss integrity) ─────────────────────
+# Runs the project's produce.py --check: sanitises + reports the body word
+# count against [target, cap] AND verifies every gloss word appears verbatim
+# in the body. A missing gloss word is a data bug (silently dropped by
+# sanitise and, pre-fix, the cause of the off-by-one gloss-numbering error);
+# --check surfaces it and the render path hard-fails on it.
+#   just reading-check "READING M3"
+reading-check	name="READING M3":
+	@echo "==[ reading check: {{name}} ]=="
+	@python3 "INDEPENDENT-READING/PROJECTS/{{name}}/SCRIPTS/produce.py" --check
 	@echo "==[ done ]=="
 
 # ── Lesson plan render + verify ──────────────────────────────────────────────

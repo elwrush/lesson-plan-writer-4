@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""READING M2 — independent-reading produce driver.
+"""READING M3 — independent-reading produce driver.
 
 POST-GATE terminal step for the independent-reading generator skill.
 Reads the sibling reading.json envelope, then for each CEFR level:
@@ -7,7 +7,7 @@ Reads the sibling reading.json envelope, then for each CEFR level:
   2. SANITISE (unicode/spacing/reflow + gloss superscript markers + count)
   3. ensure the deterministic count lands in [target, cap]
   4. build a Pydantic-validated ReadingText and RENDER it to PDF
-  5. merge the level PDFs (B1 first, then B2) into ONE combined PDF
+  5. merge the level PDFs (B2 first, then C1) into ONE combined PDF
   6. VERIFY each per-level PDF
 
 The simplify -> Kimi -> human gates are INTERACTIVE and live OUTSIDE this
@@ -44,8 +44,8 @@ ENVELOPE = HERE / "reading.json"
 REPO_ROOT = HERE.parents[3]  # /mnt/c/PROJECTS/LESSON-PLAN-WRITER-4
 # Output goes to the SOURCE repo project's PDF folder (user-specified), NOT the
 # skill's default INDEPENDENT-READING/... location.
-PDF_DIR = REPO_ROOT / "PROJECTS" / "READING M2" / "PDF"
-BANNER = REPO_ROOT / "PROJECTS" / "READING M2" / "meta-banner.jpg"
+PDF_DIR = REPO_ROOT / "PROJECTS" / "READING M3" / "PDF"
+BANNER = REPO_ROOT / "PROJECTS" / "READING M3" / "meta-banner.jpg"
 
 
 def load_envelope() -> dict:
@@ -67,13 +67,7 @@ def flatten_body(chunks: list[dict]) -> list[str]:
 
 
 def build_render_paragraphs(chunks: list[dict], marked_body: list[str]) -> list[dict | str]:
-    """Interleave section-head dicts (chunk headlines) with marked body paras.
-
-    The sanitised body paragraphs carry gloss superscript markers. We thread
-    the headlines back through in order, one per chunk, matching the chunk's
-    body paragraphs by position (all body paragraphs are consumed in order,
-    so the marked list slots into each chunk span-by-span).
-    """
+    """Interleave section-head dicts (chunk headlines) with marked body paras."""
     out: list[dict | str] = []
     idx = 0
     for chunk in chunks:
@@ -87,7 +81,6 @@ def build_render_paragraphs(chunks: list[dict], marked_body: list[str]) -> list[
 
 
 def check_level(level: dict) -> tuple[int, list[str], list[dict], list[str]]:
-    """Sanitise a level's body, return (body_words, marked_paras, glosses, chunk_paras)."""
     body = flatten_body(level["chunks"])
     raw = "\n\n".join(body)
     gloss_spec = level.get("glosses") or []
@@ -132,7 +125,7 @@ def main() -> None:
 
     # ── --check: report counts only ─────────────────────────────────────────
     if args.check:
-        print(f"== READING M2 independent-reading CHECK (approved={approved}) ==")
+        print(f"== READING M3 independent-reading CHECK (approved={approved}) ==")
         for lvl in levels:
             words, *_ = check_level(lvl)
             target, cap, in_band = verify_envelope_level(lvl, words)
@@ -190,7 +183,7 @@ def main() -> None:
             words=words,
             target_words=words,
             cap_words=cap,
-            simplified=level["cefr"] in ("A2", "B1"),
+            simplified=level["cefr"] in ("A2", "B1", "B2"),
             kimi_verdict=level.get("kimi_verdict", "skipped"),
             human_approved=True,                # render() gate — already past Gate 2
             glosses=[dict(g) for g in gloss_dicts],
@@ -203,21 +196,14 @@ def main() -> None:
         rendered.append((Path(produced), reading))
         print(f"[produce] rendered {level['cefr']}: {produced.name} ({words} words)")
 
-    # ── combine: B1 first, then B2 ─────────────────────────────────────────
+    # ── combine: B2 first, then C1 ─────────────────────────────────────────
     combined = combine_pdfs(rendered, levels[0]["title"])
     print(f"[produce] combined -> {combined.name}")
 
     # ── verify each per-level PDF ──────────────────────────────────────────
-    # Use wrap-safe probes: the FIRST few words of the level's own first body
-    # paragraph and the LAST few words of its last body paragraph (short enough
-    # to stay inside one rendered line — a long slice spans line-wraps and fails).
     for (pdf, reading), level in zip(rendered, levels):
         body = flatten_body(level["chunks"])
-        first = body[0].split()[:6]           # ~6 words of the opening paragraph
-        # probe the CLOSING paragraph's opening — its final words wrap across
-        # lines, so a long end-of-paragraph slice would not be found in the
-        # raw (newline-separated) PDF text. The first line of the last
-        # paragraph is wrap-safe.
+        first = body[0].split()[:6]
         last = body[-1].split()[:5]
         res = verify_pdf(pdf, reading,
                          first_words=" ".join(first), last_words=" ".join(last))
@@ -226,12 +212,12 @@ def main() -> None:
 
 
 def combine_pdfs(rendered: list[tuple[Path, ReadingText]], title: str) -> Path:
-    """Merge the level PDFs into one file, B1 first then B2, preserving each
+    """Merge the level PDFs into one file, B2 first then C1, preserving each
     section's own masthead, CEFR badge, running head and page numbering."""
     import pymupdf
 
     slug = "".join(c for c in title.lower() if c.isalnum() or c == "-").strip("-")
-    combined_path = PDF_DIR / f"combined-b1-b2-{date.today().isoformat()}-{slug}.pdf"
+    combined_path = PDF_DIR / f"combined-b2-c1-{date.today().isoformat()}-{slug}.pdf"
     merged = pymupdf.open()
     try:
         for pdf, _reading in rendered:

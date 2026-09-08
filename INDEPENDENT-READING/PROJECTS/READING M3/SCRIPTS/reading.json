@@ -1,0 +1,189 @@
+{
+  "project": "READING M3",
+  "source_url": "https://www.edweek.org/the-state-of-teaching/2026/leadership/teachers-say-behavior-problems-arent-just-about-students-its-the-parents",
+  "approved": true,
+  "levels": [
+    {
+      "cefr": "B2",
+      "minutes": 8,
+      "title": "What’s Going On in Classrooms These Days?",
+      "byline": "Adapted from Education Week · Olina Banerji · 4 March 2026",
+      "kimi_verdict": "pending",
+      "glosses": [
+        {
+          "word": "discipline",
+          "gloss": "rules and punishments"
+        },
+        {
+          "word": "suspension",
+          "gloss": "a time out of school"
+        },
+        {
+          "word": "restorative",
+          "gloss": "focused on repairing harm"
+        },
+        {
+          "word": "consequences",
+          "gloss": "what happens after a rule is broken"
+        },
+        {
+          "word": "undermine",
+          "gloss": "to make weaker"
+        },
+        {
+          "word": "fallout",
+          "gloss": "the negative results"
+        },
+        {
+          "word": "turnover",
+          "gloss": "teachers leaving often"
+        },
+        {
+          "word": "advocate",
+          "gloss": "a person who supports another"
+        },
+        {
+          "word": "inclusive",
+          "gloss": "open to everyone"
+        },
+        {
+          "word": "disabilities",
+          "gloss": "learning or physical needs"
+        },
+        {
+          "word": "counsellor",
+          "gloss": "a person who helps with feelings"
+        }
+      ],
+      "chunks": [
+        {
+          "headline": "Teachers Say Behaviour Is Getting Worse",
+          "paragraphs": [
+            "Teachers across the United States report the same problem: classroom behaviour is getting worse. Students are rude to their teachers, some refuse to do their school work, and in a few serious cases they are violent towards other students and their teachers.",
+            "A national survey of more than 5,800 teachers found that 35% said their students' behaviour was a lot worse than the year before, while only a very small number felt that things had improved.",
+            "One of these teachers is Winnie William-Halls, who taught students with special needs in Chicago for nearly thirty years. Last year a student she had helped for a long time swore at her after receiving a poor progress report. The teacher, who felt deeply hurt because she spent her own money on snacks, treats and pencils for her class, took six weeks away from her job to decide whether she still wanted to teach.",
+            "Teachers add that many students no longer appear to worry about the rules; one teacher commented that students will say and do almost anything simply to see whether they can escape punishment.",
+            "Yet William-Halls is not alone. Educators across the country report that classroom behaviour has become increasingly difficult to manage."
+          ]
+        },
+        {
+          "headline": "Two Very Different Ways to Keep Order",
+          "paragraphs": [
+            "American schools have tried two very different approaches to student behaviour. For roughly twenty years after 1990, schools adopted a policy called zero tolerance: a student who broke a rule received the same punishment as anyone else, which could mean a suspension or a move to a different school.",
+            "Research, however, showed that this approach was unfair. Students of colour and students with disabilities were disciplined far more often than their white peers, and for this reason most schools eventually abandoned it.",
+            "More recently, schools have turned to restorative discipline, which aims to keep students in class and to repair harm through structured conversation and reflection rather than exclusion. Although this approach is kinder and more inclusive, it has not solved the problem; many teachers argue that it lets students get away with bad behaviour at little cost.",
+            "Teachers and principals have also noticed that parents can be part of the difficulty. When a school punishes a student, it is often the parents who step in to protect them, whether by phoning to complain or by refusing to support the punishment.",
+            "This leaves teachers in an uncomfortable position, unsure who to turn to and often feeling that they are managing alone. In the survey, many teachers said that stronger support from their school leaders would make a real difference when a problem with a parent becomes serious."
+          ]
+        },
+        {
+          "headline": "Why Do Parents Defend Their Children?",
+          "paragraphs": [
+            "In fact, teachers largely place the blame on parents for the fact that students no longer appear to fear the consequences. More than half of the teachers surveyed wanted limits on how far parents could undermine the punishment their children receive, and 58% said that parents need instruction on how to teach their children to behave appropriately at school. Only one idea was more popular: smaller classes.",
+            "Parents often seem so ready to defend their children because they feel the school is judging their parenting, said Whitney Aragaki, a science teacher from Hawaii. This feeling can make parents defensive and unhelpful, and it prevents the school and the family from reaching the real reason for the misbehaviour.",
+            "One school leader put it another way. 'They are not shouting at you,' said Rasheem Hollis, who helps lead a school of 1,200 students in Newark, Delaware. 'They are shouting at the situation.'",
+            "Teachers also attribute part of the problem to the covid pandemic. For months, many students were not in school, were not bound by school rules, and spent a great deal of time alone. When they returned, many of them had lost the ability to interact with others and to cope with strong emotions.",
+            "The academic fallout has made matters worse: students who fell behind in reading and maths often misbehave in order to hide the fact that they are struggling.",
+            "Talking, however, can work with parents too. In one school a father arrived shouting, and the school leader invited the student, the parents and the teacher to a meeting; once they had all discussed the problem, it grew smaller. The leader observed that parents frequently do not want conflict; they simply want to be heard."
+          ]
+        },
+        {
+          "headline": "Schools Learn to Work With Parents",
+          "paragraphs": [
+            "A few school leaders have found a more productive way: instead of fighting parents, they work alongside them, and this helps both the teachers and the students.",
+            "Elizabeth Nelson, who leads a middle school in Elm Grove, Wisconsin, first turned to the data. In the 2022-23 school year, her school recorded 822 behaviour reports for a population of 900 students, and almost half of them came from the same twenty students.",
+            "Nelson invited those twenty students and their parents to a meeting she called Strong Start at the beginning of the new school year, where she asked simple questions such as what they were looking forward to and what made them nervous. The results were striking: between 2022-23 and 2023-24, behaviour reports fell by 40%, in-school suspensions by 59%, and out-of-school suspensions by 69%.",
+            "In another school, the principal Mike Perry discovered why a parent had been defending her child: the boy was dealing with grief after losing someone close. Perry connected the family with a counsellor, who helped the child settle.",
+            "Nelson prepares carefully for these meetings, wearing comfortable clothes and laying out sweets so that the families feel at ease, and she asks the students easy questions before turning to their problems, so that everyone starts the year on the same page.",
+            "'It is their job to be their child's biggest advocate,' Nelson said. 'They are not giving us a hard time; they are having a hard time.'",
+            "William-Halls, for her part, argues that teachers need better training. High turnover leaves too few staff who know how to handle difficult students and their parents, and more training would help the many new teachers who arrive each year.",
+            "In the end, William-Halls decided to stay in her job, and the student who had shouted at her came back to apologise. 'Schools and parents must work together to help students,' she said."
+          ]
+        }
+      ]
+    },
+    {
+      "cefr": "C1",
+      "minutes": 8,
+      "title": "What’s Going On in Classrooms These Days?",
+      "byline": "Adapted from Education Week · Olina Banerji · 4 March 2026",
+      "kimi_verdict": "skipped",
+      "glosses": [
+        {
+          "word": "restorative",
+          "gloss": "focused on repairing harm"
+        },
+        {
+          "word": "third rail",
+          "gloss": "a topic people avoid"
+        },
+        {
+          "word": "pendulum",
+          "gloss": "a back-and-forth change"
+        },
+        {
+          "word": "undermine",
+          "gloss": "to weaken"
+        },
+        {
+          "word": "referrals",
+          "gloss": "behaviour reports"
+        },
+        {
+          "word": "de-escalate",
+          "gloss": "to calm a situation down"
+        },
+        {
+          "word": "insubordinate",
+          "gloss": "refusing to obey"
+        },
+        {
+          "word": "brokered",
+          "gloss": "arranged an agreement"
+        }
+      ],
+      "chunks": [
+        {
+          "headline": "Teachers Say Behaviour Is Getting Worse",
+          "paragraphs": [
+            "Teachers across the United States report the same thing: classroom behaviour is deteriorating. Students are abrasive and disrespectful, they refuse to complete tasks, and in some severe cases they are violent towards their peers and their teachers.",
+            "A nationally representative survey of more than 5,800 teachers, carried out by the EdWeek Research Center, found that 35% of respondents said their students' behaviour was a lot worse than the year before. Reports of improvement were scarce.",
+            "Winnie William-Halls, who has taught students with special needs at the Nicholson STEM Academy in Chicago for nearly thirty years, had never taken a long break from her career. Last year that changed. A student she had worked with closely swore at her after receiving a poor progress report, and the normally poised teacher lost her cool.",
+            "It hurt my feelings, she said, because not only did she give as much of herself as she could in the classroom, she also spent money of her own on snacks, treats and pencils. She took a six-week sabbatical to work on her mental health and to decide whether she wanted to keep teaching."
+          ]
+        },
+        {
+          "headline": "Two Very Different Ways to Keep Order",
+          "paragraphs": [
+            "Over the last thirty years, the discipline pendulum has swung wildly. For roughly two decades after 1990, zero tolerance policies recommended a clean barrier between those who transgressed and those who followed the rules. Students faced serious consequences such as out-of-school suspension or placement in alternative schools.",
+            "Research, however, showed that these policies could overlook deep economic and social fractures: students of colour and those with disabilities were disciplined at far higher rates than their white peers.",
+            "More recently, schools have moved toward a gentler, restorative approach, which aims to keep students in the classroom and extinguish conflict through conflict-resolution practices and in-school suspension. While more inclusive and arguably kinder, this second approach has had limited success, and it has drawn criticism largely from teachers for letting students off the hook with few or no consequences.",
+            "Teachers and principals have found that parents complicate the conversation further, acting as a third rail. Parent involvement can reinforce good behaviour at home and at school, yet it can also derail a school's efforts to discipline a student. When schools enforce a suspension, a detention, or an exclusion from extracurricular activities, it is often the parents who try to shield their child."
+          ]
+        },
+        {
+          "headline": "Why Do Parents Defend Their Children?",
+          "paragraphs": [
+            "Teachers largely fault parents for the fact that students no longer seem afraid of consequences. In the same EdWeek survey, over half of the respondents wanted limits on how much parents can undermine the consequences their children receive, and 58% said parents need instruction on how to teach their children to behave appropriately at school. The only factor they rated higher was smaller class sizes.",
+            "Parents often resist because being questioned about a child's misbehaviour can feel like a judgement on their parenting style, said Whitney Aragaki, a high-school science teacher from Hawaii. It can make parents defensive and generally unhelpful when it comes to getting to the root of why a child is acting out.",
+            "Over his twenty-year career, Rasheem Hollis, the assistant principal of a 1,200-student school in Newark, Delaware, has realised that most angry parents are not driven by personal anger. They are not yelling at you, he said. They are yelling at the situation. In one instance he had to de-escalate a screaming parent, then invited the student, the parents and the teacher to a conference where each side could hear the other.",
+            "Educators also point to habits formed during the pandemic. For months, students were not bound by school rules or structures, and they had too much unsupervised screen time, said Mike Perry, a principal in Georgia. They went from zero to 100 very quickly, he added, and they had lost the skills to cope when they became upset. Perry and his staff have had to consciously rebuild what is acceptable, in effect retaching how school works. He has since woven social-emotional-learning routines into his teachers' planning time and built a school-wide culture of celebration, in which teachers and students first focus on what is going well, which he says has lifted the mood across the building.",
+            "Academic fallout from the pandemic has compounded the problem, putting many students behind grade level in reading and maths. Students often behave poorly to shield what is going on academically, William-Halls said."
+          ]
+        },
+        {
+          "headline": "Schools Learn to Work With Parents",
+          "paragraphs": [
+            "Some leaders have found a more productive route: instead of fighting parents, they work alongside them. Elizabeth Nelson, an associate principal at Pilgrim Park Middle School in Elm Grove, Wisconsin, first turned to data. In the 2022-23 school year, the school saw 822 referrals in a population of 900 students, and close to half came from the same group of twenty students, who had disrupted class, been insubordinate with a teacher, or refused to follow school routines.",
+            "Nelson invited those twenty students and their parents into a Strong Start meeting at the beginning of the new school year, asking simple questions about what they were looking forward to and what made them nervous. The results were striking. Between the 2022-23 and 2023-24 school years, referral rates fell by 40%, in-school suspensions by 59%, and out-of-school suspensions by 69%.",
+            "Perry, meanwhile, brokered a peace between a teacher and a parent who offered excuses for her son's behaviour. As the two sides talked, the parents revealed that the child was dealing with grief after losing someone close, and Perry connected the family with a mental-health counsellor.",
+            "Nelson prepares meticulously for the Strong Start meetings. She dresses down and puts out sweets to put the families at ease, then eases the students in with a few light questions before addressing any conflict or concern they are dealing with. Parents watch and are invited to respond, which Nelson says is key to everyone starting the year on the same page.",
+            "Nelson advises her teachers to meet parents face to face to hash out disagreements, and she urges them to recalibrate their mindset. It is their job to be their child's biggest advocate, she said. They are not giving us a hard time. They are having a hard time.",
+            "Teachers say they too need more training before a situation becomes acute or an angry parent becomes involved. William-Halls was one of the few teachers at her school trained in restorative conversations, and she noted that high teacher turnover leaves too few colleagues with that skill. She follows simple routines, such as checking in with students as they walk into class and keeping a close watch on the student who is struggling academically and reveals it through defiance or rudeness.",
+            "Ultimately, better teacher training and a genuine effort to make schools places parents want to be may matter as much as any single discipline policy, William-Halls concluded. She suggested offering a room in the school where a parent group could meet once a week, so that families feel part of the school community rather than hearing from staff only when their child has done something wrong. She returned to the classroom after her sabbatical and stayed in the profession. The student who had pushed her over the edge eventually apologised, and they made up at the student's eighth-grade graduation."
+          ]
+        }
+      ]
+    }
+  ]
+}

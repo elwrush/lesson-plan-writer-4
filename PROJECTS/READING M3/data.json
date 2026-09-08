@@ -1,0 +1,106 @@
+{
+  "title": "Reading M3 — What’s Going On in Classrooms These Days?",
+  "author": "C·E·L Mathayom",
+  "theme": "black",
+  "transition": "slide",
+  "slides": [
+    {
+      "layout": "image",
+      "id": "splash",
+      "step": 1,
+      "image_url": "assets/splash.jpg"
+    },
+    {
+      "layout": "content",
+      "id": "title",
+      "step": 1,
+      "background_image": "assets/splash.jpg",
+      "logo": "assets/logo.png",
+      "shield": true,
+      "title": "What’s Going On in Classrooms These Days?",
+      "body": "Let's read and decide.",
+      "notes": "Hook. Ask: How well do students behave in your class? Is it the students, the parents or the school? We will read a real news survey and decide together."
+    },
+    {
+      "layout": "content",
+      "id": "importance",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Why is this lesson important?",
+      "body": "<ul><li>Classroom harmony has broken down badly in recent years.</li><li>Many teachers are quitting because of this.</li><li>What does the evidence say?</li><li>We will read, discuss and write.</li></ul>",
+      "notes": "Frame in real-world outcomes. Do not list grammar objectives."
+    },
+    {
+      "layout": "content",
+      "id": "opening-query",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "What do you already know?",
+      "body": "<p style=\"font-size:37px;line-height:1.6;margin-bottom:14px\">Tell your partner what you know about this topic.</p><p style=\"font-size:37px;line-height:1.6\">Who is to blame: students, parents or schools?</p><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:26px\">Position &mdash; Reason &mdash; Evidence &mdash; Position</p>",
+      "notes": "Pair talk 1-2 min. The yellow line previews the PREP structure they will use at the end."
+    },
+    {
+      "layout": "content",
+      "id": "expectations",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your reading mission",
+      "body": "<p style=\"font-size:37px;line-height:1.6;margin-bottom:14px\">You will read 4 chunks on your handout.</p><p style=\"font-size:37px;line-height:1.6\">Work in a team of four. Take turns. Use the four roles.</p>",
+      "notes": "Set up groups of 4. Hand out the reading and the four role cards."
+    },
+    {
+      "layout": "content",
+      "id": "how-one-round",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "How one round works",
+      "body": "<p style=\"font-size:36px;line-height:1.7;margin-bottom:8px\"><strong style=\"color:#ffdd00\">1. Predict</strong> &mdash; only the Predictor speaks.</p><p style=\"font-size:36px;line-height:1.7;margin-bottom:8px\"><strong style=\"color:#ffdd00\">2. Read</strong> the chunk silently.</p><p style=\"font-size:36px;line-height:1.7;margin-bottom:8px\"><strong style=\"color:#ffdd00\">3. Clarify, Question, Summarise</strong> &mdash; in turn.</p><p style=\"font-size:36px;line-height:1.7\"><strong style=\"color:#ffdd00\">4. Rotate</strong> roles. Next chunk.</p>",
+      "notes": "Walk the round: Predict before reading, everyone reads silently, then the three after-roles speak in turn, then rotate."
+    },
+    {
+      "layout": "content",
+      "id": "roles",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Your four roles",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin-bottom:12px\">Predict before you read. The others talk after you read.</p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:9px 12px 9px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Predictor</td><td style=\"padding:9px 0;border-bottom:1px solid #444;font-size:35px\">Look at the heading. Guess the topic.</td><td style=\"padding:9px 0 9px 12px;border-bottom:1px solid #444;font-size:35px;font-style:italic;color:#f0f0f0\">“The heading says… so I think…”</td></tr><tr><td style=\"padding:9px 12px 9px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Clarifier</td><td style=\"padding:9px 0;border-bottom:1px solid #444;font-size:35px\">Say what confused you. Fix it together.</td><td style=\"padding:9px 0 9px 12px;border-bottom:1px solid #444;font-size:35px;font-style:italic;color:#f0f0f0\">“I didn’t understand when it said…”</td></tr><tr><td style=\"padding:9px 12px 9px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Questioner</td><td style=\"padding:9px 0;border-bottom:1px solid #444;font-size:35px\">Ask a real “I wonder…” question.</td><td style=\"padding:9px 0 9px 12px;border-bottom:1px solid #444;font-size:35px;font-style:italic;color:#f0f0f0\">“I wonder… why…”</td></tr><tr><td style=\"padding:9px 12px 9px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Summariser</td><td style=\"padding:9px 0;font-size:35px\">Say the main idea in one sentence.</td><td style=\"padding:9px 0 9px 12px;font-size:35px;font-style:italic;color:#f0f0f0\">“The main point is…”</td></tr></table>",
+      "notes": "Recap the four roles with the exact definitions and sentence starters. The Predictor works before reading; the other three build on each other after reading."
+    },
+    {
+      "layout": "content",
+      "id": "pace",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Go at your own speed",
+      "body": "<p style=\"font-size:37px;line-height:1.6;margin-bottom:14px\">Your team decides the pace.</p><p style=\"font-size:37px;line-height:1.6\">Do not rush. Talk about each chunk.</p>",
+      "notes": "No timer. Groups read and discuss at their own pace."
+    },
+    {
+      "layout": "content",
+      "id": "read-go",
+      "step": 1,
+      "background_color": "#c0392b",
+      "title": "Read Chunks 1–4",
+      "body": "<p style=\"font-size:37px;line-height:1.6;margin-bottom:14px\">Work as a team of four.</p><p style=\"font-size:37px;line-height:1.6\">Each person takes a role. Rotate for each chunk.</p>",
+      "notes": "Release the reading. Circulate and prompt only where a group is stuck. Remind groups to rotate roles for each chunk."
+    },
+    {
+      "layout": "content",
+      "id": "write-opinion",
+      "step": 1,
+      "background_color": "#9b59b6",
+      "title": "Write your opinion",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin-bottom:18px\"><strong>Do you agree that classroom harmony is breaking down? If so, who is to blame? Students, parents or schools?</strong></p><table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Position</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:35px\">I agree or I disagree.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Reason</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:35px\">One reason is…</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Evidence</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:35px\">The text says…</td></tr><tr><td style=\"padding:8px 12px 8px 0;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;font-size:35px\">Position</td><td style=\"padding:8px 0;font-size:35px\">So I agree or disagree.</td></tr></table><p style=\"color:#ffdd00;text-align:center;font-size:38px;font-weight:700;margin-top:24px\">Position &mdash; Reason &mdash; Evidence &mdash; Position</p>",
+      "notes": "Use the PREP structure. The Evidence row must come from the four chunks they just read."
+    },
+    {
+      "layout": "content",
+      "id": "feedback-exam",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Feedback before your exam",
+      "body": "<p style=\"font-size:37px;line-height:1.6;margin-bottom:14px\">Write your opinion paragraph after class.</p><p style=\"font-size:37px;line-height:1.6\">You will get grammar feedback on the class website.</p><p style=\"font-size:37px;line-height:1.6;margin-top:14px\">Check it before your writing exam next week.</p>",
+      "notes": "Explain the feedback loop: submit the paragraph, get grammar feedback on the class website, review it before the writing exam."
+    }
+  ]
+}

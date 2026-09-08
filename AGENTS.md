@@ -61,6 +61,7 @@ that you quote: `just render "LISTENING M3"`.
 | `just render "LISTENING M3"` | build → render → post-process → validate fonts (the full dev loop). Only works for projects with a `build_deck.py`. |
 | `just validate "LISTENING M3"` | font validation only (gray-color / undersized-text gate). |
 | `just indread-render "READING M2"` | **Independent-reading render + combine (POST-GATE).** Runs `INDEPENDENT-READING/PROJECTS/{name}/SCRIPTS/produce.py`, which reads that project's `reading.json` envelope, renders each CEFR level to PDF, merges them (B1 first, then B2) into ONE combined PDF, and verifies each. The simplify→Kimi→human gates are **interactive and NOT wrapped** — only run this after the user approves (`human_approved=True`). |
+| `just reading-check "READING M3"` | **Reading envelope check (pre-flight).** Runs `produce.py --check` for that project: reports each level's body word count against `[target, cap]` **and verifies every gloss word appears verbatim in its body** (`gloss OK` / `MISSING GLOSS: …`). A missing gloss word is a data bug — silently dropped by `sanitise`, and (before the sanitise fix) the cause of the off-by-one gloss-numbering error. Run before `indread-render`. |
 | `just git-pages "READING M2"` | **gh-pages deploy.** Runs `scripts/deploy_pages.py "READING M2" "PROJECTS/READING M2/slides"`. Clones `gh-pages` into an isolated temp worktree (never touches the main branch), copies the deck, **builds the landing page from the git tree** (not `os.listdir` on a sparse clone — that bug silently dropped presentations), commits, pushes to `old-origin` (falls back to `origin`), and **verifies the pushed files back by MD5**. Performs a **real push** — only run to publish. This is the single implementation; the `/git-pages` opencode command dispatches to it. |
 | `just lesson-plan "READING M2"` | **Lesson plan render + verify.** Renders `PROJECTS/{name}/lesson-plan-envelope.json` via the `write-lesson-plan` skill into the repo-root `PDF/` (the skill's mandated location), then runs `scripts/verify_lesson_plan.py` (A4 size, fonts embedded, topic/class/teacher/main-aim present, **no Transcript section** unless the envelope sets it, no contextual images beyond the two masthead logos). The envelope is **hand-authored** from the shape + source materials — the recipe wraps the deterministic render+verify so the gates always run. |
 | `just test` | `pytest tests/` (gh-pages safety tests). |
@@ -337,6 +338,12 @@ which reads a **`SCRIPTS/reading.json`** envelope: `levels[]`, each with `chunks
 - **POST-GATE only.** The simplify → Kimi (`kimi_gate.py`) → human gates are interactive and are
   NOT wrapped. `just indread-render` only runs after the user approves (`approved: true` in
   `reading.json`; `produce.py --approve` sets it).
+- **Gloss-integrity gate.** Every `glosses[].word` must appear **verbatim** (standalone,
+  case-sensitive) in that level's body, or the render hard-fails and `--check` reports
+  `MISSING GLOSS: …`. A missing gloss word is silently dropped by `sanitise`; before the
+  sanitise fix it also shifted every later superscript → off-by-one gloss numbering (body
+  "disabilities³" vs footer "3 restorative"). Run `just reading-check "{name}"` before
+  `indread-render` — it is the pre-flight for exactly this bug.
 - `produce.py` sanitises (gloss superscripts + word count), renders each level to PDF, then
   **merges them (B1 first, then B2)** into one combined PDF and verifies each. Output goes to
   **`PROJECTS/{name}/PDF/`** — the skill's default `INDEPENDENT-READING/...` output is overridden
