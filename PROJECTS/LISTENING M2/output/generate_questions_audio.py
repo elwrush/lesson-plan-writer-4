@@ -11,12 +11,24 @@ Usage:
 """
 
 import os
+import re
 import sys
 import subprocess
 import time
 from pathlib import Path
 
 import requests
+
+# RED-GATE: Fish reads every character, so markdown artifacts would be spoken
+# verbatim ("asterisk asterisk", "hash", "underscore", brackets). Block the call.
+_MD_ARTIFACTS = re.compile(r"\*\*|__|#|\]\(|`|\*")
+
+
+def assert_no_markdown(text: str, where: str = "text") -> None:
+    if _MD_ARTIFACTS.search(text):
+        raise SystemExit(
+            f"RED-GATE: markdown artifact in {where}: {text!r}"
+        )
 
 # ----------------------------------------------------------------------------
 # Config
@@ -33,16 +45,17 @@ if not API_KEY:
 
 # Timing constants (seconds)
 LEAD_IN = 0.6            # silence at very start
-GAP_QUESTION = 3.0       # the '//' mid-question pauses
 GAP_AFTER_LABEL = 0.9    # after "Chunk one." / "Question one."
-GAP_BETWEEN_READINGS = 4.0
-GAP_AFTER_QUESTION = 3.0
+GAP_BETWEEN_READINGS = 5.0   # between the two hearings of a question
+GAP_AFTER_QUESTION = 7.0     # before the next question
 GAP_AFTER_CHUNK_LABEL = 1.2
 GAP_INTRO_TO_CHUNK = 1.5
 LEAD_OUT = 0.8           # silence at very end
 
 # ----------------------------------------------------------------------------
-# Speech pieces. Each question text split at '//'.
+# Speech pieces. Each question is a COMPLETE single sentence (one TTS call).
+# Structure per chunk: list of (label, sentence). The sentence is read once by
+# TTS and reused for both hearings (ffmpeg doubles it).
 # ----------------------------------------------------------------------------
 INTRO = (
     "[calm] Listen and write down the eight questions you hear. "
@@ -50,26 +63,28 @@ INTRO = (
 )
 
 CHUNKS = {
-    "one": (["Question one.", "Emma says the flood was not", "a normal flood.",
-             "What was it like,", "and why was it so dangerous?"],
-            ["Question two.", "Why was the loud noise", "so surprising",
-             "to the people in Nuwakot?"]),
-    "two": (["Question three.", "Why did so many people", "first believe",
-             "that there had been an earthquake?"],
-            ["Question four.", "Why is it so hard", "for scientists",
-             "to warn people", "before a glacier collapses?"]),
-    "three": (["Question five.", "Give two examples", "of the damage",
-               "that the flood caused", "to buildings and infrastructure."],
-              ["Question six.", "How many people were affected in total,",
-               "and around how many children", "lost their classrooms?"]),
-    "four": (["Question seven.", "Emma says", "the danger is not over.", "Why?"],
-             ["Question eight.", "Why does Emma think",
-              "that this is a climate story,", "and not only a Nepal story?"]),
+    "one": [
+        ("Question one.", "Why does Emma say the flood was not normal?"),
+        ("Question two.", "Why was the loud noise so surprising?"),
+    ],
+    "two": [
+        ("Question three.", "Why did many people first think it was an earthquake?"),
+        ("Question four.", "Why can't scientists warn people before a glacier breaks?"),
+    ],
+    "three": [
+        ("Question five.", "Give two examples of damage to buildings and roads."),
+        ("Question six.", "How many people were affected, and how many children lost their classrooms?"),
+    ],
+    "four": [
+        ("Question seven.", "Why does Emma say the danger is not over?"),
+        ("Question eight.", "Why is this a climate story, not only a Nepal story?"),
+    ],
 }
 
 
 def tts(text: str, out_path: Path) -> None:
     """Generate one speech piece via Fish Audio TTS."""
+    assert_no_markdown(text, where=out_path.stem)
     body = {
         "text": text,
         "reference_id": VOICE_ID,
@@ -131,9 +146,9 @@ def main() -> None:
 
     # silence files (generated once, reused)
     sil = {}
-    for name, dur in [("intro", LEAD_IN), ("gapq", GAP_QUESTION),
-                      ("lab", GAP_AFTER_LABEL), ("rep", GAP_BETWEEN_READINGS),
-                      ("endq", GAP_AFTER_QUESTION), ("chunk", GAP_AFTER_CHUNK_LABEL),
+    for name, dur in [("intro", LEAD_IN), ("lab", GAP_AFTER_LABEL),
+                      ("rep", GAP_BETWEEN_READINGS), ("endq", GAP_AFTER_QUESTION),
+                      ("chunk", GAP_AFTER_CHUNK_LABEL),
                       ("int", GAP_INTRO_TO_CHUNK), ("out", LEAD_OUT)]:
         sil[name] = make_silence(dur, f"s_{name}.mp3")
 
@@ -153,32 +168,17 @@ def main() -> None:
         concat_entries.append(("file", chunk_p))
         concat_entries.append(("file", sil["chunk"]))
 
-        q1, q2 = CHUNKS[cname]
-        for question in (q1, q2):
-            label_text = question[0]
-            pieces = question[1:]
+        for label_text, sentence in CHUNKS[cname]:
             label_p = get_piece(f"qlab_{len(piece_map)}", label_text)
             concat_entries.append(("file", label_p))
             concat_entries.append(("file", sil["lab"]))
 
-            # Reading 1
-            for pi, seg in enumerate(pieces):
-                seg_p = get_piece(f"q{cname}_{len(piece_map)}seg{pi}", seg)
-                concat_entries.append(("file", seg_p))
-                if pi < len(pieces) - 1:
-                    concat_entries.append(("file", sil["gapq"]))
-
-            # (intended) second hearing
-            concat_entries.append(("file", sil["rep"]))
-
-            # Reading 2
-            for pi, seg in enumerate(pieces):
-                seg_p = get_piece(f"q{cname}_{len(piece_map)}s2{pi}", seg)
-                concat_entries.append(("file", seg_p))
-                if pi < len(pieces) - 1:
-                    concat_entries.append(("file", sil["gapq"]))
-
-            concat_entries.append(("file", sil["endq"]))
+            # ONE complete TTS call, reused for both hearings (ffmpeg doubles it)
+            sent_p = get_piece(f"q_{len(piece_map)}", sentence)
+            concat_entries.append(("file", sent_p))          # hearing 1
+            concat_entries.append(("file", sil["rep"]))      # 5s pause
+            concat_entries.append(("file", sent_p))          # hearing 2 (same audio)
+            concat_entries.append(("file", sil["endq"]))     # 7s pause
 
     concat_entries.append(("file", sil["out"]))
 

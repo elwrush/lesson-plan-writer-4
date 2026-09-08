@@ -1,0 +1,202 @@
+{
+  "project": "READING M2",
+  "source_url": "https://www.bbc.com/news/articles/cd68q3wynnqo",
+  "approved": true,
+  "levels": [
+    {
+      "cefr": "B1",
+      "minutes": 8,
+      "title": "Meta to Pay $18bn to Settle Child Safety Claims",
+      "byline": "Adapted from BBC News · Imran Rahman-Jones & Kali Hays · 26 August 2026",
+      "kimi_verdict": "pending",
+      "glosses": [
+        {
+          "word": "settlement",
+          "gloss": "a deal that ends a problem"
+        },
+        {
+          "word": "attorney general",
+          "gloss": "the state's top lawyer"
+        },
+        {
+          "word": "instalments",
+          "gloss": "yearly payments"
+        },
+        {
+          "word": "jury",
+          "gloss": "a group that decides a case"
+        },
+        {
+          "word": "public nuisance",
+          "gloss": "very bad for everyone"
+        },
+        {
+          "word": "privacy",
+          "gloss": "keeping information private"
+        },
+        {
+          "word": "algorithm",
+          "gloss": "a computer rule that picks content"
+        },
+        {
+          "word": "autoplay",
+          "gloss": "videos playing by themselves"
+        },
+        {
+          "word": "blueprint",
+          "gloss": "a plan"
+        }
+      ],
+      "chunks": [
+        {
+          "headline": "Meta Pays a Huge Amount of Money",
+          "paragraphs": [
+            "Meta owns two big apps: Facebook and Instagram. Many states in America said these apps hurt children. Now Meta will pay a lot of money to end these claims.",
+            "Meta will pay $18bn (สิบแปดพันล้านดอลลาร์, about 594 พันล้านบาท). That is about £13.3bn (หนึ่งหมื่นสามพันสามร้อยล้านปอนด์, about 559 พันล้านบาท). A judge said yes to the deal. This is the most money Meta has ever paid about keeping children safe.",
+            "Meta will pay 48 states, Washington DC, and three other places in America. The deal covers almost all of the United States. It is the biggest settlement of its kind in this industry so far.",
+            "Meta will also change its apps. The states asked for these changes. Meta will add daily time limits and a night-time block. These changes will help protect young people.",
+            "Rob Bonta is the top state lawyer in California. He said: “This is a big moment to clean up an industry that hurts our kids.”",
+            "The judge, Yvonne Gonzalez Rogers, said the deal gives money to the people who were hurt. She said it also changes the way the apps work. She said the deal is fair and reasonable, and fair to the children and their families.",
+            "Meta says it did nothing wrong. It will pay the money over ten years, in yearly instalments.",
+            "This payment ends a long fight between Meta and the states.",
+            "Many millions of people around the world use these two apps every day.",
+            "The deal is a big change both for the company and for the people who use its apps."
+          ]
+        },
+        {
+          "headline": "What the Court Found",
+          "paragraphs": [
+            "The case started in 2023. That year, 29 states said Meta broke child privacy laws.",
+            "One state did not join the deal: New Mexico. Last month, a judge there gave a big ruling against Meta. The judge said Meta harms the public, just as pollution does. Meta must pay almost $1bn (หนึ่งพันล้านดอลลาร์, about 33 พันล้านบาท).",
+            "Last week, a trial with a jury started in California. It was a short trial and lasted only five days, and the case was settled before the jury could decide. The state lawyers said Meta knew for years that millions of 11- and 12-year-olds used Instagram and Facebook. But they said Meta did little to keep them off the apps.",
+            "The lawyers used many papers from inside Meta. There were research notes, emails and chat messages up to Mark Zuckerberg, Meta's boss. One report said that many teenagers felt addicted and could not stop using the app. Still, the states said, Meta kept trying to attract young users even though it knew about the harm.",
+            "Meta said it works hard to make its apps safe. It spends money on testing, research and new features. Adam Mosseri, the head of Instagram, talked to the court for an hour. He said: “We are always working on teen safety.” Bonta said on Wednesday: “The trial did not go well for Meta.”",
+            "A former worker, George Volichenko, said that when he worked at the company in 2022, his team could not test new safety features. One feature was quiet mode. It made alerts quiet at night. His team knew more people would use it if Meta turned it on automatically. The manager told him not to worry. Volichenko said the real reason the team existed was to protect the company against the coming court cases.",
+            "The lawyers read thousands of pages of documents to get ready for the trial.",
+            "Bonta said Meta knew what it was doing."
+          ]
+        },
+        {
+          "headline": "What Changes for Young People",
+          "paragraphs": [
+            "The deal brings a feature called night mode. It stops alerts between midnight and 6am. It will now be turned on automatically. Only a parent or guardian can change the settings.",
+            "The deal also adds a time limit of two hours a day across both apps. The two hours cover time on both apps together. A teenager can only turn this limit off with a parent's permission. Likes will be hidden, on young people's own pages and on the pages they look at.",
+            "There is also school mode. It stops alerts between 8am and 3pm on school days. The app will tell a teenager after 15 minutes of use. It will send another message at 60 and 90 minutes.",
+            "Young people can also choose a feed that is not picked by an algorithm, turn off the autoplay of videos, and extreme make-up filters will not be available.",
+            "Meta's top lawyer, CJ Mahoney, said the plan gives parents the power to manage how their children use the apps.",
+            "These changes are part of a bigger plan to make the apps safer.",
+            "The changes will begin to appear in the apps soon."
+          ]
+        },
+        {
+          "headline": "A Plan for the Whole Industry",
+          "paragraphs": [
+            "The daily time limit for teenagers will be cut to one hour if other apps, like TikTok, Snap and YouTube, also agree to new rules for young users. This lower limit is not a promise yet. It will only happen if the other companies agree.",
+            "Bonta wants these apps to follow Meta. He said the deal is a good blueprint for other companies. If they do not follow, he said, he will work on changing the whole industry.",
+            "Meta also said TikTok and YouTube should bring the same safety features. Mahoney said the new limits and night mode are the right path forward for the industry. But he said the plan will only work if other similar companies join Meta.",
+            "YouTube and TikTok were asked to comment.",
+            "Brian Schwalb is the top lawyer for Washington DC. He called the deal a huge win for public health. He said the changes will completely change how young people use Instagram and Facebook.",
+            "The $18bn deal is a lot of money, but Schwalb said the changes to the apps may be even more important. He said the deal is a good start for the whole industry. The one-hour limit is only a plan for now, and the apps will show the new rules to young people when they open them.",
+            "In the end, the deal is about more than money. It is about changing the apps that young people use every day."
+          ]
+        }
+      ]
+    },
+    {
+      "cefr": "B2",
+      "minutes": 8,
+      "title": "Meta to Pay $18bn to Settle Child Safety Claims",
+      "byline": "Adapted from BBC News · Imran Rahman-Jones & Kali Hays · 26 August 2026",
+      "kimi_verdict": "pending",
+      "glosses": [
+        {
+          "word": "litigation",
+          "gloss": "court cases"
+        },
+        {
+          "word": "instalments",
+          "gloss": "payments over time"
+        },
+        {
+          "word": "public nuisance",
+          "gloss": "a problem that harms everyone"
+        },
+        {
+          "word": "jury",
+          "gloss": "a group that decides a case"
+        },
+        {
+          "word": "attorney general",
+          "gloss": "the state's top lawyer"
+        },
+        {
+          "word": "algorithm",
+          "gloss": "a computer rule that picks content"
+        },
+        {
+          "word": "autoplay",
+          "gloss": "videos playing by themselves"
+        },
+        {
+          "word": "monumental",
+          "gloss": "very big"
+        },
+        {
+          "word": "blueprint",
+          "gloss": "a plan"
+        },
+        {
+          "word": "fundamentally",
+          "gloss": "in a basic way"
+        }
+      ],
+      "chunks": [
+        {
+          "headline": "A Deal That Changes Everything",
+          "paragraphs": [
+            "Social media giant Meta has agreed to pay $18bn to settle claims that its apps Facebook and Instagram harmed children. For Thai readers, that sum is สิบแปดพันล้านดอลลาร์, about 594 พันล้านบาท in US dollars. The deal is also worth about £13.3bn, or 559 พันล้านบาท in British pounds. A judge in California approved the deal. Meta must now pay 48 US states, the District of Columbia and three US territories.",
+            "The payment is the largest Meta has ever made over child safety lawsuits, and it is the biggest settlement of its kind in the industry so far. The deal covers almost the whole of the United States, and it came after long talks between the company and the country's state leaders.",
+            "Meta will also make a series of changes to protect young people online. The states had demanded these changes. They include default daily time limits on the apps and a night-time block on notifications.",
+            "California's attorney general, Rob Bonta, welcomed the payment. He said: “This is a major moment to clean up an industry that has been hurting our kids.”",
+            "The judge, Yvonne Gonzalez Rogers, said the settlement gives money to the people harmed and, just as importantly, changes how the platforms behave. She wrote that the deal is fair and reasonable, that it tries to fix the negative effects of the apps, and that it is fair to the children and their families.",
+            "Meta says it did nothing wrong. The money will be paid in annual instalments over ten years. Meta called the deal a major step in how it works.",
+            "The talks between Meta and the states went on for a long time before the two sides agreed."
+          ]
+        },
+        {
+          "headline": "Secrets From Inside the Trial",
+          "paragraphs": [
+            "The case was first brought to court in 2023, when 29 states accused Meta of breaking federal and state child privacy laws.",
+            "One state did not join the settlement: New Mexico. Last month, a federal judge there gave a historic ruling against Meta. The judge called the company a public nuisance, a problem that harms the whole community, as harmful as air pollution, and ordered it to pay almost $1bn (หนึ่งพันล้านดอลลาร์, about 33 พันล้านบาท) in fines.",
+            "Last week, a jury trial began in a federal court in Oakland, California. It went on for only five days. State lawyers said Meta knew for years that millions of 11- and 12-year-olds were using Instagram and Facebook. Yet they argued the company did little to keep them off the platforms. The case was settled before the jury could give a decision.",
+            "The lawyers depended heavily on internal Meta documents. These included research reports, employee emails and chat logs that reached all the way up to chief executive Mark Zuckerberg. One report on Instagram said: “Teens have an addict's narrative about use,” meaning many teenagers said they could not stop using the app. Still, the states argued, Meta targeted young users.",
+            "Meta said throughout the trial that it had worked hard for years to make its platforms safer, spending a lot of money and effort on testing, research and new features. Adam Mosseri, the head of Instagram, talked to the court for an hour: “We're always working on teen safety.” The case was then settled, and the trial ended before he could be called again. Bonta said on Wednesday: “The trial did not go well for Meta.”",
+            "A former researcher, George Volichenko, said that when he worked at the company in 2022, his team was not given the freedom to test new safety features. One of these was quiet mode, which quietened alerts for teens at night. His team knew more people would use it if Meta turned it on automatically, and the night mode in the final deal works in the same way. His manager told him not to worry about the low numbers, because the team existed partly to protect the company against the coming lawsuits."
+          ]
+        },
+        {
+          "headline": "New Rules for Young Users",
+          "paragraphs": [
+            "The deal introduces a feature called night mode. It blocks notifications between midnight and 6am. It will now be on by default, meaning it is switched on automatically. The settings can only be changed by a parent or guardian.",
+            "The deal also adds a two-hour daily time limit, counted across both Instagram and Facebook. The two hours cover time spent on both apps together. A teen can only turn this limit off with a parent's permission. Likes will be hidden on teens' own profiles and on the profiles they look at.",
+            "There is also school mode, which silences notifications between 8am and 3pm on school days. The app will warn a teen after 15 minutes of continuous use. It will send another message when their total reaches 60 and 90 minutes.",
+            "Teenagers can also choose a feed that is not chosen by an algorithm, and they can switch off the autoplay of videos. Extreme make-up filters will no longer be available.",
+            "Meta's chief legal officer, CJ Mahoney, said the framework gives parents the power to manage how their children access the platforms.",
+            "These changes are part of a bigger plan to make the apps safer for young people."
+          ]
+        },
+        {
+          "headline": "A Blueprint for the Whole Industry",
+          "paragraphs": [
+            "The daily time limit for teens will be cut to one hour if other social media platforms, including TikTok, Snap and YouTube, also agree to new restrictions for young users. This lower limit is not a promise yet; it only appears if the others follow.",
+            "Bonta urged those platforms to follow Meta. He said the settlement is a good blueprint for other companies. If they do not, he said, he will become more focused on bringing changes across the whole industry.",
+            "Meta also said that TikTok and YouTube should bring in the same safety features. Mahoney said the new limits and night mode set the right path forward for the industry. But he added that the framework will only work if other companies in the industry also join.",
+            "YouTube and TikTok were asked for comment.",
+            "Brian Schwalb, the District of Columbia attorney general, called the deal a monumental public health victory. He said the safety features Meta must install will fundamentally and immediately change how young people use Instagram and Facebook.",
+            "Schwalb said the money is large, but the changes to the apps may matter even more."
+          ]
+        }
+      ]
+    }
+  ]
+}

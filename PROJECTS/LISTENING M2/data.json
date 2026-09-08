@@ -31,11 +31,20 @@
     },
     {
       "layout": "content",
+      "id": "footage",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "The border crossing, destroyed",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">Watch the real footage. This is the town you will hear about.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">The flood at the border crossing</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/FFYBmDYQqoA?enablejsapi=1&cc_load_policy=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play the short clip. Ask: What can you see? This is Gyirong, the border crossing on the China-Nepal border — destroyed by the flood."
+    },
+    {
+      "layout": "content",
       "id": "open-dictation",
       "step": 1,
       "background_color": "#c0392b",
       "title": "Listen and write the questions",
-      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">You will hear <strong>eight questions</strong>.<br>Write each question. You will hear each one <strong>twice</strong>.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Dictation tape</p><audio controls preload=\"none\" src=\"assets/questions.mp3\" style=\"width:70%;max-width:640px;margin:6px auto;display:block\"></audio>",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">You will hear <strong>eight questions</strong>.<br>Write each question. You will hear each one <strong>twice</strong>.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Dictation tape</p><audio controls preload=\"none\" src=\"assets/questions.mp3?v=2\" style=\"width:70%;max-width:640px;margin:6px auto;display:block\"></audio>",
       "notes": "Play the dictation tape. Students write the 8 questions as they hear them. Play twice."
     },
     {
@@ -44,7 +53,7 @@
       "step": 1,
       "background_color": "#1a1a2e",
       "title": "Check your dictation — Part 1",
-      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Emma says the flood was not a normal flood. What was it like, and why was it so dangerous?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why was the loud noise so surprising to the people in Nuwakot?</p>",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why does Emma say the flood was not normal?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why was the loud noise so surprising?</p>",
       "notes": "Read the two questions aloud. Students tick or correct what they wrote."
     },
     {
@@ -53,7 +62,7 @@
       "step": 1,
       "background_color": "#1a1a2e",
       "title": "Check your dictation — Part 2",
-      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why did so many people first believe that there had been an earthquake?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why is it so hard for scientists to warn people before a glacier collapses?</p>",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why did many people first think it was an earthquake?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why can't scientists warn people before a glacier breaks?</p>",
       "notes": "Read the two questions aloud. Students tick or correct what they wrote."
     },
     {
@@ -62,7 +71,7 @@
       "step": 1,
       "background_color": "#1a1a2e",
       "title": "Check your dictation — Part 3",
-      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Give two examples of the damage that the flood caused to buildings and infrastructure.</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">How many people were affected in total, and around how many children lost their classrooms?</p>",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Give two examples of damage to buildings and roads.</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">How many people were affected, and how many children lost their classrooms?</p>",
       "notes": "Read the two questions aloud. Students tick or correct what they wrote."
     },
     {
@@ -71,7 +80,7 @@
       "step": 1,
       "background_color": "#1a1a2e",
       "title": "Check your dictation — Part 4",
-      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Emma says the danger is not over. Why?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why does Emma think that this is a climate story, and not only a Nepal story?</p>",
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why does Emma say the danger is not over?</p><p style=\"font-size:35px;line-height:1.5;margin:10px 0;text-align:left\">Why is this a climate story, not only a Nepal story?</p>",
       "notes": "Read the two questions aloud. Students tick or correct what they wrote."
     },
     {
@@ -80,8 +89,8 @@
       "step": 1,
       "background_color": "#c0392b",
       "title": "Now listen to the podcast",
-      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">A podcast about the flood.<br>There are <strong>four parts</strong>.<br>Listen to each part <strong>twice</strong>. Then answer the questions.</p>",
-      "notes": "Introduce the podcast: Lucy Milligan (journalist) interviews Emma McKinley (aid worker)."
+      "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">A podcast about the flood.<br>There are <strong>four parts</strong>.<br>Listen to each part. Then answer its questions.<br>You will play each part again yourself.</p>",
+      "notes": "Introduce the podcast: Lucy Milligan (journalist) interviews Emma McKinley (aid worker). Each part is played once; the teacher replays it as needed, and captions are on by default."
     },
     {
       "layout": "content",
@@ -89,35 +98,8 @@
       "step": 1,
       "background_color": "#1a1a2e",
       "title": "Podcast — Part 1",
-      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 1</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/lPJsRuss8ds?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
-      "notes": "Play Part 1 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
-    },
-    {
-      "layout": "content",
-      "id": "tape-2",
-      "step": 1,
-      "background_color": "#1a1a2e",
-      "title": "Podcast — Part 2",
-      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 2</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/q56S8jMamw8?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
-      "notes": "Play Part 2 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
-    },
-    {
-      "layout": "content",
-      "id": "tape-3",
-      "step": 1,
-      "background_color": "#1a1a2e",
-      "title": "Podcast — Part 3",
-      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 3</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/0nTpP8rPUgM?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
-      "notes": "Play Part 3 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
-    },
-    {
-      "layout": "content",
-      "id": "tape-4",
-      "step": 1,
-      "background_color": "#1a1a2e",
-      "title": "Podcast — Part 4",
-      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">You will hear each tape 2 times. Captions off first time; on second time.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 4</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/cpmaIOXekbQ?enablejsapi=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
-      "notes": "Play Part 4 (YouTube). First pass without subtitles, second pass with CC on (YouTube auto-captions)."
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">Play this part once. Captions are on.<br>Then answer the two questions.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 1</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/asFSmtUjhLk?enablejsapi=1&cc_load_policy=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 1 (YouTube, single play). Captions are ON by default. First pass: listen for gist with captions hidden if desired; teacher replays as needed."
     },
     {
       "layout": "content",
@@ -125,8 +107,17 @@
       "step": 1,
       "background_color": "#052e0d",
       "title": "Answers — Part 1",
-      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">What was the flood like, and why was it so dangerous?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">It was a wall of water, mud, rocks and broken ice. It moved incredibly fast, so people had no time to run.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why was the loud noise so surprising?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">It sounded like thunder, but the sky was clear and blue, with no clouds.</td></tr></table>",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why does Emma say the flood was not normal?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">A normal flood rises slowly. This flood was a wall of water, mud, rocks and broken ice, and it moved very fast.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why was the loud noise so surprising?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">It sounded like thunder, but the sky was clear and blue, with no clouds.</td></tr></table>",
       "notes": "Read each question, ask students, then reveal the answer."
+    },
+    {
+      "layout": "content",
+      "id": "tape-2",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Podcast — Part 2",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">Play this part once. Captions are on.<br>Then answer the two questions.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 2</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/ofuhUv7ySZs?enablejsapi=1&cc_load_policy=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 2 (YouTube, single play). Captions are ON by default. First pass: listen for gist with captions hidden if desired; teacher replays as needed."
     },
     {
       "layout": "content",
@@ -134,8 +125,17 @@
       "step": 1,
       "background_color": "#052e0d",
       "title": "Answers — Part 2",
-      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why did many people first think it was an earthquake?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">The US Geological Survey recorded a small tremor, about 4.4. So people thought the earthquake had caused a landslide.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why is it so hard to warn people before a glacier collapses?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">The Himalayas are huge and remote, and the weather was calm that day. There are thousands of glaciers, so scientists cannot say which one will break, or when.</td></tr></table>",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why did many people first think it was an earthquake?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">The US Geological Survey recorded a small tremor, about 4.4. So people thought the earthquake had caused a landslide.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why can't scientists warn people before a glacier breaks?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">The Himalayas are huge and remote, and the weather was calm that day. There are thousands of glaciers, so scientists cannot say which one will break, or when.</td></tr></table>",
       "notes": "Read each question, ask students, then reveal the answer."
+    },
+    {
+      "layout": "content",
+      "id": "tape-3",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Podcast — Part 3",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">Play this part once. Captions are on.<br>Then answer the two questions.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 3</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/oqFaFHTFevs?enablejsapi=1&cc_load_policy=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 3 (YouTube, single play). Captions are ON by default. First pass: listen for gist with captions hidden if desired; teacher replays as needed."
     },
     {
       "layout": "content",
@@ -143,8 +143,17 @@
       "step": 1,
       "background_color": "#052e0d",
       "title": "Answers — Part 3",
-      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Give two examples of damage to buildings and infrastructure.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">It destroyed homes, roads and bridges. It also blocked the tunnels of hydroelectric power stations.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">How many people were affected? How many children lost classrooms?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">About 65,000 people were affected. Around 10,000 children lost their classrooms.</td></tr></table>",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Give two examples of damage to buildings and roads.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">It destroyed homes, roads and bridges. It also blocked the tunnels of hydroelectric power stations.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">How many people were affected, and how many children lost their classrooms?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">About 65,000 people were affected. Around 10,000 children lost their classrooms.</td></tr></table>",
       "notes": "Read each question, ask students, then reveal the answer."
+    },
+    {
+      "layout": "content",
+      "id": "tape-4",
+      "step": 1,
+      "background_color": "#1a1a2e",
+      "title": "Podcast — Part 4",
+      "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">Play this part once. Captions are on.<br>Then answer the two questions.</p><p style=\"font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0\">Listen to Part 4</p><div style=\"width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9\"><iframe src=\"https://www.youtube-nocookie.com/embed/kk5xW5HuN0E?enablejsapi=1&cc_load_policy=1\" title=\"YouTube player\" style=\"width:100%;height:100%;border:0;border-radius:8px\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
+      "notes": "Play Part 4 (YouTube, single play). Captions are ON by default. First pass: listen for gist with captions hidden if desired; teacher replays as needed."
     },
     {
       "layout": "content",
@@ -152,7 +161,7 @@
       "step": 1,
       "background_color": "#052e0d",
       "title": "Answers — Part 4",
-      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why is the danger not over?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">A barrier lake has formed behind rocks and debris. Water is building up, and if it breaks, there could be a second flood.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why is this a climate story, not only a Nepal story?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">The warming planet makes flooding worse across Asia. Thailand is also at risk, and countries like Nepal cause little of the problem but feel it first.</td></tr></table>",
+      "body": "<table style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why does Emma say the danger is not over?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">A barrier lake has formed behind rocks and debris. Water is building up, and if it breaks, there could be a second flood.</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top;width:100px\">Question</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">Why is this a climate story, not only a Nepal story?</td></tr><tr><td style=\"padding:8px 12px 8px 0;border-bottom:1px solid #444;font-weight:700;color:#ffdd00;white-space:nowrap;vertical-align:top\">Answer</td><td style=\"padding:8px 0;border-bottom:1px solid #444;font-size:34px;line-height:1.4\">The warming planet makes flooding worse across Asia. Thailand is also at risk, and countries like Nepal cause little of the problem but feel it first.</td></tr></table>",
       "notes": "Read each question, ask students, then reveal the answer."
     },
     {

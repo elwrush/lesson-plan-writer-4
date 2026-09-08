@@ -7,6 +7,7 @@
 # Usage:
 #   just render name="LISTENING M3"   # build -> render -> postprocess -> validate (full loop)
 #   just validate name="LISTENING M3" # font validation only
+#   just indread-render name="READING M2" # independent reading render+combine (post-gate)
 #   just test                         # pytest
 #   just serve                        # start background HTTP server on :8080 (idempotent)
 #   just help                         # list recipes
@@ -21,6 +22,7 @@
 # `//` comment operator in 1.21. Reference {{RENDERER}} inline in recipes
 # (just does NOT recursively expand a var that itself contains {{...}}).
 RENDERER := "/home/elwru/.agents/skills/slideshow-renderer"
+INDR := "/home/elwru/.agents/skills/independent-reading-text-generator"
 
 # Name of a project dir (defaults to the M3 listening lesson).
 name := "LISTENING M3"
@@ -42,6 +44,45 @@ render	name=name:
 # ── Font validation only ─────────────────────────────────────────────────────
 validate	name=name:
 	@python3 "{{RENDERER}}/scripts/validate_slide_fonts.py" "PROJECTS/{{name}}/data.json"
+
+# ── Independent reading render + combine (POST-GATE) ────────────────────────
+# Terminal production step for the independent-reading generator. The
+# simplify → Kimi → human gates are INTERACTIVE and are NOT wrapped here;
+# this runs only AFTER the human approves (human_approved=True in the
+# payload). Reads the project's SCRIPTS/reading.json envelope, renders each
+# level to PDF, merges them (B1 first, then B2) into one combined PDF, and
+# verifies each.
+# Independent-reading render+combine (POST-GATE): renders the project's SCRIPTS/reading.json levels to PDF then merges B1+B2 into one PDF. Only after human approval.
+indread-render	name=name:
+	@echo "==[ independent reading render+combine: {{name}} ]=="
+	@python3 "INDEPENDENT-READING/PROJECTS/{{name}}/SCRIPTS/produce.py"
+	@echo "==[ done ]=="
+
+# ── Lesson plan render + verify ──────────────────────────────────────────────
+# Renders PROJECTS/{name}/lesson-plan-envelope.json via the write-lesson-plan
+# skill to the repo-root PDF/ (the skill's mandated output location), then runs
+# scripts/verify_lesson_plan.py: A4 page-size, fonts embedded, content markers
+# (topic/class/teacher/main-aim), NO Transcript section (reading lesson), and no
+# contextual images beyond the two masthead logos. The envelope is hand-authored
+# by the agent from the shape + source materials (like reading.json); this wraps
+# the deterministic render+verify so the gates always run.
+#   just lesson-plan "READING M2"
+lesson-plan	name="READING M2":
+	@echo "==[ lesson plan render+verify: {{name}} ]=="
+	@python3 ~/.agents/skills/write-lesson-plan/scripts/render.py --template lesson-plan --data "PROJECTS/{{name}}/lesson-plan-envelope.json"
+	@python3 scripts/verify_lesson_plan.py "PROJECTS/{{name}}/lesson-plan-envelope.json"
+	@echo "==[ done ]=="
+
+# ── gh-pages slideshow deploy (old-origin; isolated worktree; MD5-verified) ──
+# Deploys PROJECTS/{name}/slides to gh-pages on old-origin (the canonical slides
+# host; falls back to origin). Uses the shared scripts/deploy_pages.py, which
+# builds the landing page from the git tree (NOT os.listdir on a sparse clone —
+# that bug silently dropped presentations) and verifies the push back by MD5.
+# Performs a REAL push to the live gh-pages site — only run when you intend to
+# publish. The /git-pages opencode command dispatches to the same script.
+#   just git-pages "READING M2"
+git-pages	name="READING M2":
+	@python3 scripts/deploy_pages.py "{{name}}" "PROJECTS/{{name}}/slides"
 
 # ── Test suite ───────────────────────────────────────────────────────────────
 test:

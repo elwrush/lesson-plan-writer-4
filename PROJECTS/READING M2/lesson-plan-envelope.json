@@ -1,0 +1,125 @@
+{
+  "shape": {
+    "name": "Shape I - Reciprocal Teaching (Role-Rotated Comprehension)",
+    "description": "Reading lesson where students rotate four comprehension roles (Predictor, Clarifier, Questioner, Summariser) while reading a text in sections. The teacher scaffolds, then releases control so students own the comprehension monitoring.",
+    "pedagogical_justification": "Reciprocal teaching builds comprehension during reading: the Predictor primes prediction as a habit, the Clarifier legitimises 'I didn't understand' and gives a procedure to fix it, the Questioner shifts the reader from passive reception to active inquiry, and the Summariser forces distillation of main idea from supporting detail. Roles rotate every section, so every student does every role once.",
+    "main_aim_format": "By the end of the lesson, learners will have practiced and applied [Predictor/Clarifier/Questioner/Summariser] strategies to comprehend a text about [topic].",
+    "example_lesson_plan": {
+      "header": "<b>Objective:</b><br>By the end of the lesson, learners will have practised and applied the strategies of Predicting, Clarifying, Questioning and Summarising to comprehend a news article about Meta and social-media safety, and written a short opinion paragraph with evidence from the text.<br><b>Teacher:</b><br>Ed Rush<br><b>Class:</b><br>M2-4A<br><b>Date:</b><br>8 September, 2026<br><b>Duration:</b><br>46 minutes<br><b>CEFR Level:</b><br>B1\u2013B2<br><b>Lesson Shape:</b><br>I (Reciprocal Teaching)<br><b>Materials:</b><br>BBC News article, slideshow, leveled reading handout, four role cards, PREP writing frame<br><b>Assessment:</b><br>Role performances, exit opinion paragraph<br><b>Skills:</b><br>Reading, writing",
+      "stages": [
+        {
+          "stage": "Lead-in",
+          "stage_number": 1,
+          "stage_aim": "To activate schema and set the context",
+          "procedure": [
+            "Show the splash slide (the Instagram app icons). Ask: What do you see? What might this be about? Let students guess.",
+            "Advance to the title slide: \u201cIs Instagram a dangerous drug?\u201d Confirm the theme.",
+            "In pairs, ask: What do you already know about this case? Why is Meta paying money?"
+          ],
+          "time": "4 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Role assignment + Chunk 1",
+          "stage_number": 2,
+          "stage_aim": "To read the first chunk with a specific comprehension role",
+          "procedure": [
+            "Assign the four roles (Predictor, Clarifier, Questioner, Summariser) around each group of four. Hand out the role cards.",
+            "Explain each role briefly and point to the sentence starters on the cards.",
+            "Ss read Chunk 1 silently (about 2 min).",
+            "Each student performs their role: the Predictor predicts before reading, then the Clarifier, Questioner and Summariser discuss.",
+            "Teacher circulates, prompting only where a group is stuck."
+          ],
+          "time": "8 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Chunk 2 reading + role rotation",
+          "stage_number": 3,
+          "stage_aim": "To apply the strategies to a new chunk with a different role",
+          "procedure": [
+            "Roles rotate one position (P\u2192Q\u2192C\u2192S around the group).",
+            "Ss read Chunk 2 silently.",
+            "Each student performs their new role. 2-3 min.",
+            "Address 2-3 common Clarifier points with the whole class."
+          ],
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Chunk 3 reading + role rotation",
+          "stage_number": 4,
+          "stage_aim": "To apply the strategies to a third chunk",
+          "procedure": [
+            "Roles rotate again (the second rotation).",
+            "Ss read Chunk 3 silently.",
+            "Each student performs their new role.",
+            "Remind groups to use the sentence starters when they are not sure what to say."
+          ],
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Chunk 4 reading + final rotation",
+          "stage_number": 5,
+          "stage_aim": "To apply the strategies to the final chunk and summarise the whole text",
+          "procedure": [
+            "Roles rotate a final time.",
+            "Ss read Chunk 4 silently.",
+            "Each student performs their final role.",
+            "Groups agree on a one-sentence summary of the whole article."
+          ],
+          "time": "7 min",
+          "interaction": "Ss-Ss"
+        },
+        {
+          "stage": "Whole-class debrief",
+          "stage_number": 6,
+          "stage_aim": "To consolidate understanding and address misconceptions",
+          "procedure": [
+            "Ask: What was the most surprising thing you learned?",
+            "Ask: Which safety change from the article will matter most? Why?",
+            "Address misconceptions surfaced during the Clarifier stages."
+          ],
+          "time": "7 min",
+          "interaction": "T-Ss"
+        },
+        {
+          "stage": "Exit task \u2014 opinion paragraph",
+          "stage_number": 7,
+          "stage_aim": "To write a short opinion paragraph with evidence",
+          "procedure": [
+            "Ss write an opinion paragraph using the PREP frame: Position, Reason, Evidence from the text, Position restated.",
+            "Prompt: Do you agree that Instagram is as addictive as a dangerous drug and is harmful to teens?",
+            "Tell Ss they will get grammar feedback on the class website before the writing exam next week.",
+            "Collect as an exit ticket."
+          ],
+          "time": "6 min",
+          "interaction": "S"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "teacher": "Ed Rush",
+    "date": "8 September, 2026",
+    "class_name": "M2-4A",
+    "duration_minutes": 46,
+    "cefr_level": "B1\u2013B2",
+    "lesson_shape": "Shape I (Reciprocal Teaching)",
+    "topic": "Is Instagram as addictive as a dangerous drug?",
+    "materials": [
+      "BBC News, \u201cMeta to pay up to $18bn to settle claims its platforms harm children,\u201d Imran Rahman-Jones & Kali Hays, 26 August 2026",
+      "Slideshow: \u201cIs Instagram a dangerous drug?\u201d (READING M2)",
+      "Levelled reading handout \u2014 Meta and child safety (B1 and B2, 4 chunks)",
+      "Four role cards (Predictor, Clarifier, Questioner, Summariser)",
+      "PREP opinion-writing frame"
+    ],
+    "main_aim": "By the end of the lesson, learners will have practised and applied the strategies of Predicting, Clarifying, Questioning and Summarising to comprehend a news article about Meta and social-media safety for teenagers.",
+    "subsidiary_aim": "By the end of the lesson, learners will have written a short opinion paragraph (Position \u2013 Reason \u2013 Evidence \u2013 Position) about whether Instagram is as addictive as a dangerous drug, using evidence from the article.",
+    "slideshow_url": "https://elwrush.github.io/lesson-plan-writer/READING_M2/",
+    "video_url": null,
+    "transcript": null,
+    "answer_key": []
+  }
+}

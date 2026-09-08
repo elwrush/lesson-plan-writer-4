@@ -23,14 +23,15 @@ def audio(src, label):
 
 
 def youtube_embed(video_id, label):
-    """Embed a YouTube video (native auto-CC + pauseable player).
+    """Embed a YouTube video (native auto-CC on by default + pauseable player).
 
     enablejsapi=1 allows the deck to postMessage pauseVideo on slidechange.
+    cc_load_policy=1 turns captions on by default (YouTube auto-captions).
     """
     return (
         f'<p style="font-size:35px;font-weight:700;color:#fff;margin:20px 0 4px 0">{label}</p>'
         f'<div style="width:80%;max-width:760px;margin:10px auto 0;aspect-ratio:16/9">'
-        f'<iframe src="https://www.youtube-nocookie.com/embed/{video_id}?enablejsapi=1" '
+        f'<iframe src="https://www.youtube-nocookie.com/embed/{video_id}?enablejsapi=1&cc_load_policy=1" '
         f'title="YouTube player" style="width:100%;height:100%;border:0;border-radius:8px" '
         f'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
         f'allowfullscreen></iframe>'
@@ -41,20 +42,20 @@ def youtube_embed(video_id, label):
 # ── Dictation questions (verbatim) by chunk ──────────────────────────
 DICT = {
     1: [
-        "Emma says the flood was not a normal flood. What was it like, and why was it so dangerous?",
-        "Why was the loud noise so surprising to the people in Nuwakot?",
+        "Why does Emma say the flood was not normal?",
+        "Why was the loud noise so surprising?",
     ],
     2: [
-        "Why did so many people first believe that there had been an earthquake?",
-        "Why is it so hard for scientists to warn people before a glacier collapses?",
+        "Why did many people first think it was an earthquake?",
+        "Why can't scientists warn people before a glacier breaks?",
     ],
     3: [
-        "Give two examples of the damage that the flood caused to buildings and infrastructure.",
-        "How many people were affected in total, and around how many children lost their classrooms?",
+        "Give two examples of damage to buildings and roads.",
+        "How many people were affected, and how many children lost their classrooms?",
     ],
     4: [
-        "Emma says the danger is not over. Why?",
-        "Why does Emma think that this is a climate story, and not only a Nepal story?",
+        "Why does Emma say the danger is not over?",
+        "Why is this a climate story, not only a Nepal story?",
     ],
 }
 
@@ -63,25 +64,25 @@ DICT = {
 # ---------------------------------------------------------------------------
 ANSWERS = {
     1: [
-        ("What was the flood like, and why was it so dangerous?",
-         "It was a wall of water, mud, rocks and broken ice. It moved incredibly fast, so people had no time to run."),
+        ("Why does Emma say the flood was not normal?",
+         "A normal flood rises slowly. This flood was a wall of water, mud, rocks and broken ice, and it moved very fast."),
         ("Why was the loud noise so surprising?",
          "It sounded like thunder, but the sky was clear and blue, with no clouds."),
     ],
     2: [
         ("Why did many people first think it was an earthquake?",
          "The US Geological Survey recorded a small tremor, about 4.4. So people thought the earthquake had caused a landslide."),
-        ("Why is it so hard to warn people before a glacier collapses?",
+        ("Why can't scientists warn people before a glacier breaks?",
          "The Himalayas are huge and remote, and the weather was calm that day. There are thousands of glaciers, so scientists cannot say which one will break, or when."),
     ],
     3: [
-        ("Give two examples of damage to buildings and infrastructure.",
+        ("Give two examples of damage to buildings and roads.",
          "It destroyed homes, roads and bridges. It also blocked the tunnels of hydroelectric power stations."),
-        ("How many people were affected? How many children lost classrooms?",
+        ("How many people were affected, and how many children lost their classrooms?",
          "About 65,000 people were affected. Around 10,000 children lost their classrooms."),
     ],
     4: [
-        ("Why is the danger not over?",
+        ("Why does Emma say the danger is not over?",
          "A barrier lake has formed behind rocks and debris. Water is building up, and if it breaks, there could be a second flood."),
         ("Why is this a climate story, not only a Nepal story?",
          "The warming planet makes flooding worse across Asia. Thailand is also at risk, and countries like Nepal cause little of the problem but feel it first."),
@@ -139,6 +140,17 @@ slides.append({
             "<li>You will practise talking about climate change in English.</li></ul>",
 })
 
+# 3b. real footage — the border crossing destroyed
+slides.append({
+    "layout": "content", "id": "footage", "step": 1,
+    "background_color": "#1a1a2e",
+    "title": "The border crossing, destroyed",
+    "body": "<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">"
+            "Watch the real footage. This is the town you will hear about.</p>"
+            + youtube_embed("FFYBmDYQqoA", "The flood at the border crossing"),
+    "notes": "Play the short clip. Ask: What can you see? This is Gyirong, the border crossing on the China-Nepal border — destroyed by the flood.",
+})
+
 # 4. open dictation (red)
 slides.append({
     "layout": "content", "id": "open-dictation", "step": 1,
@@ -147,7 +159,7 @@ slides.append({
     "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">"
             "You will hear <strong>eight questions</strong>.<br>"
             "Write each question. You will hear each one <strong>twice</strong>.</p>"
-            + audio("assets/questions.mp3", "Dictation tape"),
+            + audio("assets/questions.mp3?v=2", "Dictation tape"),
     "notes": "Play the dictation tape. Students write the 8 questions as they hear them. Play twice.",
 })
 
@@ -169,23 +181,24 @@ slides.append({
     "body": "<p style=\"font-size:35px;line-height:1.5;margin:10px 0\">"
             "A podcast about the flood.<br>"
             "There are <strong>four parts</strong>.<br>"
-            "Listen to each part <strong>twice</strong>. Then answer the questions.</p>",
-    "notes": "Introduce the podcast: Lucy Milligan (journalist) interviews Emma McKinley (aid worker).",
+            "Listen to each part. Then answer its questions.<br>"
+            "You will play each part again yourself.</p>",
+    "notes": "Introduce the podcast: Lucy Milligan (journalist) interviews Emma McKinley (aid worker). Each part is played once; the teacher replays it as needed, and captions are on by default.",
 })
 
-# 10-13. tape slides — YouTube embed where uploaded, local audio fallback otherwise.
-YT_IDS = {1: "lPJsRuss8ds", 2: "q56S8jMamw8", 3: "0nTpP8rPUgM", 4: "cpmaIOXekbQ"}
+# 10-17. tape + answers INTERLEAVED: tape-1 -> answer-1 -> tape-2 -> answer-2 ...
+# Each part is a SINGLE play (no 'listen again' inside). The teacher controls any
+# second listen. Captions are on by default (cc_load_policy=1) so students can
+# read along after the first blind listen.
+YT_IDS = {1: "asFSmtUjhLk", 2: "ofuhUv7ySZs", 3: "oqFaFHTFevs", 4: "kk5xW5HuN0E"}
 for i in [1, 2, 3, 4]:
     instr = ("<p style=\"font-size:35px;color:#f0f0f0;margin:0 0 12px 0\">"
-             "You will hear each tape 2 times. "
-             "Captions off first time; on second time.</p>")
-    if i in YT_IDS:
-        body = instr + youtube_embed(YT_IDS[i], f"Listen to Part {i}")
-        notes = (f"Play Part {i} (YouTube). First pass without subtitles, "
-                 f"second pass with CC on (YouTube auto-captions).")
-    else:
-        body = instr + audio(f"assets/tape{i}.mp3", "Listen to Part " + str(i))
-        notes = f"Play Part {i} twice. Students answer the questions for this part."
+             "Play this part once. Captions are on.<br>"
+             "Then answer the two questions.</p>")
+    body = instr + youtube_embed(YT_IDS[i], f"Listen to Part {i}")
+    notes = (f"Play Part {i} (YouTube, single play). Captions are ON by default. "
+             f"First pass: listen for gist with captions hidden if desired; "
+             f"teacher replays as needed.")
     slides.append({
         "layout": "content", "id": f"tape-{i}", "step": 1,
         "background_color": "#1a1a2e",
@@ -193,14 +206,12 @@ for i in [1, 2, 3, 4]:
         "body": body,
         "notes": notes,
     })
-
-# 14-17. answers by chunk (green)
-for c in [1, 2, 3, 4]:
+    # answers immediately follow this part
     slides.append({
-        "layout": "content", "id": f"answer-{c}", "step": 1,
+        "layout": "content", "id": f"answer-{i}", "step": 1,
         "background_color": "#052e0d",
-        "title": f"Answers — Part {c}",
-        "body": answers_table(ANSWERS[c]),
+        "title": f"Answers — Part {i}",
+        "body": answers_table(ANSWERS[i]),
         "notes": "Read each question, ask students, then reveal the answer.",
     })
 

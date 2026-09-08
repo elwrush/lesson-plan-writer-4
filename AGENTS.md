@@ -1,7 +1,7 @@
 # LESSON-PLAN-WRITER-4
 
-Data-only repo: lesson shape templates + per-project slide decks, cue cards, and worksheets.  
-No Makefile, no build system. Venv has pytest only.
+Data-only repo: lesson shape templates + per-project slide decks, cue cards, worksheets, and independent-reading texts.  
+No Makefile, no build system. Venv has pytest + ruff (both installed).
 
 ## Architecture Decision Records (ADRs)
 
@@ -41,10 +41,12 @@ pointing at `~/.agents/skills`.
 
 - **`just`** (command runner) is installed — the repo-root `justfile` holds the
   multi-command workflows. See **Recipes (`just`)** below.
-- `/git-pages [name] [source-dir]` (in `.opencode/command/git-pages.md`) is the gh-pages
-  deploy command. `source-dir` defaults to `slides/`; quote it if it has spaces. It
-  clones gh-pages into an isolated worktree (never touches the main branch), regenerates
-  the landing page, and **verifies the pushed file back by MD5** — don't skip that step.
+- `/git-pages [name] [source-dir]` (in `.opencode/command/git-pages.md`) is a thin wrapper
+  around **`scripts/deploy_pages.py`** — the single gh-pages implementation (also backed by
+  `just git-pages`). It clones gh-pages into an isolated worktree (never touches the main
+  branch), **builds the landing page from the git tree** (not `os.listdir` on a sparse clone —
+  that bug silently dropped presentations), and **verifies the pushed file back by MD5** — don't
+  skip that step.
 - Slides are gitignored (`**/slides/`); only the gh-pages branch carries them.
 
 ## Recipes (`just`)
@@ -58,6 +60,9 @@ that you quote: `just render "LISTENING M3"`.
 |--------|--------------|
 | `just render "LISTENING M3"` | build → render → post-process → validate fonts (the full dev loop). Only works for projects with a `build_deck.py`. |
 | `just validate "LISTENING M3"` | font validation only (gray-color / undersized-text gate). |
+| `just indread-render "READING M2"` | **Independent-reading render + combine (POST-GATE).** Runs `INDEPENDENT-READING/PROJECTS/{name}/SCRIPTS/produce.py`, which reads that project's `reading.json` envelope, renders each CEFR level to PDF, merges them (B1 first, then B2) into ONE combined PDF, and verifies each. The simplify→Kimi→human gates are **interactive and NOT wrapped** — only run this after the user approves (`human_approved=True`). |
+| `just git-pages "READING M2"` | **gh-pages deploy.** Runs `scripts/deploy_pages.py "READING M2" "PROJECTS/READING M2/slides"`. Clones `gh-pages` into an isolated temp worktree (never touches the main branch), copies the deck, **builds the landing page from the git tree** (not `os.listdir` on a sparse clone — that bug silently dropped presentations), commits, pushes to `old-origin` (falls back to `origin`), and **verifies the pushed files back by MD5**. Performs a **real push** — only run to publish. This is the single implementation; the `/git-pages` opencode command dispatches to it. |
+| `just lesson-plan "READING M2"` | **Lesson plan render + verify.** Renders `PROJECTS/{name}/lesson-plan-envelope.json` via the `write-lesson-plan` skill into the repo-root `PDF/` (the skill's mandated location), then runs `scripts/verify_lesson_plan.py` (A4 size, fonts embedded, topic/class/teacher/main-aim present, **no Transcript section** unless the envelope sets it, no contextual images beyond the two masthead logos). The envelope is **hand-authored** from the shape + source materials — the recipe wraps the deterministic render+verify so the gates always run. |
 | `just test` | `pytest tests/` (gh-pages safety tests). |
 | `just serve` | start `http.server` on :8080 in the background — **idempotent**, won't start a second one; never stop it. |
 
@@ -80,7 +85,7 @@ PROJECTS/{name}/              # Per-lesson directory (15-40 files)
   slides/assets/              # splash.jpg, logo.png, blip/BELL.mp3, audio
 ```
 
-Top-level: `LESSON-SHAPES/shape-{a..g,k,l}.json`, `RESEARCH/*.md` (pedagogical references), `tests/test_git_pages_safety.py`.
+Independent-reading projects live under `INDEPENDENT-READING/PROJECTS/{name}/` (see the Independent reading section). Lesson-plan envelopes under `PROJECTS/{name}/lesson-plan-envelope.json`. Top-level: `LESSON-SHAPES/shape-{a..g,k,l}.json`, `RESEARCH/*.md`, `scripts/deploy_pages.py` + `scripts/verify_lesson_plan.py` (deploy + lesson-plan gates), `tests/test_git_pages_safety.py`, `adr/`.
 
 **Pronunciation lessons (Shape L — see `LESSON-SHAPES/shape-l.json` + `RESEARCH/pronunciation-noticing.md`):**
 - Model sentences place every target before a vowel or a pause — never "wanted to", "fight game", "last night" (natives reduce those too).
@@ -305,15 +310,48 @@ Generate lesson plan PDFs via `write-lesson-plan` skill. Always follow these rul
 7. **Answer keys:** sectioned by exercise (`<strong>Exercise 3 — Gist questions</strong>`), numbered by textbook, full sentences.
 8. **No images in the lesson plan** — contextual images go in the slideshow.
 
+The envelope is `PROJECTS/{name}/lesson-plan-envelope.json`. The supported path is:
+
 ```bash
-python ~/.agents/skills/write-lesson-plan/scripts/render.py \
-  --template lesson-plan \
-  --data PROJECTS/{name}/envelope.json
+just lesson-plan "READING M2"   # renders + verifies in one go
 ```
 
-**Output location:** lesson plan PDFs go to the repo-root `PDF/` directory (the renderer's default) — never inside `PROJECTS/{name}/`. Do not pass `-o` into a project folder.
+It writes to the repo-root `PDF/` (the renderer's default — never `PROJECTS/{name}/`), then runs
+`scripts/verify_lesson_plan.py`, which gates on A4 size, embedded fonts, topic/class/teacher/
+main-aim present, **no Transcript section unless the envelope sets `transcript`** (a reading
+lesson must never carry one), and no contextual images beyond the two masthead logos.
 
-Verify: `pdfinfo` confirms A4 (594.96 × 841.92 pts), `pdffonts` confirms embedded fonts.
+Equivalent manual render:
+```bash
+python ~/.agents/skills/write-lesson-plan/scripts/render.py --template lesson-plan \
+  --data "PROJECTS/{name}/lesson-plan-envelope.json"
+```
+
+## Independent reading (`just indread-render`)
+
+Produce a leveled independent-reading text with the `independent-reading-text-generator`
+skill. The per-project driver is **`INDEPENDENT-READING/PROJECTS/{name}/SCRIPTS/produce.py`**,
+which reads a **`SCRIPTS/reading.json`** envelope: `levels[]`, each with `chunks[]`
+(`{headline, paragraphs[]}`) + `glosses[]`.
+
+- **POST-GATE only.** The simplify → Kimi (`kimi_gate.py`) → human gates are interactive and are
+  NOT wrapped. `just indread-render` only runs after the user approves (`approved: true` in
+  `reading.json`; `produce.py --approve` sets it).
+- `produce.py` sanitises (gloss superscripts + word count), renders each level to PDF, then
+  **merges them (B1 first, then B2)** into one combined PDF and verifies each. Output goes to
+  **`PROJECTS/{name}/PDF/`** — the skill's default `INDEPENDENT-READING/...` output is overridden
+  (`REPO_ROOT / "PROJECTS" / name / "PDF"`).
+- **Word-count band = wpm × reading minutes.** For a 4-chunk reciprocal-teaching text the
+  per-section silent read is ~1.5–2 min, so `minutes=8` → B1 ~920–950 / B2 ~960–1000 words (NOT
+  the skill's 34–36-min extended target). Set `minutes` per level; `compute_targets()` gives the
+  band, and the count must land in `[target, cap]`.
+- **Chunk headlines** render via the template's `p.section-head` class (paragraphs passed as dicts
+  `{"class": "section-head", "text": ...}`); headers are excluded from the canonical word count.
+- **Thai renders via the Loma font** (TLWG) on the build machine — Chromium falls back to it for
+  Thai glyphs (no tofu). Thai syllables are not `[a-z]` tokens, so they never change the English
+  word count. Currency sums are spelled out in Thai so students can parse big numbers.
+- Verify after render: `pdfinfo` A4, word count ±2%. The merge preserves each section's own
+  masthead/CEFR badge/running head.
 
 ## Before declaring done
 
